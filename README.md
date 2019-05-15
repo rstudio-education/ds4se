@@ -14,6 +14,8 @@ Some of the questions it will show people how to answer include:
 -   Are there differences between projects that use different languages?
     -   What do we mean by "use different languages"? Do we rely on self-identification through repository tagging? Do we look at the files in the project? Do those classifications correlate?
     -   And once we have a way to classify projects, what kinds of statistical tests will tell us if two populations are the same or different?
+-   In what order do people use functions in tidyverse pipelines?
+    -   Are there common patterns to the order?
 
 [ghtorrent]: http://ghtorrent.org/
 [github-api]: https://developer.github.com/v3/
