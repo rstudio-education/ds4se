@@ -1,0 +1,69 @@
+---
+title: "How Many Repositories Are There on GitHub?"
+subtitle: "An Introduction to Statistical Thinking"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Have You Ever Wondered...
+
+We come across statistical questions all the time, even if we don't immediately realize it. From "whoah, how did Amazon know I was looking for a collection of rubber ducks that look like cowboys?" to more applied questions like "When will this server run out of storage space?" or "When will this project be completed?" Fortunatley, we live in a data-driven society; with access to billions of data sources from all over the world, we should be able to answer anything, right? Data comes in all kinds of forms; heartrate data every second from your fitness watch, location check-ins from that pizza place you went to last week, transactions, clicks, views, posts, tags... It's all digital data that can tell us something about the world. But making sense of it all requires statistical thinking and data-wrangling skills. So let's go!
+
+## How Many Repositories Are There on GitHub?
+
+Consider this question. The immediate response is to go Google it; voila! You have an answer (it seems to say that there are 100 million repositiories). But how would you actually arrive at that answer? And how would you know you were correct? Similarly to a straightforward programming task, seemingly simple questions can devolve into tons of unforseen caveats, constraints, and workarounds.
+
+- set up the problem here
+
+## What "Counts"?
+- making decisions about forks, non-code, empty repositories, same code in different repositories, etc
+
+
+### Data Science is About Making Decisions
+
+
+## Our Data (GHTorrent)
+- introduce API and using mongolite probably to access the data (it's like 100 GB to download it all so that's not happening)
+- some basic calls to the API
+### Data "Cleaning"
+- talk about what cleaning is, reference back to those decisions we made!
+### Data Formatting
+- how do we want to look at the data? that means having a plan for what we want to know and what we want to see
+
+## Visualizing Some Data
+- remember, we planned out what we wanted to see. here's where we actually make it
+### Plots
+- make the plots here, show some year-by-year, show some faceting by various languages or something idk
+
+## Curve Fitting and "Modeling"
+- explain what we mean by a "model", define some basic terminology
+### The Goal
+- represent the truth of the data we have, while being able to accurately predict the future trends and outcomes or classify new datapoints 
+
+### The Shape
+- linear, exponential, sinusoidal, power law, here's where we explore what different shapes might represent the underlying data process
+- demo different shapes on the graph
+
+### The Fit
+- we want the model to accurately represent the data, while also avoiding being too complex of a model (simpler is better)
+- demo some different fits using different params
+
+
+## Evaluating the Model
+- how do we know if our model is any good?
+### Train-Test-Split
+- describe what this means. we have a bunch of data, we reserve some so we can test how good we will do on the "future" (though we just held the future aside)
+- demo how to do
+### Overfitting/Underfitting
+- very briefly make it clear that we don't want too specific of a model and we don't want too vague of a model either, maybe introduce these terms
+### Calculating Performance
+- demo hot to do
+
+## Different Methods Lead to Different Results
+- the philosophical finale! different methods lead to different results on our final answer, we have to justify our decisions and our reasoning when communicating our data finds.
+
+
+
