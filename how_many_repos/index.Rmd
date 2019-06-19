@@ -1,0 +1,129 @@
+---
+title: "How Many Repositories Are There on GitHub?"
+subtitle: "An Introduction to Statistical Thinking"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Have You Ever Wondered...
+
+We come across statistical questions all the time, even if we don't immediately realize it. From "whoah, how did Amazon know I was looking for a collection of rubber ducks that look like cowboys?" to more applied questions like "When will this server run out of storage space?" or "When will this project be completed?" Fortunatley, we live in a data-driven society; with access to billions of data sources from all over the world, we should be able to answer anything, right? Data comes in all kinds of forms; heartrate data every second from your fitness watch, location check-ins from that pizza place you went to last week, transactions, clicks, views, posts, tags... It's all digital data that can tell us something about the world. But making sense of it all requires statistical thinking and data-wrangling skills. So let's go.
+
+## How many repositories are there now? (use http://ghtorrent.org/ to collect data)
+
+Consider this question. The immediate response is to go Google it; voila! You have an answer (it seems to say that there are 100 million repositiories). But how would you actually arrive at that answer? And how would you know you were correct? Similarly to a straightforward programming task, seemingly simple questions can devolve into tons of unforseen caveats, constraints, and workarounds.
+
+### Our Data (GHTorrent)
+- introduce API and using mongolite probably to access the data (it's like 100 GB to download it all so that's not happening)
+- some basic calls to the API
+
+### Data "Cleaning"
+- talk about what cleaning is, reference back to those decisions we made!
+
+### Data Formatting
+- how do we want to look at the data? that means having a plan for what we want to know and what we want to see
+
+
+
+## How many have there been in the past?
+
+### Visualizing Some Data
+- remember, we planned out what we wanted to see. here's where we actually make it
+### Plots
+- make the plots here, show some year-by-year, show some faceting by various languages or something idk
+
+## How can we fit a curve to this?
+We are trying to understand the true trend in the world (in our case, the number of repositories on GitHub and how that is changing over time). Simply understanding trends is nice, as we might be able to infer some causal factors that help a company grow, or we may be able to show that some phenomenon is, in fact, changing over the course of several years. But the real value comes in being able to reliably predict how that trend will continue in the future. The world is filled with patterns and statistical questions, from asking how many repositories there are on GitHub to predicting who needs financial aid or how many people will go vote each year. 
+
+Sometimes, we can simply _look_ at the data and describe the trend line; "it's linear and decreasing", "there's very little or no correlation here", "that's exponential". But things get complicated when we care about the details (which we do!), or if we are dealing in more dimensions than we can see (whoah! don't worry we will get to that in another lesson). For now, let's talk about some of the details we might care about in _our_ problem, that we need modeling to help us determine: 
+
+- can a model even capture the regularities in the data we have?
+- how consistently is the number of repos growing over time?
+- is it linear growth? exponential? could the growth go back down like a sine wave? maybe it will plateau?
+- if we count all the different forks, is the growth different? what if we don't consider them at all?
+- the exact slope of the growth, helping us predict what will happen next year
+
+If we can fit a model, it means that we have an equation that helps us understand the true phenomenon happening in our data. It will _never_ be perfect (you might have heard the term "noise" and that's basically describing the beautiful unpredictableness of life). But what we hope to achieve is an equation that gets us close enough to what is happening so that it is useful. So for our data, what we hope to have by the end of this is an equation that helps us map a line through the growth of repositories on GitHub. For any year, we can look up in our equation how close we got to the _actual_ number.
+
+So where do we start? I find it really helpful to imagine the worst model you could possibly think of, and start there. Think of this like a creative exercise; what would be the _worst_ way to solve this problem? Some great terrible ideas might include:
+
+- Always predict "7" as the answer
+- Always predict the mean across all years
+- Guess randomly, using different equations, until one sticks
+
+Luckily, the field of statistics and data science has come a tad further than these methodologies. So here are some guiding questions to help us determine which model to start with.
+
+- What is a reasonable guess at the shape for this growth? Keep in mind that simpler is often better.
+- What do we know about the world that makes that shape reasonable? For instance, we often see that exponential growth tends to taper off eventually, like in the case of X (example here). We also know that there really is only so much storage space, and other constraints that affect that happens in the world. As always, we don't _just_ have a bunch of numbers we are looking at about GitHub repos; but a result of complex interworking parts from behavior in the real world.
+
+## What kind of curve should we fit?
+
+```{r}
+library("ggplot2")
+
+# generate a really small set of test data for fitting curves
+COUNT = 50 # how many units we want to observe (in our case years)
+
+#creating some fake data by drawing from rexp and sorting, because we assume our GitHub data will be slightly noisy and weird, but roughly exponential 
+# though I also predict a plateau effect (waiting on GHTorrent access)
+data = data.frame(seq(from=1,to=COUNT),sort(rexp(COUNT)))
+colnames(data) <- c("year","count")
+
+
+linear_fit <- lm(data$count~data$year)
+second_polynomial <- lm(data$count~poly(data$year,2,raw=TRUE))
+third_polynomial <- lm(data$count~poly(data$year,3,raw=TRUE))
+
+# testing out different shapes, from linear to third-order polynomial
+data$linear <- predict(linear_fit,data.frame(x=data$year))
+data$second_polynomial <- predict(second_polynomial, data.frame(x=data$year)) 
+data$third_polynomial <- predict(third_polynomial, data.frame(x=data$year)) 
+
+#ggplot those curves
+plt <- ggplot(aes(year,count),data=data)+
+  geom_point(size=1)+
+  ggtitle("Exponential Growth","test data")+
+  geom_line(aes(year,linear),color="#8DD3C7",size=1)+
+  geom_line(aes(year,second_polynomial),color="#FB8072",size=1)+
+  geom_line(aes(year,third_polynomial),color="#80B1D3",size=1)+
+  theme_bw()
+plt
+
+anova(second_polynomial,third_polynomial)
+
+
+
+```
+
+### Data Science is About Making Decisions (Assumptions)
+
+### The Shape
+- linear, exponential, sinusoidal, power law, here's where we explore what different shapes might represent the underlying data process
+- demo different shapes on the graph
+
+### The Fit
+- we want the model to accurately represent the data, while also avoiding being too complex of a model (simpler is better)
+- demo some different fits using different params
+
+### Evaluating the Model
+- how do we know if our model is any good?
+### Train-Test-Split
+- describe what this means. we have a bunch of data, we reserve some so we can test how good we will do on the "future" (though we just held the future aside)
+- demo how to do
+### Overfitting/Underfitting
+- very briefly make it clear that we don't want too specific of a model and we don't want too vague of a model either, maybe introduce these terms
+### Calculating Performance
+- demo hot to do
+
+
+## How different are the predictions those curves make?
+
+- the philosophical finale! different methods lead to different results on our final answer, we have to justify our decisions and our reasoning when communicating our data finds.
+
+## How does all of this change if we try to remove forked repos and only count originals?
+
+
