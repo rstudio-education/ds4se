@@ -17,6 +17,21 @@ We come across statistical questions all the time, even if we don't immediately 
 
 Consider this question. The immediate response is to go Google it; voila! You have an answer (it seems to say that there are 100 million repositiories). But how would you actually arrive at that answer? And how would you know you were correct? Similarly to a straightforward programming task, seemingly simple questions can devolve into tons of unforseen caveats, constraints, and workarounds.
 
+```{r}
+#setting up a little bit of practice with mongo connection
+library(mongolite)
+m <- mongo("mtcars", url = "mongodb://readwrite:test@mongo.opencpu.org:43942/jeroen_test")
+m <- mongo("diamonds")
+m$insert(ggplot2::diamonds)
+m$find('{}')
+
+m$find(fields='{"carat":true,"price":true}',limit=100)
+plot(m$find(fields='{"carat":true}')$carat,m$find(fields='{"price":true}')$price)
+
+# waiting for SSH access to GHTorrent
+
+```
+
 ### Our Data (GHTorrent)
 - introduce API and using mongolite probably to access the data (it's like 100 GB to download it all so that's not happening)
 - some basic calls to the API
@@ -93,7 +108,32 @@ plt <- ggplot(aes(year,count),data=data)+
   theme_bw()
 plt
 
+# we can actually test if one model is significantly different at predicting the data than another!
+anova(linear_fit,second_polynomial)
+anova(linear_fit,third_polynomial)
 anova(second_polynomial,third_polynomial)
+
+# they're all significantly different from each other p<.001
+
+#to test the idea behind an anova, you can imagine creating a model we know should be closer to a model we already have, and seeing if they come out as "different"
+linear_close_fit <- lm(data$count~data$year-1)
+data$linear_close <-predict(linear_close_fit, data.frame(x=data$year)) 
+
+plt <- ggplot(aes(year,count),data=data)+
+  geom_point(size=1)+
+  ggtitle("Exponential Growth","test data")+
+  geom_line(aes(year,linear),color="#8DD3C7",size=1)+
+  geom_line(aes(year,linear_close),color="#FB8072",size=1)+
+  theme_bw()
+plt
+
+#as you can see, this one is different from our original linear model with less confidence
+anova(linear_fit,linear_close_fit)
+# and now for the dumbest example:
+anova(linear_fit,linear_fit)
+#not different because they're the same model
+
+
 
 
 
