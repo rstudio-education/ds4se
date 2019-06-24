@@ -1,0 +1,31 @@
+
+
+---
+title: "What's the Relationship Between # of Lines and # of Functions in Different Languages?"
+subtitle: "Comparing "
+output: html_document
+---
+
+
+library(ggplot2)
+
+data = read.csv("../../Python/AllFiles/Stats/python_stats.csv")
+length(data$Lines)
+#240 python programs
+plt = ggplot(data,aes(Lines,FunctionDefs))+
+  geom_point(color="steelblue",size=1)+
+  geom_vline(xintercept=mean(data$Lines),colour="red",linetype="dashed")+
+   geom_hline(yintercept=mean(data$FunctionDefs),colour="red",linetype="dashed")+
+  ggtitle("Python Programs")+
+  xlab("Number of Lines")+
+  ylab("Number of Function Definitions")+
+  theme_bw()
+plt
+ggsave("Python.png",plt)
+
+mean(data$FunctionDef)
+mean(data$Lines)
+
+cor(data$FunctionDef,data$Lines)
+data2 = data[data$FunctionDef>=10 & data$Lines>=200,]
+cor(data2$FunctionDefs,data2$Lines)

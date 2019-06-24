@@ -1,6 +1,6 @@
 # Data Science for Software Engineering
 
-This repository holds work done by [Yim Register][register-yim] for her [RStudio internship][internship] in 2019.
+This repository holds work done by [Yim Register][register-yim] for their [RStudio internship][internship] in 2019.
 The goal is to develop course materials to teach basic data analysis to programmers using software engineering problems and data sets.
 Some of the questions it will show people how to answer include:
 
