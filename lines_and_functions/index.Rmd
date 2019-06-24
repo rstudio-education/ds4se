@@ -8,25 +8,53 @@ output: html_document
 
 
 library(ggplot2)
+library(dplyr)
 
-data = read.csv("../bin/PythonFiles/Stats/python_stats.csv")
-colnames(data) <- c("Lines","FunctionDefs")
-length(data$Lines)
+py = read.csv("../bin/PythonFiles/Stats/python_stats.csv")
+colnames(py) <- c("Lines","FunctionDefs")
+length(py$Lines)
 #240 python programs
-plt = ggplot(data,aes(Lines,FunctionDefs))+
-  geom_point(color="steelblue",size=1)+
-  geom_vline(xintercept=mean(data$Lines),colour="red",linetype="dashed")+
-   geom_hline(yintercept=mean(data$FunctionDefs),colour="red",linetype="dashed")+
-  ggtitle("Python Programs")+
-  xlab("Number of Lines")+
-  ylab("Number of Function Definitions")+
+py$Language = "Python"
+
+# JS programs
+js = read.csv("../bin/JSFiles/Stats/js_stats.csv")
+colnames(js) <- c("Lines","FunctionDefs")
+js$Language= "JavaScript"
+
+data = rbind(py,js)
+
+#we need to normalize this stuff
+data = data %>% 
+  group_by(Language) %>%
+  mutate(Lines.normed = scale(Lines)) %>%
+  mutate(FunctionDefs.normed = scale(FunctionDefs))
+
+
+
+  
+
+plt = ggplot(data,aes(Lines.normed,FunctionDefs.normed))+
+  facet_wrap(~Language)+
+  geom_point(aes(colour=Language),size=1, show.legend=FALSE)+
+  #geom_vline(xintercept=mean(data$Lines),colour="red",linetype="dashed")+
+  #geom_hline(yintercept=mean(data$FunctionDefs),colour="red",linetype="dashed")+
+  ggtitle("Scaled Lines v. Function Definitions")+
+  xlab("Number of Lines (z score)")+
+  ylab("Number of Function Definitions (z score)")+
+  
   theme_bw()
+  
 plt
-ggsave("Python.png",plt)
+ggsave("lines_and_defs.png",plt)
 
-mean(data$FunctionDef)
-mean(data$Lines)
 
-cor(data$FunctionDef,data$Lines)
-data2 = data[data$FunctionDef>=10 & data$Lines>=200,]
+
+cor(data$FunctionDefs[data$Language=="JavaScript"],data$Lines[data$Language=="JavaScript"])
+
+data2 = data[data$FunctionDefs>=10 & data$Lines>=200,]
 cor(data2$FunctionDefs,data2$Lines)
+
+
+
+
+
