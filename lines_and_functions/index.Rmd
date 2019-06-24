@@ -9,7 +9,8 @@ output: html_document
 
 library(ggplot2)
 
-data = read.csv("../../Python/AllFiles/Stats/python_stats.csv")
+data = read.csv("../bin/PythonFiles/Stats/python_stats.csv")
+colnames(data) <- c("Lines","FunctionDefs")
 length(data$Lines)
 #240 python programs
 plt = ggplot(data,aes(Lines,FunctionDefs))+
