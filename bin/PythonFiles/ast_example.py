@@ -6,7 +6,7 @@ Python Files: https://github.com/TheAlgorithms/Python.git
 Bash script:
 Inside the directory with all your python files, run this. It will write to "Stats/python_stats.csv"
 
- for f in *.py; do python3 ast_example.py "$f"; done
+ for f in Programs/*.py; do python3 ast_example.py "$f"; done
 
  To clear the Stats/python_stats.csv file, run:
  cat /dev/null > Stats/python_stats.csv
