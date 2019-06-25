@@ -31,7 +31,7 @@ library(dplyr)
 You're faced with our question: How does the number of lines of code compare with the number of function definitions between languages? Immediately, I think about the many times I've seen code that copy-and-pastes the same block of code over and over, without declaring it as a function. (*Remember your coding etiquette, people! If you copy and paste 3 times, it's time for a function.*) But I'm also reminded of the massive code libaries, containing a function for *everything*, with hundreds of lines of code for all of those functions. Try to reflect on your own intuition about if the number of lines has a relationship to the number of function declarations in a program. Maybe take a look at a program you've written: how many lines? how many function declarations? And did it change over the duration of your first programming course? (I personally went from copy-and-pasting a hard-coded mess into neat little helper functions as I had to face my own monsterous and unmaintainable code.) But wouldn't that *shorten* my program length? You can imagine that the larger the program, the more function definitions there are. But you can also imagine just the opposite.
 
 ## How do I parse a programming language? Abstract Syntax Trees
-We need  to parse a program in order to count up the number of function definitions. The most straightforward way of doing this might be to look for the "def" keyword in a language like Python. Imagine you were writing this yourself; trying to count the number of function definitions in a piece of code. You might rely on good old fashioned string matching: `for line in program: if "def" in line: function_count +=1` That's a fine start but it gets very messy, *fast*. Luckily, we can rely on something called an **Abstract Syntax Tree**.
+We need  to parse a program in order to count up the number of function definitions. The most straightforward way of doing this might be to look for the "def" keyword in a language like Python. Imagine you were writing this yourself; trying to count the number of function definitions in a piece of code. You might rely on good old fashioned string matching: `for line in program: if "def" in line: function_count +=1` That's a fine start but it gets very messy, *fast*. Luckily, we can rely on something called an **Abstract Syntax Tree**. In this example, we use the `ast` package for Python and `acorn.js` for JavaScript. *TODO: lobstr for R* These parsers give us easy access to the different components of a program, and help us to count them up easier. The example scripts are located [here](https://github.com/rstudio-education/ds4se/blob/master/bin/PythonFiles/ast_example.py) (Python) and [here](https://github.com/rstudio-education/ds4se/blob/master/bin/JSFiles/acorn_example.js) (JavaScript).
 
 ```{r}
 
@@ -49,8 +49,45 @@ js$Language= "JavaScript"
 data = rbind(py,js)
 # some programs must not have been finished yet from the repository of programs?
 data = data[data$Lines>0,]
+
+# we have a few outliers in our data that skew things
+out_js.lines <- boxplot(data$Lines[data$Language=="JavaScript"], plot=FALSE)$out
+out_js.funcs <- boxplot(data$FunctionDefs[data$Language=="JavaScript"], plot=FALSE)$out
+out_py.lines <- boxplot(data$Lines[data$Language=="Python"], plot=FALSE)$out
+out_py.funcs <- boxplot(data$FunctionDefs[data$Language=="Python"], plot=FALSE)$out
+
+
+data <- data[-which(data$Lines[data$Language=="JavaScript"] %in% out_js.lines),]
+data <- data[-which(data$FunctionDefs[data$Language=="JavaScript"] %in% out_js.funcs),]
+data <- data[-which(data$Lines[data$Language=="Python"] %in% out_py.lines),]
+data <- data[-which(data$FunctionDefs[data$Language=="Python"] %in% out_py.funcs),]
+
 ```
+
+
 ## Don't Compare Apples to Oranges
+You may notice when we try to compare the languages, that it's very hard to see what's going on with the Python programs as opposed to the JavaScript programs. That's because we have entirely different scales; The JavaScript AST traces all of the callback functions, resulting in a mean of 55 functions per program, while Python has 3 functions per program. It could also be that our sample is simply not as comparable as we thought. The JavaScript files are *significantly* longer than the Python programs (*JS mean lines = 2646, Python mean lines = 69*). Not only are they difficult to visualize side-by-side, it is an actual statistical issue if we were to compare them! Our samples are just too different. But we are not entirely out of luck. We get to use **normalization** to make our apples (JS) and oranges (Python) more comparable. 
+```{r fig.align='center' ,message=FALSE}
+plt = ggplot(data,aes(Lines,FunctionDefs))+
+  facet_wrap(~Language)+
+  geom_point(aes(colour=Language),size=1, show.legend=FALSE)+
+  #geom_vline(xintercept=mean(data$Lines),colour="red",linetype="dashed")+
+  #geom_hline(yintercept=mean(data$FunctionDefs),colour="red",linetype="dashed")+
+  ggtitle("Scaled Lines v. Function Definitions")+
+  xlab("Number of Lines (z score)")+
+  ylab("Number of Function Definitions (z score)")+
+  
+  theme_bw()
+  
+plt
+
+#take a look at the scales between the two languages
+data %>%
+  group_by(Language) %>%
+  summarise(mean(Lines),mean(FunctionDefs), sd(Lines),sd(FunctionDefs))
+```
+
+
 
 ```{r}
 #we need to normalize in order to more fairly compare
@@ -63,7 +100,7 @@ data = data %>%
 
 ```
 
-```{r}
+```{r fig.align='center',message=FALSE}
 
 plt = ggplot(data,aes(Lines.normed,FunctionDefs.normed))+
   facet_wrap(~Language)+
@@ -94,19 +131,19 @@ cor(data2$FunctionDefs,data2$Lines)
 ## Normality Matters
 We are all about finding differences, but comparing those differences is a delicate business. We learned that we can't compare Apples to Oranges, so we **normalized** our data. Sometimes, that's enough to be able to draw direct comparisons. But there's something else that matters, and that's whether our data can be represented **parametrically** or not. Don't worry, it's not as scary as it sounds. **Parametric** means that the data distribution can be represented using *parameters*, like mean and standard deviation. We learned that the normal distribution can be expressed in terms of mean and standard deviation, and any data that falls *normally* is parametric. But lots of data will *not* fall under a normal distribution. Never fear, the weirdos can be compared too. We use something called **nonparametric testing**. Yep, you guessed it. These tests don't represent the data with parameters. They tend to use *ranks* instead. For now, just know that in order to compare two samples, we need to make sure we know which tests to use given the normality of those samples.
 
-```{r}
+```{r fig.align='center',message=FALSE}
 
 
 # here we can take a look at the distributions of our normalized (z-scores) data
 plt = ggplot(data, aes(FunctionDefs.normed,fill=Language))+
-  geom_histogram()+
+  geom_histogram(show.legend=FALSE)+
   #geom_density()+
   facet_wrap(~Language)+
   theme_bw()
 plt
 
 plt = ggplot(data, aes(Lines.normed,fill=Language))+
-  geom_histogram()+
+  geom_histogram(show.legend=FALSE)+
   #geom_density()+
   facet_wrap(~Language)+
   theme_bw()
@@ -130,5 +167,27 @@ shapiro.test(data$Lines[data$Language=="JavaScript"])
 
 ```
 
+## Which Language Uses More Functions per Line?
+```{r fig.align='center',message=FALSE}
+data <- data %>%
+  group_by(Language) %>%
+  mutate(func_density = FunctionDefs/Lines)
+mean(data$func_density[data$Language=="Python"])
+mean(data$func_density[data$Language=="JavaScript"])
+plt = ggplot(data,aes(func_density,fill=Language))+
+  geom_histogram(show.legend = FALSE)+
+  facet_wrap(~Language)+
+  theme_bw()
+plt
 
+```
+
+## Does Comparing Averages Make Sense?
+### NonParametric Tests
+
+## How to Compare Spreads
+### Clustering
+
+## What Have We Learned?
+## Next Steps and Other Questions
 
