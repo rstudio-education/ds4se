@@ -8,6 +8,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+# here is where I would like a block image to go for each lesson. Imagery is important to engage the learner.
+```
+
+
 
 ## Have You Ever Wondered...
 

@@ -47,11 +47,13 @@ colnames(js) <- c("Lines","FunctionDefs")
 js$Language= "JavaScript"
 
 data = rbind(py,js)
+# some programs must not have been finished yet from the repository of programs?
+data = data[data$Lines>0,]
 ```
 ## Don't Compare Apples to Oranges
 
 ```{r}
-#we need to normalize this stuff
+#we need to normalize in order to more fairly compare
 data = data %>% 
   group_by(Language) %>%
   mutate(Lines.normed = scale(Lines)) %>%
@@ -90,17 +92,41 @@ cor(data2$FunctionDefs,data2$Lines)
 ```
 
 ## Normality Matters
-We are all about finding differences, but comparing those differences is a delicate business. We learned that we can't compare Apples to Oranges, so we **normalized** our data. Sometimes, that's enough to be able to draw direct comparisons. 
+We are all about finding differences, but comparing those differences is a delicate business. We learned that we can't compare Apples to Oranges, so we **normalized** our data. Sometimes, that's enough to be able to draw direct comparisons. But there's something else that matters, and that's whether our data can be represented **parametrically** or not. Don't worry, it's not as scary as it sounds. **Parametric** means that the data distribution can be represented using *parameters*, like mean and standard deviation. We learned that the normal distribution can be expressed in terms of mean and standard deviation, and any data that falls *normally* is parametric. But lots of data will *not* fall under a normal distribution. Never fear, the weirdos can be compared too. We use something called **nonparametric testing**. Yep, you guessed it. These tests don't represent the data with parameters. They tend to use *ranks* instead. For now, just know that in order to compare two samples, we need to make sure we know which tests to use given the normality of those samples.
+
 ```{r}
+
+
+# here we can take a look at the distributions of our normalized (z-scores) data
 plt = ggplot(data, aes(FunctionDefs.normed,fill=Language))+
   geom_histogram()+
   #geom_density()+
   facet_wrap(~Language)+
   theme_bw()
 plt
+
+plt = ggplot(data, aes(Lines.normed,fill=Language))+
+  geom_histogram()+
+  #geom_density()+
+  facet_wrap(~Language)+
+  theme_bw()
+plt
+```
+
+it doesn't look normal, and that's pretty obvious. But for less obvious deviation from normality, we use a Shapiro-Wilk Test. The test is beginning with the hypothesis that our distribution and a normal distribution **are different**. The test will give back a *W* score and a *p-value*. When *W* is small, it is likely that our distribution is *different from normal*, with probability *p*. If the *p-value* is less than .05, we tend to conclude that our distribution is **not** normal.
+```{r}
+ 
+# Python number of function definitions
+shapiro.test(data$FunctionDefs[data$Language=="Python"])
+
+# JavaScript number of function definitions
 shapiro.test(data$FunctionDefs[data$Language=="JavaScript"])
 
+# Python number of lines
+shapiro.test(data$Lines[data$Language=="Python"])
 
+# JavaScript number of lines
+shapiro.test(data$Lines[data$Language=="JavaScript"])
 
 ```
 

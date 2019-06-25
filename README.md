@@ -21,7 +21,7 @@ Some of the questions it will show people how to answer include:
     
 ### Statistical Concepts Covered:
 
-- mean, variance, standard deviation, normalization
+- mean, variance, standard deviation, normalization, z-scores
 - experimental design and setup
 - normality, parametric and nonparametric tests
 - curve fitting
