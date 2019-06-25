@@ -18,6 +18,25 @@ Some of the questions it will show people how to answer include:
     -   Beyond *what* tests, how do we interpet the results correctly, especially without making errors about what the results are actually saying?
 -   In what order do people use functions in tidyverse pipelines?
     -   Are there common patterns to the order?
+    
+### Statistical Concepts Covered:
+
+- mean, variance, standard deviation, normalization
+- experimental design and setup
+- normality, parametric and nonparametric tests
+- curve fitting
+- introduction to modeling
+- train/test split for prediction and evaluation
+
+    
+### Statistical Learning Objectives:
+
+Students will be able to:
+- set up their data for comparisons and/or modeling
+- critically select features to investigate
+- critically select appropriate models for their data
+- collect data from the web for their own questions
+- relate software engineering to (answerable!) statistical questions
 
 [ghtorrent]: http://ghtorrent.org/
 [github-api]: https://developer.github.com/v3/
