@@ -49,6 +49,7 @@ js$Language= "JavaScript"
 data = rbind(py,js)
 # some programs must not have been finished yet from the repository of programs?
 data = data[data$Lines>0,]
+data = data[data$FunctionDefs>0,]
 
 # we have a few outliers in our data that skew things
 out_js.lines <- boxplot(data$Lines[data$Language=="JavaScript"], plot=FALSE)$out
@@ -74,8 +75,8 @@ plt = ggplot(data,aes(Lines,FunctionDefs))+
   #geom_vline(xintercept=mean(data$Lines),colour="red",linetype="dashed")+
   #geom_hline(yintercept=mean(data$FunctionDefs),colour="red",linetype="dashed")+
   ggtitle("Scaled Lines v. Function Definitions")+
-  xlab("Number of Lines (z score)")+
-  ylab("Number of Function Definitions (z score)")+
+  xlab("Number of Lines (raw)")+
+  ylab("Number of Function Definitions (raw)")+
   
   theme_bw()
   
@@ -171,14 +172,18 @@ shapiro.test(data$Lines[data$Language=="JavaScript"])
 ```{r fig.align='center',message=FALSE}
 data <- data %>%
   group_by(Language) %>%
-  mutate(func_density = FunctionDefs/Lines)
-mean(data$func_density[data$Language=="Python"])
-mean(data$func_density[data$Language=="JavaScript"])
-plt = ggplot(data,aes(func_density,fill=Language))+
+  mutate(line_per_func = Lines/(FunctionDefs+.000001))
+
+
+plt = ggplot(data,aes(line_per_func,fill=Language))+
   geom_histogram(show.legend = FALSE)+
   facet_wrap(~Language)+
   theme_bw()
 plt
+
+data %>%
+  group_by(Language) %>%
+  summarise(mean(line_per_func))
 
 ```
 
