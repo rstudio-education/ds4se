@@ -1,0 +1,47 @@
+---
+title: "Sleep Deprivation and Software Engineering Performance"
+author: "Yim Register"
+date: "6/26/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# here is where I would like a block image to go for each lesson. Imagery is important to engage the learner.
+
+```
+
+
+
+## Overview of the Study
+
+- research questions
+
+> "To what extent does sleep deprivation impact developers’ performance?"
+
+- what they did (including definition of "quasi-experimental")
+- what statistics they performed
+- what they concluded
+
+## How to Read Scientific Papers
+- things to look for
+- let's look at the methods
+- 
+
+## 
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
