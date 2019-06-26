@@ -48,8 +48,8 @@ js$Language= "JavaScript"
 
 data = rbind(py,js)
 # some programs must not have been finished yet from the repository of programs?
-data = data[data$Lines>0,]
-data = data[data$FunctionDefs>0,]
+#data = data[data$Lines>0,]
+#data = data[data$FunctionDefs>0,]
 
 # we have a few outliers in our data that skew things
 out_js.lines <- boxplot(data$Lines[data$Language=="JavaScript"], plot=FALSE)$out
@@ -168,15 +168,15 @@ shapiro.test(data$Lines[data$Language=="JavaScript"])
 
 ```
 
-## Which Language Uses More Functions per Line?
+## Which Language Uses More Lines per Function?
 ```{r fig.align='center',message=FALSE}
 data <- data %>%
   group_by(Language) %>%
-  mutate(line_per_func = Lines/(FunctionDefs+.000001))
+  mutate(line_per_func = Lines/(FunctionDefs))
 
 
 plt = ggplot(data,aes(line_per_func,fill=Language))+
-  geom_histogram(show.legend = FALSE)+
+  geom_histogram(aes(y=..count../sum(..count..)),show.legend = FALSE)+
   facet_wrap(~Language)+
   theme_bw()
 plt

@@ -14,7 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-
+## "Pulling an All-Nighter"
+Whether you stocked up on coffee and snacks and holed up in the library to finish programming that project due tomorrow, or stayed up all night playing video games until your eyes can only squint, perhaps you are familiar with what the next day feels like after a night without sleep. Unfortunatlely, studies suggest that sleep deprivation is cognitively comparable to [being drunk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/pdf/v057p00649.pdf), with impairments to memory, reasoning, reaction time, and decision making. I think we can all agree that everyone would prefer that critical software was not made by a drunk programmer. But is it really *that bad*? Especially given the trope that programmers are up all night shouting into their gaming headsets or hacking the CIA, how bad could it really be to lose a little sleep? Answer: **bad**. It's really bad. This lesson will walk us through just how bad it is to be sleep deprived while trying to write code, and teach you how to interpret experiment design and results of an academic paper. Hopefully by the end, you'll understand statistical concepts like: **hypothesis testing, mean, variance, standard deviation, Type I and Type II errors, and the Mann-Whitney U Test**. And hopefully you'll realize how abysmal your code will be if you forgo those extra hours to order 3am pizza.
 
 ## Overview of the Study
 
@@ -25,6 +26,8 @@ knitr::opts_chunk$set(echo = TRUE)
 - what they did (including definition of "quasi-experimental")
 - what statistics they performed
 - what they concluded
+
+> "developers who forewent one night of sleep write code which is approximately 50% more likely to not fulfill the specification with respect to the code written by developers under normal sleep condition."
 
 ## How to Read Scientific Papers
 - things to look for
