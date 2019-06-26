@@ -14,33 +14,35 @@ Inside the directory with all your python files, run this. It will write to "Sta
 */
 //console.log(process.argv[2]);
 var acorn = require("acorn");
-var i;
 var line_count = 0;
 var func_count=0;
-var test = function(){
+function test(){
   var x = 2;
 }
+function otherstuff(){
+  var x =7;
+}
 
-//TODO: this just can't be the right way to print out how many functions in a file. There's too many zeros or in the order of magnitude of thousands.
-require('fs').createReadStream(process.argv[2])
-  .on('data', function(chunk) {
-    for (i=0; i < chunk.length; ++i){
-    for (let token of acorn.tokenizer(chunk)){
-      //console.log(token.type.label);
-      if(token.type.label=="function"){
-        func_count +=1;
-      }
-    }
+
+string = require('fs').readFileSync(process.argv[2]).toString();
+sourceType = new Object;
+sourceType.sourceType='module';
+const ast =acorn.parse(string, sourceType);
+const walk = require("acorn-walk")
+
+walk.full(ast, node => {
+  //console.log(node.type);
+  if(node.type == "FunctionDeclaration"){
+    func_count+=1;
   }
-  })
-  .on('end', function() {
-    //console.log(func_count);
-  });
+})
+
+
 require('fs').createReadStream(process.argv[2])
   .on('data', function(chunk) {
     for (i=0; i < chunk.length; ++i)
       if (chunk[i] == 10) line_count++;
   })
   .on('end', function() {
-    console.log(func_count + " , " +line_count);
+    console.log(line_count  + " , "+ func_count );
   });
