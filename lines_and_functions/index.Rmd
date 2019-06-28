@@ -74,14 +74,18 @@ plt = ggplot(data,aes(Lines,FunctionDefs))+
   geom_point(aes(colour=Language),size=1, show.legend=FALSE)+
   #geom_vline(xintercept=mean(data$Lines),colour="red",linetype="dashed")+
   #geom_hline(yintercept=mean(data$FunctionDefs),colour="red",linetype="dashed")+
-  ggtitle("Scaled Lines v. Function Definitions")+
+  ggtitle("Lines v. Function Definitions")+
   xlab("Number of Lines (raw)")+
   ylab("Number of Function Definitions (raw)")+
   
   theme_bw()
   
 plt
+ggsave("Raw_LinesFunctions.png",plt)
 
+cor(data$Lines[data$Language=="JavaScript"],data$FunctionDefs[data$Language=="JavaScript"])
+cor(data$Lines[data$Language=="Python"],data$FunctionDefs[data$Language=="Python"])
+ 
 #take a look at the scales between the two languages
 data %>%
   group_by(Language) %>%
