@@ -51,12 +51,13 @@ smoothScatter(cc_loc$sloc, cc_loc$cc,
               xlab="SLOC", ylab="CC")
 
 #first 500 projects
+# TODO: do this statistically, you fool! you can't just grab the first 500 lol
 small <- cc_loc[cc_loc$project<=500,]
 View(small)
 
 library(ggplot2)
 
-plt = ggplot(data=data,aes(sloc,cc))+
+plt = ggplot(data=small,aes(sloc,cc))+
   geom_point(size=1)+
   theme_bw()
 plt
