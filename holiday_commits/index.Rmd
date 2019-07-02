@@ -135,7 +135,47 @@ plt
 
 ## Relative Commits
 What we actually need to care about is, *on average* do number of commits differ on a holiday? In order to do that, let's look at number of commits per day across a year sample, between Canada and USA. Next, we will compute the **z-score** for each day, comparing each day's number of commits to how it deviates from the number of commits on average.
+```{r fig.width=13,fig.height=4}
+data_sql <- "select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits
+from [ghtorrent-bq.ght.project_commits] pc join
+     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+     date(created_at) between date('2016-01-01')
+                          and  date('2016-09-05') )c on pc.commit_id = c.id join
+     (SELECT id,
+     FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join
+     (SELECT login, location, id, country_code,
+     FROM [ghtorrent-bq.ght.users]
+     WHERE country_code = 'us' or country_code = 'ca') u on c.author_id = u.id,
+group by country, day
+order by num_commits desc;"
+
+year_commits  <- query_exec(data_sql, project = project, useLegacySql = FALSE)
+
+plt = ggplot(year_commits,aes(day,num_commits,colour=country))+
+  geom_line(aes(group=country))+
+  theme_bw()+
+  theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  ggtitle("2016 Commits on GitHub (Canada vs. USA)", subtitle="January 1 - September 5")
+plt
+```
+
+
 ```{r}
+#let's do some important checks on outliers
+bp <- boxplot(year_commits$num_commits ~ year_commits$country)
+year_commits <- year_commits[!(year_commits$num_commits %in% bp$out),]
+bp <- boxplot(year_commits$num_commits ~ year_commits$country)
+
+library(dplyr)
+summary <- year_commits %>% 
+  group_by(country) %>%
+  summarise(avg = mean(num_commits),sd=sd(num_commits))
+
+kable(summary)
+
+head(year_commits)
+
+#TODO group by country and z scale each and then plot by day
 
 
 ```
