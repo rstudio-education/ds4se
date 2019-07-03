@@ -1,0 +1,27 @@
+---
+title: "Developer Performance and Designing a New Grading System for Teams"
+author: "Yim Register"
+date: "7/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## How do developers differ in their measurable output performance?
+
+## Operationalization
+
+One metric used in software testing is number of faults found. In practice non-failing tests,
+written by software testers, are useful because they provide evidence that particular functionality behaves as expected
+
+
+## Weighted Factors
+Defects differ in their commercial importance, and a relative
+weight for each classification has to be decided; should the weight of “No fix” be larger than
+that given to “Cannot reproduce” or “Duplicate”
+
+## Generalizability
+To what extent would a tester’s performance, based on measurements involving one software
+system in one company, be transferable to another system in the same company or another
+company?
