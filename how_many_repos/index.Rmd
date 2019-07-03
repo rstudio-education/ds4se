@@ -29,14 +29,6 @@ An important thing to understand early on in your programming career is about AP
 
 ```{r}
 #setting up a little bit of practice with mongo connection
-library(mongolite)
-m <- mongo("mtcars", url = "mongodb://readwrite:test@mongo.opencpu.org:43942/jeroen_test")
-m <- mongo("diamonds")
-m$insert(ggplot2::diamonds)
-#m$find('{}')
-
-#m$find(fields='{"carat":true,"price":true}',limit=100)
-plot(m$find(fields='{"carat":true}')$carat,m$find(fields='{"price":true}')$price)
 
 # waiting for SSH access to GHTorrent
 
