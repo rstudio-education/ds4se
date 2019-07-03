@@ -179,3 +179,42 @@ head(year_commits)
 
 
 ```
+
+```{r}
+scaled <-ddply(year_commits,c("country"),transform,scaled_commits = scale(num_commits))
+#am I even allowed to do this if it's not normal?
+head(scaled)
+
+#notice how now they overlap. We predicted that, because there's no real reason that Canada should be all that different from USA. We do see some differences, but this could also be due to the fact that Canada has less users/commits overall
+
+# you can see that they both have weekends pretty clearly
+scaled$weekday <- weekdays(as.Date(scaled$day))
+
+#it's not normal so we can't really use scaled for anything
+hist(year_commits$num_commits)
+
+
+plt = ggplot(scaled,aes(day,scaled_commits,colour=country))+
+  geom_line(aes(group=country))+
+  theme_bw()+
+  theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  ggtitle("2016 SCALED Commits on GitHub (Canada vs. USA)", subtitle="January 1 - September 5")
+plt
+```
+## Testing for normality (nothing is normal)
+
+## Is a holiday really any different from any other weekday?
+```{r}
+
+#is the holiday really any different from any other weekday?
+
+#canada day
+
+
+```
+## Should we take weekday into account?
+
+## Should we look at other years?
+
+
+
