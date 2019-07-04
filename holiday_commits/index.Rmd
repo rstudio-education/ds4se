@@ -230,9 +230,18 @@ ggplot(scaled[scaled$isWeekend==0,], aes(x=num_commits,fill=country))+
 ddply(scaled,c('country','isWeekend'),summarise,mean = mean(num_commits),sd(num_commits))
 
 #is the holiday really any different from any other weekday?
+plot(scaled$num_commits,scaled$isWeekend) # plot with body size on x-axis and survival (0 or 1) on y-axis
+logistic <- glm(scaled$isWeekend ~ scaled$num_commits, family = "binomial")
 
 
 
+vals <- predict(logistic,data.frame(x=scaled$num_commits),type="resp") # draws a curve based on prediction from logistic regression model
+plt <- ggplot(aes(num_commits,isWeekend),data=scaled)+
+  geom_point(size=1)+
+  geom_line(aes(num_commits,vals),color="#8DD3C7",size=1)+
+  theme_bw()+
+  scale_x_continuous(labels = function(x) format(x, scientific = FALSE))
+plt
 # there is a true difference
 #canada day
 
