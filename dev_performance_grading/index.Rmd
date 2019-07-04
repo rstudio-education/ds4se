@@ -25,3 +25,18 @@ that given to “Cannot reproduce” or “Duplicate”
 To what extent would a tester’s performance, based on measurements involving one software
 system in one company, be transferable to another system in the same company or another
 company?
+
+```{r}
+library(knitr)
+data <- read.csv("performance_dev.csv")
+
+kable(data)
+
+```
+
+### The Measure Matters
+```{r}
+
+data$Tester[data$Defects==min(data$Defects)]
+
+```

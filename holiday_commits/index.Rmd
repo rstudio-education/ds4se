@@ -166,6 +166,7 @@ bp <- boxplot(year_commits$num_commits ~ year_commits$country)
 year_commits <- year_commits[!(year_commits$num_commits %in% bp$out),]
 bp <- boxplot(year_commits$num_commits ~ year_commits$country)
 
+library(plyr)
 library(dplyr)
 summary <- year_commits %>% 
   group_by(country) %>%
@@ -203,11 +204,36 @@ plt
 ```
 ## Testing for normality (nothing is normal)
 
+
 ## Is a holiday really any different from any other weekday?
-```{r}
+```{r fig.height=3}
+# usa vs. canada
+wilcox.test(scaled$scaled_commits[year_commits$country=='ca'],scaled$scaled_commits[year_commits$country=='us'])
+scaled$isWeekend <- 0
+scaled$isWeekend[scaled$weekday=='Saturday'|scaled$weekday=='Sunday']<-1
+#let's test our sanity?
+
+ggplot(scaled[scaled$isWeekend==1,], aes(x=num_commits,fill=country))+
+  geom_histogram()+
+  facet_wrap(~country)+
+  scale_x_continuous(labels = function(x) format(x, scientific = FALSE))+
+  theme_bw()
+  
+ggplot(scaled[scaled$isWeekend==0,], aes(x=num_commits,fill=country))+
+  geom_histogram()+
+  facet_wrap(~country)+
+  scale_x_continuous(labels = function(x) format(x, scientific = FALSE))+
+  theme_bw()
+
+
+#not normal
+ddply(scaled,c('country','isWeekend'),summarise,mean = mean(num_commits),sd(num_commits))
 
 #is the holiday really any different from any other weekday?
 
+
+
+# there is a true difference
 #canada day
 
 
@@ -216,5 +242,6 @@ plt
 
 ## Should we look at other years?
 
+## Logistic regression for predicting your weekend commits
 
 
