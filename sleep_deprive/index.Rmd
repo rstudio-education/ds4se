@@ -12,32 +12,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ![](../bin/images/000.png)</center>
 
 ## "Pulling an All-Nighter"
-Whether you stocked up on coffee and snacks and holed up in the library to finish programming that project due tomorrow, or stayed up all night playing video games until your eyes can only squint, perhaps you are familiar with what the next day feels like after a night without sleep. Unfortunatlely, studies suggest that sleep deprivation is cognitively comparable to [being drunk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/pdf/v057p00649.pdf), with impairments to memory, reasoning, reaction time, and decision making. I think we can all agree that everyone would prefer that critical software was not made by a drunk programmer. But is it really *that bad*? Especially given the trope that programmers are up all night shouting into their gaming headsets or hacking the CIA, how bad could it really be to lose a little sleep? Answer: **bad**. It's really bad. This lesson will walk us through just how bad it is to be sleep deprived while trying to write code, and teach you how to interpret experiment design and results of an academic paper. Hopefully by the end, you'll understand statistical concepts like: **experimental design, hypothesis testing, mean, variance, standard deviation, the normal distribution, Type I and Type II errors, Bonferroni correction, correlation, and the Mann-Whitney U Test**. And hopefully you'll realize how abysmal your code will be if you forgo those extra hours to order 3am pizza.
+Whether you stocked up on coffee and snacks and holed up in the library to finish programming that project due tomorrow, or stayed up all night playing video games until your eyes can only squint, perhaps you are familiar with what the next day feels like after a night without sleep. Unfortunatlely, studies suggest that sleep deprivation is cognitively comparable to [being drunk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/pdf/v057p00649.pdf), with impairments to memory, reasoning, reaction time, and decision making. I think we can all agree that everyone would prefer that critical software was not made by a drunk programmer. But is it really *that bad*? Especially given the trope that programmers are up all night shouting into their gaming headsets or hacking the CIA, how bad could it really be to lose a little sleep? Answer: **bad**. It's really bad. This lesson will walk us through just how bad it is to be sleep deprived while trying to write code, and teach you how to interpret experiment design and results of an academic paper. Hopefully by the end, you'll understand statistical concepts like: **experimental design, hypothesis testing, mean, variance, standard deviation, the normal distribution, Type I and Type II errors, Bonferroni correction, correlation, Cliff's delta (effect size), and the Kruskall Wallis Test**. And hopefully you'll realize how abysmal your code will be if you forgo those extra hours to order 3am pizza.
 
-## Overview of the Study
+```{r}
+# there is actually A LOT to unpack here. All mean/variance/sd/normal distribution stuff should be covered before this lesson, including basic comparison between groups; perhaps in the holiday lesson
+# we get a little messy when we get to nonparametric tests, effect size, and particularly the bonferroni correction. not sure how deeply I'd like to touch on that, but basically gonna say "when you start fishing around in your data, you're bound to find something significant and that's bad science. so we use this special correction to make sure it's actually *less* likely we find significance, so that we are conservative and therefore more confident in our results*
 
-This lesson will discuss and follow the methods of [*Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers' Performance*.](https://arxiv.org/pdf/1805.02544.pdf) This will allow you to get practice reading academic research, while also testing out their methods in R.
+```
 
-- research questions
+## Research Question
+
+This lesson will discuss and follow the methods of [*Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers' Performance*.](https://arxiv.org/pdf/1805.02544.pdf) This will allow you to get practice reading academic research, while also testing out their methods in R. 
+
+Given that we *know* sleep deprivation affects cognitive functioning, it wouldn't necessarily be the most interesting question to ask *if* sleep deprivation affects programming, but rather, *how much*? The authors form their first research question as the following:
 
 > "To what extent does sleep deprivation impact developers’ performance?"
 
-- what they did (including definition of "quasi-experimental")
-- what statistics they performed
-- what they concluded
+Immediately, you can tell that we are not going over a "Yes" or "No" response, but some kind of measure of *effect size*, and some kind of operationalization of what "performance" really is. Remember that every measure must be carefully defined; and no measure will perfectly capture a larger concept like "performance", "creativity", or "skill". Before we begin describing the methods in the paper, try to think of how *you* might measure developer performance. What would you have the participants do? How would you determine success or failure? Next, how would you check how much sleep deprivation was affecting that measure?
 
-> "developers who forewent one night of sleep write code which is approximately 50% more likely to not fulfill the specification with respect to the code written by developers under normal sleep condition."
+## Who are the participants?
+Let's start by getting to know our participants, particularly between the conditions (Sleep Deprivaton vs. Regular Sleep)
 
-## How to Read Scientific Papers
-- things to look for
-- let's look at the methods
-- uncleaned vs. cleared data distinction
-
-## Percentage of Acceptance Asserts
-PAAP =#ASSERT(PASS) / #ASSERT(ALL)× 100
-
-
-## Reading in the Data, going over what each piece is
 ```{r}
 library(readxl)
 library(ggplot2)
@@ -55,6 +50,64 @@ loadAllData <- function(fileName = "../bin/data/sleepDepr/labpackage/data/piglat
   NOSD_Cleaned <<- subTable(NOSD, "PVT-remove", "NO")
 }
 loadAllData()
+
+head(Exp)
+
+plt = ggplot(Exp,aes(METHOD,fill=METHOD))+
+  geom_histogram(stat="count")+
+  ggtitle("Distribution of Participants to Conditions")+
+  theme_bw()
+plt
+
+post <- read_xlsx("../bin/data/sleepDepr/labpackage/data/post-questionnaire.xlsx")
+data <- merge(Exp,post,by="ID")
+
+plt = ggplot(data,aes(Age,fill=METHOD))+
+  geom_histogram(position="dodge",bins = 30)+
+  ggtitle("Participant Age by Condition")+
+  theme_bw()
+plt
+
+nas <- which(is.na(as.numeric(as.character(data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?`))))
+
+
+data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?` <-as.numeric(as.character(data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?`))
+
+plt = ggplot(data,aes(METHOD,data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?`,fill=METHOD))+
+ geom_boxplot()+
+  
+  ggtitle("Participant Age by Condition")+
+  theme_bw()
+plt
+
+plt = ggplot(data,aes(METHOD,as.numeric(as.character(data$`During your education, how many years of experience did you have with programming?`)),fill=METHOD))+
+ geom_boxplot()+
+  ggtitle("Participant Age by Condition")+
+  theme_bw()
+plt
+
+
+```
+
+## Quasi-experimental setup
+
+In most cases, the ideal experimental conditions would involve randomly selecting participants and assigning them into conditions (in our case, **Sleep Deprivation** or **Regular Sleep**). You can imagine this might be difficult to do with undergraduate students, and difficult to enforce. So this study relies on self-selected students who volunteered to pull an all-nighter before the programming task the next day. If you were to be asked *right now* to participate in the study, could you afford to not sleep tonight? Or would you need to be in the rested group? Perhaps you have an athletic tournament coming up, or just lost sleep the other night and can't afford another one. Or maybe, you planned on staying up tonight *anyways*, so you'd be happy to go in the sleep deprivation group (it will keep you accountable to cramming for that exam, right?). Using this kind of experimental design is referred to as **"quasi-experimental"**: the populations in the various conditions were not randomly assigned, but were self-selected into. These are perfectly fine studies to run, as long as you conduct a few tests to ensure the validity of your results. Can you guess the biggest issue with a quasi-experimental setup vs. a true experiment? The potential problem is that the self-selecting groups may be inherently different on *measures other than your independent variable**. So when you think you are measuring the effects of sleep deprivation on developer performance, perhaps you already have a significant difference of GPA or programming skill between your sleepers and non-sleepers. You can imagine coming up with a list of things that might differ between those groups, that might actually affect their developer performance more than just the sleep deprivation itself.
+
+
+
+
+## How to Read Scientific Papers
+- things to look for
+- let's look at the methods
+- uncleaned vs. cleared data distinction
+
+## Percentage of Acceptance Asserts
+PAAP =#ASSERT(PASS) / #ASSERT(ALL)× 100
+
+
+## Reading in the Data, going over what each piece is
+```{r}
+
 head(Exp)
 
 ggplot(Exp,aes(GPA,fill=METHOD))+
@@ -76,6 +129,11 @@ ggplot(Exp,aes(METHOD,`%CONF`,fill=METHOD))+
 
 ```
 
+
+## Effect Size: Cliff's Delta
+We've discussed how a *p-value* does not actually tell you anything about how large the effect is. With hundreds of people, we could be absolutely positive that sleep deprivation *does* affect developer performance, but we wouldn't know anything about *how much* from a p-value. People tend to think their effect is larger if they get a smaller p-value (such as .05 vs. .00001). But this is only saying the likelihood that the groups being compared are *not different*. In one case, there is a 5% chance they are actually the same, whereas in the second case, there is only a .001% chance of the groups being actually the same. However confident we are that they are actually different, we still don't know by how much they differ. In practice, you may find that some software is faster than another with a p-value of .0001. You can be *sure* that the second software is faster. But what if it is only faster by a single milisecond? Is it worth re-doing the entire system? You be the judge.
+
+So not only do we need to know the p-value, but we also need the effect size.
 ```{r}
 
 cliffs.d  <-  function(x,y) {
@@ -99,7 +157,9 @@ cliffs.d  <-  function(x,y) {
 
 
 }
+```
 
+```{r}
 StatisticalPowerParam <- function(distribution1, nameDistribution1, distribution2, nameDistribution2, direction = "two.sided"){
 
 #
@@ -200,12 +260,7 @@ We have to think critically about the results we would expect to see.
 
 
 ```{r}
-post <- read_xlsx("../bin/data/sleepDepr/labpackage/data/post-questionnaire.xlsx")
-View(post)
-post[11]
 
-m<-merge(Exp,post,by="ID")
-kruskal.test(m$METHOD~m[[11]])
 
 
 
