@@ -8,11 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-```{r}
-# here is where I would like a block image to go for each lesson. Imagery is important to engage the learner.
-
-```
+<center>
+![](../bin/images/000.png)</center>
 
 ## "Pulling an All-Nighter"
 Whether you stocked up on coffee and snacks and holed up in the library to finish programming that project due tomorrow, or stayed up all night playing video games until your eyes can only squint, perhaps you are familiar with what the next day feels like after a night without sleep. Unfortunatlely, studies suggest that sleep deprivation is cognitively comparable to [being drunk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/pdf/v057p00649.pdf), with impairments to memory, reasoning, reaction time, and decision making. I think we can all agree that everyone would prefer that critical software was not made by a drunk programmer. But is it really *that bad*? Especially given the trope that programmers are up all night shouting into their gaming headsets or hacking the CIA, how bad could it really be to lose a little sleep? Answer: **bad**. It's really bad. This lesson will walk us through just how bad it is to be sleep deprived while trying to write code, and teach you how to interpret experiment design and results of an academic paper. Hopefully by the end, you'll understand statistical concepts like: **experimental design, hypothesis testing, mean, variance, standard deviation, the normal distribution, Type I and Type II errors, Bonferroni correction, correlation, and the Mann-Whitney U Test**. And hopefully you'll realize how abysmal your code will be if you forgo those extra hours to order 3am pizza.
@@ -40,15 +37,177 @@ This lesson will discuss and follow the methods of [*Need for Sleep: the Impact 
 PAAP =#ASSERT(PASS) / #ASSERT(ALL)× 100
 
 
+## Reading in the Data, going over what each piece is
 ```{r}
+library(readxl)
+library(ggplot2)
+subTable <- function(data, nameCol, val){
+  return (data[which(data[nameCol] == val),])
 
+}
+loadAllData <- function(fileName = "../bin/data/sleepDepr/labpackage/data/piglatin.xlsx"){
+
+  Exp <<-   read_xlsx(fileName)
+  Exp_Cleaned <<- subTable(Exp, "PVT-remove", "NO")
+  SlD <<- subTable(Exp, "METHOD", "SD")
+  NOSD <<- subTable(Exp, "METHOD", "RS")
+  SD_Cleaned <<- subTable(SlD, "PVT-remove", "NO")
+  NOSD_Cleaned <<- subTable(NOSD, "PVT-remove", "NO")
+}
+loadAllData()
+head(Exp)
+
+ggplot(Exp,aes(GPA,fill=METHOD))+
+  geom_histogram()+
+  facet_wrap(~METHOD)+
+  theme_bw()
+
+
+ggplot(Exp,aes(METHOD,PAAP,fill=METHOD))+
+  geom_violin()+
+  theme_bw()
+
+ggplot(Exp,aes(METHOD,`#EPISODES`,fill=METHOD))+
+  geom_violin()+
+  theme_bw()
+ggplot(Exp,aes(METHOD,`%CONF`,fill=METHOD))+
+  geom_violin()+
+  theme_bw()
 
 ```
 
+```{r}
+
+cliffs.d  <-  function(x,y) {
+
+	r = mean(rowMeans(sign(outer(x, y, FUN="-"))))
+	r = round(r,3)
+	#cat("Cliff-Deelta val = ", r)
+
+	size = "large"
+	if ( 0.147 < abs(r) & abs(r) < 0.33){
+		size= "small"
+	}else{
+		if ( 0.33 <= abs(r) & abs(r) < 0.474){
+			size = "medium"
+		}
+	}
+
+	if (abs(r) < 0.147)
+		size = "negligible"
+	return(c(cat("\n Cliff Delta ", size, " (", r, ")\n"), size, r))
+
+
+}
+
+StatisticalPowerParam <- function(distribution1, nameDistribution1, distribution2, nameDistribution2, direction = "two.sided"){
+
+#
+#  parametric analysis
+#
+
+sdd <- sd(c(distribution1,distribution2))
+delta <- abs(mean(distribution1) - mean(distribution2))
+n = max(length(distribution1), length(distribution2))
+pow <- power.t.test(n, delta, sdd, sig.level=0.05, power=NULL, type="two.sample", alternative="two.sided")
+power = round(pow$power,3)
+cat(" Statistical Power", power)
+cat(" beta-val", 1- power, "\n")
+
+return(power)
+}
+
+StatisticalPowerNonParam <- function(distribution1, nameDistribution1, distribution2, nameDistribution2){
+
+#  non-parametric analysis
+ M1 <- mean(distribution1)
+ M2 <- mean(distribution2)
+ sd1 <- sd(distribution1)
+ sd2 <- sd(distribution2)
+ n1 <- length(distribution1) ### sample size
+ n2 <- length(distribution2) ### sample size
+ n <- n1 + n2
+ pval <- replicate(1000, wilcox.test(rnorm(n1,M1,sd1), rnorm(n2,M2,sd2), paired=FALSE)$p.value)
+ power = round(sum(pval < 0.05)/1000,3)
+ cat(" Statistical Power", power, "\n")
+ cat(" beta-val", 1- power)
+ return(power)
+}
+
+Control_vs_Treatment <- function(nameTreatment, treatment, nameControl, control, direction = "two.sided") {
+
+  sTreatment <- shapiro.test(treatment)
+  sControl <- shapiro.test(control)
+
+  if (sTreatment$p.value > 0.05 && sControl$p.value > 0.05) {
+    cat(" Parametric analyses allowed \n", nameTreatment, "is normal ", round(sTreatment$p.value,4), " \n",
+        nameControl, " is normal ", round(sControl$p.value,4), "\n")
+
+    # 	  #### The distributions are both normal parametric analyses can be computed.
+    # 		# t-test
+    a <- t.test(treatment, control, alternative = direction, paired = FALSE, exact = FALSE, correct = TRUE)
+    a = round(a$p.value,3)
+    # 		# ANOVA
+    # 	  a <-anova(lm(dataExp$X.TUS ~ dataExp$Method))
+    # 	  a = round(as.numeric(a$`Pr(>F)`[1]),3)
+    effectSize <- dCohen(treatment, control, "independent")
+    s <- StatisticalPowerParam(treatment, nameTreatment, control, nameControl, direction)
+
+  }else {
+    cat(" Non-parametric analyses \n", nameTreatment, ": ", round(sTreatment$p.value,4), " \n", nameControl,
+        ": ", round(sControl$p.value,4))
+
+    a <- wilcox.test(treatment, control, alternative = direction, paired = FALSE, exact = FALSE,
+                     correct = TRUE)
+    #a = a$p.value
+    a = round(as.numeric(a[3]),3)
+    effectSize <- cliffs.d(treatment,control)
+    s = StatisticalPowerNonParam(treatment, nameTreatment, control, nameControl)
+  }
+
+  #descriptive stats for treatment
+  t = summary(treatment)
+
+  #descriptive stats for control
+  c = summary(control)
+  impr = ((t[4]-c[4])/c[4])*100
+  impr = round (impr,3)
+  cat("\n Mean improvement", impr,"\\%")
+
+  cat("\n Statistical test p-value (i.e., Hnx) ", a, "\n")
+  if (a < 0.05){
+    cat("***  STATISTICALLY SIGNIFICANT DIFFERENCE ***\n")
+  }
+  cat("&", a, "&", effectSize, "&", impr, "&", s )
+
+}
+
+Control_vs_Treatment('SD PAAP',SD_Cleaned$PAAP,'RS PAAP',NOSD_Cleaned$PAAP) #large and significant
+Control_vs_Treatment('SD #EPISODES',SD_Cleaned$`#EPISODES`,'RS # EPISODES',NOSD_Cleaned$`#EPISODES`) #medium but not significant
+Control_vs_Treatment('SD %CONF',SD_Cleaned$`%CONF`,'RS %CONF',NOSD_Cleaned$`%CONF`) #small
+```
+
+
+## Comparing Populations
+
+We have to think critically about the results we would expect to see. 
+
+- we want NO DIFFERENCE for all the measures on experience that fucci collected.
+- that suggests that we are actually isolating "sleep deprivation" as our independent variable, instead of some weird effect of "who can commit to sleep deprivation vs. who cannot". Luckily, fucci goes through all of that in the experience report.
+- we basically want to see a bunch of non-significance for various things like GPA, experience with the IDE, experience as a developer, etc.
+- sometimes you are looking for no significance to make your point!
 
 
 
 ```{r}
+post <- read_xlsx("../bin/data/sleepDepr/labpackage/data/post-questionnaire.xlsx")
+View(post)
+post[11]
+
+m<-merge(Exp,post,by="ID")
+kruskal.test(m$METHOD~m[[11]])
+
+
 
 ```
 
