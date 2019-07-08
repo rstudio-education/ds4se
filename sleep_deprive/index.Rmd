@@ -3,10 +3,14 @@ title: "Sleep Deprivation and Software Engineering Performance"
 author: "Yim Register"
 date: "6/26/2019"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(plyr)
+library(dplyr)
+library(knitr)
 ```
 <center>
 ![](../bin/images/000.png)</center>
@@ -22,7 +26,7 @@ Whether you stocked up on coffee and snacks and holed up in the library to finis
 
 ## Research Question
 
-This lesson will discuss and follow the methods of [*Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers' Performance*.](https://arxiv.org/pdf/1805.02544.pdf) This will allow you to get practice reading academic research, while also testing out their methods in R. 
+This lesson will discuss and follow the methods of [*Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers' Performance*.](https://arxiv.org/pdf/1805.02544.pdf)[@FSR18] This will allow you to get practice reading academic research, while also testing out their analysis methods in R. 
 
 Given that we *know* sleep deprivation affects cognitive functioning, it wouldn't necessarily be the most interesting question to ask *if* sleep deprivation affects programming, but rather, *how much*? The authors form their first research question as the following:
 
@@ -33,13 +37,17 @@ Immediately, you can tell that we are not going over a "Yes" or "No" response, b
 ## Who are the participants?
 Let's start by getting to know our participants, particularly between the conditions (Sleep Deprivaton vs. Regular Sleep)
 
-```{r}
+```{r , warning=FALSE}
 library(readxl)
 library(ggplot2)
+
 subTable <- function(data, nameCol, val){
   return (data[which(data[nameCol] == val),])
 
 }
+
+# loading data including the sleep deprived set where we remove some particpants
+
 loadAllData <- function(fileName = "../bin/data/sleepDepr/labpackage/data/piglatin.xlsx"){
 
   Exp <<-   read_xlsx(fileName)
@@ -51,38 +59,54 @@ loadAllData <- function(fileName = "../bin/data/sleepDepr/labpackage/data/piglat
 }
 loadAllData()
 
-head(Exp)
+# this is the post-questionnaire
+post <- read_xlsx("../bin/data/sleepDepr/labpackage/data/post-questionnaire.xlsx")
 
-plt = ggplot(Exp,aes(METHOD,fill=METHOD))+
+#merging things together so we can work with one dataframe
+data <- merge(Exp,post,by="ID")
+SD_Cleaned$METHOD= "SD Cleaned"
+SD_Cleaned <- merge(SD_Cleaned,post,by="ID")
+data <- rbind(data,SD_Cleaned)
+
+#who is in what condition?
+plt = ggplot(data,aes(METHOD,fill=METHOD))+
   geom_histogram(stat="count")+
   ggtitle("Distribution of Participants to Conditions")+
   theme_bw()
 plt
 
-post <- read_xlsx("../bin/data/sleepDepr/labpackage/data/post-questionnaire.xlsx")
-data <- merge(Exp,post,by="ID")
+# 22 in RS, 22 in SD, 14 in cleaned set (different from in the paper, but just by 1)
+kable(table(data$METHOD))
 
+#density plot showing age distribution. We see that age is probably significantly different between those who could forgo an entire night of sleep and those who could not. That's expected, and ethically non-controllable anyways. The authors conducted tests to make sure there was no interactions of age on the software quality measures
 plt = ggplot(data,aes(Age,fill=METHOD))+
-  geom_histogram(position="dodge",bins = 30)+
-  ggtitle("Participant Age by Condition")+
+  geom_density(position="dodge",bins = 30,alpha=.5)+
+  ggtitle("Age by Condition")+
   theme_bw()
 plt
 
+
 nas <- which(is.na(as.numeric(as.character(data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?`))))
-
-
 data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?` <-as.numeric(as.character(data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?`))
 
+#were participants in the different groups experienced differently?
 plt = ggplot(data,aes(METHOD,data$`During your education, how many years of experience did you have with the Object Oriented Paradigm?`,fill=METHOD))+
  geom_boxplot()+
-  
-  ggtitle("Participant Age by Condition")+
+  ylab("Years experience with OOP (educational)")+
+  ggtitle("Educational OOP Experience by Condition")+
   theme_bw()
 plt
 
 plt = ggplot(data,aes(METHOD,as.numeric(as.character(data$`During your education, how many years of experience did you have with programming?`)),fill=METHOD))+
  geom_boxplot()+
-  ggtitle("Participant Age by Condition")+
+  ggtitle("Educational Experience Programming by Condition")+
+  ylab("Years experience with programming (educational)")+
+  theme_bw()
+plt
+
+plt = ggplot(Exp,aes(METHOD,GPA, fill=METHOD))+
+  geom_boxplot()+
+  ggtitle("GPA by Condition")+
   theme_bw()
 plt
 
@@ -97,43 +121,108 @@ In most cases, the ideal experimental conditions would involve randomly selectin
 
 
 ## How to Read Scientific Papers
-- things to look for
-- let's look at the methods
-- uncleaned vs. cleared data distinction
 
-## Percentage of Acceptance Asserts
-PAAP =#ASSERT(PASS) / #ASSERT(ALL)× 100
+Statistical literacy should be deeply connected to *empowerment*. As you gain more and more skills in statistics and hypothesis testing, you become able to critique the bombardment of "facts" thrown at you. Many news stories, videos, and articles report on scientific findings, using statistics to back up their conclusions or simply reporting what they found to be the most interesting about that study. If it's a good article, it should link the original study. With your newfound statistical prowess, you'll be able to look at the study itself and see if you agree with the interpretations from popular media. I'll outline a few important things to look for when you're reading about a study. Follow the checklist for our case study: *Need for Sleep*.
 
+- What is the motivation for the paper? Why are they studying this?
+- What is the research question?
+- What is the experimental design? Are there groups to be compared? How many participants in each group? How were they assigned into a condition?
+- What are they measuring? How do they define that measure?
+- List the tests they run and why (including parametric vs. nonparametric destinction)
+- What are the conclusions?
+- Do you believe the results?
 
-## Reading in the Data, going over what each piece is
+## Percentage of Acceptance Asserts Passed
+In our case, one of the major measures of the paper is the Percentage of Acceptance Asserts Passed (PAAP). An `assert` statement will trigger an error if it is not true. Therefore, you can set them up in your code to ensure that nothing is going wrong. For instance, if you were working with probabilities, you would want to assert that `sum(x) == 1`. Participants got 90 minutes to write code to pass the tests in the acceptance test suite, and the percentage of passed tests was recorded. Let's take a look at some descriptive statistics about PAAP.
+
+```{r}
+#PAAP
+summary <-ddply(data,~METHOD,summarise,mean=mean(PAAP),sd=sd(PAAP),max=max(PAAP),min=min(PAAP))
+kable(summary)
+
+plt = ggplot(data,aes(PAAP,fill=METHOD))+
+  geom_density(alpha=.5)+
+  ggtitle("Distribution of PAAP scores")+
+  theme_bw()
+plt
+
+#test PAAP by method for normality
+aggregate(formula = PAAP ~ METHOD,
+          data = data,
+          FUN = function(x) {y <- shapiro.test(x); c(y$statistic, y$p.value)})
+# NOT NORMAL!
+
+```
+## Episodes and Conformance
 ```{r}
 
-head(Exp)
+plt = ggplot(data,aes(`#EPISODES`,fill=METHOD))+
+  geom_density(alpha=.5)+
+  ggtitle("Distribution of Episodes")+
+  theme_bw()
+plt
 
-ggplot(Exp,aes(GPA,fill=METHOD))+
-  geom_histogram()+
-  facet_wrap(~METHOD)+
+#test EPISODES by method for normality
+aggregate(formula = `#EPISODES` ~ METHOD,
+          data = data,
+          FUN = function(x) {y <- shapiro.test(x); c(y$statistic, y$p.value)})
+
+# NOT NORMAL
+
+plt = ggplot(data,aes(`%CONF`,fill=METHOD))+
+  geom_density(alpha=.5)+
+  ggtitle("Distribution of Conformance")+
+  theme_bw()
+plt
+
+#test %CONF by method for normality
+aggregate(formula = `%CONF` ~ METHOD,
+          data = data,
+          FUN = function(x) {y <- shapiro.test(x); c(y$statistic, y$p.value)})
+
+#NOT NORMAL
+```
+## NOTHING IS NORMAL!!
+![](../bin/images/thisisfine.jpg) Never fear, we can use **nonparametric tests**.
+
+## Violin Plots
+A violin plot is similar to a boxplot, showing the summary statistics like mean and interquartile ranges. A violin plot also demonstrates the distribution and density of the data, shedding light on where the data "falls" around the summary statistics. It is important to critically think about what a mean is expressing. If I have 20 participants who score `PAAP == 58` and 20 participants who score `PAAP == 0`, the mean will be `29`, with not a single participant scoring anywhere near the mean in reality. A violin plot would allow us to discover any misconceptions like that in our data. Below, we plot the different conditions by the different metrics of software quality (PAAP, EPISODES, and CONFORMANCE).
+
+```{r fig.width=10}
+
+
+ggplot(data,aes(METHOD,PAAP,fill=METHOD))+
+  geom_violin(trim=FALSE)+
+  #stat_summary(fun.data="mean_sdl", mult=1, 
+                 #geom="crossbar", width=0.2 )+
+  stat_summary(fun.data=mean_sdl, 
+                 geom="pointrange", color="black")+
   theme_bw()
 
-
-ggplot(Exp,aes(METHOD,PAAP,fill=METHOD))+
-  geom_violin()+
+ggplot(data,aes(METHOD,`#EPISODES`,fill=METHOD))+
+  geom_violin(trim=FALSE)+
+  stat_summary(fun.data=mean_sdl,
+                 geom="pointrange", color="black")+
   theme_bw()
 
-ggplot(Exp,aes(METHOD,`#EPISODES`,fill=METHOD))+
-  geom_violin()+
-  theme_bw()
-ggplot(Exp,aes(METHOD,`%CONF`,fill=METHOD))+
-  geom_violin()+
+ggplot(data,aes(METHOD,`%CONF`,fill=METHOD))+
+  geom_violin(trim=FALSE)+
+  stat_summary(fun.data=mean_sdl, 
+                 geom="pointrange", color="black")+
   theme_bw()
 
 ```
+Remember, these are the **key comparisons** of the study. Most other tests are done to ensure that the study has *validity* (that it is testing what they say they are testing). After making sure that the populations are comparable, removing participants who did not adhere to the task, and testing data for normality, we can finally try to answer our question! 
+
+> "To what extent does sleep deprivation impact developers’ performance?"
+
 
 
 ## Effect Size: Cliff's Delta
 We've discussed how a *p-value* does not actually tell you anything about how large the effect is. With hundreds of people, we could be absolutely positive that sleep deprivation *does* affect developer performance, but we wouldn't know anything about *how much* from a p-value. People tend to think their effect is larger if they get a smaller p-value (such as .05 vs. .00001). But this is only saying the likelihood that the groups being compared are *not different*. In one case, there is a 5% chance they are actually the same, whereas in the second case, there is only a .001% chance of the groups being actually the same. However confident we are that they are actually different, we still don't know by how much they differ. In practice, you may find that some software is faster than another with a p-value of .0001. You can be *sure* that the second software is faster. But what if it is only faster by a single milisecond? Is it worth re-doing the entire system? You be the judge.
 
-So not only do we need to know the p-value, but we also need the effect size.
+So not only do we need to know the p-value, but we also need the effect size. There are several ways to measure effect size, but we *must* rely on a nonparametric test, due to the non-normality of our data. We use something called **Cliff's delta**, which relies on comparing the positive or negative signs between groups. The function below actually contains thresholds for if we can consider the effect to be large, medium, or negligable. 
+
 ```{r}
 
 cliffs.d  <-  function(x,y) {
@@ -141,7 +230,7 @@ cliffs.d  <-  function(x,y) {
 	r = mean(rowMeans(sign(outer(x, y, FUN="-"))))
 	r = round(r,3)
 	#cat("Cliff-Deelta val = ", r)
-
+  
 	size = "large"
 	if ( 0.147 < abs(r) & abs(r) < 0.33){
 		size= "small"
@@ -154,11 +243,14 @@ cliffs.d  <-  function(x,y) {
 	if (abs(r) < 0.147)
 		size = "negligible"
 	return(c(cat("\n Cliff Delta ", size, " (", r, ")\n"), size, r))
+	
 
 
 }
 ```
 
+## Parametric vs. NonParametric
+Similar to effect size, we care about **statistical power**
 ```{r}
 StatisticalPowerParam <- function(distribution1, nameDistribution1, distribution2, nameDistribution2, direction = "two.sided"){
 
@@ -193,7 +285,9 @@ StatisticalPowerNonParam <- function(distribution1, nameDistribution1, distribut
  cat(" beta-val", 1- power)
  return(power)
 }
+```
 
+```{r}
 Control_vs_Treatment <- function(nameTreatment, treatment, nameControl, control, direction = "two.sided") {
 
   sTreatment <- shapiro.test(treatment)
@@ -241,29 +335,18 @@ Control_vs_Treatment <- function(nameTreatment, treatment, nameControl, control,
   cat("&", a, "&", effectSize, "&", impr, "&", s )
 
 }
+```
 
+
+## Results
+```{r}
 Control_vs_Treatment('SD PAAP',SD_Cleaned$PAAP,'RS PAAP',NOSD_Cleaned$PAAP) #large and significant
 Control_vs_Treatment('SD #EPISODES',SD_Cleaned$`#EPISODES`,'RS # EPISODES',NOSD_Cleaned$`#EPISODES`) #medium but not significant
 Control_vs_Treatment('SD %CONF',SD_Cleaned$`%CONF`,'RS %CONF',NOSD_Cleaned$`%CONF`) #small
 ```
 
 
-## Comparing Populations
-
-We have to think critically about the results we would expect to see. 
-
-- we want NO DIFFERENCE for all the measures on experience that fucci collected.
-- that suggests that we are actually isolating "sleep deprivation" as our independent variable, instead of some weird effect of "who can commit to sleep deprivation vs. who cannot". Luckily, fucci goes through all of that in the experience report.
-- we basically want to see a bunch of non-significance for various things like GPA, experience with the IDE, experience as a developer, etc.
-- sometimes you are looking for no significance to make your point!
 
 
 
-```{r}
-
-
-
-
-```
-
-
+## References
