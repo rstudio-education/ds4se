@@ -660,8 +660,9 @@ aggregate(formula = `%CONF` ~ METHOD,
 
 }</code></pre>
 </div>
-<div id="parametric-vs.-nonparametric" class="section level2">
-<h2>Parametric vs. NonParametric</h2>
+<div id="parametric-vs.-nonparametric-statistical-power" class="section level2">
+<h2>Parametric vs. NonParametric Statistical Power</h2>
+<p>Similar to effect size, we care about <strong>statistical power</strong>. Imagine a scenario where there <em>is</em> a difference, it’s a <em>big</em> difference, but it’s <em>very unlikely</em> that we will get that result again. Then the confidence that we should reject the null hypothesis is <em>high</em>, the effect size is <em>high</em>, but the statistical power is <em>low</em>. Ideally, we would have high statistical power in addition to a large effect size. Below is a function that routes the data to different tests, depending on the normality of the data. We already know that our data requires nonparametric testing. You can see in the code for the nonparametric test that the p value is <em>simulated</em> and <em>averaged</em> in 1000 runs.</p>
 <pre class="r"><code>StatisticalPowerParam &lt;- function(distribution1, nameDistribution1, distribution2, nameDistribution2, direction = &quot;two.sided&quot;){
 
 #
@@ -695,6 +696,10 @@ StatisticalPowerNonParam &lt;- function(distribution1, nameDistribution1, distri
  cat(&quot; beta-val&quot;, 1- power)
  return(power)
 }</code></pre>
+</div>
+<div id="wilcoxon-aka-mann-whitney-test" class="section level2">
+<h2>Wilcoxon (aka Mann-Whitney) Test</h2>
+<p>The big concept to follow here is that because our data is <strong>not normal</strong> it warrants a nonparametric comparison test. When you have two groups that are not normally distributed, you can use the <code>wilcox.test</code> function in R. Each nonparametric test has a parametric counterpart, which tends to be more powerful because the data is normally distributed and can be more sensitively represented using parameters. The Wilcoxon test’s parametric counterpart is the <strong>t-test</strong>. We can see that if our data <em>did</em> conform to a normal distribution, the below function would route the data to the parametric test, which is a t-test. The Wilcoxon test and the t-test will give us <em>confidence</em> that we can reject the null hypothesis, but the function also outputs the effect size, statistical power, and percentage improvement between groups.</p>
 <pre class="r"><code>Control_vs_Treatment &lt;- function(nameTreatment, treatment, nameControl, control, direction = &quot;two.sided&quot;) {
 
   sTreatment &lt;- shapiro.test(treatment)
@@ -750,32 +755,32 @@ StatisticalPowerNonParam &lt;- function(distribution1, nameDistribution1, distri
 ##  SD PAAP :  0.0034  
 ##  RS PAAP :  0.0344
 ##  Cliff Delta  large  ( -0.476 )
-##  Statistical Power 0.67 
-##  beta-val 0.33
+##  Statistical Power 0.684 
+##  beta-val 0.316
 ##  Mean improvement -48.077 \%
 ##  Statistical test p-value (i.e., Hnx)  0.016 
 ## ***  STATISTICALLY SIGNIFICANT DIFFERENCE ***
-## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.67</code></pre>
+## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.684</code></pre>
 <pre class="r"><code>Control_vs_Treatment(&#39;SD #EPISODES&#39;,SD_Cleaned$`#EPISODES`,&#39;RS # EPISODES&#39;,NOSD_Cleaned$`#EPISODES`) #medium but not significant</code></pre>
 <pre><code>##  Non-parametric analyses 
 ##  SD #EPISODES :  0.0291  
 ##  RS # EPISODES :  0.0871
 ##  Cliff Delta  small  ( -0.32 )
-##  Statistical Power 0.358 
-##  beta-val 0.642
+##  Statistical Power 0.345 
+##  beta-val 0.655
 ##  Mean improvement -39.623 \%
 ##  Statistical test p-value (i.e., Hnx)  0.116 
-## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.358</code></pre>
+## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.345</code></pre>
 <pre class="r"><code>Control_vs_Treatment(&#39;SD %CONF&#39;,SD_Cleaned$`%CONF`,&#39;RS %CONF&#39;,NOSD_Cleaned$`%CONF`) #small</code></pre>
 <pre><code>##  Non-parametric analyses 
 ##  SD %CONF :  4e-04  
 ##  RS %CONF :  0.0164
 ##  Cliff Delta  small  ( -0.293 )
-##  Statistical Power 0.252 
-##  beta-val 0.748
+##  Statistical Power 0.254 
+##  beta-val 0.746
 ##  Mean improvement -40.409 \%
 ##  Statistical test p-value (i.e., Hnx)  0.135 
-## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.252</code></pre>
+## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.254</code></pre>
 </div>
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>

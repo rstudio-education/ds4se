@@ -249,8 +249,9 @@ cliffs.d  <-  function(x,y) {
 }
 ```
 
-## Parametric vs. NonParametric
-Similar to effect size, we care about **statistical power**
+## Parametric vs. NonParametric Statistical Power
+Similar to effect size, we care about **statistical power**. Imagine a scenario where there *is* a difference, it's a *big* difference, but it's *very unlikely* that we will get that result again. Then the confidence that we should reject the null hypothesis is *high*, the effect size is *high*, but the statistical power is *low*. Ideally, we would have high statistical power in addition to a large effect size. Below is a function that routes the data to different tests, depending on the normality of the data. We already know that our data requires nonparametric testing. You can see in the code for the nonparametric test that the p value is *simulated* and *averaged* in 1000 runs.
+
 ```{r}
 StatisticalPowerParam <- function(distribution1, nameDistribution1, distribution2, nameDistribution2, direction = "two.sided"){
 
@@ -286,6 +287,9 @@ StatisticalPowerNonParam <- function(distribution1, nameDistribution1, distribut
  return(power)
 }
 ```
+
+## Wilcoxon (aka Mann-Whitney) Test
+The big concept to follow here is that because our data is **not normal** it warrants a nonparametric comparison test. When you have two groups that are not normally distributed, you can use the `wilcox.test` function in R. Each nonparametric test has a parametric counterpart, which tends to be more powerful because the data is normally distributed and can be more sensitively represented using parameters. The Wilcoxon test's parametric counterpart is the **t-test**. We can see that if our data *did* conform to a normal distribution, the below function would route the data to the parametric test, which is a t-test. The Wilcoxon test and the t-test will give us *confidence* that we can reject the null hypothesis, but the function also outputs the effect size, statistical power, and percentage improvement between groups.
 
 ```{r}
 Control_vs_Treatment <- function(nameTreatment, treatment, nameControl, control, direction = "two.sided") {
@@ -345,7 +349,7 @@ Control_vs_Treatment('SD #EPISODES',SD_Cleaned$`#EPISODES`,'RS # EPISODES',NOSD_
 Control_vs_Treatment('SD %CONF',SD_Cleaned$`%CONF`,'RS %CONF',NOSD_Cleaned$`%CONF`) #small
 ```
 
-
+We successfully replicate the findings in the *Need For Sleep* paper, demonstrating that there was a significant difference for Percentage of Acceptance Asserts Passed: those who were sleep deprived performed 48% *worse* on the programming task than those who had regular sleep.
 
 
 
