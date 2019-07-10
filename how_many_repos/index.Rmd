@@ -25,7 +25,7 @@ Consider this question. The immediate response is to go Google it; voila! You ha
 
 
 ### Our Data (GHTorrent)
-An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a .csv or .txt file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time.
+An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a .csv or .txt file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or **repository** with a `created_at` value. Grouping by day, we see the number of projects created each day. We would be able to access other information about those repositories, like *commits, users, language, description* and more. For now, let's look at the simplest count.
 
 ```{r}
 library(bigrquery)
@@ -33,19 +33,18 @@ library(ggplot2)
 set_service_token("../../servicetoken.json") # you will need to get your own service token from your account. Don't share this!
 project <- "gitstats" #your project name here
 
-# walking through a small SQL example
-# languge with most commits on Alan Turing's birthday in 2016 
 
-sql_example <- "select count(id) as num_projects,date(created_at) as day
+
+sql <- "select count(id) as num_projects,date(created_at) as day
                 FROM [ghtorrent-bq.ght.projects]
                 group by day"
 
 
 
 
-data  <- query_exec(sql_example, project = project, useLegacySql = FALSE)
+data  <- query_exec(sql, project = project, useLegacySql = FALSE)
 
-data <- data[data$day!="2016-05-01",] #crazy outlier?
+data <- data[data$day!="2016-05-01",] #crazy outlier? #like unreasonably so
 
 
 plt = ggplot(data,aes(day,num_projects))+
@@ -56,46 +55,116 @@ plt = ggplot(data,aes(day,num_projects))+
 plt
 
 data <-data[order(data$day),]
-data$n <-seq.int(nrow(data))
-data$num_projects_sum <- cumsum(data$num_projects)
+data$n <-seq.int(nrow(data)) #adding in indexing for the days, so they're numeric
+data$num_projects_sum <- cumsum(data$num_projects) 
+
+
+TOTAL <- sum(data$num_projects) #here's our first answer
+
 
 ```
 
-### Data "Cleaning"
-- talk about what cleaning is, reference back to those decisions we made!
+### Different Strokes for Different Folks
+Could it be that depending on what we investigate and take into account, our final result changes? Does a repository count if it's not code? What if it hasn't been committed to in over a year? Do we care about forked repositories? It depends on what we care about... Do we care about *active code on GitHub*? or do we care about the sheer amount of storage space being taken up on the site? If the latter is the case, do we need information about the size of the repository; maybe even the lines of code? If we care about the former, do we need to look at which files are getting committed to, and which ones aren't being touched? Let's keep track of some of our findings in a table.
 
-### Data Formatting
-To answer our question, we need to create a plan of how we would like to look at the data. This is an important step when trying to answer any question: what would we like to see? To answer our question, we would like to see **the number of repositories**, and how that changes **per year**. Perhaps if we get a sense of that, we might be able to see a trend that tells us how fast GitHub is growing! So in a data table, we would like two columns: Year & Number of Repos.
+```{r, message=FALSE,warning=FALSE}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+
+Final_Result <- c(TOTAL)
+Description <- c("simplest raw sum")
+different_results <- data.frame(Final_Result,Description)
+kable(different_results,caption="different results obtained from different setups of the problem") %>%
+  kable_styling(bootstrap_options = "striped", full_width = T)
+
+```
+
+### Training Data and Testing Data
+You may have a heard about models being "trained". Sometimes this conjures up images of a baby robot learning its ABCs. But training a model basically means building an equation or program off of some data, so that it can reliably generalize to *new* data. We try to find an equation that "fits" the data while also being flexible enough to generalize into the future. If you've heard of the term "trend line" or "line of best fit", this is the concept we will start with when discussing training and test data. On our training data, we find a good fitting trend line. In order to evaluate how good that trend line is, we can compare how it performs on our test data. The benefit of reserving test data is that we can immediately evaluate our model, instead of simply waiting for it to be deployed in the world and either failing or succeeding (trust me, that's not a good idea). So we hold on to some data where we know the **true** values, and compare to what our trained model would predict. Below, we split our data into a training and test set, with a 70/30 split. The two plots show a very similar pattern, but our training set is much denser than the test set.
+
 
 ```{r}
+
 library(caTools)
 
 set.seed(123)   #  set seed to ensure you always have same random numbers generated
-sample = sample.split(data,SplitRatio = 0.95) # splits the data in the ratio mentioned in SplitRatio. After splitting marks these rows as logical TRUE and the the remaining are marked as logical FALSE
-train1 =subset(data,sample ==TRUE) # creates a training dataset named train1 with rows which are marked as TRUE
-test1=subset(data, sample==FALSE)
+sample = sample.split(data,SplitRatio = 0.70) # splits the data in the ratio mentioned in SplitRatio. After splitting marks these rows as logical TRUE and the the remaining are marked as logical FALSE
+train =subset(data,sample ==TRUE) # creates a training dataset named train1 with rows which are marked as TRUE
+test=subset(data, sample==FALSE)
 
 
+ggplot(train,aes(n,num_projects_sum))+
+  geom_point(size=.2,alpha=.1)+
+  ggtitle("Training Data")+
+  theme_bw()
 
-plot(train1$n,train1$num_projects_sum)
-plot(test1$n,test1$num_projects_sum)
-
+ggplot(test,aes(n,num_projects_sum))+
+  geom_point(size=.2,alpha=.2)+
+  ggtitle("Testing Data")+
+  theme_bw()
 
 
 
 
 ```
 
+## Overfitting and Underfitting
+I guarantee it, you can probably fit a model to anything. It doesn't mean it's a *good* model, and it's most certainly not guaranteed to be a *useful* one. The reason why we have training and testing data is so that we can evaluate how useful our model is at predicting new information. A big danger of fitting a model to your training data is **overfitting**. All data is messy, and contains *noise*. That means, tiny dips and jumps that are just natural in the data. But we want to capture the main trends, the main patterns, in the data we have. So we want to make sure that we aren't creating models to fit those tiny dips that don't really matter. Let's zoom in on our data, and look at a *very* close fit vs. a not so great fit:
 
 
-## How many have there been in the past?
+```{r}
 
-### Visualizing Some Data
-- remember, we planned out what we wanted to see. here's where we actually make it
-### Plots
-- make the plots here, show some year-by-year, show some faceting by various languages or something idk
+small <- train[train$n>2100,]
 
-## How can we fit a curve to this?
+underfit <- lm(num_projects_sum~poly(n,1,raw=TRUE),data=small)
+overfit <- lm(num_projects_sum~poly(n,10,raw=TRUE),data=small)
+just_right <- lm(num_projects_sum~poly(n,3,raw=TRUE),data=small)
+
+
+pred.underfit<- predict(underfit,data.frame(n=small$n))
+pred.just_right<- predict(just_right,data.frame(n=small$n))
+pred.overfit<- predict(overfit,data.frame(n=small$n))
+
+
+ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
+  geom_point(size=.2,alpha=.5)+
+  geom_line(aes(n,pred.underfit),color="red")+
+  geom_line(aes(n,pred.overfit),color="blue")+
+  ggtitle("Overfit and Underfit")+
+  theme_bw()
+
+
+```
+
+The model with more parameters sure does seem to fit the data best! You can imagine going to GitHub and announcing *"I've found the exact predictive model of how fast you are growing!"* Your fit is so great, that it captures the small little nuances of how the growth fluctuates. You must be so proud. 
+
+Unfortunately, let's look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn't capturing the main trend, and is then subject to totally bombing on new data.
+
+
+```{r}
+extrap<- as.data.frame(predict(overfit,data.frame(n=seq(2100,4000,1))))
+extrap$n <- seq(2100,4000,1)
+colnames(extrap) <- c("overfit","n")
+extrap$underfit <-predict(underfit,data.frame(n=seq(2100,4000,1)))
+extrap$justright <-predict(just_right,data.frame(n=seq(2100,4000,1)))
+
+
+plt = ggplot(extrap,aes(n,justright))+
+  geom_line(color="orange")+
+  geom_line(aes(n,overfit),color="blue")+
+  geom_line(aes(n,underfit),color="red")+
+  theme_bw()+
+  geom_vline(xintercept = 3100,linetype="dashed")+
+  ylim(-1000,NA)
+plt
+```
+
+Here we have the story of the Three Bears, Machine Learning style. The first equation *sort of* gets the trend (at least it's increasing?!) but really isn't capturing the nonlinearity of the data. A line can only do so much. That's an example of **underfitting**. Then, we have a 10-term polynomial that beautifully fits the data we have; too perfectly. Are *10 terms* really necessary to capture the basic trend? And beyond just being excessive, the complex model may fail miserably on future data.
+
+
+## Slow Down! How can we fit a curve to this?
 We are trying to understand the true trend in the world (in our case, the number of repositories on GitHub and how that is changing over time). Simply understanding trends is nice, as we might be able to infer some causal factors that help a company grow, or we may be able to show that some phenomenon is, in fact, changing over the course of several years. But the real value comes in being able to reliably predict how that trend will continue in the future. The world is filled with patterns and statistical questions, from asking how many repositories there are on GitHub to predicting who needs financial aid or how many people will go vote each year. 
 
 Sometimes, we can simply _look_ at the data and describe the trend line; "it's linear and decreasing", "there's very little or no correlation here", "that's exponential". But things get complicated when we care about the details (which we do!), or if we are dealing in more dimensions than we can see (whoah! don't worry we will get to that in another lesson). For now, let's talk about some of the details we might care about in _our_ problem, that we need modeling to help us determine: 
@@ -121,12 +190,8 @@ Luckily, the field of statistics and data science has come a tad further than th
 
 ## What kind of curve should we fit?
 
-```{r, fig.width=7}
-library("ggplot2")
+```{r, message=FALSE, warning=FALSE, fig.width=7}
 
-
-
-library(MASS)
 
 linear_fit <- lm(data$num_projects_sum~data$n)
 second_polynomial <- lm(data$num_projects_sum~poly(data$n,2,raw=TRUE))
@@ -176,13 +241,6 @@ plt <- ggplot(aes(n,num_projects_sum),data=data)+
   theme_bw()
 plt
 
-#as you can see, this one is different from our original linear model with less confidence
-anova(linear_fit,linear_close_fit)
-# and now for the dumbest example:
-anova(linear_fit,linear_fit)
-#not different because they're the same model
-
-
 
 
 
@@ -200,23 +258,11 @@ anova(linear_fit,linear_fit)
 
 ### Evaluating the Model
 - how do we know if our model is any good?
-### Train-Test-Split
-- describe what this means. we have a bunch of data, we reserve some so we can test how good we will do on the "future" (though we just held the future aside)
-- demo how to do
+
 
 ```{r}
 
 ```
-### Overfitting/Underfitting
-- very briefly make it clear that we don't want too specific of a model and we don't want too vague of a model either, maybe introduce these terms
-### Calculating Performance
-- demo hot to do
 
-
-## How different are the predictions those curves make?
-
-- the philosophical finale! different methods lead to different results on our final answer, we have to justify our decisions and our reasoning when communicating our data finds.
-
-## How does all of this change if we try to remove forked repos and only count originals?
 
 
