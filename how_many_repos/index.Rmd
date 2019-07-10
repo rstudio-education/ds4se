@@ -28,9 +28,36 @@ Consider this question. The immediate response is to go Google it; voila! You ha
 An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a .csv or .txt file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time.
 
 ```{r}
-#setting up a little bit of practice with mongo connection
+library(bigrquery)
+library(ggplot2)
+set_service_token("../../servicetoken.json") # you will need to get your own service token from your account. Don't share this!
+project <- "gitstats" #your project name here
 
-# waiting for SSH access to GHTorrent
+# walking through a small SQL example
+# languge with most commits on Alan Turing's birthday in 2016 
+
+sql_example <- "select count(id) as num_projects,date(created_at) as day
+                FROM [ghtorrent-bq.ght.projects]
+                group by day"
+
+
+
+
+data  <- query_exec(sql_example, project = project, useLegacySql = FALSE)
+
+data <- data[data$day!="2016-05-01",] #crazy outlier?
+
+
+plt = ggplot(data,aes(day,num_projects))+
+  geom_point()+
+  theme_bw()+
+  theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+plt
+
+data <-data[order(data$day),]
+data$n <-seq.int(nrow(data))
+data$num_projects_sum <- cumsum(data$num_projects)
 
 ```
 
@@ -41,17 +68,20 @@ An important thing to understand early on in your programming career is about AP
 To answer our question, we need to create a plan of how we would like to look at the data. This is an important step when trying to answer any question: what would we like to see? To answer our question, we would like to see **the number of repositories**, and how that changes **per year**. Perhaps if we get a sense of that, we might be able to see a trend that tells us how fast GitHub is growing! So in a data table, we would like two columns: Year & Number of Repos.
 
 ```{r}
-# this will actually call from GHTorrent but for now let's just put in some filler code
+library(caTools)
 
-# generate a really small set of test data for fitting curves
-COUNT = 50 # how many units we want to observe (in our case years)
+set.seed(123)   #  set seed to ensure you always have same random numbers generated
+sample = sample.split(data,SplitRatio = 0.95) # splits the data in the ratio mentioned in SplitRatio. After splitting marks these rows as logical TRUE and the the remaining are marked as logical FALSE
+train1 =subset(data,sample ==TRUE) # creates a training dataset named train1 with rows which are marked as TRUE
+test1=subset(data, sample==FALSE)
 
-#creating some fake data by drawing from rexp and sorting, because we assume our GitHub data will be slightly noisy and weird, but roughly exponential 
-# though I also predict a plateau effect (waiting on GHTorrent access)
-data = data.frame(seq(from=1,to=COUNT),sort(rexp(COUNT)))
-colnames(data) <- c("year","count")
 
-head(data)
+
+plot(train1$n,train1$num_projects_sum)
+plot(test1$n,test1$num_projects_sum)
+
+
+
 
 
 ```
@@ -91,34 +121,40 @@ Luckily, the field of statistics and data science has come a tad further than th
 
 ## What kind of curve should we fit?
 
-```{r}
+```{r, fig.width=7}
 library("ggplot2")
 
 
 
 library(MASS)
-linear_fit <- lm(data$count~data$year)
-second_polynomial <- lm(data$count~poly(data$year,2,raw=TRUE))
-third_polynomial <- lm(data$count~poly(data$year,3,raw=TRUE))
-expo <- fitdistr(data$count,"exponential")
+
+linear_fit <- lm(data$num_projects_sum~data$n)
+second_polynomial <- lm(data$num_projects_sum~poly(data$n,2,raw=TRUE))
+third_polynomial <- lm(data$num_projects_sum~poly(data$n,3,raw=TRUE))
+fourth_polynomial <- lm(data$num_projects_sum~poly(data$n,4,raw=TRUE))
+
 
 # testing out different shapes, from linear to third-order polynomial
-data$linear <- predict(linear_fit,data.frame(x=data$year))
-data$second_polynomial <- predict(second_polynomial, data.frame(x=data$year)) 
-data$third_polynomial <- predict(third_polynomial, data.frame(x=data$year))
-data$expo <- dexp(data$year,expo$estimate
-                  )
+data$linear <- predict(linear_fit,data.frame(x=data$n))
+data$second_polynomial <- predict(second_polynomial, data.frame(x=data$n)) 
+data$third_polynomial <- predict(third_polynomial, data.frame(x=data$n))
+data$fourth_polynomial <- predict(fourth_polynomial, data.frame(x=data$n))
 
 
 #ggplot those curves
-plt <- ggplot(aes(year,count),data=data)+
+plt <- ggplot(data,aes(day,num_projects_sum))+
   geom_point(size=1)+
-  ggtitle("Exponential Growth","test data")+
-  geom_line(aes(year,linear),color="#8DD3C7",size=1)+
-  geom_line(aes(year,second_polynomial),color="#FB8072",size=1)+
-  geom_line(aes(year,third_polynomial),color="#80B1D3",size=1)+
-  #geom_line(aes(year,expo),color="purple",size=1)
-  theme_bw()
+  ggtitle("Github repos over time")+
+  geom_line(aes(n,linear),color="#8DD3C7",size=1,alpha=.6)+
+  geom_line(aes(n,second_polynomial),color="#FB8072",size=1,alpha=.6)+
+  geom_line(aes(n,third_polynomial),color="#3982f7",size=1)+
+  geom_vline(xintercept = seq(0,3300,by=365),linetype="dashed",alpha=.2)+
+  theme_bw()+
+  theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  xlab("Time")+
+  ylab("Number of repositories")+
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 plt
 
 # we can actually test if one model is significantly different at predicting the data than another!
@@ -129,14 +165,14 @@ anova(second_polynomial,third_polynomial)
 # they're all significantly different from each other p<.001
 
 #to test the idea behind an anova, you can imagine creating a model we know should be closer to a model we already have, and seeing if they come out as "different"
-linear_close_fit <- lm(data$count~data$year-1)
-data$linear_close <-predict(linear_close_fit, data.frame(x=data$year)) 
+linear_close_fit <- lm(data$num_projects_sum ~ data$n-1)
+data$linear_close <-predict(linear_close_fit, data.frame(x=data$n)) 
 
-plt <- ggplot(aes(year,count),data=data)+
+plt <- ggplot(aes(n,num_projects_sum),data=data)+
   geom_point(size=1)+
   ggtitle("Exponential Growth","test data")+
-  geom_line(aes(year,linear),color="#8DD3C7",size=1)+
-  geom_line(aes(year,linear_close),color="#FB8072",size=1)+
+  geom_line(aes(n,linear),color="#8DD3C7",size=1)+
+  geom_line(aes(n,linear_close),color="#FB8072",size=1)+
   theme_bw()
 plt
 
@@ -167,6 +203,10 @@ anova(linear_fit,linear_fit)
 ### Train-Test-Split
 - describe what this means. we have a bunch of data, we reserve some so we can test how good we will do on the "future" (though we just held the future aside)
 - demo how to do
+
+```{r}
+
+```
 ### Overfitting/Underfitting
 - very briefly make it clear that we don't want too specific of a model and we don't want too vague of a model either, maybe introduce these terms
 ### Calculating Performance
