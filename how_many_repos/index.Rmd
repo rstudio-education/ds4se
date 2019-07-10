@@ -143,20 +143,24 @@ The model with more parameters sure does seem to fit the data best! You can imag
 Unfortunately, let's look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn't capturing the main trend, and is then subject to totally bombing on new data.
 
 
-```{r}
+```{r, message=FALSE,warning=FALSE}
 extrap<- as.data.frame(predict(overfit,data.frame(n=seq(2100,4000,1))))
 extrap$n <- seq(2100,4000,1)
 colnames(extrap) <- c("overfit","n")
 extrap$underfit <-predict(underfit,data.frame(n=seq(2100,4000,1)))
 extrap$justright <-predict(just_right,data.frame(n=seq(2100,4000,1)))
 
+merged <- merge(extrap,train,all=TRUE)
 
-plt = ggplot(extrap,aes(n,justright))+
-  geom_line(color="orange")+
+
+plt = ggplot(merged,aes(n,num_projects_sum))+
+  geom_point(size=.5)+
+  geom_line(aes(n,justright),color="orange")+
   geom_line(aes(n,overfit),color="blue")+
   geom_line(aes(n,underfit),color="red")+
   theme_bw()+
   geom_vline(xintercept = 3100,linetype="dashed")+
+  xlim(2100,NA)+
   ylim(-1000,NA)
 plt
 ```
@@ -193,21 +197,21 @@ Luckily, the field of statistics and data science has come a tad further than th
 ```{r, message=FALSE, warning=FALSE, fig.width=7}
 
 
-linear_fit <- lm(data$num_projects_sum~data$n)
-second_polynomial <- lm(data$num_projects_sum~poly(data$n,2,raw=TRUE))
-third_polynomial <- lm(data$num_projects_sum~poly(data$n,3,raw=TRUE))
-fourth_polynomial <- lm(data$num_projects_sum~poly(data$n,4,raw=TRUE))
+linear_fit <- lm(num_projects_sum~n,data=train)
+second_polynomial <- lm(num_projects_sum~poly(n,2,raw=TRUE),data=train)
+third_polynomial <- lm(num_projects_sum~poly(n,3,raw=TRUE),data=train)
+
 
 
 # testing out different shapes, from linear to third-order polynomial
-data$linear <- predict(linear_fit,data.frame(x=data$n))
-data$second_polynomial <- predict(second_polynomial, data.frame(x=data$n)) 
-data$third_polynomial <- predict(third_polynomial, data.frame(x=data$n))
-data$fourth_polynomial <- predict(fourth_polynomial, data.frame(x=data$n))
+train$linear <- predict(linear_fit,data.frame(n=train$n))
+train$second_polynomial <- predict(second_polynomial, data.frame(n=train$n)) 
+train$third_polynomial <- predict(third_polynomial, data.frame(n=train$n))
+
 
 
 #ggplot those curves
-plt <- ggplot(data,aes(day,num_projects_sum))+
+plt <- ggplot(train,aes(n,num_projects_sum))+
   geom_point(size=1)+
   ggtitle("Github repos over time")+
   geom_line(aes(n,linear),color="#8DD3C7",size=1,alpha=.6)+
@@ -222,47 +226,19 @@ plt <- ggplot(data,aes(day,num_projects_sum))+
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
 plt
 
-# we can actually test if one model is significantly different at predicting the data than another!
-anova(linear_fit,second_polynomial)
-anova(linear_fit,third_polynomial)
-anova(second_polynomial,third_polynomial)
 
-# they're all significantly different from each other p<.001
+  
 
-#to test the idea behind an anova, you can imagine creating a model we know should be closer to a model we already have, and seeing if they come out as "different"
-linear_close_fit <- lm(data$num_projects_sum ~ data$n-1)
-data$linear_close <-predict(linear_close_fit, data.frame(x=data$n)) 
+future <- as.data.frame(predict(third_polynomial, data.frame(n=seq(0,5000))))
+future$n <- seq(0,5000)
+colnames(future) <- c("prediction","n")
 
-plt <- ggplot(aes(n,num_projects_sum),data=data)+
-  geom_point(size=1)+
-  ggtitle("Exponential Growth","test data")+
-  geom_line(aes(n,linear),color="#8DD3C7",size=1)+
-  geom_line(aes(n,linear_close),color="#FB8072",size=1)+
+future <- merge(train,future,all=TRUE)
+
+ggplot(future,aes(n,prediction))+
+  geom_line(color="red",linetype="dashed")+
+  geom_point(aes(n,num_projects_sum),color="black",size=1)+
   theme_bw()
-plt
-
-
-
 
 ```
-
-### Data Science is About Making Decisions (Assumptions)
-
-### The Shape
-- linear, exponential, sinusoidal, power law, here's where we explore what different shapes might represent the underlying data process
-- demo different shapes on the graph
-
-### The Fit
-- we want the model to accurately represent the data, while also avoiding being too complex of a model (simpler is better)
-- demo some different fits using different params
-
-### Evaluating the Model
-- how do we know if our model is any good?
-
-
-```{r}
-
-```
-
-
 
