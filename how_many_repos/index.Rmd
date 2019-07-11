@@ -16,16 +16,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Have You Ever Wondered...
 
-We come across statistical questions all the time, even if we don't immediately realize it. From "whoah, how did Amazon know I was looking for a collection of rubber ducks that look like cowboys?" to more applied questions like "When will this server run out of storage space?" or "When will this project be completed?" Fortunatley, we live in a data-driven society; with access to billions of data sources from all over the world, we should be able to answer anything, right? Data comes in all kinds of forms; heartrate data every second from your fitness watch, location check-ins from that pizza place you went to last week, transactions, clicks, views, posts, tags... It's all digital data that can tell us something about the world. But making sense of it all requires statistical thinking and data-wrangling skills. So let's go.
+We come across statistical questions all the time, even if we don't immediately realize it. From "whoah, how did Amazon know I was looking for a collection of rubber ducks that look like cowboys?" to more applied questions like "When will this server run out of storage space?" or "When will this project be completed?" Fortunatley, we live in a data-driven society; with access to billions of data sources from all over the world, we should be able to answer anything, right? Data comes in all kinds of forms; heartrate data every second from your fitness watch, location check-ins from that pizza place you went to last week, transactions, clicks, views, posts, tags... It's all digital data that can tell us something about the world. But making sense of it all requires statistical thinking and data-wrangling skills.
 
-## How many repositories are there now? 
+## How many repositories are there on GitHub? 
 
 Consider this question. The immediate response is to go Google it; voila! You have an answer (it seems to say that there are 100 million repositiories). But how would you actually arrive at that answer? And how would you know you were correct? Similarly to a straightforward programming task, seemingly simple questions can devolve into tons of unforseen caveats, constraints, and workarounds.
 
 
 
 ### Our Data (GHTorrent)
-An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a .csv or .txt file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or **repository** with a `created_at` value. Grouping by day, we see the number of projects created each day. We would be able to access other information about those repositories, like *commits, users, language, description* and more. For now, let's look at the simplest count.
+An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or **repository** with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like *commits, users, language, description* and more. For now, let's look at the simplest count.
 
 ```{r}
 library(bigrquery)
@@ -34,19 +34,19 @@ set_service_token("../../servicetoken.json") # you will need to get your own ser
 project <- "gitstats" #your project name here
 
 
-
+# an sql query string
 sql <- "select count(id) as num_projects,date(created_at) as day
                 FROM [ghtorrent-bq.ght.projects]
                 group by day"
 
 
 
-
+#executing the query
 data  <- query_exec(sql, project = project, useLegacySql = FALSE)
 
 data <- data[data$day!="2016-05-01",] #crazy outlier? #like unreasonably so
 
-
+#number of projects created each day (it's going up, but its not the running sum! don't mix them up)
 plt = ggplot(data,aes(day,num_projects))+
   geom_point()+
   theme_bw()+
@@ -55,7 +55,9 @@ plt = ggplot(data,aes(day,num_projects))+
 plt
 
 data <-data[order(data$day),]
-data$n <-seq.int(nrow(data)) #adding in indexing for the days, so they're numeric
+data$n <-seq.int(nrow(data)) #adding in indexing for the days, so they're numeric as opposed to dates
+
+#what we care about is the number of projects total, over time
 data$num_projects_sum <- cumsum(data$num_projects) 
 
 
@@ -82,21 +84,16 @@ kable(different_results,caption="different results obtained from different setup
 ```
 
 ### Training Data and Testing Data
-You may have a heard about models being "trained". Sometimes this conjures up images of a baby robot learning its ABCs. But training a model basically means building an equation or program off of some data, so that it can reliably generalize to *new* data. We try to find an equation that "fits" the data while also being flexible enough to generalize into the future. If you've heard of the term "trend line" or "line of best fit", this is the concept we will start with when discussing training and test data. On our training data, we find a good fitting trend line. In order to evaluate how good that trend line is, we can compare how it performs on our test data. The benefit of reserving test data is that we can immediately evaluate our model, instead of simply waiting for it to be deployed in the world and either failing or succeeding (trust me, that's not a good idea). So we hold on to some data where we know the **true** values, and compare to what our trained model would predict. Below, we split our data into a training and test set, with a 70/30 split. The two plots show a very similar pattern, but our training set is much denser than the test set.
+You may have a heard about models being "trained". Sometimes this conjures up images of a baby robot learning its ABCs. But training a model basically means building an equation or program off of some data, so that it can reliably generalize to *new* data. We try to find an equation that "fits" the data while also being flexible enough to generalize into the future. If you've heard of the term "trend line" or "line of best fit", this is the concept we will start with when discussing training and test data. On our training data, we find a good fitting trend line. In order to evaluate how good that trend line is, we can compare how it performs on our test data. The benefit of reserving test data is that we can immediately evaluate our model, instead of simply waiting for it to be deployed in the world and either failing or succeeding (trust me, that's not a good idea). So we hold on to some data where we know the **true** values, and compare to what our trained model would predict. Below, we split our data into a training and test set, with a 70/30 split. With some data, you would sample in order to get a wide range of test data from across the entire set. However, because our model is *over time* we will reserve the last 30% of true data in order to evaluate how effective our models are. **You do not always want to just grab the last bit of data, as this can be biased for some problems where time is not the independent variable.** (Imagine you were trying to fit a model to determine the genre of a movie, and your test set was accidentally all holiday movies because you pulled from December for your test set). In our case, we will grab the most recent 30%.
 
 
 ```{r}
 
-library(caTools)
-
-set.seed(123)   #  set seed to ensure you always have same random numbers generated
-sample = sample.split(data,SplitRatio = 0.70) # splits the data in the ratio mentioned in SplitRatio. After splitting marks these rows as logical TRUE and the the remaining are marked as logical FALSE
-train =subset(data,sample ==TRUE) # creates a training dataset named train1 with rows which are marked as TRUE
-test=subset(data, sample==FALSE)
+#split <- 
 
 
 ggplot(train,aes(n,num_projects_sum))+
-  geom_point(size=.2,alpha=.1)+
+  geom_point(size=.2,alpha=.2)+
   ggtitle("Training Data")+
   theme_bw()
 
@@ -114,36 +111,52 @@ ggplot(test,aes(n,num_projects_sum))+
 I guarantee it, you can probably fit a model to anything. It doesn't mean it's a *good* model, and it's most certainly not guaranteed to be a *useful* one. The reason why we have training and testing data is so that we can evaluate how useful our model is at predicting new information. A big danger of fitting a model to your training data is **overfitting**. All data is messy, and contains *noise*. That means, tiny dips and jumps that are just natural in the data. But we want to capture the main trends, the main patterns, in the data we have. So we want to make sure that we aren't creating models to fit those tiny dips that don't really matter. Let's zoom in on our data, and look at a *very* close fit vs. a not so great fit:
 
 
-```{r}
+```{r, warning=FALSE,message=FALSE}
 
+#zoom in on a window of our data
 small <- train[train$n>2100,]
 
-underfit <- lm(num_projects_sum~poly(n,1,raw=TRUE),data=small)
-overfit <- lm(num_projects_sum~poly(n,10,raw=TRUE),data=small)
-just_right <- lm(num_projects_sum~poly(n,3,raw=TRUE),data=small)
+underfit <- lm(num_projects_sum~poly(n,1,raw=TRUE),data=small) #just one parameter, it will be a straight line
+overfit <- lm(num_projects_sum~poly(n,10,raw=TRUE),data=small) #10 parameters, this will be a very funky polynomial
+just_right <- lm(num_projects_sum~poly(n,3,raw=TRUE),data=small) # 3 parameters, this one seems to capture enough of the trend, but without overfitting
 
-
-pred.underfit<- predict(underfit,data.frame(n=small$n))
+#generate predictions from the models
+pred.underfit<- predict(underfit,data.frame(n=small$n)) 
 pred.just_right<- predict(just_right,data.frame(n=small$n))
 pred.overfit<- predict(overfit,data.frame(n=small$n))
 
-
+#plot the prediction lines
 ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
   geom_point(size=.2,alpha=.5)+
-  geom_line(aes(n,pred.underfit),color="red")+
-  geom_line(aes(n,pred.overfit),color="blue")+
+  geom_line(aes(n,pred.just_right,color="Just Right"))+
+  geom_line(aes(n,pred.overfit,color="Overfit"))+
+  geom_line(aes(n,pred.underfit,color="Underfit"))+
+  scale_color_discrete(name="Models")+
   ggtitle("Overfit and Underfit")+
   theme_bw()
 
+#zooming in even closer
+ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
+  geom_point(size=.2,alpha=.5)+
+  geom_line(aes(n,pred.just_right,color="Just Right"))+
+  geom_line(aes(n,pred.overfit,color="Overfit"))+
+  geom_line(aes(n,pred.underfit,color="Underfit"))+
+  scale_color_discrete(name="Models")+
+  ggtitle("Overfit and Underfit")+
+  theme_bw()+
+  xlim(2400,2700)+
+  ylim(1e+07,2e+07)
 
 ```
 
 The model with more parameters sure does seem to fit the data best! You can imagine going to GitHub and announcing *"I've found the exact predictive model of how fast you are growing!"* Your fit is so great, that it captures the small little nuances of how the growth fluctuates. You must be so proud. 
 
-Unfortunately, let's look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn't capturing the main trend, and is then subject to totally bombing on new data.
+Unfortunately, let's look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn't capturing the main trend, and is then subject to totally bombing on new data. **Overfitting**: using too complex a model, with too many unjustified parameters, to accidentally fit to the noise in your data instead of capturing the main trend. **Underfitting**: not complex enough of a model, missing out on valuable information about the patterns in the data (like a straight line attempting to fit an exponential). We want the "sweet spot" where we have a reasonable number of parameters, but are also robust to real world data, and can handle noisy inputs.
 
 
 ```{r, message=FALSE,warning=FALSE}
+
+#extrapolate the model onto future data
 extrap<- as.data.frame(predict(overfit,data.frame(n=seq(2100,4000,1))))
 extrap$n <- seq(2100,4000,1)
 colnames(extrap) <- c("overfit","n")
@@ -153,15 +166,19 @@ extrap$justright <-predict(just_right,data.frame(n=seq(2100,4000,1)))
 merged <- merge(extrap,train,all=TRUE)
 
 
+#plot those lines and see how well they will do on future data
 plt = ggplot(merged,aes(n,num_projects_sum))+
-  geom_point(size=.5)+
-  geom_line(aes(n,justright),color="orange")+
-  geom_line(aes(n,overfit),color="blue")+
-  geom_line(aes(n,underfit),color="red")+
+  geom_point(size=.5,aes(color="True Data"),color="black")+
+  geom_line(aes(n,justright,color="Just Right"))+
+  geom_line(aes(n,overfit,color="Overfit"))+
+  geom_line(aes(n,underfit,color="Underfit"))+
   theme_bw()+
   geom_vline(xintercept = 3100,linetype="dashed")+
   xlim(2100,NA)+
-  ylim(-1000,NA)
+  ylim(-1000,NA)+
+  xlab("Time (days)")+
+  ylab("Total Repositories")+
+  scale_color_discrete(name = "Models")
 plt
 ```
 
@@ -194,7 +211,7 @@ Luckily, the field of statistics and data science has come a tad further than th
 
 ## What kind of curve should we fit?
 
-```{r, message=FALSE, warning=FALSE, fig.width=7}
+```{r, message=FALSE, warning=FALSE, fig.width=10}
 
 
 linear_fit <- lm(num_projects_sum~n,data=train)
@@ -212,18 +229,19 @@ train$third_polynomial <- predict(third_polynomial, data.frame(n=train$n))
 
 #ggplot those curves
 plt <- ggplot(train,aes(n,num_projects_sum))+
-  geom_point(size=1)+
+  geom_point(size=.5)+
   ggtitle("Github repos over time")+
-  geom_line(aes(n,linear),color="#8DD3C7",size=1,alpha=.6)+
-  geom_line(aes(n,second_polynomial),color="#FB8072",size=1,alpha=.6)+
-  geom_line(aes(n,third_polynomial),color="#3982f7",size=1)+
+  geom_line(aes(n,linear, color="Linear"),size=.5,alpha=.6)+
+  geom_line(aes(n,second_polynomial,color="Second Polynomial"),size=.5,alpha=.6)+
+  geom_line(aes(n,third_polynomial,color="Third Polynomial"),size=.5)+
   geom_vline(xintercept = seq(0,3300,by=365),linetype="dashed",alpha=.2)+
   theme_bw()+
   theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
   xlab("Time")+
-  ylab("Number of repositories")+
-  scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
+  ylab("Total Repositories")+
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE))+
+  scale_color_discrete(name="Models")
 plt
 
 
@@ -237,7 +255,7 @@ future <- merge(train,future,all=TRUE)
 
 ggplot(future,aes(n,prediction))+
   geom_line(color="red",linetype="dashed")+
-  geom_point(aes(n,num_projects_sum),color="black",size=1)+
+  geom_point(aes(n,num_projects_sum),color="black",size=.5)+
   theme_bw()
 
 ```
