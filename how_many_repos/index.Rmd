@@ -88,9 +88,10 @@ You may have a heard about models being "trained". Sometimes this conjures up im
 
 
 ```{r}
+third <- length(data$n)%/%3
 
-#split <- 
-
+test <- tail(data,third)
+train <- head(data,third*2)
 
 ggplot(train,aes(n,num_projects_sum))+
   geom_point(size=.2,alpha=.2)+
@@ -112,9 +113,9 @@ I guarantee it, you can probably fit a model to anything. It doesn't mean it's a
 
 
 ```{r, warning=FALSE,message=FALSE}
-
+zoom <-1500
 #zoom in on a window of our data
-small <- train[train$n>2100,]
+small <- train[train$n>zoom,]
 
 underfit <- lm(num_projects_sum~poly(n,1,raw=TRUE),data=small) #just one parameter, it will be a straight line
 overfit <- lm(num_projects_sum~poly(n,10,raw=TRUE),data=small) #10 parameters, this will be a very funky polynomial
@@ -126,7 +127,7 @@ pred.just_right<- predict(just_right,data.frame(n=small$n))
 pred.overfit<- predict(overfit,data.frame(n=small$n))
 
 #plot the prediction lines
-ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
+ggplot(train[train$n>zoom,],aes(n,num_projects_sum))+
   geom_point(size=.2,alpha=.5)+
   geom_line(aes(n,pred.just_right,color="Just Right"))+
   geom_line(aes(n,pred.overfit,color="Overfit"))+
@@ -136,7 +137,7 @@ ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
   theme_bw()
 
 #zooming in even closer
-ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
+ggplot(train[train$n>zoom,],aes(n,num_projects_sum))+
   geom_point(size=.2,alpha=.5)+
   geom_line(aes(n,pred.just_right,color="Just Right"))+
   geom_line(aes(n,pred.overfit,color="Overfit"))+
@@ -144,8 +145,8 @@ ggplot(train[train$n>2100,],aes(n,num_projects_sum))+
   scale_color_discrete(name="Models")+
   ggtitle("Overfit and Underfit")+
   theme_bw()+
-  xlim(2400,2700)+
-  ylim(1e+07,2e+07)
+  xlim(zoom+300,zoom+500)+
+  ylim(train$num_projects_sum[zoom+300],train$num_projects_sum[zoom+500])
 
 ```
 
@@ -157,11 +158,11 @@ Unfortunately, let's look at the extrapolated trajectory of the models we have. 
 ```{r, message=FALSE,warning=FALSE}
 
 #extrapolate the model onto future data
-extrap<- as.data.frame(predict(overfit,data.frame(n=seq(2100,4000,1))))
-extrap$n <- seq(2100,4000,1)
+extrap<- as.data.frame(predict(overfit,data.frame(n=seq(tail(train$n, 1),4000,1))))
+extrap$n <- seq(tail(train$n, 1),4000,1)
 colnames(extrap) <- c("overfit","n")
-extrap$underfit <-predict(underfit,data.frame(n=seq(2100,4000,1)))
-extrap$justright <-predict(just_right,data.frame(n=seq(2100,4000,1)))
+extrap$underfit <-predict(underfit,data.frame(n=seq(tail(train$n, 1),4000,1)))
+extrap$justright <-predict(just_right,data.frame(n=seq(tail(train$n, 1),4000,1)))
 
 merged <- merge(extrap,train,all=TRUE)
 
@@ -174,11 +175,12 @@ plt = ggplot(merged,aes(n,num_projects_sum))+
   geom_line(aes(n,underfit,color="Underfit"))+
   theme_bw()+
   geom_vline(xintercept = 3100,linetype="dashed")+
-  xlim(2100,NA)+
+  xlim(zoom,NA)+
   ylim(-1000,NA)+
   xlab("Time (days)")+
   ylab("Total Repositories")+
-  scale_color_discrete(name = "Models")
+  scale_color_discrete(name = "Models")+
+  ylim(NA,1.0e+8)
 plt
 ```
 
@@ -216,7 +218,7 @@ Luckily, the field of statistics and data science has come a tad further than th
 
 linear_fit <- lm(num_projects_sum~n,data=train)
 second_polynomial <- lm(num_projects_sum~poly(n,2,raw=TRUE),data=train)
-third_polynomial <- lm(num_projects_sum~poly(n,3,raw=TRUE),data=train)
+third_polynomial <- lm(num_projects_sum~poly(n,4,raw=TRUE),data=train)
 
 
 
@@ -258,5 +260,14 @@ ggplot(future,aes(n,prediction))+
   geom_point(aes(n,num_projects_sum),color="black",size=.5)+
   theme_bw()
 
+future_and_test <- merge(test,future,all=TRUE)
+ggplot(future_and_test,aes(n,prediction))+
+  geom_point(color="red")+
+  geom_point(aes(n,num_projects_sum),color="black",size=.5)+
+  geom_vline(xintercept=tail(train$n,1),linetype="dashed")+
+  geom_vline(xintercept=tail(test$n,1),linetype="dashed")+
+  
+  theme_bw()
+View(future_and_test)
 ```
 
