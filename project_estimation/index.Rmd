@@ -1,0 +1,143 @@
+---
+title: "When will I be done with this project?"
+author: "Yim Register"
+date: "7/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Inconsistency of Measurement
+
+
+This lesson is going to explore how we estimate how long software will take to finish (or your homework, for that matter). We will explore several statistical and scientific concepts:
+
+- reliability of measurment
+- generalization of results
+- features that could matter
+- data wrangling
+- accuracy
+- within-subjects testing
+- mixed models
+
+
+#
+# inconsistency_est.R,  9 Sep 17
+# Data from:
+# Inconsistency of Expert Judgement-based Estimates of Software Development Effort
+# Stein Grimstad and Magne J{\o}rgensen
+#
+# Example from:
+# Empirical Software Engineering using R
+# Derek M. Jones
+
+source("../bin/data/ESEUR_config.r")
+
+
+library("plyr")
+library("reshape2")
+library("ggplot2")
+
+pal_col=rainbow(6)
+
+
+plot_subj=function(df)
+{
+# Relies on each subject being adjacent in df
+points(subset(df, Order == 1)$Estimate,
+       subset(df, Order == 2)$Estimate, col=pal_col[df$Task[1]])
+}
+
+
+incon=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/inconsistency_est.csv.xz"), as.is=TRUE)
+
+tasks=melt(incon, measure.vars=paste0("T", 1:6),
+		variable.name="Task", value.name="Estimate")
+
+plot(tasks$Estimate[tasks$Order== 1],tasks$Estimate[tasks$Order== 2],xlim=c(1,80),log="xy")	
+
+first <- as.vector(tasks$Estimate[tasks$Order==1])
+second <- as.vector(tasks$Estimate[tasks$Order==2])
+
+estimates <- as.data.frame(tasks$Estimate[tasks$Order==1],tasks$Estimate[tasks$Order==2])
+
+plt = ggplot(tasks,aes(Estimate[]))+
+  geom_point()
+plt
+
+plot(0.1, type="n", log="xy",
+	xlim=c(1, 80), ylim=c(1, 80),
+	xlab="First estimate", ylab="Second estimate\n")
+
+lines(c(0.5, 100), c(0.5, 100), col="grey")
+
+
+d_ply(tasks, .(Task), plot_subj)
+
+legend(x="bottomright", legend=paste0("Task ", 1:6), bty="n", fill=pal_col, cex=1.2)
+
+First=subset(tasks, Order == 1)
+Second=subset(tasks, Order == 2)
+
+# Correlation is a misleading method of comparing accuracy
+# cor.test(First$Estimate, Second$Estimate)
+
+# Percentage difference?
+# This is one of those awkward cases... TODO: switch brain
+# library("boot")
+
+
+# Regression Models of Software Development Effort Estimation Accuracy and Bias
+#
+# Example from:
+# Empirical Software Engineering using R
+# Derek M. Jones
+
+
+
+library("foreign")
+
+pal_col=rainbow(2)
+
+
+kitch=read.arff(paste0(ESEUR_dir, "../bin/data/estimation/82507128-kitchenham.arff.txt"))
+jorg=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/Regression-models.csv.xz"), as.is=TRUE)
+
+plot(kitch$First.estimate/100, kitch$Actual.effort/100, log="xy", col=pal_col[1],
+	xlim=c(5, max(kitch$First.estimate))/100,
+	ylim=c(5, max(kitch$Actual.effort))/100,
+	xlab="Estimate (100 hours)", ylab="Actual\n")
+
+points(jorg$Estimated.effort/100, jorg$Actual.effort/100, col=pal_col[2])
+
+lines(c(5, 1e5)/100, c(5, 1e5)/100, col="grey")
+
+legend(x="bottomright", legend=c("Kitchenham", "Jørgensen"), bty="n", fill=pal_col, cex=1.2)
+
+# 
+# plot(kitch$First.estimate, kitch$Adjusted.function.points, log="xy", col=point_col,
+# 	xlab="Estimate", ylab="Adjusted.function.points\n")
+# 
+# plot(kitch$Actual.effort, kitch$Adjusted.function.points, log="xy", col=point_col,
+# 	xlab="Actual", ylab="Function points\n")
+# 
+# library("MASS")
+# 
+# e_mod=glm(Actual.effort ~ (First.estimate+Adjusted.function.points
+# 				+Client.code+Project.type
+# 				+First.estimate.method)^2
+# 				, data=kitch)
+# 
+# t=stepAIC(e_mod)
+# summary(t)
+# 
+# 
+# e_mod=glm(formula = Actual.effort ~ First.estimate
+#     + First.estimate:Adjusted.function.points
+#     + First.estimate:Client.code
+#     , data = kitch)
+# 
+# summary(e_mod)
