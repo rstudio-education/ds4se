@@ -261,13 +261,31 @@ ggplot(future,aes(n,prediction))+
   theme_bw()
 
 future_and_test <- merge(test,future,all=TRUE)
+#predictions for testing period
+library(data.table)
+future_and_test<-setDT(future_and_test)[, lapply(.SD, na.omit), by = n]
+
+
 ggplot(future_and_test,aes(n,prediction))+
-  geom_point(color="red")+
+  geom_line(color="red",linetype="dashed")+
   geom_point(aes(n,num_projects_sum),color="black",size=.5)+
   geom_vline(xintercept=tail(train$n,1),linetype="dashed")+
   geom_vline(xintercept=tail(test$n,1),linetype="dashed")+
-  
   theme_bw()
 View(future_and_test)
 ```
+## Evaluation
 
+Because we held on to some test data, we can evaluate how good our model is on actual prediction, as opposed to just looking at how well it fits the training data (that matters too, but not nearly as much). What we have now is two vectors that we can compare. The **true** data (our test data), and the **predicted** data (our model). We can compare how good our model did by recording the **root mean squared error**. One of the great things about R is that we can do this very straightforwardly:
+
+```{r}
+
+predictions <- future_and_test %>% 
+                filter(n %in% (test$n))
+predictions <-predictions[order(predictions$n),]
+test <-test[order(test$n),]
+head(test)
+residuals <- test$num_projects_sum-predictions$prediction
+
+
+```
