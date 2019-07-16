@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<topartists user="thedude" type="overall">
+		<artist rank="1">
+			<name>Coldplay</name>
+			<playcount>4</playcount>
+			<url>http://www.last.fm/music/Coldplay</url>
+		</artist>
+    <artist rank="2">
+      <name>Cher</name>
+      <playcount>2</playcount>
+      <url>http://www.last.fm/music/Cher</url>
+    </artist>
+    <artist rank="3">
+      <name>ABBA</name>
+      <playcount>1</playcount>
+      <url>http://www.last.fm/music/ABBA</url>
+   </artist>
+	</topartists>
+</lfm>

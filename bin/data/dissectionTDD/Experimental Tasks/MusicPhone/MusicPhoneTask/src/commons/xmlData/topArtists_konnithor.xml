@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<topartists user="konnithor" type="overall">
+		<artist rank="1">
+			<name>Metallica</name>
+			<playcount>54</playcount>
+			<mbid>65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab</mbid>
+			<url>http://www.last.fm/music/Metallica</url>
+			<streamable>1</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/313628.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/313628.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/313628.jpg</image>
+		</artist>
+		<artist rank="2">
+			<name>Black Sun Empire</name>
+			<playcount>28</playcount>
+			<mbid>76a2eaff-b6ad-483a-a427-d3a2aa3c4f8f</mbid>
+			<url>http://www.last.fm/music/Black+Sun+Empire</url>
+			<streamable>1</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/764927.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/764927.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/764927.jpg</image>
+		</artist>
+		<artist rank="3">
+			<name>Alex Kidd</name>
+			<playcount>7</playcount>
+			<mbid></mbid>
+			<url>http://www.last.fm/music/Alex+Kidd</url>
+			<streamable>0</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/559573.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/559573.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/559573.jpg</image>
+		</artist>
+		<artist rank="4">
+			<name>Alex Reece</name>
+			<playcount>5</playcount>
+			<mbid>1c8e46d4-9343-48ce-aed8-0862e03878fd</mbid>
+			<url>http://www.last.fm/music/Alex+Reece</url>
+			<streamable>1</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/279980.gif</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/279980.gif</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/279980.gif</image>
+		</artist>
+		<artist rank="5">
+			<name>Black Sun Empire And Noisia</name>
+			<playcount>4</playcount>
+			<mbid></mbid>
+			<url>http://www.last.fm/music/+noredirect/Black+Sun+Empire+And+Noisia</url>
+			<streamable>0</streamable>
+			<image size="small"></image>
+			<image size="medium"></image>
+			<image size="large"></image>
+		</artist>
+		<artist rank="6">
+			<name>Alix Perez and Pendulum</name>
+			<playcount>2</playcount>
+			<mbid></mbid>
+			<url>http://www.last.fm/music/Alix+Perez+and+Pendulum</url>
+			<streamable>0</streamable>
+			<image size="small"></image>
+			<image size="medium"></image>
+			<image size="large"></image>
+		</artist>
+		<artist rank="6">
+			<name>Guns N' Roses</name>
+			<playcount>2</playcount>
+			<mbid>eeb1195b-f213-4ce1-b28c-8565211f8e43</mbid>
+			<url>http://www.last.fm/music/Guns+N%27+Roses</url>
+			<streamable>1</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3223900.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3223900.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3223900.jpg</image>
+		</artist>
+		<artist rank="6">
+			<name>Acen</name>
+			<playcount>2</playcount>
+			<mbid>a4fe5665-f303-48ff-8e4e-ca59ec257401</mbid>
+			<url>http://www.last.fm/music/Acen</url>
+			<streamable>1</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/120305.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/120305.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/120305.jpg</image>
+		</artist>
+		<artist rank="6">
+			<name>Britney Spears</name>
+			<playcount>2</playcount>
+			<mbid>45a663b5-b1cb-4a91-bff6-2bef7bbfdd76</mbid>
+			<url>http://www.last.fm/music/Britney+Spears</url>
+			<streamable>1</streamable>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13196521.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13196521.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13196521.jpg</image>
+		</artist>
+	</topartists>
+</lfm>

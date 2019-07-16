@@ -1,0 +1,1601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Britney Spears" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="45">
+		<event>
+			<id>853135</id>
+			<title>Britney Spears</title>
+			<artists>
+				<artist>Britney Spears</artist>
+				<artist>The Pussycat Dolls</artist>
+				<headliner>Britney Spears</headliner>
+			</artists>
+			<venue>
+				<name>Air Canada Centre</name>
+				<location>
+					<city>Toronto</city>
+					<country>Canada</country>
+					<street>40 Bay St</street>
+					<postalcode>M5J 2X2</postalcode>
+					<point>
+						<lat>43.643333</lat>
+						<long>-79.377994</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781753</url>
+			</venue>
+			<startDate>Wed, 18 Mar 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode"><a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/Britney-Spears-tickets/artist/723427" rel="nofollow">Buy Tickets Here</a></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+		<attendance>30</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=853135</tag>
+		<url>http://www.last.fm/event/853135</url>
+	</event>
+	<event>
+		<id>858281</id>
+		<title>Britney Spears</title>
+		<artists>
+			<artist>Britney Spears</artist>
+			<artist>The Pussycat Dolls</artist>
+			<headliner>Britney Spears</headliner>
+		</artists>
+		<venue>
+			<name>Air Canada Centre</name>
+			<location>
+				<city>Toronto</city>
+				<country>Canada</country>
+				<street>40 Bay St</street>
+				<postalcode>M5J 2X2</postalcode>
+				<point>
+					<lat>43.643333</lat>
+					<long>-79.377994</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8781753</url>
+		</venue>
+		<startDate>Thu, 19 Mar 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+		<attendance>13</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=858281</tag>
+		<url>http://www.last.fm/event/858281</url>
+	</event>
+	<event>
+		<id>854325</id>
+		<title>The Circus Starring Britney Spears 2009 Tour</title>
+		<artists>
+			<artist>Britney Spears</artist>
+			<artist>The Pussycat Dolls</artist>
+			<headliner>Britney Spears</headliner>
+		</artists>
+		<venue>
+			<name>Bell Centre</name>
+			<location>
+				<city>Montreal</city>
+				<country>Canada</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>45.496154</lat>
+					<long>-73.570575</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8987019</url>
+		</venue>
+		<startDate>Fri, 20 Mar 2009</startDate>
+		<startTime>19:30</startTime>
+		<description>
+		<![CDATA[<div class="bbcode">BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.  <img src="http://aeglive.com/marketing_console/uploads/files/media/000/024/Client-4808-8-11262008-0.jpg" /></div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854325</tag>
+	<url>http://www.last.fm/event/854325</url>
+</event>
+<event>
+	<id>860568</id>
+	<title>Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Nassau Coliseum</name>
+		<location>
+			<city>Uniondale, NY</city>
+			<country>United States</country>
+			<street>1255 Hempstead Turnpike</street>
+			<postalcode>11553</postalcode>
+			<point>
+				<lat>40.72012</lat>
+				<long>-73.587799</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779606</url>
+	</venue>
+	<startDate>Mon, 23 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=860568</tag>
+	<url>http://www.last.fm/event/860568</url>
+</event>
+<event>
+	<id>853259</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Center</name>
+		<location>
+			<city>Washington DC</city>
+			<country>United States</country>
+			<street>601 F Street, NW</street>
+			<postalcode>20004</postalcode>
+			<point>
+				<lat>38.89732</lat>
+				<long>-77.01999</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785557</url>
+	</venue>
+	<startDate>Tue, 24 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/Britney-Spears-tickets/artist/723427" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=853259</tag>
+	<url>http://www.last.fm/event/853259</url>
+</event>
+<event>
+	<id>854328</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mohegan Sun Arena</name>
+		<location>
+			<city>Uncasville, CT</city>
+			<country>United States</country>
+			<street>1 Mohegan Sun Boulevard</street>
+			<postalcode>06382</postalcode>
+			<point>
+				<lat>41.492517</lat>
+				<long>-72.095924</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8824273</url>
+	</venue>
+	<startDate>Thu, 26 Mar 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://aeglive.com/tourdates.php?id=20935&amp;detail_type=event" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854328</tag>
+	<url>http://www.last.fm/event/854328</url>
+</event>
+<event>
+	<id>854329</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mellon Arena</name>
+		<location>
+			<city>Pittsburgh</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8987021</url>
+	</venue>
+	<startDate>Fri, 27 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITPIT032709AEG001&amp;GOTO=http://www.ticketmaster.com/Britney-Spears-tickets/artist/723427" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>21</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854329</tag>
+	<url>http://www.last.fm/event/854329</url>
+</event>
+<event>
+	<id>935687</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mellon Arena</name>
+		<location>
+			<city>Pittsburgh, PA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8984503</url>
+	</venue>
+	<startDate>Fri, 27 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=935687</tag>
+	<url>http://www.last.fm/event/935687</url>
+</event>
+<event>
+	<id>935686</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mellon Arena</name>
+		<location>
+			<city>Pittsburgh, PA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8984503</url>
+	</venue>
+	<startDate>Fri, 27 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode"><a title="Britney Spears - Cirucs" href="http://ws.audioscrobbler.com/music/Britney+Spears/Cirucs" class="bbcode_album">Cirucs</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+<attendance>0</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=935686</tag>
+<url>http://www.last.fm/event/935686</url>
+</event>
+<event>
+	<id>935691</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mellon Arena</name>
+		<location>
+			<city>Pittsburgh, PA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8984503</url>
+	</venue>
+	<startDate>Fri, 27 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=935691</tag>
+	<url>http://www.last.fm/event/935691</url>
+</event>
+<event>
+	<id>854313</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Toyota Center</name>
+		<location>
+			<city>Houston, Texas</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>29.750864</lat>
+				<long>-95.362109</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8928438</url>
+	</venue>
+	<startDate>Mon, 30 Mar 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/Britney-Spears-tickets/artist/723427" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854313</tag>
+	<url>http://www.last.fm/event/854313</url>
+</event>
+<event>
+	<id>854207</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>American Airlines Center</name>
+		<location>
+			<city>Dallas, TX</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>32.78333</lat>
+				<long>-96.8</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8898569</url>
+	</venue>
+	<startDate>Tue, 31 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITDFW033109AEG001&amp;GOTO=http://www.ticketmaster.com/event/0C004174CD59F2B9" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>17</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854207</tag>
+	<url>http://www.last.fm/event/854207</url>
+</event>
+<event>
+	<id>937252</id>
+	<title>Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>American Airlines Center</name>
+		<location>
+			<city>Dallas</city>
+			<country>United States</country>
+			<street>Victory Park @ 2500 Victory Ave</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>32.788973</lat>
+				<long>-96.80985</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780882</url>
+	</venue>
+	<startDate>Tue, 31 Mar 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Step right up, step right up! &quot;The Circus&quot; is coming to American Airlines Center on March 31st and stars Britney Spears. Spears announced on Good Morning America under the Big Top in New York her national tour to support her highly anticipated album &quot;The Circus.&quot; The first single off her new album, &quot;Womanizer, quickly rose to the top spot on the Billboard charts. Spears hasn't toured since 2004.<br />
+		DATE: March 31, 2009<br />
+		TIME: 8:00 P.M.<br />
+		DOORS OPEN: 7:00 P.M.<br />
+	TICKET PRICE:  $39.50-$500.00</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=937252</tag>
+	<url>http://www.last.fm/event/937252</url>
+</event>
+<event>
+	<id>853985</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Sprint Center</name>
+		<location>
+			<city>Kansas City</city>
+			<country>United States</country>
+			<street>1407 Grand Boulevard</street>
+			<postalcode>64106</postalcode>
+			<point>
+				<lat>39.09896</lat>
+				<long>-94.582093</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8858654</url>
+	</venue>
+	<startDate>Thu, 02 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/event/06004178C8FC99BF" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=853985</tag>
+	<url>http://www.last.fm/event/853985</url>
+</event>
+<event>
+	<id>854332</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Target Center</name>
+		<location>
+			<city>Minneapolis</city>
+			<country>United States</country>
+			<street>600 First Avenue North</street>
+			<postalcode>55403</postalcode>
+			<point>
+				<lat>44.979572</lat>
+				<long>-93.276091</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778532</url>
+	</venue>
+	<startDate>Fri, 03 Apr 2009</startDate>
+	<startTime>20:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITMSP040309AEG001&amp;GOTO=http://www.ticketmaster.com/event/06004175A89F80F1" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854332</tag>
+	<url>http://www.last.fm/event/854332</url>
+</event>
+<event>
+	<id>853838</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Rexall Place</name>
+		<location>
+			<city>Edmonton</city>
+			<country>Canada</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.570453</lat>
+				<long>-113.454444</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781553</url>
+	</venue>
+	<startDate>Mon, 06 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://aeglive.com/tourdates.php?id=20944&amp;detail_type=event" rel="nofollow">Buy Tickets Here</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+<attendance>11</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=853838</tag>
+<url>http://www.last.fm/event/853838</url>
+</event>
+<event>
+	<id>853347</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>General Motors Place</name>
+		<location>
+			<city>Vancouver, Bc</city>
+			<country>Canada</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.277418</lat>
+				<long>-123.10966</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8870741</url>
+	</venue>
+	<startDate>Wed, 08 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">MUST SEE EVENT!!!!!<br />
+		<br />
+		<a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.ca/event/1100417A8854907C?artistid=723427&amp;majorcatid=10001&amp;minorcatid=1" rel="nofollow">Buy Tickets Here</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>18</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=853347</tag>
+	<url>http://www.last.fm/event/853347</url>
+</event>
+<event>
+	<id>854358</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>TacomaDome</name>
+		<location>
+			<city>Tacoma</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.237447</lat>
+				<long>-122.428707</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8987027</url>
+	</venue>
+	<startDate>Thu, 09 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITYEG040609AEG001&amp;GOTO=http://www.ticketmaster.com/event/0F00417891D030DD" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>25</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854358</tag>
+	<url>http://www.last.fm/event/854358</url>
+</event>
+<event>
+	<id>853319</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Arco Arena</name>
+		<location>
+			<city>Sacramento, California</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>38.64907</lat>
+				<long>-121.518209</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8958776</url>
+	</venue>
+	<startDate>Sat, 11 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/Britney-Spears-tickets/artist/723427" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=853319</tag>
+	<url>http://www.last.fm/event/853319</url>
+</event>
+<event>
+	<id>853844</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>HP Pavilion at San Jose</name>
+		<location>
+			<city>San Jose, CA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>37.332736</lat>
+				<long>-121.901208</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8902217</url>
+	</venue>
+	<startDate>Sun, 12 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/event/1C004175870E32A7" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BIG NEWS! Did you hear? Britney’s going on tour and she’s bringing The Pussycat Dolls along with her! The Circus Starring Britney Spears, choreographed by Wade Robson, will be Britney’s first arena tour in five years. Now’s your chance to experience the circus like never before as Britney performs center ring, in the round! Get ready to sing and dance your hearts out.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>18</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=853844</tag>
+	<url>http://www.last.fm/event/853844</url>
+</event>
+<event>
+	<id>854335</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>EnergySolutions Arena</name>
+		<location>
+			<city>Salt Lake City</city>
+			<country>United States</country>
+			<street>301 West South Temple</street>
+			<postalcode>84101</postalcode>
+			<point>
+				<lat>40.76821</lat>
+				<long>-111.901692</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8803893</url>
+	</venue>
+	<startDate>Tue, 14 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITSEA040909AEG001&amp;GOTO=http://www.ticketmaster.com/event/1E00417788DC34D9" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854335</tag>
+	<url>http://www.last.fm/event/854335</url>
+</event>
+<event>
+	<id>854337</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Staples Center</name>
+		<location>
+			<city>Los Angeles</city>
+			<country>United States</country>
+			<street>1111 S. Figueroa St</street>
+			<postalcode>90015</postalcode>
+			<point>
+				<lat>34.043527</lat>
+				<long>-118.265354</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780552</url>
+	</venue>
+	<startDate>Thu, 16 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITLAX041609AEG001&amp;GOTO=http://www.ticketmaster.com/event/0900416DA0675541" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854337</tag>
+	<url>http://www.last.fm/event/854337</url>
+</event>
+<event>
+	<id>858329</id>
+	<title>The Circus: Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Staples Center</name>
+		<location>
+			<city>Los Angeles, CA</city>
+			<country>United States</country>
+			<street>1111 S Figueroa St # 3100</street>
+			<postalcode>90015</postalcode>
+			<point>
+				<lat>34.043528</lat>
+				<long>-118.265355</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8928527</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=858329</tag>
+	<url>http://www.last.fm/event/858329</url>
+</event>
+<event>
+	<id>854338</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Honda Center (formerly Arrowhead Pond Of Anaheim)</name>
+		<location>
+			<city>Anaheim</city>
+			<country>United States</country>
+			<street>2685 E Katella Ave</street>
+			<postalcode>92806</postalcode>
+			<point>
+				<lat>33.806196</lat>
+				<long>-117.876658</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8803641</url>
+	</venue>
+	<startDate>Sun, 19 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITSNA041909AEG001&amp;GOTO=http://www.ticketmaster.com/event/09004178D6516AAF" rel="nofollow">Buy Tickets Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854338</tag>
+	<url>http://www.last.fm/event/854338</url>
+</event>
+<event>
+	<id>936084</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Honda Center (formerly Arrowhead Pond Of Anaheim)</name>
+		<location>
+			<city>Anaheim, CA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>33.83528</lat>
+				<long>-117.91361</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8915008</url>
+	</venue>
+	<startDate>Mon, 20 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">2685 E Katella Ave<br />
+		Anaheim, Los Angeles CA 92806<br />
+		United States<br />
+		Show on Map <br />
+		Tel: (714) 704-2500 <br />
+		Web: <a href="http://www.hondacenter.com/" rel="nofollow">www.hondacenter.com/</a>
+		<br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live. Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=936084</tag>
+	<url>http://www.last.fm/event/936084</url>
+</event>
+<event>
+	<id>866641</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Oracle Arena</name>
+		<location>
+			<city>OAKLAND, CA</city>
+			<country>United States</country>
+			<street>7000 Coliseum Way</street>
+			<postalcode>94621</postalcode>
+			<point>
+				<lat>37.80444</lat>
+				<long>-122.26972</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8956524</url>
+	</venue>
+	<startDate>Wed, 22 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=866641</tag>
+	<url>http://www.last.fm/event/866641</url>
+</event>
+<event>
+	<id>860604</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Jobing.com Arena</name>
+		<location>
+			<city>Glendale, AZ</city>
+			<country>United States</country>
+			<street>9400 W. Maryland Ave.</street>
+			<postalcode>85305</postalcode>
+			<point>
+				<lat>33.531436</lat>
+				<long>-112.261207</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8896710</url>
+	</venue>
+	<startDate>Fri, 24 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live. Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+<attendance>7</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=860604</tag>
+<url>http://www.last.fm/event/860604</url>
+</event>
+<event>
+	<id>853999</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>MGM Grand Hotel</name>
+		<location>
+			<city>Las Vegas(, Nevada)</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>36.104826</lat>
+				<long>-115.167586</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8986947</url>
+	</venue>
+	<startDate>Sat, 25 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.  <br />
+		<br />
+		<a href="http://ticketsus.at/mdz01?DURL=http://www.ticketmaster.com/Britney-Spears-tickets/artist/723427" rel="nofollow">Buy Tickets Here</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=853999</tag>
+	<url>http://www.last.fm/event/853999</url>
+</event>
+<event>
+	<id>854341</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Allstate Arena</name>
+		<location>
+			<city>Rosemont, IL</city>
+			<country>United States</country>
+			<street>6920 N. Mannheim Road</street>
+			<postalcode>60018</postalcode>
+			<point>
+				<lat>42.004368</lat>
+				<long>-87.884495</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779619</url>
+	</venue>
+	<startDate>Tue, 28 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.ticketmaster.com/cgi/outsider.plx?CAMEFROM=AEGLIVE_WBRITCHI042809AEG001&amp;GOTO=http://www.ticketmaster.com/event/0400416C7E872074" rel="nofollow">Buy Tickets  Here</a><br />
+		<br />
+	BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live.  Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls. Tickets go on sale beginning Saturday, December 6.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>16</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854341</tag>
+	<url>http://www.last.fm/event/854341</url>
+</event>
+<event>
+	<id>882646</id>
+	<title>The Circus Starring Britney Spears 2009 Tour at Schottenstein Center</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Schottenstein Center</name>
+		<location>
+			<city>Columbus, Ohio</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>39.96111</lat>
+				<long>-82.99889</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8976109</url>
+	</venue>
+	<startDate>Thu, 30 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=882646</tag>
+	<url>http://www.last.fm/event/882646</url>
+</event>
+<event>
+	<id>884676</id>
+	<title>The Circus Starring Britney Spears 2009 Tour</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mohegan Sun Arena</name>
+		<location>
+			<city>Uncasville, CT</city>
+			<country>United States</country>
+			<street>1 Mohegan Sun Boulevard</street>
+			<postalcode>06382</postalcode>
+			<point>
+				<lat>41.492517</lat>
+				<long>-72.095924</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8824273</url>
+	</venue>
+	<startDate>Sat, 02 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">BRITNEY SPEARS has announced that she will make her highly anticipated return to the stage with THE CIRCUS STARRING BRITNEY SPEARS 2009 TOUR, her first arena tour in five years, produced by AEG Live. Following hot on the heels of the December 2nd, 2008 release of her long-awaited sixth studio album, Circus, Spears will begin rehearsing for her incredible tour production this January with famed director and Emmy-winning choreographer Wade Robson, before launching the 27-city North American trek on March 3, 2009 in New Orleans with special guests The Pussycat Dolls.  The new date was added due to high demand!<a href="http://ws.audioscrobbler.com/music/Britney+Spears" class="bbcode_artist">Britney Spears</a><a href="http://ws.audioscrobbler.com/music/+noredirect/Pussycat+Dolls" class="bbcode_artist">Pussycat Dolls</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+<attendance>5</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=884676</tag>
+<url>http://www.last.fm/event/884676</url>
+</event>
+<event>
+	<id>987037</id>
+	<title>The Circus Starring: Britney Spears </title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>The Pussycat Dolls</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Mohegan Sun Arena</name>
+		<location>
+			<city>Uncasville, CT</city>
+			<country>United States</country>
+			<street>1 Mohegan Sun Boulevard</street>
+			<postalcode>06382</postalcode>
+			<point>
+				<lat>41.492517</lat>
+				<long>-72.095924</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8824273</url>
+	</venue>
+	<startDate>Sun, 03 May 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Britney Spears announced that she has rescheduled her March 26th Mohegan Sun Arena show for Sunday, May 3rd.  The reschedule is due to the grand size of the show’s production, including a 360˚ stage, acrobatic apparatus and intense visual effects.  The current tour routing for the Mohegan Sun date does not allow enough time for travel and the needed production set-up time.  Her highly-anticipated The Circus Starring Britney Spears 2009 Tour will be playing Mohegan Sun Arena on Saturday, May 2nd and Sunday May 3rd.  Saturday’s show begins at 8:00pm and Sunday’s show begins at 7:30pm.<br />
+		<br />
+		Ticket holders are advised to retain their tickets for the Thursday, March 26th show as they will be honored on the rescheduled date of Sunday, May 3rd.  Refunds are available at the point of purchase.<br />
+		<br />
+	For more information on The Circus Starring Britney Spears 2009 Tour with special guests the Pussycat Dolls and other great events at Mohegan Sun, visit mohegansun.com.  For information on this week’s schedule, call the Entertainment and Special Events hotline at 1.888.226.7711, ext. 27163.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=987037</tag>
+	<url>http://www.last.fm/event/987037</url>
+</event>
+<event>
+	<id>847379</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>Ciara</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Wed, 03 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>48</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=847379</tag>
+	<url>http://www.last.fm/event/847379</url>
+</event>
+<event>
+	<id>847381</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Thu, 04 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>25</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=847381</tag>
+	<url>http://www.last.fm/event/847381</url>
+</event>
+<event>
+	<id>854860</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<artist>Ciara</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sat, 06 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>39</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854860</tag>
+	<url>http://www.last.fm/event/854860</url>
+</event>
+<event>
+	<id>854861</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sun, 07 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>34</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854861</tag>
+	<url>http://www.last.fm/event/854861</url>
+</event>
+<event>
+	<id>854864</id>
+	<title>Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>32</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854864</tag>
+	<url>http://www.last.fm/event/854864</url>
+</event>
+<event>
+	<id>854865</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Thu, 11 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>33</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=854865</tag>
+	<url>http://www.last.fm/event/854865</url>
+</event>
+<event>
+	<id>857275</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sat, 13 Jun 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>22</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857275</tag>
+	<url>http://www.last.fm/event/857275</url>
+</event>
+<event>
+	<id>857530</id>
+	<title>Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sun, 14 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>25</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857530</tag>
+	<url>http://www.last.fm/event/857530</url>
+</event>
+<event>
+	<id>935281</id>
+	<title>The Circus: Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Manchester Evening News Arena</name>
+		<location>
+			<city>Manchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>M3 1AR</postalcode>
+			<point>
+				<lat>53.487094</lat>
+				<long>-2.243988</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777080</url>
+	</venue>
+	<startDate>Wed, 17 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>22</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=935281</tag>
+	<url>http://www.last.fm/event/935281</url>
+</event>
+<event>
+	<id>986972</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>POPB / Palais Omnisports de Paris-Bercy</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>8, boulevard de Bercy</street>
+			<postalcode>75012</postalcode>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781813</url>
+	</venue>
+	<startDate>Sat, 04 Jul 2009</startDate>
+	<startTime>20:30</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Ouverture billetterie : 03/04</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+<attendance>3</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=986972</tag>
+<url>http://www.last.fm/event/986972</url>
+</event>
+<event>
+	<id>986976</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>POPB / Palais Omnisports de Paris-Bercy</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>8, boulevard de Bercy</street>
+			<postalcode>75012</postalcode>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781813</url>
+	</venue>
+	<startDate>Sun, 05 Jul 2009</startDate>
+	<startTime>20:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=986976</tag>
+	<url>http://www.last.fm/event/986976</url>
+</event>
+<event>
+	<id>986979</id>
+	<title>The Circus Starring Britney Spears</title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>POPB / Palais Omnisports de Paris-Bercy</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>8, boulevard de Bercy</street>
+			<postalcode>75012</postalcode>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781813</url>
+	</venue>
+	<startDate>Mon, 06 Jul 2009</startDate>
+	<startTime>20:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=986979</tag>
+	<url>http://www.last.fm/event/986979</url>
+</event>
+<event>
+	<id>985277</id>
+	<title>Britney Spears - The Circus World Tour istanbul </title>
+	<artists>
+		<artist>Britney Spears</artist>
+		<headliner>Britney Spears</headliner>
+	</artists>
+	<venue>
+		<name>Abdi İpekçi Spor Salonu</name>
+		<location>
+			<city>İstanbul</city>
+			<country>Turkey</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.032938</lat>
+				<long>28.900086</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781231</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Britney+Spears" class="bbcode_artist">Britney Spears</a><a title="Britney Spears - Circus" href="http://ws.audioscrobbler.com/music/Britney+Spears/Circus" class="bbcode_album">Circus</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/157603.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/157603.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/157603.jpg</image>
+<attendance>3</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=985277</tag>
+<url>http://www.last.fm/event/985277</url>
+</event>
+</events>
+</lfm>

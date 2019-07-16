@@ -1,0 +1,2699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Papa Roach" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="62">
+		<event>
+			<id>965779</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<artist>Burn Halo</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Susquehanna Bank Center</name>
+				<location>
+					<city>Camden, NJ</city>
+					<country>United States</country>
+					<street>1 Harbour Boulevard</street>
+					<postalcode>08103</postalcode>
+					<point>
+						<lat>39.942333</lat>
+						<long>-75.128549</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8905210</url>
+			</venue>
+			<startDate>Thu, 19 Mar 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=965779</tag>
+			<url>http://www.last.fm/event/965779</url>
+		</event>
+		<event>
+			<id>946652</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>GIANT Center</name>
+				<location>
+					<city>Hershey, PA</city>
+					<country>United States</country>
+					<street>550 E. Hershey Park Dr.</street>
+					<postalcode>17033</postalcode>
+					<point>
+						<lat>40.28583</lat>
+						<long>-76.65056</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8898195</url>
+			</venue>
+			<startDate>Sat, 21 Mar 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=946652</tag>
+			<url>http://www.last.fm/event/946652</url>
+		</event>
+		<event>
+			<id>977202</id>
+			<title>Avenged Sevenfold, Buckcherry, Papa Roach, Burn Halo</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<artist>Burn Halo</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Columbus Civic Center</name>
+				<location>
+					<city>Columbus, Georgia</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>32.453202</lat>
+						<long>-84.987529</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9013744</url>
+			</venue>
+			<startDate>Mon, 23 Mar 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=977202</tag>
+			<url>http://www.last.fm/event/977202</url>
+		</event>
+		<event>
+			<id>934737</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Freedom Hall</name>
+				<location>
+					<city>Johnson City, Tennessee</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>36.31333</lat>
+						<long>-82.35361</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8976378</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=934737</tag>
+			<url>http://www.last.fm/event/934737</url>
+		</event>
+		<event>
+			<id>983226</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Rupp Arena</name>
+				<location>
+					<city>Lexington, Kentucky</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>38.049201</lat>
+						<long>-84.501043</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9015212</url>
+			</venue>
+			<startDate>Fri, 27 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=983226</tag>
+			<url>http://www.last.fm/event/983226</url>
+		</event>
+		<event>
+			<id>937077</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Asheville Civic Center</name>
+				<location>
+					<city>Asheville, North Carolina</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.597058</lat>
+						<long>-82.555923</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8994127</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=937077</tag>
+			<url>http://www.last.fm/event/937077</url>
+		</event>
+		<event>
+			<id>924659</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<artist>Saving Abel</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Sommet Center</name>
+				<location>
+					<city>Nashville, Tennessee</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>36.159133</lat>
+						<long>-86.778492</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9000470</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=924659</tag>
+			<url>http://www.last.fm/event/924659</url>
+		</event>
+		<event>
+			<id>964810</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Heartland Events Center</name>
+				<location>
+					<city>Grand Island, Ne</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>40.902055</lat>
+						<long>-98.329449</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8935855</url>
+			</venue>
+			<startDate>Fri, 03 Apr 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=964810</tag>
+			<url>http://www.last.fm/event/964810</url>
+		</event>
+		<event>
+			<id>939128</id>
+			<title>Avenged Sevenfold &amp; Buckcherry</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Kansas Expocentre</name>
+				<location>
+					<city>Topeka</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>39.04833</lat>
+						<long>-95.67778</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8803255</url>
+			</venue>
+			<startDate>Sat, 04 Apr 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>4</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=939128</tag>
+			<url>http://www.last.fm/event/939128</url>
+		</event>
+		<event>
+			<id>969886</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Brady Theater</name>
+				<location>
+					<city>Tulsa, Oklahoma</city>
+					<country>United States</country>
+					<street>105 W Brady St</street>
+					<postalcode>74103</postalcode>
+					<point>
+						<lat>36.15389</lat>
+						<long>-95.9925</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8941868</url>
+			</venue>
+			<startDate>Mon, 06 Apr 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=969886</tag>
+			<url>http://www.last.fm/event/969886</url>
+		</event>
+		<event>
+			<id>974521</id>
+			<title>Papa Roach</title>
+			<artists>
+				<artist>Papa Roach</artist>
+				<headliner>Papa Roach</headliner>
+			</artists>
+			<venue>
+				<name>The Forum</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>9-17 Highgate Road, Kentish Town</street>
+					<postalcode>NW5 1JY</postalcode>
+					<point>
+						<lat>51.552028</lat>
+						<long>-0.141918</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778927</url>
+			</venue>
+			<startDate>Tue, 07 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=974521</tag>
+			<url>http://www.last.fm/event/974521</url>
+		</event>
+		<event>
+			<id>978583</id>
+			<title>Avenged Sevenfold</title>
+			<artists>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Papa Roach</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Avenged Sevenfold</headliner>
+			</artists>
+			<venue>
+				<name>Amarillo Civic Center</name>
+				<location>
+					<city>Amarillo, TX</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.209058</lat>
+						<long>-101.831574</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8942725</url>
+			</venue>
+			<startDate>Thu, 09 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=978583</tag>
+			<url>http://www.last.fm/event/978583</url>
+		</event>
+		<event>
+			<id>960118</id>
+			<title>Papa Roach with Avenged Sevenfold&amp; Buckcherry</title>
+			<artists>
+				<artist>Papa Roach</artist>
+				<artist>Avenged Sevenfold</artist>
+				<artist>Buckcherry</artist>
+				<headliner>Papa Roach</headliner>
+			</artists>
+			<venue>
+				<name>NMSU Pan American Center</name>
+				<location>
+					<city>Las Cruces, NM</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>32.31222</lat>
+						<long>-106.77778</long>
+					</point>
+					<timezone>MST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8934323</url>
+			</venue>
+			<startDate>Sat, 11 Apr 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Papa+Roach" class="bbcode_artist">Papa Roach</a><a href="http://ws.audioscrobbler.com/music/Avenged+Sevenfold" class="bbcode_artist">Avenged Sevenfold</a><a href="http://ws.audioscrobbler.com/music/Buckcherry" class="bbcode_artist">Buckcherry</a></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=960118</tag>
+		<url>http://www.last.fm/event/960118</url>
+	</event>
+	<event>
+		<id>924083</id>
+		<title>Papa Roach</title>
+		<artists>
+			<artist>Papa Roach</artist>
+			<artist>Filter</artist>
+			<artist>Dear Superstar</artist>
+			<headliner>Papa Roach</headliner>
+		</artists>
+		<venue>
+			<name>Manchester Academy 1</name>
+			<location>
+				<city>Manchester</city>
+				<country>United Kingdom</country>
+				<street>Oxford Road</street>
+				<postalcode>M13 9PR</postalcode>
+				<point>
+					<lat>53.463611</lat>
+					<long>-2.231667</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8976847</url>
+		</venue>
+		<startDate>Thu, 16 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+		<attendance>32</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=924083</tag>
+		<url>http://www.last.fm/event/924083</url>
+	</event>
+	<event>
+		<id>980464</id>
+		<title>Papa Roach with Filter, Dear Superstar</title>
+		<artists>
+			<artist>Papa Roach</artist>
+			<artist>Filter</artist>
+			<artist>Dear Superstar</artist>
+			<headliner>Papa Roach</headliner>
+		</artists>
+		<venue>
+			<name>Manchester Academy</name>
+			<location>
+				<city>Manchester</city>
+				<country>United Kingdom</country>
+				<street>Oxford Road Manchester</street>
+				<postalcode>M13 9PR</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014716</url>
+		</venue>
+		<startDate>Thu, 16 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980464</tag>
+		<url>http://www.last.fm/event/980464</url>
+	</event>
+	<event>
+		<id>924081</id>
+		<title>Papa Roach</title>
+		<artists>
+			<artist>Papa Roach</artist>
+			<artist>Filter</artist>
+			<artist>Dear Superstar</artist>
+			<headliner>Papa Roach</headliner>
+		</artists>
+		<venue>
+			<name>The Forum</name>
+			<location>
+				<city>London</city>
+				<country>United Kingdom</country>
+				<street>9-17 Highgate Road, Kentish Town</street>
+				<postalcode>NW5 1JY</postalcode>
+				<point>
+					<lat>51.552028</lat>
+					<long>-0.141918</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778927</url>
+		</venue>
+		<startDate>Fri, 17 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+		<attendance>44</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=924081</tag>
+		<url>http://www.last.fm/event/924081</url>
+	</event>
+	<event>
+		<id>949370</id>
+		<title>Avenged Sevenfold</title>
+		<artists>
+			<artist>Avenged Sevenfold</artist>
+			<artist>Papa Roach</artist>
+			<artist>Buckcherry</artist>
+			<headliner>Avenged Sevenfold</headliner>
+		</artists>
+		<venue>
+			<name>San Diego Sports Arena</name>
+			<location>
+				<city>San Diego, California</city>
+				<country>United States</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>32.753669</lat>
+					<long>-117.211625</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9007285</url>
+		</venue>
+		<startDate>Fri, 17 Apr 2009</startDate>
+		<startTime>18:30</startTime>
+		<description>
+		<![CDATA[<div class="bbcode">This is the last A7X show in SoCal until 2010! So make sure you see these amazing guys perform live.</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/3058380.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/3058380.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/3058380.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=949370</tag>
+	<url>http://www.last.fm/event/949370</url>
+</event>
+<event>
+	<id>924064</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>Dear Superstar</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>O2 Academy</name>
+		<location>
+			<city>Birmingham</city>
+			<country>United Kingdom</country>
+			<street>52-54 Dale End</street>
+			<postalcode>B4 7LS</postalcode>
+			<point>
+				<lat>52.480733</lat>
+				<long>-1.8945</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8999832</url>
+	</venue>
+	<startDate>Sat, 18 Apr 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=924064</tag>
+	<url>http://www.last.fm/event/924064</url>
+</event>
+<event>
+	<id>980473</id>
+	<title>Papa Roach with Filter, Dear Superstar</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>Dear Superstar</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>O2 Academy Birmingham</name>
+		<location>
+			<city>Birmingham</city>
+			<country>United Kingdom</country>
+			<street>52-54 Dale End, Priory Square</street>
+			<postalcode>B4 7LS</postalcode>
+			<point>
+				<lat>52.480733</lat>
+				<long>-1.8945</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014680</url>
+	</venue>
+	<startDate>Sat, 18 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980473</tag>
+	<url>http://www.last.fm/event/980473</url>
+</event>
+<event>
+	<id>925165</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>In This Moment</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Live Music Hall</name>
+		<location>
+			<city>Cologne</city>
+			<country>Germany</country>
+			<street>Lichtstraße 30</street>
+			<postalcode>50825</postalcode>
+			<point>
+				<lat>50.949063</lat>
+				<long>6.910118</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778353</url>
+	</venue>
+	<startDate>Mon, 20 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>58</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=925165</tag>
+	<url>http://www.last.fm/event/925165</url>
+</event>
+<event>
+	<id>919632</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>In This Moment</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Melkweg</name>
+		<location>
+			<city>Amsterdam</city>
+			<country>Netherlands</country>
+			<street>Lijnbaansgracht 234a</street>
+			<postalcode>1017 PH</postalcode>
+			<point>
+				<lat>52.365228</lat>
+				<long>4.881184</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778669</url>
+	</venue>
+	<startDate>Tue, 21 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>70</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=919632</tag>
+	<url>http://www.last.fm/event/919632</url>
+</event>
+<event>
+	<id>924355</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>In This Moment</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Docks</name>
+		<location>
+			<city>Hamburg</city>
+			<country>Germany</country>
+			<street>Spielbudenplatz 19</street>
+			<postalcode>20359</postalcode>
+			<point>
+				<lat>53.549424</lat>
+				<long>9.964667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778595</url>
+	</venue>
+	<startDate>Wed, 22 Apr 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>51</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=924355</tag>
+	<url>http://www.last.fm/event/924355</url>
+</event>
+<event>
+	<id>923778</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>In This Moment</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Huxleys</name>
+		<location>
+			<city>Berlin</city>
+			<country>Germany</country>
+			<street>Hasenheide 107-113</street>
+			<postalcode>10967</postalcode>
+			<point>
+				<lat>52.487198</lat>
+				<long>13.421015</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780802</url>
+	</venue>
+	<startDate>Fri, 24 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>57</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=923778</tag>
+	<url>http://www.last.fm/event/923778</url>
+</event>
+<event>
+	<id>922098</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<artist>In This Moment</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Gasometer</name>
+		<location>
+			<city>Wien</city>
+			<country>Austria</country>
+			<street>Guglgasse 8</street>
+			<postalcode>1110</postalcode>
+			<point>
+				<lat>48.2</lat>
+				<long>16.3666667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778988</url>
+	</venue>
+	<startDate>Sat, 25 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>45</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=922098</tag>
+	<url>http://www.last.fm/event/922098</url>
+</event>
+<event>
+	<id>930262</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Backstage</name>
+		<location>
+			<city>München</city>
+			<country>Germany</country>
+			<street>Friedenheimer Brücke 7</street>
+			<postalcode>80639</postalcode>
+			<point>
+				<lat>48.145613</lat>
+				<long>11.520152</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8992599</url>
+	</venue>
+	<startDate>Mon, 27 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Papa+Roach" class="bbcode_artist">Papa Roach</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+<attendance>24</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=930262</tag>
+<url>http://www.last.fm/event/930262</url>
+</event>
+<event>
+	<id>926389</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Filter</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>X-tra</name>
+		<location>
+			<city>Zürich</city>
+			<country>Switzerland</country>
+			<street>Limmatstrasse 118</street>
+			<postalcode>8031</postalcode>
+			<point>
+				<lat>47.384128</lat>
+				<long>8.532291</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778887</url>
+	</venue>
+	<startDate>Tue, 28 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>17</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=926389</tag>
+	<url>http://www.last.fm/event/926389</url>
+</event>
+<event>
+	<id>944313</id>
+	<title>Cinco De Mayo Bash</title>
+	<artists>
+		<artist>Buckcherry</artist>
+		<artist>Papa Roach</artist>
+		<artist>Rev Theory</artist>
+		<artist>The Trews</artist>
+		<headliner>Buckcherry</headliner>
+	</artists>
+	<venue>
+		<name>Shaw Conference Centre</name>
+		<location>
+			<city>Edmonton, AB</city>
+			<country>Canada</country>
+			<street>9797 Jasper Avenue</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.542092</lat>
+				<long>-113.485648</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8898483</url>
+	</venue>
+	<startDate>Tue, 05 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">100.3 The Bear presents CINCO DE MAYO featuring Buckcherry &amp; Papa Roach with The Trews &amp; Rev Theory on May 5th at the Shaw Conference Centre! <br />
+		<br />
+		Join The Bear for this Mexican Fiesta - dress up - dress down...doesnt matter!!! <br />
+		<br />
+		Tickets are $45.50 and available this Saturday at TicketMaster at 10AM. <br />
+		<br />
+		Join The Bear for this Mexican Fiesta and catch 4 bands for under 50 bucks!!! <br />
+		<br />
+		THIS IS A NO MINORS SHOW <br />
+		<br />
+	Presented by Horns Up Entertainment &amp; 100.3 The Bear</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/364623.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/364623.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/364623.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=944313</tag>
+	<url>http://www.last.fm/event/944313</url>
+</event>
+<event>
+	<id>984763</id>
+	<title>Buzzfest XXII</title>
+	<artists>
+		<artist>311</artist>
+		<artist>Papa Roach</artist>
+		<artist>Shinedown</artist>
+		<artist>Korn</artist>
+		<artist>Toadies</artist>
+		<artist>Red Jumpsuit Apparatus</artist>
+		<headliner>311</headliner>
+	</artists>
+	<venue>
+		<name>The Cynthia Woods Mitchell Pavillion</name>
+		<location>
+			<city>Houston, TX</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>55.8666667</lat>
+				<long>-4.55</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9015545</url>
+	</venue>
+	<startDate>Sun, 10 May 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Lineup: Korn, 311, Papa Roach, Shinedown, Red Jumpsuit Apparatus, Toadies, etc.<br />
+		<br />
+		On-Sale Date: 3/21<br />
+		Info: 281-363-3300<br />
+	Ticketmaster.com: 713-629-3700</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/386371.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/386371.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/386371.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=984763</tag>
+	<url>http://www.last.fm/event/984763</url>
+</event>
+<event>
+	<id>658179</id>
+	<title>Rock am Ring 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Placebo</artist>
+		<artist>Bloc Party</artist>
+		<artist>KoЯn</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>The Prodigy</artist>
+		<artist>The Kooks</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Papa Roach</artist>
+		<artist>Razorlight</artist>
+		<artist>The All-American Rejects</artist>
+		<artist>Slipknot</artist>
+		<artist>Staind</artist>
+		<artist>Basement Jaxx</artist>
+		<artist>Billy Talent</artist>
+		<artist>Guano Apes</artist>
+		<artist>New Found Glory</artist>
+		<artist>Mando Diao</artist>
+		<artist>The Subways</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Phoenix</artist>
+		<artist>Flogging Molly</artist>
+		<artist>...And You Will Know Us by the Trail of Dead</artist>
+		<artist>Peter Bjorn and John</artist>
+		<artist>DragonForce</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Madness</artist>
+		<artist>Alexisonfire</artist>
+		<artist>Sevendust</artist>
+		<artist>dredg</artist>
+		<artist>Reamonn</artist>
+		<artist>All That Remains</artist>
+		<artist>Enter Shikari</artist>
+		<artist>Biffy Clyro</artist>
+		<artist>2raumwohnung</artist>
+		<artist>Shinedown</artist>
+		<artist>The Script</artist>
+		<artist>Pain</artist>
+		<artist>Dir en grey</artist>
+		<artist>Scouting for Girls</artist>
+		<artist>Little Man Tate</artist>
+		<artist>The Rifles</artist>
+		<artist>Jan Delay</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Kettcar</artist>
+		<artist>Sugarplum Fairy</artist>
+		<artist>Madina Lake</artist>
+		<artist>Tomte</artist>
+		<artist>Peter Fox</artist>
+		<artist>White Lies</artist>
+		<artist>Hollywood Undead</artist>
+		<artist>Volbeat</artist>
+		<artist>The Soundtrack of Our Lives</artist>
+		<artist>Gallows</artist>
+		<artist>Polarkreis 18</artist>
+		<artist>Juliette and the Licks</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>MIA.</artist>
+		<artist>Five Finger Death Punch</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Kilians</artist>
+		<artist>Selig</artist>
+		<artist>Expatriate</artist>
+		<artist>Esser</artist>
+		<artist>Chester French</artist>
+		<artist>Kitty, Daisy &amp; Lewis</artist>
+		<artist>Middle Class Rut</artist>
+		<artist>The Crave</artist>
+		<artist>Steadlür</artist>
+		<artist>Ich bin bunt</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Nürburgring</name>
+		<location>
+			<city>Nürburg</city>
+			<country>Germany</country>
+			<street>Otto-Flimm-Straße</street>
+			<postalcode>53520</postalcode>
+			<point>
+				<lat>50.3333333</lat>
+				<long>6.95</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780229</url>
+	</venue>
+	<startDate>Fri, 05 Jun 2009</startDate>
+	<endDate>Sun, 07 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Ticketpreis: 135,- € <br />
+		<br />
+		Nordschleifen-Tickets sind noch für 20,- € über <a href="http://www.tickets-per-post.de" rel="nofollow">www.tickets-per-post.de</a> erhältlich.<br />
+		<br />
+		join the last.fm-group: <a href="http://www.lastfm.de/group/Rock+Am+Ring">http://www.lastfm.de/group/Rock+Am+Ring</a>
+		<br />
+		<br />
+		<br />
+		Tickets (und Anreise) für die Schweiz by <a href="http://www.openaircar.ch" rel="nofollow">OpenairCar.ch</a>:<br />
+		<br />
+	Für die Schweizer Festivalbesucher gibt es neu ein Angebot auf <a href="http://www.openaircar.ch" rel="nofollow">OpenairCar.ch</a>. Die Anreise gibts bereits ab 129 CHF und Anreise inkl. Ticket ab 298 CHF. Mehr Infos auf der Webseite.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/19043725.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/19043725.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/19043725.jpg</image>
+	<attendance>1358</attendance>
+	<reviews>2</reviews>
+	<tag>lastfm:event=658179</tag>
+	<url>http://www.last.fm/event/658179</url>
+</event>
+<event>
+	<id>652047</id>
+	<title>Rock im Park</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Placebo</artist>
+		<artist>Bloc Party</artist>
+		<artist>KoЯn</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>The Prodigy</artist>
+		<artist>The Kooks</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Papa Roach</artist>
+		<artist>Razorlight</artist>
+		<artist>Slipknot</artist>
+		<artist>Staind</artist>
+		<artist>Basement Jaxx</artist>
+		<artist>Billy Talent</artist>
+		<artist>Guano Apes</artist>
+		<artist>New Found Glory</artist>
+		<artist>Mando Diao</artist>
+		<artist>The Subways</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Phoenix</artist>
+		<artist>Flogging Molly</artist>
+		<artist>...And You Will Know Us by the Trail of Dead</artist>
+		<artist>Peter Bjorn and John</artist>
+		<artist>DragonForce</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Madness</artist>
+		<artist>Alexisonfire</artist>
+		<artist>Sevendust</artist>
+		<artist>dredg</artist>
+		<artist>Reamonn</artist>
+		<artist>All That Remains</artist>
+		<artist>Enter Shikari</artist>
+		<artist>Biffy Clyro</artist>
+		<artist>2raumwohnung</artist>
+		<artist>Shinedown</artist>
+		<artist>The Script</artist>
+		<artist>Pain</artist>
+		<artist>Dir en grey</artist>
+		<artist>Scouting for Girls</artist>
+		<artist>Little Man Tate</artist>
+		<artist>The Rifles</artist>
+		<artist>Jan Delay</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Kettcar</artist>
+		<artist>Sugarplum Fairy</artist>
+		<artist>Madina Lake</artist>
+		<artist>Tomte</artist>
+		<artist>Peter Fox</artist>
+		<artist>White Lies</artist>
+		<artist>Hollywood Undead</artist>
+		<artist>Volbeat</artist>
+		<artist>The Soundtrack of Our Lives</artist>
+		<artist>Gallows</artist>
+		<artist>Polarkreis 18</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>MIA.</artist>
+		<artist>Five Finger Death Punch</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Kilians</artist>
+		<artist>Selig</artist>
+		<artist>Juliette Lewis</artist>
+		<artist>Expatriate</artist>
+		<artist>Esser</artist>
+		<artist>The All American Rejects</artist>
+		<artist>Chester French</artist>
+		<artist>Kitty, Daisy &amp; Lewis</artist>
+		<artist>Middle Class Rut</artist>
+		<artist>The Crave</artist>
+		<artist>Steadlür</artist>
+		<artist>Ich bin bunt</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Zeppelinfeld</name>
+		<location>
+			<city>Nürnberg</city>
+			<country>Germany</country>
+			<street>Zeppelinstraße</street>
+			<postalcode>90480</postalcode>
+			<point>
+				<lat>49.425768</lat>
+				<long>11.127574</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8794963</url>
+	</venue>
+	<startDate>Fri, 05 Jun 2009</startDate>
+	<endDate>Sun, 07 Jun 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Rock im Park ist ein alljährlich am ersten Juniwochenende in Nürnberg stattfindendes Musikfestival und die Parallelveranstaltung zu Rock am Ring. Mit 75000 Besuchern ist es Süddeutschlands größte Open Air Veranstaltung.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/12771909.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/12771909.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/12771909.jpg</image>
+<attendance>616</attendance>
+<reviews>2</reviews>
+<tag>lastfm:event=652047</tag>
+<url>http://www.last.fm/event/652047</url>
+</event>
+<event>
+	<id>985783</id>
+	<title>Rock im Park</title>
+	<artists>
+		<artist>Billy Talent</artist>
+		<artist>The Killers</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>The Prodigy</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Papa Roach</artist>
+		<artist>Slipknot</artist>
+		<artist>Guano Apes</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Korn</artist>
+		<artist>Peter Fox</artist>
+		<artist>Volbeat</artist>
+		<artist>Polarkreis 18</artist>
+		<artist>Black Stone Cherry</artist>
+		<headliner>Billy Talent</headliner>
+	</artists>
+	<venue>
+		<name>Zeppelinfeld</name>
+		<location>
+			<city>Nürnberg</city>
+			<country>Germany</country>
+			<street>Zeppelinstraße</street>
+			<postalcode>90480</postalcode>
+			<point>
+				<lat>49.425768</lat>
+				<long>11.127574</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8794963</url>
+	</venue>
+	<startDate>Fri, 05 Jun 2009</startDate>
+	<endDate>Sun, 07 Jun 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/61589.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/47669.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/61589.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=985783</tag>
+	<url>http://www.last.fm/event/985783</url>
+</event>
+<event>
+	<id>961631</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Buckcherry</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Roxy</name>
+		<location>
+			<city>Praha</city>
+			<country>Czech Republic</country>
+			<street>Dlouhá 33</street>
+			<postalcode>110 00</postalcode>
+			<point>
+				<lat>50.090839</lat>
+				<long>14.425727</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779248</url>
+	</venue>
+	<startDate>Sun, 07 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">690 Kč (+ poplatky)</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+<attendance>28</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=961631</tag>
+<url>http://www.last.fm/event/961631</url>
+</event>
+<event>
+	<id>971058</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Store Vega</name>
+		<location>
+			<city>København V</city>
+			<country>Denmark</country>
+			<street>Enghavevej 40</street>
+			<postalcode>1674</postalcode>
+			<point>
+				<lat>55.667986</lat>
+				<long>12.544534</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778878</url>
+	</venue>
+	<startDate>Tue, 09 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=971058</tag>
+	<url>http://www.last.fm/event/971058</url>
+</event>
+<event>
+	<id>967125</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Modernes</name>
+		<location>
+			<city>Bremen</city>
+			<country>Germany</country>
+			<street>Neustadtswall 28</street>
+			<postalcode>28199</postalcode>
+			<point>
+				<lat>53.072248</lat>
+				<long>8.79388</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781415</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>7</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=967125</tag>
+	<url>http://www.last.fm/event/967125</url>
+</event>
+<event>
+	<id>814008</id>
+	<title>Download Festival 2009</title>
+	<artists>
+		<artist>KoЯn</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>The Prodigy</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Papa Roach</artist>
+		<artist>Slipknot</artist>
+		<artist>ZZ Top</artist>
+		<artist>Billy Talent</artist>
+		<artist>Dream Theater</artist>
+		<artist>Faith No More</artist>
+		<artist>Journey</artist>
+		<artist>Whitesnake</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Def Leppard</artist>
+		<artist>Mötley Crüe</artist>
+		<artist>DragonForce</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Pendulum</artist>
+		<artist>Trivium</artist>
+		<artist>Buckcherry</artist>
+		<artist>DevilDriver</artist>
+		<artist>Tesla</artist>
+		<artist>Clutch</artist>
+		<artist>Parkway Drive</artist>
+		<artist>Skin</artist>
+		<artist>Down</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Architects</artist>
+		<artist>The Blackout</artist>
+		<artist>Karma to Burn</artist>
+		<artist>Anvil</artist>
+		<headliner>KoЯn</headliner>
+	</artists>
+	<venue>
+		<name>Donington Park</name>
+		<location>
+			<city>Castle Donington</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>DE74 2RP</postalcode>
+			<point>
+				<lat>52.828328</lat>
+				<long>-1.372467</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780662</url>
+	</venue>
+	<startDate>Fri, 12 Jun 2009</startDate>
+	<endDate>Sun, 14 Jun 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">The Download Festival is a three day music festival held annually at Donington Park (which hosted the Monsters of Rock Festivals between 1980 and 1996, and 2002's Ozzfest). It takes place at the end of spring, and is owned and managed by Live Nation. Traditionally features music from Rock and heavy metal genres but features many others as well.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24898021.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24898021.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24898021.jpg</image>
+<attendance>611</attendance>
+<reviews>1</reviews>
+<tag>lastfm:event=814008</tag>
+<url>http://www.last.fm/event/814008</url>
+</event>
+<event>
+	<id>980325</id>
+	<title>Wâldrock with Heaven and Hell, Motörhead, Carcass, Papa Roach and others</title>
+	<artists>
+		<artist>wâldrock</artist>
+		<artist>Papa Roach</artist>
+		<artist>Motörhead</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>Epica</artist>
+		<artist>Carcass</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Delain</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Pilgrimz</artist>
+		<headliner>wâldrock</headliner>
+	</artists>
+	<venue>
+		<name>Evenemententerrein a/d Zomerweg</name>
+		<location>
+			<city>Bergum</city>
+			<country>Netherlands</country>
+			<street>Zomerweg</street>
+			<postalcode>9257</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014669</url>
+	</venue>
+	<startDate>Sat, 13 Jun 2009</startDate>
+	<startTime>12:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980325</tag>
+	<url>http://www.last.fm/event/980325</url>
+</event>
+<event>
+	<id>826211</id>
+	<title>Wâldrock</title>
+	<artists>
+		<artist>Carcass</artist>
+		<artist>Papa Roach</artist>
+		<artist>Motörhead</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>DragonForce</artist>
+		<artist>Trivium</artist>
+		<artist>Epica</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Napalm Death</artist>
+		<artist>Heaven Shall Burn</artist>
+		<artist>Kataklysm</artist>
+		<artist>Voivod</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Delain</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Legion of the Damned</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Heaven and Hell</artist>
+		<artist>Pilgrimz</artist>
+		<artist>Blind Sight</artist>
+		<headliner>Carcass</headliner>
+	</artists>
+	<venue>
+		<name>Festivalterrein Zomerweg</name>
+		<location>
+			<city>Bergum</city>
+			<country>Netherlands</country>
+			<street>Zomerweg</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.204708</lat>
+				<long>6.007821</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8841840</url>
+	</venue>
+	<startDate>Sat, 13 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Start kaart verkoop zaterdag 17 januari om 10.00 uur via <a href="http://www.livenation.nl" rel="nofollow">www.livenation.nl</a>)<br />
+		<br />
+		Op zaterdag 13 juni betreden in totaal 22 bands de drie podia van Wâldrock. Zeven hiervan zijn reeds bevestigd. Met de metal-goeroes van Heaven &amp; Hell, bestaande uit leden en oud-leden van Black Sabbath, en Motörhead met uiteraard rocklegende Lemmy Kilmister heeft Wâldrock gegarandeerd een programma van formaat neergezet.<br />
+		<br />
+		Ook met de Engelse Grindcore-iconen van Carcass en het onlangs toegevoegde Papa Roach, maar ook met Trivium, het Nederlandse Epica en de Deense mannen van Pilgrimz aan boord heeft Wâldrock weer een stevig en gevarieerd aanbod voor elke metal-liefhebber. Op vrijdag 12 juni vindt de Pré-Party van Wâldrock plaats.<br />
+		<br />
+		Zaterdag 13 juni 2009<br />
+		Festivalterrein a/d Zomerweg, Burgum<br />
+		Entree: € 65 (excl. servicekosten)<br />
+		Dagkassa: € 75<br />
+	Aanvang: 12.00 uur</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/264103.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/264103.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/264103.jpg</image>
+	<attendance>114</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=826211</tag>
+	<url>http://www.last.fm/event/826211</url>
+</event>
+<event>
+	<id>904569</id>
+	<title>Wâldrock</title>
+	<artists>
+		<artist>Pilgrimz</artist>
+		<artist>Papa Roach</artist>
+		<artist>Motörhead</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>Epica</artist>
+		<artist>Carcass</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Delain</artist>
+		<artist>Heaven and Hell</artist>
+		<headliner>Pilgrimz</headliner>
+	</artists>
+	<venue>
+		<name>P.O. BOX 89</name>
+		<location>
+			<city>Burgum</city>
+			<country>Netherlands</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8997792</url>
+	</venue>
+	<startDate>Sat, 13 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/21942785.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/21942785.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/21942785.gif</image>
+	<attendance>9</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=904569</tag>
+	<url>http://www.last.fm/event/904569</url>
+</event>
+<event>
+	<id>740828</id>
+	<title>HellFest 2009</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>Dream Theater</artist>
+		<artist>Misfits</artist>
+		<artist>Mötley Crüe</artist>
+		<artist>Europe</artist>
+		<artist>DragonForce</artist>
+		<artist>Cradle of Filth</artist>
+		<artist>Machine Head</artist>
+		<artist>Anthrax</artist>
+		<artist>Manowar</artist>
+		<artist>Soulfly</artist>
+		<artist>Stratovarius</artist>
+		<artist>Mastodon</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Queensrÿche</artist>
+		<artist>Hatebreed</artist>
+		<artist>Moonspell</artist>
+		<artist>W.A.S.P.</artist>
+		<artist>Edguy</artist>
+		<artist>KMFDM</artist>
+		<artist>Buckcherry</artist>
+		<artist>Pain of Salvation</artist>
+		<artist>DevilDriver</artist>
+		<artist>Killing Joke</artist>
+		<artist>Pain</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Suicidal Tendencies</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Napalm Death</artist>
+		<artist>Vader</artist>
+		<artist>Deicide</artist>
+		<artist>Heaven Shall Burn</artist>
+		<artist>Backyard Babies</artist>
+		<artist>Samael</artist>
+		<artist>August Burns Red</artist>
+		<artist>Parkway Drive</artist>
+		<artist>Entombed</artist>
+		<artist>God Forbid</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Gojira</artist>
+		<artist>Gorgoroth</artist>
+		<artist>Enslaved</artist>
+		<artist>Moonsorrow</artist>
+		<artist>Terror</artist>
+		<artist>Down</artist>
+		<artist>Destruction</artist>
+		<artist>All Shall Perish</artist>
+		<artist>Electric Wizard</artist>
+		<artist>Pig Destroyer</artist>
+		<artist>Aborted</artist>
+		<artist>Orange Goblin</artist>
+		<artist>Despised Icon</artist>
+		<artist>Voivod</artist>
+		<artist>Mad Sin</artist>
+		<artist>Cathedral</artist>
+		<artist>Pentagram</artist>
+		<artist>Adagio</artist>
+		<artist>The Business</artist>
+		<artist>Nashville Pussy</artist>
+		<artist>Eyehategod</artist>
+		<artist>Cro-Mags</artist>
+		<artist>Whitechapel</artist>
+		<artist>Misery Index</artist>
+		<artist>Coalesce</artist>
+		<artist>Brutal Truth</artist>
+		<artist>Taake</artist>
+		<artist>Girlschool</artist>
+		<artist>Immolation</artist>
+		<artist>Sacred Reich</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Dagoba</artist>
+		<artist>Skinless</artist>
+		<artist>Torche</artist>
+		<artist>Pestilence</artist>
+		<artist>Deströyer 666</artist>
+		<artist>Ufomammut</artist>
+		<artist>Melechesh</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Betrayed</artist>
+		<artist>Kylesa</artist>
+		<artist>Grand Magus</artist>
+		<artist>Slapshot</artist>
+		<artist>Aura Noir</artist>
+		<artist>Amebix</artist>
+		<artist>Jarboe</artist>
+		<artist>Nachtmystium</artist>
+		<artist>Soilent Green</artist>
+		<artist>Vision of Disorder</artist>
+		<artist>Gama Bomb</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Hacride</artist>
+		<artist>Squealer</artist>
+		<artist>Kickback</artist>
+		<artist>Blockheads</artist>
+		<artist>Trepalium</artist>
+		<artist>Holyhell</artist>
+		<artist>Providence</artist>
+		<artist>Outlaw Order</artist>
+		<artist>ADX</artist>
+		<artist>Koritni</artist>
+		<artist>Orakle</artist>
+		<artist>Backfire</artist>
+		<artist>Satan Jokers</artist>
+		<artist>Watertank</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Val de Moine</name>
+		<location>
+			<city>Clisson</city>
+			<country>France</country>
+			<street></street>
+			<postalcode>44190</postalcode>
+			<point>
+				<lat>47.089825</lat>
+				<long>-1.278462</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8791474</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">€119 (3 day ticket + camping)</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25083277.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25083277.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25083277.jpg</image>
+<attendance>539</attendance>
+<reviews>2</reviews>
+<tag>lastfm:event=740828</tag>
+<url>http://www.last.fm/event/740828</url>
+</event>
+<event>
+	<id>912959</id>
+	<title>Kobetasonik 2009</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>In Flames</artist>
+		<artist>Dream Theater</artist>
+		<artist>Journey</artist>
+		<artist>Mötley Crüe</artist>
+		<artist>DragonForce</artist>
+		<artist>Cradle of Filth</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Anthrax</artist>
+		<artist>Hatebreed</artist>
+		<artist>Buckcherry</artist>
+		<artist>DevilDriver</artist>
+		<artist>God Forbid</artist>
+		<artist>Gojira</artist>
+		<artist>Crucified Barbara</artist>
+		<artist>Ekon</artist>
+		<artist>Lauren Harris</artist>
+		<artist>Idi Bihotz</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Kobetamendi</name>
+		<location>
+			<city>Bilbao</city>
+			<country>Spain</country>
+			<street>Calle del Monte Cobetas</street>
+			<postalcode>48002</postalcode>
+			<point>
+				<lat>43.265047</lat>
+				<long>-2.930722</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8801758</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sat, 20 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Marilyn Manson   (día 19)<br />
+		Papa Roach   (día 20)<br />
+		In Flames<br />
+		Dream Theater   (día 20)<br />
+		Journey<br />
+		Mötley Crüe   (día 20)<br />
+		DragonForce   <br />
+		Cradle of Filth   (día 19)<br />
+		Trivium   (día 19)<br />
+		Machine Head  (día 19)<br />
+		Anthrax   (día 20)<br />
+		Hatebreed   (día 20)<br />
+		Buckcherry (día 20)<br />
+		DevilDriver   (día 19)<br />
+		God Forbid   (día 20)<br />
+		Gojira   (día 19)<br />
+		Crucified Barbara  <br />
+		Ekon <br />
+		Lauren Harris<br />
+	Idi Bihotz</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24148045.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24148045.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24148045.jpg</image>
+	<attendance>183</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=912959</tag>
+	<url>http://www.last.fm/event/912959</url>
+</event>
+<event>
+	<id>974624</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<artist>Buckcherry</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>Tennis Eventcenter</name>
+		<location>
+			<city>Hohenems</city>
+			<country>Austria</country>
+			<street>Markus-Sittikus-Strasse 12</street>
+			<postalcode>6845</postalcode>
+			<point>
+				<lat>47.371085</lat>
+				<long>9.677694</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8803987</url>
+	</venue>
+	<startDate>Wed, 24 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=974624</tag>
+	<url>http://www.last.fm/event/974624</url>
+</event>
+<event>
+	<id>718974</id>
+	<title>Graspop Metal Meeting 2009</title>
+	<artists>
+		<artist>KoЯn</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Nightwish</artist>
+		<artist>Dream Theater</artist>
+		<artist>Journey</artist>
+		<artist>Children of Bodom</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Mötley Crüe</artist>
+		<artist>DragonForce</artist>
+		<artist>Blind Guardian</artist>
+		<artist>Trivium</artist>
+		<artist>Anthrax</artist>
+		<artist>Lamb of God</artist>
+		<artist>Soulfly</artist>
+		<artist>Mastodon</artist>
+		<artist>Epica</artist>
+		<artist>No Use for a Name</artist>
+		<artist>Hatebreed</artist>
+		<artist>The Gathering</artist>
+		<artist>W.A.S.P.</artist>
+		<artist>All That Remains</artist>
+		<artist>The Dillinger Escape Plan</artist>
+		<artist>Buckcherry</artist>
+		<artist>Monster Magnet</artist>
+		<artist>DevilDriver</artist>
+		<artist>Suicidal Tendencies</artist>
+		<artist>Exodus</artist>
+		<artist>Sick of It All</artist>
+		<artist>Samael</artist>
+		<artist>August Burns Red</artist>
+		<artist>Parkway Drive</artist>
+		<artist>God Forbid</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Gojira</artist>
+		<artist>Down</artist>
+		<artist>Firewind</artist>
+		<artist>All Shall Perish</artist>
+		<artist>Scar Symmetry</artist>
+		<artist>Five Finger Death Punch</artist>
+		<artist>Death Angel</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Taake</artist>
+		<artist>Sacred Reich</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Dagoba</artist>
+		<artist>Legion of the Damned</artist>
+		<artist>Pestilence</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Warbringer</artist>
+		<artist>Eths</artist>
+		<artist>Negură Bunget</artist>
+		<artist>Laaz Rockit</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Jon Oliva's Pain</artist>
+		<artist>Duff McKagan's Loaded</artist>
+		<headliner>KoЯn</headliner>
+	</artists>
+	<venue>
+		<name>Boeretang</name>
+		<location>
+			<city>Dessel</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.223916</lat>
+				<long>5.093964</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788775</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">The 14th edition of the annual metal fest is scheduled for the last weekend of June. The place to be is still the festival grounds of the Boeretang in Dessel. The concept remains identical: 3 days of metal mania, 4 stages, 70 bands, metal market, festival fair, side animation, signing sessions and much more! Confirmed bands will be announced on the website as soon as possible.<br />
+	- the graspop website.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25507261.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25507261.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25507261.jpg</image>
+	<attendance>599</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=718974</tag>
+	<url>http://www.last.fm/event/718974</url>
+</event>
+<event>
+	<id>967536</id>
+	<title>Graspop</title>
+	<artists>
+		<artist>Mötley Crüe</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Dream Theater</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Blind Guardian</artist>
+		<artist>Trivium</artist>
+		<artist>Anthrax</artist>
+		<artist>Mastodon</artist>
+		<artist>Epica</artist>
+		<artist>Hatebreed</artist>
+		<artist>The Gathering</artist>
+		<artist>W.A.S.P.</artist>
+		<artist>Buckcherry</artist>
+		<artist>Exodus</artist>
+		<artist>Samael</artist>
+		<artist>August Burns Red</artist>
+		<artist>Parkway Drive</artist>
+		<artist>God Forbid</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Gojira</artist>
+		<artist>Down</artist>
+		<artist>Firewind</artist>
+		<artist>Scar Symmetry</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Taake</artist>
+		<artist>Sacred Reich</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Dagoba</artist>
+		<artist>Legion of the Damned</artist>
+		<artist>Pestilence</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Eths</artist>
+		<artist>Laaz Rockit</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Devil Driver</artist>
+		<artist>Negura Bunget</artist>
+		<artist>Jon Olivias Pain</artist>
+		<headliner>Mötley Crüe</headliner>
+	</artists>
+	<venue>
+		<name>Festivalpark 'Boeretang'</name>
+		<location>
+			<city>Dessel</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.231727</lat>
+				<long>4.440407</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8911139</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><img src="http://www.graspop.be/img//kalender/GMM%20-%20Affiche%203.jpg/img" /><br />
+		<br />
+	[b] Metal Overdose in Dessel [/b]</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24907989.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24907989.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24907989.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=967536</tag>
+	<url>http://www.last.fm/event/967536</url>
+</event>
+<event>
+	<id>923367</id>
+	<title>Rock-a-Field</title>
+	<artists>
+		<artist>Kings of Leon</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Papa Roach</artist>
+		<artist>Razorlight</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Peter Fox</artist>
+		<artist>versus you</artist>
+		<artist>Mutiny on the Bounty</artist>
+		<artist>HAL FLAVIN</artist>
+		<artist>Everwaiting Serenade</artist>
+		<artist>Minipli</artist>
+		<artist>de Läb</artist>
+		<artist>Natas loves you</artist>
+		<artist>French For Cartridge</artist>
+		<headliner>Kings of Leon</headliner>
+	</artists>
+	<venue>
+		<name>Herschesfeld</name>
+		<location>
+			<city>Roeser</city>
+			<country>Luxembourg</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.5422222</lat>
+				<long>6.15</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9002040</url>
+	</venue>
+	<startDate>Sun, 28 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23075165.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23075165.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23075165.gif</image>
+	<attendance>49</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=923367</tag>
+	<url>http://www.last.fm/event/923367</url>
+</event>
+<event>
+	<id>922147</id>
+	<title>Rock A Field 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Papa Roach</artist>
+		<artist>Razorlight</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Peter Fox</artist>
+		<artist>versus you</artist>
+		<artist>Mutiny on the Bounty</artist>
+		<artist>HAL FLAVIN</artist>
+		<artist>Minipli</artist>
+		<artist>de Läb</artist>
+		<artist>Natas loves you</artist>
+		<artist>French For Cartridge</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Rue de Weiler</name>
+		<location>
+			<city>Roeser</city>
+			<country>Luxembourg</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.5422222</lat>
+				<long>6.15</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8912040</url>
+	</venue>
+	<startDate>Sun, 28 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25287599.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25287599.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25287599.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=922147</tag>
+	<url>http://www.last.fm/event/922147</url>
+</event>
+<event>
+	<id>981624</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Darien Lake Performing Arts Center</name>
+		<location>
+			<city>Darien Center</city>
+			<country>United States</country>
+			<street>9993 Alleghany Road</street>
+			<postalcode>14040</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014895</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981624</tag>
+	<url>http://www.last.fm/event/981624</url>
+</event>
+<event>
+	<id>969425</id>
+	<title>Nickelback / Hinder / Saving Abel / Papa Roach - Dark Horse</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Jones Beach Amphitheatre</name>
+		<location>
+			<city>Wantagh</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode>11793</postalcode>
+			<point>
+				<lat>40.68361</lat>
+				<long>-73.51056</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8793822</url>
+	</venue>
+	<startDate>Wed, 15 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Nickelback / Hinder / Saving Abel / Papa Roach - Dark Horse</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+<attendance>1</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=969425</tag>
+<url>http://www.last.fm/event/969425</url>
+</event>
+<event>
+	<id>981646</id>
+	<title>Nickelback with Saving Able, Papa Roach, and Hinder</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Post-Gazette Pavilion</name>
+		<location>
+			<city>Burgettstown</city>
+			<country>United States</country>
+			<street>665 Rt. 18</street>
+			<postalcode>15021</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014898</url>
+	</venue>
+	<startDate>Sat, 18 Jul 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981646</tag>
+	<url>http://www.last.fm/event/981646</url>
+</event>
+<event>
+	<id>978130</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Comcast Center</name>
+		<location>
+			<city>Mansfield</city>
+			<country>United States</country>
+			<street>885 S Main St</street>
+			<postalcode>02048</postalcode>
+			<point>
+				<lat>41.995282</lat>
+				<long>-71.210716</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8939934</url>
+	</venue>
+	<startDate>Fri, 24 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=978130</tag>
+	<url>http://www.last.fm/event/978130</url>
+</event>
+<event>
+	<id>981671</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Meadows Music Theater</name>
+		<location>
+			<city>Hartford</city>
+			<country>United States</country>
+			<street>61 Savitt Way</street>
+			<postalcode>06120</postalcode>
+			<point>
+				<lat>41.780207</lat>
+				<long>-72.669229</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014891</url>
+	</venue>
+	<startDate>Sat, 25 Jul 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981671</tag>
+	<url>http://www.last.fm/event/981671</url>
+</event>
+<event>
+	<id>981685</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Amphitheatre</name>
+		<location>
+			<city>Charlotte, NC</city>
+			<country>United States</country>
+			<street>707 Pavilion Blvd</street>
+			<postalcode>28262</postalcode>
+			<point>
+				<lat>35.327362</lat>
+				<long>-80.71067</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8908943</url>
+	</venue>
+	<startDate>Fri, 31 Jul 2009</startDate>
+	<startTime>18:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Your Premier parking space at the head of the parking lot is held until show time. Your space will be close to the front gate regardless of what time you get to the amphitheatre prior to show time. Limo and RV spaces are available for $30 each but have to be purchased night of show at the Limo/RV parking lot. Please see a parking attendant upon arriving at the amphitheatre to direct you to the Limo/RV lot. THIS IS NOT A CONCERT TICKET.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+<attendance>0</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=981685</tag>
+<url>http://www.last.fm/event/981685</url>
+</event>
+<event>
+	<id>981687</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Time Warner Cable Music Pavilion at Walnut Creek</name>
+		<location>
+			<city>Raleigh, North Carolina</city>
+			<country>United States</country>
+			<street>3801 Rock Quarry Rd</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>35.74589</lat>
+				<long>-78.584712</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8917294</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981687</tag>
+	<url>http://www.last.fm/event/981687</url>
+</event>
+<event>
+	<id>981713</id>
+	<title>Nickelback with Hinder, Papa Roach &amp; Saving Abel</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>DTE Energy Music Theatre</name>
+		<location>
+			<city>Clarkston</city>
+			<country>United States</country>
+			<street>7773 Pine Knob Road</street>
+			<postalcode>48346</postalcode>
+			<point>
+				<lat>42.708906</lat>
+				<long>-83.441284</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014899</url>
+	</venue>
+	<startDate>Wed, 12 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981713</tag>
+	<url>http://www.last.fm/event/981713</url>
+</event>
+<event>
+	<id>981716</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Blossom Music Center</name>
+		<location>
+			<city>Cuyahoga Falls</city>
+			<country>United States</country>
+			<street>1145 W. Steels Corners</street>
+			<postalcode>44223</postalcode>
+			<point>
+				<lat>41.13389</lat>
+				<long>-81.48472</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785327</url>
+	</venue>
+	<startDate>Fri, 14 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981716</tag>
+	<url>http://www.last.fm/event/981716</url>
+</event>
+<event>
+	<id>978599</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Music Center</name>
+		<location>
+			<city>Noblesville</city>
+			<country>United States</country>
+			<street>12880 E 146th</street>
+			<postalcode>46060</postalcode>
+			<point>
+				<lat>40.001482</lat>
+				<long>-85.936379</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785304</url>
+	</venue>
+	<startDate>Sat, 15 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=978599</tag>
+	<url>http://www.last.fm/event/978599</url>
+</event>
+<event>
+	<id>981726</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Music Center</name>
+		<location>
+			<city>Pelham, AL</city>
+			<country>United States</country>
+			<street>1000 Amphitheater Rd</street>
+			<postalcode>35124</postalcode>
+			<point>
+				<lat>33.52056</lat>
+				<long>-86.8025</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8998032</url>
+	</venue>
+	<startDate>Mon, 17 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981726</tag>
+	<url>http://www.last.fm/event/981726</url>
+</event>
+<event>
+	<id>981731</id>
+	<title>Nickelback with Hinder, Papa Roach &amp; Saving Abel</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Riverbend Music Center</name>
+		<location>
+			<city>Cincinnati</city>
+			<country>United States</country>
+			<street>6295 Kellogg Ave</street>
+			<postalcode>45230</postalcode>
+			<point>
+				<lat>39.05208</lat>
+				<long>-84.418884</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8793869</url>
+	</venue>
+	<startDate>Wed, 19 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981731</tag>
+	<url>http://www.last.fm/event/981731</url>
+</event>
+<event>
+	<id>981745</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>Coors Amphitheatre</name>
+		<location>
+			<city>Denver</city>
+			<country>United States</country>
+			<street>6350 Greenwood Plaza Blvd</street>
+			<postalcode>80111</postalcode>
+			<point>
+				<lat>39.73917</lat>
+				<long>-104.98417</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8793361</url>
+	</venue>
+	<startDate>Tue, 25 Aug 2009</startDate>
+	<startTime>17:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981745</tag>
+	<url>http://www.last.fm/event/981745</url>
+</event>
+<event>
+	<id>981749</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>USANA Amphitheatre</name>
+		<location>
+			<city>West Valley City</city>
+			<country>United States</country>
+			<street>6200 West &amp; 5200 South</street>
+			<postalcode>84118</postalcode>
+			<point>
+				<lat>40.665317</lat>
+				<long>-111.497577</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014918</url>
+	</venue>
+	<startDate>Wed, 26 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981749</tag>
+	<url>http://www.last.fm/event/981749</url>
+</event>
+<event>
+	<id>981755</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>The Amphitheater at Clark County</name>
+		<location>
+			<city>Portland</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.746288</lat>
+				<long>-122.661915</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8854314</url>
+	</venue>
+	<startDate>Fri, 28 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981755</tag>
+	<url>http://www.last.fm/event/981755</url>
+</event>
+<event>
+	<id>981759</id>
+	<title>Nickelback</title>
+	<artists>
+		<artist>Nickelback</artist>
+		<artist>Papa Roach</artist>
+		<artist>Hinder</artist>
+		<artist>Saving Abel</artist>
+		<headliner>Nickelback</headliner>
+	</artists>
+	<venue>
+		<name>The Gorge Amphitheatre</name>
+		<location>
+			<city>George</city>
+			<country>United States</country>
+			<street>754 Silica Road NW</street>
+			<postalcode>98824</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014888</url>
+	</venue>
+	<startDate>Sat, 29 Aug 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16423669.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16423669.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16423669.png</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981759</tag>
+	<url>http://www.last.fm/event/981759</url>
+</event>
+<event>
+	<id>925609</id>
+	<title>Papa Roach</title>
+	<artists>
+		<artist>Papa Roach</artist>
+		<headliner>Papa Roach</headliner>
+	</artists>
+	<venue>
+		<name>лужники</name>
+		<location>
+			<city>москва</city>
+			<country>Russian Federation</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9002526</url>
+	</venue>
+	<startDate>Sun, 21 Feb 2010</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23013493.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23013493.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23013493.jpg</image>
+	<attendance>24</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=925609</tag>
+	<url>http://www.last.fm/event/925609</url>
+</event>
+</events>
+</lfm>

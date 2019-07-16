@@ -1,0 +1,1779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="In Flames" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="40">
+		<event>
+			<id>914187</id>
+			<title>In Flames Eastern European Tour 2009</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Tvornica</name>
+				<location>
+					<city>Zagreb</city>
+					<country>Croatia</country>
+					<street>Šubićeva 2</street>
+					<postalcode>10000</postalcode>
+					<point>
+						<lat>45.723469</lat>
+						<long>16.046028</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779809</url>
+			</venue>
+			<startDate>Wed, 25 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Kraljevi švedskog melodičnog death metala napokon u Hrvatskoj!<br />
+			Predgrupa izgleda nema...</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>134</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=914187</tag>
+			<url>http://www.last.fm/event/914187</url>
+		</event>
+		<event>
+			<id>907045</id>
+			<title>In Flames</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Posthof</name>
+				<location>
+					<city>Linz</city>
+					<country>Austria</country>
+					<street>Posthofstrasse</street>
+					<postalcode>4020</postalcode>
+					<point>
+						<lat>48.311742</lat>
+						<long>14.311366</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779920</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>17</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=907045</tag>
+			<url>http://www.last.fm/event/907045</url>
+		</event>
+		<event>
+			<id>924562</id>
+			<title>In Flames</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Arena</name>
+				<location>
+					<city>Wien</city>
+					<country>Austria</country>
+					<street>Baumgasse 80</street>
+					<postalcode>1030</postalcode>
+					<point>
+						<lat>48.187532</lat>
+						<long>16.413379</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778545</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">ACHTUNG - IN FLAMES Show verlegt in die Arena Wien! <br />
+				Anm.: Datum geändert vom 26.4. (Linz) auf den 26.3 (Wien)<br />
+				<br />
+				Da es leider zu Routingproblemen gekommen ist, müssen IN FLAMES ihre mit 26. April 2009 angekündigte Show im Linzer Posthof leider nach Wien in die Arena verlegen.<br />
+				<br />
+				Alle bereits erworbenen Tickets können an den jeweiligen Stellen zurückgegeben werden, wo sie gekauft wurden.<br />
+				<br />
+				Der Vorverkauf für die neue Wien Show wird am Montag, dem 2. Februar 2009 neu gestartet.<br />
+				<br />
+				NEUER TERMIN: 26. März 2009 - ARENA WIEN<br />
+				<br />
+			Quelle: Musicticket</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>44</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=924562</tag>
+			<url>http://www.last.fm/event/924562</url>
+		</event>
+		<event>
+			<id>915771</id>
+			<title>In Flames Eastern European Tour 2009</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Štuk</name>
+				<location>
+					<city>Maribor</city>
+					<country>Slovenia</country>
+					<street>Gosposvetska cesta 83</street>
+					<postalcode>2000</postalcode>
+					<point>
+						<lat>46.563176</lat>
+						<long>15.626305</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8791361</url>
+			</venue>
+			<startDate>Fri, 27 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>46</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=915771</tag>
+			<url>http://www.last.fm/event/915771</url>
+		</event>
+		<event>
+			<id>914271</id>
+			<title>In Flames</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Studentski kulturni centar</name>
+				<location>
+					<city>Beograd</city>
+					<country>Serbia</country>
+					<street>Kralja Milana 48</street>
+					<postalcode>11000</postalcode>
+					<point>
+						<lat>44.8186111</lat>
+						<long>20.4680556</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8928310</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Terra Nostra Promotions predstavlja:<br />
+				<br />
+				In Flames, SKC, 28.03.2009<br />
+				<br />
+				Pioniri svedskog melodicnog death metala po prvi put u Srbiji.<br />
+				<br />
+				<strong>Karte u pretprodaji od 20.02. po ceni od 2300 dinara do 01.03.2009 posle toga cena karte ce biti 2500 dinara.</strong>
+				<br />
+				<br />
+				Prodajna mesta: Blagajna SKC-a, Eventim, Bilet Servis, Mamut<br />
+				Karte je moguce poruciti i direktno od organizatora preko sajta <a href="http://www.terranostra-networks.com" rel="nofollow">www.terranostra-networks.com</a> ili putem maila <a href="mailto:terranostratickets@gmail.com">terranostratickets@gmail.com</a>
+				<br />
+				<br />
+				<br />
+				In Flames je svedski melodic death metal bend, osnovan u Getenborgu, 1990-e godine. Spadaju u pionire zanra, i do sada su snimili 9 studijskih albuma, sa prodatih preko 2 miliona kopija sirom sveta. U radu benda jasno se izdvajaju 2 perioda.<br />
+				<br />
+				Prvi je trajao do 2002 godine, i njime dominiraju albumi The Jester Race, Clayman i Colony, koji im donose svetsku popularnost, cemu najbolje svedoci live album Tokyo Showdown, snimljen 2000 godine, u &quot;zemlji izlazeceg sunca&quot;, sto mu i sam naziv govori. In Flames te godine odrzava 150 koncerata sirom sveta, sto jasno pokazuje da je popularnost benda tada na visokom nivou. 2002-e godine, albumom Reroute to Remain bend pravi veliki zaokret u svojoj muzici, I okrece se modernijim vidovima heavy metal muzike, sto im donosi veliku popularnost u SAD, ali istovremeno odbija i deo starih fanova. Sledi turneja sa Slayer, SoFly I Mudvayne. Da je ipak rec o pametnom potezu, dokazuje sledeci album Soundtrack To Your Escape, nakon koga slede nastupi na prestiznom OZZFESTU, sa legendarnim Motorheadom. Naredni album, Come Clarity donekle vraca bend korenima, a ujedno je I najuspesniji u karijeri benda. Na sledecoj turneji cak im deo koncerata otvara legendarna Sepultura, sto samo govori o njihovim dometima nakon eksplozije koju je Come Clarity uneo u metal svet. Trenutno promovisu album A Sense Of Purpose, izdat 2008, I generalno, vaze za jedan od najboljih I najtrazenijih bendova (uslovno receno) nove generacije.<br />
+				<br />
+				Trenutna postava benda je:<br />
+				<br />
+				Anders Friden, vokal<br />
+				Jesper Stromblad, gitara<br />
+				Bjorn Gelotte, gitara<br />
+				Peter Iwers, bas<br />
+			Daniel Svensson, bubanj</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>111</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=914271</tag>
+			<url>http://www.last.fm/event/914271</url>
+		</event>
+		<event>
+			<id>914477</id>
+			<title>IN FLAMES Eastern Europe Tour 2009</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>TBC</name>
+				<location>
+					<city>Sofia City</city>
+					<country>Bulgaria</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>42.6833333</lat>
+						<long>23.3166667</long>
+					</point>
+					<timezone>EET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9000005</url>
+			</venue>
+			<startDate>Sun, 29 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode"><a href="http://bgmaps.com/services/maps/redir.asp?redir=2&amp;key=2f675a4079b869f8619eca6eea246364%20" rel="nofollow">Зала &quot;Деница&quot;</a><br />
+				<br />
+			Билети: 35лв / 45лв</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>206</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=914477</tag>
+			<url>http://www.last.fm/event/914477</url>
+		</event>
+		<event>
+			<id>914538</id>
+			<title>In Flames Eastern European Tour 2009</title>
+			<artists>
+				<artist>In Flames</artist>
+				<artist>L.O.S.T.</artist>
+				<artist>Godmode</artist>
+				<artist>Snapjaw</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Arenele Romane</name>
+				<location>
+					<city>Bucureşti</city>
+					<country>Romania</country>
+					<street>În Parcul Carol</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>44.411294</lat>
+						<long>26.096753</long>
+					</point>
+					<timezone>EET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8785123</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">We are VERY proud to confirm that IN FLAMES will be heading out on a Eastern European tour in March of this year.<br />
+				30 Bucharest Arenele Romane Romania<br />
+				April 2009<br />
+			Biletele, la pretul de 79 lei, pot fi achizitionate incepand cu data de 19 februarie prin intermediul site-urilor <a href="http://www.ticketpoint.ro" rel="nofollow">www.ticketpoint.ro</a> si <a href="http://www.bilete.ro" rel="nofollow">www.bilete.ro</a>, precum si in reteaua magazinelor Diverta din Bucuresti si din intreaga tara.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+			<attendance>113</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=914538</tag>
+			<url>http://www.last.fm/event/914538</url>
+		</event>
+		<event>
+			<id>914193</id>
+			<title>In Flames</title>
+			<artists>
+				<artist>In Flames</artist>
+				<headliner>In Flames</headliner>
+			</artists>
+			<venue>
+				<name>Petőfi Csarnok</name>
+				<location>
+					<city>Budapest</city>
+					<country>Hungary</country>
+					<street>Zichy Mihály út 14.</street>
+					<postalcode>1146</postalcode>
+					<point>
+						<lat>47.5145</lat>
+						<long>19.0883</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8800111</url>
+			</venue>
+			<startDate>Wed, 01 Apr 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">“We have not played live in most of the countries in Eastern Europe and we are all really looking forward to it. Hope to see a lot of new faces and cool places on this tour” – In Flames</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+		<attendance>68</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=914193</tag>
+		<url>http://www.last.fm/event/914193</url>
+	</event>
+	<event>
+		<id>915871</id>
+		<title>IN FLAMES ...purpose tour 2009</title>
+		<artists>
+			<artist>In Flames</artist>
+			<headliner>In Flames</headliner>
+		</artists>
+		<venue>
+			<name>Jumbo centrum</name>
+			<location>
+				<city>Košice</city>
+				<country>Slovakia</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>48.7166667</lat>
+					<long>21.25</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8959230</url>
+		</venue>
+		<startDate>Thu, 02 Apr 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Koncert presunuty z Trenčina do Košic.<br />
+			Vstupne 23 eur predpredaj, 26 na mieste.<br />
+		Support snad pribudne časom.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+		<attendance>36</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=915871</tag>
+		<url>http://www.last.fm/event/915871</url>
+	</event>
+	<event>
+		<id>913017</id>
+		<title>IN FLAMES...A sense OF purpose TOUR 2009</title>
+		<artists>
+			<artist>In Flames</artist>
+			<headliner>In Flames</headliner>
+		</artists>
+		<venue>
+			<name>Piano Club</name>
+			<location>
+				<city>Trenčin</city>
+				<country>Slovakia</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8999618</url>
+		</venue>
+		<startDate>Thu, 02 Apr 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Vstupne 23EUR predpredaj, 26EUR na mieste.<br />
+		Support snad pribudne časom.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+		<attendance>4</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=913017</tag>
+		<url>http://www.last.fm/event/913017</url>
+	</event>
+	<event>
+		<id>906973</id>
+		<title>A Sense Of Purpose Tour</title>
+		<artists>
+			<artist>In Flames</artist>
+			<headliner>In Flames</headliner>
+		</artists>
+		<venue>
+			<name>Masters of Rock Café</name>
+			<location>
+				<city>Zlín</city>
+				<country>Czech Republic</country>
+				<street>Tyršovo nábřeží 5497</street>
+				<postalcode>76001</postalcode>
+				<point>
+					<lat>49.2</lat>
+					<long>16.6333333</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8888378</url>
+		</venue>
+		<startDate>Fri, 03 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+		<![CDATA[<div class="bbcode"><strong>Lístky/tickets:</strong> <a href="http://www.mastersofrock.cz/www/index.php?view=193" rel="nofollow">http://www.mastersofrock.cz/www/index.php?view=193</a></div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>73</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=906973</tag>
+	<url>http://www.last.fm/event/906973</url>
+</event>
+<event>
+	<id>904800</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Retro Music Hall</name>
+		<location>
+			<city>Praha</city>
+			<country>Czech Republic</country>
+			<street>Francouzská 75/4</street>
+			<postalcode>12000</postalcode>
+			<point>
+				<lat>50.074512</lat>
+				<long>14.437833</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783661</url>
+	</venue>
+	<startDate>Sat, 04 Apr 2009</startDate>
+	<startTime>21:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">In Flames are going to visit Czech Republic again after 3 years of long waiting, all fans are surely very glad to see our Swedish heroes again!<br />
+		<br />
+		!! PLACE CHANGED !!<br />
+	Folimanka Hall -&gt; Retro Music Hall</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>89</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=904800</tag>
+	<url>http://www.last.fm/event/904800</url>
+</event>
+<event>
+	<id>912000</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Progresja</name>
+		<location>
+			<city>Warszawa</city>
+			<country>Poland</country>
+			<street>ul. Sylwestra Kaliskiego 15a</street>
+			<postalcode>01-476</postalcode>
+			<point>
+				<lat>52.2522</lat>
+				<long>20.895126</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780072</url>
+	</venue>
+	<startDate>Mon, 06 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Ceny biletów:<br />
+		W przedsprzedaży: 80 zł<br />
+		W dniu koncertu: 90 zł<br />
+		Do nabycia na <a href="https://shop.ticketpro.pl/event_detail.asp?evnt=3108" rel="nofollow">ticketpro.pl</a>.<br />
+		<br />
+		<a href="http://www.lastfm.pl/group/In+Flames+PL">Grupa In Flames PL</a>
+		<br />
+		<br />
+		In Flames to pionier gatunku nazywanego melodic death metal – ich muzyka jest oparta na  melodyce gitar z wpływami nordyckiej muzyki folkowej, ale jednocześnie jest dość agresywna i wściekła. W ich twórczości można usłyszeć echa takich potęg metalowych jak Iron Maiden czy Helloween. <br />
+		<br />
+		In Flames został założony w 1990 roku w Szwecji w Göteborgu przez gitarzystę oraz jej lidera Jespera Strömblada, obecnie jedynego członka zespołu z tamtego okresu. Strömblad który grał w tym czasie w deathmetalowej grupie muzycznej Ceremonial Oath. W 1993 opuścił swój macierzysty zespół i skupił się na pracy w In Flames wraz z Glennem Ljungströmem (gitara) oraz Johanem Larssonem (bas). W tym samym roku muzycy z In Flames napisali, nagrali a następnie rok później wydali swój debiutancki album studyjny – „Lunar Strain”. Na płycie rolę wokalisty objął Mikaela Stanne'a z grupy Dark Tranquillity. W 1995 ukazała się płyta &quot;Subterranean&quot;, na której zespół wciąż nie miał swojego wokalisty, więc rolę tę w tym czasie wykonywał Henke Forss. Dzięki niej zespół został zauważony i podpisał kontrakt z wytwórnią Nuclear Blast.<br />
+		<br />
+		W 1995 muzycy zespołu zaprosili Andersa Fridéna, aby na stałe dołączył do składu. Na miejsce perkusisty przyjęty został Björn Gelotte. Jeszcze w tym samym roku grupa nagrała swój drugi album „The Jester Race”. W czasie gdy In Flames nagrywał ten album Anders Fridén wraz z człowiekiem o imieniu Nicholas postanowił stworzyć symbol/maskotkę dla zespołu. Stała się nią głowa błazna (Jester Head). Symbol ten po raz pierwszy pojawił się na okładce płyty „The Jester Race” i widnieje na każdej następnej. Maskotka ta jest także często motywem wykorzystywanym w stylistyce przedmiotów sygnowanych nazwą In Flames. <br />
+		<br />
+		W 1997 muzycy z In Flames nagrali i wydali swoją trzecią płytę „Whoracle”. Po nagraniu albumu zespołem wstrząsały zmiany personalne, aż do 1998 w którym to roku, grupa w odnowionym składzie - Anders Fridén (wokal), Jesper Strömblad (gitara), Björn Gelotte (gitara 1995), Peter Iwers (bas) oraz Daniel Svensson (perkusja), który pozostał niezmienny aż do dziś - nagrała swój czwarty album, „Colony”. W 1999 płyta „Colony” ukazała się na rynku. <br />
+		<br />
+		W 2002, 2004, 2005 ukazywały się odpowiednio albumy „Clayman”, „Reroute to Remain”, oraz „Soundtrack to Your Escape”, z czego każdy okazywał się dużym wydarzeniem muzycznym a grupa była zapraszana na wspólne koncerty z takimi zespołami jak Slipknot, Testament, Slayer, Soulfly, Judas Priest, Mötley Crüe czy  Motörhead. Ostatnim albumem In Flames jest  pochodzący z kwietnia 2008 roku „A Sense Of Purpose”.<br />
+		<br />
+		Jesper Strömblad stworzył In Flames ponieważ chciał połączyć melodyczność utworów Iron Maiden z dosadnością death metalu, czyli stworzyć coś, czego według niego nie zrobiła do tej pory żadna kapela. Przy pisaniu utworów Jesper zdecydował się także na użycie instrumentów klawiszowych, co było niespotykane w ówczesnej muzyce melodic deathmetalowej. Do tej pory zespół wydał 9 albumów studyjnych, ostatni z nich  zadebiutował na 28 miejscu listy sprzedaży Billboard 200 w Stanach Zjednocznonych. Łączny nakład sprzedanych albumów grupy przekroczył 2 mln egzemplarzy. Zespół otrzymał trzy nagrody Grammis (szwedzkie odpowiedniki Grammy Awards). In Flames to pierwszy zespół metalowy, który zdobył tę nagrodę, a pełniący w owym czasie obowiązki ministra gospodarki Thomas Östros stwierdził: &quot;Dzięki In Flames Szwedzi mają teraz zespół metalowy należący do światowej elity&quot;. <br />
+	Zapraszamy gorąco na warszawski koncert!</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>464</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=912000</tag>
+	<url>http://www.last.fm/event/912000</url>
+</event>
+<event>
+	<id>839746</id>
+	<title>CANCELLED!!</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Norwich Waterfront</name>
+		<location>
+			<city>Norwich</city>
+			<country>United Kingdom</country>
+			<street>139-141 King Street</street>
+			<postalcode>NR1 1QH</postalcode>
+			<point>
+				<lat>52.623934</lat>
+				<long>1.302232</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781154</url>
+	</venue>
+	<startDate>Wed, 15 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=839746</tag>
+	<url>http://www.last.fm/event/839746</url>
+</event>
+<event>
+	<id>846752</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Arts Centre</name>
+		<location>
+			<city>Colchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.8833333</lat>
+				<long>0.9</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8883534</url>
+	</venue>
+	<startDate>Thu, 16 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Behemoths of the metal scene In Flames make a rare appearance in a smaller venue. As if that wasn’t enough, they’ve brought the mighty Cancer Bats with them for a double dose of devastation. Probably close to selling out by the time you read this.	<br />
+		<br />
+	Support: CANCER BATS</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=846752</tag>
+	<url>http://www.last.fm/event/846752</url>
+</event>
+<event>
+	<id>830830</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Concorde 2</name>
+		<location>
+			<city>Brighton</city>
+			<country>United Kingdom</country>
+			<street>Madeira Drive</street>
+			<postalcode>BN2 1EN</postalcode>
+			<point>
+				<lat>50.819396</lat>
+				<long>-0.123317</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8800464</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>25</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=830830</tag>
+	<url>http://www.last.fm/event/830830</url>
+</event>
+<event>
+	<id>980468</id>
+	<title>In Flames with Cancer Bats</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Brighton Concorde 2</name>
+		<location>
+			<city>Brighton</city>
+			<country>United Kingdom</country>
+			<street>Madeira Drive Brighton</street>
+			<postalcode>BN2 1PS</postalcode>
+			<point>
+				<lat>50.819268</lat>
+				<long>-0.132609</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014681</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980468</tag>
+	<url>http://www.last.fm/event/980468</url>
+</event>
+<event>
+	<id>836408</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>O2 Academy Oxford</name>
+		<location>
+			<city>Oxford</city>
+			<country>United Kingdom</country>
+			<street>190 Cowley Road</street>
+			<postalcode>OX4 1UE</postalcode>
+			<point>
+				<lat>51.744043</lat>
+				<long>-1.229069</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8994518</url>
+	</venue>
+	<startDate>Sat, 18 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>22</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=836408</tag>
+	<url>http://www.last.fm/event/836408</url>
+</event>
+<event>
+	<id>837381</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>The Cockpit</name>
+		<location>
+			<city>Leeds</city>
+			<country>United Kingdom</country>
+			<street>Swinegate</street>
+			<postalcode>LS1 4AG</postalcode>
+			<point>
+				<lat>53.794277</lat>
+				<long>-1.54347</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777808</url>
+	</venue>
+	<startDate>Sun, 19 Apr 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/In+Flames" class="bbcode_artist">In Flames</a> live at The Cockpit in Leeds with <a href="http://ws.audioscrobbler.com/music/Hardcore+Superstar" class="bbcode_artist">Hardcore Superstar</a> and <a href="http://ws.audioscrobbler.com/music/Cancer+Bats" class="bbcode_artist">Cancer Bats</a> as support.<br />
+		<br />
+	check <a href="http://www.seetickets.com" rel="nofollow">here</a> for tickets.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>30</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=837381</tag>
+	<url>http://www.last.fm/event/837381</url>
+</event>
+<event>
+	<id>831304</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>O2  Academy 2</name>
+		<location>
+			<city>Newcastle upon Tyne</city>
+			<country>United Kingdom</country>
+			<street>Westgate Road</street>
+			<postalcode>NE1 1SW</postalcode>
+			<point>
+				<lat>54.969788</lat>
+				<long>-1.618485</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8998029</url>
+	</venue>
+	<startDate>Tue, 21 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/In+Flames" class="bbcode_artist">In Flames</a><br />
+		<a href="http://ws.audioscrobbler.com/music/Cancer+Bats" class="bbcode_artist">Cancer Bats</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>25</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=831304</tag>
+	<url>http://www.last.fm/event/831304</url>
+</event>
+<event>
+	<id>830855</id>
+	<title>CANCELLED</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Fat Sam's</name>
+		<location>
+			<city>Dundee</city>
+			<country>United Kingdom</country>
+			<street>31 South Ward Road</street>
+			<postalcode>DD1 1PU</postalcode>
+			<point>
+				<lat>56.460749</lat>
+				<long>-2.976262</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777654</url>
+	</venue>
+	<startDate>Wed, 22 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Cancelled because Peter and Jesper can't be there.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+<attendance>21</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=830855</tag>
+<url>http://www.last.fm/event/830855</url>
+</event>
+<event>
+	<id>831033</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Mandela Hall</name>
+		<location>
+			<city>Belfast</city>
+			<country>United Kingdom</country>
+			<street>75-87 University Road</street>
+			<postalcode>BT7 1NF</postalcode>
+			<point>
+				<lat>54.5833333</lat>
+				<long>-5.9333333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8925226</url>
+	</venue>
+	<startDate>Thu, 23 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">In Flames is a Swedish melodic death metal band formed in Gothenburg, Sweden in 1990 and is considered to be a pioneer and major influence to the melodic death metal genre. Since the band's conception in 1990, In Flames has received numerous awards and released nine studio albums. The band has enjoyed increased popularity in recent years, both in its native Sweden and internationally. To date the band has sold over 2 million records worldwide.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+<attendance>12</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=831033</tag>
+<url>http://www.last.fm/event/831033</url>
+</event>
+<event>
+	<id>831036</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Academy</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>57 Middle Abbey Street</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.352461</lat>
+				<long>-6.259799</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8887925</url>
+	</venue>
+	<startDate>Fri, 24 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=831036</tag>
+	<url>http://www.last.fm/event/831036</url>
+</event>
+<event>
+	<id>830976</id>
+	<title>In Flames &amp; Cancer Bats</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>The Pavilion, Carey's Lane</name>
+		<location>
+			<city>Cork</city>
+			<country>Ireland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.8986111</lat>
+				<long>-8.4958333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8932921</url>
+	</venue>
+	<startDate>Sat, 25 Apr 2009</startDate>
+	<startTime>20:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets from<br />
+		<br />
+		<a href="http://www.tickets.ie" rel="nofollow">http://www.tickets.ie</a> &amp; <a href="http://www.ticketmaster.ie" rel="nofollow">http://www.ticketmaster.ie</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=830976</tag>
+	<url>http://www.last.fm/event/830976</url>
+</event>
+<event>
+	<id>830965</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Lemon Grove</name>
+		<location>
+			<city>Exeter</city>
+			<country>United Kingdom</country>
+			<street>Cornwall House, St Germans Rd</street>
+			<postalcode>EX4 6TG</postalcode>
+			<point>
+				<lat>50.735146</lat>
+				<long>-3.529619</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777910</url>
+	</venue>
+	<startDate>Mon, 27 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>26</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=830965</tag>
+	<url>http://www.last.fm/event/830965</url>
+</event>
+<event>
+	<id>830904</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Cardiff Solus</name>
+		<location>
+			<city></city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.5116667</lat>
+				<long>-3.2208333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778062</url>
+	</venue>
+	<startDate>Tue, 28 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>16</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=830904</tag>
+	<url>http://www.last.fm/event/830904</url>
+</event>
+<event>
+	<id>980504</id>
+	<title>In Flames with Cancer Bats</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Cardiff University Students Union</name>
+		<location>
+			<city>Cardiff</city>
+			<country>United Kingdom</country>
+			<street>Place Park, City Centre Cardiff, Wales</street>
+			<postalcode>CF10 3QN</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014740</url>
+	</venue>
+	<startDate>Tue, 28 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980504</tag>
+	<url>http://www.last.fm/event/980504</url>
+</event>
+<event>
+	<id>980506</id>
+	<title>In Flames with Cancer Bats</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Cambridge Corn Exchange</name>
+		<location>
+			<city>Cambridge</city>
+			<country>United Kingdom</country>
+			<street>Wheeler Street Cambridge</street>
+			<postalcode>CB2 3QB</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014741</url>
+	</venue>
+	<startDate>Wed, 29 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980506</tag>
+	<url>http://www.last.fm/event/980506</url>
+</event>
+<event>
+	<id>836209</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>The Junction</name>
+		<location>
+			<city>Cambridge, Cambridgeshire</city>
+			<country>United Kingdom</country>
+			<street>Clifton Road</street>
+			<postalcode>CB1 7GX</postalcode>
+			<point>
+				<lat>52.190989</lat>
+				<long>0.137039</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777888</url>
+	</venue>
+	<startDate>Wed, 29 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>17</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=836209</tag>
+	<url>http://www.last.fm/event/836209</url>
+</event>
+<event>
+	<id>831057</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Corporation</name>
+		<location>
+			<city>Sheffield</city>
+			<country>United Kingdom</country>
+			<street>Milton Street</street>
+			<postalcode>S1 4JU</postalcode>
+			<point>
+				<lat>53.376953</lat>
+				<long>-1.476903</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777811</url>
+	</venue>
+	<startDate>Thu, 30 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>19</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=831057</tag>
+	<url>http://www.last.fm/event/831057</url>
+</event>
+<event>
+	<id>832548</id>
+	<title>In Flames</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Carling Academy Liverpool</name>
+		<location>
+			<city>Liverpool</city>
+			<country>United Kingdom</country>
+			<street>11-13 Hotham Street</street>
+			<postalcode>L3 5UF</postalcode>
+			<point>
+				<lat>53.409128</lat>
+				<long>-2.977106</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777810</url>
+	</venue>
+	<startDate>Fri, 01 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>17</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=832548</tag>
+	<url>http://www.last.fm/event/832548</url>
+</event>
+<event>
+	<id>832033</id>
+	<title>In Flames 2009 UK Headline tour </title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Hardcore Superstar</artist>
+		<artist>Cancer Bats</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Roadmender</name>
+		<location>
+			<city>Northampton</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>52.25</lat>
+				<long>-0.8833333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8882245</url>
+	</venue>
+	<startDate>Sat, 02 May 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">-CANCELLED-</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+<attendance>7</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=832033</tag>
+<url>http://www.last.fm/event/832033</url>
+</event>
+<event>
+	<id>844355</id>
+	<title>Sweden Rock Festival</title>
+	<artists>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Motörhead</artist>
+		<artist>ZZ Top</artist>
+		<artist>In Flames</artist>
+		<artist>Dream Theater</artist>
+		<artist>Journey</artist>
+		<artist>Foreigner</artist>
+		<artist>Flogging Molly</artist>
+		<artist>Europe</artist>
+		<artist>Uriah Heep</artist>
+		<artist>HammerFall</artist>
+		<artist>Twisted Sister</artist>
+		<artist>Sevendust</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Marillion</artist>
+		<artist>Kamelot</artist>
+		<artist>Soilwork</artist>
+		<artist>Pain</artist>
+		<artist>UFO</artist>
+		<artist>Johnny Winter</artist>
+		<artist>Immortal</artist>
+		<artist>Volbeat</artist>
+		<artist>Lita Ford</artist>
+		<artist>Voivod</artist>
+		<artist>Unleashed</artist>
+		<artist>Torch</artist>
+		<artist>Tank</artist>
+		<artist>The Outlaws</artist>
+		<artist>The Tubes</artist>
+		<artist>Blackfoot</artist>
+		<artist>Riot</artist>
+		<artist>Amberian Dawn</artist>
+		<artist>Forbidden</artist>
+		<artist>Grand Magus</artist>
+		<artist>Eric Sardinas</artist>
+		<artist>Demon</artist>
+		<artist>Lujuria</artist>
+		<artist>Helstar</artist>
+		<artist>Impellitteri</artist>
+		<artist>Bullet</artist>
+		<artist>Crucified Barbara</artist>
+		<artist>Jon Oliva's Pain</artist>
+		<artist>Seventh Wonder</artist>
+		<artist>Electric Boys</artist>
+		<artist>Tyketto</artist>
+		<artist>Thor</artist>
+		<artist>Renegade Five</artist>
+		<artist>Enforcer</artist>
+		<artist>Kebnekajse</artist>
+		<artist>Pilgrimz</artist>
+		<artist>Demonical</artist>
+		<artist>Blaze Bayley</artist>
+		<artist>H.E.A.T.</artist>
+		<artist>Black Tooth</artist>
+		<artist>Chains</artist>
+		<artist>Stormzone</artist>
+		<artist>Hysterica</artist>
+		<artist>THE CHAIR</artist>
+		<artist>Ground Mower</artist>
+		<artist>Powderhog</artist>
+		<artist>Tracenine</artist>
+		<artist>Axident Avenue</artist>
+		<headliner>Heaven &amp; Hell</headliner>
+	</artists>
+	<venue>
+		<name>Norje</name>
+		<location>
+			<city>Sölvesborg</city>
+			<country>Sweden</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>56.05</lat>
+				<long>14.55</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8789965</url>
+	</venue>
+	<startDate>Wed, 03 Jun 2009</startDate>
+	<endDate>Sat, 06 Jun 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Thursday 3 Juni 2008  – Sunday 6 Juni 2008</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24033511.gif</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24033511.gif</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24033511.gif</image>
+<attendance>253</attendance>
+<reviews>1</reviews>
+<tag>lastfm:event=844355</tag>
+<url>http://www.last.fm/event/844355</url>
+</event>
+<event>
+	<id>912959</id>
+	<title>Kobetasonik 2009</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>In Flames</artist>
+		<artist>Dream Theater</artist>
+		<artist>Journey</artist>
+		<artist>Mötley Crüe</artist>
+		<artist>DragonForce</artist>
+		<artist>Cradle of Filth</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Anthrax</artist>
+		<artist>Hatebreed</artist>
+		<artist>Buckcherry</artist>
+		<artist>DevilDriver</artist>
+		<artist>God Forbid</artist>
+		<artist>Gojira</artist>
+		<artist>Crucified Barbara</artist>
+		<artist>Ekon</artist>
+		<artist>Lauren Harris</artist>
+		<artist>Idi Bihotz</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Kobetamendi</name>
+		<location>
+			<city>Bilbao</city>
+			<country>Spain</country>
+			<street>Calle del Monte Cobetas</street>
+			<postalcode>48002</postalcode>
+			<point>
+				<lat>43.265047</lat>
+				<long>-2.930722</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8801758</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sat, 20 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Marilyn Manson   (día 19)<br />
+		Papa Roach   (día 20)<br />
+		In Flames<br />
+		Dream Theater   (día 20)<br />
+		Journey<br />
+		Mötley Crüe   (día 20)<br />
+		DragonForce   <br />
+		Cradle of Filth   (día 19)<br />
+		Trivium   (día 19)<br />
+		Machine Head  (día 19)<br />
+		Anthrax   (día 20)<br />
+		Hatebreed   (día 20)<br />
+		Buckcherry (día 20)<br />
+		DevilDriver   (día 19)<br />
+		God Forbid   (día 20)<br />
+		Gojira   (día 19)<br />
+		Crucified Barbara  <br />
+		Ekon <br />
+		Lauren Harris<br />
+	Idi Bihotz</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24148045.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24148045.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24148045.jpg</image>
+	<attendance>183</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=912959</tag>
+	<url>http://www.last.fm/event/912959</url>
+</event>
+<event>
+	<id>852452</id>
+	<title>Ruisrock</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Ladytron</artist>
+		<artist>In Flames</artist>
+		<artist>Children of Bodom</artist>
+		<artist>Calexico</artist>
+		<artist>Mew</artist>
+		<artist>!!!</artist>
+		<artist>The Sounds</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Amorphis</artist>
+		<artist>The Living End</artist>
+		<artist>Neurosis</artist>
+		<artist>Apulanta</artist>
+		<artist>Volbeat</artist>
+		<artist>PMMP</artist>
+		<artist>Kotiteollisuus</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Mokoma</artist>
+		<artist>CMX</artist>
+		<artist>Eppu Normaali</artist>
+		<artist>Egotrippi</artist>
+		<artist>Scandinavian Music Group</artist>
+		<artist>Maija Vilkkumaa</artist>
+		<artist>Tehosekoitin</artist>
+		<artist>The Wildhearts</artist>
+		<artist>Stone</artist>
+		<artist>Le Corps Mince de Françoise</artist>
+		<artist>Pilgrimz</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Ruissalo</name>
+		<location>
+			<city>Turku</city>
+			<country>Finland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>60.425533</lat>
+				<long>22.146337</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781754</url>
+	</venue>
+	<startDate>Fri, 03 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>455</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=852452</tag>
+	<url>http://www.last.fm/event/852452</url>
+</event>
+<event>
+	<id>850954</id>
+	<title>Norway Rock Festival</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Sonata Arctica</artist>
+		<artist>Arch Enemy</artist>
+		<artist>Manowar</artist>
+		<artist>Testament</artist>
+		<artist>W.A.S.P.</artist>
+		<artist>Satyricon</artist>
+		<artist>Backyard Babies</artist>
+		<artist>U.D.O.</artist>
+		<artist>Doro</artist>
+		<artist>Skambankt</artist>
+		<artist>Sahg</artist>
+		<artist>Holyhell</artist>
+		<artist>Sister Sin</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Kvinesdal</name>
+		<location>
+			<city>Kvinesdal</city>
+			<country>Norway</country>
+			<street>Vest-Agder</street>
+			<postalcode>4480</postalcode>
+			<point>
+				<lat>63.4166667</lat>
+				<long>10.4166667</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8879637</url>
+	</venue>
+	<startDate>Thu, 09 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode"><span style="text-decoration:underline;"><strong>Foreløpig lineup/spilledager:</strong></span><br />
+	<br />
+	<strong>Torsdag: (Fri aldersgrense)</strong>
+	<br />
+	In Flames<br />
+	Sonata Arctica<br />
+	Arch Enemy<br />
+	<br />
+	<strong>Fredag: (18 års aldergrense)</strong>
+	<br />
+	Manowar<br />
+	Holyhell<br />
+	W.A.S.P.<br />
+	Testament<br />
+	Backyard Babies <br />
+	<br />
+	<strong>Lørdag: (18 års aldergrense)</strong>
+	<br />
+	Doro<br />
+	U.D.O.<br />
+	Satyricon<br />
+	Skambankt<br />
+Sister Sin</div>]]></description>
+<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+<attendance>52</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=850954</tag>
+<url>http://www.last.fm/event/850954</url>
+</event>
+<event>
+	<id>938863</id>
+	<title>Norwegian Rock Festival</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Sonata Arctica</artist>
+		<artist>Arch Enemy</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Øysletta</name>
+		<location>
+			<city>Kvinesdal</city>
+			<country>Norway</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>58.3166667</lat>
+				<long>6.95</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9005197</url>
+	</venue>
+	<startDate>Thu, 09 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Fremdeles ett band til som skal spille på denne dagen, personlig (aBlueBear) håper jeg på Opeth!!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+<attendance>2</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=938863</tag>
+<url>http://www.last.fm/event/938863</url>
+</event>
+<event>
+	<id>960369</id>
+	<title>Wacken (Inoffizielles Lineup)</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Motörhead</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>DragonForce</artist>
+		<artist>Machine Head</artist>
+		<artist>HammerFall</artist>
+		<artist>Stratovarius</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Testament</artist>
+		<artist>Edguy</artist>
+		<artist>Tristania</artist>
+		<artist>Saxon</artist>
+		<artist>Gamma Ray</artist>
+		<artist>Nevermore</artist>
+		<artist>Pain</artist>
+		<artist>Korpiklaani</artist>
+		<artist>UFO</artist>
+		<artist>In Extremo</artist>
+		<artist>Napalm Death</artist>
+		<artist>Rage</artist>
+		<artist>Turisas</artist>
+		<artist>Subway to Sally</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Mägo de Oz</artist>
+		<artist>Borknagar</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>Volbeat</artist>
+		<artist>GWAR</artist>
+		<artist>Schandmaul</artist>
+		<artist>Axel Rudi Pell</artist>
+		<artist>Doro</artist>
+		<artist>Cathedral</artist>
+		<artist>Einherjer</artist>
+		<artist>Warlock</artist>
+		<artist>Kampfar</artist>
+		<artist>Breed77</artist>
+		<artist>Whiplash</artist>
+		<artist>Kingdom of Sorrow</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Der W</artist>
+		<artist>Tracedawn</artist>
+		<artist>Callejón</artist>
+		<artist>Mambo Kurt</artist>
+		<artist>SARKE</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Wacken</name>
+		<location>
+			<city>Wacken</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>54.020923</lat>
+				<long>9.373885</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9000978</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>14</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=960369</tag>
+	<url>http://www.last.fm/event/960369</url>
+</event>
+<event>
+	<id>584022</id>
+	<title>Wacken Open Air 2009</title>
+	<artists>
+		<artist>Motörhead</artist>
+		<artist>In Flames</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>DragonForce</artist>
+		<artist>Machine Head</artist>
+		<artist>HammerFall</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Testament</artist>
+		<artist>Tristania</artist>
+		<artist>Nevermore</artist>
+		<artist>Korpiklaani</artist>
+		<artist>UFO</artist>
+		<artist>In Extremo</artist>
+		<artist>Napalm Death</artist>
+		<artist>Turisas</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Borknagar</artist>
+		<artist>Volbeat</artist>
+		<artist>GWAR</artist>
+		<artist>Airbourne</artist>
+		<artist>Axel Rudi Pell</artist>
+		<artist>Cathedral</artist>
+		<artist>Einherjer</artist>
+		<artist>Kampfar</artist>
+		<artist>Whiplash</artist>
+		<artist>Kingdom of Sorrow</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Tracedawn</artist>
+		<artist>Callejón</artist>
+		<artist>SARKE</artist>
+		<headliner>Motörhead</headliner>
+	</artists>
+	<venue>
+		<name>Wacken</name>
+		<location>
+			<city>Wacken</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode>25596</postalcode>
+			<point>
+				<lat>54.020923</lat>
+				<long>9.373885</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778594</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><span style="text-decoration:underline;">Wacken Open Air 2009: The 20th Anniversary - SOLD OUT!</span> <br />
+		<br />
+		Inofficially confirmed bands:<br />
+		<a href="http://ws.audioscrobbler.com/music/Warlock" class="bbcode_artist">Warlock</a> or <a href="http://ws.audioscrobbler.com/music/Doro" class="bbcode_artist">Doro</a>, <a href="http://ws.audioscrobbler.com/music/Accept" class="bbcode_artist">Accept</a> or <a href="http://ws.audioscrobbler.com/music/U.D.O." class="bbcode_artist">U.D.O.</a>, <a href="http://ws.audioscrobbler.com/music/Saxon" class="bbcode_artist">Saxon</a>, <a href="http://ws.audioscrobbler.com/music/Rage" class="bbcode_artist">Rage</a>, <a href="http://ws.audioscrobbler.com/music/Gamma+Ray" class="bbcode_artist">Gamma Ray</a>, <a href="http://ws.audioscrobbler.com/music/M%C3%A4go+de+Oz" class="bbcode_artist">M&auml;go de Oz</a>
+	<span title="Unknown artist" class="bbcode_unknown">, <a class="music artist">PAIN</span>, <a href="http://ws.audioscrobbler.com/music/Der+W" class="bbcode_artist">Der W</a>, <a href="http://ws.audioscrobbler.com/music/Subway+to+Sally" class="bbcode_artist">Subway to Sally</a>, <a href="http://ws.audioscrobbler.com/music/J.B.O." class="bbcode_artist">J.B.O.</a>, <a href="http://ws.audioscrobbler.com/music/Sonic+Syndicate" class="bbcode_artist">Sonic Syndicate</a>, <a href="http://ws.audioscrobbler.com/music/Schandmaul" class="bbcode_artist">Schandmaul</a>, <a href="http://ws.audioscrobbler.com/music/Bring+Me+the+Horizon" class="bbcode_artist">Bring Me the Horizon</a>, <a href="http://ws.audioscrobbler.com/music/Eths" class="bbcode_artist">Eths</a>, <a href="http://ws.audioscrobbler.com/music/Breed77" class="bbcode_artist">Breed77</a>, <a href="http://ws.audioscrobbler.com/music/Bai+Bang" class="bbcode_artist">Bai Bang</a>, <a href="http://ws.audioscrobbler.com/music/Retrospect" class="bbcode_artist">Retrospect</a>, <a href="http://ws.audioscrobbler.com/music/Nervecell" class="bbcode_artist">Nervecell</a>
+	<br />
+	<br />
+	<br />
+	Wacken has been known to be the biggest metal festival in Europe (and even the world) for quite some years, and the 2009 edition will go into history as the best days in the history of metal. Even though hell will only be unleashed in some 250 days, every metalhead alive is counting the days for this special event. Wacken, it's time to rock!<br />
+	<br />
+	Wacken staat al jaren bekend als het grootste metalfestival in Europa (en zelfs de wereld). De 20ste editie zal meer dan waarschijnlijk de kronieken in gaan als het beste evenement in de geschiedenis van metal. Ook al zijn er nog meer dan 250 dagen te gaan vooraleer de poorten naar de hel worden geopend, elke metalhead telt nu al af naar deze gig. Wacken, it's time to rock!<br />
+	<br />
+Wacken est connu comme le festival metal le plus grand en Europe (et même dans le monde entier). Cette 20ième édition entrera probablement dans l'histoire de metal comme étant les meilleurs jours du métal. Même a plus de 250 jours avant l'enfer sur terre, chaque metalhead vivant commence a compter. Wacken, it's time to rock!</a>
+</div>]]></description>
+<image size="small">http://userserve-ak.last.fm/serve/34/22554891.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/22554891.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/22554891.jpg</image>
+<attendance>2273</attendance>
+<reviews>6</reviews>
+<tag>lastfm:event=584022</tag>
+<url>http://www.last.fm/event/584022</url>
+</event>
+<event>
+	<id>976869</id>
+	<title>W:O:A 2009 (inofficial lineup)</title>
+	<artists>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Motörhead</artist>
+		<artist>In Flames</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>DragonForce</artist>
+		<artist>Machine Head</artist>
+		<artist>HammerFall</artist>
+		<artist>Stratovarius</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Testament</artist>
+		<artist>Edguy</artist>
+		<artist>Tristania</artist>
+		<artist>Saxon</artist>
+		<artist>Gamma Ray</artist>
+		<artist>DevilDriver</artist>
+		<artist>Nevermore</artist>
+		<artist>Pain</artist>
+		<artist>Korpiklaani</artist>
+		<artist>UFO</artist>
+		<artist>In Extremo</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Napalm Death</artist>
+		<artist>Heaven Shall Burn</artist>
+		<artist>J.B.O.</artist>
+		<artist>Rage</artist>
+		<artist>Turisas</artist>
+		<artist>Subway to Sally</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Mägo de Oz</artist>
+		<artist>Borknagar</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Eluveitie</artist>
+		<artist>All Shall Perish</artist>
+		<artist>GWAR</artist>
+		<artist>Schandmaul</artist>
+		<artist>Scar Symmetry</artist>
+		<artist>Airbourne</artist>
+		<artist>Axel Rudi Pell</artist>
+		<artist>U.D.O.</artist>
+		<artist>Doro</artist>
+		<artist>Equilibrium</artist>
+		<artist>Cathedral</artist>
+		<artist>Einherjer</artist>
+		<artist>Arsis</artist>
+		<artist>D-A-D</artist>
+		<artist>Warlock</artist>
+		<artist>The BossHoss</artist>
+		<artist>SuidAkrA</artist>
+		<artist>Torfrock</artist>
+		<artist>Kampfar</artist>
+		<artist>Breed77</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Whiplash</artist>
+		<artist>Benediction</artist>
+		<artist>Psycroptic</artist>
+		<artist>Chrome Division</artist>
+		<artist>Eths</artist>
+		<artist>Kingdom of Sorrow</artist>
+		<artist>Sylosis</artist>
+		<artist>Der W</artist>
+		<artist>Tracedawn</artist>
+		<artist>Callejón</artist>
+		<artist>Mambo Kurt</artist>
+		<artist>Retrospect</artist>
+		<artist>Hackneyed</artist>
+		<artist>Nervecell</artist>
+		<artist>Mantic Ritual</artist>
+		<artist>Bai Bang</artist>
+		<artist>SARKE</artist>
+		<headliner>Heaven &amp; Hell</headliner>
+	</artists>
+	<venue>
+		<name>ITZEHOE</name>
+		<location>
+			<city>ITZEHOE</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.923959</lat>
+				<long>9.510319</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8983964</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">THIS IS NOT THE OFFICIALL WACKEN OPEN AIR 2009 LINEUP!<br />
+	I COLLECTED INFORMATION TO SHOW HOW THE FINAL LINEUP MIGHT LOOK LIKE. THERE IS NO GARANTIE FOR ANY OF THESE INOFFICAL COMFIRMATIONS, THIS LINEUP IS NOT YET COMPLETE!</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2134265.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2134265.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2134265.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=976869</tag>
+	<url>http://www.last.fm/event/976869</url>
+</event>
+</events>
+</lfm>

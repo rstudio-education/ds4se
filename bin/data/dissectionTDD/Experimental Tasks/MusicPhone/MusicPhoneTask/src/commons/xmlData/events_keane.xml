@@ -1,0 +1,1540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Keane" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="37">
+		<event>
+			<id>932230</id>
+			<title>Virgin Radio Tour</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Pascale Picard</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Dock des Suds</name>
+				<location>
+					<city>Marseille</city>
+					<country>France</country>
+					<street>12, rue Urbain V</street>
+					<postalcode>13002</postalcode>
+					<point>
+						<lat>43.31538</lat>
+						<long>5.368175</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8798941</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>7</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=932230</tag>
+			<url>http://www.last.fm/event/932230</url>
+		</event>
+		<event>
+			<id>975426</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Metropolis Fremantle</name>
+				<location>
+					<city>Fremantle</city>
+					<country>Australia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-32.056202</lat>
+						<long>115.748459</long>
+					</point>
+					<timezone>WST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778605</url>
+			</venue>
+			<startDate>Mon, 13 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">KEANE, one of Britain’s best loved bands, return to Australia for a run of April show dates to highlight their undeniable collection of perfectly crafted stellar pop.<br />
+				<br />
+				With over 8 million album sales worldwide and a bundle of awards spanning Brits to Ivor Novellos, KEANE are fresh from a sold-out UK arena shows but looking forward to a playing more intimate venues in the first shows here in 5 years.<br />
+				<br />
+				Introducing themselves to the world at large via the 2004 ‘HOPES &amp; FEARS’ album, KEANE continued to surprise with 2006’s ‘UNDER THE SEA’, which songs including ‘Somewhere Only We Know’, ‘Crystal Ball’, ‘Everybody’s Changing’ &amp; ‘Is It Any Wonder’. 2008 saw the release of the band’s 3rd album ‘PERFECT SYMMETRY’, a thrillingly bold album cementing Rice-Oxley’s position as one of the finest British songwriters to emerge this decade.<br />
+				<br />
+			Don’t miss this technicolour explosion of pure, unashamed pop energy - audible in every finger-clicking and life-affirming chorus.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=975426</tag>
+			<url>http://www.last.fm/event/975426</url>
+		</event>
+		<event>
+			<id>970201</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Palace Theatre</name>
+				<location>
+					<city>Melbourne</city>
+					<country>Australia</country>
+					<street>20 - 30 Bourke Street</street>
+					<postalcode>3000</postalcode>
+					<point>
+						<lat>-37.7967631768216</lat>
+						<long>144.959106445312</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8905708</url>
+			</venue>
+			<startDate>Thu, 16 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">&quot;Our eyes are already misting over at news that British sentimentalists Keane will return to our shores in April. It’s been five years since the band’s last visit, and they’ll be coming straight from a stadium-filling circuit of the UK.<br />
+				<br />
+				2008 heralded <a href="http://ws.audioscrobbler.com/music/Keane" class="bbcode_artist">Keane</a>’s third album, Perfect Symmetry, which sold zillions of copies and no doubt powered a few TV drama crescendos. They’ll play relatively close-quarters shows in Perth, Sydney, Melbourne and Brisbane – speedy sell-outs are a given. &quot;<br />
+				- <a href="http://www.fasterlouder.com.au" rel="nofollow">http://www.fasterlouder.com.au</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>13</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=970201</tag>
+			<url>http://www.last.fm/event/970201</url>
+		</event>
+		<event>
+			<id>970421</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Metro Theatre</name>
+				<location>
+					<city>Sydney</city>
+					<country>Australia</country>
+					<street>624 George St</street>
+					<postalcode>2000</postalcode>
+					<point>
+						<lat>-33.875759</lat>
+						<long>151.206776</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779999</url>
+			</venue>
+			<startDate>Fri, 17 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>8</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=970421</tag>
+			<url>http://www.last.fm/event/970421</url>
+		</event>
+		<event>
+			<id>977168</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Tivoli</name>
+				<location>
+					<city>Brisbane</city>
+					<country>Australia</country>
+					<street>52 Costin St, Fortitude Valley</street>
+					<postalcode>Q 4006</postalcode>
+					<point>
+						<lat>-27.452335</lat>
+						<long>153.031548</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8821490</url>
+			</venue>
+			<startDate>Mon, 20 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Keane, one of Britain's best loved bands, return to Australia for a run of April show dates to highlight their undeniable collection of perfectly crafted stellar pop.<br />
+				<br />
+				With over 8 million album sales worldwide and a bundle of awards spanning Brits to Ivor Novellos, Keane are fresh from a sold-out UK arena shows but looking forward to a playing more intimate venues in the first shows here in 5 years.<br />
+				<br />
+				Introducing themselves to the world at large via the 2004 'Hope &amp; Fears' album, Keane continued to surprise with 2006's 'Under the Sea', which songs including 'Somewhere Only We Know', 'Crystal Ball', 'Everybody's Changing' &amp; 'Is It Any Wonder'.<br />
+				<br />
+				2008 saw the release of the band's 3rd album 'Perfect Symmetry', a thrillingly bold album cementing Rice-Oxley's position as one of the finest British songwriters to emerge this decade.<br />
+				<br />
+			Don't miss this technicolour explosion of pure, unashamed pop energy - audible in every finger-clicking and life-affirming chorus.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=977168</tag>
+			<url>http://www.last.fm/event/977168</url>
+		</event>
+		<event>
+			<id>986057</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Big Cat</name>
+				<location>
+					<city>Osaka</city>
+					<country>Japan</country>
+					<street>BIGSTEP4F 1-6-14 nishishinsaibashi tyuou-ku</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.95</lat>
+						<long>137.2666667</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8797351</url>
+			</venue>
+			<startDate>Thu, 23 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=986057</tag>
+			<url>http://www.last.fm/event/986057</url>
+		</event>
+		<event>
+			<id>978649</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Studio Coast</name>
+				<location>
+					<city></city>
+					<country>Japan</country>
+					<street></street>
+					<postalcode>136-0082</postalcode>
+					<point>
+						<lat>35.685</lat>
+						<long>139.7513889</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8785640</url>
+			</venue>
+			<startDate>Fri, 24 Apr 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=978649</tag>
+			<url>http://www.last.fm/event/978649</url>
+		</event>
+		<event>
+			<id>913288</id>
+			<title>Estrella Levante SOS4.8</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>The Prodigy</artist>
+				<artist>PJ Harvey</artist>
+				<artist>Underworld</artist>
+				<artist>Babyshambles</artist>
+				<artist>Duffy</artist>
+				<artist>Peaches</artist>
+				<artist>The Wombats</artist>
+				<artist>Spiritualized</artist>
+				<artist>Ladyhawke</artist>
+				<artist>Los Planetas</artist>
+				<artist>Those Dancing Days</artist>
+				<artist>Matthew Herbert</artist>
+				<artist>El Guincho</artist>
+				<artist>Russian Red</artist>
+				<artist>John Parish</artist>
+				<artist>Klaus &amp; Kinski</artist>
+				<artist>2ManyDJs</artist>
+				<artist>Boyz Noise</artist>
+				<artist>Mathew Herbert</artist>
+				<artist>Miki Puig</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Recinto Ferial de La Fica</name>
+				<location>
+					<city>Murcia</city>
+					<country>Spain</country>
+					<street>Avenida del Primero de Mayo</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>37.9615233139661</lat>
+						<long>-1.12060546875</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8874920</url>
+			</venue>
+			<startDate>Fri, 01 May 2009</startDate>
+			<endDate>Sat, 02 May 2009</endDate>
+			<description>
+				<![CDATA[<div class="bbcode"><strong>Vuelve el Festival Estrella Levante SOS 4.8</strong><br />
+				<br />
+				Los días <strong>1 y 2 de mayo de 2009</strong> el festival Estrella Levante SOS 4.8 abrirá de nuevo la temporada de festivales de verano, con 48h non-stop al ritmo de la mejor música de vanguardia nacional e internacional.<br />
+				<br />
+				<strong>Estrella Levante SOS 4.8 </strong>es un festival con pretensiones diferentes, y el primero en nuestro país que se articula de acuerdo a tres pilares fundamentales: <strong>Música</strong>, <strong>Arte contemporáneo</strong> y <strong>Voces</strong>, un espacio para la Reflexión.<br />
+				<br />
+				El año pasado más de 26.000 personas bailaron al ritmo de The Chemical Brothers, Rufus Wainwright, James o Fangoria entre otros. La edición de 2009 repite con el sonido de la mejor música de vanguardia y aumenta su oferta musical con dos nuevos escenarios, que en total dotan al festival de cuatro espacios.<br />
+				<br />
+				La sección de Arte Contemporáneo liderada por Jota Castro, Comisario Artístico, mostrará los trabajos de Michelangelo Pistoletto, Amy Prince, Mark Leckey (Premio Turner 2008), International Festival, David Ellis o Fernando Bryce.<br />
+				Jota Castro es un artista franco-peruano afincado en Bruselas, evocador del humor trivial y el sarcasmo políticamente incorrecto, y aborda en su trabajo distintos problemas sociales reinterpretando hechos conectados con la actualidad y sus experiencias personales.<br />
+				<br />
+				VOCES, el espacio para la reflexión, unirá este año a un espectro más amplio de profesionales. Artistas, intelectuales, economistas, sociólogos y filósofos se darán cita en las mesas redondas abiertas a la participación ciudadana, bajo el lema ¿Y ahora qué?<br />
+				<strong>
+					<br />
+				Si quieres saber más sobre Festival Estrella Levante SOS 4.8 suscríbete a nuestra newsletter y recibirás todas las novedades relacionadas con el festival, las confirmaciones de cartel y mucho más…</strong>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22498145.png</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22498145.png</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22498145.png</image>
+			<attendance>393</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=913288</tag>
+			<url>http://www.last.fm/event/913288</url>
+		</event>
+		<event>
+			<id>955641</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Fox Theater</name>
+				<location>
+					<city>Oakland, CA</city>
+					<country>United States</country>
+					<street>1807 Telegraph Ave.</street>
+					<postalcode>94612</postalcode>
+					<point>
+						<lat>37.808268</lat>
+						<long>-122.269901</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8993923</url>
+			</venue>
+			<startDate>Fri, 08 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=955641</tag>
+			<url>http://www.last.fm/event/955641</url>
+		</event>
+		<event>
+			<id>948074</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Matt Kearney</artist>
+				<artist>helio sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Hollywood Palladium</name>
+				<location>
+					<city>Los Angeles, CA</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>34.05222</lat>
+						<long>-118.24278</long>
+					</point>
+					<timezone>PST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8988988</url>
+			</venue>
+			<startDate>Sat, 09 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>13</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=948074</tag>
+			<url>http://www.last.fm/event/948074</url>
+		</event>
+		<event>
+			<id>966391</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Hollywood Palladium</name>
+				<location>
+					<city>Hollywood</city>
+					<country>United States</country>
+					<street>6215 Sunset Blvd.</street>
+					<postalcode>90028</postalcode>
+					<point>
+						<lat>34.098088</lat>
+						<long>-118.324299</long>
+					</point>
+					<timezone>PST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781926</url>
+			</venue>
+			<startDate>Sat, 09 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=966391</tag>
+			<url>http://www.last.fm/event/966391</url>
+		</event>
+		<event>
+			<id>986889</id>
+			<title>KEANE</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Grove Of Anaheim</name>
+				<location>
+					<city>Anaheim, CA</city>
+					<country>United States</country>
+					<street>2200 East Katella Avenue</street>
+					<postalcode>92806</postalcode>
+					<point>
+						<lat>33.806154</lat>
+						<long>-117.874971</long>
+					</point>
+					<timezone>PST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8897681</url>
+			</venue>
+			<startDate>Sun, 10 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=986889</tag>
+			<url>http://www.last.fm/event/986889</url>
+		</event>
+		<event>
+			<id>952530</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Kingsbury Hall</name>
+				<location>
+					<city>Salt Lake City, Utah</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>40.765492</lat>
+						<long>-111.850527</long>
+					</point>
+					<timezone>MST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9007948</url>
+			</venue>
+			<startDate>Tue, 12 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>4</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=952530</tag>
+			<url>http://www.last.fm/event/952530</url>
+		</event>
+		<event>
+			<id>948432</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Ogden Theatre</name>
+				<location>
+					<city>Denver, CO</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>39.73917</lat>
+						<long>-104.98417</long>
+					</point>
+					<timezone>MST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8893046</url>
+			</venue>
+			<startDate>Wed, 13 May 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=948432</tag>
+			<url>http://www.last.fm/event/948432</url>
+		</event>
+		<event>
+			<id>953586</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Myth</name>
+				<location>
+					<city>Maplewood, MN</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.034672</lat>
+						<long>-93.024578</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8914287</url>
+			</venue>
+			<startDate>Fri, 15 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=953586</tag>
+			<url>http://www.last.fm/event/953586</url>
+		</event>
+		<event>
+			<id>966421</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Myth</name>
+				<location>
+					<city>Maplewood</city>
+					<country>United States</country>
+					<street>3090 Southlawn Drive</street>
+					<postalcode>55109</postalcode>
+					<point>
+						<lat>45.034672</lat>
+						<long>-93.024578</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8783384</url>
+			</venue>
+			<startDate>Fri, 15 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=966421</tag>
+			<url>http://www.last.fm/event/966421</url>
+		</event>
+		<event>
+			<id>977847</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Aragon Ballroom</name>
+				<location>
+					<city></city>
+					<country>United States</country>
+					<street>1106 W. Lawrence Ave.</street>
+					<postalcode>60640</postalcode>
+					<point>
+						<lat>41.969423</lat>
+						<long>-87.658009</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779516</url>
+			</venue>
+			<startDate>Sat, 16 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=977847</tag>
+			<url>http://www.last.fm/event/977847</url>
+		</event>
+		<event>
+			<id>948361</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Aragon Ballroom</name>
+				<location>
+					<city></city>
+					<country>United States</country>
+					<street>1106 W. Lawrence Ave.</street>
+					<postalcode>60640</postalcode>
+					<point>
+						<lat>41.969423</lat>
+						<long>-87.658009</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779516</url>
+			</venue>
+			<startDate>Sat, 16 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>12</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=948361</tag>
+			<url>http://www.last.fm/event/948361</url>
+		</event>
+		<event>
+			<id>971190</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearny</artist>
+				<artist>Hello Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>D.A.R. Constitution Hall</name>
+				<location>
+					<city>Washington DC</city>
+					<country>United States</country>
+					<street>1776 D Street, NW</street>
+					<postalcode>20006</postalcode>
+					<point>
+						<lat>38.892084</lat>
+						<long>-77.041086</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8783417</url>
+			</venue>
+			<startDate>Tue, 19 May 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>4</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=971190</tag>
+			<url>http://www.last.fm/event/971190</url>
+		</event>
+		<event>
+			<id>956002</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Tower Theater</name>
+				<location>
+					<city>Upper Darby</city>
+					<country>United States</country>
+					<street>69th &amp; Ludlow Street</street>
+					<postalcode>19082</postalcode>
+					<point>
+						<lat>39.961036</lat>
+						<long>-75.258841</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9001023</url>
+			</venue>
+			<startDate>Wed, 20 May 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=956002</tag>
+			<url>http://www.last.fm/event/956002</url>
+		</event>
+		<event>
+			<id>949345</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Bank of America Pavillion</name>
+				<location>
+					<city>Boston</city>
+					<country>United States</country>
+					<street>290 Northern Ave.</street>
+					<postalcode>02210</postalcode>
+					<point>
+						<lat>42.348352</lat>
+						<long>-71.037714</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8782092</url>
+			</venue>
+			<startDate>Thu, 21 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=949345</tag>
+			<url>http://www.last.fm/event/949345</url>
+		</event>
+		<event>
+			<id>948151</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Sound Academy</name>
+				<location>
+					<city>Toronto</city>
+					<country>Canada</country>
+					<street>11 Polson Street</street>
+					<postalcode>M5A 1A4</postalcode>
+					<point>
+						<lat>43.657385</lat>
+						<long>-79.356581</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8878053</url>
+			</venue>
+			<startDate>Sat, 23 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>12</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=948151</tag>
+			<url>http://www.last.fm/event/948151</url>
+		</event>
+		<event>
+			<id>980015</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>The Sound Academy (formerly The Docks)</name>
+				<location>
+					<city>Toronto</city>
+					<country>Canada</country>
+					<street>11 Polson Street</street>
+					<postalcode>M5A 1A4</postalcode>
+					<point>
+						<lat>43.641495</lat>
+						<long>-79.354136</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9014480</url>
+			</venue>
+			<startDate>Sat, 23 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=980015</tag>
+			<url>http://www.last.fm/event/980015</url>
+		</event>
+		<event>
+			<id>966475</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Time-Warner Cable Amphitheater at Tower City</name>
+				<location>
+					<city>Cleveland, OH</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>41.496731</lat>
+						<long>-81.693408</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8923263</url>
+			</venue>
+			<startDate>Sun, 24 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=966475</tag>
+			<url>http://www.last.fm/event/966475</url>
+		</event>
+		<event>
+			<id>952161</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Time Warner Cable Amphitheater at Tower City</name>
+				<location>
+					<city>Cleveland, OH</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>41.49944</lat>
+						<long>-81.69556</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8896512</url>
+			</venue>
+			<startDate>Sun, 24 May 2009</startDate>
+			<startTime>21:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=952161</tag>
+			<url>http://www.last.fm/event/952161</url>
+		</event>
+		<event>
+			<id>987240</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Wellmont Theatre</name>
+				<location>
+					<city>Montclair, NJ</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>40.812586</lat>
+						<long>-74.216286</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8991033</url>
+			</venue>
+			<startDate>Tue, 26 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=987240</tag>
+			<url>http://www.last.fm/event/987240</url>
+		</event>
+		<event>
+			<id>950617</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Radio City Music Hall</name>
+				<location>
+					<city>New York, NY</city>
+					<country>United States</country>
+					<street>1260 6th Avenue</street>
+					<postalcode>10020</postalcode>
+					<point>
+						<lat>40.759871</lat>
+						<long>-73.980249</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8906841</url>
+			</venue>
+			<startDate>Wed, 27 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">7 p.m.<br />
+				$37 - $50<br />
+				<br />
+				PRESALE: Wed., 2/25 at 10 a.m. - Thurs., 2/26 at 10 p.m.<br />
+			Use Code: HEKEANE</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>15</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=950617</tag>
+			<url>http://www.last.fm/event/950617</url>
+		</event>
+		<event>
+			<id>981474</id>
+			<title>Keane</title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Mat Kearney</artist>
+				<artist>The Helio Sequence</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Radio City Music Hall</name>
+				<location>
+					<city>New York</city>
+					<country>United States</country>
+					<street>1260 Avenue Of The Americas</street>
+					<postalcode>10020</postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9014807</url>
+			</venue>
+			<startDate>Wed, 27 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=981474</tag>
+			<url>http://www.last.fm/event/981474</url>
+		</event>
+		<event>
+			<id>980322</id>
+			<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+			<artists>
+				<artist>Pinkpop</artist>
+				<artist>The Killers</artist>
+				<artist>Franz Ferdinand</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Placebo</artist>
+				<artist>Depeche Mode</artist>
+				<artist>Keane</artist>
+				<artist>The Kooks</artist>
+				<artist>Elbow</artist>
+				<artist>Amy Macdonald</artist>
+				<artist>Anouk</artist>
+				<artist>Bruce Springsteen &amp; The E Street Band</artist>
+				<headliner>Pinkpop</headliner>
+			</artists>
+			<venue>
+				<name>Megaland</name>
+				<location>
+					<city>Landgraaf</city>
+					<country>Netherlands</country>
+					<street>Hofstraat 15</street>
+					<postalcode>6372 XC</postalcode>
+					<point>
+						<lat>50.879881</lat>
+						<long>6.019273</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8780355</url>
+			</venue>
+			<startDate>Sat, 30 May 2009</startDate>
+			<startTime>15:00</startTime>
+			<description></description>
+			<image size="small"></image>
+			<image size="medium"></image>
+			<image size="large"></image>
+			<attendance>10</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=980322</tag>
+			<url>http://www.last.fm/event/980322</url>
+		</event>
+		<event>
+			<id>977701</id>
+			<title>Island 50: Keane &amp; Tom Tom Club </title>
+			<artists>
+				<artist>Keane</artist>
+				<artist>Tom Tom Club</artist>
+				<headliner>Keane</headliner>
+			</artists>
+			<venue>
+				<name>Shepherds Bush Empire</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>Shepherd's Bush Green</street>
+					<postalcode>W12 8TT</postalcode>
+					<point>
+						<lat>51.504519</lat>
+						<long>-0.22483</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8777126</url>
+			</venue>
+			<startDate>Sat, 30 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13023229.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13023229.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13023229.jpg</image>
+			<attendance>8</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=977701</tag>
+			<url>http://www.last.fm/event/977701</url>
+		</event>
+		<event>
+			<id>740271</id>
+			<title>Pinkpop 2009</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Franz Ferdinand</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Placebo</artist>
+				<artist>Depeche Mode</artist>
+				<artist>Keane</artist>
+				<artist>The Kooks</artist>
+				<artist>Bruce Springsteen</artist>
+				<artist>The All-American Rejects</artist>
+				<artist>Billy Talent</artist>
+				<artist>Katy Perry</artist>
+				<artist>The Ting Tings</artist>
+				<artist>Elbow</artist>
+				<artist>James Morrison</artist>
+				<artist>Chris Cornell</artist>
+				<artist>Pendulum</artist>
+				<artist>Amy Macdonald</artist>
+				<artist>Madness</artist>
+				<artist>Maria Mena</artist>
+				<artist>Me First and the Gimme Gimmes</artist>
+				<artist>Anouk</artist>
+				<artist>Just Jack</artist>
+				<artist>Shinedown</artist>
+				<artist>The Script</artist>
+				<artist>White Lies</artist>
+				<artist>Hollywood Undead</artist>
+				<artist>Volbeat</artist>
+				<artist>Novastar</artist>
+				<artist>Milow</artist>
+				<artist>De Jeugd van Tegenwoordig</artist>
+				<artist>De Staat</artist>
+				<artist>Kyteman</artist>
+				<artist>Kings of the Day</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Megaland</name>
+				<location>
+					<city>Landgraaf</city>
+					<country>Netherlands</country>
+					<street>Hofstraat 13 - 15</street>
+					<postalcode>6372 XC</postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8960438</url>
+			</venue>
+			<startDate>Sat, 30 May 2009</startDate>
+			<endDate>Mon, 01 Jun 2009</endDate>
+			<description>
+				<![CDATA[<div class="bbcode">Tickets are available <a href="http://www.ticketmaster.nl/html/searchResult.htmI?&amp;keyword=pinkpop&amp;defaultKeyword=Vul+in+naam+artiest+of+locatie&amp;l=EN" rel="nofollow">on-line</a> and at the official ticketshops.<br />
+				<br />
+				<strong>3-day passe-partout (including camping site):</strong> € 140<br />
+				<strong>Saturday-only ticket:</strong> € 75 <span style="text-decoration:underline;">
+					<strong>SOLD OUT</strong>
+				</span>
+				<br />
+				<strong>Sunday-only ticket:</strong> € 75<br />
+			<strong>Monday-only ticket:</strong> € 75</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/23814409.png</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/23814409.png</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/23814409.png</image>
+			<attendance>826</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=740271</tag>
+			<url>http://www.last.fm/event/740271</url>
+		</event>
+		<event>
+			<id>980323</id>
+			<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+			<artists>
+				<artist>Pinkpop</artist>
+				<artist>The Killers</artist>
+				<artist>Franz Ferdinand</artist>
+				<artist>Placebo</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Depeche Mode</artist>
+				<artist>Keane</artist>
+				<artist>The Kooks</artist>
+				<artist>Amy Macdonald</artist>
+				<artist>Anouk</artist>
+				<artist>Bruce Springsteen &amp; The E Street Band</artist>
+				<headliner>Pinkpop</headliner>
+			</artists>
+			<venue>
+				<name>Megaland</name>
+				<location>
+					<city>Landgraaf</city>
+					<country>Netherlands</country>
+					<street>Hofstraat 15</street>
+					<postalcode>6372 XC</postalcode>
+					<point>
+						<lat>50.879881</lat>
+						<long>6.019273</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8780355</url>
+			</venue>
+			<startDate>Sun, 31 May 2009</startDate>
+			<startTime>13:00</startTime>
+			<description></description>
+			<image size="small"></image>
+			<image size="medium"></image>
+			<image size="large"></image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=980323</tag>
+			<url>http://www.last.fm/event/980323</url>
+		</event>
+		<event>
+			<id>980324</id>
+			<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+			<artists>
+				<artist>Pinkpop</artist>
+				<artist>The Killers</artist>
+				<artist>Franz Ferdinand</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Placebo</artist>
+				<artist>Depeche Mode</artist>
+				<artist>Keane</artist>
+				<artist>The Kooks</artist>
+				<artist>Amy Macdonald</artist>
+				<artist>Anouk</artist>
+				<artist>Bruce Springsteen &amp; The E Street Band</artist>
+				<headliner>Pinkpop</headliner>
+			</artists>
+			<venue>
+				<name>Megaland</name>
+				<location>
+					<city>Landgraaf</city>
+					<country>Netherlands</country>
+					<street>Hofstraat 15</street>
+					<postalcode>6372 XC</postalcode>
+					<point>
+						<lat>50.879881</lat>
+						<long>6.019273</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8780355</url>
+			</venue>
+			<startDate>Mon, 01 Jun 2009</startDate>
+			<startTime>12:00</startTime>
+			<description></description>
+			<image size="small"></image>
+			<image size="medium"></image>
+			<image size="large"></image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=980324</tag>
+			<url>http://www.last.fm/event/980324</url>
+		</event>
+		<event>
+			<id>793682</id>
+			<title>TW Classic 2009</title>
+			<artists>
+				<artist>Depeche Mode</artist>
+				<artist>Moby</artist>
+				<artist>Keane</artist>
+				<artist>Basement Jaxx</artist>
+				<artist>Duffy</artist>
+				<artist>Motor</artist>
+				<artist>Tom Helsen</artist>
+				<headliner>Depeche Mode</headliner>
+			</artists>
+			<venue>
+				<name>Werchter</name>
+				<location>
+					<city>Werchter</city>
+					<country>Belgium</country>
+					<street>Haachtsesteenweg</street>
+					<postalcode>B-3118</postalcode>
+					<point>
+						<lat>50.969376</lat>
+						<long>4.69036</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779175</url>
+			</venue>
+			<startDate>Sat, 20 Jun 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Het programma: <br />
+				Motor 13:25 – 14:05<br />
+				Tom Helsen 14:35 – 15:25<br />
+				Duffy 15:55 – 16:55<br />
+				Keane 17:30 – 18:30<br />
+				Moby 19:05 – 20:20<br />
+				Depeche Mode 21:00 – 23:00<br />
+			Basement Jaxx 23:40 – 00:55</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13448853.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13448853.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13448853.jpg</image>
+			<attendance>65</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=793682</tag>
+			<url>http://www.last.fm/event/793682</url>
+		</event>
+		<event>
+			<id>716993</id>
+			<title>Oxegen</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Bloc Party</artist>
+				<artist>Blur</artist>
+				<artist>Keane</artist>
+				<artist>Nine Inch Nails</artist>
+				<artist>Yeah Yeah Yeahs</artist>
+				<artist>Kings of Leon</artist>
+				<artist>Razorlight</artist>
+				<artist>Lily Allen</artist>
+				<artist>Jason Mraz</artist>
+				<artist>The Mars Volta</artist>
+				<artist>TV on the Radio</artist>
+				<artist>of Montreal</artist>
+				<artist>Doves</artist>
+				<artist>Manic Street Preachers</artist>
+				<artist>Nick Cave and the Bad Seeds</artist>
+				<artist>Katy Perry</artist>
+				<artist>The Ting Tings</artist>
+				<artist>Pet Shop Boys</artist>
+				<artist>Elbow</artist>
+				<artist>Jane's Addiction</artist>
+				<artist>The Game</artist>
+				<artist>Paolo Nutini</artist>
+				<artist>Digitalism</artist>
+				<artist>Lady GaGa</artist>
+				<artist>Maximo Park</artist>
+				<artist>Pendulum</artist>
+				<artist>Tiga</artist>
+				<artist>The Specials</artist>
+				<artist>Eagles of Death Metal</artist>
+				<artist>Foals</artist>
+				<artist>James</artist>
+				<artist>God Is an Astronaut</artist>
+				<artist>Squeeze</artist>
+				<artist>The Script</artist>
+				<artist>Ladyhawke</artist>
+				<artist>Miss Kittin &amp; The Hacker</artist>
+				<artist>Glasvegas</artist>
+				<artist>Friendly Fires</artist>
+				<artist>White Lies</artist>
+				<artist>The Saturdays</artist>
+				<artist>Florence and The Machine</artist>
+				<artist>Dreadzone</artist>
+				<artist>Peter Doherty</artist>
+				<artist>Wallis Bird</artist>
+				<artist>Aeroplane</artist>
+				<artist>Fight Like Apes</artist>
+				<artist>Tom Middleton</artist>
+				<artist>Hudson Mohawke</artist>
+				<artist>hockey</artist>
+				<artist>Gary Go</artist>
+				<artist>Swedish House Mafia</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Punchestown Racecourse</name>
+				<location>
+					<city>An Nás</city>
+					<country>Ireland</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>53.2158333</lat>
+						<long>-6.6669444</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781144</url>
+			</venue>
+			<startDate>Fri, 10 Jul 2009</startDate>
+			<endDate>Sun, 12 Jul 2009</endDate>
+			<description>
+				<![CDATA[<div class="bbcode">Oxegen is an annual music festival, held since 2004, sponsored by Heineken International. It was previously called Witnness, which ran from the year 2000 and was sponsored by Guinness. Oxegen was originally a two-day festival but for 2008 will be expanded to three days. It takes place at the Punchestown Racecourse in County Kildare, Republic of Ireland and has an average attendance of around 80,000 a day, with around half of these camping on site for the duration, and the rest travelling to the site each day. The festival is promoted by MCD.<br />
+				<br />
+				While Oxegen has not yet reached the iconic status of Glastonbury, it still manages to attract a large quantity of high profile acts each year. Generally, the festival’s line-up is identical to that of T in the Park, which runs on the same weekend, but in Scotland. Many acts play Oxegen on the day that they’re not playing TitP.<br />
+			As well as six stages of music, there are four large areas for camping which are subdivided by colour. Stalls and shops are also provided, as well as toilet and shower areas. The toilet facilities have been improved upon in recent years and are now adequate for the large number of people at the festival. There is also a funfair adjacent to the arena, featuring a big wheel and other rides, such as the “Magic Carpet”, the “Big Drop”, and the roller coaster.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24685953.gif</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24685953.gif</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24685953.gif</image>
+			<attendance>190</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=716993</tag>
+			<url>http://www.last.fm/event/716993</url>
+		</event>
+		<event>
+			<id>701873</id>
+			<title>T In The Park 2009</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Franz Ferdinand</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Bloc Party</artist>
+				<artist>Blur</artist>
+				<artist>Keane</artist>
+				<artist>Nine Inch Nails</artist>
+				<artist>Yeah Yeah Yeahs</artist>
+				<artist>Kings of Leon</artist>
+				<artist>Razorlight</artist>
+				<artist>Lily Allen</artist>
+				<artist>Jason Mraz</artist>
+				<artist>The Mars Volta</artist>
+				<artist>Mogwai</artist>
+				<artist>TV on the Radio</artist>
+				<artist>of Montreal</artist>
+				<artist>Manic Street Preachers</artist>
+				<artist>Nick Cave and the Bad Seeds</artist>
+				<artist>Katy Perry</artist>
+				<artist>The Ting Tings</artist>
+				<artist>M83</artist>
+				<artist>Pet Shop Boys</artist>
+				<artist>The Streets</artist>
+				<artist>Maxïmo Park</artist>
+				<artist>Elbow</artist>
+				<artist>James Morrison</artist>
+				<artist>Jane's Addiction</artist>
+				<artist>The Game</artist>
+				<artist>Paolo Nutini</artist>
+				<artist>Lady GaGa</artist>
+				<artist>Maximo Park</artist>
+				<artist>Pendulum</artist>
+				<artist>Simian Mobile Disco</artist>
+				<artist>Felix da Housecat</artist>
+				<artist>The Specials</artist>
+				<artist>The View</artist>
+				<artist>Eagles of Death Metal</artist>
+				<artist>Foals</artist>
+				<artist>James</artist>
+				<artist>Boys Noize</artist>
+				<artist>Squeeze</artist>
+				<artist>The Script</artist>
+				<artist>Ladyhawke</artist>
+				<artist>Laurent Garnier</artist>
+				<artist>Glasvegas</artist>
+				<artist>Friendly Fires</artist>
+				<artist>White Lies</artist>
+				<artist>Jeff Mills</artist>
+				<artist>Dave Clarke</artist>
+				<artist>The Gaslight Anthem</artist>
+				<artist>The Saturdays</artist>
+				<artist>Slam</artist>
+				<artist>Florence and The Machine</artist>
+				<artist>Passion Pit</artist>
+				<artist>Seasick Steve</artist>
+				<artist>Silicone Soul</artist>
+				<artist>The Airborne Toxic Event</artist>
+				<artist>Peter Doherty</artist>
+				<artist>Claude Von Stroke</artist>
+				<artist>Mr Scruff</artist>
+				<artist>hockey</artist>
+				<artist>Gary Go</artist>
+				<artist>Bjorn Again</artist>
+				<artist>BeardyMan</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Balado</name>
+				<location>
+					<city>Kinross</city>
+					<country>United Kingdom</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>56.2</lat>
+						<long>-3.4166667</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781944</url>
+			</venue>
+			<startDate>Fri, 10 Jul 2009</startDate>
+			<endDate>Sun, 12 Jul 2009</endDate>
+			<description>
+			<![CDATA[<div class="bbcode">T in the Park 2009 returns to Balado with a fantastic lineup , albeit poptastic . All the latest information is at <a href="http://www.tinthepark.com" rel="nofollow">tinthepark.com</a></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/24844039.gif</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/24844039.gif</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/24844039.gif</image>
+		<attendance>249</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=701873</tag>
+		<url>http://www.last.fm/event/701873</url>
+	</event>
+	<event>
+		<id>734627</id>
+		<title>V Festival 2009</title>
+		<artists>
+			<artist>The Killers</artist>
+			<artist>Oasis</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Keane</artist>
+			<artist>Fatboy Slim</artist>
+			<artist>Razorlight</artist>
+			<artist>Lily Allen</artist>
+			<artist>MGMT</artist>
+			<artist>Katy Perry</artist>
+			<artist>The Ting Tings</artist>
+			<artist>The Streets</artist>
+			<artist>Elbow</artist>
+			<artist>James Morrison</artist>
+			<artist>Paolo Nutini</artist>
+			<artist>Lady GaGa</artist>
+			<artist>Pendulum</artist>
+			<artist>The Specials</artist>
+			<artist>The Wombats</artist>
+			<artist>James</artist>
+			<artist>Ocean Colour Scene</artist>
+			<artist>Dizzee Rascal</artist>
+			<artist>British Sea Power</artist>
+			<artist>Taylor Swift</artist>
+			<artist>Biffy Clyro</artist>
+			<artist>The Enemy</artist>
+			<artist>Happy Mondays</artist>
+			<artist>The Script</artist>
+			<artist>The Saturdays</artist>
+			<artist>Seasick Steve</artist>
+			<artist>Alesha Dixon</artist>
+			<artist>Peter Doherty</artist>
+			<headliner>The Killers</headliner>
+		</artists>
+		<venue>
+			<name>Weston Park</name>
+			<location>
+				<city>Stafford</city>
+				<country>United Kingdom</country>
+				<street>Weston-under-Lizard</street>
+				<postalcode>TF11 8LE</postalcode>
+				<point>
+					<lat>52.691026</lat>
+					<long>-2.276298</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8781820</url>
+		</venue>
+		<startDate>Sat, 22 Aug 2009</startDate>
+		<endDate>Sun, 23 Aug 2009</endDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/24819451.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/24819451.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/24819451.jpg</image>
+		<attendance>144</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=734627</tag>
+		<url>http://www.last.fm/event/734627</url>
+	</event>
+</events>
+</lfm>

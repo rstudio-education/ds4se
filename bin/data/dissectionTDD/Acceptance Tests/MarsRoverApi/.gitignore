@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+/bin
+=======
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+>>>>>>> 0ff384f2f29817e51cacc796c1127adf95ddc17c
+/bin
+/target

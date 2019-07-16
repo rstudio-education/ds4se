@@ -1,0 +1,1410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Nightwish" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="33">
+		<event>
+			<id>717279</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Palladium</name>
+				<location>
+					<city>Köln</city>
+					<country>Germany</country>
+					<street>Schanzenstraße 40</street>
+					<postalcode>51063</postalcode>
+					<point>
+						<lat>50.920298</lat>
+						<long>6.953072</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778543</url>
+			</venue>
+			<startDate>Tue, 17 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>68</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=717279</tag>
+			<url>http://www.last.fm/event/717279</url>
+		</event>
+		<event>
+			<id>717293</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Emslandhallen</name>
+				<location>
+					<city>Lingen (Ems)</city>
+					<country>Germany</country>
+					<street>Lindenstraße 24a</street>
+					<postalcode>49808</postalcode>
+					<point>
+						<lat>52.3</lat>
+						<long>-2.9333333</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8954788</url>
+			</venue>
+			<startDate>Wed, 18 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>35</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=717293</tag>
+			<url>http://www.last.fm/event/717293</url>
+		</event>
+		<event>
+			<id>963570</id>
+			<title>Autogrammstunde von Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>SATURN Karlsruhe</name>
+				<location>
+					<city>Karlsruhe</city>
+					<country>Germany</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>49.0099</lat>
+						<long>8.39429</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9010422</url>
+			</venue>
+			<startDate>Fri, 20 Mar 2009</startDate>
+			<startTime>14:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Autogrammstunde von Nightwish im Saturn in Karlsruhe.<br />
+				<br />
+				Freitag, 20. März - Karlsruhe<br />
+				<br />
+				SATURN Karlsruhe<br />
+				Kaiserstraße 217<br />
+				76137 Karlsruhe<br />
+				<br />
+			Beginn: 14:00 Uhr</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=963570</tag>
+			<url>http://www.last.fm/event/963570</url>
+		</event>
+		<event>
+			<id>717047</id>
+			<title>Nightwish European Déjà Vu Tour 2009</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Europahalle</name>
+				<location>
+					<city>Karlsruhe</city>
+					<country>Germany</country>
+					<street>Hermann-Veit-Straße 7</street>
+					<postalcode>76135</postalcode>
+					<point>
+						<lat>48.996762</lat>
+						<long>8.377478</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8793278</url>
+			</venue>
+			<startDate>Fri, 20 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>68</attendance>
+			<reviews>1</reviews>
+			<tag>lastfm:event=717047</tag>
+			<url>http://www.last.fm/event/717047</url>
+		</event>
+		<event>
+			<id>717120</id>
+			<title>Nightwish European Déjà Vu Tour 2009</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Messehalle</name>
+				<location>
+					<city>Erfurt</city>
+					<country>Germany</country>
+					<street>Gothaer Straße 34</street>
+					<postalcode>99094</postalcode>
+					<point>
+						<lat>50.962846</lat>
+						<long>10.994847</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8790143</url>
+			</venue>
+			<startDate>Sat, 21 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>60</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=717120</tag>
+			<url>http://www.last.fm/event/717120</url>
+		</event>
+		<event>
+			<id>690836</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Le Zénith</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>Parc de la Villette</street>
+					<postalcode>75019</postalcode>
+					<point>
+						<lat>48.8666667</lat>
+						<long>2.3333333</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8825357</url>
+			</venue>
+			<startDate>Mon, 23 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>52</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=690836</tag>
+			<url>http://www.last.fm/event/690836</url>
+		</event>
+		<event>
+			<id>833387</id>
+			<title>European Déjà-vu tour 2009</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Le Zénith</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>Parc de la Villette</street>
+					<postalcode>75019</postalcode>
+					<point>
+						<lat>48.8666667</lat>
+						<long>2.3333333</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8825357</url>
+			</venue>
+			<startDate>Tue, 24 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Date supplémentaire française, probablement la seule de 2009 avec celle du 23 mars au même endroit.<br />
+			Places en vente le vendredi 14 novembre 2008 sur le site de la fnac</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>32</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=833387</tag>
+			<url>http://www.last.fm/event/833387</url>
+		</event>
+		<event>
+			<id>717108</id>
+			<title>Nightwish European Déjà Vu Tour 2009</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Zenith</name>
+				<location>
+					<city>München</city>
+					<country>Germany</country>
+					<street>Lilienthalallee 29</street>
+					<postalcode>80939</postalcode>
+					<point>
+						<lat>49.55</lat>
+						<long>11.5833333</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778576</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>55</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=717108</tag>
+			<url>http://www.last.fm/event/717108</url>
+		</event>
+		<event>
+			<id>734060</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>St. Jakobshalle</name>
+				<location>
+					<city>Basel</city>
+					<country>Switzerland</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>47.539899</lat>
+						<long>7.618258</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778907</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>64</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=734060</tag>
+			<url>http://www.last.fm/event/734060</url>
+		</event>
+		<event>
+			<id>752915</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Volbeat</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Palabam di Mantova</name>
+				<location>
+					<city>Mantova</city>
+					<country>Italy</country>
+					<street>Via Melchiorre Gioia</street>
+					<postalcode>46100</postalcode>
+					<point>
+						<lat>45.15</lat>
+						<long>10.8</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8795927</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<startTime>21:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Biglietti in vendita su <a href="http://www.ticketone.it/newsComplete.jsp?idCat=52&amp;cdNews=207122&amp;idCatPT=529&amp;cdProductSelected=MCOM2009NI0330" rel="nofollow">TicketOne</a><br />
+				<br />
+				Platea - Posti in Piedi (non numerato) - 34,50 €<br />
+				1° Anello - Lato Destro (numerato) - 40,30 €<br />
+				1° Anello - Lato Sinistro (numerato) - 40,30 €<br />
+				1° Anello - Centrale (numerato) - 40,30 €<br />
+			2° Anello - (non nomerato) - 34,50 €</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>58</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=752915</tag>
+			<url>http://www.last.fm/event/752915</url>
+		</event>
+		<event>
+			<id>752916</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Palasport</name>
+				<location>
+					<city>Pordenone</city>
+					<country>Italy</country>
+					<street>Via Fratelli Rosselli</street>
+					<postalcode>Codice pos</postalcode>
+					<point>
+						<lat>45.9638889</lat>
+						<long>12.6575</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8786858</url>
+			</venue>
+			<startDate>Tue, 31 Mar 2009</startDate>
+			<startTime>21:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>23</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=752916</tag>
+			<url>http://www.last.fm/event/752916</url>
+		</event>
+		<event>
+			<id>708862</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>KC Dražen Petrović</name>
+				<location>
+					<city>Zagreb</city>
+					<country>Croatia</country>
+					<street>Savska 30</street>
+					<postalcode>10000</postalcode>
+					<point>
+						<lat>45.802256</lat>
+						<long>15.964139</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8989055</url>
+			</venue>
+			<startDate>Thu, 02 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Ulaznice za koncert mogu se kupiti od 17. rujna na svim ovlaštenim mjestima Eventima i ticketpro.hr-a, a njihove su cijene rangirane prema datumima na sljedeći način:<br />
+				<br />
+				<span style="text-decoration:underline;">do 31.12.2008.</span>
+				<br />
+				Fan Pit - 230 kn<br />
+				Parter - 210 kn<br />
+				Tribine - 190 kn<br />
+				<br />
+				<span style="text-decoration:underline;">od 1.1.2009.</span>
+				<br />
+				Fan Pit - 260 kn<br />
+				Parter - 240 kn<br />
+			Tribine - 220 kn</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>176</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=708862</tag>
+			<url>http://www.last.fm/event/708862</url>
+		</event>
+		<event>
+			<id>775582</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Pain</artist>
+				<artist>Indica</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Főnix Csarnok</name>
+				<location>
+					<city>Debrecen</city>
+					<country>Hungary</country>
+					<street>Kassai út 28.</street>
+					<postalcode>4028</postalcode>
+					<point>
+						<lat>47.5421</lat>
+						<long>21.6411</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950609</url>
+			</venue>
+			<startDate>Sat, 04 Apr 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>42</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=775582</tag>
+			<url>http://www.last.fm/event/775582</url>
+		</event>
+		<event>
+			<id>813295</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Webster Theater</name>
+				<location>
+					<city>Hartford, Connecticut</city>
+					<country>United States</country>
+					<street>31 Webster St.</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>41.744226</lat>
+						<long>-72.683074</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950021</url>
+			</venue>
+			<startDate>Fri, 01 May 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>13</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813295</tag>
+			<url>http://www.last.fm/event/813295</url>
+		</event>
+		<event>
+			<id>821380</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Nokia Theatre, Times Square</name>
+				<location>
+					<city>New York City</city>
+					<country>United States</country>
+					<street>1515 Broadway</street>
+					<postalcode>10036</postalcode>
+					<point>
+						<lat>40.757708</lat>
+						<long>-73.985838</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8849140</url>
+			</venue>
+			<startDate>Sat, 02 May 2009</startDate>
+			<startTime>21:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>27</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=821380</tag>
+			<url>http://www.last.fm/event/821380</url>
+		</event>
+		<event>
+			<id>813301</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Crocodile Rock</name>
+				<location>
+					<city>Allentown, Pennsylvania</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>40.60833</lat>
+						<long>-75.49056</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8891129</url>
+			</venue>
+			<startDate>Sun, 03 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>9</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813301</tag>
+			<url>http://www.last.fm/event/813301</url>
+		</event>
+		<event>
+			<id>981329</id>
+			<title>B &amp; Industries Presents...Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Vincent Black Shadow</artist>
+				<artist>Deathammer</artist>
+				<artist>L.A. Cross</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Main Stage at Sonar</name>
+				<location>
+					<city>Baltimore</city>
+					<country>United States</country>
+					<street>407 E. Saratoga St</street>
+					<postalcode>21202</postalcode>
+					<point>
+						<lat>39.292258</lat>
+						<long>-76.60956</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9014777</url>
+			</venue>
+			<startDate>Tue, 05 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=981329</tag>
+			<url>http://www.last.fm/event/981329</url>
+		</event>
+		<event>
+			<id>813304</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Sonar</name>
+				<location>
+					<city>Baltimore, Maryland</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>39.280599</lat>
+						<long>-76.573827</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8973617</url>
+			</venue>
+			<startDate>Tue, 05 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>19</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813304</tag>
+			<url>http://www.last.fm/event/813304</url>
+		</event>
+		<event>
+			<id>813291</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Club Oasis</name>
+				<location>
+					<city>Louisville, KY</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>38.224483</lat>
+						<long>-85.57196</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8976441</url>
+			</venue>
+			<startDate>Wed, 06 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>16</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813291</tag>
+			<url>http://www.last.fm/event/813291</url>
+		</event>
+		<event>
+			<id>813306</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Pop's</name>
+				<location>
+					<city>Sauget, IL</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8958904</url>
+			</venue>
+			<startDate>Fri, 08 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>14</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813306</tag>
+			<url>http://www.last.fm/event/813306</url>
+		</event>
+		<event>
+			<id>813308</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Diamond Ballroom</name>
+				<location>
+					<city>Oklahoma City, Oklahoma</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.387216</lat>
+						<long>-97.477489</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8971165</url>
+			</venue>
+			<startDate>Sat, 09 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>9</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813308</tag>
+			<url>http://www.last.fm/event/813308</url>
+		</event>
+		<event>
+			<id>813317</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Concrete Street</name>
+				<location>
+					<city>Corpus Christi</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>27.80232</lat>
+						<long>-97.395512</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8789696</url>
+			</venue>
+			<startDate>Mon, 11 May 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>7</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813317</tag>
+			<url>http://www.last.fm/event/813317</url>
+		</event>
+		<event>
+			<id>813278</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Warehouse Live</name>
+				<location>
+					<city>Houston, TX</city>
+					<country>United States</country>
+					<street>813 St. Emanuel Street</street>
+					<postalcode>77003</postalcode>
+					<point>
+						<lat>29.76306</lat>
+						<long>-95.36306</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8891843</url>
+			</venue>
+			<startDate>Tue, 12 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813278</tag>
+			<url>http://www.last.fm/event/813278</url>
+		</event>
+		<event>
+			<id>813319</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<artist>Volbeat</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>The Masquerade</name>
+				<location>
+					<city>Atlanta, GA</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>33.77103</lat>
+						<long>-84.364537</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8896847</url>
+			</venue>
+			<startDate>Thu, 14 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Heaven Stage<br />
+				Doors@8 PM <br />
+			$26.50 ADV</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+			<attendance>27</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=813319</tag>
+			<url>http://www.last.fm/event/813319</url>
+		</event>
+		<event>
+			<id>929768</id>
+			<title>Nightwish</title>
+			<artists>
+				<artist>Nightwish</artist>
+				<headliner>Nightwish</headliner>
+			</artists>
+			<venue>
+				<name>Masquerade</name>
+				<location>
+					<city>Atlanta</city>
+					<country>United States</country>
+					<street>695 North Ave N.E.</street>
+					<postalcode>30308</postalcode>
+					<point>
+						<lat>33.77103</lat>
+						<long>-84.364537</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8805389</url>
+			</venue>
+			<startDate>Thu, 14 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+			<![CDATA[<div class="bbcode">Heaven  	Doors@8 PM  	$25.00 ADV</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=929768</tag>
+		<url>http://www.last.fm/event/929768</url>
+	</event>
+	<event>
+		<id>909053</id>
+		<title>Sauna Open Air 2009</title>
+		<artists>
+			<artist>HammerFall</artist>
+			<artist>Nightwish</artist>
+			<artist>Apocalyptica</artist>
+			<artist>Mötley Crüe</artist>
+			<artist>Stratovarius</artist>
+			<artist>Kamelot</artist>
+			<artist>Soilwork</artist>
+			<artist>Amorphis</artist>
+			<artist>Finntroll</artist>
+			<artist>Kotiteollisuus</artist>
+			<artist>Hardcore Superstar</artist>
+			<artist>Viikate</artist>
+			<artist>Omnium Gatherum</artist>
+			<artist>Sturm Und Drang</artist>
+			<artist>Bullet</artist>
+			<artist>Prestige</artist>
+			<artist>Thor</artist>
+			<artist>Deuteronomium</artist>
+			<artist>45 Degree Woman</artist>
+			<headliner>HammerFall</headliner>
+		</artists>
+		<venue>
+			<name>Eteläpuisto</name>
+			<location>
+				<city>Tampere</city>
+				<country>Finland</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>61.5</lat>
+					<long>23.75</long>
+				</point>
+				<timezone>EET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8795929</url>
+		</venue>
+		<startDate>Fri, 05 Jun 2009</startDate>
+		<endDate>Sun, 07 Jun 2009</endDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23825841.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23825841.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23825841.jpg</image>
+		<attendance>202</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=909053</tag>
+		<url>http://www.last.fm/event/909053</url>
+	</event>
+	<event>
+		<id>959542</id>
+		<title>RMJ Party Camp</title>
+		<artists>
+			<artist>Nightwish</artist>
+			<artist>Lapko</artist>
+			<artist>Eppu Normaali</artist>
+			<artist>Yö</artist>
+			<artist>Tehosekoitin</artist>
+			<artist>Cheek</artist>
+			<artist>Fintelligens</artist>
+			<artist>Frederik</artist>
+			<artist>Paula Koivuniemi</artist>
+			<artist>Kauko Röyhkä</artist>
+			<artist>Kari Tapio</artist>
+			<artist>Itkevä tyttö</artist>
+			<headliner>Nightwish</headliner>
+		</artists>
+		<venue>
+			<name>Kirjurinluoto Arena</name>
+			<location>
+				<city>Pori</city>
+				<country>Finland</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>61.4833333</lat>
+					<long>21.7833333</long>
+				</point>
+				<timezone>EET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8886267</url>
+		</venue>
+		<startDate>Thu, 18 Jun 2009</startDate>
+		<endDate>Sat, 20 Jun 2009</endDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=959542</tag>
+		<url>http://www.last.fm/event/959542</url>
+	</event>
+	<event>
+		<id>718974</id>
+		<title>Graspop Metal Meeting 2009</title>
+		<artists>
+			<artist>KoЯn</artist>
+			<artist>Marilyn Manson</artist>
+			<artist>Papa Roach</artist>
+			<artist>Disturbed</artist>
+			<artist>Slipknot</artist>
+			<artist>Nightwish</artist>
+			<artist>Dream Theater</artist>
+			<artist>Journey</artist>
+			<artist>Children of Bodom</artist>
+			<artist>Lacuna Coil</artist>
+			<artist>Killswitch Engage</artist>
+			<artist>Mötley Crüe</artist>
+			<artist>DragonForce</artist>
+			<artist>Blind Guardian</artist>
+			<artist>Trivium</artist>
+			<artist>Anthrax</artist>
+			<artist>Lamb of God</artist>
+			<artist>Soulfly</artist>
+			<artist>Mastodon</artist>
+			<artist>Epica</artist>
+			<artist>No Use for a Name</artist>
+			<artist>Hatebreed</artist>
+			<artist>The Gathering</artist>
+			<artist>W.A.S.P.</artist>
+			<artist>All That Remains</artist>
+			<artist>The Dillinger Escape Plan</artist>
+			<artist>Buckcherry</artist>
+			<artist>Monster Magnet</artist>
+			<artist>DevilDriver</artist>
+			<artist>Suicidal Tendencies</artist>
+			<artist>Exodus</artist>
+			<artist>Sick of It All</artist>
+			<artist>Samael</artist>
+			<artist>August Burns Red</artist>
+			<artist>Parkway Drive</artist>
+			<artist>God Forbid</artist>
+			<artist>Kataklysm</artist>
+			<artist>Volbeat</artist>
+			<artist>Gojira</artist>
+			<artist>Down</artist>
+			<artist>Firewind</artist>
+			<artist>All Shall Perish</artist>
+			<artist>Scar Symmetry</artist>
+			<artist>Five Finger Death Punch</artist>
+			<artist>Death Angel</artist>
+			<artist>Black Stone Cherry</artist>
+			<artist>Taake</artist>
+			<artist>Sacred Reich</artist>
+			<artist>Wolves in the Throne Room</artist>
+			<artist>Dagoba</artist>
+			<artist>Legion of the Damned</artist>
+			<artist>Pestilence</artist>
+			<artist>Keep of Kalessin</artist>
+			<artist>Warbringer</artist>
+			<artist>Eths</artist>
+			<artist>Negură Bunget</artist>
+			<artist>Laaz Rockit</artist>
+			<artist>Heaven &amp; Hell</artist>
+			<artist>Jon Oliva's Pain</artist>
+			<artist>Duff McKagan's Loaded</artist>
+			<headliner>KoЯn</headliner>
+		</artists>
+		<venue>
+			<name>Boeretang</name>
+			<location>
+				<city>Dessel</city>
+				<country>Belgium</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>51.223916</lat>
+					<long>5.093964</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8788775</url>
+		</venue>
+		<startDate>Fri, 26 Jun 2009</startDate>
+		<endDate>Sun, 28 Jun 2009</endDate>
+		<description>
+			<![CDATA[<div class="bbcode">The 14th edition of the annual metal fest is scheduled for the last weekend of June. The place to be is still the festival grounds of the Boeretang in Dessel. The concept remains identical: 3 days of metal mania, 4 stages, 70 bands, metal market, festival fair, side animation, signing sessions and much more! Confirmed bands will be announced on the website as soon as possible.<br />
+		- the graspop website.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/25507261.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/25507261.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/25507261.jpg</image>
+		<attendance>599</attendance>
+		<reviews>1</reviews>
+		<tag>lastfm:event=718974</tag>
+		<url>http://www.last.fm/event/718974</url>
+	</event>
+	<event>
+		<id>731897</id>
+		<title>Metalcamp 2009</title>
+		<artists>
+			<artist>Nightwish</artist>
+			<artist>DragonForce</artist>
+			<artist>Blind Guardian</artist>
+			<artist>Lamb of God</artist>
+			<artist>Dimmu Borgir</artist>
+			<artist>Hatebreed</artist>
+			<artist>Testament</artist>
+			<artist>Edguy</artist>
+			<artist>Kreator</artist>
+			<artist>My Dying Bride</artist>
+			<artist>Sirenia</artist>
+			<artist>Napalm Death</artist>
+			<artist>Vader</artist>
+			<artist>Deathstars</artist>
+			<artist>Die Apokalyptischen Reiter</artist>
+			<artist>Graveworm</artist>
+			<artist>Sodom</artist>
+			<artist>Sonic Syndicate</artist>
+			<artist>Kataklysm</artist>
+			<artist>Destruction</artist>
+			<artist>Aborted</artist>
+			<artist>Equilibrium</artist>
+			<artist>Death Angel</artist>
+			<artist>Alestorm</artist>
+			<artist>Legion of the Damned</artist>
+			<artist>Hollenthon</artist>
+			<artist>Keep of Kalessin</artist>
+			<artist>Evile</artist>
+			<artist>Illnath</artist>
+			<artist>Evolve</artist>
+			<artist>Hackneyed</artist>
+			<artist>Attica Rage</artist>
+			<artist>Stormcrow</artist>
+			<artist>Little Ann</artist>
+			<artist>embrio</artist>
+			<artist>A New Dawn</artist>
+			<artist>Contaminant</artist>
+			<artist>Myrah</artist>
+			<artist>Abstinenz</artist>
+			<artist>Keller</artist>
+			<artist>scarred</artist>
+			<artist>dreamshade</artist>
+			<artist>Thorns of Ivy</artist>
+			<artist>inmate</artist>
+			<artist>Embryonic</artist>
+			<artist>Nihilo</artist>
+			<artist>Sufosia</artist>
+			<artist>Incubus Dreams</artist>
+			<artist>Heretic Soul</artist>
+			<artist>Mosfet</artist>
+			<artist>Always Fallen</artist>
+			<artist>Just Swallow</artist>
+			<artist>D-Swoon</artist>
+			<artist>Nightward</artist>
+			<artist>Black Curtains</artist>
+			<artist>Amphitrium</artist>
+			<artist>Dark Sensation</artist>
+			<artist>Beneath Dying Skies</artist>
+			<artist>Gonoba</artist>
+			<artist>Rude Forefathers</artist>
+			<artist>memories of murder</artist>
+			<artist>Disease Illusion</artist>
+			<artist>Locracy</artist>
+			<artist>All frail rejects</artist>
+			<artist>Union Sundown</artist>
+			<artist>All Remains Insane</artist>
+			<artist>Radwaste</artist>
+			<artist>Mordenom</artist>
+			<artist>4Xistenz</artist>
+			<artist>Siege of Cirrah</artist>
+			<artist>Illune</artist>
+			<artist>Atrum Infernum</artist>
+			<artist>Scars of Disparagment</artist>
+			<headliner>Nightwish</headliner>
+		</artists>
+		<venue>
+			<name>Sotočje</name>
+			<location>
+				<city>Tolmin</city>
+				<country>Slovenia</country>
+				<street>Sotočje</street>
+				<postalcode>5220</postalcode>
+				<point>
+					<lat>46.1863889</lat>
+					<long>13.7361111</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8826755</url>
+		</venue>
+		<startDate>Thu, 02 Jul 2009</startDate>
+		<endDate>Tue, 07 Jul 2009</endDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+		<attendance>313</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=731897</tag>
+		<url>http://www.last.fm/event/731897</url>
+	</event>
+	<event>
+		<id>728945</id>
+		<title>Masters of Rock 2009</title>
+		<artists>
+			<artist>Nightwish</artist>
+			<artist>Europe</artist>
+			<artist>DragonForce</artist>
+			<artist>Blind Guardian</artist>
+			<artist>Arch Enemy</artist>
+			<artist>Stratovarius</artist>
+			<artist>Edguy</artist>
+			<artist>Tiamat</artist>
+			<artist>Korpiklaani</artist>
+			<artist>In Extremo</artist>
+			<artist>Evergrey</artist>
+			<artist>Heaven Shall Burn</artist>
+			<artist>Deathstars</artist>
+			<artist>Rage</artist>
+			<artist>Sonic Syndicate</artist>
+			<artist>Kataklysm</artist>
+			<artist>Die Happy</artist>
+			<artist>Schandmaul</artist>
+			<artist>Death Angel</artist>
+			<artist>Voivod</artist>
+			<artist>Axxis</artist>
+			<artist>Legion of the Damned</artist>
+			<artist>Kissin' Dynamite</artist>
+			<artist>The Sorrow</artist>
+			<artist>Shaaman</artist>
+			<artist>Callejon</artist>
+			<artist>Tři Sestry</artist>
+			<artist>Innocens</artist>
+			<artist>Kreyson</artist>
+			<artist>Bethrayer</artist>
+			<headliner>Nightwish</headliner>
+		</artists>
+		<venue>
+			<name>Areál likérky R. Jelínek</name>
+			<location>
+				<city>Vizovice</city>
+				<country>Czech Republic</country>
+				<street>Razov 472</street>
+				<postalcode>76312</postalcode>
+				<point>
+					<lat>49.214459</lat>
+					<long>17.837134</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8810651</url>
+		</venue>
+		<startDate>Thu, 09 Jul 2009</startDate>
+		<endDate>Sun, 12 Jul 2009</endDate>
+		<description>
+		<![CDATA[<div class="bbcode">V klidném areálu likérky páně Jelínka koná se i nyní každoroční sešlost příznivců spíše melodičtějšího metálku ze všech koutů Světa. Letos bude mít kromě Ozónu a Nočních ryb obecenstvo také tu čest s legendárnimi bardy z Blind Guardian, klasiky Rage, Edguy, Arch Enemy, Evergrey, či i s trochu drsnější formou těžkého kovu - reprezentovanou hlavně Kanaďany Kataklysm či Holanďany Legion of the Damned a mnoha dalšími sebrankami (obligátní folkové halekačky Korpiklaani či In Extremo, které by na žádném správném multižánrovém letňasu rozhodně neměly chybět budou přítomny taktéž), včetně několika českých zástupců.. Konkrétní časy přibudou později, stejně jako další info o akci...</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25434479.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25434479.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25434479.jpg</image>
+	<attendance>900</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=728945</tag>
+	<url>http://www.last.fm/event/728945</url>
+</event>
+<event>
+	<id>871818</id>
+	<title>Artmania Festival</title>
+	<artists>
+		<artist>Tristania</artist>
+		<artist>Nightwish</artist>
+		<artist>Opeth</artist>
+		<headliner>Tristania</headliner>
+	</artists>
+	<venue>
+		<name>Piata Mare</name>
+		<location>
+			<city>Sibiu</city>
+			<country>Romania</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.8</lat>
+				<long>24.15</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8836691</url>
+	</venue>
+	<startDate>Fri, 17 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">In acest an, festivalul se va desfasura in perioada 17-19 iulie in zona istorica a orasului, mai exact in Piata Mare. Aici va fi ridicata scena mare si vor avea loc principalele concerte din festival. In plus, publicul se va putea bucura de o scena secundara, de expozitii, numeroase petreceri tinute pana in zorii zilei, instalatii stradale si evenimente alternative.<br />
+		<br />
+		Primele trupe care au confirmat participarea in cadrul festivalului sunt Tristania (Norvegia) si Opeth (Suedia). Ajuns la cea de a patra editie, Festivalul Artmania 2009 este organizat in parteneriat cu Primaria Sibiu si Consiliul Local Sibiu.<br />
+		<br />
+	Biletele, in valoare de 110 RON pe zi si 180 RON pentru abonament, sunt disponibile in reteaua magazinelor Diverta, precum si online, pe <a href="http://www.ticketpoint.ro" rel="nofollow">www.ticketpoint.ro</a>, <a href="http://www.bilete.ro" rel="nofollow">www.bilete.ro</a>, <a href="http://www.blt.ro" rel="nofollow">www.blt.ro</a> si <a href="http://www.myticket.ro" rel="nofollow">www.myticket.ro</a>. In perioada 28 ianuarie – 1 mai, biletele si abonamentele puse in vanzare pot fi achizitionate la pretul de 90 RON pe zi si 160 RON pentru abonamente.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/90778.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/90778.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/90778.jpg</image>
+	<attendance>190</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=871818</tag>
+	<url>http://www.last.fm/event/871818</url>
+</event>
+<event>
+	<id>976461</id>
+	<title>Seinäjoen vauhtiajot 2009</title>
+	<artists>
+		<artist>Nightwish</artist>
+		<artist>Apulanta</artist>
+		<artist>Tarot</artist>
+		<artist>Stella</artist>
+		<artist>Klamydia</artist>
+		<artist>Egotrippi</artist>
+		<artist>Irina</artist>
+		<artist>Popeda</artist>
+		<artist>Dingo</artist>
+		<artist>Fintelligens</artist>
+		<artist>Paula Koivuniemi</artist>
+		<artist>Sleepy Sleepers</artist>
+		<headliner>Nightwish</headliner>
+	</artists>
+	<venue>
+		<name>Keskusta</name>
+		<location>
+			<city>Seinäjoki</city>
+			<country>Finland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>62.974537</lat>
+				<long>23.021589</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8820635</url>
+	</venue>
+	<startDate>Fri, 24 Jul 2009</startDate>
+	<endDate>Sat, 25 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Jo kuudetta kertaa järjestettävä Seinäjoen Vauhtiajot tarjoaa jälleen rokkia ja autoja. Seinäjoen keskustassa rokataan perjantai- (24.7) ja lauantai-iltana (25.7), ja Kapernaumin teollisuusalueella ajetaan kilpaa lauantai- ja sunnuntaipäivinä.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/4673904.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/4673904.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/4673904.jpg</image>
+<attendance>4</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=976461</tag>
+<url>http://www.last.fm/event/976461</url>
+</event>
+<event>
+	<id>724106</id>
+	<title>M'era Luna 2009</title>
+	<artists>
+		<artist>The Prodigy</artist>
+		<artist>Nightwish</artist>
+		<artist>Apocalyptica</artist>
+		<artist>Oomph!</artist>
+		<artist>Emilie Autumn</artist>
+		<artist>The Crüxshadows</artist>
+		<artist>Subway to Sally</artist>
+		<artist>Die Apokalyptischen Reiter</artist>
+		<artist>Zeromancer</artist>
+		<artist>Letzte Instanz</artist>
+		<artist>Grendel</artist>
+		<artist>Die Form</artist>
+		<artist>Spetsnaz</artist>
+		<artist>Untoten</artist>
+		<artist>Zeraphine</artist>
+		<artist>Frozen Plasma</artist>
+		<artist>[:SITD:]</artist>
+		<artist>Tyske Ludder</artist>
+		<artist>Ashbury Heights</artist>
+		<artist>Veljanov</artist>
+		<artist>Star Industry</artist>
+		<artist>Peter Heppner</artist>
+		<artist>Mina Harker</artist>
+		<artist>Schelmisch</artist>
+		<artist>Whispers in the Shadows</artist>
+		<headliner>The Prodigy</headliner>
+	</artists>
+	<venue>
+		<name>Flugplatz Hildesheim</name>
+		<location>
+			<city>Hildesheim</city>
+			<country>Germany</country>
+			<street>Am Flugplatz 26</street>
+			<postalcode>31137</postalcode>
+			<point>
+				<lat>52.176197</lat>
+				<long>9.951531</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8917820</url>
+	</venue>
+	<startDate>Sat, 08 Aug 2009</startDate>
+	<endDate>Sun, 09 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">The festival based in Hildesheim has grown substantially since its recent beginning in 2000 and is now a fixture on the European festival landscape. The biggest European wave and gothic festival attracts about 25.000 fans every year to celebrate a melancholic-dark weekend.<br />
+		A fashionable outfit with a touch of medieval, maybe some PVC or leather is as popular as black clothing.  Or white if necessary. Most fans show themselves in the same individual and artificial way as the artists on stage.<br />
+		<br />
+		<a href="http://www.fkpscorpio.com/meraluna/" rel="nofollow">Official M'era Luna site</a>
+		<br />
+		<a href="http://last.fm/group/Mera+Luna+Festival" rel="nofollow">M'era Luna last.fm group</a>
+		<br />
+		<a href="http://www.new.facebook.com/group.php?gid=20492271693" rel="nofollow">M'era Luna Facebook Group</a>
+		<br />
+		<a href="http://www.studivz.net/Groups/Overview/afed64239dad4fda" rel="nofollow">M'era Luna studiVZ group</a>
+		<br />
+		<a href="http://en.wikipedia.org/wiki/M%27era_Luna" rel="nofollow">Wikipedia M'era Luna entry</a>
+		<br />
+		<a href="http://en.wikipedia.org/wiki/Hildesheim" rel="nofollow">Wikipedia Hildesheim entry</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24682011.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24682011.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24682011.jpg</image>
+	<attendance>298</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=724106</tag>
+	<url>http://www.last.fm/event/724106</url>
+</event>
+</events>
+</lfm>

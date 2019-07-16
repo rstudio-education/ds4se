@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Mariah Carey" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="1">
+		<event>
+			<id>939283</id>
+			<title>Pierwszy koncert Mariah Carey w Polsce</title>
+			<artists>
+				<artist>Mariah Carey</artist>
+				<headliner>Mariah Carey</headliner>
+			</artists>
+			<venue>
+				<name>Sala Kongresowa</name>
+				<location>
+					<city>Warszawa</city>
+					<country>Poland</country>
+					<street>Plac Defilad 1</street>
+					<postalcode>00-901</postalcode>
+					<point>
+						<lat>52.231838</lat>
+						<long>21.005995</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8786573</url>
+			</venue>
+			<startDate>Thu, 28 May 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">Pierwszy koncert trasy koncertowej zorganizowanej z okazji 20-lecia działalności artystycznej.</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/11867065.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/11867065.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/11867065.jpg</image>
+		<attendance>20</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=939283</tag>
+		<url>http://www.last.fm/event/939283</url>
+	</event>
+</events>
+</lfm>

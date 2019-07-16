@@ -1,0 +1,2243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Disturbed" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="50">
+		<event>
+			<id>930991</id>
+			<title>Music As A Weapon IV Festival</title>
+			<artists>
+				<artist>Disturbed</artist>
+				<artist>Lacuna Coil</artist>
+				<artist>Killswitch Engage</artist>
+				<artist>Chimaira</artist>
+				<headliner>Disturbed</headliner>
+			</artists>
+			<venue>
+				<name>Ford Center</name>
+				<location>
+					<city>Oklahoma City, OK</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.464252</lat>
+						<long>-97.51474</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8974506</url>
+			</venue>
+			<startDate>Mon, 23 Mar 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">Disturbed is launching the Music As A Weapon IV Festival. Although the Chicago quartet conceived Music As A Weapon in 2001 and have headlined the previous three tours, this is the first time that it has been expanded into a complete lifestyle festival. In addition to presenting the best in rock music, Music As A Weapon IV also features a collection of the greatest tattoo artists from around the country. Attendees will also be able to check out an extreme sports complex where freestyle motocross, BMX, and Skate teams will perform, a Technology and Gaming Zone, and a Vendor Village, all for a fan-friendly ticket price. <img src="http://www.okfordcenter.com/events/EventPhotos/MAAWAdMat2.jpg" /></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23573363.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23573363.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23573363.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=930991</tag>
+		<url>http://www.last.fm/event/930991</url>
+	</event>
+	<event>
+		<id>942833</id>
+		<title>Music As A Weapon Tour</title>
+		<artists>
+			<artist>Disturbed</artist>
+			<artist>Lacuna Coil</artist>
+			<artist>Killswitch Engage</artist>
+			<artist>Chimaira</artist>
+			<headliner>Disturbed</headliner>
+		</artists>
+		<venue>
+			<name>Fillmore Auditorium</name>
+			<location>
+				<city>Denver</city>
+				<country>United States</country>
+				<street>1510 Clarkson St</street>
+				<postalcode>80218</postalcode>
+				<point>
+					<lat>39.740071</lat>
+					<long>-104.977257</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779663</url>
+		</venue>
+		<startDate>Wed, 25 Mar 2009</startDate>
+		<startTime>19:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+		<attendance>6</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=942833</tag>
+		<url>http://www.last.fm/event/942833</url>
+	</event>
+	<event>
+		<id>965880</id>
+		<title>Disturbed</title>
+		<artists>
+			<artist>Disturbed</artist>
+			<artist>Lacuna Coil</artist>
+			<artist>Killswitch Engage</artist>
+			<artist>Chimaira</artist>
+			<headliner>Disturbed</headliner>
+		</artists>
+		<venue>
+			<name>Fillmore Auditorium</name>
+			<location>
+				<city>Denver</city>
+				<country>United States</country>
+				<street>1510 Clarkson St</street>
+				<postalcode>80218</postalcode>
+				<point>
+					<lat>39.740071</lat>
+					<long>-104.977257</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779663</url>
+		</venue>
+		<startDate>Thu, 26 Mar 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+		<attendance>2</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=965880</tag>
+		<url>http://www.last.fm/event/965880</url>
+	</event>
+	<event>
+		<id>921401</id>
+		<title>Music As A Weapon IV</title>
+		<artists>
+			<artist>Disturbed</artist>
+			<artist>Lacuna Coil</artist>
+			<artist>Killswitch Engage</artist>
+			<artist>Chimaira</artist>
+			<headliner>Disturbed</headliner>
+		</artists>
+		<venue>
+			<name>Tingley Auditorium</name>
+			<location>
+				<city>Albuquerque(, New Mexico)</city>
+				<country>United States</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>35.084169</lat>
+					<long>-106.648777</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9001541</url>
+		</venue>
+		<startDate>Sun, 29 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+		<attendance>10</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=921401</tag>
+		<url>http://www.last.fm/event/921401</url>
+	</event>
+	<event>
+		<id>913063</id>
+		<title>Music As  A Weapon IV</title>
+		<artists>
+			<artist>Disturbed</artist>
+			<artist>Lacuna Coil</artist>
+			<artist>Killswitch Engage</artist>
+			<artist>Chimaira</artist>
+			<headliner>Disturbed</headliner>
+		</artists>
+		<venue>
+			<name>Nokia Theatre at Grand Prairie</name>
+			<location>
+				<city>Grand Prairie, TX</city>
+				<country>United States</country>
+				<street>1001 NextStage Drive</street>
+				<postalcode>75050</postalcode>
+				<point>
+					<lat>32.74583</lat>
+					<long>-96.9975</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8787015</url>
+		</venue>
+		<startDate>Tue, 31 Mar 2009</startDate>
+		<description>
+		<![CDATA[<div class="bbcode">Are you from the Dallas/Fort Worth area? Would youlike to be informed about EVERY metal show coming to town?Well then, visit The Metal Times (<a href="http://www.dfwmetal.webs.com" rel="nofollow">www.dfwmetal.webs.com</a>), and also sign up to the mailing list (metaltimes.dfw@gmail.com).</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=913063</tag>
+	<url>http://www.last.fm/event/913063</url>
+</event>
+<event>
+	<id>936455</id>
+	<title>Music As a Weapon</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Pensacola Civic Center</name>
+		<location>
+			<city>Pensacola, FL</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>30.416259</lat>
+				<long>-87.209575</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9004738</url>
+	</venue>
+	<startDate>Tue, 07 Apr 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Disturbed is a rock band from Chicago, Illinois, formed in 1996 when musicians Dan Donegan, Steve &quot;Fuzz&quot; Kmak, and Mike Wengren hired singer David Draiman. Since the band's formation, they have sold over 10 million albums worldwide, released three consecutive number-one albums, and have been nominated for a Grammy Award, making them one of the most successful rock bands in the recent years. Only six other rock bands have released three number-one albums in a row, including Van Halen, Pearl Jam, U2, Dave Matthews Band, Staind, and Metallica.<br />
+		<br />
+		Lacuna Coil is an Italian gothic metal band formed in Milan, Italy in 1994. Formerly known as Sleep of Right and Ethereal, the band was inspired by the combination of gothic imagery and music, and the members have been known, musically, for composing midtempo songs consisting of guitar lines overlaid with prominent keyboard work, and contrasting dual female/male vocal harmonies to help create a melodic detached sound. Much of the band's recent material, however, sees a heavier and more down-tuned style, featuring a more distinct bass line and a higher mixing of the guitars within the songs.<br />
+		<br />
+		The band's 2006 release, Karmacode peaked at number 28 on the Billboard 200. They have played among the world's biggest heavy metal festivals on the main stage including Ozzfest, Bloodstock Open Air, Wacken Open Air, and played with Megadeth on their Gigantour tour in November 2007, and are currently on tour with Bullet for My Valentine.<br />
+		<br />
+		Killswitch Engage (often abbreviated as KsE or Killswitch) is an American metalcore band from Westfield, Massachusetts. Formed following the disbandment of the bands Overcast and Aftershock in 1999, Killswitch Engage's lineup consists of vocalist Howard Jones, bassist Mike D'Antonio, guitarists Joel Stroetzel and Adam Dutkiewicz, and drummer Justin Foley. Signed to Roadrunner Records, Killswitch Engage has released four studio albums and one DVD.<br />
+		<br />
+		Killswitch Engage rose to fame with its 2004 release The End of Heartache, which peaked at number 21 on the Billboard 200, and was certified gold in December 2007 for over 500,000 shipments in the United States. The title track, &quot;The End of Heartache&quot;, was nominated for a Grammy Award in 2005, and a live DVD titled (Set This) World Ablaze was released in 2005. Killswitch Engage attended Reading and Leeds Festivals, Ozzfest, Download Festival, the Warped Tour, and Rock on the Range, and continued touring until May of 2008 in support of their As Daylight Dies album.<br />
+		<br />
+	Chimaira (pronounced /kaɪˈmɪərə/) is a heavy metal band from Cleveland, Ohio and is a notable band in the New Wave of American Heavy Metal. The name is derived from the name &quot;Chimera&quot;, which refers to a monstrous creature in Greek mythology.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=936455</tag>
+	<url>http://www.last.fm/event/936455</url>
+</event>
+<event>
+	<id>966035</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Five Finger Death Punch</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Pensacola Civic Center</name>
+		<location>
+			<city>Pensacola</city>
+			<country>United States</country>
+			<street>5823 nashville ave</street>
+			<postalcode>32526</postalcode>
+			<point>
+				<lat>30.416259</lat>
+				<long>-87.209575</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783243</url>
+	</venue>
+	<startDate>Tue, 07 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=966035</tag>
+	<url>http://www.last.fm/event/966035</url>
+</event>
+<event>
+	<id>949617</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Chimaira</artist>
+		<artist>Spineshank</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<artist>Crooked X</artist>
+		<artist>Kill Switch Engage</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>The Arena at Gwinnett Center</name>
+		<location>
+			<city>Atlanta, GA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>33.74889</lat>
+				<long>-84.38806</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8903749</url>
+	</venue>
+	<startDate>Wed, 08 Apr 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Disturbed" class="bbcode_artist">Disturbed</a> launch <a href="http://www.musicasaweapon4.com" rel="nofollow">Music as a Weapon IV Festival</a>.  The tour expands for the first time to include tattoo artists, extreme sports, gaming, vendor village, in addition to two stages of live music.  <br />
+		*  <strong>Festival opens at 2PM, Concert starts at 7PM</strong>
+		<br />
+		*  <a href="http://www.ticketmaster.com/event/0E004252C45E7088?artistid=710396&amp;majorcatid=10001&amp;minorcatid=200" rel="nofollow">GENERAL ADMISSION - All Tickets: $39.75</a>
+		<br />
+		<br />
+		<br />
+		<a href="http://www.musicasaweapon4.com" rel="nofollow">http://www.musicasaweapon4.com</a>
+		<br />
+		<br />
+		<a href="http://www.ticketmaster.com/event/0E004252C45E7088?artistid=710396&amp;majorcatid=10001&amp;minorcatid=200" rel="nofollow">http://www.ticketmaster.com/event/0E004252C45E7088?artistid=710396&amp;majorcatid=10001&amp;minorcatid=200</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=949617</tag>
+	<url>http://www.last.fm/event/949617</url>
+</event>
+<event>
+	<id>953438</id>
+	<title>98RockFest</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Staind</artist>
+		<artist>Static-X</artist>
+		<artist>Chevelle</artist>
+		<artist>Mudvayne</artist>
+		<artist>Saliva</artist>
+		<artist>Hollywood Undead</artist>
+		<artist>Loaded</artist>
+		<artist>Halestorm</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>St. Pete Times Forum</name>
+		<location>
+			<city>Tampa</city>
+			<country>United States</country>
+			<street>401 Channelside Dr.</street>
+			<postalcode>33602</postalcode>
+			<point>
+				<lat>27.942703</lat>
+				<long>-82.451772</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784356</url>
+	</venue>
+	<startDate>Fri, 10 Apr 2009</startDate>
+	<startTime>18:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">98ROCKFEST<br />
+		Apr. 10 @ 6:30pm<br />
+		$32.75, $42.75, $52,75, $77.75<br />
+		<br />
+	98ROCK presents 98ROCKEST with 6 of the best bands in rock music today; Disturbed, Staind, Chevelle, Static X, Saliva, along with Duff McKagan's Loaded.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=953438</tag>
+	<url>http://www.last.fm/event/953438</url>
+</event>
+<event>
+	<id>920373</id>
+	<title>Music as a Weapon 4</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Spineshank</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<artist>Born of Osiris</artist>
+		<artist>After the Burial</artist>
+		<artist>Crooked X</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Amway Arena</name>
+		<location>
+			<city>Orlando</city>
+			<country>United States</country>
+			<street>600 W Amelia St.</street>
+			<postalcode>32801</postalcode>
+			<point>
+				<lat>28.549008</lat>
+				<long>-81.386815</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8804203</url>
+	</venue>
+	<startDate>Sat, 11 Apr 2009</startDate>
+	<startTime>14:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=920373</tag>
+	<url>http://www.last.fm/event/920373</url>
+</event>
+<event>
+	<id>913155</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Bojangles Coliseum</name>
+		<location>
+			<city>Charlotte(, North Carolina)</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>35.225886</lat>
+				<long>-80.852927</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8999660</url>
+	</venue>
+	<startDate>Mon, 13 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=913155</tag>
+	<url>http://www.last.fm/event/913155</url>
+</event>
+<event>
+	<id>961267</id>
+	<title>Music As A Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Spineshank</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<artist>Crooked X</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>1st Mariner Arena</name>
+		<location>
+			<city>Baltimore, MD</city>
+			<country>United States</country>
+			<street>201 W. Baltimore Street</street>
+			<postalcode>21201</postalcode>
+			<point>
+				<lat>39.289202</lat>
+				<long>-76.618775</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8902610</url>
+	</venue>
+	<startDate>Tue, 14 Apr 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.musicasaweapon4.com/News.aspx" rel="nofollow">Music As A Weapon IV</a><br />
+		<br />
+		<a href="http://www.ticketmaster.com/event/1500424DB3F552D7?artistid=710396&amp;majorcatid=10001&amp;minorcatid=200" rel="nofollow">Tickets</a>
+		<br />
+		<br />
+		<a href="http://ws.audioscrobbler.com/tag/rock" class="bbcode_tag" rel="tag">rock</a>
+		<a href="http://ws.audioscrobbler.com/tag/metal" class="bbcode_tag" rel="tag">metal</a>
+		<a href="http://ws.audioscrobbler.com/tag/metalcore" class="bbcode_tag" rel="tag">metalcore</a>
+		<a href="http://ws.audioscrobbler.com/tag/live" class="bbcode_tag" rel="tag">live</a>
+		<br />
+		<br />
+		<br />
+	<a href="http://ws.audioscrobbler.com/music/Disturbed" class="bbcode_artist">Disturbed</a>, <a href="http://ws.audioscrobbler.com/music/Killswitch+Engage" class="bbcode_artist">Killswitch Engage</a>, <a href="http://ws.audioscrobbler.com/music/Lacuna+Coil" class="bbcode_artist">Lacuna Coil</a>, <a href="http://ws.audioscrobbler.com/music/Chimaira" class="bbcode_artist">Chimaira</a> ETC</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24761409.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24761409.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24761409.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=961267</tag>
+	<url>http://www.last.fm/event/961267</url>
+</event>
+<event>
+	<id>936956</id>
+	<title>Music as a Weapon Tour 4</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Tsongas Arena</name>
+		<location>
+			<city>Lowell, MA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode>01852</postalcode>
+			<point>
+				<lat>42.649824</lat>
+				<long>-71.313404</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8892201</url>
+	</venue>
+	<startDate>Wed, 15 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">WORD</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+<attendance>8</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=936956</tag>
+<url>http://www.last.fm/event/936956</url>
+</event>
+<event>
+	<id>919114</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Bryce Jordan Center</name>
+		<location>
+			<city>State College (PA)</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.7986</lat>
+				<long>-77.865909</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9000964</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>9</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=919114</tag>
+	<url>http://www.last.fm/event/919114</url>
+</event>
+<event>
+	<id>920104</id>
+	<title>Music As a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Cumberland County Civic Center</name>
+		<location>
+			<city>Portland, Maine</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>43.654866</lat>
+				<long>-70.259456</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8953855</url>
+	</venue>
+	<startDate>Sat, 18 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=920104</tag>
+	<url>http://www.last.fm/event/920104</url>
+</event>
+<event>
+	<id>957633</id>
+	<title>MUSIC AS A WEAPON IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Killswitch Engage, Lacuna Coil, Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Arena at harbor yard</name>
+		<location>
+			<city>bridgeport, ct</city>
+			<country>United States</country>
+			<street>600 Main Street</street>
+			<postalcode>06608</postalcode>
+			<point>
+				<lat>41.173336</lat>
+				<long>-73.187689</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9009003</url>
+	</venue>
+	<startDate>Tue, 21 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">“Fresh off their headlining North American tour in support of their platinum album Indestructible, Grammy-nominated hard-rock band Disturbed will launch the Music As A Weapon IV Tour—a music, tattoo, and lifestyle festival—presented by Samsung Mobile and powered by Sprint.<br />
+		<br />
+	Musical performances by Disturbed, Killswitch Engage, Laguna Coil and Chimaira.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=957633</tag>
+	<url>http://www.last.fm/event/957633</url>
+</event>
+<event>
+	<id>919136</id>
+	<title>Music As A Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Izod Center</name>
+		<location>
+			<city>East Rutherford, NJ</city>
+			<country>United States</country>
+			<street>50 State Route 120</street>
+			<postalcode>07073</postalcode>
+			<point>
+				<lat>40.812607</lat>
+				<long>-74.070642</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8901661</url>
+	</venue>
+	<startDate>Wed, 22 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>16</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=919136</tag>
+	<url>http://www.last.fm/event/919136</url>
+</event>
+<event>
+	<id>913158</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Crown Coliseum</name>
+		<location>
+			<city>Fayetteville, North Carolina</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>35.015124</lat>
+				<long>-78.891714</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8999661</url>
+	</venue>
+	<startDate>Fri, 24 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=913158</tag>
+	<url>http://www.last.fm/event/913158</url>
+</event>
+<event>
+	<id>967502</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Bury Your Dead</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Sovereign Center</name>
+		<location>
+			<city>Reading, PA</city>
+			<country>United States</country>
+			<street>136 N. 6th Street</street>
+			<postalcode>19601</postalcode>
+			<point>
+				<lat>40.33556</lat>
+				<long>-75.92722</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8825852</url>
+	</venue>
+	<startDate>Sat, 25 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">good time good music</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+<attendance>1</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=967502</tag>
+<url>http://www.last.fm/event/967502</url>
+</event>
+<event>
+	<id>971169</id>
+	<title>Music As A Weapon Tour IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Spineshank</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<artist>Crooked X</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Petersen Events Center</name>
+		<location>
+			<city>Pittsburgh, PA</city>
+			<country>United States</country>
+			<street>3719 Terrace Street</street>
+			<postalcode>15261</postalcode>
+			<point>
+				<lat>40.443777</lat>
+				<long>-79.962274</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8904671</url>
+	</venue>
+	<startDate>Tue, 28 Apr 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Multi-platinum hard-rock band Disturbed announce the lineup for the second stage of its Music As A Weapon IV Tour—a music, tattoo, and lifestyle festival—presented by Samsung Mobile and powered by Sprint. Suicide Silence, Spineshank, Bury Your Dead, Crooked X, Born of Osiris, and After the Burial are confirmed to perform on The Ernie Ball Second Stage, which will be officially sponsored by multi-city battle of the bands organization, Headbang For the Highway. Disturbed will be joined on the 38-city, nine-week trek, which kicks off March 20th in Madison, WI, by Killswitch Engage, Lacuna Coil, and Chimaira on the main-stage. Suicide Silence will join the tour on March 29th, while Bury Your Dead joins on March 31st. Both bands appear through the end of the tour. Born of Osiris and After the Burial will appear from March 20th through March 28th. Crooked X will perform on all dates.<br />
+		<br />
+		Headbang For The Highway has teamed up with Music As A Weapon IV to offer local bands the ultimate opportunity: a spot performing on The Ernie Ball Second Stage. Two unsigned regional acts will open the show in each city the tour visits. These acts will be determined by who wins the battle of the bands competition in each city.<br />
+		<br />
+		------------------------------------------------------------------------------------------------------<br />
+		<br />
+		-Main Stage-<br />
+		<br />
+		* Disturbed<br />
+		* Killswitch Engage<br />
+		* Lacuna Coil<br />
+		* Chimaira<br />
+		<br />
+		-Second Stage-<br />
+		<br />
+		* Suicide Silence - Joins the tour March 29<br />
+		* Spineshank<br />
+		* Crooked X<br />
+		* Bury Your Dead - Joins the tour March 31<br />
+	* Battle of the Bands Winner [TBD in each city]</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=971169</tag>
+	<url>http://www.last.fm/event/971169</url>
+</event>
+<event>
+	<id>944204</id>
+	<title>Music As A Weapon Tour</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Spineshank</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<artist>Crooked X</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>kellogg arena</name>
+		<location>
+			<city>battle creek</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.318685</lat>
+				<long>-85.183467</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9006204</url>
+	</venue>
+	<startDate>Thu, 30 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Main Stage: Disturbed, Killswitch Engage, Lacuna Coil, &amp; Chimaira.<br />
+		<br />
+	Second Stage: Suicide Silence, Spineshank, Bury Your Dead, &amp; Crooked X.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=944204</tag>
+	<url>http://www.last.fm/event/944204</url>
+</event>
+<event>
+	<id>966327</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Cobo Arena</name>
+		<location>
+			<city>Detroit</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.33139</lat>
+				<long>-83.04583</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782069</url>
+	</venue>
+	<startDate>Sat, 02 May 2009</startDate>
+	<startTime>14:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=966327</tag>
+	<url>http://www.last.fm/event/966327</url>
+</event>
+<event>
+	<id>951875</id>
+	<title>Music As A Weapon</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Cobo Arena</name>
+		<location>
+			<city>Detroit, MI</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.325329</lat>
+				<long>-83.048206</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8995502</url>
+	</venue>
+	<startDate>Sat, 02 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=951875</tag>
+	<url>http://www.last.fm/event/951875</url>
+</event>
+<event>
+	<id>913161</id>
+	<title>Music As a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Spineshank</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<artist>Crooked X</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Schottenstein Center</name>
+		<location>
+			<city>Columbus</city>
+			<country>United States</country>
+			<street>555 Borror Dr.</street>
+			<postalcode>43210</postalcode>
+			<point>
+				<lat>40.007533</lat>
+				<long>-83.025119</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8786849</url>
+	</venue>
+	<startDate>Tue, 05 May 2009</startDate>
+	<startTime>15:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=913161</tag>
+	<url>http://www.last.fm/event/913161</url>
+</event>
+<event>
+	<id>923112</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Target Center</name>
+		<location>
+			<city>Minneapolis</city>
+			<country>United States</country>
+			<street>600 First Avenue North</street>
+			<postalcode>55403</postalcode>
+			<point>
+				<lat>44.979572</lat>
+				<long>-93.276091</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778532</url>
+	</venue>
+	<startDate>Sat, 09 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23042883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23042883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23042883.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=923112</tag>
+	<url>http://www.last.fm/event/923112</url>
+</event>
+<event>
+	<id>977145</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Resch Center</name>
+		<location>
+			<city>Green Bay, Wisconsin</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>44.501395</lat>
+				<long>-88.056933</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013725</url>
+	</venue>
+	<startDate>Sun, 10 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977145</tag>
+	<url>http://www.last.fm/event/977145</url>
+</event>
+<event>
+	<id>917708</id>
+	<title>Music As A Weapon Tour IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<artist>Suicide Silence</artist>
+		<artist>Bury Your Dead</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Alliant Energy Center</name>
+		<location>
+			<city>Madison, WI</city>
+			<country>United States</country>
+			<street>1919 Alliant Energy Center Way</street>
+			<postalcode>53713</postalcode>
+			<point>
+				<lat>43.046571</lat>
+				<long>-89.385588</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8786558</url>
+	</venue>
+	<startDate>Sun, 10 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>16</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=917708</tag>
+	<url>http://www.last.fm/event/917708</url>
+</event>
+<event>
+	<id>901125</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>La Crosse Center</name>
+		<location>
+			<city>La Crosse, WI</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>43.80139</lat>
+				<long>-91.23944</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8893781</url>
+	</venue>
+	<startDate>Tue, 12 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=901125</tag>
+	<url>http://www.last.fm/event/901125</url>
+</event>
+<event>
+	<id>919394</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>La Crosse Center</name>
+		<location>
+			<city>La Crosse, WI</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>43.80139</lat>
+				<long>-91.23944</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8893781</url>
+	</venue>
+	<startDate>Tue, 12 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=919394</tag>
+	<url>http://www.last.fm/event/919394</url>
+</event>
+<event>
+	<id>912783</id>
+	<title>Music as a Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Roberts Stadium</name>
+		<location>
+			<city>Evansville</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode>47714</postalcode>
+			<point>
+				<lat>37.97472</lat>
+				<long>-87.55583</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8803561</url>
+	</venue>
+	<startDate>Wed, 13 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=912783</tag>
+	<url>http://www.last.fm/event/912783</url>
+</event>
+<event>
+	<id>951904</id>
+	<title>Music as a Weapon IV at Mid America Center</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Mid America Center</name>
+		<location>
+			<city>Council Bluffs, IA</city>
+			<country>United States</country>
+			<street>One Arena Way</street>
+			<postalcode>51501</postalcode>
+			<point>
+				<lat>41.26194</lat>
+				<long>-95.86083</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8929953</url>
+	</venue>
+	<startDate>Fri, 15 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=951904</tag>
+	<url>http://www.last.fm/event/951904</url>
+</event>
+<event>
+	<id>981406</id>
+	<title>Music As Weapon:  Disturbed, Killswitch Engage, Lacuna Coil, Chimaira</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Mid America Center</name>
+		<location>
+			<city>Council Bluffs</city>
+			<country>United States</country>
+			<street>One Arena Way</street>
+			<postalcode>51501</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014886</url>
+	</venue>
+	<startDate>Fri, 15 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981406</tag>
+	<url>http://www.last.fm/event/981406</url>
+</event>
+<event>
+	<id>912944</id>
+	<title>Music As A Weapon IV</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Charter One Pavillion</name>
+		<location>
+			<city>Chicago, Illinois</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.866131</lat>
+				<long>-87.610124</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8999600</url>
+	</venue>
+	<startDate>Sat, 16 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>26</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=912944</tag>
+	<url>http://www.last.fm/event/912944</url>
+</event>
+<event>
+	<id>966428</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Chimaira</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Charter One Pavilion at Northerly Island</name>
+		<location>
+			<city>Chicago</city>
+			<country>United States</country>
+			<street>1300 S. Linn White Drive</street>
+			<postalcode>60605</postalcode>
+			<point>
+				<lat>41.866131</lat>
+				<long>-87.610124</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8832086</url>
+	</venue>
+	<startDate>Sat, 16 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=966428</tag>
+	<url>http://www.last.fm/event/966428</url>
+</event>
+<event>
+	<id>952314</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Shinedown</artist>
+		<artist>Saving Abel</artist>
+		<artist>Since October</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>May-Day WRZX</name>
+		<location>
+			<city>Indianapolis</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>39.865163</lat>
+				<long>-86.062589</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9007908</url>
+	</venue>
+	<startDate>Sat, 23 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=952314</tag>
+	<url>http://www.last.fm/event/952314</url>
+</event>
+<event>
+	<id>927432</id>
+	<title>Greenfield Festival</title>
+	<artists>
+		<artist>Slipknot</artist>
+		<artist>KoЯn</artist>
+		<artist>Disturbed</artist>
+		<artist>The Subways</artist>
+		<artist>Flogging Molly</artist>
+		<artist>...And You Will Know Us by the Trail of Dead</artist>
+		<artist>DragonForce</artist>
+		<artist>Trivium</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Soulfly</artist>
+		<artist>The Wombats</artist>
+		<artist>Social Distortion</artist>
+		<artist>Monster Magnet</artist>
+		<artist>Caliban</artist>
+		<artist>Tomte</artist>
+		<artist>August Burns Red</artist>
+		<artist>Volbeat</artist>
+		<artist>Gallows</artist>
+		<artist>Itchy Poopzkid</artist>
+		<artist>Karamelo Santo</artist>
+		<headliner>Slipknot</headliner>
+	</artists>
+	<venue>
+		<name>Greenfield</name>
+		<location>
+			<city>Interlaken</city>
+			<country>Switzerland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>46.6833333</lat>
+				<long>7.85</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8786173</url>
+	</venue>
+	<startDate>Fri, 12 Jun 2009</startDate>
+	<endDate>Sun, 14 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets: <a href="http://www.eventim.ch/portal/de/konzerte/open_air/greenfield_festival_2009/58976/" rel="nofollow">http://www.eventim.ch/portal/de/konzerte/open_air/greenfield_festival_2009/58976/</a><br />
+		<br />
+		Zu Slipknot, Korn, Disturbed, Social Distortion, Flogging Molly, Gogol Bordello, Volbeat, ...and you will know us by the trail of dead, Tomte, Trivium, Caliban und August Burns Red, kommen neu dazu: <br />
+		Monster Magnet, The Wombats, The Subways, Soulfly, Dragonforce, Gallows, Karamelo Santo und Itchy Poopzkid! <br />
+		<br />
+		Das Greenfield Festival gehört zu den wichtigsten Festivals der Schweiz. Es wurde zum nationalen Mekka der neuen und alten Musikszene.<br />
+		<br />
+	Das einzige konzeptionelle Rockmusikfestival in der Schweiz garantiert auch 2009 puren Musikgenuss inmitten einer beeindruckenden Bergwelt. Fürs Greenfield Festival gibt es ausschliesslich Dreitagespässe. Campieren auf dem Gelände, Shuttle vom Bahnhof und die Parkplätze sind für die Besucher gratis!</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8267393.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8267393.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8267393.jpg</image>
+	<attendance>41</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=927432</tag>
+	<url>http://www.last.fm/event/927432</url>
+</event>
+<event>
+	<id>906707</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Special Guest</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Alcatraz</name>
+		<location>
+			<city>Milano</city>
+			<country>Italy</country>
+			<street>Via Valtellina, 21</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.494197</lat>
+				<long>9.182772</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778527</url>
+	</venue>
+	<startDate>Tue, 16 Jun 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Biglietti in vendita al prezzo di € 20 + diritti di prevendita a partire dalle ore 12.00 di Venerdi 23 Gennaio su <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a> e punti vendita collegati in rete su tutto il territorio nazionale.<br />
+		<br />
+		Fonte:  <a href="http://www.metalitalia.com/articles/4/25900/disturbed_data_italiana.html" rel="nofollow">Metalitalia.com</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>34</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=906707</tag>
+	<url>http://www.last.fm/event/906707</url>
+</event>
+<event>
+	<id>915338</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Boogaloo</name>
+		<location>
+			<city>Zagreb</city>
+			<country>Croatia</country>
+			<street>Ulica Grada Vukovara 68</street>
+			<postalcode>10000</postalcode>
+			<point>
+				<lat>45.799338</lat>
+				<long>15.956189</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780843</url>
+	</venue>
+	<startDate>Wed, 17 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Gotovo desetljeće nakon objavljivanja njihovog debi albuma, „The Sickness“, Disturbed su postali jedni od najboljih i veoma poštovanih bendova na hard-rock sceni, pouzdan izvor ne samo moćnih rifova i nabijajućih beatova, već i osobnih političkih uvida u ovo nemirno doba. Ipak uspjeh (u obliku tri platinum-plus albuma, s oba „Believe“ i „Ten Thousand Fists“ na vrhu Billboardove ljestvice i više od devet milijuna prodanih albuma) nije otupio njihovu sklonost ka avanturi. U povodu njihovog četvrtog albuma, „Indestructible“, frontman David Draiman, gitarist Dan Donegan i bubnjar Mike Wengren su odlučili uzeti stvar u svoje ruke i sami isproducirati album.<br />
+		<br />
+		&quot;Nakon tri ploče s Johnny K-om naučili smo puno&quot;, kaže Draiman za industrijskog veterana, glavnog producenta na „The Sickness“, „Believe“ i „Ten Thousand Fists“. &quot;Uvijek se pokušavamo razviti i isprobati nove stvari i eksperimente&quot;, dodaje Donegan. &quot;tako da smo ovaj put htjeli odraditi stvari malo drugačije.&quot; Wengren kaže da je „Indestructible“ bendu pružio priliku da dokažu sebi i svim ostalima kako oni to mogu.&quot; Rezultat njihovog eksperimentiranja u studiju je najmračniji, najagresivniji album do sad.<br />
+		<br />
+		&quot;Htjeli smo se vratiti na neke od elemenata koji su možda nedostajali na posljednja dva albuma&quot;, kaže Donegan. &quot;David ima veliku sposobnost pjevati zaista melodično, ali htjeli smo da se vrati na ritmičku, animalističku, brzu energiju po kojoj je poznat. I mi smo mu htjeli pružiti glazbu koja bi to izvukla od njega“.<br />
+		<br />
+		Koncert će se održati 17.6.2009. u klubu Boogaloo. Cijene ulaznica: 160 kn do 17.5. / 180 kn od 18.5. / 190 kn na dan.<br />
+	Prodajna mjesta: Integral (pothodnik), Boogaloo, Eventim</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>73</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=915338</tag>
+	<url>http://www.last.fm/event/915338</url>
+</event>
+<event>
+	<id>723007</id>
+	<title>Southside Festival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Moby</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Disturbed</artist>
+		<artist>Editors</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Ben Harper</artist>
+		<artist>Brand New</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Faith No More</artist>
+		<artist>Duffy</artist>
+		<artist>Kraftwerk</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Anti-Flag</artist>
+		<artist>Less Than Jake</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>The Sounds</artist>
+		<artist>Die Ärzte</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>The Wombats</artist>
+		<artist>Social Distortion</artist>
+		<artist>No Use for a Name</artist>
+		<artist>Lykke Li</artist>
+		<artist>Ska-P</artist>
+		<artist>Fettes Brot</artist>
+		<artist>Blood Red Shoes</artist>
+		<artist>The Living End</artist>
+		<artist>The Whip</artist>
+		<artist>Clueso</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Culcha Candela</artist>
+		<artist>Johnossi</artist>
+		<artist>Tomte</artist>
+		<artist>Portugal. The Man</artist>
+		<artist>Eskimo Joe</artist>
+		<artist>Dendemann</artist>
+		<artist>Nneka</artist>
+		<artist>Get Well Soon</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Frank Turner</artist>
+		<artist>Karamelo Santo</artist>
+		<artist>Bosse</artist>
+		<artist>The Asteroids Galaxy Tour</artist>
+		<artist>Luis und Laserpower</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Flugplatz (Neuhausen ob Eck)</name>
+		<location>
+			<city>Neuhausen ob Eck</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.972415</lat>
+				<long>8.911715</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8790598</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">TIckets: <a href="http://southside.de/tickets/" rel="nofollow">http://southside.de/tickets/</a><br />
+		<br />
+		Das Southside startete in den Festival-Sommer zum ersten Mal 1999 – damals noch auf dem Flugplatz in Neubiberg. 2008 fand es nun zum zehnten Mal in Folge auf einem 800m hoch gelegenen Plateau in Neuhausen ob Eck in der Nähe von Tuttlingen statt…<br />
+		<br />
+		Neuhausen ob Eck liegt zwischen München, Stuttgart und Freiburg, nicht allzuweit vom Bodensee entfernt. (<a href="http://www.southside.de" rel="nofollow">www.southside.de</a>)<br />
+		<br />
+		<br />
+		Das Southside ist ein Musikfestival mit Schwerpunkt Alternative Rock, das seit 1999 jährlich stattfindet. Seit 2000 ist das Festival in Neuhausen ob Eck bei Tuttlingen (Baden-Württemberg) auf einem ehemaligen Bundeswehrflugplatz (EDSN) beheimatet, das erste Southside hatte zuvor ebenfalls auf einem ehemaligen Militärflugplatz in Neubiberg bei München stattgefunden.<br />
+		<br />
+		Die Bezeichnung Southside leitet sich vom Englischen south side ab, was soviel wie südliche Seite bedeutet und auf die Lage des Festivals im Süden Deutschlands hinweist. Gleichzeitig findet in Norddeutschland das ältere Schwester-Festival Hurricane statt, welches größtenteils das selbe Lineup aufweist.<br />
+		<br />
+		Veranstaltet werden die Zwillingsfestivals vom deutschen Konzertveranstalter FKP Scorpio und der KOKO &amp; DTK Entertainment GmbH. (<a href="http://de.wikipedia.org/wiki/Southside" rel="nofollow">http://de.wikipedia.org/wiki/Southside</a>)<br />
+		<br />
+		In English:<br />
+		<br />
+		The Southside Festival, also just Southside, is a music festival that takes place near Tuttlingen, southern Germany, usually every June. It is promoted by German private music television channel VIVA, which belongs to Viacom, the MTV Network’s parent company, since the end of 2004. The festival and its guests are generally associated with the alternative part of mainstream music, although the festival has been becoming more and more mainstream over the years.<br />
+		<br />
+		The Hurricane Festival, often referred to as the mother of Southside, takes place on the same three days in the very north of Germany (contrary to Southside, which is in the very south). Together they’re a twin festival, since they are on the same days and usually have the same lineup with only few exceptions.<br />
+		<br />
+		After the great success of the Hurricane Festival, FKP Scorpio decided to make a similar event in the south of Germany. 1999 a former military airbase in Neubiberg, near Munich, was selected. In 2000 the festival was moved to another former military airbase, this time in Neuhausen ob Eck, which is near Freiburg and Stuttgart.<br />
+		<br />
+	Because of the relative proximity to other countries (France, Austria, Switzerland and Liechtenstein are all less than 100km away), the audience is very multinational. In 2003, the calculated maximum capacity of around 40.000 people was reached and the festival has been sold out well in advance since. (<a href="http://en.wikipedia.org/wiki/Southside_Festival" rel="nofollow">http://en.wikipedia.org/wiki/Southside_Festival</a>)</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25383543.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25383543.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25383543.jpg</image>
+	<attendance>730</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=723007</tag>
+	<url>http://www.last.fm/event/723007</url>
+</event>
+<event>
+	<id>668478</id>
+	<title>Hurricane Festival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Moby</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Disturbed</artist>
+		<artist>Editors</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Ben Harper</artist>
+		<artist>Brand New</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Faith No More</artist>
+		<artist>Duffy</artist>
+		<artist>Kraftwerk</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Anti-Flag</artist>
+		<artist>Less Than Jake</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>The Sounds</artist>
+		<artist>Die Ärzte</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>The Wombats</artist>
+		<artist>Social Distortion</artist>
+		<artist>No Use for a Name</artist>
+		<artist>Lykke Li</artist>
+		<artist>Ska-P</artist>
+		<artist>Fettes Brot</artist>
+		<artist>Blood Red Shoes</artist>
+		<artist>Ladyhawke</artist>
+		<artist>The Living End</artist>
+		<artist>The Whip</artist>
+		<artist>Clueso</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Culcha Candela</artist>
+		<artist>Johnossi</artist>
+		<artist>Tomte</artist>
+		<artist>Portugal. The Man</artist>
+		<artist>Eskimo Joe</artist>
+		<artist>Dendemann</artist>
+		<artist>Nneka</artist>
+		<artist>Get Well Soon</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Frank Turner</artist>
+		<artist>Karamelo Santo</artist>
+		<artist>Bosse</artist>
+		<artist>The Asteroids Galaxy Tour</artist>
+		<artist>Sky Larkin</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Eichenring</name>
+		<location>
+			<city>Scheeßel</city>
+			<country>Germany</country>
+			<street>Eichenring</street>
+			<postalcode>27383</postalcode>
+			<point>
+				<lat>53.164562</lat>
+				<long>9.496715</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780778</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Das Hurricane Festival ist ein seit 1997 auf der Motorrad-Sandrennbahn Eichenring bei Scheeßel stattfindendes Musikfestival. Mit seinen über 50.000 Besuchern jährlich (2001 und 2005 sogar um 60.000, 2008 mit 70.000 ausverkauft) zählt es zu den größten Musikfestivals in Deutschland. Gleichzeitig mit dem „Schwesterfestival“ Southside wird es jeweils am vorletzten Juni-Wochenende von der FKP Scorpio Konzertproduktionen GmbH und KoKo Konstanz GmbH veranstaltet. Wie viele andere großen Festivals setzt das Hurricane auf eine Mischung aus Rock, Alternative und Pop, wobei neben etablierten Stars auch Neulinge zum Zuge kommen.<br />
+		(<a href="http://de.wikipedia.org/wiki/Hurricane_Festival" rel="nofollow">http://de.wikipedia.org/wiki/Hurricane_Festival</a>)<br />
+		<br />
+		The Hurricane Festival, also just Hurricane, is a music festival that takes place in Scheeßel near Bremen, Germany, usually every June. It is promoted by German private music television channel VIVA, which belongs to Viacom, the MTV Network's parent company, since the end of 2004.<br />
+	(<a href="http://en.wikipedia.org/wiki/Hurricane_Festival" rel="nofollow">http://en.wikipedia.org/wiki/Hurricane_Festival</a>)</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25350879.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25350879.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25350879.jpg</image>
+	<attendance>1389</attendance>
+	<reviews>3</reviews>
+	<tag>lastfm:event=668478</tag>
+	<url>http://www.last.fm/event/668478</url>
+</event>
+<event>
+	<id>743707</id>
+	<title>Nova Rock 2009</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Placebo</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Staind</artist>
+		<artist>Faith No More</artist>
+		<artist>Guano Apes</artist>
+		<artist>Static-X</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Less Than Jake</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Flyleaf</artist>
+		<artist>Dimmu Borgir</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Sevendust</artist>
+		<artist>dredg</artist>
+		<artist>Mastodon</artist>
+		<artist>Die Toten Hosen</artist>
+		<artist>All That Remains</artist>
+		<artist>Monster Magnet</artist>
+		<artist>Dir en grey</artist>
+		<artist>The Living End</artist>
+		<artist>In Extremo</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Madsen</artist>
+		<artist>August Burns Red</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>The Sword</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Eisbrecher</artist>
+		<artist>Black Tide</artist>
+		<artist>Expatriate</artist>
+		<artist>3 Feet Smaller</artist>
+		<artist>Smoke Blow</artist>
+		<artist>Loaded</artist>
+		<artist>Zeronic</artist>
+		<artist>Centao</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Pannonia Fields II</name>
+		<location>
+			<city>Nickelsdorf</city>
+			<country>Austria</country>
+			<street></street>
+			<postalcode>2425</postalcode>
+			<point>
+				<lat>47.939995</lat>
+				<long>17.068561</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8787897</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">CAUTION, A CHANGE OF DATE!!! <br />
+	*NovaRock now takes place on june 19th-21st</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25347007.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25347007.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25347007.gif</image>
+	<attendance>495</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=743707</tag>
+	<url>http://www.last.fm/event/743707</url>
+</event>
+<event>
+	<id>823646</id>
+	<title>Hovefestivalen (Hove Festival)</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>The Ting Tings</artist>
+		<artist>M83</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>M. Ward</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>All That Remains</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Fujiya &amp; Miyagi</artist>
+		<artist>Q-Tip</artist>
+		<artist>Parkway Drive</artist>
+		<artist>White Lies</artist>
+		<artist>Metronomy</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Crookers</artist>
+		<artist>Yuksek</artist>
+		<artist>Benea Reach</artist>
+		<artist>I Was A King</artist>
+		<artist>hockey</artist>
+		<artist>Casiokids</artist>
+		<artist>Fjorden Baby!</artist>
+		<artist>The New Wine</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Tromøya</name>
+		<location>
+			<city>Arendal</city>
+			<country>Norway</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>58.4602778</lat>
+				<long>8.7666667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8797402</url>
+	</venue>
+	<startDate>Mon, 22 Jun 2009</startDate>
+	<endDate>Thu, 25 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">About 40% of the bands and artists are now announced, so there is still quite a few to go for those still not satisfied. Newest announcement was the French at Yuksek.<br />
+		<br />
+	Bands and artists that are known to be considered book / in negotiations with, but yet unconfirmed: Architects (UK).</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+	<attendance>109</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=823646</tag>
+	<url>http://www.last.fm/event/823646</url>
+</event>
+<event>
+	<id>915685</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Roxy</name>
+		<location>
+			<city>Praha</city>
+			<country>Czech Republic</country>
+			<street>Dlouhá 33</street>
+			<postalcode>110 00</postalcode>
+			<point>
+				<lat>50.090839</lat>
+				<long>14.425727</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779248</url>
+	</venue>
+	<startDate>Tue, 23 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">predprodej: 540+poplatky<br />
+	na miste: 690</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>61</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=915685</tag>
+	<url>http://www.last.fm/event/915685</url>
+</event>
+<event>
+	<id>718974</id>
+	<title>Graspop Metal Meeting 2009</title>
+	<artists>
+		<artist>KoЯn</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Nightwish</artist>
+		<artist>Dream Theater</artist>
+		<artist>Journey</artist>
+		<artist>Children of Bodom</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Mötley Crüe</artist>
+		<artist>DragonForce</artist>
+		<artist>Blind Guardian</artist>
+		<artist>Trivium</artist>
+		<artist>Anthrax</artist>
+		<artist>Lamb of God</artist>
+		<artist>Soulfly</artist>
+		<artist>Mastodon</artist>
+		<artist>Epica</artist>
+		<artist>No Use for a Name</artist>
+		<artist>Hatebreed</artist>
+		<artist>The Gathering</artist>
+		<artist>W.A.S.P.</artist>
+		<artist>All That Remains</artist>
+		<artist>The Dillinger Escape Plan</artist>
+		<artist>Buckcherry</artist>
+		<artist>Monster Magnet</artist>
+		<artist>DevilDriver</artist>
+		<artist>Suicidal Tendencies</artist>
+		<artist>Exodus</artist>
+		<artist>Sick of It All</artist>
+		<artist>Samael</artist>
+		<artist>August Burns Red</artist>
+		<artist>Parkway Drive</artist>
+		<artist>God Forbid</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Gojira</artist>
+		<artist>Down</artist>
+		<artist>Firewind</artist>
+		<artist>All Shall Perish</artist>
+		<artist>Scar Symmetry</artist>
+		<artist>Five Finger Death Punch</artist>
+		<artist>Death Angel</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Taake</artist>
+		<artist>Sacred Reich</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Dagoba</artist>
+		<artist>Legion of the Damned</artist>
+		<artist>Pestilence</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Warbringer</artist>
+		<artist>Eths</artist>
+		<artist>Negură Bunget</artist>
+		<artist>Laaz Rockit</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Jon Oliva's Pain</artist>
+		<artist>Duff McKagan's Loaded</artist>
+		<headliner>KoЯn</headliner>
+	</artists>
+	<venue>
+		<name>Boeretang</name>
+		<location>
+			<city>Dessel</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.223916</lat>
+				<long>5.093964</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788775</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">The 14th edition of the annual metal fest is scheduled for the last weekend of June. The place to be is still the festival grounds of the Boeretang in Dessel. The concept remains identical: 3 days of metal mania, 4 stages, 70 bands, metal market, festival fair, side animation, signing sessions and much more! Confirmed bands will be announced on the website as soon as possible.<br />
+	- the graspop website.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25507261.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25507261.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25507261.jpg</image>
+	<attendance>599</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=718974</tag>
+	<url>http://www.last.fm/event/718974</url>
+</event>
+<event>
+	<id>870602</id>
+	<title>Metaltown 2009</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Children of Bodom</artist>
+		<artist>Opeth</artist>
+		<artist>DragonForce</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Meshuggah</artist>
+		<artist>Pain</artist>
+		<artist>Dir en grey</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Napalm Death</artist>
+		<artist>Evergrey</artist>
+		<artist>August Burns Red</artist>
+		<artist>Cult of Luna</artist>
+		<artist>Volbeat</artist>
+		<artist>ムック</artist>
+		<artist>Municipal Waste</artist>
+		<artist>Mustasch</artist>
+		<artist>girugämesh</artist>
+		<artist>Dead by April</artist>
+		<artist>Bullet</artist>
+		<artist>Pilgrimz</artist>
+		<artist>All Hell</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Frihamnspiren</name>
+		<location>
+			<city></city>
+			<country>Sweden</country>
+			<street>Frihamnen</street>
+			<postalcode>417 07</postalcode>
+			<point>
+				<lat>57.713824</lat>
+				<long>11.958549</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8902675</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sat, 27 Jun 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Den 26 och 27 juni är det dags för 2009 års upplaga av Metaltown, med mer än 30 band på scen.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25120281.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25120281.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25120281.jpg</image>
+<attendance>382</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=870602</tag>
+<url>http://www.last.fm/event/870602</url>
+</event>
+<event>
+	<id>902974</id>
+	<title>Graspop Metal Meeting 2009</title>
+	<artists>
+		<artist>Volbeat</artist>
+		<artist>Disturbed</artist>
+		<artist>Trivium</artist>
+		<headliner>Volbeat</headliner>
+	</artists>
+	<venue>
+		<name>Festivalpark 'Boeretang'</name>
+		<location>
+			<city>Dessel</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.231727</lat>
+				<long>4.440407</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8911139</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22486175.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22486175.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22486175.jpg</image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=902974</tag>
+	<url>http://www.last.fm/event/902974</url>
+</event>
+<event>
+	<id>967536</id>
+	<title>Graspop</title>
+	<artists>
+		<artist>Mötley Crüe</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Papa Roach</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Dream Theater</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Blind Guardian</artist>
+		<artist>Trivium</artist>
+		<artist>Anthrax</artist>
+		<artist>Mastodon</artist>
+		<artist>Epica</artist>
+		<artist>Hatebreed</artist>
+		<artist>The Gathering</artist>
+		<artist>W.A.S.P.</artist>
+		<artist>Buckcherry</artist>
+		<artist>Exodus</artist>
+		<artist>Samael</artist>
+		<artist>August Burns Red</artist>
+		<artist>Parkway Drive</artist>
+		<artist>God Forbid</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Gojira</artist>
+		<artist>Down</artist>
+		<artist>Firewind</artist>
+		<artist>Scar Symmetry</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Taake</artist>
+		<artist>Sacred Reich</artist>
+		<artist>Wolves in the Throne Room</artist>
+		<artist>Dagoba</artist>
+		<artist>Legion of the Damned</artist>
+		<artist>Pestilence</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Eths</artist>
+		<artist>Laaz Rockit</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Devil Driver</artist>
+		<artist>Negura Bunget</artist>
+		<artist>Jon Olivias Pain</artist>
+		<headliner>Mötley Crüe</headliner>
+	</artists>
+	<venue>
+		<name>Festivalpark 'Boeretang'</name>
+		<location>
+			<city>Dessel</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.231727</lat>
+				<long>4.440407</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8911139</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><img src="http://www.graspop.be/img//kalender/GMM%20-%20Affiche%203.jpg/img" /><br />
+		<br />
+	[b] Metal Overdose in Dessel [/b]</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24907989.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24907989.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24907989.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=967536</tag>
+	<url>http://www.last.fm/event/967536</url>
+</event>
+<event>
+	<id>896722</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Den Atelier</name>
+		<location>
+			<city>Luxembourg</city>
+			<country>Luxembourg</country>
+			<street>54, Rue de Hollerich</street>
+			<postalcode>L-1013</postalcode>
+			<point>
+				<lat>49.598622</lat>
+				<long>6.126355</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8787565</url>
+	</venue>
+	<startDate>Mon, 29 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>19</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=896722</tag>
+	<url>http://www.last.fm/event/896722</url>
+</event>
+<event>
+	<id>874299</id>
+	<title>Disturbed</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>013</name>
+		<location>
+			<city>Tilburg</city>
+			<country>Netherlands</country>
+			<street>Veemarktstraat 44</street>
+			<postalcode>5038 CV</postalcode>
+			<point>
+				<lat>51.557655</lat>
+				<long>5.092867</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779487</url>
+	</venue>
+	<startDate>Tue, 30 Jun 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>84</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=874299</tag>
+	<url>http://www.last.fm/event/874299</url>
+</event>
+<event>
+	<id>852452</id>
+	<title>Ruisrock</title>
+	<artists>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Ladytron</artist>
+		<artist>In Flames</artist>
+		<artist>Children of Bodom</artist>
+		<artist>Calexico</artist>
+		<artist>Mew</artist>
+		<artist>!!!</artist>
+		<artist>The Sounds</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Amorphis</artist>
+		<artist>The Living End</artist>
+		<artist>Neurosis</artist>
+		<artist>Apulanta</artist>
+		<artist>Volbeat</artist>
+		<artist>PMMP</artist>
+		<artist>Kotiteollisuus</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Mokoma</artist>
+		<artist>CMX</artist>
+		<artist>Eppu Normaali</artist>
+		<artist>Egotrippi</artist>
+		<artist>Scandinavian Music Group</artist>
+		<artist>Maija Vilkkumaa</artist>
+		<artist>Tehosekoitin</artist>
+		<artist>The Wildhearts</artist>
+		<artist>Stone</artist>
+		<artist>Le Corps Mince de Françoise</artist>
+		<artist>Pilgrimz</artist>
+		<headliner>Disturbed</headliner>
+	</artists>
+	<venue>
+		<name>Ruissalo</name>
+		<location>
+			<city>Turku</city>
+			<country>Finland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>60.425533</lat>
+				<long>22.146337</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781754</url>
+	</venue>
+	<startDate>Fri, 03 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/278081.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/278081.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/278081.jpg</image>
+	<attendance>455</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=852452</tag>
+	<url>http://www.last.fm/event/852452</url>
+</event>
+</events>
+</lfm>

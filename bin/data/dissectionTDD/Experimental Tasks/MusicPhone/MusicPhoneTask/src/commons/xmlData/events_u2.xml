@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="U2" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="30">
+		<event>
+			<id>940663</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Camp Nou</name>
+				<location>
+					<city>Barcelona</city>
+					<country>Spain</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>41.380889</lat>
+						<long>2.122831</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8795682</url>
+			</venue>
+			<startDate>Tue, 30 Jun 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>74</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=940663</tag>
+			<url>http://www.last.fm/event/940663</url>
+		</event>
+		<event>
+			<id>973932</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Stadio San Siro</name>
+				<location>
+					<city>Milan</city>
+					<country>Italy</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.5063469010834</lat>
+						<long>9.20654296875</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8886854</url>
+			</venue>
+			<startDate>Tue, 07 Jul 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>41</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973932</tag>
+			<url>http://www.last.fm/event/973932</url>
+		</event>
+		<event>
+			<id>986062</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Stadio San Siro</name>
+				<location>
+					<city>Milan</city>
+					<country>Italy</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.5063469010834</lat>
+						<long>9.20654296875</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8886854</url>
+			</venue>
+			<startDate>Wed, 08 Jul 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=986062</tag>
+			<url>http://www.last.fm/event/986062</url>
+		</event>
+		<event>
+			<id>903368</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Kaiser Chiefs</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Stade de France</name>
+				<location>
+					<city>Saint Denis</city>
+					<country>France</country>
+					<street>rue Francis de Pressensé</street>
+					<postalcode>93210</postalcode>
+					<point>
+						<lat>48.923095</lat>
+						<long>2.361121</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778514</url>
+			</venue>
+			<startDate>Sat, 11 Jul 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>36</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=903368</tag>
+			<url>http://www.last.fm/event/903368</url>
+		</event>
+		<event>
+			<id>970928</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Nikaia</name>
+				<location>
+					<city>Nice</city>
+					<country>France</country>
+					<street>163 route de Grenoble</street>
+					<postalcode>06200</postalcode>
+					<point>
+						<lat>43.712322</lat>
+						<long>7.187591</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8791178</url>
+			</venue>
+			<startDate>Wed, 15 Jul 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=970928</tag>
+			<url>http://www.last.fm/event/970928</url>
+		</event>
+		<event>
+			<id>973856</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Olympiastadion</name>
+				<location>
+					<city>Berlin</city>
+					<country>Germany</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>52.514765</lat>
+						<long>13.244534</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8784117</url>
+			</venue>
+			<startDate>Sat, 18 Jul 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>57</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973856</tag>
+			<url>http://www.last.fm/event/973856</url>
+		</event>
+		<event>
+			<id>973847</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>ArenA</name>
+				<location>
+					<city>Amsterdam</city>
+					<country>Netherlands</country>
+					<street>ArenA Boulevard 1</street>
+					<postalcode>1101 AX</postalcode>
+					<point>
+						<lat>52.31266</lat>
+						<long>4.942487</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779676</url>
+			</venue>
+			<startDate>Mon, 20 Jul 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Prijzen zijn €30 (6e rang, zitplaats), €55 (5e rang, veldplaats), €65 (4e rang, zitplaats), €75 (3e rang, zitplaats), €80 (2e rang, zitplaats), €150 (1e rang, zitplaats)<br />
+				<br />
+				<a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> will be supported by either <a href="http://ws.audioscrobbler.com/music/Glasvegas" class="bbcode_artist">Glasvegas</a>, <a href="http://ws.audioscrobbler.com/music/Elbow" class="bbcode_artist">Elbow</a>, <a href="http://ws.audioscrobbler.com/music/Kaiser+Chiefs" class="bbcode_artist">Kaiser Chiefs</a>, <a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a> or <a href="http://ws.audioscrobbler.com/music/Black+Eyed+Peas" class="bbcode_artist">Black Eyed Peas</a>, or another, yet to be announced artist. <a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a> seems unlikely since they've confirmed on which dates they'll play for this tour, and those don't include any in Amsterdam.  <a href="http://ws.audioscrobbler.com/music/Elbow" class="bbcode_artist">Elbow</a> plays with <a href="http://ws.audioscrobbler.com/music/Coldplay" class="bbcode_artist">Coldplay</a>
+				<a href="http://ws.audioscrobbler.com/event/929091" class="bbcode_event">in the US on the 25th</a>, so it seems unlikely they'll come as well.<br />
+				<br />
+				Long-time <a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> Show Director <a href="http://en.wikipedia.org/wiki/Willie_Williams_(lighting_designer)" rel="nofollow">Willie Williams</a> has worked again with architect Mark Fisher (ZooTV, PopMart, Elevation and Vertigo), to create an innovative 360˚ design which affords an unobstructed view for the audience.  <a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> 360° also marks the first time a band has toured in stadiums with such a unique and original structure.<br />
+				<br />
+				<a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> heeft aangegeven de normale eindtijd van 23:00 uur te vroeg te vinden en gaat dus langer door dan andere bands in de ArenA. Dit brengt de tijd dat ze spelen (inclusief voorprogramma) op meer dan drie uur.<br />
+				<br />
+			<a href="http://static2.livenation.com/akamai/V0100/img/VENUE_MAP_L/17905_56846_4.jpg" rel="nofollow">Plattegrond van de ArenA</a> deze tour</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>108</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973847</tag>
+			<url>http://www.last.fm/event/973847</url>
+		</event>
+		<event>
+			<id>983792</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>ArenA</name>
+				<location>
+					<city>Amsterdam</city>
+					<country>Netherlands</country>
+					<street>ArenA Boulevard 1</street>
+					<postalcode>1101 AX</postalcode>
+					<point>
+						<lat>52.31266</lat>
+						<long>4.942487</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779676</url>
+			</venue>
+			<startDate>Tue, 21 Jul 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Prijzen zijn €30 (6e rang, zitplaats), €55 (5e rang, veldplaats), €65 (4e rang, zitplaats), €75 (3e rang, zitplaats), €80 (2e rang, zitplaats), €150 (1e rang, zitplaats)<br />
+				<br />
+				<a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> will be supported by either <a href="http://ws.audioscrobbler.com/music/Glasvegas" class="bbcode_artist">Glasvegas</a>, <a href="http://ws.audioscrobbler.com/music/Elbow" class="bbcode_artist">Elbow</a>, <a href="http://ws.audioscrobbler.com/music/Kaiser+Chiefs" class="bbcode_artist">Kaiser Chiefs</a>, <a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a> or <a href="http://ws.audioscrobbler.com/music/Black+Eyed+Peas" class="bbcode_artist">Black Eyed Peas</a>, or another, yet to be announced artist. <a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a> seems unlikely since they've confirmed on which dates they'll play for this tour, and those don't include any in Amsterdam. <a href="http://ws.audioscrobbler.com/music/Elbow" class="bbcode_artist">Elbow</a> plays with <a href="http://ws.audioscrobbler.com/music/Coldplay" class="bbcode_artist">Coldplay</a>
+				<a href="http://ws.audioscrobbler.com/event/929091" class="bbcode_event">in the US on the 25th</a>, so it seems unlikely they'll come as well.<br />
+				<br />
+				Long-time <a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> Show Director <a href="http://en.wikipedia.org/wiki/Willie_Williams_(lighting_designer)" rel="nofollow">Willie Williams</a> has worked again with architect Mark Fisher (ZooTV, PopMart, Elevation and Vertigo), to create an innovative 360˚ design which affords an unobstructed view for the audience.  <a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> 360° also marks the first time a band has toured in stadiums with such a unique and original structure.<br />
+				<br />
+				<a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> heeft aangegeven de normale eindtijd van 23:00 uur te vroeg te vinden en gaat dus langer door dan andere bands in de ArenA. Dit brengt de tijd dat ze spelen (inclusief voorprogramma) op meer dan drie uur.<br />
+				<br />
+			<a href="http://static2.livenation.com/akamai/V0100/img/VENUE_MAP_L/17905_56846_4.jpg" rel="nofollow">Plattegrond van de ArenA</a> deze tour</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>93</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=983792</tag>
+			<url>http://www.last.fm/event/983792</url>
+		</event>
+		<event>
+			<id>973832</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Glasvegas</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Croke Park</name>
+				<location>
+					<city>Baile Átha Cliath</city>
+					<country>Ireland</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>53.3607</lat>
+						<long>-6.25138</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8791616</url>
+			</venue>
+			<startDate>Fri, 24 Jul 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>32</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973832</tag>
+			<url>http://www.last.fm/event/973832</url>
+		</event>
+		<event>
+			<id>982160</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Kaiser Chiefs</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Croke Park</name>
+				<location>
+					<city>Baile Átha Cliath</city>
+					<country>Ireland</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>53.3607</lat>
+						<long>-6.25138</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8791616</url>
+			</venue>
+			<startDate>Sat, 25 Jul 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>15</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=982160</tag>
+			<url>http://www.last.fm/event/982160</url>
+		</event>
+		<event>
+			<id>973835</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Ullevi</name>
+				<location>
+					<city>Göteborg</city>
+					<country>Sweden</country>
+					<street>Skånegatan</street>
+					<postalcode>411 40</postalcode>
+					<point>
+						<lat>57.7166667</lat>
+						<long>11.9666667</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8789770</url>
+			</venue>
+			<startDate>Fri, 31 Jul 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">U2 kan idag bekräfta att turnén som går under namnet 360° kommer att inledas i Barcelona på Nou Camp Stadion den 30 juni i år. Turnén, som är sponsrad av BlackBerry och är bandets första stadiumturné sedan Vertigo Tour 2005/2006, är en uppföljning av deras kritikerrosade album No Line On The Horizon. Albumet är U2:s tolfte studioalbum och toppar redan försäljningslistorna i England, Irland, Frankrike, Tyskland, Belgien, Japan och Tjeckien.<br />
+				<br />
+				Turnén, som är producerad av Live Nation Global Touring, kommer att besöka 14 europeiska städer inklusive Milano, Amsterdam, Paris, Nice, Dublin, Berlin, Gelsenkirchen, Chorzow, London, Sheffield, Glasgow och Cardiff. Efter Europa kommer U2 att fortsätta turnén i USA, med start på Chicagos Soldier Field den 12 september 2009. U2 landar i Sverige, på Ullevi i Göteborg, den 31 juli.<br />
+				<br />
+			Show Director för turnén är Willie Williams, som än en gång samarbetat med arkitekten Mark Fisher (ZooTV, PopMart, Elevation och Vertigo) för att skapa en innovativ 360° design vilket erbjuder publiken en fullständig visuell upplevelse. U2 360° blir den första turnén där ett band spelar på en sådan originell och unik konstruktion (som kan beskådas på u2.com).</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>59</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973835</tag>
+			<url>http://www.last.fm/event/973835</url>
+		</event>
+		<event>
+			<id>982291</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Ullevi</name>
+				<location>
+					<city>Göteborg</city>
+					<country>Sweden</country>
+					<street>Skånegatan</street>
+					<postalcode>411 40</postalcode>
+					<point>
+						<lat>57.7166667</lat>
+						<long>11.9666667</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8789770</url>
+			</venue>
+			<startDate>Sat, 01 Aug 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>42</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=982291</tag>
+			<url>http://www.last.fm/event/982291</url>
+		</event>
+		<event>
+			<id>882082</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Stadion Śląski</name>
+				<location>
+					<city>Chorzów</city>
+					<country>Poland</country>
+					<street>ul. Katowicka 10</street>
+					<postalcode>41-500</postalcode>
+					<point>
+						<lat>50.287258</lat>
+						<long>18.968099</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8806845</url>
+			</venue>
+			<startDate>Thu, 06 Aug 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode"><strong>START SPRZEDAŻY BILETÓW PRZEZ INTERNET OD 20 MARCA.<br />
+				BILETY POJAWIĄ SIĘ W ZWYKŁYCH PUNKTACH DYSTRYBUCYJNYCH 27 MARCA!!</strong>
+				<br />
+				<br />
+				Światowa trasa U2 promująca wydany tydzień temu album „No Line on the Horizon” rozpocznie się 30 czerwca w Barcelonie a koncerty odbywać się będą na największych stadionach na świecie.<br />
+				<br />
+				Trasa ta zapowiadana jest jako przełomowa w biznesie koncertowym, przełomowa pod wieloma względami. Ale przede wszystkim pod kątem produkcji, wizerunku sceny (całkowicie obrotowa) oraz możliwości dla widzów, które niesie ona za sobą.<br />
+				<br />
+				<br />
+				<a href="http://www.u2.com/tour/presale" rel="nofollow">http://www.u2.com/tour/presale</a>
+				<br />
+				<br />
+				<strong>Ceny biletów i ofert specjalnych:</strong>
+				<br />
+				<strong>140zł</strong> – sektory siedzące z tyłu sceny<br />
+				<strong>190zł</strong> – płyta stojąca<br />
+				<strong>450zł</strong> – sektory siedzące po bokach sceny<br />
+				<strong>825zł</strong> – sektory siedzące na przeciwko sceny<br />
+				<strong>1110zł</strong> - VIP Lounge zawierający bilet w cenie 450 zł<br />
+				<strong>1125zł</strong> - RED ZONE<br />
+				<br />
+				więcej informacji na:<br />
+				<a href="http://www.u2forums.com" rel="nofollow">www.u2forums.com</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>912</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=882082</tag>
+			<url>http://www.last.fm/event/882082</url>
+		</event>
+		<event>
+			<id>973814</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Stadion Maksimir</name>
+				<location>
+					<city>Zagreb</city>
+					<country>Croatia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.818858</lat>
+						<long>16.018078</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8791418</url>
+			</venue>
+			<startDate>Mon, 10 Aug 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Irska četvorka je upravo na službenim stranicama objavila datume svoje &quot;U2360°&quot; turneje kojom promoviraju novi album &quot;No Line On The Horizon&quot; i u sklopu koje po prvi put dolaze pred hrvatske fanove.<br />
+				<br />
+				U2 će 10. kolovoza zasvirati na Maksimirskom stadionu!<br />
+				<br />
+			Ulaznice u prodaju kreću od petka, 27. ožujka. Više informacija znat će se uskoro, a do tada uživajte u činjenici da ćemo nakon 1998. i The Rolling Stonesa imati ponovo jedan veliki, spektakularni open-air koncert, na koji se predugo čekalo.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>176</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973814</tag>
+			<url>http://www.last.fm/event/973814</url>
+		</event>
+		<event>
+			<id>973944</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Elbow</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Wembley Stadium</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>Empire Way</street>
+					<postalcode>HA9 0WS</postalcode>
+					<point>
+						<lat>51.556701</lat>
+						<long>-0.279666</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8782973</url>
+			</venue>
+			<startDate>Fri, 14 Aug 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>35</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973944</tag>
+			<url>http://www.last.fm/event/973944</url>
+		</event>
+		<event>
+			<id>960510</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Glasvegas</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Hampden Park</name>
+				<location>
+					<city>Glasgow</city>
+					<country>United Kingdom</country>
+					<street></street>
+					<postalcode>G42 9BA</postalcode>
+					<point>
+						<lat>55.8333333</lat>
+						<long>-4.25</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8782529</url>
+			</venue>
+			<startDate>Tue, 18 Aug 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=960510</tag>
+			<url>http://www.last.fm/event/960510</url>
+		</event>
+		<event>
+			<id>973952</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Elbow</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Don Valley Arena</name>
+				<location>
+					<city>Sheffield</city>
+					<country>United Kingdom</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>53.3666667</lat>
+						<long>-1.5</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8785664</url>
+			</venue>
+			<startDate>Thu, 20 Aug 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973952</tag>
+			<url>http://www.last.fm/event/973952</url>
+		</event>
+		<event>
+			<id>973957</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Glasvegas</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Millennium Stadium</name>
+				<location>
+					<city>Caerdydd</city>
+					<country>United Kingdom</country>
+					<street>Westgate Street</street>
+					<postalcode>CF10 1JA</postalcode>
+					<point>
+						<lat>51.479029</lat>
+						<long>-3.17857</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778901</url>
+			</venue>
+			<startDate>Sat, 22 Aug 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973957</tag>
+			<url>http://www.last.fm/event/973957</url>
+		</event>
+		<event>
+			<id>973879</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Soldier Field</name>
+				<location>
+					<city>Chicago</city>
+					<country>United States</country>
+					<street>1410 S. Museum Campus Dr</street>
+					<postalcode>60605</postalcode>
+					<point>
+						<lat>41.85</lat>
+						<long>-87.65</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8787296</url>
+			</venue>
+			<startDate>Sat, 12 Sep 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">&quot;The <a href="http://ws.audioscrobbler.com/music/U2" class="bbcode_artist">U2</a> 360° Tour will visit 14 cities across Europe including dates in Milan, Gothenburg, Amsterdam, Paris, Nice, Dublin, Chorzow, Berlin, London, Sheffield and Glasgow before finishing at Millennium Stadium in Cardiff on August 22.<br />
+				<br />
+				The European tour will be followed by dates in North America beginning at Chicago's Soldier Field on September 12th, 2009.<br />
+				<br />
+				In September and October, U2 360° Tour will also visit: Atlanta, GA; Charlottesville, VA; Dallas, TX; Houston, TX; Las Vegas, NV; Los Angeles, CA; Norman, OK; Phoenix, AZ; Tampa, FL; Washington, DC and Vancouver, BC. Complete Tour and ticketing information to follow.<br />
+				<br />
+				Long-time U2 Show Director Willie Williams has worked again with architect Mark Fisher (ZooTV, PopMart, Elevation and Vertigo), to create an innovative360° design which affords an unobstructed view for the audience. U2 360° also marks the first time a band has toured in stadiums with such a unique and original structure.&quot; - from U2.com<br />
+				<br />
+				More info here: <a href="http://360.u2.com/" rel="nofollow">U2 360 Tour Official web page</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>14</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973879</tag>
+			<url>http://www.last.fm/event/973879</url>
+		</event>
+		<event>
+			<id>974097</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Rogers Centre</name>
+				<location>
+					<city>Toronto</city>
+					<country>Canada</country>
+					<street>1 Blue Jays Way</street>
+					<postalcode>M5V 1J3</postalcode>
+					<point>
+						<lat>43.6666667</lat>
+						<long>-79.4166667</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8795528</url>
+			</venue>
+			<startDate>Wed, 16 Sep 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=974097</tag>
+			<url>http://www.last.fm/event/974097</url>
+		</event>
+		<event>
+			<id>974103</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Gillette Stadium</name>
+				<location>
+					<city>Foxborough, Massachusetts</city>
+					<country>United States</country>
+					<street>1 Patriot Place</street>
+					<postalcode>02035</postalcode>
+					<point>
+						<lat>42.087352</lat>
+						<long>-71.267528</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950387</url>
+			</venue>
+			<startDate>Sun, 20 Sep 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=974103</tag>
+			<url>http://www.last.fm/event/974103</url>
+		</event>
+		<event>
+			<id>973970</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Giants Stadium</name>
+				<location>
+					<city>East Rutherford</city>
+					<country>United States</country>
+					<street>50 State Route 120 East</street>
+					<postalcode>07073</postalcode>
+					<point>
+						<lat>39.69306</lat>
+						<long>-74.94306</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8832782</url>
+			</venue>
+			<startDate>Thu, 24 Sep 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+			<attendance>7</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973970</tag>
+			<url>http://www.last.fm/event/973970</url>
+		</event>
+		<event>
+			<id>975233</id>
+			<title>U2 360° Tour</title>
+			<artists>
+				<artist>U2</artist>
+				<headliner>U2</headliner>
+			</artists>
+			<venue>
+				<name>Fedex Field</name>
+				<location>
+					<city>Hyattsville, Maryland</city>
+					<country>United States</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>38.907821</lat>
+						<long>-76.866508</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9013254</url>
+			</venue>
+			<startDate>Tue, 29 Sep 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">U2 will be touring the United States starting in September for the U2 360° Tour.</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=975233</tag>
+		<url>http://www.last.fm/event/975233</url>
+	</event>
+	<event>
+		<id>975258</id>
+		<title>U2 360° Tour</title>
+		<artists>
+			<artist>U2</artist>
+			<headliner>U2</headliner>
+		</artists>
+		<venue>
+			<name>Scott Stadium</name>
+			<location>
+				<city>Charlottesville, VA</city>
+				<country>United States</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>38.031095</lat>
+					<long>-78.513695</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9013261</url>
+		</venue>
+		<startDate>Thu, 01 Oct 2009</startDate>
+		<description>
+		<![CDATA[<div class="bbcode">U2 will be touring the United States starting in September for the U2 360° Tour.</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=975258</tag>
+	<url>http://www.last.fm/event/975258</url>
+</event>
+<event>
+	<id>975262</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Georgia Dome</name>
+		<location>
+			<city>Atlanta, Georgia</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>33.75652</lat>
+				<long>-84.400996</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013264</url>
+	</venue>
+	<startDate>Tue, 06 Oct 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">U2 will be touring the United States starting in September for the U2 360° Tour.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+<attendance>3</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=975262</tag>
+<url>http://www.last.fm/event/975262</url>
+</event>
+<event>
+	<id>975266</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Raymond James Stadium</name>
+		<location>
+			<city>Tampa, Florida</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>27.975604</lat>
+				<long>-82.503419</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8908668</url>
+	</venue>
+	<startDate>Fri, 09 Oct 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">U2 will be touring the United States starting in September for the U2 360° Tour.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+<attendance>0</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=975266</tag>
+<url>http://www.last.fm/event/975266</url>
+</event>
+<event>
+	<id>975277</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Dallas Cowboys Stadium</name>
+		<location>
+			<city>Arlington, Texas</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>32.749462</lat>
+				<long>-97.096891</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013267</url>
+	</venue>
+	<startDate>Mon, 12 Oct 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">U2 will be touring the United States starting in September for the U2 360° Tour.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+<attendance>6</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=975277</tag>
+<url>http://www.last.fm/event/975277</url>
+</event>
+<event>
+	<id>975303</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Reliant Stadium</name>
+		<location>
+			<city>Houston, Texas</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>29.684858</lat>
+				<long>-95.41233</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8906800</url>
+	</venue>
+	<startDate>Wed, 14 Oct 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">U2 will be touring the United States starting in September for the U2 360° Tour.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+<attendance>3</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=975303</tag>
+<url>http://www.last.fm/event/975303</url>
+</event>
+<event>
+	<id>976957</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Oklahoma Memorial Stadium</name>
+		<location>
+			<city>Oklahoma City, OK</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>35.205863</lat>
+				<long>-97.442313</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013651</url>
+	</venue>
+	<startDate>Mon, 19 Oct 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">An awesome time for U2 enthusiasts and their supportive friends. Great live music, epic company, and one of the greatest bands to still be making music.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+<attendance>6</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=976957</tag>
+<url>http://www.last.fm/event/976957</url>
+</event>
+<event>
+	<id>973877</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>BC Place Stadium</name>
+		<location>
+			<city>Vancouver, BC</city>
+			<country>Canada</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.276642</lat>
+				<long>-123.111853</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9012948</url>
+	</venue>
+	<startDate>Wed, 28 Oct 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=973877</tag>
+	<url>http://www.last.fm/event/973877</url>
+</event>
+</events>
+</lfm>

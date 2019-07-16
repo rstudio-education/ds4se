@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Megadeth" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="6">
+		<event>
+			<id>809198</id>
+			<title>Priest Feast</title>
+			<artists>
+				<artist>Judas Priest</artist>
+				<artist>Megadeth</artist>
+				<artist>Testament</artist>
+				<headliner>Judas Priest</headliner>
+			</artists>
+			<venue>
+				<name>Pavilhão Atlântico</name>
+				<location>
+					<city>Lisboa</city>
+					<country>Portugal</country>
+					<street>Rossio dos Olivais</street>
+					<postalcode>1990</postalcode>
+					<point>
+						<lat>38.76735</lat>
+						<long>-9.094545</long>
+					</point>
+					<timezone>WET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778515</url>
+			</venue>
+			<startDate>Tue, 17 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">ABERTURA DE PORTAS * 18H00<br />
+				INÍCIO DO ESPECTÁCULO * 19H30<br />
+				<br />
+				<br />
+				PLATEIA EM PÉ * 30 EUROS<br />
+				BALCÃO 1 * 36 EUROS<br />
+				BALCÃO 2 * 28 EUROS<br />
+				<br />
+				PAVILHÃO ATLÂNTICO ( <a href="http://WWW.PAVILHAOATLANTICO.PT" rel="nofollow">WWW.PAVILHAOATLANTICO.PT</a> E 707 780 000), WORTEN, FNAC, CTT ( <a href="http://WWW.CTT.PT" rel="nofollow">WWW.CTT.PT</a> ), PLATEIA ( <a href="http://WWW.PLATEIA.PT" rel="nofollow">WWW.PLATEIA.PT</a> ), MEGAREDE, EL CORTE INGLES,<br />
+				MEDIA MARKT (BENFICA, BRAGA, PORTO, RIO TINTO, AVEIRO, SINTRA E ALFRAGIDE), LOJAS DE TURISMO DE LISBOA (AEROPORTO E PRAÇA DO COMÊRCIO),<br />
+				AGÊNCIAS VIAGENS ABREU, AGÊNCIAS ABEP E ALVALADE, LOJAS ACP,<br />
+				BULHOSA (OEIRAS PARQUE E C.C. CIDADE DO PORTO), BLISS (FORUM MONTIJO)<br />
+				E TICKETLINE (RESERVAS: 707 234 234 E <a href="http://WWW.TICKETLINE.PT" rel="nofollow">WWW.TICKETLINE.PT</a> )<br />
+				<br />
+			EM ESPANHA: BREAKPOINT ( <a href="http://WWW.BREKPOINT.ES" rel="nofollow">WWW.BREKPOINT.ES</a> )</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/197725.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/197725.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/197725.jpg</image>
+			<attendance>226</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=809198</tag>
+			<url>http://www.last.fm/event/809198</url>
+		</event>
+		<event>
+			<id>806562</id>
+			<title>Judas Priest</title>
+			<artists>
+				<artist>Judas Priest</artist>
+				<artist>Megadeth</artist>
+				<artist>Testament</artist>
+				<headliner>Judas Priest</headliner>
+			</artists>
+			<venue>
+				<name>Pavelló Olímpic de Badalona</name>
+				<location>
+					<city>Badalona</city>
+					<country>Spain</country>
+					<street>Avinguda d'Alfons XIII</street>
+					<postalcode>08921</postalcode>
+					<point>
+						<lat>41.383611</lat>
+						<long>2.167139</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8791788</url>
+			</venue>
+			<startDate>Thu, 19 Mar 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">Abierto para modificacion para los promotores del evento</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/197725.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/197725.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/197725.jpg</image>
+		<attendance>143</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=806562</tag>
+		<url>http://www.last.fm/event/806562</url>
+	</event>
+	<event>
+		<id>810163</id>
+		<title>Priest Feast</title>
+		<artists>
+			<artist>Judas Priest</artist>
+			<artist>Megadeth</artist>
+			<artist>Testament</artist>
+			<headliner>Judas Priest</headliner>
+		</artists>
+		<venue>
+			<name>Le Zénith</name>
+			<location>
+				<city>Paris</city>
+				<country>France</country>
+				<street>Parc de la Villette</street>
+				<postalcode>75019</postalcode>
+				<point>
+					<lat>48.8666667</lat>
+					<long>2.3333333</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8825357</url>
+		</venue>
+		<startDate>Sat, 21 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/197725.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/197725.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/197725.jpg</image>
+		<attendance>86</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=810163</tag>
+		<url>http://www.last.fm/event/810163</url>
+	</event>
+	<event>
+		<id>817357</id>
+		<title>Judas Priest</title>
+		<artists>
+			<artist>Judas Priest</artist>
+			<artist>Megadeth</artist>
+			<artist>Testament</artist>
+			<headliner>Judas Priest</headliner>
+		</artists>
+		<venue>
+			<name>Vorst Nationaal / Forest National</name>
+			<location>
+				<city>Brussels</city>
+				<country>Belgium</country>
+				<street>Avenue Victor Rousseau, 208</street>
+				<postalcode>1190</postalcode>
+				<point>
+					<lat>50.808828</lat>
+					<long>4.32546</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779173</url>
+		</venue>
+		<startDate>Sun, 22 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/197725.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/197725.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/197725.jpg</image>
+		<attendance>64</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=817357</tag>
+		<url>http://www.last.fm/event/817357</url>
+	</event>
+	<event>
+		<id>814443</id>
+		<title>Priest Feast</title>
+		<artists>
+			<artist>Judas Priest</artist>
+			<artist>Megadeth</artist>
+			<artist>Testament</artist>
+			<headliner>Judas Priest</headliner>
+		</artists>
+		<venue>
+			<name>Heineken Music Hall</name>
+			<location>
+				<city>Amsterdam</city>
+				<country>Netherlands</country>
+				<street>ArenA Boulevard 590</street>
+				<postalcode>1101 DS</postalcode>
+				<point>
+					<lat>52.31266</lat>
+					<long>4.942487</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778722</url>
+		</venue>
+		<startDate>Mon, 23 Mar 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Aanvangstijden (onder voorbehoud):<br />
+			18.00 uur - deur open<br />
+			19.00 uur - Testament<br />
+			20.00 uur - Megadeth<br />
+		21.20 uur - Judas Priest</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/197725.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/197725.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/197725.jpg</image>
+		<attendance>117</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=814443</tag>
+		<url>http://www.last.fm/event/814443</url>
+	</event>
+	<event>
+		<id>883547</id>
+		<title>Megadeth</title>
+		<artists>
+			<artist>Megadeth</artist>
+			<artist>Judas Priest</artist>
+			<artist>Testament</artist>
+			<headliner>Megadeth</headliner>
+		</artists>
+		<venue>
+			<name>Rondo</name>
+			<location>
+				<city>Brno</city>
+				<country>Czech Republic</country>
+				<street>Křídlovická 34</street>
+				<postalcode>60300</postalcode>
+				<point>
+					<lat>49.185821</lat>
+					<long>16.602399</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8810714</url>
+		</venue>
+		<startDate>Sat, 28 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/17425021.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/17425021.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/17425021.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=883547</tag>
+		<url>http://www.last.fm/event/883547</url>
+	</event>
+</events>
+</lfm>

@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Madonna" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="42">
+		<event>
+			<id>918436</id>
+			<title>Sticky &amp; Sweet Tour </title>
+			<artists>
+				<artist>Madonna</artist>
+				<headliner>Madonna</headliner>
+			</artists>
+			<venue>
+				<name>O2 Arena</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>Millennium Way</street>
+					<postalcode>SE10 0AX</postalcode>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8783707</url>
+			</venue>
+			<startDate>Sat, 04 Jul 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+			<attendance>55</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=918436</tag>
+			<url>http://www.last.fm/event/918436</url>
+		</event>
+		<event>
+			<id>980670</id>
+			<title>Madonna with Paul Oakenfold</title>
+			<artists>
+				<artist>Madonna</artist>
+				<artist>Paul Oakenfold</artist>
+				<headliner>Madonna</headliner>
+			</artists>
+			<venue>
+				<name>The O2</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>Drawdock Road Greenwich</street>
+					<postalcode>SE10 0BB</postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9014734</url>
+			</venue>
+			<startDate>Sat, 04 Jul 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=980670</tag>
+			<url>http://www.last.fm/event/980670</url>
+		</event>
+		<event>
+			<id>925735</id>
+			<title>Madonna: Sticky &amp; Sweet Tour 2009</title>
+			<artists>
+				<artist>Madonna</artist>
+				<artist>Paul Oakenfold</artist>
+				<headliner>Madonna</headliner>
+			</artists>
+			<venue>
+				<name>O2 Arena</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>Millennium Way</street>
+					<postalcode>SE10 0AX</postalcode>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8783707</url>
+			</venue>
+			<startDate>Sun, 05 Jul 2009</startDate>
+			<startTime>18:30</startTime>
+			<description>
+			<![CDATA[<div class="bbcode">The second date in the 2009 extension of Madonna's Sticky and Sweet Tour. Ten months after the first Sticky and Sweet date in London, at Wembley Stadium, Madonna will play two dates at the O2 Arena. Support from Paul Oakenfold.</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+		<attendance>27</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=925735</tag>
+		<url>http://www.last.fm/event/925735</url>
+	</event>
+	<event>
+		<id>980672</id>
+		<title>Madonna with Paul Oakenfold</title>
+		<artists>
+			<artist>Madonna</artist>
+			<artist>Paul Oakenfold</artist>
+			<headliner>Madonna</headliner>
+		</artists>
+		<venue>
+			<name>The O2</name>
+			<location>
+				<city>London</city>
+				<country>United Kingdom</country>
+				<street>Drawdock Road Greenwich</street>
+				<postalcode>SE10 0BB</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014734</url>
+		</venue>
+		<startDate>Sun, 05 Jul 2009</startDate>
+		<startTime>19:30</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980672</tag>
+		<url>http://www.last.fm/event/980672</url>
+	</event>
+	<event>
+		<id>918438</id>
+		<title>Sticky &amp; Sweet Tour </title>
+		<artists>
+			<artist>Madonna</artist>
+			<headliner>Madonna</headliner>
+		</artists>
+		<venue>
+			<name>Manchester Evening News Arena</name>
+			<location>
+				<city>Manchester</city>
+				<country>United Kingdom</country>
+				<street></street>
+				<postalcode>M3 1AR</postalcode>
+				<point>
+					<lat>53.487094</lat>
+					<long>-2.243988</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777080</url>
+		</venue>
+		<startDate>Tue, 07 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+		<attendance>17</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=918438</tag>
+		<url>http://www.last.fm/event/918438</url>
+	</event>
+	<event>
+		<id>933909</id>
+		<title>Sticky &amp; Sweet Tour </title>
+		<artists>
+			<artist>Madonna</artist>
+			<headliner>Madonna</headliner>
+		</artists>
+		<venue>
+			<name>Manchester Evening News Arena</name>
+			<location>
+				<city>Manchester</city>
+				<country>United Kingdom</country>
+				<street></street>
+				<postalcode>M3 1AR</postalcode>
+				<point>
+					<lat>53.487094</lat>
+					<long>-2.243988</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777080</url>
+		</venue>
+		<startDate>Wed, 08 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+		<attendance>4</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=933909</tag>
+		<url>http://www.last.fm/event/933909</url>
+	</event>
+	<event>
+		<id>973196</id>
+		<title>Sticky &amp; Sweet Tour part. II</title>
+		<artists>
+			<artist>Madonna</artist>
+			<headliner>Madonna</headliner>
+		</artists>
+		<venue>
+			<name>POPB / Palais Omnisports de Paris-Bercy</name>
+			<location>
+				<city>Paris</city>
+				<country>France</country>
+				<street>8, boulevard de Bercy</street>
+				<postalcode>75012</postalcode>
+				<point>
+					<lat>48.839361</lat>
+					<long>2.37758</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8781813</url>
+		</venue>
+		<startDate>Thu, 09 Jul 2009</startDate>
+		<startTime>20:30</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Ouverture de la billeterie : 12 mars<br />
+			- à partir de 10h via internet<br />
+		- à partir de 10h30 dans les point de ventes habituels .</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+		<attendance>11</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=973196</tag>
+		<url>http://www.last.fm/event/973196</url>
+	</event>
+	<event>
+		<id>918282</id>
+		<title>Madonna</title>
+		<artists>
+			<artist>Madonna</artist>
+			<artist>Paul Oakenfold</artist>
+			<headliner>Madonna</headliner>
+		</artists>
+		<venue>
+			<name>Werchter</name>
+			<location>
+				<city>Werchter</city>
+				<country>Belgium</country>
+				<street>Haachtsesteenweg</street>
+				<postalcode>B-3118</postalcode>
+				<point>
+					<lat>50.969376</lat>
+					<long>4.69036</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779175</url>
+		</venue>
+		<startDate>Sat, 11 Jul 2009</startDate>
+		<description>
+		<![CDATA[<div class="bbcode">At long last, MAdonna is coming to Belgium!</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>28</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918282</tag>
+	<url>http://www.last.fm/event/918282</url>
+</event>
+<event>
+	<id>917644</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Sticky &amp; Sweet Tour 2009</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Stadio San Siro</name>
+		<location>
+			<city>Milano</city>
+			<country>Italy</country>
+			<street>Via Piccolomini 5</street>
+			<postalcode>20151</postalcode>
+			<point>
+				<lat>45.478462</lat>
+				<long>9.125321</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8815156</url>
+	</venue>
+	<startDate>Tue, 14 Jul 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=917644</tag>
+	<url>http://www.last.fm/event/917644</url>
+</event>
+<event>
+	<id>951881</id>
+	<title>Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Stadio Friuli</name>
+		<location>
+			<city>Udine</city>
+			<country>Italy</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>46.08129</lat>
+				<long>13.20046</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8812744</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<startTime>21:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Alle ore 00.01 del 27 febbraio sarà avviata on line sul sito <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a> e tramite call center la prevendita dei biglietti per il concerto in programma a Udine, Stadio Friuli il 16 luglio. Alle ore 9 del 27 febbraio la prevendita sarà avviata anche presso i Punti Vendita TicketOne. <br />
+		<br />
+		Tribuna Numerata Coperta Centrale Nord Intero 149,50 € <br />
+		Tribuna Numerata Laterale Nord Intero 126,50 € <br />
+		Gradinata Numerata Intero 103,50 € <br />
+		Prato A Posto Unico Intero 86,25 € <br />
+		Prato B Posto Unico Intero 74,75 € <br />
+	Curva Nord Non Numerata Intero 63,25 €</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=951881</tag>
+	<url>http://www.last.fm/event/951881</url>
+</event>
+<event>
+	<id>980288</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Stadio Friuli</name>
+		<location>
+			<city>Udine</city>
+			<country>Italy</country>
+			<street>Piazzale Repubblica Argentina 3 Loc. Rizzi</street>
+			<postalcode>33100</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014659</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980288</tag>
+	<url>http://www.last.fm/event/980288</url>
+</event>
+<event>
+	<id>916904</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Stadio San Siro</name>
+		<location>
+			<city>Milano</city>
+			<country>Italy</country>
+			<street>Via Piccolomini 5</street>
+			<postalcode>20151</postalcode>
+			<point>
+				<lat>45.478462</lat>
+				<long>9.125321</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8815156</url>
+	</venue>
+	<startDate>Sat, 18 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=916904</tag>
+	<url>http://www.last.fm/event/916904</url>
+</event>
+<event>
+	<id>936753</id>
+	<title>Sticky &amp; Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Stade Vélodrome</name>
+		<location>
+			<city>Marseille</city>
+			<country>France</country>
+			<street>3, Boulevard Michelet</street>
+			<postalcode>13008</postalcode>
+			<point>
+				<lat>43.269488</lat>
+				<long>5.394683</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8887127</url>
+	</venue>
+	<startDate>Sun, 19 Jul 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=936753</tag>
+	<url>http://www.last.fm/event/936753</url>
+</event>
+<event>
+	<id>918242</id>
+	<title>Sticky &amp; Sweet Tour </title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Estadi Olimpic</name>
+		<location>
+			<city>Barcelona</city>
+			<country>Spain</country>
+			<street>Paseo Olímpico 17-19</street>
+			<postalcode>08038</postalcode>
+			<point>
+				<lat>41.363424</lat>
+				<long>2.157077</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8817409</url>
+	</venue>
+	<startDate>Tue, 21 Jul 2009</startDate>
+	<startTime>21:30</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Entradas a la venta para el publico en general a partir del dia 19 de Febrero en ServiCaixa, El Corte Ingles, TickTackTicket y LiveNation. Las entradas VIP en ViaGogo.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>56</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=918242</tag>
+<url>http://www.last.fm/event/918242</url>
+</event>
+<event>
+	<id>918184</id>
+	<title>Sticky &amp; Sweet Tour </title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Estadio Vicente Calderón</name>
+		<location>
+			<city>Madrid</city>
+			<country>Spain</country>
+			<street>Calle del Duque de Tovar</street>
+			<postalcode>28005</postalcode>
+			<point>
+				<lat>40.401431</lat>
+				<long>-3.717898</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8821870</url>
+	</venue>
+	<startDate>Thu, 23 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Entradas a la venta para el publico en general a partir del dia 19 de Febrero en ServiCaixa, El Corte Ingles, TickTackTicket y LiveNation. Las entradas VIP en ViaGogo.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>54</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=918184</tag>
+<url>http://www.last.fm/event/918184</url>
+</event>
+<event>
+	<id>980069</id>
+	<title>Madonna STICKY &amp; SWEET TOUR</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Bar Lagarto</name>
+		<location>
+			<city>Madrid</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.407682</lat>
+				<long>-3.72143</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8834720</url>
+	</venue>
+	<startDate>Thu, 23 Jul 2009</startDate>
+	<startTime>20:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980069</tag>
+	<url>http://www.last.fm/event/980069</url>
+</event>
+<event>
+	<id>944986</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Feria de Muestras</name>
+		<location>
+			<city>Zaragoza</city>
+			<country>Spain</country>
+			<street>Camino de la Granja 1</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.639092</lat>
+				<long>-0.981968</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8828605</url>
+	</venue>
+	<startDate>Sat, 25 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>7</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=944986</tag>
+	<url>http://www.last.fm/event/944986</url>
+</event>
+<event>
+	<id>918209</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Trab-Arena</name>
+		<location>
+			<city>Hamburg</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.575094</lat>
+				<long>9.992981</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8925654</url>
+	</venue>
+	<startDate>Tue, 28 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918209</tag>
+	<url>http://www.last.fm/event/918209</url>
+</event>
+<event>
+	<id>954007</id>
+	<title>Madonna: Sticky &amp; Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Valle Hovin</name>
+		<location>
+			<city>Oslo</city>
+			<country>Norway</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>59.917698</lat>
+				<long>10.805903</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782925</url>
+	</venue>
+	<startDate>Wed, 29 Jul 2009</startDate>
+	<startTime>18:30</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Madonna's first concert ever in Norway!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>8</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=954007</tag>
+<url>http://www.last.fm/event/954007</url>
+</event>
+<event>
+	<id>979874</id>
+	<title>Madonna: Sticky &amp; Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Valle Hovin Stadion</name>
+		<location>
+			<city>Oslo</city>
+			<country>Norway</country>
+			<street>Innspurten 1</street>
+			<postalcode>0663</postalcode>
+			<point>
+				<lat>59.915946</lat>
+				<long>10.802862</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014416</url>
+	</venue>
+	<startDate>Wed, 29 Jul 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979874</tag>
+	<url>http://www.last.fm/event/979874</url>
+</event>
+<event>
+	<id>918194</id>
+	<title>Madonna: Sticky and Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Valle Hovin</name>
+		<location>
+			<city>Oslo</city>
+			<country>Norway</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>59.917698</lat>
+				<long>10.805903</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782925</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<startTime>06:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918194</tag>
+	<url>http://www.last.fm/event/918194</url>
+</event>
+<event>
+	<id>979875</id>
+	<title>Madonna: STICKY &amp; SWEET TOUR</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Valle Hovin Stadion</name>
+		<location>
+			<city>Oslo</city>
+			<country>Norway</country>
+			<street>Innspurten 1</street>
+			<postalcode>0663</postalcode>
+			<point>
+				<lat>59.915946</lat>
+				<long>10.802862</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014416</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<startTime>20:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979875</tag>
+	<url>http://www.last.fm/event/979875</url>
+</event>
+<event>
+	<id>977241</id>
+	<title>Madonna: Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Square Palace</name>
+		<location>
+			<city>Saint-Petersburg</city>
+			<country>Russian Federation</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013755</url>
+	</venue>
+	<startDate>Sun, 02 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Случилось невероятное! Самая популярная певица в мире приезжает с единственным концертом в Россию, который состоится в Петербурге на Дворцовой площади! Неподражаемая звезда поп-музыки посетит северную столицу с туром «Sticky and Sweet». <br />
+		В 2008 году тур «Sticky and Sweet» увидело 2 350 285 поклонников в 58 городах. Билеты на шоу раскупались просто с невероятной скоростью. 650000 билетов было продано на концерты в Северной Америке, 72000 - в Цюрихе – это было самое многочисленное представление в Швейцарии, 75000 – в Лондоне и четыре полностью проданных концерта в Нью-Йорке (60364 билетов). Турне «Sticky and Sweet» побило все рекорды, став самым кассовым в истории среди сольных исполнителей! И в январе 2009 года Мадонна объявила о его продолжении.<br />
+		Через неделю после начала продаж на феноменально успешный тур международные промоутеры объявили о том, что на некоторые концерты билетов уже не осталось. В Лондоне и Манчестере даже добавили по одному концерту: 5 июля в Лондоне и 8 июля в Манчестере. В Бельгии, где Мадонна раньше не выступала, за один день были распроданы 70000 билетов. В Хельсинки выступление Мадонны (продано 76000 билетов) станет самым масштабным представлением, когда-либо проводимым в Финляндии. <br />
+		пециальный гость тура –  Пол Окенфольд (Paul Oakenfold) является одним из хорошо известных и наиболее высокооплачиваемых диджеев во всем мире. Он делал ремиксы на The Rolling Stones, U2, Madonna, Justin Timberlake, Snoop Dogg, Muse, New Order, The Cure, Massive Attack и Elvis Presley, а также продюсировал The Happy Mondays. Дважды номинант премии Grammy, внесен в книгу рекордов Гиннеса как самый успешный клубный диджей в мире. Его новый альбом «Pop Killer» выйдет в этом году.<br />
+		огсшибательные сценические шоу Мадонны не имеют себе равных. Самая успешная певица современности, многократная обладательница всевозможных премий, наконец, приедет в северную столицу! Этого события ждали многие годы.<br />
+		<br />
+		<a href="http://www.kassir.ru/spb/db/text/98635671.html" rel="nofollow">http://www.kassir.ru/spb/db/text/98635671.html</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>59</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977241</tag>
+	<url>http://www.last.fm/event/977241</url>
+</event>
+<event>
+	<id>918156</id>
+	<title>Madonna: Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Tallinn Song Festival Grounds</name>
+		<location>
+			<city>Tallinn</city>
+			<country>Estonia</country>
+			<street>Narva mnt. 95</street>
+			<postalcode>10127</postalcode>
+			<point>
+				<lat>59.1977778</lat>
+				<long>25.4216667</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8843973</url>
+	</venue>
+	<startDate>Tue, 04 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>53</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918156</tag>
+	<url>http://www.last.fm/event/918156</url>
+</event>
+<event>
+	<id>980179</id>
+	<title>Madonna with Paul Oakenfold: Sticky &amp; Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Laululava</name>
+		<location>
+			<city>Tallinna</city>
+			<country>Finland</country>
+			<street>Narva mnt. 95</street>
+			<postalcode>EE 13522</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014599</url>
+	</venue>
+	<startDate>Tue, 04 Aug 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980179</tag>
+	<url>http://www.last.fm/event/980179</url>
+</event>
+<event>
+	<id>912055</id>
+	<title>Madonna: Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Jätkäsaari</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street></street>
+			<postalcode>00180</postalcode>
+			<point>
+				<lat>60.180383</lat>
+				<long>24.9243</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8999392</url>
+	</venue>
+	<startDate>Thu, 06 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>105</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=912055</tag>
+	<url>http://www.last.fm/event/912055</url>
+</event>
+<event>
+	<id>980180</id>
+	<title>Madonna with Paul Oakenfold: Sticky &amp; Sweet-Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Jätkäsaari</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street>Länsisatama</street>
+			<postalcode>00230</postalcode>
+			<point>
+				<lat>60.170734</lat>
+				<long>24.941376</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014600</url>
+	</venue>
+	<startDate>Thu, 06 Aug 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980180</tag>
+	<url>http://www.last.fm/event/980180</url>
+</event>
+<event>
+	<id>939579</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Ullevi</name>
+		<location>
+			<city>Göteborg</city>
+			<country>Sweden</country>
+			<street>Skånegatan</street>
+			<postalcode>411 40</postalcode>
+			<point>
+				<lat>57.7166667</lat>
+				<long>11.9666667</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8789770</url>
+	</venue>
+	<startDate>Sat, 08 Aug 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Sticky &amp; Sweet Tour</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>13</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=939579</tag>
+<url>http://www.last.fm/event/939579</url>
+</event>
+<event>
+	<id>918504</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Ullevi</name>
+		<location>
+			<city>Göteborg</city>
+			<country>Sweden</country>
+			<street>Skånegatan</street>
+			<postalcode>411 40</postalcode>
+			<point>
+				<lat>57.7166667</lat>
+				<long>11.9666667</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8789770</url>
+	</venue>
+	<startDate>Sun, 09 Aug 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Sticky &amp; Sweet Tour</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>23</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=918504</tag>
+<url>http://www.last.fm/event/918504</url>
+</event>
+<event>
+	<id>918516</id>
+	<title>Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Parken</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Øster Allé 50</street>
+			<postalcode>2100</postalcode>
+			<point>
+				<lat>55.702967</lat>
+				<long>12.573907</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779279</url>
+	</venue>
+	<startDate>Tue, 11 Aug 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://www.koncertlink.dk/events/gettickets/9282" rel="nofollow">Køb billetter til denne koncert med Madonna i Parken, København, Danmark</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>10</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=918516</tag>
+<url>http://www.last.fm/event/918516</url>
+</event>
+<event>
+	<id>918407</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Chodov (přírodní amfiteátr)</name>
+		<location>
+			<city>Prague</city>
+			<country>Czech Republic</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>50.081378</lat>
+				<long>14.425577</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9000801</url>
+	</venue>
+	<startDate>Thu, 13 Aug 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Sticky &amp; Sweet Tour</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+<attendance>30</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=918407</tag>
+<url>http://www.last.fm/event/918407</url>
+</event>
+<event>
+	<id>917916</id>
+	<title>MADONNA "STICKY &amp; SWEET TOUR"</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Lotnisko Warszawa Babice (Bemowo)</name>
+		<location>
+			<city>Warszawa</city>
+			<country>Poland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>52.271676</lat>
+				<long>20.915142</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8907894</url>
+	</venue>
+	<startDate>Sat, 15 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>Dzięki temu stajemy się w końcu krajem cywilizowanym ; )</strong> <br />
+		<strong>Trailer</strong>: <a href="http://www.youtube.com/watch?v=vkSjo0ZJRR8" rel="nofollow">http://www.youtube.com/watch?v=vkSjo0ZJRR8</a>
+		<br />
+		Po najświeższe informacje: <a href="http://www.madonnanewera.com" rel="nofollow">http://www.madonnanewera.com</a>
+		<br />
+		<br />
+		W dniu Wniebowzięcia Najświętszej Maryi Panny (tradycyjnie zwanym Matki Boskiej Zielnej) i Święta Wojska Polskiego (tzw. &quot;Cudu nad Wisłą&quot;), a dzień przed swoimi 51. urodzinami zjawi się w Polsce na pierwszym i jedynym koncercie Królowa Skandali - MADONNA. <br />
+		<br />
+		Sticky &amp; Sweet Tour 2009<br />
+		<br />
+		Kolejna część niezwykle udanej trasy koncertowej Madonny &quot;Sticky &amp; Sweet Tour&quot;, dotychczas najbardziej dochodowej w historii trasy koncertowej artysty występującego solo, rozpocznie się 4 lipca w Londynie. W ramach trasy Madonna odwiedzi miejsca, w których dotychczas nie występowała: Werchter (Belgia), Marsylia (Francja), Hamburg (Niemcy), Oslo (Norwegia), Helsinki (Finlandia), Tallin (Estonia), Lublana (Słowenia), Rumunia, Węgra, Serbia i Bułgaria, co zostało potwierdzone przez Live Nation. Artystka powróci również, po ponad 15 latach, do Mediolanu (Włochy), Madrytu (Hiszpania), Göteborg’a (Szwecja) oraz Monachium (Niemcy).<br />
+		<br />
+		&quot;Jest to dla mnie wyjątkowa sytuacja. Nigdy wcześniej nie zdecydowałam się przedłużyć trasy koncertowej. Jestem podekscytowana kolejnymi koncertami; wizytą w nowych miejscach i powrotem do tych, które kocham&quot; – komentuje Madonna.<br />
+		<br />
+		Według &quot;Times&quot; koncerty w ramach trasy „Sticky &amp; Sweet Tour” należały do &quot;najlepszej ligi muzyczno-tanecznych widowisk&quot;, a Madonna &quot;niezmiennie piastuje tytuł królowej muzyki pop, jest bezkonkurencyjna i niedościgniona&quot;. &quot;Choreografia oraz efekty wizualne są doskonale dopracowane, dowcipne, inteligentne i stoją na najwyższym, ogólnoświatowym poziomie&quot; - zachwyca się gazeta &quot;The Independent&quot; (Wielka Brytania).<br />
+		<br />
+		W 2008 roku trasę &quot;Sticky &amp; Sweet Tour&quot; obejrzało 2,350,285 fanów w 58 krajach. Wszystkie koncerty biły rekordy popularności przejawiające się w ilości sprzedanych biletów, m.in. 650,000 sprzedanych biletów w południowo amerykańskiej części trasy, 72,000 w Zurich's Military Airfield w Dubendorfie (koncert zgromadził jak dotąd najliczniejszą publiczność w Szwajcarii), 75,000 w Londynie oraz 4 wyprzedane koncerty w nowojorskim Madison Square Garden (60,364 biletów).<br />
+		<br />
+		&quot;Dalsza część trasy ponownie umocni pozycję Madonny jako artystki, której koncerty osiągają jedne z najlepszych wyników pod względem sprzedaży wszechczasów&quot; powiedział Arthur Fogel, prezes Live Nation of Global Music i dyrektor generalny CEO Global Touring/Artist Nation.<br />
+		<br />
+		Gość specjalny na trasie &quot;Sticky &amp; Sweet Tour&quot; Paul Oakenfold od dłuższego czasu jest jednym z najważniejszych – jeśli nie najważniejszym – artystą związaną ze współczesną kulturą klubową. Remiksował utworu The Rolling Stones, Madonny, Justin’a Timberlake’a, Snoop Dog, Muse, New Order, Massive Attack, a nawet Elvis’a Presley’a. Drukrotnie nominowany do nagrody Grammy Paul Oakenfold jest wpisany do Księgi Rekordów Guiness’a jako najlepszy DJ świata. Jego najnowszy album, &quot;Pop Killer&quot;, zostanie wydany w tym roku.<br />
+		<br />
+		Warto przypomnieć, że najnowsza, wielokrotnie mianowana do nagrody Grammy płyta Madonny – &quot;Hard Candy&quot; zajęła pierwsze miejsce w 37 krajach.<br />
+		<br />
+		Bilety w sprzedaży od 20 lutego od godziny 10:00:<br />
+		<br />
+		* miejsce stojące (2): 220 zł<br />
+		* miejsca stojące (1) &quot;golden circle&quot;: 400 zł<br />
+		* numerowane miejsca siedzące: 400 zł<br />
+		* pakiet VIP: 1100 zł<br />
+		<br />
+		Hell yeah!<br />
+		<br />
+		<a href="http://www.youtube.com/watch?v=vkSjo0ZJRR8" rel="nofollow">S&amp;S Trailer</a>
+		<br />
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Madonna" class="bbcode_artist">Madonna</a>
+		<br />
+		<a title="Madonna - Hard Candy" href="http://ws.audioscrobbler.com/music/Madonna/Hard+Candy" class="bbcode_album">Hard Candy</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>439</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=917916</tag>
+	<url>http://www.last.fm/event/917916</url>
+</event>
+<event>
+	<id>918322</id>
+	<title>Madonna: Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Hippodrome</name>
+		<location>
+			<city>Ljublijana</city>
+			<country>Slovenia</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9000778</url>
+	</venue>
+	<startDate>Sat, 15 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918322</tag>
+	<url>http://www.last.fm/event/918322</url>
+</event>
+<event>
+	<id>980347</id>
+	<title>Madonna "Sticky &amp; Sweet Tour 2009"</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Lotnisko Bemowo</name>
+		<location>
+			<city>Warszawa</city>
+			<country>Poland</country>
+			<street>ul. Powstańców Śląskich</street>
+			<postalcode>02</postalcode>
+			<point>
+				<lat>52.264236</lat>
+				<long>20.931129</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014283</url>
+	</venue>
+	<startDate>Sat, 15 Aug 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980347</tag>
+	<url>http://www.last.fm/event/980347</url>
+</event>
+<event>
+	<id>918140</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Olympiastadion</name>
+		<location>
+			<city>München</city>
+			<country>Germany</country>
+			<street>Spiridon-Louis-Ring 21</street>
+			<postalcode>80809</postalcode>
+			<point>
+				<lat>49.55</lat>
+				<long>11.5833333</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782484</url>
+	</venue>
+	<startDate>Tue, 18 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918140</tag>
+	<url>http://www.last.fm/event/918140</url>
+</event>
+<event>
+	<id>936456</id>
+	<title>Sticky &amp; Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Kincsem Park</name>
+		<location>
+			<city>Budapest</city>
+			<country>Hungary</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.4962</lat>
+				<long>19.1192</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9004741</url>
+	</venue>
+	<startDate>Sat, 22 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Madonna's phenomenally successful 'Sticky &amp; Sweet Tour', already the #1 Biggest Grossing Tour in history for a solo artist, will embark on another series of shows beginning July 4th in London. (Schedule follows this release). Stops will include appearances in never before played markets such as Werchter Belgium, Marseille France, Hamburg Germany, Oslo Norway, Helsinki Finland, Tallinn Estonia, Ljubljana Slovenia as well as stops in Romania, Hungary, Serbia and Bulgaria it was confirmed today by Live Nation. Additional appearances by Madonna will include return visits after more than 15 years to Madrid, Gothenburg and Munich. <br />
+		<br />
+		&quot;This is a first for me. I've never extended a tour before. I'm excited to be going back on the road, visiting places I've never been and returning to places I love&quot; commented Madonna about the new run of dates. <br />
+		<br />
+		Raves around the globe for the tour include the London Times which remarked, &quot;In the premiere league of song-and-dance spectaculars, the queen of pop remains unrivaled and undefeated.&quot; &quot;The choreography, visuals and live talent were world class and mind-blowingly well executed, intelligent and witty,&quot; glowed The Independent (UK). <br />
+		<br />
+		In 2008, the 'Sticky &amp; Sweet Tour' was seen by 2,350,285 fans in 58 cities. With record breaking ticket sales everywhere, including 650,000 tickets sold in her series of South American dates, 72,000 tickets at Zurich's Dübendorf Airfield - the largest audience ever assembled for a show in Switzerland, 75,000 tickets in London and four sell outs in New York's Madison Square Garden (60,364 tickets). <br />
+		<br />
+		&quot;This new run of dates will further solidify Madonna's position as one of the top selling touring artists of all time,&quot; said Arthur Fogel, Live Nation's Chairman of Global Music and CEO of Global Touring/Artist Nation. <br />
+		<br />
+		Special Guest for Sticky &amp; Sweet 2009, Paul Oakenfold has long been one of the most important - if not the most important - name in modern club culture. He has remixed The Rolling Stones U2, Madonna, Justin Timberlake, Snoop Dog, Muse New Order, The Cure, Massive Attack and even Elvis Presley and produced The Happy Mondays. The two time Grammy nominee is in the Guinness Book of World Records for being the biggest DJ in the world. His new artist album, 'Pop Killer' is due out later this year.<br />
+		<br />
+	The 'Sticky &amp; Sweet' Tour is to stop in Hungary this summer. Madonna will perform at Budapest's Kincsem Park on August 22th.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>18</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=936456</tag>
+	<url>http://www.last.fm/event/936456</url>
+</event>
+<event>
+	<id>946149</id>
+	<title>Madonna: Sticky &amp; Sweet Tour 2009</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Usce</name>
+		<location>
+			<city>Belgrade</city>
+			<country>Serbia</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>44.8186111</lat>
+				<long>20.4680556</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8972328</url>
+	</venue>
+	<startDate>Mon, 24 Aug 2009</startDate>
+	<startTime>20:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>46</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=946149</tag>
+	<url>http://www.last.fm/event/946149</url>
+</event>
+<event>
+	<id>946096</id>
+	<title>Madonna „Sticky &amp; Sweet Tour”</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Parcul Izvor</name>
+		<location>
+			<city>Bucuresti</city>
+			<country>Romania</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>39.79333</lat>
+				<long>-79.045</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8953254</url>
+	</venue>
+	<startDate>Wed, 26 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Madonna va concerta live la Bucuresti, pe 26 august 2009, in Parcul Izvor, in cadrul turneului mondial „Sticky &amp; Sweet Tour”, intr-un spectacol sponsorizat oficial de Vodafone Romania, promovat de Live Nation si organizat de Emagic.<br />
+		<br />
+		Sticky &amp; Sweet Tour, turneul de promovare a albumului „Hard Candy“, a fost extins anul acesta, dupa succesul extraordinar de care s-a bucurat in 2008. Sticky &amp; Sweet Tour este deja considerat cel mai bine vandut turneu din istorie al unui artist solo. In 2008, turneul Sticky &amp; Sweet Tour a fost vizionat de peste 2,3 milioane de spectatori din 58 de orase, inregistrand vanzari de bilete record pretutindeni.<br />
+		<br />
+		Invitatul special al concertului Madonna este DJ Paul Oakenfold, artistul care deschide toate show-urile din cadrul turneului Sticky &amp; Sweet Tour, inclusiv cel de la Bucuresti. Paul Oakenfold este considerat unul dintre cele mai importante nume din cultura de club moderna. A remixat piese de Rolling Stones, U2, Madonna, Justin Timberlake, Snoop Dog, Muse, New Order, The Cure, Massive Attack si chiar Elvis Presley si a fost producatorul trupei britanice The Happy Mondays.<br />
+		<br />
+		Clientii Vodafone Romania pot achizitiona bilete in avans, pe <a href="http://www.myticket.ro" rel="nofollow">www.myticket.ro</a>, intre 23 februarie, incepand cu ora 10.00, si 2 martie (ora 10:00) 2009<br />
+	Biletele, cu preturi incepand de la 120 RON, se vor pune in vanzare pentru publicul larg din 3 martie 2009, de la ora 10.00</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>31</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=946096</tag>
+	<url>http://www.last.fm/event/946096</url>
+</event>
+<event>
+	<id>979959</id>
+	<title>Sticky&amp;Sweet Tour</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Vasil Levski National Stadium</name>
+		<location>
+			<city>Sofia</city>
+			<country>Bulgaria</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.687583</lat>
+				<long>23.335444</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014499</url>
+	</venue>
+	<startDate>Fri, 28 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979959</tag>
+	<url>http://www.last.fm/event/979959</url>
+</event>
+<event>
+	<id>918720</id>
+	<title>MADONNA - STICKY AND SWEET TOUR IN SOFIA</title>
+	<artists>
+		<artist>Madonna</artist>
+		<artist>Paul Oakenfold</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>St. Vasil Levski</name>
+		<location>
+			<city>Sofia</city>
+			<country>Bulgaria</country>
+			<street>8th ball</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.657071</lat>
+				<long>23.458739</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8903925</url>
+	</venue>
+	<startDate>Sat, 29 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">STICKY AND SWEET TOUR IN SOFIA<br />
+		Bulgarian fans, we are happy to announce that Madonna will perform at Sofia's Vasil Levski Stadium on August 29th.<br />
+		<br />
+	While the public ticket sale will start on February 19th, at 10am local time, please note that a fan club devoted pre sale will start on February 16th, at 10am LOCAL TIME for Legacy members and at noon, LOCAL TIME for newer members.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>107</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918720</tag>
+	<url>http://www.last.fm/event/918720</url>
+</event>
+<event>
+	<id>916586</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>ANZ Stadium</name>
+		<location>
+			<city>Sydney</city>
+			<country>Australia</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-33.8833333</lat>
+				<long>151.2166667</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8894968</url>
+	</venue>
+	<startDate>Sat, 26 Sep 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=916586</tag>
+	<url>http://www.last.fm/event/916586</url>
+</event>
+<event>
+	<id>916587</id>
+	<title>Madonna</title>
+	<artists>
+		<artist>Madonna</artist>
+		<headliner>Madonna</headliner>
+	</artists>
+	<venue>
+		<name>Telstra Dome</name>
+		<location>
+			<city>Melbourne</city>
+			<country>Australia</country>
+			<street>Docklands</street>
+			<postalcode>3008</postalcode>
+			<point>
+				<lat>-37.816486</lat>
+				<long>144.947319</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778857</url>
+	</venue>
+	<startDate>Tue, 29 Sep 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8451547.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8451547.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8451547.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=916587</tag>
+	<url>http://www.last.fm/event/916587</url>
+</event>
+</events>
+</lfm>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Radiohead" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="9">
+		<event>
+			<id>832493</id>
+			<title>Just a Fest</title>
+			<artists>
+				<artist>Radiohead</artist>
+				<artist>Kraftwerk</artist>
+				<artist>Los Hermanos</artist>
+				<headliner>Radiohead</headliner>
+			</artists>
+			<venue>
+				<name>Apoteose</name>
+				<location>
+					<city>Rio de Janeiro</city>
+					<country>Brazil</country>
+					<street>Rua Marquês de Sapucaí, s/nº  -  Centro</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-22.912485</lat>
+						<long>-43.18062</long>
+					</point>
+					<timezone>BRT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8785613</url>
+			</venue>
+			<startDate>Fri, 20 Mar 2009</startDate>
+			<startTime>21:00</startTime>
+			<description>
+			<![CDATA[<div class="bbcode"><strong><span style="font-size:14pt">http://radioheadbrasil.forumeiros.com</span></strong><br />
+			<br />
+			* Dois shows: um no Rio e outro em São Paulo. O primeiro na Praça da Apoteóse, no dia 20 de março (uma sexta). O segundo na Chácara do Jockey, no dia 22 (domingo). Essas são as duas datas iniciais que circulam já no meio publicitário para a primeira e santificada apresentação da banda Radiohead no Brasil. Depois de um milhão de tentativas, alguns acordos fechados e destratados, tentativas do Tim Festival, Thom Yorke finalmente vai chegar com o principal e mais viajante show de rock do mundo hoje.<br />
+			<br />
+			* Uma terceira data pode acontecer em São Paulo, dependendo da correria na venda de ingressos, a Popload apurou. A data seria no dia 23, na segunda-feira após o primeiro show de São Paulo. <br />
+			<br />
+			<a href="http://colunistas.ig.com.br/lucioribeiro/2008/11/26/as-duas-datas-do-radiohead-talvez-tres/" rel="nofollow">http://colunistas.ig.com.br/lucioribeiro/2008/11/26/as-duas-datas-do-radiohead-talvez-tres/</a>
+		</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/17047629.png</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/17047629.png</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/17047629.png</image>
+		<attendance>922</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=832493</tag>
+		<url>http://www.last.fm/event/832493</url>
+	</event>
+	<event>
+		<id>987512</id>
+		<title>Ciclo Audiovisual de Radiohead</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Cine Arte Alameda</name>
+			<location>
+				<city>Santiago</city>
+				<country>Chile</country>
+				<street>Alameda 139 - Metro Baquedano</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
+				<timezone>CLT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8820253</url>
+		</venue>
+		<startDate>Sun, 22 Mar 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">RadioheadChile.com se enorgullece en presentar el primer ciclo Audiovisual de Radiohead en Chile, con material seleccionado especialmente por fans y para fans.<br />
+			<br />
+			Ademas!<br />
+			- Por primera vez, las dos mas grandes bandas tributo a Radiohead de nuestro pais tocaran bajo el mismo techo, el mismo dia! Paranoides &amp; Amnesiac en vivo<br />
+			- Stands de venta de productos (Poleras, chapitas, snacks, cerveza, etc.)<br />
+			<br />
+			VALORES<br />
+			$2.000 para miembros de la comunidad <br />
+			$3.000 Entrada General<br />
+			<br />
+			LUGAR<br />
+			Centro de arte Alameda<br />
+			Alameda #139, a pasos de metro Universidad Catolica y Baquedano | Ver mapa<br />
+			<br />
+			FECHA<br />
+			Domingo 22 de Marzo<br />
+			<br />
+			HORA<br />
+			Desde las 19:00 hasta las 23:00<br />
+			<br />
+			CONCURSOS ENTRE LOS ASISTENTES<br />
+		- Una entrada doble para el Concierto del dia 26 (General)!</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/25537353.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/25537353.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/25537353.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=987512</tag>
+		<url>http://www.last.fm/event/987512</url>
+	</event>
+	<event>
+		<id>848209</id>
+		<title>Just a Fest</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<artist>Kraftwerk</artist>
+			<artist>Los Hermanos</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Chácara do Jockey</name>
+			<location>
+				<city>São Paulo</city>
+				<country>Brazil</country>
+				<street>Avenida Francisco Morato, 5100 - Ferreira - Zona Sul</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-23.563002</lat>
+					<long>-46.697985</long>
+				</point>
+				<timezone>BRT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8780428</url>
+		</venue>
+		<startDate>Sun, 22 Mar 2009</startDate>
+		<startTime>17:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Horário de abertura dos portões: 16hs<br />
+			<br />
+			Inicio dos Shows:<br />
+			DJ 17hs<br />
+			Los Hermanos às 18hs<br />
+			Kraftwerk às 20hs<br />
+			Radiohead 21:30hs<br />
+			<br />
+			Sinopse<br />
+		O Radiohead foi uma daquelas bandas que precisou de apenas um disco para estourar no mundo inteiro. Mas ao contrário do que acontece com a maioria das bandas que passam por isso, eles continuaram nas paradas em todos os outros lançamentos, conquistando um público cada vez maior. A Apresentação do Radiohead - a mais esperada pelos fãs do rock contemporâneo - fará parte de um festival chamado Just a Fest. Além da Banda Inglesa os Festival ainda conta com a apresentação dos alemães do Kraftwerk e com a apresentação especial dos Los Hermanos.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5801617.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5801617.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5801617.jpg</image>
+		<attendance>1792</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=848209</tag>
+		<url>http://www.last.fm/event/848209</url>
+	</event>
+	<event>
+		<id>834847</id>
+		<title>Radiohead + Kraftwerk</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<artist>Kraftwerk</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Club Ciudad de Buenos Aires</name>
+			<location>
+				<city>Buenos Aires</city>
+				<country>Argentina</country>
+				<street>Avda. del Libertador 7501</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-34.544672</lat>
+					<long>-58.459785</long>
+				</point>
+				<timezone>ART</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778832</url>
+		</venue>
+		<startDate>Tue, 24 Mar 2009</startDate>
+		<startTime>18:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Quilmes Rock: Fecha 1: <a href="http://www.lastfm.es/venue/8778832">Club Ciudad de Buenos Aires</a><br />
+			<a href="http://ws.audioscrobbler.com/music/Radiohead" class="bbcode_artist">Radiohead</a> (uk) + <a href="http://ws.audioscrobbler.com/music/Kraftwerk" class="bbcode_artist">Kraftwerk</a> (de)<br />
+			<br />
+			El Club Ciudad de Buenos Aires queda en Av. Libertador 7501 y Crisólogo Larralde, Capital Federal. Les agradecemos que utilicen transporte público para acceder. Líneas de colectivos: 15, 28, 29 (menos ramal Parque Sarmiento) y 130. También pueden llegar en Tren con la Línea Mitre estación Nuñez.<br />
+			<br />
+			Las entradas se venden a partir del LUNES 15 DE DICIEMBRE a las 10:00.<br />
+		Precio: $260 (Estadio Pepsi Music) / $300 (Sistema <a href="http://www.ticketek.com.ar/Conciertos/Rock-Internacional/QUILMES-ROCK-RADIOHEAD__QUILMES09R" rel="nofollow">Ticketek</a>)</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5801617.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5801617.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5801617.jpg</image>
+		<attendance>758</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=834847</tag>
+		<url>http://www.last.fm/event/834847</url>
+	</event>
+	<event>
+		<id>872163</id>
+		<title>Radiohead en Chile / Estadio Nacional</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<artist>Kraftwerk</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Estadio San Carlos de Apoquindo</name>
+			<location>
+				<city>Las Condes, Santiago</city>
+				<country>Chile</country>
+				<street>Av Las Flores 13000</street>
+				<postalcode>7610631</postalcode>
+				<point>
+					<lat>-33.397117</lat>
+					<long>-70.500813</long>
+				</point>
+				<timezone>CLT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8783162</url>
+		</venue>
+		<startDate>Thu, 26 Mar 2009</startDate>
+		<endDate>Fri, 27 Mar 2009</endDate>
+		<description>
+			<![CDATA[<div class="bbcode">La segunda fecha confirmada por la banda luego de la exitosa venta de localidades para la noche del 27 de marzo.<br />
+			<br />
+		**Se cambió a la Pista Atlética del Estadio Nacional**</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22022237.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22022237.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22022237.jpg</image>
+		<attendance>282</attendance>
+		<reviews>1</reviews>
+		<tag>lastfm:event=872163</tag>
+		<url>http://www.last.fm/event/872163</url>
+	</event>
+	<event>
+		<id>983170</id>
+		<title>Radiohead en Chile</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<artist>Kraftwerk</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Estadio Nacional</name>
+			<location>
+				<city>Santiago</city>
+				<country>Chile</country>
+				<street>Av. Grecia 2001</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
+				<timezone>CLT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8782147</url>
+		</venue>
+		<startDate>Thu, 26 Mar 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Extra: conciertos de Radiohead se cambian a Ñuñoa<br />
+			Esto es oficial. El festival Cristal En Vivo cambia de lugar. El 26 y 27 de marzo Radiohead y Kraftwerk se presentan en la Pista Atlética del Estadio Nacional. Todo sigue igual, solo que de Las Condes ahora vamos a Ñuñoa.<br />
+			<br />
+			DG Medios informó hoy que debido a la no renovación de permisos en San Carlos de Apoquindo, los conciertos de Radiohead se harán en la Pista Atlética del Estadio Nacional.<br />
+			<br />
+			Las entradas, las locaciones y las bandas siguen igual. Solo hay cambio de lugar. Lo bueno es que ahora es más fácil llegar, hay metro cerca hasta las 10:30. Y ojo que el acceso es por avenida Grecia.<br />
+			<br />
+			Como información adicional les dejamos los horarios de las bandas:<br />
+			<br />
+			17:00 hrs se abren las puertas<br />
+			19:15 comienza Kraftwerk<br />
+		21:00 concierto de Radiohead</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5801617.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5801617.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5801617.jpg</image>
+		<attendance>11</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=983170</tag>
+		<url>http://www.last.fm/event/983170</url>
+	</event>
+	<event>
+		<id>983178</id>
+		<title>Radiohead en Chile</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<artist>Kraftwerk</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Estadio Nacional</name>
+			<location>
+				<city>Santiago</city>
+				<country>Chile</country>
+				<street>Av. Grecia 2001</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
+				<timezone>CLT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8782147</url>
+		</venue>
+		<startDate>Fri, 27 Mar 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Extra: conciertos de Radiohead se cambian a Ñuñoa<br />
+			<br />
+			Esto es oficial. El festival Cristal En Vivo cambia de lugar. El 26 y 27 de marzo Radiohead y Kraftwerk se presentan en la Pista Atlética del Estadio Nacional. Todo sigue igual, solo que de Las Condes ahora vamos a Ñuñoa.<br />
+			<br />
+			DG Medios informó hoy que debido a la no renovación de permisos en San Carlos de Apoquindo, los conciertos de Radiohead se harán en la Pista Atlética del Estadio Nacional.<br />
+			<br />
+			Las entradas, las locaciones y las bandas siguen igual. Solo hay cambio de lugar. Lo bueno es que ahora es más fácil llegar, hay metro cerca hasta las 10:30. Y ojo que el acceso es por avenida Grecia.<br />
+			<br />
+			Como información adicional les dejamos los horarios de las bandas:<br />
+			<br />
+			17:00 hrs se abren las puertas<br />
+			19:15 comienza Kraftwerk<br />
+			21:00 concierto de Radiohead<br />
+			<br />
+			<a href="http://www.cev2009.cl/articulos/2009/03/extra-conciertos-de-radiohead-se-cambian-a-nunoa/" rel="nofollow">http://www.cev2009.cl/articulos/2009/03/extra-conciertos-de-radiohead-se-cambian-a-nunoa/</a>
+		</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5801617.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5801617.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5801617.jpg</image>
+		<attendance>13</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=983178</tag>
+		<url>http://www.last.fm/event/983178</url>
+	</event>
+	<event>
+		<id>831519</id>
+		<title>Radiohead</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<artist>Kraftwerk</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Estadio Nacional</name>
+			<location>
+				<city>Santiago</city>
+				<country>Chile</country>
+				<street>Av. Grecia 2001</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
+				<timezone>CLT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8782147</url>
+		</venue>
+		<startDate>Fri, 27 Mar 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">Tal como te lo adelantamos hace un tiempo, la banda de Yorke y compañía visitará nuestro país el próximo año.<br />
+			<br />
+			Radiohead ha confirmado, su largamente esperada, primera aparición en Santiago de Chile. El concierto se realizará el 27 de marzo de 2009, en el Estadio San Carlos de Apoquindo durante el Festival Cristal en Vivo.<br />
+			<br />
+			Las entradas para el show saldrán a la venta mañana martes 11 de noviembre, a partir de las 17 horas.<br />
+			<br />
+			Los primeros 12.000 fans que compren sus entradas, ya sea en efectivo o con tarjeta de crédito recibirán un 20% de descuento sobre el precio del ticket. Se debe tener en cuenta que el cargo por servicio se cargará al precio del ticket con descuento.<br />
+			<br />
+			Toda la info en <a href="http://www.humonegro.com" rel="nofollow">http://www.humonegro.com</a>
+		</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5801617.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5801617.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5801617.jpg</image>
+		<attendance>1025</attendance>
+		<reviews>9</reviews>
+		<tag>lastfm:event=831519</tag>
+		<url>http://www.last.fm/event/831519</url>
+	</event>
+	<event>
+		<id>988136</id>
+		<title>Radiohead</title>
+		<artists>
+			<artist>Radiohead</artist>
+			<headliner>Radiohead</headliner>
+		</artists>
+		<venue>
+			<name>Lakewood Amphitheatre</name>
+			<location>
+				<city>Atlanta</city>
+				<country>United States</country>
+				<street>2002 Lakewood Ave</street>
+				<postalcode>30315</postalcode>
+				<point>
+					<lat>33.701157</lat>
+					<long>-84.38664</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8909581</url>
+		</venue>
+		<startDate>Fri, 08 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5801617.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5801617.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5801617.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=988136</tag>
+		<url>http://www.last.fm/event/988136</url>
+	</event>
+</events>
+</lfm>

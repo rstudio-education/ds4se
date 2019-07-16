@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Tina Turner" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="26">
+		<event>
+			<id>653890</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>POPB / Palais Omnisports de Paris-Bercy</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>8, boulevard de Bercy</street>
+					<postalcode>75012</postalcode>
+					<point>
+						<lat>48.839361</lat>
+						<long>2.37758</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781813</url>
+			</venue>
+			<startDate>Mon, 16 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=653890</tag>
+			<url>http://www.last.fm/event/653890</url>
+		</event>
+		<event>
+			<id>653886</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>POPB / Palais Omnisports de Paris-Bercy</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>8, boulevard de Bercy</street>
+					<postalcode>75012</postalcode>
+					<point>
+						<lat>48.839361</lat>
+						<long>2.37758</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781813</url>
+			</venue>
+			<startDate>Tue, 17 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=653886</tag>
+			<url>http://www.last.fm/event/653886</url>
+		</event>
+		<event>
+			<id>629155</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Gelredome</name>
+				<location>
+					<city>Arnhem</city>
+					<country>Netherlands</country>
+					<street>Batavierenweg 25</street>
+					<postalcode>6841 HN</postalcode>
+					<point>
+						<lat>51.964202</lat>
+						<long>5.89486</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778625</url>
+			</venue>
+			<startDate>Sat, 21 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>30</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=629155</tag>
+			<url>http://www.last.fm/event/629155</url>
+		</event>
+		<event>
+			<id>642324</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Gelredome</name>
+				<location>
+					<city>Arnhem</city>
+					<country>Netherlands</country>
+					<street>Batavierenweg 25</street>
+					<postalcode>6841 HN</postalcode>
+					<point>
+						<lat>51.964202</lat>
+						<long>5.89486</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778625</url>
+			</venue>
+			<startDate>Sun, 22 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>24</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=642324</tag>
+			<url>http://www.last.fm/event/642324</url>
+		</event>
+		<event>
+			<id>745243</id>
+			<title>Tina: Live in Concert</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>The O2</name>
+				<location>
+					<city>Dublin</city>
+					<country>Ireland</country>
+					<street>East Link Bridge</street>
+					<postalcode>1</postalcode>
+					<point>
+						<lat>53.335889</lat>
+						<long>-6.256803</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950850</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode"><strong>TINA TURNER LIVE</strong><br />
+				AT THE O2, DUBLIN<br />
+				<br />
+				<strong>Thursday 26th March 2009</strong>
+				<br />
+				<br />
+			Tickets for TINA TURNER live at The O2 Dublin on 26 March 2009 are fully seated from €91.25, €106.25, €136.25, €156.25</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=745243</tag>
+			<url>http://www.last.fm/event/745243</url>
+		</event>
+		<event>
+			<id>755921</id>
+			<title>Tina: Live in Concert</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>The O2</name>
+				<location>
+					<city>Dublin</city>
+					<country>Ireland</country>
+					<street>East Link Bridge</street>
+					<postalcode>1</postalcode>
+					<point>
+						<lat>53.335889</lat>
+						<long>-6.256803</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950850</url>
+			</venue>
+			<startDate>Fri, 27 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode"><em>According to ticketmaster.ie:</em><br />
+				<br />
+				<br />
+				AIKEN PROMOTIONS PRESENT<br />
+				<strong>TINA TURNER<br />
+				LIVE IN CONCERT</strong>
+				<br />
+				THE O2 DUBLIN<br />
+				DOORS 7:00PM SHOW 8:00PM<br />
+				FRI 27-MAR-2009 <br />
+				<br />
+				TIERED SEATING<br />
+				€91.25 - €156.25<br />
+				<br />
+				FLAT SEATING<br />
+			€156.25</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=755921</tag>
+			<url>http://www.last.fm/event/755921</url>
+		</event>
+		<event>
+			<id>629223</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Manchester Evening News Arena</name>
+				<location>
+					<city>Manchester</city>
+					<country>United Kingdom</country>
+					<street></street>
+					<postalcode>M3 1AR</postalcode>
+					<point>
+						<lat>53.487094</lat>
+						<long>-2.243988</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8777080</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=629223</tag>
+			<url>http://www.last.fm/event/629223</url>
+		</event>
+		<event>
+			<id>629224</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Manchester Evening News Arena</name>
+				<location>
+					<city>Manchester</city>
+					<country>United Kingdom</country>
+					<street></street>
+					<postalcode>M3 1AR</postalcode>
+					<point>
+						<lat>53.487094</lat>
+						<long>-2.243988</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8777080</url>
+			</venue>
+			<startDate>Tue, 31 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=629224</tag>
+			<url>http://www.last.fm/event/629224</url>
+		</event>
+		<event>
+			<id>641519</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Manchester Evening News Arena</name>
+				<location>
+					<city>Manchester</city>
+					<country>United Kingdom</country>
+					<street></street>
+					<postalcode>M3 1AR</postalcode>
+					<point>
+						<lat>53.487094</lat>
+						<long>-2.243988</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8777080</url>
+			</venue>
+			<startDate>Fri, 03 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>8</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=641519</tag>
+			<url>http://www.last.fm/event/641519</url>
+		</event>
+		<event>
+			<id>867135</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>National Indoor Arena</name>
+				<location>
+					<city>Birmingham</city>
+					<country>United Kingdom</country>
+					<street>King Edwards Road</street>
+					<postalcode>B1 2AA</postalcode>
+					<point>
+						<lat>52.4799228530354</lat>
+						<long>-1.91490996065193</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8777921</url>
+			</venue>
+			<startDate>Tue, 07 Apr 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=867135</tag>
+			<url>http://www.last.fm/event/867135</url>
+		</event>
+		<event>
+			<id>774164</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>The O2</name>
+				<location>
+					<city>Dublin</city>
+					<country>Ireland</country>
+					<street>East Link Bridge</street>
+					<postalcode>1</postalcode>
+					<point>
+						<lat>53.335889</lat>
+						<long>-6.256803</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950850</url>
+			</venue>
+			<startDate>Sat, 11 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>4</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=774164</tag>
+			<url>http://www.last.fm/event/774164</url>
+		</event>
+		<event>
+			<id>782231</id>
+			<title>Tina: Live in Concert</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>The O2</name>
+				<location>
+					<city>Dublin</city>
+					<country>Ireland</country>
+					<street>East Link Bridge</street>
+					<postalcode>1</postalcode>
+					<point>
+						<lat>53.335889</lat>
+						<long>-6.256803</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8950850</url>
+			</venue>
+			<startDate>Sun, 12 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">AIKEN PROMOTIONS PRESENT<br />
+				TINA TURNER<br />
+				LIVE IN CONCERT<br />
+				THE O2 DUBLIN<br />
+				DOORS 6:30PM SHOW 8:00PM<br />
+				SUN 12-APR-2009 <br />
+				<br />
+				TIERED SEATING<br />
+				€91.25 - €156.25<br />
+				<br />
+				FLAT SEATING<br />
+			€156.25</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=782231</tag>
+			<url>http://www.last.fm/event/782231</url>
+		</event>
+		<event>
+			<id>911879</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Telenor Arena</name>
+				<location>
+					<city>Oslo</city>
+					<country>Norway</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>59.883424842959</lat>
+						<long>10.755615234375</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8973374</url>
+			</venue>
+			<startDate>Fri, 17 Apr 2009</startDate>
+			<startTime>18:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=911879</tag>
+			<url>http://www.last.fm/event/911879</url>
+		</event>
+		<event>
+			<id>979858</id>
+			<title>Tina Turner Live 2009 European Tour</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Telenor Arena</name>
+				<location>
+					<city>Snarøya</city>
+					<country>Norway</country>
+					<street>Gamle Snarøyvei 7</street>
+					<postalcode>1367</postalcode>
+					<point>
+						<lat>59.903094</lat>
+						<long>10.6259</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9014414</url>
+			</venue>
+			<startDate>Fri, 17 Apr 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=979858</tag>
+			<url>http://www.last.fm/event/979858</url>
+		</event>
+		<event>
+			<id>915453</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Globen</name>
+				<location>
+					<city>Stockholm</city>
+					<country>Sweden</country>
+					<street>Globentorget 2</street>
+					<postalcode>12177</postalcode>
+					<point>
+						<lat>59.293786</lat>
+						<long>18.079975</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778853</url>
+			</venue>
+			<startDate>Sun, 19 Apr 2009</startDate>
+			<startTime>21:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>4</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=915453</tag>
+			<url>http://www.last.fm/event/915453</url>
+		</event>
+		<event>
+			<id>925964</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Globen</name>
+				<location>
+					<city>Stockholm</city>
+					<country>Sweden</country>
+					<street>Globentorget 2</street>
+					<postalcode>12177</postalcode>
+					<point>
+						<lat>59.293786</lat>
+						<long>18.079975</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778853</url>
+			</venue>
+			<startDate>Mon, 20 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=925964</tag>
+			<url>http://www.last.fm/event/925964</url>
+		</event>
+		<event>
+			<id>919845</id>
+			<title>Tina Turner</title>
+			<artists>
+				<artist>Tina Turner</artist>
+				<headliner>Tina Turner</headliner>
+			</artists>
+			<venue>
+				<name>Hartwall Areena</name>
+				<location>
+					<city>Helsinki</city>
+					<country>Finland</country>
+					<street>Areenakuja 1</street>
+					<postalcode>00240</postalcode>
+					<point>
+						<lat>60.204441</lat>
+						<long>24.930099</long>
+					</point>
+					<timezone>EET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8784738</url>
+			</venue>
+			<startDate>Thu, 23 Apr 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode"><a title="Tina Turner &ndash; Simply the Best" href="http://ws.audioscrobbler.com/music/Tina+Turner/_/Simply+the+Best" class="bbcode_track">Simply the Best</a></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>5</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=919845</tag>
+		<url>http://www.last.fm/event/919845</url>
+	</event>
+	<event>
+		<id>980127</id>
+		<title>Tina Turner - Tina! 50th Anniversary</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>Hartwall Areena</name>
+			<location>
+				<city>Helsinki</city>
+				<country>Finland</country>
+				<street>Areenakuja 1</street>
+				<postalcode>00240</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014532</url>
+		</venue>
+		<startDate>Thu, 23 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980127</tag>
+		<url>http://www.last.fm/event/980127</url>
+	</event>
+	<event>
+		<id>972631</id>
+		<title>Tina Turner</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>Hartwall Areena</name>
+			<location>
+				<city>Helsinki</city>
+				<country>Finland</country>
+				<street>Areenakuja 1</street>
+				<postalcode>00240</postalcode>
+				<point>
+					<lat>60.204441</lat>
+					<long>24.930099</long>
+				</point>
+				<timezone>EET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8784738</url>
+		</venue>
+		<startDate>Fri, 24 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=972631</tag>
+		<url>http://www.last.fm/event/972631</url>
+	</event>
+	<event>
+		<id>980128</id>
+		<title>Tina Turner - Tina! 50th Anniversary</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>Hartwall Areena</name>
+			<location>
+				<city>Helsinki</city>
+				<country>Finland</country>
+				<street>Areenakuja 1</street>
+				<postalcode>00240</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014532</url>
+		</venue>
+		<startDate>Fri, 24 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980128</tag>
+		<url>http://www.last.fm/event/980128</url>
+	</event>
+	<event>
+		<id>925161</id>
+		<title>Tina Turner</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>O2 Arena</name>
+			<location>
+				<city>Praha</city>
+				<country>Czech Republic</country>
+				<street>Českomoravská 2345/17</street>
+				<postalcode>190 00</postalcode>
+				<point>
+					<lat>50.103298</lat>
+					<long>14.492088</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8913157</url>
+		</venue>
+		<startDate>Mon, 27 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>14</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=925161</tag>
+		<url>http://www.last.fm/event/925161</url>
+	</event>
+	<event>
+		<id>911970</id>
+		<title>Tina Turner Live European Tour at Sportpaleis</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>Sportpaleis</name>
+			<location>
+				<city>Merksem</city>
+				<country>Belgium</country>
+				<street>Schijnpoortweg, 119</street>
+				<postalcode>2170</postalcode>
+				<point>
+					<lat>51.231736</lat>
+					<long>4.440424</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779118</url>
+		</venue>
+		<startDate>Thu, 30 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>5</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=911970</tag>
+		<url>http://www.last.fm/event/911970</url>
+	</event>
+	<event>
+		<id>936399</id>
+		<title>Tina Turner</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>Extra concert</name>
+			<location>
+				<city>Arnhem</city>
+				<country>Netherlands</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>51.842399</lat>
+					<long>5.858459</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9004734</url>
+		</venue>
+		<startDate>Sat, 02 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>4</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=936399</tag>
+		<url>http://www.last.fm/event/936399</url>
+	</event>
+	<event>
+		<id>967053</id>
+		<title>Tina Turner</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>Gelredome</name>
+			<location>
+				<city>Arnhem</city>
+				<country>Netherlands</country>
+				<street>Batavierenweg 25</street>
+				<postalcode>6841 HN</postalcode>
+				<point>
+					<lat>51.964202</lat>
+					<long>5.89486</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778625</url>
+		</venue>
+		<startDate>Sat, 02 May 2009</startDate>
+		<startTime>19:30</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967053</tag>
+		<url>http://www.last.fm/event/967053</url>
+	</event>
+	<event>
+		<id>780771</id>
+		<title>Tina on Tour</title>
+		<artists>
+			<artist>Tina Turner</artist>
+			<headliner>Tina Turner</headliner>
+		</artists>
+		<venue>
+			<name>O2 Arena</name>
+			<location>
+				<city>London</city>
+				<country>United Kingdom</country>
+				<street>Millennium Way</street>
+				<postalcode>SE10 0AX</postalcode>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8783707</url>
+		</venue>
+		<startDate>Sun, 03 May 2009</startDate>
+		<startTime>19:30</startTime>
+		<description>
+		<![CDATA[<div class="bbcode">Tina Turner O2 concert postponed from March 11th 2009</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=780771</tag>
+	<url>http://www.last.fm/event/780771</url>
+</event>
+<event>
+	<id>903753</id>
+	<title>Live Music Festival</title>
+	<artists>
+		<artist>Tina Turner</artist>
+		<headliner>Tina Turner</headliner>
+	</artists>
+	<venue>
+		<name>Jaz Beach</name>
+		<location>
+			<city>Budva</city>
+			<country>Montenegro</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.2863889</lat>
+				<long>18.84</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8945295</url>
+	</venue>
+	<startDate>Wed, 05 Aug 2009</startDate>
+	<endDate>Sun, 09 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10270433.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10270433.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10270433.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=903753</tag>
+	<url>http://www.last.fm/event/903753</url>
+</event>
+</events>
+</lfm>

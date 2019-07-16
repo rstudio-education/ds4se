@@ -1,0 +1,1676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Snow Patrol" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="38">
+		<event>
+			<id>821824</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<artist>Iain Archer</artist>
+				<artist>The Lowly Knights</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Odyssey Arena</name>
+				<location>
+					<city>Belfast</city>
+					<country>United Kingdom</country>
+					<street>2 Queen's Quay</street>
+					<postalcode>BT3 9QQ</postalcode>
+					<point>
+						<lat>54.603925</lat>
+						<long>-5.91539</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8792637</url>
+			</venue>
+			<startDate>Thu, 19 Mar 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Snow Patrol have just announced they will be heading out on a major UK &amp; Ireland Arena tour at the beginning of 2009. The 13 date tour takes in most major cities around the UK &amp; Ireland and will be the largest tour to date.<br />
+				<br />
+			General sale tickets go on sale on 7th November.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>32</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=821824</tag>
+			<url>http://www.last.fm/event/821824</url>
+		</event>
+		<event>
+			<id>828032</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<artist>Cashier No.9</artist>
+				<artist>Burning Codes</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Odyssey Arena</name>
+				<location>
+					<city>Belfast</city>
+					<country>United Kingdom</country>
+					<street>2 Queen's Quay</street>
+					<postalcode>BT3 9QQ</postalcode>
+					<point>
+						<lat>54.603925</lat>
+						<long>-5.91539</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8792637</url>
+			</venue>
+			<startDate>Fri, 20 Mar 2009</startDate>
+			<startTime>18:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>13</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=828032</tag>
+			<url>http://www.last.fm/event/828032</url>
+		</event>
+		<event>
+			<id>832800</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<artist>General Fiasco</artist>
+				<artist>Ed Zealous</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Odyssey Arena</name>
+				<location>
+					<city>Belfast</city>
+					<country>United Kingdom</country>
+					<street>2 Queen's Quay</street>
+					<postalcode>BT3 9QQ</postalcode>
+					<point>
+						<lat>54.603925</lat>
+						<long>-5.91539</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8792637</url>
+			</venue>
+			<startDate>Sat, 21 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>11</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=832800</tag>
+			<url>http://www.last.fm/event/832800</url>
+		</event>
+		<event>
+			<id>876540</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Odyssey Arena</name>
+				<location>
+					<city>Belfast</city>
+					<country>United Kingdom</country>
+					<street>2 Queen's Quay</street>
+					<postalcode>BT3 9QQ</postalcode>
+					<point>
+						<lat>54.603925</lat>
+						<long>-5.91539</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8792637</url>
+			</venue>
+			<startDate>Mon, 23 Mar 2009</startDate>
+			<startTime>21:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=876540</tag>
+			<url>http://www.last.fm/event/876540</url>
+		</event>
+		<event>
+			<id>838236</id>
+			<title>V Festival 2009</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Kaiser Chiefs</artist>
+				<artist>Razorlight</artist>
+				<artist>M83</artist>
+				<artist>Duffy</artist>
+				<artist>Elbow</artist>
+				<artist>The Kills</artist>
+				<artist>Madness</artist>
+				<artist>The Human League</artist>
+				<artist>Louis XIV</artist>
+				<artist>Howling Bells</artist>
+				<artist>Jenny Lewis</artist>
+				<artist>The Dø</artist>
+				<artist>Wolf &amp; Cub</artist>
+				<artist>Children Collide</artist>
+				<artist>Jackson Jackson</artist>
+				<artist>Tame Impala</artist>
+				<artist>The Temper Trap</artist>
+				<artist>Canyons</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Centennial Park</name>
+				<location>
+					<city>Sydney</city>
+					<country>Australia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-33.8833333</lat>
+						<long>151.2166667</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8783710</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+			<attendance>93</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=838236</tag>
+			<url>http://www.last.fm/event/838236</url>
+		</event>
+		<event>
+			<id>827291</id>
+			<title>V Festival</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Kaiser Chiefs</artist>
+				<artist>Razorlight</artist>
+				<artist>M83</artist>
+				<artist>Duffy</artist>
+				<artist>Elbow</artist>
+				<artist>The Kills</artist>
+				<artist>Madness</artist>
+				<artist>The Human League</artist>
+				<artist>Louis XIV</artist>
+				<artist>Howling Bells</artist>
+				<artist>Jenny Lewis</artist>
+				<artist>The Dø</artist>
+				<artist>Wolf &amp; Cub</artist>
+				<artist>Children Collide</artist>
+				<artist>Jackson Jackson</artist>
+				<artist>Tame Impala</artist>
+				<artist>The Temper Trap</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Avica Resort</name>
+				<location>
+					<city>Gold Coast</city>
+					<country>Australia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-28</lat>
+						<long>153.4333333</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8794826</url>
+			</venue>
+			<startDate>Sun, 29 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+			<attendance>40</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=827291</tag>
+			<url>http://www.last.fm/event/827291</url>
+		</event>
+		<event>
+			<id>939434</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<artist>Jenny Lewis</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Hordern Pavilion</name>
+				<location>
+					<city>Sydney</city>
+					<country>Australia</country>
+					<street>Driver Avenue, Moore Park</street>
+					<postalcode>2021</postalcode>
+					<point>
+						<lat>-33.8293569077393</lat>
+						<long>150.979614257812</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8825038</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Compelling, enchanting, guitar heroes ... describing the music genius of Snow Patrol is pretty difficult. Grammy-Award nominated Snow Patrol love Australia, so no doubt these Northern Irish charmers are poised to captivate audiences as co-headliners of V Festival 2009. The Guardian recently wrote &quot;Snow Patrol are poised to eclipse Coldplay as pop's greatest anthem-makers.&quot; The band propelled themselves into public consciousness,particularly thanks to their beautiful epic 'Chasing Cars'. And now they have sold over an <br />
+			incredible 7 million albums. Touted as one of the biggest bands in the world at the moment, it is our absolute pleasure to welcome Snow Patrol to our shores.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>11</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=939434</tag>
+			<url>http://www.last.fm/event/939434</url>
+		</event>
+		<event>
+			<id>933052</id>
+			<title>Jenny Lewis</title>
+			<artists>
+				<artist>Jenny Lewis</artist>
+				<artist>Snow Patrol</artist>
+				<headliner>Jenny Lewis</headliner>
+			</artists>
+			<venue>
+				<name>Hordern Pavillion</name>
+				<location>
+					<city>Sydney</city>
+					<country>Australia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-33.8833333</lat>
+						<long>151.2166667</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9004049</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/12989425.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/12989425.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/12989425.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=933052</tag>
+			<url>http://www.last.fm/event/933052</url>
+		</event>
+		<event>
+			<id>944412</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<artist>Jenny Lewis</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Adelaide Entertainment Centre</name>
+				<location>
+					<city>Adelaide</city>
+					<country>Australia</country>
+					<street>Corner Port Rd and Adam St</street>
+					<postalcode>5007</postalcode>
+					<point>
+						<lat>-34.908697</lat>
+						<long>138.576726</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779927</url>
+			</venue>
+			<startDate>Wed, 01 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>7</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=944412</tag>
+			<url>http://www.last.fm/event/944412</url>
+		</event>
+		<event>
+			<id>944416</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<artist>Jenny Lewis</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Palais Theatre</name>
+				<location>
+					<city>Melbourne</city>
+					<country>Australia</country>
+					<street>Lower Esplanade, St. Kilda</street>
+					<postalcode>3182</postalcode>
+					<point>
+						<lat>-37.811383</lat>
+						<long>144.972241</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779697</url>
+			</venue>
+			<startDate>Thu, 02 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>17</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=944416</tag>
+			<url>http://www.last.fm/event/944416</url>
+		</event>
+		<event>
+			<id>837853</id>
+			<title>V Festival 2009</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Kaiser Chiefs</artist>
+				<artist>Razorlight</artist>
+				<artist>M83</artist>
+				<artist>Duffy</artist>
+				<artist>Elbow</artist>
+				<artist>The Kills</artist>
+				<artist>Madness</artist>
+				<artist>The Human League</artist>
+				<artist>Louis XIV</artist>
+				<artist>Howling Bells</artist>
+				<artist>Jenny Lewis</artist>
+				<artist>The Dø</artist>
+				<artist>Wolf &amp; Cub</artist>
+				<artist>Children Collide</artist>
+				<artist>Jackson Jackson</artist>
+				<artist>Tame Impala</artist>
+				<artist>The Temper Trap</artist>
+				<artist>Canyons</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Royal Melbourne Showgrounds</name>
+				<location>
+					<city>Melbourne, Victoria</city>
+					<country>Australia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-37.777135</lat>
+						<long>144.911462</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8983314</url>
+			</venue>
+			<startDate>Sat, 04 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Timetable :D<br />
+				<a href="http://flickr.com/photos/36164928@N05/3343603446/sizes/o/" rel="nofollow">http://flickr.com/photos/36164928@N05/3343603446/sizes/o/</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+			<attendance>87</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=837853</tag>
+			<url>http://www.last.fm/event/837853</url>
+		</event>
+		<event>
+			<id>838978</id>
+			<title>V Festival 09 Perth</title>
+			<artists>
+				<artist>The Killers</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Kaiser Chiefs</artist>
+				<artist>Razorlight</artist>
+				<artist>M83</artist>
+				<artist>Duffy</artist>
+				<artist>Elbow</artist>
+				<artist>The Kills</artist>
+				<artist>Madness</artist>
+				<artist>The Human League</artist>
+				<artist>Louis XIV</artist>
+				<artist>Howling Bells</artist>
+				<artist>Jenny Lewis</artist>
+				<artist>The Dø</artist>
+				<artist>Wolf &amp; Cub</artist>
+				<artist>Children Collide</artist>
+				<artist>Jackson Jackson</artist>
+				<artist>Tame Impala</artist>
+				<artist>The Temper Trap</artist>
+				<artist>Canyons</artist>
+				<headliner>The Killers</headliner>
+			</artists>
+			<venue>
+				<name>Claremont Showgrounds</name>
+				<location>
+					<city>Claremont</city>
+					<country>Australia</country>
+					<street>Graylands Road</street>
+					<postalcode>6000</postalcode>
+					<point>
+						<lat>-31.974168</lat>
+						<long>115.783164</long>
+					</point>
+					<timezone>WST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778617</url>
+			</venue>
+			<startDate>Sun, 05 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">AUSTRALIA! V FESTIVAL is back!<br />
+				<br />
+				Three is indeed a magic number, and having reached our third anniversary with ease and panache V Festival will again mark out our turf in late March when we present our four Aussie events in Sydney, on the Gold Coast, and in Melbourne and Perth.<br />
+				<br />
+				And all this, thanks to our blood brothers, Virgin Mobile - who, like us, consider Australia's V Festival fix a matter of national importance.<br />
+				<br />
+				Since we last reached out and touched you, the Australian party going public has been bamboozled by a plethora of 'new' start up festivals.<br />
+				<br />
+				Fear not!<br />
+				<br />
+				We will not compromise quality and we refuse to tighten our belt. Instead we've decided to pull out all the stops and deliver you the mother load of line-ups for 2009, featuring some of the most exciting names on the international live circuit in a musical jambalaya of icons and innovators.<br />
+				<br />
+				So before you have another sleepless night, it is our absolute pleasure to serve to you up a tasting plate of our lineup.<br />
+				<br />
+				With more synth-laden hooks than an angling store and the mesmeric charms of front man Brandon Flowers comes Las Vegas's <a href="http://ws.audioscrobbler.com/music/The+Killers" class="bbcode_artist">The Killers</a>, sure to slay Aussie audiences. Anyone who's seen their incredible performance on the MTV Europe Music Awards knows we are in for a sonic and visual treat!<br />
+				<br />
+				With an Antipodean following as large as the population of their native isle, Ireland's <a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a> return with an enchanting blend of pop genius that is nothing short of compelling.<br />
+				<br />
+				No-one in their right mind would question the work ethic of Leeds quintet <a href="http://ws.audioscrobbler.com/music/Kaiser+Chiefs" class="bbcode_artist">Kaiser Chiefs</a> who having produced three albums in four years, have proven an ability to write more than one Festival anthem and will no doubt be welcomed by V Festival's very own truly Aussie mob.<br />
+				<br />
+				<a href="http://ws.audioscrobbler.com/music/Elbow" class="bbcode_artist">Elbow</a> received this year's Mercury Music Prize for their album The Seldom Seen Kid, and their beautiful take on indie melancholia continues to sustain their fanatic following on the live circuit.<br />
+				<br />
+				With comparisons from Aretha to Dusty, <a href="http://ws.audioscrobbler.com/music/Duffy" class="bbcode_artist">Duffy</a>'s soulful tones have catapulted her album Rockferry reach to number one in a dozen countries - catch her Aussie debut here.<br />
+				<br />
+				Named after the French King, Sandiego quartet <a href="http://ws.audioscrobbler.com/music/Louis+XIV" class="bbcode_artist">Louis XIV</a> will further bang the rock drum with their irresistible riffs and existentialist punk lyrics. Continuing the Gallic flavour of this musical General Assembly, also welcome <a href="http://ws.audioscrobbler.com/music/+noredirect/THE+DO" class="bbcode_artist">THE DO</a>, a new music sensation who draw from every genre of music, meld them together and thrill audiences with the eclectic avant-guarde result. To help you say it right, they take their name from the note-scale 'Do-Rei-Mi!<br />
+				<br />
+			Rounding off the first announcement, <a href="http://ws.audioscrobbler.com/music/Tame+Impala" class="bbcode_artist">Tame Impala</a>'s adolescent yet modern take on psychedelic rock will make kaleidoscopes cool again, and they are joined by other home grown heroes, <a href="http://ws.audioscrobbler.com/music/The+Temper+Trap" class="bbcode_artist">The Temper Trap</a> and <a href="http://ws.audioscrobbler.com/music/Canyons" class="bbcode_artist">Canyons</a>.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+			<attendance>59</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=838978</tag>
+			<url>http://www.last.fm/event/838978</url>
+		</event>
+		<event>
+			<id>905772</id>
+			<title>Coca-Cola Zero Fest 2009</title>
+			<artists>
+				<artist>Oasis</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Bullet For My Valentine</artist>
+				<artist>The Red Jumpsuit Apparatus</artist>
+				<artist>Panic at the Disco</artist>
+				<artist>Cassette</artist>
+				<artist>The Dirty Skirts</artist>
+				<artist>Aking</artist>
+				<artist>Foto Na Dans</artist>
+				<artist>Zebra and Giraffe</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>New Market Racecourse</name>
+				<location>
+					<city>Johannesburg</city>
+					<country>South Africa</country>
+					<street>Corner Heidelberg and Ring Road East, Alberton</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-26.2</lat>
+						<long>28.0833333</long>
+					</point>
+					<timezone>CAT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8810493</url>
+			</venue>
+			<startDate>Fri, 10 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Believe It! Coca-Cola ZeroTM is bringing an unprecedented international and local line-up of the hottest rock bands, with 12 hours of rocking music and unbelievable experiences, making it the most adrenalin-fuelled festival in South Africa: Coca-Cola ZeroTM Fest in association with 5FM.<br />
+				<br />
+				Coca-Cola ZeroTM is offering you the VIP privilege to purchase your tickets a day early on 22nd January, prior to public ticket sales opening day on 23rd January. Visit your nearest Computicket outlet and state the phrase (the 5FM special).<br />
+				<br />
+				Consumers can now believe that unbelievable things do happen... South Africa, standby for British Rock Royalty and possibly the world's top headline live act - OASIS. Oasis will be supported by SNOW PATROL who got the global spotlight with their 2006 album &quot;Eyes Open&quot; which contains &quot;Chasing Cars&quot;. Also featured will be the Grammy nominated, multiple MTV Award winning American rock band – PANIC AT THE DISCO.<br />
+				<br />
+				And introducing, the band that Q Magazine dubbed &quot;The best British metal band to emerge in years&quot;, the Welsh metal-core band Bullet For My Valentine who spent most of the past two years taking over the world with massive U.K., European, U.S. and worldwide tours, sharing the stage with Guns N Roses, Metallica and Iron Maiden, playing the Main Stage at just about every rock festival on the planet!<br />
+				<br />
+				The Coca-Cola ZeroTM Fest will also feature local favourites like Zebra and Giraffe, The Dirty Skirts, and more.<br />
+				<br />
+				The Coca-Cola ZeroTM Fest in association with 5FM will take place at Johannesburg's New Market Racecourse on Friday, 10 April 2009 and Cape Town's Ostrich Farm on Monday, 13 April 2009.<br />
+				<br />
+				Taste life as it should be – Real Coke Taste, Zero Sugar. Grab Coca-Cola ZeroTM, tune into 5FM and watch this space, as we announce more details.<br />
+				<br />
+				Coca-Cola ZeroTM Fest in association with 5FM is going to rock you!<br />
+				<br />
+			For more information visit <a href="http://www.cokezero.co.za" rel="nofollow">www.cokezero.co.za</a> and <a href="http://www.5fm.co.za" rel="nofollow">www.5fm.co.za</a>.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/21993755.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/21993755.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/21993755.jpg</image>
+			<attendance>30</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=905772</tag>
+			<url>http://www.last.fm/event/905772</url>
+		</event>
+		<event>
+			<id>910014</id>
+			<title>Coca-Cola Zero Fest</title>
+			<artists>
+				<artist>Oasis</artist>
+				<artist>Snow Patrol</artist>
+				<artist>Bullet For My Valentine</artist>
+				<artist>Panic at the Disco</artist>
+				<artist>The Dirty Skirts</artist>
+				<artist>Zebra and Giraffe</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Cape Town's Ostrich Farm</name>
+				<location>
+					<city>Cape Town, Western Cape</city>
+					<country>South Africa</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>-33.9166667</lat>
+						<long>18.4166667</long>
+					</point>
+					<timezone>CAT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8998957</url>
+			</venue>
+			<startDate>Mon, 13 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">That’s right folks, the 2009 Coca Cola Fest, in association with 5FM and Big Concerts, are proud to announce the lineup and venues!<br />
+				The Coca-Cola Zero Fest will take place at Johannesburg’s New Market Racecourse on Friday, 10 April 2009 and Cape Town’s Ostrich Farm on Monday, 13 April 2009.<br />
+				<br />
+				The following international bands will be rocking Joburg and Cape Town:<br />
+				Oasis<br />
+				Bullet for my Valentine<br />
+				Snow Patrol<br />
+				Panic at the Disco<br />
+				<br />
+				The local bands playing at the 2009 Coca Cola Zero Fest are as follows:<br />
+				Zebra and Giraffe<br />
+				The Dirty Skirts<br />
+				<br />
+			There are still more bands to be announced, so stay tuned to 5FM or alternatively via RSS or fill in your email address below to get the latest updates from the mycoke.co.za!</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>22</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=910014</tag>
+			<url>http://www.last.fm/event/910014</url>
+		</event>
+		<event>
+			<id>958223</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Cirkus</name>
+				<location>
+					<city>Stockholm</city>
+					<country>Sweden</country>
+					<street>Djurgårdsslätten 43-45</street>
+					<postalcode>115 21</postalcode>
+					<point>
+						<lat>59.343877</lat>
+						<long>18.081845</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8782271</url>
+			</venue>
+			<startDate>Mon, 18 May 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>11</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=958223</tag>
+			<url>http://www.last.fm/event/958223</url>
+		</event>
+		<event>
+			<id>973523</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Vega</name>
+				<location>
+					<city>København V</city>
+					<country>Denmark</country>
+					<street>Enghavevej 40</street>
+					<postalcode>1674</postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9012883</url>
+			</venue>
+			<startDate>Tue, 19 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=973523</tag>
+			<url>http://www.last.fm/event/973523</url>
+		</event>
+		<event>
+			<id>953243</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Alsterdorfer Sporthalle</name>
+				<location>
+					<city>Hamburg</city>
+					<country>Germany</country>
+					<street>Krochmannstraße 55</street>
+					<postalcode>22297</postalcode>
+					<point>
+						<lat>53.602224</lat>
+						<long>10.004731</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8812130</url>
+			</venue>
+			<startDate>Thu, 21 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+			<attendance>31</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=953243</tag>
+			<url>http://www.last.fm/event/953243</url>
+		</event>
+		<event>
+			<id>953207</id>
+			<title>Snow Patrol</title>
+			<artists>
+				<artist>Snow Patrol</artist>
+				<headliner>Snow Patrol</headliner>
+			</artists>
+			<venue>
+				<name>Jahrhunderthalle</name>
+				<location>
+					<city>Frankfurt am Main</city>
+					<country>Germany</country>
+					<street>Pfaffenwiese</street>
+					<postalcode>65929</postalcode>
+					<point>
+						<lat>50.099167</lat>
+						<long>8.518611</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779801</url>
+			</venue>
+			<startDate>Fri, 22 May 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+		<attendance>25</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=953207</tag>
+		<url>http://www.last.fm/event/953207</url>
+	</event>
+	<event>
+		<id>951755</id>
+		<title>Snow Patrol</title>
+		<artists>
+			<artist>Snow Patrol</artist>
+			<headliner>Snow Patrol</headliner>
+		</artists>
+		<venue>
+			<name>Columbiahalle</name>
+			<location>
+				<city>Berlin</city>
+				<country>Germany</country>
+				<street>Columbiadamm 13-21</street>
+				<postalcode>10965</postalcode>
+				<point>
+					<lat>52.484091</lat>
+					<long>13.393669</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778541</url>
+		</venue>
+		<startDate>Sat, 23 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Snow Patrol<br />
+			<br />
+			<br />
+			Snow Patrol aus Belfast/Glasgow sind der Musikexport Nr.1. aus Großbritannien: ihr 2006er Album „Eyes Open“ verkaufte sich weltweit 4,5 Millionen Mal und auch ihr aktuelles Album „A Hundred Million Suns“ überzeugt mit eingängigen Songs und großen Melodien.<br />
+		Nachdem es 2008 einen exklusiven Auftritt im Berliner Schillertheater gab, kommen Snow Patrol nun endlich wieder nach Deutschland und natürlich in die Hauptstadt, wo ihr aktuelles Album entstand! Im Rahmen ihrer „Take Back The Cities Tour 2009“ steht die sympathische Band um Sänger Gary Lightbody in sechs Städten auf der Bühne, um ihren Fans neben „Run&quot;, „Chasing Cars&quot; und „Shut your Eyes&quot; ihre aktuellen Hits „Take Back The City“ und „Crack The Shutters“ zu präsentieren.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+		<attendance>36</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=951755</tag>
+		<url>http://www.last.fm/event/951755</url>
+	</event>
+	<event>
+		<id>953203</id>
+		<title>Snow Patrol</title>
+		<artists>
+			<artist>Snow Patrol</artist>
+			<headliner>Snow Patrol</headliner>
+		</artists>
+		<venue>
+			<name>Zenith</name>
+			<location>
+				<city>München</city>
+				<country>Germany</country>
+				<street>Lilienthalallee 29</street>
+				<postalcode>80939</postalcode>
+				<point>
+					<lat>49.55</lat>
+					<long>11.5833333</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778576</url>
+		</venue>
+		<startDate>Sun, 24 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+		<attendance>8</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=953203</tag>
+		<url>http://www.last.fm/event/953203</url>
+	</event>
+	<event>
+		<id>956147</id>
+		<title>Snow Patrol</title>
+		<artists>
+			<artist>Snow Patrol</artist>
+			<headliner>Snow Patrol</headliner>
+		</artists>
+		<venue>
+			<name>Gasometer</name>
+			<location>
+				<city>Wien</city>
+				<country>Austria</country>
+				<street>Guglgasse 8</street>
+				<postalcode>1110</postalcode>
+				<point>
+					<lat>48.2</lat>
+					<long>16.3666667</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778988</url>
+		</venue>
+		<startDate>Tue, 26 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+		<attendance>56</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=956147</tag>
+		<url>http://www.last.fm/event/956147</url>
+	</event>
+	<event>
+		<id>974897</id>
+		<title>Snow Patrol</title>
+		<artists>
+			<artist>Snow Patrol</artist>
+			<headliner>Snow Patrol</headliner>
+		</artists>
+		<venue>
+			<name>Eishalle Deutweg</name>
+			<location>
+				<city>Winterthur</city>
+				<country>Switzerland</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>47.495601</lat>
+					<long>8.748782</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778910</url>
+		</venue>
+		<startDate>Thu, 28 May 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+		<![CDATA[<div class="bbcode">Seit dem Erfolgsalbum &quot;Final Straw&quot; aus dem Jahre 2004 gehören Snow Patrol zur Spitzenliga der ganz grossen britischen Rockbands. Damals feierte die Band dank &quot;Run&quot; auch die erste Top-5-Single in ihrer Heimat (der Song wurde übrigens kürzlich von Leona Lewis gecovert und avancierte gleich wieder zum Hit). Mit dem Nachfolgewerk &quot;Eyes Open&quot; festigen Snow Patrol ihren Status auf eindrückliche Art und Weise: Nach mehreren Wochen auf Platz 1 wurde es schlussendlich zum meistverkauften Album des Jahres 2006 in Grossbritannien! Dank der Übersingle &quot;Chasing Cars&quot; und weiteren grossartigen Songs gingen bis heute weltweit fünf Millionen Exemplare von &quot;Eyes Open&quot; über die Ladentische. Im vergangenen Herbst erschien das neue wunderbare Album &quot;A Hundred Million Suns&quot;, was die Band natürlich dazu bewegt, auf eine weltumspannende Tour zu gehen. Endlich kann man die epischen Snow Patrol Songs auch wieder live in der Schweiz erleben: Am 28. Mai werden die fünf Jungs in Winterthur ein exklusives Konzert zelebrieren, am gleichen Ort wo auch schon &quot;Muse&quot; und &quot;Foo Fighters&quot; aufgetreten sind.</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=974897</tag>
+	<url>http://www.last.fm/event/974897</url>
+</event>
+<event>
+	<id>980322</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Placebo</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Elbow</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<startTime>15:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980322</tag>
+	<url>http://www.last.fm/event/980322</url>
+</event>
+<event>
+	<id>953406</id>
+	<title>Snow Patrol</title>
+	<artists>
+		<artist>Snow Patrol</artist>
+		<headliner>Snow Patrol</headliner>
+	</artists>
+	<venue>
+		<name>Philipshalle</name>
+		<location>
+			<city>Düsseldorf</city>
+			<country>Germany</country>
+			<street>Siegburger Straße 15</street>
+			<postalcode>40591</postalcode>
+			<point>
+				<lat>51.206009</lat>
+				<long>6.809559</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779785</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a><a href="http://www.x-why-z.de/tourneen/195/" rel="nofollow"><a href="http://www.x-why-z.de/tourneen/195/">http://www.x-why-z.de/tourneen/195/</a></a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+<attendance>25</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=953406</tag>
+<url>http://www.last.fm/event/953406</url>
+</event>
+<event>
+	<id>740271</id>
+	<title>Pinkpop 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Placebo</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Bruce Springsteen</artist>
+		<artist>The All-American Rejects</artist>
+		<artist>Billy Talent</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Elbow</artist>
+		<artist>James Morrison</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Pendulum</artist>
+		<artist>Madness</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Maria Mena</artist>
+		<artist>Me First and the Gimme Gimmes</artist>
+		<artist>Anouk</artist>
+		<artist>Just Jack</artist>
+		<artist>Shinedown</artist>
+		<artist>The Script</artist>
+		<artist>Volbeat</artist>
+		<artist>White Lies</artist>
+		<artist>Novastar</artist>
+		<artist>Milow</artist>
+		<artist>De Jeugd van Tegenwoordig</artist>
+		<artist>De Staat</artist>
+		<artist>Kyteman</artist>
+		<artist>Kings of the Day</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 13 - 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8960438</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<endDate>Mon, 01 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets are available <a href="http://www.ticketmaster.nl/html/searchResult.htmI?&amp;keyword=pinkpop&amp;defaultKeyword=Vul+in+naam+artiest+of+locatie&amp;l=EN" rel="nofollow">on-line</a> and at the official ticketshops.<br />
+		<br />
+		<strong>3-day passe-partout (including camping site):</strong> € 140<br />
+		<strong>Saturday-only ticket:</strong> € 75 <span style="text-decoration:underline;">
+			<strong>SOLD OUT</strong>
+		</span>
+		<br />
+		<strong>Sunday-only ticket:</strong> € 75<br />
+	<strong>Monday-only ticket:</strong> € 75</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23814409.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23814409.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23814409.png</image>
+	<attendance>825</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=740271</tag>
+	<url>http://www.last.fm/event/740271</url>
+</event>
+<event>
+	<id>980323</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Placebo</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Sun, 31 May 2009</startDate>
+	<startTime>13:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980323</tag>
+	<url>http://www.last.fm/event/980323</url>
+</event>
+<event>
+	<id>953204</id>
+	<title>Snow Patrol</title>
+	<artists>
+		<artist>Snow Patrol</artist>
+		<headliner>Snow Patrol</headliner>
+	</artists>
+	<venue>
+		<name>Porsche-Arena</name>
+		<location>
+			<city>Stuttgart</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>48.793838</lat>
+				<long>9.225865</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778579</url>
+	</venue>
+	<startDate>Sun, 31 May 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Snow+Patrol" class="bbcode_artist">Snow Patrol</a> <a href="http://www.x-why-z.de/tourneen/195/" rel="nofollow"><a href="http://www.x-why-z.de/tourneen/195/">http://www.x-why-z.de/tourneen/195/</a></a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+<attendance>17</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=953204</tag>
+<url>http://www.last.fm/event/953204</url>
+</event>
+<event>
+	<id>973802</id>
+	<title>Pinkpop</title>
+	<artists>
+		<artist>Snow Patrol</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>The Kooks</artist>
+		<artist>The All-American Rejects</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Script</artist>
+		<artist>Novastar</artist>
+		<artist>De Jeugd van Tegenwoordig</artist>
+		<artist>The TingTings</artist>
+		<headliner>Snow Patrol</headliner>
+	</artists>
+	<venue>
+		<name>Festivalweide</name>
+		<location>
+			<city>landgraaf</city>
+			<country>Netherlands</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8999452</url>
+	</venue>
+	<startDate>Mon, 01 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Jaarlijks driedaags pinksterfestival op Landgraaf.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+<attendance>4</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=973802</tag>
+<url>http://www.last.fm/event/973802</url>
+</event>
+<event>
+	<id>980324</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Placebo</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Mon, 01 Jun 2009</startDate>
+	<startTime>12:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980324</tag>
+	<url>http://www.last.fm/event/980324</url>
+</event>
+<event>
+	<id>970154</id>
+	<title>Snow Patrol</title>
+	<artists>
+		<artist>Snow Patrol</artist>
+		<headliner>Snow Patrol</headliner>
+	</artists>
+	<venue>
+		<name>Élysée Montmartre</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>72 Boulevard Rochechouart</street>
+			<postalcode>75018</postalcode>
+			<point>
+				<lat>48.882934</lat>
+				<long>2.343777</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778720</url>
+	</venue>
+	<startDate>Tue, 02 Jun 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Les places sont à 27€40.<br />
+		Le dernier album : <a href="http://www.deezer.com/#music/album/228858" rel="nofollow">http://www.deezer.com/#music/album/228858</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=970154</tag>
+	<url>http://www.last.fm/event/970154</url>
+</event>
+<event>
+	<id>973932</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<artist>Snow Patrol</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Stadio San Siro</name>
+		<location>
+			<city>Milan</city>
+			<country>Italy</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.5063469010834</lat>
+				<long>9.20654296875</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8886854</url>
+	</venue>
+	<startDate>Tue, 07 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>41</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=973932</tag>
+	<url>http://www.last.fm/event/973932</url>
+</event>
+<event>
+	<id>716993</id>
+	<title>Oxegen</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Bloc Party</artist>
+		<artist>Blur</artist>
+		<artist>Keane</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Yeah Yeah Yeahs</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Razorlight</artist>
+		<artist>Lily Allen</artist>
+		<artist>Jason Mraz</artist>
+		<artist>The Mars Volta</artist>
+		<artist>TV on the Radio</artist>
+		<artist>of Montreal</artist>
+		<artist>Doves</artist>
+		<artist>Manic Street Preachers</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Pet Shop Boys</artist>
+		<artist>Elbow</artist>
+		<artist>Jane's Addiction</artist>
+		<artist>The Game</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Digitalism</artist>
+		<artist>Maximo Park</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Pendulum</artist>
+		<artist>Tiga</artist>
+		<artist>The Specials</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Foals</artist>
+		<artist>James</artist>
+		<artist>God Is an Astronaut</artist>
+		<artist>Squeeze</artist>
+		<artist>The Script</artist>
+		<artist>Ladyhawke</artist>
+		<artist>Miss Kittin &amp; The Hacker</artist>
+		<artist>Glasvegas</artist>
+		<artist>Friendly Fires</artist>
+		<artist>White Lies</artist>
+		<artist>The Saturdays</artist>
+		<artist>Florence and The Machine</artist>
+		<artist>Dreadzone</artist>
+		<artist>Peter Doherty</artist>
+		<artist>Wallis Bird</artist>
+		<artist>Aeroplane</artist>
+		<artist>Tom Middleton</artist>
+		<artist>Fight Like Apes</artist>
+		<artist>Hudson Mohawke</artist>
+		<artist>hockey</artist>
+		<artist>Gary Go</artist>
+		<artist>Swedish House Mafia</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Punchestown Racecourse</name>
+		<location>
+			<city>An Nás</city>
+			<country>Ireland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.2158333</lat>
+				<long>-6.6669444</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781144</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Oxegen is an annual music festival, held since 2004, sponsored by Heineken International. It was previously called Witnness, which ran from the year 2000 and was sponsored by Guinness. Oxegen was originally a two-day festival but for 2008 will be expanded to three days. It takes place at the Punchestown Racecourse in County Kildare, Republic of Ireland and has an average attendance of around 80,000 a day, with around half of these camping on site for the duration, and the rest travelling to the site each day. The festival is promoted by MCD.<br />
+		<br />
+		While Oxegen has not yet reached the iconic status of Glastonbury, it still manages to attract a large quantity of high profile acts each year. Generally, the festival’s line-up is identical to that of T in the Park, which runs on the same weekend, but in Scotland. Many acts play Oxegen on the day that they’re not playing TitP.<br />
+	As well as six stages of music, there are four large areas for camping which are subdivided by colour. Stalls and shops are also provided, as well as toilet and shower areas. The toilet facilities have been improved upon in recent years and are now adequate for the large number of people at the festival. There is also a funfair adjacent to the arena, featuring a big wheel and other rides, such as the “Magic Carpet”, the “Big Drop”, and the roller coaster.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24685953.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24685953.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24685953.gif</image>
+	<attendance>187</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=716993</tag>
+	<url>http://www.last.fm/event/716993</url>
+</event>
+<event>
+	<id>701873</id>
+	<title>T In The Park 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Bloc Party</artist>
+		<artist>Blur</artist>
+		<artist>Keane</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Yeah Yeah Yeahs</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Razorlight</artist>
+		<artist>Lily Allen</artist>
+		<artist>Jason Mraz</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Mogwai</artist>
+		<artist>TV on the Radio</artist>
+		<artist>of Montreal</artist>
+		<artist>Manic Street Preachers</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Pet Shop Boys</artist>
+		<artist>The Streets</artist>
+		<artist>Maxïmo Park</artist>
+		<artist>Elbow</artist>
+		<artist>James Morrison</artist>
+		<artist>Jane's Addiction</artist>
+		<artist>The Game</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Maximo Park</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Pendulum</artist>
+		<artist>Simian Mobile Disco</artist>
+		<artist>Felix da Housecat</artist>
+		<artist>The Specials</artist>
+		<artist>The View</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Foals</artist>
+		<artist>James</artist>
+		<artist>Boys Noize</artist>
+		<artist>Squeeze</artist>
+		<artist>The Script</artist>
+		<artist>Ladyhawke</artist>
+		<artist>Glasvegas</artist>
+		<artist>Friendly Fires</artist>
+		<artist>White Lies</artist>
+		<artist>Jeff Mills</artist>
+		<artist>Dave Clarke</artist>
+		<artist>The Saturdays</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Slam</artist>
+		<artist>Florence and The Machine</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Silicone Soul</artist>
+		<artist>The Airborne Toxic Event</artist>
+		<artist>Peter Doherty</artist>
+		<artist>Claude Von Stroke</artist>
+		<artist>hockey</artist>
+		<artist>Gary Go</artist>
+		<artist>Bjorn Again</artist>
+		<artist>BeardyMan</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Balado</name>
+		<location>
+			<city>Kinross</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>56.2</lat>
+				<long>-3.4166667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781944</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">T in the Park 2009 returns to Balado with a fantastic lineup , albeit poptastic . All the latest information is at <a href="http://www.tinthepark.com" rel="nofollow">tinthepark.com</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24844039.gif</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24844039.gif</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24844039.gif</image>
+<attendance>246</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=701873</tag>
+<url>http://www.last.fm/event/701873</url>
+</event>
+<event>
+	<id>973835</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<artist>Snow Patrol</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Ullevi</name>
+		<location>
+			<city>Göteborg</city>
+			<country>Sweden</country>
+			<street>Skånegatan</street>
+			<postalcode>411 40</postalcode>
+			<point>
+				<lat>57.7166667</lat>
+				<long>11.9666667</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8789770</url>
+	</venue>
+	<startDate>Fri, 31 Jul 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">U2 kan idag bekräfta att turnén som går under namnet 360° kommer att inledas i Barcelona på Nou Camp Stadion den 30 juni i år. Turnén, som är sponsrad av BlackBerry och är bandets första stadiumturné sedan Vertigo Tour 2005/2006, är en uppföljning av deras kritikerrosade album No Line On The Horizon. Albumet är U2:s tolfte studioalbum och toppar redan försäljningslistorna i England, Irland, Frankrike, Tyskland, Belgien, Japan och Tjeckien.<br />
+		<br />
+		Turnén, som är producerad av Live Nation Global Touring, kommer att besöka 14 europeiska städer inklusive Milano, Amsterdam, Paris, Nice, Dublin, Berlin, Gelsenkirchen, Chorzow, London, Sheffield, Glasgow och Cardiff. Efter Europa kommer U2 att fortsätta turnén i USA, med start på Chicagos Soldier Field den 12 september 2009. U2 landar i Sverige, på Ullevi i Göteborg, den 31 juli.<br />
+		<br />
+	Show Director för turnén är Willie Williams, som än en gång samarbetat med arkitekten Mark Fisher (ZooTV, PopMart, Elevation och Vertigo) för att skapa en innovativ 360° design vilket erbjuder publiken en fullständig visuell upplevelse. U2 360° blir den första turnén där ett band spelar på en sådan originell och unik konstruktion (som kan beskådas på u2.com).</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>59</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=973835</tag>
+	<url>http://www.last.fm/event/973835</url>
+</event>
+<event>
+	<id>982291</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<artist>Snow Patrol</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Ullevi</name>
+		<location>
+			<city>Göteborg</city>
+			<country>Sweden</country>
+			<street>Skånegatan</street>
+			<postalcode>411 40</postalcode>
+			<point>
+				<lat>57.7166667</lat>
+				<long>11.9666667</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8789770</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>39</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=982291</tag>
+	<url>http://www.last.fm/event/982291</url>
+</event>
+<event>
+	<id>882082</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<artist>Snow Patrol</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Stadion Śląski</name>
+		<location>
+			<city>Chorzów</city>
+			<country>Poland</country>
+			<street>ul.Katowicka 10</street>
+			<postalcode>41-500</postalcode>
+			<point>
+				<lat>50.287258</lat>
+				<long>18.968099</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8806845</url>
+	</venue>
+	<startDate>Thu, 06 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>START SPRZEDAŻY BILETÓW OD 20 MARCA.</strong><br />
+		<br />
+		Światowa trasa U2 promująca wydany tydzień temu album „No Line on the Horizon” rozpocznie się 30 czerwca w Barcelonie a koncerty odbywać się będą na największych stadionach na świecie.<br />
+		<br />
+		Trasa ta zapowiadana jest jako przełomowa w biznesie koncertowym, przełomowa pod wieloma względami. Ale przede wszystkim pod kątem produkcji, wizerunku sceny (całkowicie obrotowa) oraz możliwości dla widzów, które niesie ona za sobą.<br />
+		<br />
+		Ceny biletów zostaną podane do wiadomości w ciągu najbliższych paru dni, kiedy zostaną one ostatecznie zatwierdzone.<br />
+		<br />
+		<a href="http://www.u2.com/tour/presale" rel="nofollow">http://www.u2.com/tour/presale</a>
+		<br />
+		<br />
+		<strong>Ceny biletów i ofert specjalnych:</strong>
+		<br />
+		<strong>140zł</strong> – sektory siedzące z tyłu sceny<br />
+		<strong>190zł</strong> – płyta stojąca<br />
+		<strong>450zł</strong> – sektory siedzące po bokach sceny<br />
+		<strong>825zł</strong> – sektory siedzące na przeciwko sceny<br />
+		<strong>1110zł</strong> - VIP Lounge zawierający bilet w cenie 450 zł<br />
+	<strong>1125zł</strong> - RED ZONE</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>899</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=882082</tag>
+	<url>http://www.last.fm/event/882082</url>
+</event>
+<event>
+	<id>734627</id>
+	<title>V Festival 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Keane</artist>
+		<artist>Fatboy Slim</artist>
+		<artist>Razorlight</artist>
+		<artist>Lily Allen</artist>
+		<artist>MGMT</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>The Streets</artist>
+		<artist>Elbow</artist>
+		<artist>James Morrison</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Pendulum</artist>
+		<artist>The Specials</artist>
+		<artist>James</artist>
+		<artist>The Wombats</artist>
+		<artist>Ocean Colour Scene</artist>
+		<artist>Dizzee Rascal</artist>
+		<artist>British Sea Power</artist>
+		<artist>Taylor Swift</artist>
+		<artist>Biffy Clyro</artist>
+		<artist>The Enemy</artist>
+		<artist>Happy Mondays</artist>
+		<artist>The Script</artist>
+		<artist>The Saturdays</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Alesha Dixon</artist>
+		<artist>Peter Doherty</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Weston Park</name>
+		<location>
+			<city>Stafford</city>
+			<country>United Kingdom</country>
+			<street>Weston-under-Lizard</street>
+			<postalcode>TF11 8LE</postalcode>
+			<point>
+				<lat>52.691026</lat>
+				<long>-2.276298</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781820</url>
+	</venue>
+	<startDate>Sat, 22 Aug 2009</startDate>
+	<endDate>Sun, 23 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24819451.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24819451.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24819451.jpg</image>
+	<attendance>144</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=734627</tag>
+	<url>http://www.last.fm/event/734627</url>
+</event>
+<event>
+	<id>974097</id>
+	<title>U2 360° Tour</title>
+	<artists>
+		<artist>U2</artist>
+		<artist>Snow Patrol</artist>
+		<headliner>U2</headliner>
+	</artists>
+	<venue>
+		<name>Rogers Centre</name>
+		<location>
+			<city>Toronto</city>
+			<country>Canada</country>
+			<street>1 Blue Jays Way</street>
+			<postalcode>M5V 1J3</postalcode>
+			<point>
+				<lat>43.6666667</lat>
+				<long>-79.4166667</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8795528</url>
+	</venue>
+	<startDate>Wed, 16 Sep 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24951019.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24951019.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24951019.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=974097</tag>
+	<url>http://www.last.fm/event/974097</url>
+</event>
+</events>
+</lfm>

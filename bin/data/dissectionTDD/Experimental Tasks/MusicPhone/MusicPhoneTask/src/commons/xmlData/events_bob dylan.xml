@@ -1,0 +1,1393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Bob Dylan" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="40">
+		<event>
+			<id>971471</id>
+			<title>Bob Dylan</title>
+			<artists>
+				<artist>Bob Dylan</artist>
+				<headliner>Bob Dylan</headliner>
+			</artists>
+			<venue>
+				<name>Berns</name>
+				<location>
+					<city>Stockholm</city>
+					<country>Sweden</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>59.332333</lat>
+						<long>18.073227</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778520</url>
+			</venue>
+			<startDate>Sun, 22 Mar 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Bob+Dylan" class="bbcode_artist">Bob Dylan</a></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>15</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=971471</tag>
+		<url>http://www.last.fm/event/971471</url>
+	</event>
+	<event>
+		<id>856347</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>Globen</name>
+			<location>
+				<city>Stockholm</city>
+				<country>Sweden</country>
+				<street>Globentorget 2</street>
+				<postalcode>12177</postalcode>
+				<point>
+					<lat>59.293786</lat>
+					<long>18.079975</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778853</url>
+		</venue>
+		<startDate>Mon, 23 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>184</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=856347</tag>
+		<url>http://www.last.fm/event/856347</url>
+	</event>
+	<event>
+		<id>857126</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>Oslo Spektrum</name>
+			<location>
+				<city>Oslo</city>
+				<country>Norway</country>
+				<street>Sonja Henies pl. 2</street>
+				<postalcode>0185</postalcode>
+				<point>
+					<lat>59.912411</lat>
+					<long>10.754699</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779340</url>
+		</venue>
+		<startDate>Wed, 25 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>61</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=857126</tag>
+		<url>http://www.last.fm/event/857126</url>
+	</event>
+	<event>
+		<id>856314</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>Kinnarps Arena</name>
+			<location>
+				<city>Jönköping</city>
+				<country>Sweden</country>
+				<street></street>
+				<postalcode>55454</postalcode>
+				<point>
+					<lat>57.7833333</lat>
+					<long>14.1833333</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8790903</url>
+		</venue>
+		<startDate>Fri, 27 Mar 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">Bob Dylan kommer till Sverige i vår. I mars ger han tre konserter med sitt band.<br />
+			<br />
+		Senast Dylan gästade Sverige var våren 2007 då han förutom konserter på Globen och Scandinavium gjorde en omtalad konsert på Debaser i Stockholm.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>54</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=856314</tag>
+		<url>http://www.last.fm/event/856314</url>
+	</event>
+	<event>
+		<id>856344</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>Malmö Arena</name>
+			<location>
+				<city>Malmö</city>
+				<country>Sweden</country>
+				<street>Annetorpsvägen 2B</street>
+				<postalcode>21124</postalcode>
+				<point>
+					<lat>55.631464</lat>
+					<long>13.057016</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8972606</url>
+		</venue>
+		<startDate>Sat, 28 Mar 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>114</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=856344</tag>
+		<url>http://www.last.fm/event/856344</url>
+	</event>
+	<event>
+		<id>856149</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>Forum</name>
+			<location>
+				<city>København</city>
+				<country>Denmark</country>
+				<street>Julius Thomsens Plads 1</street>
+				<postalcode>1925</postalcode>
+				<point>
+					<lat>55.681028</lat>
+					<long>12.55306</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779282</url>
+		</venue>
+		<startDate>Sun, 29 Mar 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>28</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=856149</tag>
+		<url>http://www.last.fm/event/856149</url>
+	</event>
+	<event>
+		<id>979893</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>Forum</name>
+			<location>
+				<city>Frederiksberg C</city>
+				<country>Denmark</country>
+				<street>Julius Thomsen Plads 1</street>
+				<postalcode>1925</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014458</url>
+		</venue>
+		<startDate>Sun, 29 Mar 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=979893</tag>
+		<url>http://www.last.fm/event/979893</url>
+	</event>
+	<event>
+		<id>857123</id>
+		<title>Bob Dylan</title>
+		<artists>
+			<artist>Bob Dylan</artist>
+			<headliner>Bob Dylan</headliner>
+		</artists>
+		<venue>
+			<name>AWD-Hall</name>
+			<location>
+				<city>Hannover</city>
+				<country>Germany</country>
+				<street>Ferdinand-Wilhelm-Fricke-Weg 8</street>
+				<postalcode>30169</postalcode>
+				<point>
+					<lat>52.35598</lat>
+					<long>9.729406</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778547</url>
+		</venue>
+		<startDate>Tue, 31 Mar 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+		<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Bob+Dylan" class="bbcode_artist">Bob Dylan</a></div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>55</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857123</tag>
+	<url>http://www.last.fm/event/857123</url>
+</event>
+<event>
+	<id>857128</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Max-Schmeling-Halle</name>
+		<location>
+			<city>Berlin</city>
+			<country>Germany</country>
+			<street>Am Falkplatz</street>
+			<postalcode>10437</postalcode>
+			<point>
+				<lat>52.54581</lat>
+				<long>13.40592</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781797</url>
+	</venue>
+	<startDate>Wed, 01 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Bob+Dylan" class="bbcode_artist">Bob Dylan</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+<attendance>107</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=857128</tag>
+<url>http://www.last.fm/event/857128</url>
+</event>
+<event>
+	<id>857832</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Messehalle</name>
+		<location>
+			<city>Erfurt</city>
+			<country>Germany</country>
+			<street>Gothaer Straße 34</street>
+			<postalcode>99094</postalcode>
+			<point>
+				<lat>50.962846</lat>
+				<long>10.994847</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8790143</url>
+	</venue>
+	<startDate>Thu, 02 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>30</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857832</tag>
+	<url>http://www.last.fm/event/857832</url>
+</event>
+<event>
+	<id>857348</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Zenith</name>
+		<location>
+			<city>München</city>
+			<country>Germany</country>
+			<street>Lilienthalallee 29</street>
+			<postalcode>80939</postalcode>
+			<point>
+				<lat>49.55</lat>
+				<long>11.5833333</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778576</url>
+	</venue>
+	<startDate>Sat, 04 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">AUSVERKAUFT!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+<attendance>66</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=857348</tag>
+<url>http://www.last.fm/event/857348</url>
+</event>
+<event>
+	<id>790229</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Saarlandhalle</name>
+		<location>
+			<city>Saarbrücken</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.249145</lat>
+				<long>6.984984</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779744</url>
+	</venue>
+	<startDate>Sun, 05 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>63</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=790229</tag>
+	<url>http://www.last.fm/event/790229</url>
+</event>
+<event>
+	<id>871587</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Palais des Congrès</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>2, place de la Porte Maillot</street>
+			<postalcode>75017</postalcode>
+			<point>
+				<lat>48.878511</lat>
+				<long>2.282785</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788936</url>
+	</venue>
+	<startDate>Tue, 07 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>30</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=871587</tag>
+	<url>http://www.last.fm/event/871587</url>
+</event>
+<event>
+	<id>868267</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Palais des Congrès</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>2, place de la Porte Maillot</street>
+			<postalcode>75017</postalcode>
+			<point>
+				<lat>48.878511</lat>
+				<long>2.282785</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788936</url>
+	</venue>
+	<startDate>Wed, 08 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=868267</tag>
+	<url>http://www.last.fm/event/868267</url>
+</event>
+<event>
+	<id>856962</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Heineken Music Hall</name>
+		<location>
+			<city>Amsterdam</city>
+			<country>Netherlands</country>
+			<street>ArenA Boulevard 590</street>
+			<postalcode>1101 DS</postalcode>
+			<point>
+				<lat>52.31266</lat>
+				<long>4.942487</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778722</url>
+	</venue>
+	<startDate>Fri, 10 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>127</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=856962</tag>
+	<url>http://www.last.fm/event/856962</url>
+</event>
+<event>
+	<id>856965</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Heineken Music Hall</name>
+		<location>
+			<city>Amsterdam</city>
+			<country>Netherlands</country>
+			<street>ArenA Boulevard 590</street>
+			<postalcode>1101 DS</postalcode>
+			<point>
+				<lat>52.31266</lat>
+				<long>4.942487</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778722</url>
+	</venue>
+	<startDate>Sat, 11 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">UITVERKOCHT</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+<attendance>77</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=856965</tag>
+<url>http://www.last.fm/event/856965</url>
+</event>
+<event>
+	<id>856966</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Heineken Music Hall</name>
+		<location>
+			<city>Amsterdam</city>
+			<country>Netherlands</country>
+			<street>ArenA Boulevard 590</street>
+			<postalcode>1101 DS</postalcode>
+			<point>
+				<lat>52.31266</lat>
+				<long>4.942487</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778722</url>
+	</venue>
+	<startDate>Sun, 12 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>31</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=856966</tag>
+	<url>http://www.last.fm/event/856966</url>
+</event>
+<event>
+	<id>857878</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>St. Jakobshalle</name>
+		<location>
+			<city>Basel</city>
+			<country>Switzerland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.539899</lat>
+				<long>7.618258</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778907</url>
+	</venue>
+	<startDate>Tue, 14 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Tickets: <a href="http://www.eventim.ch/portal/de/konzerte/konzerte/bob_dylan/59852/" rel="nofollow">http://www.eventim.ch/portal/de/konzerte/konzerte/bob_dylan/59852/</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+<attendance>40</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=857878</tag>
+<url>http://www.last.fm/event/857878</url>
+</event>
+<event>
+	<id>863040</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Filaforum di Assago</name>
+		<location>
+			<city>Milano</city>
+			<country>Italy</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.5063469010834</lat>
+				<long>9.20654296875</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8946191</url>
+	</venue>
+	<startDate>Wed, 15 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>68</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=863040</tag>
+	<url>http://www.last.fm/event/863040</url>
+</event>
+<event>
+	<id>858460</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Palalottomatica</name>
+		<location>
+			<city>Roma</city>
+			<country>Italy</country>
+			<street>Piazzale dello sport</street>
+			<postalcode>00100</postalcode>
+			<point>
+				<lat>41.833878</lat>
+				<long>12.489655</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782506</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>64</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=858460</tag>
+	<url>http://www.last.fm/event/858460</url>
+</event>
+<event>
+	<id>865077</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Nelson Mandela Forum</name>
+		<location>
+			<city>Firenze</city>
+			<country>Italy</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>43.775249</lat>
+				<long>11.283094</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782260</url>
+	</venue>
+	<startDate>Sat, 18 Apr 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>37</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=865077</tag>
+	<url>http://www.last.fm/event/865077</url>
+</event>
+<event>
+	<id>857882</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Arena Geneva</name>
+		<location>
+			<city>Genève</city>
+			<country>Switzerland</country>
+			<street>3, route des Batailleux</street>
+			<postalcode>1218</postalcode>
+			<point>
+				<lat>46.233595</lat>
+				<long>6.112283</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785611</url>
+	</venue>
+	<startDate>Mon, 20 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857882</tag>
+	<url>http://www.last.fm/event/857882</url>
+</event>
+<event>
+	<id>856892</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Zénith Europe</name>
+		<location>
+			<city>Eckbolsheim</city>
+			<country>France</country>
+			<street>1 allée du Zénith</street>
+			<postalcode>67201</postalcode>
+			<point>
+				<lat>48.592845</lat>
+				<long>7.687103</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8865093</url>
+	</venue>
+	<startDate>Tue, 21 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>13</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=856892</tag>
+	<url>http://www.last.fm/event/856892</url>
+</event>
+<event>
+	<id>857206</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Vorst Nationaal / Forest National</name>
+		<location>
+			<city>Brussels</city>
+			<country>Belgium</country>
+			<street>Avenue Victor Rousseau, 208</street>
+			<postalcode>1190</postalcode>
+			<point>
+				<lat>50.808828</lat>
+				<long>4.32546</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779173</url>
+	</venue>
+	<startDate>Wed, 22 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>91</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857206</tag>
+	<url>http://www.last.fm/event/857206</url>
+</event>
+<event>
+	<id>857166</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Sheffield Arena</name>
+		<location>
+			<city>Sheffield</city>
+			<country>United Kingdom</country>
+			<street>Broughton Lane</street>
+			<postalcode>S9 2DF</postalcode>
+			<point>
+				<lat>53.40018</lat>
+				<long>-1.41654</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8895668</url>
+	</venue>
+	<startDate>Fri, 24 Apr 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>44</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857166</tag>
+	<url>http://www.last.fm/event/857166</url>
+</event>
+<event>
+	<id>856942</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sat, 25 Apr 2009</startDate>
+	<startTime>18:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>111</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=856942</tag>
+	<url>http://www.last.fm/event/856942</url>
+</event>
+<event>
+	<id>980494</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Drawdock Road Greenwich</street>
+			<postalcode>SE10 0BB</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014734</url>
+	</venue>
+	<startDate>Sat, 25 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980494</tag>
+	<url>http://www.last.fm/event/980494</url>
+</event>
+<event>
+	<id>856317</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Cardiff International Arena</name>
+		<location>
+			<city>Cardiff</city>
+			<country>United Kingdom</country>
+			<street>Mary Ann Street</street>
+			<postalcode>CF10 2EQ</postalcode>
+			<point>
+				<lat>51.478608</lat>
+				<long>-3.172066</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777929</url>
+	</venue>
+	<startDate>Tue, 28 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>41</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=856317</tag>
+	<url>http://www.last.fm/event/856317</url>
+</event>
+<event>
+	<id>856935</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>National Indoor Arena</name>
+		<location>
+			<city>Birmingham</city>
+			<country>United Kingdom</country>
+			<street>King Edwards Road</street>
+			<postalcode>B1 2AA</postalcode>
+			<point>
+				<lat>52.4799228530354</lat>
+				<long>-1.91490996065193</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777921</url>
+	</venue>
+	<startDate>Wed, 29 Apr 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>35</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=856935</tag>
+	<url>http://www.last.fm/event/856935</url>
+</event>
+<event>
+	<id>980507</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>NIA Birmingham</name>
+		<location>
+			<city>Birmingham</city>
+			<country>United Kingdom</country>
+			<street>King Edwards Road Birmingham, West Midlands</street>
+			<postalcode>B1 2AA</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014673</url>
+	</venue>
+	<startDate>Wed, 29 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980507</tag>
+	<url>http://www.last.fm/event/980507</url>
+</event>
+<event>
+	<id>857141</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Echo Arena</name>
+		<location>
+			<city>Liverpool</city>
+			<country>United Kingdom</country>
+			<street>Monarchs Quay</street>
+			<postalcode>L3 4FP</postalcode>
+			<point>
+				<lat>53.4152617149922</lat>
+				<long>-2.97866821289062</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8873332</url>
+	</venue>
+	<startDate>Fri, 01 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>44</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857141</tag>
+	<url>http://www.last.fm/event/857141</url>
+</event>
+<event>
+	<id>980514</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Liverpool Echo Arena</name>
+		<location>
+			<city>Liverpool</city>
+			<country>United Kingdom</country>
+			<street>King's Dock</street>
+			<postalcode>L3 4AD</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014743</url>
+	</venue>
+	<startDate>Fri, 01 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980514</tag>
+	<url>http://www.last.fm/event/980514</url>
+</event>
+<event>
+	<id>980516</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>SECC</name>
+		<location>
+			<city>Glasgow</city>
+			<country>United Kingdom</country>
+			<street>Finnieston Lanarkshire</street>
+			<postalcode>G3 8YW</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014728</url>
+	</venue>
+	<startDate>Sat, 02 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980516</tag>
+	<url>http://www.last.fm/event/980516</url>
+</event>
+<event>
+	<id>856484</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>S.E.C.C.</name>
+		<location>
+			<city>Glasgow</city>
+			<country>United Kingdom</country>
+			<street>Exhibition Way</street>
+			<postalcode>G3 8YW</postalcode>
+			<point>
+				<lat>55.860853</lat>
+				<long>-4.288117</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777899</url>
+	</venue>
+	<startDate>Sat, 02 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>49</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=856484</tag>
+	<url>http://www.last.fm/event/856484</url>
+</event>
+<event>
+	<id>857248</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Playhouse</name>
+		<location>
+			<city>Edinburgh</city>
+			<country>United Kingdom</country>
+			<street>18-22 Greenside Place</street>
+			<postalcode>EH1 3AA</postalcode>
+			<point>
+				<lat>55.95</lat>
+				<long>-3.2</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777987</url>
+	</venue>
+	<startDate>Sun, 03 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>41</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=857248</tag>
+	<url>http://www.last.fm/event/857248</url>
+</event>
+<event>
+	<id>980519</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Edinburgh Playhouse</name>
+		<location>
+			<city>Edinburgh</city>
+			<country>United Kingdom</country>
+			<street>18-22 Greenside Place Edinburgh</street>
+			<postalcode>EH1 3AA</postalcode>
+			<point>
+				<lat>55.957032</lat>
+				<long>-3.185022</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014729</url>
+	</venue>
+	<startDate>Sun, 03 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980519</tag>
+	<url>http://www.last.fm/event/980519</url>
+</event>
+<event>
+	<id>855030</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>East Link Bridge</street>
+			<postalcode>1</postalcode>
+			<point>
+				<lat>53.335889</lat>
+				<long>-6.256803</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8950850</url>
+	</venue>
+	<startDate>Tue, 05 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>75</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=855030</tag>
+	<url>http://www.last.fm/event/855030</url>
+</event>
+<event>
+	<id>939435</id>
+	<title>Bob Dylan</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>East Link Bridge</street>
+			<postalcode>1</postalcode>
+			<point>
+				<lat>53.335889</lat>
+				<long>-6.256803</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8950850</url>
+	</venue>
+	<startDate>Wed, 06 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+	<attendance>14</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=939435</tag>
+	<url>http://www.last.fm/event/939435</url>
+</event>
+<event>
+	<id>982306</id>
+	<title>Bob Dylan &amp; The Poetry of the Blues</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Southport Arts Centre</name>
+		<location>
+			<city>Southport</city>
+			<country>United Kingdom</country>
+			<street>Lord Street</street>
+			<postalcode>PR8 1DB</postalcode>
+			<point>
+				<lat>53.6473159081945</lat>
+				<long>-3.00584239608192</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784884</url>
+	</venue>
+	<startDate>Thu, 04 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">An Evening with writer Michael Gray</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2767959.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2767959.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2767959.jpg</image>
+<attendance>1</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=982306</tag>
+<url>http://www.last.fm/event/982306</url>
+</event>
+<event>
+	<id>933030</id>
+	<title>Rothbury Music Festival 2009</title>
+	<artists>
+		<artist>Bob Dylan</artist>
+		<artist>Broken Social Scene</artist>
+		<artist>Cold War Kids</artist>
+		<artist>Flogging Molly</artist>
+		<artist>Guster</artist>
+		<artist>Ani DiFranco</artist>
+		<artist>Matisyahu</artist>
+		<artist>Willie Nelson</artist>
+		<artist>MSTRKRFT</artist>
+		<artist>The Black Crowes</artist>
+		<artist>Chromeo</artist>
+		<artist>The Hold Steady</artist>
+		<artist>Shpongle</artist>
+		<artist>Girl Talk</artist>
+		<artist>G. Love &amp; Special Sauce</artist>
+		<artist>Brett Dennen</artist>
+		<artist>Gov't Mule</artist>
+		<artist>Man Man</artist>
+		<artist>Son Volt</artist>
+		<artist>Kid Cudi</artist>
+		<artist>The String Cheese Incident</artist>
+		<artist>Yonder Mountain String Band</artist>
+		<artist>Les Claypool</artist>
+		<artist>Martin Sexton</artist>
+		<artist>The Disco Biscuits</artist>
+		<artist>Railroad Earth</artist>
+		<artist>Grace Potter and the Nocturnals</artist>
+		<artist>Rebelution</artist>
+		<artist>Lotus</artist>
+		<artist>Toots &amp; The Maytals</artist>
+		<artist>The Hard Lessons</artist>
+		<artist>The Dead</artist>
+		<artist>Jackie Green</artist>
+		<artist>2020 SoundSystem</artist>
+		<artist>Ralph Stanley &amp; The Clinch Mountain Boys</artist>
+		<artist>Toubab Krewe</artist>
+		<artist>Chris Pierce</artist>
+		<artist>Future Rock</artist>
+		<artist>King Sunny Ade &amp; His African Beats</artist>
+		<artist>The Glitch Mob</artist>
+		<artist>John Butler</artist>
+		<artist>Pretty Lights</artist>
+		<artist>Sts9</artist>
+		<artist>Damian Marley &amp; Nas</artist>
+		<artist>EOTO</artist>
+		<artist>Sam Roberts Band</artist>
+		<artist>Giant Panda Guerilla Dub Squad</artist>
+		<artist>Zappa Plays Zappa</artist>
+		<artist>Underground Orchestra</artist>
+		<artist>Steppin' In It</artist>
+		<artist>The Ragbirds</artist>
+		<artist>Rachel Goodrich</artist>
+		<artist>soullive</artist>
+		<artist>The Macpodz</artist>
+		<artist>Four Finger Five</artist>
+		<artist>Hill Country Revue</artist>
+		<artist>Femi Kuti &amp; The Positive Force</artist>
+		<artist>Kyle Hollingsworth Band</artist>
+		<artist>Davy Knowles</artist>
+		<artist>Quannum All Stars</artist>
+		<artist>Peter Rowan Bluegrass Band</artist>
+		<artist>lipp service</artist>
+		<artist>Break Science</artist>
+		<headliner>Bob Dylan</headliner>
+	</artists>
+	<venue>
+		<name>Double JJ Ranch</name>
+		<location>
+			<city>Rothbury, MI</city>
+			<country>United States</country>
+			<street>5900 Water Road</street>
+			<postalcode>49452</postalcode>
+			<point>
+				<lat>43.50722</lat>
+				<long>-86.3475</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8903970</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>Live at the Double JJ Ranch in Rothbury, MI<br />
+			<br />
+			Thursday, July 2nd - Sunday, July 5th 2009<br />
+			<br />
+		Tickets on sale Friday, March 20th, 2009 at Noon</strong>
+		<br />
+		<br />
+		<a href="http://www.rothburyfestival.com/" rel="nofollow">Click here for Event &amp; Ticket Info</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25549967.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25549967.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25549967.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=933030</tag>
+	<url>http://www.last.fm/event/933030</url>
+</event>
+</events>
+</lfm>

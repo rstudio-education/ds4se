@@ -1,0 +1,3781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Franz Ferdinand" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="78">
+		<event>
+			<id>864546</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>L'Olympia</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>28 Boulevard des Capucines</street>
+					<postalcode>75009</postalcode>
+					<point>
+						<lat>48.870036</lat>
+						<long>2.328476</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778723</url>
+			</venue>
+			<startDate>Wed, 18 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>49</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=864546</tag>
+			<url>http://www.last.fm/event/864546</url>
+		</event>
+		<event>
+			<id>859688</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Store Vega</name>
+				<location>
+					<city>København V</city>
+					<country>Denmark</country>
+					<street>Enghavevej 40</street>
+					<postalcode>1674</postalcode>
+					<point>
+						<lat>55.667986</lat>
+						<long>12.544534</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778878</url>
+			</venue>
+			<startDate>Fri, 20 Mar 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>35</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859688</tag>
+			<url>http://www.last.fm/event/859688</url>
+		</event>
+		<event>
+			<id>859875</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Cirkus</name>
+				<location>
+					<city>Stockholm</city>
+					<country>Sweden</country>
+					<street>Djurgårdsslätten 43-45</street>
+					<postalcode>115 21</postalcode>
+					<point>
+						<lat>59.343877</lat>
+						<long>18.081845</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8782271</url>
+			</venue>
+			<startDate>Sat, 21 Mar 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Franz Ferdinand till Cirkus i Stockholm <br />
+				- ny skiva ute i januari <br />
+				<br />
+				21 mars 2009 - Stockholm, Cirkus<br />
+				<br />
+				Franz Ferdinand, Europas mesta poppojkar, släpper äntligen en ny skiva i januari. Franz Ferdinand släppte sin debutskiva 2004 och dess uppföljare i en rasande takt efter, smällde till och blev popgiganter nästan över en natt. Du kan omöjligt ha missat den fullkomliga hypen. Men det är inte ytliga framgångsbekräftelser som gör bandet ständigt kittlande. Här handlar det om musik som skapas av genuint visionära musiker; klyftiga smartskallar som trots sin skärpa inte behöver vifta med forcerade pretentioner för att slå igenom. Det är istället Franz Ferdinands unika förmåga att bygga sin oberäkneliga poprock av modernism, tradition och personlig särprägel som gör att alla springer benen av sig så fort Franz är i stan och sprider stil kring sig.<br />
+				<br />
+				Bandet gjorde en av sommarens bästa spelningar på Way Out West i år, något så tajt har aldrig skådats. Med militär precision fick de tusentals knän att gunga i takt på Göteborgs största dansgolv, en helt magisk bedrift. I Stockholm blir dansfesten till tonerna av Franz Ferdinands nya låtar, som Alex Kapranos beskriver som väldigt dansanta och med diskokänsla. Det har spekulerats mycket om deras nya sound, men något som är bekräftat är att de kommer ha med sig en stor synth. Spänningen når galna höjder så missa för allt i världen inte denna chans!<br />
+				<br />
+				BILJETTER<br />
+				335kr + serviceavgift. Släpps fredag 12e december.<br />
+				Biljetter säljs via Cirkus och Ticnet. 13-årsgräns.<br />
+				<br />
+				HEMSIDOR<br />
+				<a href="http://www.franzferdinand.co.uk" rel="nofollow">www.franzferdinand.co.uk</a>
+				<br />
+				<a href="http://www.myspace.com/franzferdinand" rel="nofollow">www.myspace.com/franzferdinand</a>
+				<br />
+				<br />
+			Källa: Luger</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>152</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859875</tag>
+			<url>http://www.last.fm/event/859875</url>
+		</event>
+		<event>
+			<id>859586</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Sentrum Scene</name>
+				<location>
+					<city>Oslo</city>
+					<country>Norway</country>
+					<street>Arbeidersamfunnets plass 1</street>
+					<postalcode>0181</postalcode>
+					<point>
+						<lat>59.9166667</lat>
+						<long>10.75</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778900</url>
+			</venue>
+			<startDate>Sun, 22 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>66</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859586</tag>
+			<url>http://www.last.fm/event/859586</url>
+		</event>
+		<event>
+			<id>859498</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Docks</name>
+				<location>
+					<city>Hamburg</city>
+					<country>Germany</country>
+					<street>Spielbudenplatz 19</street>
+					<postalcode>20359</postalcode>
+					<point>
+						<lat>53.549424</lat>
+						<long>9.964667</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778595</url>
+			</venue>
+			<startDate>Tue, 24 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>86</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859498</tag>
+			<url>http://www.last.fm/event/859498</url>
+		</event>
+		<event>
+			<id>859499</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Columbiahalle</name>
+				<location>
+					<city>Berlin</city>
+					<country>Germany</country>
+					<street>Columbiadamm 13-21</street>
+					<postalcode>10965</postalcode>
+					<point>
+						<lat>52.484091</lat>
+						<long>13.393669</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778541</url>
+			</venue>
+			<startDate>Wed, 25 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>162</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859499</tag>
+			<url>http://www.last.fm/event/859499</url>
+		</event>
+		<event>
+			<id>859501</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Tonhalle</name>
+				<location>
+					<city>München</city>
+					<country>Germany</country>
+					<street>Grafinger Str. 6</street>
+					<postalcode>81671</postalcode>
+					<point>
+						<lat>48.125657</lat>
+						<long>11.606583</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8845984</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>115</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859501</tag>
+			<url>http://www.last.fm/event/859501</url>
+		</event>
+		<event>
+			<id>859543</id>
+			<title>m4music - Franz Ferdinand uwm.</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Maxïmo Park</artist>
+				<artist>Jeans Team</artist>
+				<artist>Señor Coconut</artist>
+				<artist>Headman</artist>
+				<artist>Who Made Who</artist>
+				<artist>Kissogram</artist>
+				<artist>Dodo</artist>
+				<artist>Phenomden</artist>
+				<artist>Elijah</artist>
+				<artist>7 Dollar Taxi</artist>
+				<artist>The Clowns</artist>
+				<artist>The Mondrians</artist>
+				<artist>Solange La Frange</artist>
+				<artist>The Paces</artist>
+				<artist>Telaphones</artist>
+				<artist>One Shot Orchestra</artist>
+				<artist>John Player</artist>
+				<artist>ponybomb</artist>
+				<artist>Atomic Nick &amp; Le Frère</artist>
+				<artist>radiorifle</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Schiffbau</name>
+				<location>
+					<city>Zürich</city>
+					<country>Switzerland</country>
+					<street>Schiffbaustrasse 4-6</street>
+					<postalcode>8005</postalcode>
+					<point>
+						<lat>47.370264</lat>
+						<long>8.549243</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8779523</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<endDate>Sat, 28 Mar 2009</endDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>116</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859543</tag>
+			<url>http://www.last.fm/event/859543</url>
+		</event>
+		<event>
+			<id>860720</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Estragon</name>
+				<location>
+					<city>Bologna</city>
+					<country>Italy</country>
+					<street>via Stalingrado 83, Parco Nord</street>
+					<postalcode>40128</postalcode>
+					<point>
+						<lat>44.524601</lat>
+						<long>11.366043</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8780521</url>
+			</venue>
+			<startDate>Sun, 29 Mar 2009</startDate>
+			<startTime>21:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">BIGLIETTI IN VENDITA DALLE ORE  10.00 DI SABATO 13 DICEMBRE SU <a href="http://WWW.TICKETONE.IT" rel="nofollow">WWW.TICKETONE.IT</a><br />
+				E DA LUNEDI’ 15 DICEMBRE SU TUTTI I CIRCUITI<br />
+				<br />
+				Prezzo del biglietto: € 30,00 + diritti di prevendita<br />
+				<br />
+				Informazioni su come acquistare i biglietti per Bologna:<br />
+				<br />
+				- Ticketone  892 101  <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a>
+				<br />
+				- Teleart  041 2719090  <a href="http://www.teleart.org" rel="nofollow">www.teleart.org</a>
+				<a href="http://www.boxofficeitalia.com" rel="nofollow">www.boxofficeitalia.com</a>
+				<br />
+				- Estragon 051 241554 <a href="http://www.estragon.it" rel="nofollow">www.estragon.it</a>
+				<br />
+			- in tutte le prevendite abituali.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>119</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=860720</tag>
+			<url>http://www.last.fm/event/860720</url>
+		</event>
+		<event>
+			<id>890848</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Alcatraz</name>
+				<location>
+					<city>Milano</city>
+					<country>Italy</country>
+					<street>Via Valtellina, 21</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.494197</lat>
+						<long>9.182772</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778527</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>19</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=890848</tag>
+			<url>http://www.last.fm/event/890848</url>
+		</event>
+		<event>
+			<id>860723</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Alcatraz</name>
+				<location>
+					<city>Milano</city>
+					<country>Italy</country>
+					<street>Via Valtellina, 21</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.494197</lat>
+						<long>9.182772</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778527</url>
+			</venue>
+			<startDate>Mon, 30 Mar 2009</startDate>
+			<startTime>21:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Spostato al Palasharp il concerto di Milano<br />
+				I biglietti già acquistati per l'Alcatraz restano validi<br />
+				<br />
+				<br />
+				<br />
+				&lt;a href=&quot;<a href="http://s300.photobucket.com/albums/nn20/Alegarnett/?action=view&amp;current=Franz-Ferdinand-per-myspace-08-F.jpg&quot" rel="nofollow">http://s300.photobucket.com/albums/nn20/Alegarnett/?action=view&amp;current=Franz-Ferdinand-per-myspace-08-F.jpg&quot</a>; target=&quot;_blank&quot;&gt;&lt;img src=&quot;<a href="http://i300.photobucket.com/albums/nn20/Alegarnett/Franz-Ferdinand-per-myspace-08-F.jpg&quot" rel="nofollow">http://i300.photobucket.com/albums/nn20/Alegarnett/Franz-Ferdinand-per-myspace-08-F.jpg&quot</a>; border=&quot;0&quot; alt=&quot;Photobucket&quot;&gt;&lt;/a&gt;<br />
+				<br />
+				<br />
+				+ special guest Kissogram<br />
+				<br />
+				<br />
+				DOMENICA 29 MARZO 2009<br />
+				BOLOGNA - ESTRAGON<br />
+				Via Stalingrado, 83 (PARCO NORD)<br />
+				<br />
+				<a href="http://www.indipendente.com" rel="nofollow">www.indipendente.com</a>
+				<br />
+				<a href="http://www.estragon.it" rel="nofollow">www.estragon.it</a>
+				<br />
+				<br />
+				<br />
+				Apertura cancelli Ore 19.00<br />
+				<br />
+				<br />
+				Prezzo del biglietto: € 30,00  diritti di prevendita<br />
+				<br />
+				<br />
+				<br />
+				LUNEDI’ 30 MARZO 2009<br />
+				MILANO – PALASHARP<br />
+				Via Sant’Elia, 33<br />
+				<br />
+				<a href="http://www.indipendente.com" rel="nofollow">www.indipendente.com</a>
+				<br />
+				<br />
+				Apertura cancelli Ore 19.00<br />
+				<br />
+				<br />
+				Prezzo del biglietto: € 30,00 + diritti di prevendita<br />
+				<br />
+				<br />
+				<br />
+				BIGLIETTI IN VENDITA<br />
+				I BIGLIETTI GIA’ ACQUISTATI PER L’ALCATRAZ SONO VALIDI ANCHE PER IL PALASHARP<br />
+				<br />
+				<br />
+				Informazioni su come acquistare i biglietti per Bologna:<br />
+				<br />
+				- Ticketone  892 101  <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a>
+				<br />
+				- Teleart  041 2719090  <a href="http://www.teleart.org" rel="nofollow">www.teleart.org</a>
+				<a href="http://www.boxofficeitalia.com" rel="nofollow">www.boxofficeitalia.com</a>
+				<br />
+				- Estragon 051 241554 <a href="http://www.estragon.it" rel="nofollow">www.estragon.it</a>
+				<br />
+				- in tutte le prevendite abituali.<br />
+				<br />
+				<br />
+				Informazioni su come acquistare i biglietti per Milano:<br />
+				<br />
+				- Ticketone  892 101  <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a>
+				<br />
+				- Vivaticket  899 666805  <a href="http://www.vivaticket.it" rel="nofollow">www.vivaticket.it</a>
+				<br />
+				- Ticket.it  02 54271  <a href="http://www.ticket.it" rel="nofollow">www.ticket.it</a>
+				<br />
+				- Teleart  041 2719090  <a href="http://www.teleart.org" rel="nofollow">www.teleart.org</a>
+				<a href="http://www.boxofficeitalia.com" rel="nofollow">www.boxofficeitalia.com</a>
+				<br />
+				- in tutte le prevendite abituali:<br />
+				Mariposa Duomo - Gall. S. Radegonda MM Duomo -  Milano, tel 02 8057937<br />
+				Mariposa Lodi - C.so Lodi – Milano,  tel 02-55184792<br />
+				Messaggerie Musicali -Galleria Del Corso, 2 –  Milano, tel  02 760551<br />
+				Stradivarius. - C.so Buenos Aires/Ang. Carretta -  Milano,  tel 02-29400600<br />
+				Fnac Milano: Via della Palla, 2 -  Milano - tel 02 869541<br />
+				Fnac Roma: Galleria Commerciale Porta di Roma - Via Alberto Lionello, 201  - Roma - tel 06-98263001<br />
+				Frac Torino: Via Roma, 56 - 10123 Torino - tel 011-5516711<br />
+				Fnac Torino (Le Gru) Via Crea, 10  -  Grugliasco (TO) tel 011-5362001<br />
+				Fnac Verona: Via Cappello, 34 -  Verona - tel 045-8063811<br />
+				Fnac Napoli: Via Luca Giordano, 59 - Napoli - tel 081-2201000<br />
+				Fnac Genova: Via XX Settembre, 46/R -  Genova - tel 010-290111<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				Per la grande richiesta di biglietti il concerto del 30 marzo all’Alcatraz di Milano è spostato al più capiente Palasharp<br />
+				<br />
+				La notizia arriva assieme ai primi riscontri di classifica del nuovo album Tonight: Franz Ferdinand che si piazza brillantemente al 2° posto in Inghilterra e all’8° in Italia.<br />
+				<br />
+				<br />
+				Il quartetto di Glasgow é già una delle esportazioni britanniche di maggior successo di questo decennio, e con il nuovo album Tonight: Franz Ferdinand ci ricordano ancora una volta per quale motivo. La band ha trascorso il  2007 lavorando al nuovo materiale prima di entrare nello studio privato ed auto-costruito all’interno di un municipio in stile vittoriano di Glasgow col produttore Dan Carey. Il risultato sono 12 canzone robuste e carismatiche come quelle che li hanno resi famosi, con pezzi come “Can’t Stop Feeling”, “Katherine, Kiss Me” e “Ulysses” destinati a diventare dei nuovi classici con la chiara firma Franz Ferdinand: batteria da discoteca, riff di chitarra sorprendenti e ritornelli pungenti. E’ un disco decisamente coinvolgente, pieno di linee di basso contagiose e testi taglienti.<br />
+				<br />
+				Tonight: Franz Ferdinand é quel senso di attesa che si prova in un locale prima di un concerto. E’ la musica per lanciarsi nella folla mentre ci si prepara ad una notte di edonismo. E’ musica per il dancefloor, per flirtare, per la malinconia, per perdersi e per amare la sensazione di perdersi, per il rush di adrenalina nelle vene, per quell’ora solitaria prima dell’alba in cui ci si addormenta aspettando che tutto torni come prima.<br />
+				<br />
+				I Franz Ferdinand sono esplosi sulla scena musicale nel 2004, con la contagiosa “Take Me Out” ed il loro album di debutto nominato al Grammy Franz Ferdinand, uno dei dischi più freschi ed energici dell’anno. Il disco ha varcato i confini internazionali con hit come “The Dark Of The Matinee”, “Michael” e “This Fire”, ed ha vinto il disco di platino in diversi Paesi inclusi gli Stati Uniti. In Inghilterra l’album si è guadagnato il Mercury Music Prize e raccolto due BRIT Awards, per “Best Group” e “Best Rock Act”, oltre ad un Ivor Novello Award per la composizione. Grazie a due nomination la band si è esibita alla cerimonia dei Grammy di Los Angeles nel 2005. “Take Me Out” è stato eletto come uno dei migliori singoli dell’anno dalla maggior parte delle inchieste di fine anno della stampa specializzata.<br />
+				Nonostante un’attività costante in supporto del suo primo lavoro, la band si é presa solo una breve pausa prima di rientrare nei suoi studi scozzesi ed in un nuovo studio a New York per registrare il suo secondo album. Il 2005 è stato infatti l’anno di You Could Have It So Much Better… With Franz Ferdinand, che è entrato direttamente al primo posto delle classifiche inglesi, al numero 8 della Billboard, e nella top 10 delle classifiche di altri 18 Paesi. Il disco ricopriva un territorio musicale più ampio rispetto al primo, e conteneva un’altra manciata di successi: “Do You Want To”, “Walk Away”, “The Fallen”, e “Eleanor Put Your Boots On”. I Franz Ferdinand hanno continuato la loro scalata mondiale con un tour che ha toccato Australia, Giappone, Russia e Sud America.<br />
+				<br />
+				<br />
+				I Franz Ferdinand sono:<br />
+				<br />
+				Bob Hardy (basso)<br />
+				Nick McCarthy (chitarra / tastiere / voce)<br />
+				Alex Kapranos (voce / chitarra)<br />
+				Paul Thomson (batteria).<br />
+				<br />
+				<br />
+				Sito ufficiale:                                                                                                <br />
+				<a href="http://www.franzferdinand.co.uk" rel="nofollow">www.franzferdinand.co.uk</a>
+				<br />
+				<a href="http://www.myspace.com/franzferdinand" rel="nofollow">www.myspace.com/franzferdinand</a>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				il nuovo album Tonight: Franz Ferdinand disponibile in tutti i negozi<br />
+				<br />
+				<br />
+				<br />
+				INFO<br />
+				<br />
+				Indipendente Eventi e Produzioni<br />
+				<br />
+				<a href="http://www.indipendente.com" rel="nofollow">www.indipendente.com</a>
+				<br />
+				<a href="mailto:info@indipendente.com">info@indipendente.com</a>
+				<br />
+				<a href="http://www.myspace.com/indipendenteeventieproduzioni" rel="nofollow">www.myspace.com/indipendenteeventieproduzioni</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>152</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=860723</tag>
+			<url>http://www.last.fm/event/860723</url>
+		</event>
+		<event>
+			<id>869084</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Le Phare</name>
+				<location>
+					<city>Tournefeuille</city>
+					<country>France</country>
+					<street>32 route de Tarbes</street>
+					<postalcode>31170</postalcode>
+					<point>
+						<lat>43.608791</lat>
+						<long>1.445811</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8847032</url>
+			</venue>
+			<startDate>Wed, 01 Apr 2009</startDate>
+			<startTime>20:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+			<attendance>36</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=869084</tag>
+			<url>http://www.last.fm/event/869084</url>
+		</event>
+		<event>
+			<id>860767</id>
+			<title>Franz Ferdinand</title>
+			<artists>
+				<artist>Franz Ferdinand</artist>
+				<artist>Kissogram</artist>
+				<headliner>Franz Ferdinand</headliner>
+			</artists>
+			<venue>
+				<name>Pabellon de la Casilla</name>
+				<location>
+					<city>Bilbao</city>
+					<country>Spain</country>
+					<street>Plaza de la Casilla, 11</street>
+					<postalcode>48012</postalcode>
+					<point>
+						<lat>43.258084</lat>
+						<long>-2.943358</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8784900</url>
+			</venue>
+			<startDate>Thu, 02 Apr 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">12 diciembre  Venta de entradas Discos Castelló de Tallers 7, 9 y 79, Discos Revólver, Iguapop Gallery, Servicaixa, Halcón Viajes Venta telefónica Servicaixa 902332211  y en internet en <a href="http://www.iguapop.com" rel="nofollow">www.iguapop.com</a>  <a href="http://www.livenation.es" rel="nofollow">www.livenation.es</a>, Servicaixa, Halcón Viajes, Ticktackticket,  El Corte Inglés</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>128</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=860767</tag>
+		<url>http://www.last.fm/event/860767</url>
+	</event>
+	<event>
+		<id>980057</id>
+		<title>Franz Ferdinand + Kissogram</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Kissogram</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>PABELLÓN DE LA CASILLA</name>
+			<location>
+				<city>BILBAO</city>
+				<country>Spain</country>
+				<street>Plaza de la Casilla 11</street>
+				<postalcode>48012</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014524</url>
+		</venue>
+		<startDate>Thu, 02 Apr 2009</startDate>
+		<startTime>21:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980057</tag>
+		<url>http://www.last.fm/event/980057</url>
+	</event>
+	<event>
+		<id>860765</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Mando Diao</artist>
+			<artist>Kissogram</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Palacio de Deportes de la Comunidad de Madrid</name>
+			<location>
+				<city>Madrid</city>
+				<country>Spain</country>
+				<street>Jorge Juan 99</street>
+				<postalcode>28009</postalcode>
+				<point>
+					<lat>40.423234</lat>
+					<long>-3.672654</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8795164</url>
+		</venue>
+		<startDate>Fri, 03 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>571</attendance>
+		<reviews>1</reviews>
+		<tag>lastfm:event=860765</tag>
+		<url>http://www.last.fm/event/860765</url>
+	</event>
+	<event>
+		<id>980058</id>
+		<title>Franz Ferdinand + Mando Diao + Kissogram</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Mando Diao</artist>
+			<artist>Kissogram</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>chill bill</name>
+			<location>
+				<city>Madrid</city>
+				<country>Spain</country>
+				<street>Rafael Herrera, 9</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>40.396764305572</lat>
+					<long>-3.6474609375</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8845730</url>
+		</venue>
+		<startDate>Fri, 03 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980058</tag>
+		<url>http://www.last.fm/event/980058</url>
+	</event>
+	<event>
+		<id>922810</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Palacio de los deportes</name>
+			<location>
+				<city>Madrid</city>
+				<country>Spain</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>40.423889</lat>
+					<long>-3.671667</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8973579</url>
+		</venue>
+		<startDate>Fri, 03 Apr 2009</startDate>
+		<startTime>23:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>14</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=922810</tag>
+		<url>http://www.last.fm/event/922810</url>
+	</event>
+	<event>
+		<id>860769</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Mando Diao</artist>
+			<artist>Kissogram</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Coliseo Ciudad de Atarfe</name>
+			<location>
+				<city>Atarfe</city>
+				<country>Spain</country>
+				<street>Avda de la Estación</street>
+				<postalcode>18230</postalcode>
+				<point>
+					<lat>37.220917</lat>
+					<long>-3.694139</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8817494</url>
+		</venue>
+		<startDate>Sat, 04 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>176</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=860769</tag>
+		<url>http://www.last.fm/event/860769</url>
+	</event>
+	<event>
+		<id>980062</id>
+		<title>Franz Ferdinand + Mando Diao + Kissogram</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Mando Diao</artist>
+			<artist>Kissogram</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>COLISEO ATARFE</name>
+			<location>
+				<city>ATARFE</city>
+				<country>Spain</country>
+				<street>Salida 236 de la AP-92</street>
+				<postalcode>18011</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014526</url>
+		</venue>
+		<startDate>Sat, 04 Apr 2009</startDate>
+		<startTime>21:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980062</tag>
+		<url>http://www.last.fm/event/980062</url>
+	</event>
+	<event>
+		<id>957332</id>
+		<title>Concierto Mando Diao + Franz Ferdinand en Coliseo Atarfe</title>
+		<artists>
+			<artist>Mando Diao</artist>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Mando Diao</headliner>
+		</artists>
+		<venue>
+			<name>Coliseo Atarfe</name>
+			<location>
+				<city>Atarfe (Granada)</city>
+				<country>Spain</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>37.222766</lat>
+					<long>-3.68516</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9008942</url>
+		</venue>
+		<startDate>Sat, 04 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/3260667.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/3260667.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/3260667.jpg</image>
+		<attendance>5</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=957332</tag>
+		<url>http://www.last.fm/event/957332</url>
+	</event>
+	<event>
+		<id>926064</id>
+		<title>STG Presents Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Paramount Theatre</name>
+			<location>
+				<city>Seattle, Wa</city>
+				<country>United States</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>47.60639</lat>
+					<long>-122.33083</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8896584</url>
+		</venue>
+		<startDate>Mon, 13 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>17</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=926064</tag>
+		<url>http://www.last.fm/event/926064</url>
+	</event>
+	<event>
+		<id>926237</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>The Fox Theater</name>
+			<location>
+				<city>Oakland, CA</city>
+				<country>United States</country>
+				<street>1807 Telegraph Ave.</street>
+				<postalcode>94612</postalcode>
+				<point>
+					<lat>37.808268</lat>
+					<long>-122.269901</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8993923</url>
+		</venue>
+		<startDate>Wed, 15 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>30</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=926237</tag>
+		<url>http://www.last.fm/event/926237</url>
+	</event>
+	<event>
+		<id>613000</id>
+		<title>Coachella Valley Music and Arts Festival</title>
+		<artists>
+			<artist>The Killers</artist>
+			<artist>Franz Ferdinand</artist>
+			<artist>The Cure</artist>
+			<artist>The Chemical Brothers</artist>
+			<artist>Yeah Yeah Yeahs</artist>
+			<artist>Thievery Corporation</artist>
+			<artist>Groove Armada</artist>
+			<artist>We Are Scientists</artist>
+			<artist>Morrissey</artist>
+			<artist>TV on the Radio</artist>
+			<artist>Leonard Cohen</artist>
+			<artist>Billy Talent</artist>
+			<artist>The Ting Tings</artist>
+			<artist>Paul McCartney</artist>
+			<artist>Devendra Banhart</artist>
+			<artist>James Morrison</artist>
+			<artist>The Crystal Method</artist>
+			<artist>My Bloody Valentine</artist>
+			<artist>Band of Horses</artist>
+			<artist>Paolo Nutini</artist>
+			<artist>Beirut</artist>
+			<artist>Peter Bjorn and John</artist>
+			<artist>Antony and the Johnsons</artist>
+			<artist>Calexico</artist>
+			<artist>Fleet Foxes</artist>
+			<artist>M. Ward</artist>
+			<artist>Lupe Fiasco</artist>
+			<artist>The Kills</artist>
+			<artist>Public Enemy</artist>
+			<artist>Crystal Castles</artist>
+			<artist>The Black Keys</artist>
+			<artist>Okkervil River</artist>
+			<artist>Felix da Housecat</artist>
+			<artist>MSTRKRFT</artist>
+			<artist>The Presets</artist>
+			<artist>Mastodon</artist>
+			<artist>The Orb</artist>
+			<artist>Late of the Pier</artist>
+			<artist>The Hold Steady</artist>
+			<artist>Atmosphere</artist>
+			<artist>Los Campesinos!</artist>
+			<artist>Junior Boys</artist>
+			<artist>Paul Weller</artist>
+			<artist>Girl Talk</artist>
+			<artist>Silversun Pickups</artist>
+			<artist>Lykke Li</artist>
+			<artist>Liars</artist>
+			<artist>Turbonegro</artist>
+			<artist>Sébastien Tellier</artist>
+			<artist>Clipse</artist>
+			<artist>Roni Size</artist>
+			<artist>The Horrors</artist>
+			<artist>Hercules and Love Affair</artist>
+			<artist>The Brian Jonestown Massacre</artist>
+			<artist>Daedelus</artist>
+			<artist>Glasvegas</artist>
+			<artist>Friendly Fires</artist>
+			<artist>The Courteeners</artist>
+			<artist>Molotov</artist>
+			<artist>Dr. Dog</artist>
+			<artist>Surkin</artist>
+			<artist>Gui Boratto</artist>
+			<artist>Conor Oberst</artist>
+			<artist>People Under the Stairs</artist>
+			<artist>Para One</artist>
+			<artist>Noah and the Whale</artist>
+			<artist>Drive-By Truckers</artist>
+			<artist>Busy P</artist>
+			<artist>No Age</artist>
+			<artist>Glass Candy</artist>
+			<artist>X</artist>
+			<artist>White Lies</artist>
+			<artist>Cage the Elephant</artist>
+			<artist>Plump DJs</artist>
+			<artist>Gang Gang Dance</artist>
+			<artist>Flying Lotus</artist>
+			<artist>Michael Franti &amp; Spearhead</artist>
+			<artist>Etienne de Crécy</artist>
+			<artist>Throbbing Gristle</artist>
+			<artist>Blitzen Trapper</artist>
+			<artist>Cloud Cult</artist>
+			<artist>Tinariwen</artist>
+			<artist>Jenny Lewis</artist>
+			<artist>Bob Mould</artist>
+			<artist>Ida Maria</artist>
+			<artist>A Place to Bury Strangers</artist>
+			<artist>The Gaslight Anthem</artist>
+			<artist>Superchunk</artist>
+			<artist>Peanut Butter Wolf</artist>
+			<artist>Switch</artist>
+			<artist>The Bug</artist>
+			<artist>Mike Patton</artist>
+			<artist>Ariel Pink's Haunted Graffiti</artist>
+			<artist>Amanda Palmer</artist>
+			<artist>M.A.N.D.Y.</artist>
+			<artist>Genghis Tron</artist>
+			<artist>Crookers</artist>
+			<artist>Ghostland Observatory</artist>
+			<artist>The Bloody Beetroots</artist>
+			<artist>Fucked Up</artist>
+			<artist>Rahzel</artist>
+			<artist>K'naan</artist>
+			<artist>Perry Farrell</artist>
+			<artist>Dear and the Headlights</artist>
+			<artist>Vivian Girls</artist>
+			<artist>Bajofondo</artist>
+			<artist>The Airborne Toxic Event</artist>
+			<artist>The Aggrolites</artist>
+			<artist>Themselves</artist>
+			<artist>Roni Size &amp; Reprazent</artist>
+			<artist>Henry Rollins</artist>
+			<artist>Spearhead</artist>
+			<artist>Steve Aoki</artist>
+			<artist>Michael Franti</artist>
+			<artist>Buraka Som Sistema</artist>
+			<artist>Drop the Lime</artist>
+			<artist>Mexican Institute of Sound</artist>
+			<artist>N.A.S.A.</artist>
+			<artist>Supermayer</artist>
+			<artist>The Murder City Devils</artist>
+			<artist>Kode9</artist>
+			<artist>The Knux</artist>
+			<artist>Christopher Lawrence</artist>
+			<artist>Ryan Bingham</artist>
+			<artist>The Night Marchers</artist>
+			<artist>Samiyam</artist>
+			<artist>Alberta Cross</artist>
+			<artist>DJ Craze</artist>
+			<artist>Warrior Queen</artist>
+			<artist>TRVS DJAM</artist>
+			<artist>Ras G</artist>
+			<artist>Conor Oberst and the Mystic Valley Band</artist>
+			<artist>thenewno2</artist>
+			<artist>6BLOCC</artist>
+			<artist>Electric Touch</artist>
+			<artist>Fauna</artist>
+			<artist>Gaslamp Killer</artist>
+			<artist>DLX</artist>
+			<artist>Daddy Kev</artist>
+			<artist>Nocando</artist>
+			<artist>Douster</artist>
+			<artist>DJ Craze and DJ Klever</artist>
+			<artist>The Bomb Squad</artist>
+			<artist>Booker T. Jones</artist>
+			<artist>Zane Lowe</artist>
+			<artist>Zizek</artist>
+			<artist>EL G</artist>
+			<artist>Patton &amp; Rahzel</artist>
+			<artist>shepard fairey</artist>
+			<artist>marshall barnes</artist>
+			<artist>DJ Marshall Barnes</artist>
+			<headliner>The Killers</headliner>
+		</artists>
+		<venue>
+			<name>Empire Polo Fields</name>
+			<location>
+				<city>Indio</city>
+				<country>United States</country>
+				<street>Coachella Valley Music and Arts Festival</street>
+				<postalcode>92201</postalcode>
+				<point>
+					<lat>33.678992</lat>
+					<long>-116.237152</long>
+				</point>
+				<timezone>PST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779846</url>
+		</venue>
+		<startDate>Fri, 17 Apr 2009</startDate>
+		<endDate>Sun, 19 Apr 2009</endDate>
+		<description>
+			<![CDATA[<div class="bbcode">Lineup notes: Chemical Brothers is a DJ set, The Orb is a Live set, Groove Armada is a DJ set, Crystal Method is a LIVE set, Zizek Club (AKA Zizek) is a touring group of three DJs-Fauna, El G &amp; Douster, Para One is a Live Set, Henry Rollins will be spoken word &amp; Shepard Fairey will be djing. Dome lineup details to come...<br />
+			<br />
+			<br />
+			Ticket info:<br />
+			*3-Day passes: $269.00 + $3 charity + applicable service fees, *Single Day Tickets: $99.00 + $1 charity + applicable service fees, *Camping tickets are $55 (+ applicable service charges)<br />
+			<br />
+			<span style="text-decoration:underline;">
+				<strong>History of Events</strong>
+			</span>
+			<br />
+			*10.6.08: Dates for Coachella '09 revealed, Buraka Som Sistema confirmed by Goldenvoice blog<br />
+			*1.27.09: Lineup was to be announced on Kevin and Bean's morning show (KROQ) at 7:20AM PST. They revealed that the line-up announcement has been postponed.<br />
+			*1.30.09A: Lineup posted at Coachella.com between 12-1AM. <br />
+			*1.30.09B: Tickets go on sale at 9AM <a href="http://www.ticketmaster.com/search?tm_link=tm_homeA_header_search&amp;q=coachella&amp;search.x=0&amp;search.y=0" rel="nofollow">Tickets here</a>
+			<br />
+			*2.10.09 Jenny Lewis moved from Sunday to Saturday<br />
+			*2.24.09 The Murder City Devils were added to Sunday<br />
+		*3.9.09 The Bomb Squad, Devendra Banhart, Flying Lotus, The Professionals, Kode 9, 6BLOCC, Daddy Kev, The Chemical Brothers, The Orb, Daedulus, Etienne de Crécy, Nocando, Busy P, Plump DJs, Gaslamp Killer VS DLX, Ras G &amp; Samiym and MC Kemst added to the lineup. Adds were released through a new Zine called Coachella Digital. Download yours <a href="http://coachelladigital.com/" rel="nofollow">here</a>.Also, Amy Winehouse cancelled.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/25328605.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/25328605.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/25328605.jpg</image>
+		<attendance>749</attendance>
+		<reviews>1</reviews>
+		<tag>lastfm:event=613000</tag>
+		<url>http://www.last.fm/event/613000</url>
+	</event>
+	<event>
+		<id>926227</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Marquee Theatre</name>
+			<location>
+				<city>Tempe</city>
+				<country>United States</country>
+				<street>730 N Mill Ave</street>
+				<postalcode>85281</postalcode>
+				<point>
+					<lat>33.436661</lat>
+					<long>-111.94371</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8788413</url>
+		</venue>
+		<startDate>Sat, 18 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>24</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=926227</tag>
+		<url>http://www.last.fm/event/926227</url>
+	</event>
+	<event>
+		<id>924623</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Rialto Theatre</name>
+			<location>
+				<city>Tucson</city>
+				<country>United States</country>
+				<street>318 E. Congress St.</street>
+				<postalcode>85701</postalcode>
+				<point>
+					<lat>32.222041</lat>
+					<long>-110.966412</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8787043</url>
+		</venue>
+		<startDate>Sun, 19 Apr 2009</startDate>
+		<startTime>19:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>15</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=924623</tag>
+		<url>http://www.last.fm/event/924623</url>
+	</event>
+	<event>
+		<id>921514</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>The Great Salt Air</name>
+			<location>
+				<city>Magna, Utah</city>
+				<country>United States</country>
+				<street>12408 W. Saltair Dr.</street>
+				<postalcode>84044</postalcode>
+				<point>
+					<lat>40.70917</lat>
+					<long>-112.10083</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8865314</url>
+		</venue>
+		<startDate>Tue, 21 Apr 2009</startDate>
+		<startTime>19:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>12</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=921514</tag>
+		<url>http://www.last.fm/event/921514</url>
+	</event>
+	<event>
+		<id>930443</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Ogden Theater</name>
+			<location>
+				<city>Denver</city>
+				<country>United States</country>
+				<street>935 E. Colfax Ave.</street>
+				<postalcode>80218</postalcode>
+				<point>
+					<lat>39.740048</lat>
+					<long>-104.975276</long>
+				</point>
+				<timezone>MST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778643</url>
+		</venue>
+		<startDate>Wed, 22 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>16</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=930443</tag>
+		<url>http://www.last.fm/event/930443</url>
+	</event>
+	<event>
+		<id>927142</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>House of Blues</name>
+			<location>
+				<city>Dallas</city>
+				<country>United States</country>
+				<street>2200 N. Lamar Street</street>
+				<postalcode>75202</postalcode>
+				<point>
+					<lat>32.785335</lat>
+					<long>-96.808253</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8886543</url>
+		</venue>
+		<startDate>Fri, 24 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>30</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=927142</tag>
+		<url>http://www.last.fm/event/927142</url>
+	</event>
+	<event>
+		<id>981234</id>
+		<title>102.1 The Edge Presents… Franz Ferdinand with Born Ruffians</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>House of Blues Dallas</name>
+			<location>
+				<city>Dallas</city>
+				<country>United States</country>
+				<street>2200 North Lamar St.</street>
+				<postalcode>75202</postalcode>
+				<point>
+					<lat>32.785335</lat>
+					<long>-96.808253</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014794</url>
+		</venue>
+		<startDate>Fri, 24 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>2</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=981234</tag>
+		<url>http://www.last.fm/event/981234</url>
+	</event>
+	<event>
+		<id>930136</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>La Zona Rosa</name>
+			<location>
+				<city>Austin</city>
+				<country>United States</country>
+				<street>612 W. 4th St.</street>
+				<postalcode>78701</postalcode>
+				<point>
+					<lat>30.268283</lat>
+					<long>-97.749779</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779651</url>
+		</venue>
+		<startDate>Sat, 25 Apr 2009</startDate>
+		<startTime>21:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>18</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=930136</tag>
+		<url>http://www.last.fm/event/930136</url>
+	</event>
+	<event>
+		<id>925769</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Beaumont Club</name>
+			<location>
+				<city>Kansas City</city>
+				<country>United States</country>
+				<street>4050 Pennsylvania</street>
+				<postalcode>64111</postalcode>
+				<point>
+					<lat>39.054265</lat>
+					<long>-94.592848</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8782605</url>
+		</venue>
+		<startDate>Mon, 27 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>18</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=925769</tag>
+		<url>http://www.last.fm/event/925769</url>
+	</event>
+	<event>
+		<id>926262</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>First Avenue</name>
+			<location>
+				<city>Minneapolis</city>
+				<country>United States</country>
+				<street>701 First Avenue North</street>
+				<postalcode>55403</postalcode>
+				<point>
+					<lat>44.978286</lat>
+					<long>-93.276083</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778395</url>
+		</venue>
+		<startDate>Tue, 28 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>25</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=926262</tag>
+		<url>http://www.last.fm/event/926262</url>
+	</event>
+	<event>
+		<id>924194</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>The Rave</name>
+			<location>
+				<city>Milwaukee</city>
+				<country>United States</country>
+				<street>2401 W. Wisconsin Ave.</street>
+				<postalcode>53233</postalcode>
+				<point>
+					<lat>43.038352</lat>
+					<long>-87.943239</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778647</url>
+		</venue>
+		<startDate>Wed, 29 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>20</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=924194</tag>
+		<url>http://www.last.fm/event/924194</url>
+	</event>
+	<event>
+		<id>927014</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Riviera Theater</name>
+			<location>
+				<city>Chicago</city>
+				<country>United States</country>
+				<street>4746 N. Racine</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>41.968586</lat>
+					<long>-87.660043</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779657</url>
+		</venue>
+		<startDate>Thu, 30 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>44</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=927014</tag>
+		<url>http://www.last.fm/event/927014</url>
+	</event>
+	<event>
+		<id>926936</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Newport Music Hall</name>
+			<location>
+				<city>Columbus</city>
+				<country>United States</country>
+				<street>1722 North High Street</street>
+				<postalcode>43201</postalcode>
+				<point>
+					<lat>39.997447</lat>
+					<long>-83.00749</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8782053</url>
+		</venue>
+		<startDate>Sat, 02 May 2009</startDate>
+		<startTime>19:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>45</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=926936</tag>
+		<url>http://www.last.fm/event/926936</url>
+	</event>
+	<event>
+		<id>933252</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Clutch Cargo's</name>
+			<location>
+				<city>Pontiac, MI</city>
+				<country>United States</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>42.63889</lat>
+					<long>-83.29111</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8956634</url>
+		</venue>
+		<startDate>Sun, 03 May 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Franz Ferdinand w.s.g.<br />
+			<br />
+		Franz Ferdinand are a Scottish rock band that formed in Glasgow, Scotland in 2002. Named after Archduke Franz Ferdinand of Austria, the band comprises Alex Kapranos (lead vocals and guitar), Bob Hardy (bass guitar), Nick McCarthy (rhythm guitar, keyboards and backing vocals), and Paul Thomson (drums, percussion and backing vocals). The band first experienced chart success when their second single &quot;Take Me Out&quot; reached #3 in the UK Charts,[5] followed by their debut album Franz Ferdinand which debuted on the UK album chart at #3.[6] The band went on to win the 2004 Mercury Music Prize and two BRIT Awards in 2005 for Best British Group and Best British Rock Act. NME named Franz Ferdinand as their Album of the Year. From the album, three top-ten singles were released, &quot;Take Me Out&quot;, &quot;The Dark of the Matinée&quot; and &quot;This Fire&quot;.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>11</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=933252</tag>
+		<url>http://www.last.fm/event/933252</url>
+	</event>
+	<event>
+		<id>981322</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Clutch Cargos</name>
+			<location>
+				<city>Pontiac</city>
+				<country>United States</country>
+				<street>65 East Huron</street>
+				<postalcode>48342</postalcode>
+				<point>
+					<lat>42.639654</lat>
+					<long>-83.290325</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014784</url>
+		</venue>
+		<startDate>Sun, 03 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=981322</tag>
+		<url>http://www.last.fm/event/981322</url>
+	</event>
+	<event>
+		<id>925922</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Kool Haus</name>
+			<location>
+				<city>Toronto</city>
+				<country>Canada</country>
+				<street>132 Queens Quay East</street>
+				<postalcode>M5A 3Y5</postalcode>
+				<point>
+					<lat>43.64423</lat>
+					<long>-79.368152</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778230</url>
+		</venue>
+		<startDate>Mon, 04 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>63</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=925922</tag>
+		<url>http://www.last.fm/event/925922</url>
+	</event>
+	<event>
+		<id>926048</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Electric Factory</name>
+			<location>
+				<city></city>
+				<country>United States</country>
+				<street>421 North 7th Street</street>
+				<postalcode>19123</postalcode>
+				<point>
+					<lat>39.958933</lat>
+					<long>-75.150275</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778813</url>
+		</venue>
+		<startDate>Wed, 06 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>31</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=926048</tag>
+		<url>http://www.last.fm/event/926048</url>
+	</event>
+	<event>
+		<id>923835</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Roseland Ballroom</name>
+			<location>
+				<city>New York</city>
+				<country>United States</country>
+				<street>239 West 52nd Street</street>
+				<postalcode>10019</postalcode>
+				<point>
+					<lat>40.763089</lat>
+					<long>-73.984079</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8780835</url>
+		</venue>
+		<startDate>Thu, 07 May 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Door 7 p.m. / Show 8 p.m.<br />
+			$32.50 advance / $35 day of show<br />
+			All Ages<br />
+			<br />
+		On Sale 2/7 at 10 a.m. EST</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>52</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=923835</tag>
+		<url>http://www.last.fm/event/923835</url>
+	</event>
+	<event>
+		<id>925742</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Born Ruffians</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Lupo's</name>
+			<location>
+				<city>Providence</city>
+				<country>United States</country>
+				<street>79 Washington St.</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>41.823453</lat>
+					<long>-71.41419</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8780301</url>
+		</venue>
+		<startDate>Fri, 08 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>22</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=925742</tag>
+		<url>http://www.last.fm/event/925742</url>
+	</event>
+	<event>
+		<id>859758</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<artist>Kissogram</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Paradiso</name>
+			<location>
+				<city>Amsterdam</city>
+				<country>Netherlands</country>
+				<street>Weteringschans 6-8</street>
+				<postalcode>1017 SG</postalcode>
+				<point>
+					<lat>52.362252</lat>
+					<long>4.884282</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778456</url>
+		</venue>
+		<startDate>Mon, 11 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>178</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=859758</tag>
+		<url>http://www.last.fm/event/859758</url>
+	</event>
+	<event>
+		<id>980322</id>
+		<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+		<artists>
+			<artist>Pinkpop</artist>
+			<artist>The Killers</artist>
+			<artist>Franz Ferdinand</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Placebo</artist>
+			<artist>Depeche Mode</artist>
+			<artist>Keane</artist>
+			<artist>The Kooks</artist>
+			<artist>Elbow</artist>
+			<artist>Amy Macdonald</artist>
+			<artist>Anouk</artist>
+			<artist>Bruce Springsteen &amp; The E Street Band</artist>
+			<headliner>Pinkpop</headliner>
+		</artists>
+		<venue>
+			<name>Megaland</name>
+			<location>
+				<city>Landgraaf</city>
+				<country>Netherlands</country>
+				<street>Hofstraat 15</street>
+				<postalcode>6372 XC</postalcode>
+				<point>
+					<lat>50.879881</lat>
+					<long>6.019273</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8780355</url>
+		</venue>
+		<startDate>Sat, 30 May 2009</startDate>
+		<startTime>15:00</startTime>
+		<description></description>
+		<image size="small"></image>
+		<image size="medium"></image>
+		<image size="large"></image>
+		<attendance>10</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980322</tag>
+		<url>http://www.last.fm/event/980322</url>
+	</event>
+	<event>
+		<id>979916</id>
+		<title>Franz Ferdinand</title>
+		<artists>
+			<artist>Franz Ferdinand</artist>
+			<headliner>Franz Ferdinand</headliner>
+		</artists>
+		<venue>
+			<name>Jelling Musik Festival</name>
+			<location>
+				<city>Jelling</city>
+				<country>Denmark</country>
+				<street>Mølvangsvej 66 B</street>
+				<postalcode>7300</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014472</url>
+		</venue>
+		<startDate>Sat, 30 May 2009</startDate>
+		<startTime>21:20</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=979916</tag>
+		<url>http://www.last.fm/event/979916</url>
+	</event>
+	<event>
+		<id>740271</id>
+		<title>Pinkpop 2009</title>
+		<artists>
+			<artist>The Killers</artist>
+			<artist>Franz Ferdinand</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Placebo</artist>
+			<artist>Depeche Mode</artist>
+			<artist>Keane</artist>
+			<artist>The Kooks</artist>
+			<artist>Bruce Springsteen</artist>
+			<artist>The All-American Rejects</artist>
+			<artist>Billy Talent</artist>
+			<artist>Katy Perry</artist>
+			<artist>The Ting Tings</artist>
+			<artist>Elbow</artist>
+			<artist>James Morrison</artist>
+			<artist>Chris Cornell</artist>
+			<artist>Pendulum</artist>
+			<artist>Amy Macdonald</artist>
+			<artist>Madness</artist>
+			<artist>Maria Mena</artist>
+			<artist>Me First and the Gimme Gimmes</artist>
+			<artist>Anouk</artist>
+			<artist>Just Jack</artist>
+			<artist>Shinedown</artist>
+			<artist>The Script</artist>
+			<artist>White Lies</artist>
+			<artist>Hollywood Undead</artist>
+			<artist>Volbeat</artist>
+			<artist>Novastar</artist>
+			<artist>Milow</artist>
+			<artist>De Jeugd van Tegenwoordig</artist>
+			<artist>De Staat</artist>
+			<artist>Kyteman</artist>
+			<artist>Kings of the Day</artist>
+			<headliner>The Killers</headliner>
+		</artists>
+		<venue>
+			<name>Megaland</name>
+			<location>
+				<city>Landgraaf</city>
+				<country>Netherlands</country>
+				<street>Hofstraat 13 - 15</street>
+				<postalcode>6372 XC</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8960438</url>
+		</venue>
+		<startDate>Sat, 30 May 2009</startDate>
+		<endDate>Mon, 01 Jun 2009</endDate>
+		<description>
+			<![CDATA[<div class="bbcode">Tickets are available <a href="http://www.ticketmaster.nl/html/searchResult.htmI?&amp;keyword=pinkpop&amp;defaultKeyword=Vul+in+naam+artiest+of+locatie&amp;l=EN" rel="nofollow">on-line</a> and at the official ticketshops.<br />
+			<br />
+			<strong>3-day passe-partout (including camping site):</strong> € 140<br />
+			<strong>Saturday-only ticket:</strong> € 75 <span style="text-decoration:underline;">
+				<strong>SOLD OUT</strong>
+			</span>
+			<br />
+			<strong>Sunday-only ticket:</strong> € 75<br />
+		<strong>Monday-only ticket:</strong> € 75</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/23814409.png</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/23814409.png</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/23814409.png</image>
+		<attendance>826</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=740271</tag>
+		<url>http://www.last.fm/event/740271</url>
+	</event>
+	<event>
+		<id>980323</id>
+		<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+		<artists>
+			<artist>Pinkpop</artist>
+			<artist>The Killers</artist>
+			<artist>Franz Ferdinand</artist>
+			<artist>Placebo</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Depeche Mode</artist>
+			<artist>Keane</artist>
+			<artist>The Kooks</artist>
+			<artist>Amy Macdonald</artist>
+			<artist>Anouk</artist>
+			<artist>Bruce Springsteen &amp; The E Street Band</artist>
+			<headliner>Pinkpop</headliner>
+		</artists>
+		<venue>
+			<name>Megaland</name>
+			<location>
+				<city>Landgraaf</city>
+				<country>Netherlands</country>
+				<street>Hofstraat 15</street>
+				<postalcode>6372 XC</postalcode>
+				<point>
+					<lat>50.879881</lat>
+					<long>6.019273</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8780355</url>
+		</venue>
+		<startDate>Sun, 31 May 2009</startDate>
+		<startTime>13:00</startTime>
+		<description></description>
+		<image size="small"></image>
+		<image size="medium"></image>
+		<image size="large"></image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980323</tag>
+		<url>http://www.last.fm/event/980323</url>
+	</event>
+	<event>
+		<id>973802</id>
+		<title>Pinkpop</title>
+		<artists>
+			<artist>Snow Patrol</artist>
+			<artist>Franz Ferdinand</artist>
+			<artist>The Kooks</artist>
+			<artist>The All-American Rejects</artist>
+			<artist>Katy Perry</artist>
+			<artist>The Script</artist>
+			<artist>Novastar</artist>
+			<artist>De Jeugd van Tegenwoordig</artist>
+			<artist>The TingTings</artist>
+			<headliner>Snow Patrol</headliner>
+		</artists>
+		<venue>
+			<name>Festivalweide</name>
+			<location>
+				<city>landgraaf</city>
+				<country>Netherlands</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8999452</url>
+		</venue>
+		<startDate>Mon, 01 Jun 2009</startDate>
+		<description>
+		<![CDATA[<div class="bbcode">Jaarlijks driedaags pinksterfestival op Landgraaf.</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/13341777.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/13341777.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/13341777.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=973802</tag>
+	<url>http://www.last.fm/event/973802</url>
+</event>
+<event>
+	<id>980324</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Placebo</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Mon, 01 Jun 2009</startDate>
+	<startTime>12:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980324</tag>
+	<url>http://www.last.fm/event/980324</url>
+</event>
+<event>
+	<id>987396</id>
+	<title>Franz Ferdinand</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>+more T.B.A.</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Terra Vibe</name>
+		<location>
+			<city>Athínai</city>
+			<country>Greece</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>37.981749</lat>
+				<long>23.731743</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784721</url>
+	</venue>
+	<startDate>Wed, 03 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=987396</tag>
+	<url>http://www.last.fm/event/987396</url>
+</event>
+<event>
+	<id>854935</id>
+	<title>Selector Festival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Röyksopp</artist>
+		<artist>Orbital</artist>
+		<artist>Fischerspooner</artist>
+		<artist>Digitalism</artist>
+		<artist>CSS</artist>
+		<artist>New Young Pony Club</artist>
+		<artist>Dizzee Rascal</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Błonia</name>
+		<location>
+			<city>Kraków</city>
+			<country>Poland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.7333333</lat>
+				<long>18.5166667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8818785</url>
+	</venue>
+	<startDate>Fri, 05 Jun 2009</startDate>
+	<endDate>Sat, 06 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">CENY BILETÓW: <br />
+		<br />
+		Karnet 2 dni (5-6.06.2009) - 200 PLN <br />
+		Bilet jednodniowy (5.06.2009) - 135 PLN <br />
+	Bilet jednodniowy (6.06.2009) - 135 PLN</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>1739</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=854935</tag>
+	<url>http://www.last.fm/event/854935</url>
+</event>
+<event>
+	<id>723007</id>
+	<title>Southside Festival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Moby</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Disturbed</artist>
+		<artist>Editors</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Ben Harper</artist>
+		<artist>Brand New</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Faith No More</artist>
+		<artist>Duffy</artist>
+		<artist>Kraftwerk</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Anti-Flag</artist>
+		<artist>Less Than Jake</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>The Sounds</artist>
+		<artist>Die Ärzte</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>The Wombats</artist>
+		<artist>Social Distortion</artist>
+		<artist>No Use for a Name</artist>
+		<artist>Lykke Li</artist>
+		<artist>Ska-P</artist>
+		<artist>Fettes Brot</artist>
+		<artist>Blood Red Shoes</artist>
+		<artist>The Living End</artist>
+		<artist>The Whip</artist>
+		<artist>Clueso</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Culcha Candela</artist>
+		<artist>Johnossi</artist>
+		<artist>Tomte</artist>
+		<artist>Portugal. The Man</artist>
+		<artist>Eskimo Joe</artist>
+		<artist>Dendemann</artist>
+		<artist>Nneka</artist>
+		<artist>Get Well Soon</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Frank Turner</artist>
+		<artist>Karamelo Santo</artist>
+		<artist>Bosse</artist>
+		<artist>The Asteroids Galaxy Tour</artist>
+		<artist>Luis und Laserpower</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Flugplatz (Neuhausen ob Eck)</name>
+		<location>
+			<city>Neuhausen ob Eck</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.972415</lat>
+				<long>8.911715</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8790598</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">TIckets: <a href="http://southside.de/tickets/" rel="nofollow">http://southside.de/tickets/</a><br />
+		<br />
+		Das Southside startete in den Festival-Sommer zum ersten Mal 1999 – damals noch auf dem Flugplatz in Neubiberg. 2008 fand es nun zum zehnten Mal in Folge auf einem 800m hoch gelegenen Plateau in Neuhausen ob Eck in der Nähe von Tuttlingen statt…<br />
+		<br />
+		Neuhausen ob Eck liegt zwischen München, Stuttgart und Freiburg, nicht allzuweit vom Bodensee entfernt. (<a href="http://www.southside.de" rel="nofollow">www.southside.de</a>)<br />
+		<br />
+		<br />
+		Das Southside ist ein Musikfestival mit Schwerpunkt Alternative Rock, das seit 1999 jährlich stattfindet. Seit 2000 ist das Festival in Neuhausen ob Eck bei Tuttlingen (Baden-Württemberg) auf einem ehemaligen Bundeswehrflugplatz (EDSN) beheimatet, das erste Southside hatte zuvor ebenfalls auf einem ehemaligen Militärflugplatz in Neubiberg bei München stattgefunden.<br />
+		<br />
+		Die Bezeichnung Southside leitet sich vom Englischen south side ab, was soviel wie südliche Seite bedeutet und auf die Lage des Festivals im Süden Deutschlands hinweist. Gleichzeitig findet in Norddeutschland das ältere Schwester-Festival Hurricane statt, welches größtenteils das selbe Lineup aufweist.<br />
+		<br />
+		Veranstaltet werden die Zwillingsfestivals vom deutschen Konzertveranstalter FKP Scorpio und der KOKO &amp; DTK Entertainment GmbH. (<a href="http://de.wikipedia.org/wiki/Southside" rel="nofollow">http://de.wikipedia.org/wiki/Southside</a>)<br />
+		<br />
+		In English:<br />
+		<br />
+		The Southside Festival, also just Southside, is a music festival that takes place near Tuttlingen, southern Germany, usually every June. It is promoted by German private music television channel VIVA, which belongs to Viacom, the MTV Network’s parent company, since the end of 2004. The festival and its guests are generally associated with the alternative part of mainstream music, although the festival has been becoming more and more mainstream over the years.<br />
+		<br />
+		The Hurricane Festival, often referred to as the mother of Southside, takes place on the same three days in the very north of Germany (contrary to Southside, which is in the very south). Together they’re a twin festival, since they are on the same days and usually have the same lineup with only few exceptions.<br />
+		<br />
+		After the great success of the Hurricane Festival, FKP Scorpio decided to make a similar event in the south of Germany. 1999 a former military airbase in Neubiberg, near Munich, was selected. In 2000 the festival was moved to another former military airbase, this time in Neuhausen ob Eck, which is near Freiburg and Stuttgart.<br />
+		<br />
+	Because of the relative proximity to other countries (France, Austria, Switzerland and Liechtenstein are all less than 100km away), the audience is very multinational. In 2003, the calculated maximum capacity of around 40.000 people was reached and the festival has been sold out well in advance since. (<a href="http://en.wikipedia.org/wiki/Southside_Festival" rel="nofollow">http://en.wikipedia.org/wiki/Southside_Festival</a>)</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25383543.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25383543.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25383543.jpg</image>
+	<attendance>730</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=723007</tag>
+	<url>http://www.last.fm/event/723007</url>
+</event>
+<event>
+	<id>668478</id>
+	<title>Hurricane Festival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Moby</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Disturbed</artist>
+		<artist>Editors</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Ben Harper</artist>
+		<artist>Brand New</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Faith No More</artist>
+		<artist>Duffy</artist>
+		<artist>Kraftwerk</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Anti-Flag</artist>
+		<artist>Less Than Jake</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>The Sounds</artist>
+		<artist>Die Ärzte</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>The Wombats</artist>
+		<artist>Social Distortion</artist>
+		<artist>No Use for a Name</artist>
+		<artist>Lykke Li</artist>
+		<artist>Ska-P</artist>
+		<artist>Fettes Brot</artist>
+		<artist>Blood Red Shoes</artist>
+		<artist>Ladyhawke</artist>
+		<artist>The Living End</artist>
+		<artist>The Whip</artist>
+		<artist>Clueso</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Culcha Candela</artist>
+		<artist>Johnossi</artist>
+		<artist>Tomte</artist>
+		<artist>Portugal. The Man</artist>
+		<artist>Eskimo Joe</artist>
+		<artist>Dendemann</artist>
+		<artist>Nneka</artist>
+		<artist>Get Well Soon</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Frank Turner</artist>
+		<artist>Karamelo Santo</artist>
+		<artist>Bosse</artist>
+		<artist>The Asteroids Galaxy Tour</artist>
+		<artist>Sky Larkin</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Eichenring</name>
+		<location>
+			<city>Scheeßel</city>
+			<country>Germany</country>
+			<street>Eichenring</street>
+			<postalcode>27383</postalcode>
+			<point>
+				<lat>53.164562</lat>
+				<long>9.496715</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780778</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Das Hurricane Festival ist ein seit 1997 auf der Motorrad-Sandrennbahn Eichenring bei Scheeßel stattfindendes Musikfestival. Mit seinen über 50.000 Besuchern jährlich (2001 und 2005 sogar um 60.000, 2008 mit 70.000 ausverkauft) zählt es zu den größten Musikfestivals in Deutschland. Gleichzeitig mit dem „Schwesterfestival“ Southside wird es jeweils am vorletzten Juni-Wochenende von der FKP Scorpio Konzertproduktionen GmbH und KoKo Konstanz GmbH veranstaltet. Wie viele andere großen Festivals setzt das Hurricane auf eine Mischung aus Rock, Alternative und Pop, wobei neben etablierten Stars auch Neulinge zum Zuge kommen.<br />
+		(<a href="http://de.wikipedia.org/wiki/Hurricane_Festival" rel="nofollow">http://de.wikipedia.org/wiki/Hurricane_Festival</a>)<br />
+		<br />
+		The Hurricane Festival, also just Hurricane, is a music festival that takes place in Scheeßel near Bremen, Germany, usually every June. It is promoted by German private music television channel VIVA, which belongs to Viacom, the MTV Network's parent company, since the end of 2004.<br />
+	(<a href="http://en.wikipedia.org/wiki/Hurricane_Festival" rel="nofollow">http://en.wikipedia.org/wiki/Hurricane_Festival</a>)</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25350879.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25350879.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25350879.jpg</image>
+	<attendance>1390</attendance>
+	<reviews>3</reviews>
+	<tag>lastfm:event=668478</tag>
+	<url>http://www.last.fm/event/668478</url>
+</event>
+<event>
+	<id>823646</id>
+	<title>Hovefestivalen (Hove Festival)</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>The Ting Tings</artist>
+		<artist>M83</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>M. Ward</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>All That Remains</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Fujiya &amp; Miyagi</artist>
+		<artist>Q-Tip</artist>
+		<artist>Parkway Drive</artist>
+		<artist>White Lies</artist>
+		<artist>Metronomy</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Crookers</artist>
+		<artist>Yuksek</artist>
+		<artist>Benea Reach</artist>
+		<artist>I Was A King</artist>
+		<artist>hockey</artist>
+		<artist>Casiokids</artist>
+		<artist>Fjorden Baby!</artist>
+		<artist>The New Wine</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Tromøya</name>
+		<location>
+			<city>Arendal</city>
+			<country>Norway</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>58.4602778</lat>
+				<long>8.7666667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8797402</url>
+	</venue>
+	<startDate>Mon, 22 Jun 2009</startDate>
+	<endDate>Thu, 25 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">About 40% of the bands and artists are now announced, so there is still quite a few to go for those still not satisfied. Newest announcement was the French at Yuksek.<br />
+		<br />
+	Bands and artists that are known to be considered book / in negotiations with, but yet unconfirmed: Architects (UK).</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+	<attendance>109</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=823646</tag>
+	<url>http://www.last.fm/event/823646</url>
+</event>
+<event>
+	<id>918445</id>
+	<title>T-Mobile INmusic festival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Moby</artist>
+		<artist>Lily Allen</artist>
+		<artist>N*E*R*D</artist>
+		<artist>Kraftwerk</artist>
+		<artist>Art Brut</artist>
+		<artist>Anthrax</artist>
+		<artist>Dimmu Borgir</artist>
+		<artist>Sergent Garcia</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Otok Hrvatske Mladeži</name>
+		<location>
+			<city>Zagreb, Grad</city>
+			<country>Croatia</country>
+			<street>RŠC Jarun</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.8</lat>
+				<long>16</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8898037</url>
+	</venue>
+	<startDate>Wed, 24 Jun 2009</startDate>
+	<endDate>Thu, 25 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Najavljen je i prvi izvođač ovogodišnjeg T-Mobile INmusic festivala - najutjecajnija svjetska elektronska grupa - Kraftwerk. Posebna novost je da se ove godine uvodi još jedan open-air stage, Tuborg Metal Stage, koji će se posvetiti žešćem zvuku. Na festivalu će nastupiti više od 40 stranih i domaćih izvođača, a održat će se 24. i 25. lipnja na jarunskom Otoku hrvatske mladeži. Ulaznice su u prodaji od 09.02. u T-centrima u Hrvatskoj, a za studente imamo poseban popust!<br />
+		<br />
+		Cijena festivalske ulaznice (za dva dana):<br />
+		<br />
+		* 350 kn   09.02. - 01.03.2009.<br />
+		* 400 kn   01.03. - 01.05.2009.<br />
+		* 450 kn   01.05. - 15.06.2009.<br />
+		* 500 kn   15.06. - 24.06.2009.<br />
+		* *na dan festivala ulaznica je skuplja za 50 kn<br />
+		<br />
+		Cijena dnevne ulaznice (za jedan dan):<br />
+		<br />
+		* 450 kn   15.06. - 25.06.2009.<br />
+		* *na dan festivala cijena ulaznice je ista<br />
+		<br />
+		Popusti:<br />
+		<br />
+		T-Mobile korisnici rezervacijom ulaznice putem SMS poruke ostvaruju popust od 50 kuna (prazna poruka se šalje na broj 2255)<br />
+		Studenti uz predočenje važećeg Indexa ostvaruju mogućnost kupovine ulaznice po posebnoj cijeni od 250 kuna - akcija je važeća u promotivnom razdoblju u trajanju od mjesec dana od početka prodaje. Broj ulaznica je ograničen.<br />
+		<br />
+		Pronađite najbliže prodajno mjesto ovdje.<br />
+		<br />
+	Važno upozorenje: Ulaznice se na ulazu u prostor festivala mijenjaju za narukvice. Molimo posjetitelje da narukvice ne trgaju, režu ili na bilo koji način oštećuju jer u protivnom prestaju biti važeće!</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>446</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=918445</tag>
+	<url>http://www.last.fm/event/918445</url>
+</event>
+<event>
+	<id>705315</id>
+	<title>Glastonbury Festival of Contemporary Performing Arts</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Bloc Party</artist>
+		<artist>Blur</artist>
+		<artist>Bruce Springsteen</artist>
+		<artist>Lily Allen</artist>
+		<artist>Neil Young</artist>
+		<artist>Fleetwood Mac</artist>
+		<artist>Doves</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Klaxons</artist>
+		<artist>Animal Collective</artist>
+		<artist>Echo &amp; the Bunnymen</artist>
+		<artist>Emiliana Torrini</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>Madness</artist>
+		<artist>Dizzee Rascal</artist>
+		<artist>Crosby, Stills &amp; Nash</artist>
+		<artist>Bon Iver</artist>
+		<artist>Ladyhawke</artist>
+		<artist>Gong</artist>
+		<artist>Florence and The Machine</artist>
+		<artist>Rolf Harris</artist>
+		<artist>Paul Woolford</artist>
+		<artist>We Have Band</artist>
+		<artist>The Lost Brothers</artist>
+		<artist>Charlene Soraia</artist>
+		<artist>Billy Nasty</artist>
+		<artist>The Slips</artist>
+		<artist>Bjorn Again</artist>
+		<artist>The Gentle Good</artist>
+		<artist>Formula</artist>
+		<artist>Dead Like Harry</artist>
+		<artist>Babajack</artist>
+		<artist>Major Major</artist>
+		<artist>stornoway</artist>
+		<artist>the mojo fins</artist>
+		<artist>Eastroad</artist>
+		<artist>Hope &amp; Social</artist>
+		<artist>Bowjangles</artist>
+		<artist>Blackberry Wood</artist>
+		<artist>Yr Ods</artist>
+		<artist>Drunken Balordi</artist>
+		<artist>City Stereo</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Worthy Farm</name>
+		<location>
+			<city>Shepton Mallet</city>
+			<country>United Kingdom</country>
+			<street>Pilton</street>
+			<postalcode>BA4 4BY</postalcode>
+			<point>
+				<lat>51.159843</lat>
+				<long>-2.585621</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783201</url>
+	</venue>
+	<startDate>Wed, 24 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Register for tickets at <a href="http://www.glastonburyregistration.co.uk/" rel="nofollow">http://www.glastonburyregistration.co.uk/</a>.<br />
+		<br />
+		Tickets went on sale at 9am on Sunday 5th October.  This year there will be no limit on the number of tickets you can buy, provided that you have a registration number per ticket.<br />
+		<br />
+		Please only add confirmed artists to the line up.  Include a link to the announcement in the shoutbox.<br />
+		<br />
+		For all the best rumours, visit <a href="http://www.efestivals.co.uk/festivals/lineups.php?FestID=2743" rel="nofollow">http://www.efestivals.co.uk/festivals/lineups.php?FestID=2743</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>675</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=705315</tag>
+	<url>http://www.last.fm/event/705315</url>
+</event>
+<event>
+	<id>923367</id>
+	<title>Rock-a-Field</title>
+	<artists>
+		<artist>Kings of Leon</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Papa Roach</artist>
+		<artist>Razorlight</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Peter Fox</artist>
+		<artist>versus you</artist>
+		<artist>Mutiny on the Bounty</artist>
+		<artist>HAL FLAVIN</artist>
+		<artist>Everwaiting Serenade</artist>
+		<artist>Minipli</artist>
+		<artist>de Läb</artist>
+		<artist>Natas loves you</artist>
+		<artist>French For Cartridge</artist>
+		<headliner>Kings of Leon</headliner>
+	</artists>
+	<venue>
+		<name>Herschesfeld</name>
+		<location>
+			<city>Roeser</city>
+			<country>Luxembourg</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.5422222</lat>
+				<long>6.15</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9002040</url>
+	</venue>
+	<startDate>Sun, 28 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23075165.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23075165.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23075165.gif</image>
+	<attendance>49</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=923367</tag>
+	<url>http://www.last.fm/event/923367</url>
+</event>
+<event>
+	<id>922147</id>
+	<title>Rock A Field 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Papa Roach</artist>
+		<artist>Razorlight</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Peter Fox</artist>
+		<artist>versus you</artist>
+		<artist>Mutiny on the Bounty</artist>
+		<artist>HAL FLAVIN</artist>
+		<artist>Minipli</artist>
+		<artist>de Läb</artist>
+		<artist>Natas loves you</artist>
+		<artist>French For Cartridge</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Rue de Weiler</name>
+		<location>
+			<city>Roeser</city>
+			<country>Luxembourg</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.5422222</lat>
+				<long>6.15</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8912040</url>
+	</venue>
+	<startDate>Sun, 28 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25287599.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25287599.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25287599.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=922147</tag>
+	<url>http://www.last.fm/event/922147</url>
+</event>
+<event>
+	<id>936401</id>
+	<title>VOLT Festival</title>
+	<artists>
+		<artist>Limp Bizkit</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Art Brut</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Freestylers</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>Kraak &amp; Smaak</artist>
+		<artist>Skeewiff</artist>
+		<artist>Scan X</artist>
+		<artist>Kispál és a Borz</artist>
+		<artist>Brains</artist>
+		<artist>Soopasoul</artist>
+		<artist>LTJ Bukem &amp; MC Conrad</artist>
+		<artist>Fatima Spar &amp; The Freedom Fries</artist>
+		<headliner>Limp Bizkit</headliner>
+	</artists>
+	<venue>
+		<name>Lővér Kemping</name>
+		<location>
+			<city>Sopron</city>
+			<country>Hungary</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.6833333</lat>
+				<long>16.6</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8816648</url>
+	</venue>
+	<startDate>Wed, 01 Jul 2009</startDate>
+	<endDate>Sat, 04 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Mindenhol jó, de legjobb SOPRON! - A friendly festival in a beautiful forest<br />
+		<br />
+		<a href="http://static.sziget.hu/bin/124539.jpg" rel="nofollow">CONFIRMED PERFORMERS LIST HERE</a>
+		<br />
+		<br />
+		<a href="http://www.myspace.com/voltfestival" rel="nofollow">Myspace</a> | <a href="http://fesztblog.hu/categories/VOLT_Fesztival/" rel="nofollow">Fesztblog</a> | <a href="http://e-cafe.hu/volt" rel="nofollow">Unofficial blog</a> | <a href="http://volt-fesztival.lap.hu/" rel="nofollow">Links</a> | <a href="http://maps.google.com/maps/mm?source=s_q&amp;hl=hu&amp;geocode=&amp;ie=UTF8&amp;t=h&amp;lci=lmc:wikipedia_hu&amp;ll=47.661153,16.587274&amp;z=16" rel="nofollow">Map</a> | <a href="http://www.voltbolt.hu/" rel="nofollow">Shop</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25011655.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25011655.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25011655.gif</image>
+	<attendance>98</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=936401</tag>
+	<url>http://www.last.fm/event/936401</url>
+</event>
+<event>
+	<id>984048</id>
+	<title>B'estfest</title>
+	<artists>
+		<artist>The Ting Tings</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Thievery Corporation</artist>
+		<artist>Santana</artist>
+		<artist>The Faint</artist>
+		<artist>Patrice</artist>
+		<headliner>The Ting Tings</headliner>
+	</artists>
+	<venue>
+		<name>Romexpo</name>
+		<location>
+			<city>Bucureşti</city>
+			<country>Romania</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>44.4333333</lat>
+				<long>26.1</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785511</url>
+	</venue>
+	<startDate>Wed, 01 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/13548343.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/13548343.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/13548343.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=984048</tag>
+	<url>http://www.last.fm/event/984048</url>
+</event>
+<event>
+	<id>824123</id>
+	<title>B'ESTFEST</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Moby</artist>
+		<artist>Thievery Corporation</artist>
+		<artist>Santana</artist>
+		<artist>Motörhead</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Klaxons</artist>
+		<artist>The Faint</artist>
+		<artist>The Charlatans</artist>
+		<artist>Patrice</artist>
+		<artist>Ayo</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Romexpo</name>
+		<location>
+			<city>Bucuresti</city>
+			<country>Romania</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8980012</url>
+	</venue>
+	<startDate>Wed, 01 Jul 2009</startDate>
+	<endDate>Sat, 04 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Third edition of the B'ESTFEST festival will take place on Romexpo grounds, in Bucharest , over a period of five days :1, 2, 3, 4 and 5 July 2009. <br />
+		<br />
+		B'ESTFEST three day tickets (2, 3 and 4 July) cost 270 lei and are available only in presale in Diverta outlets and on <a href="http://www.myticket.ro/en/#bilete" rel="nofollow">MyTicket</a>
+		<br />
+		<br />
+		The one day festival tickets are available on <a href="http://www.myticket.ro/en/#bilete" rel="nofollow">MyTicket</a>  and with January 27th they will also be put on sale in the Diverta stores, for ''Day Zero'', as well as for the three B`ESTFEST days.<br />
+		<br />
+		The one day tickets are only available for the festival day for which they are bought (''Day Zero'', 2nd, 3rd or 4th of July) and they will be put on sale for the following prices: 110 lei, by April 1st; 130 lei during April 2nd - June 30th; 150 lei at the entrance, during the festival.<br />
+		<br />
+		Schedule ( for now ) <br />
+		<br />
+		Day 0 - 1 July<br />
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/The+Killers" class="bbcode_artist">The Killers</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Thievery+Corporation" class="bbcode_artist">Thievery Corporation</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Patrice" class="bbcode_artist">Patrice</a>
+		<br />
+		<br />
+		Day 1 - 2 July<br />
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Moby" class="bbcode_artist">Moby</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/+noredirect/Motorhead" class="bbcode_artist">Motorhead</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Ayo" class="bbcode_artist">Ayo</a>
+		<br />
+		<br />
+		Day 2 - 3 July<br />
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Orbital" class="bbcode_artist">Orbital</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Franz+Ferdinand" class="bbcode_artist">Franz Ferdinand</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Klaxons" class="bbcode_artist">Klaxons</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/The+Faint" class="bbcode_artist">The Faint</a>
+		<br />
+		<br />
+		Day 3 - 4 July<br />
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/Santana" class="bbcode_artist">Santana</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/The+Charlatans" class="bbcode_artist">The Charlatans</a>
+		<br />
+		- <a href="http://ws.audioscrobbler.com/music/The+Ting+Tings" class="bbcode_artist">The Ting Tings</a>
+		<br />
+		<br />
+		<a href="http://www.myticket.ro/en/#bilete" rel="nofollow">Tickets</a>
+		<br />
+		<br />
+		<a href="http://www.last.fm/event/822563">B`estfest Aftershock</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16078465.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16078465.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16078465.jpg</image>
+	<attendance>466</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=824123</tag>
+	<url>http://www.last.fm/event/824123</url>
+</event>
+<event>
+	<id>919743</id>
+	<title>Main Square Festival</title>
+	<artists>
+		<artist>Coldplay</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Placebo</artist>
+		<artist>Moby</artist>
+		<artist>Bloc Party</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Lenny Kravitz</artist>
+		<artist>Lily Allen</artist>
+		<artist>Katy Perry</artist>
+		<artist>Duffy</artist>
+		<artist>M. Ward</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>The Gossip</artist>
+		<artist>Justin Nozuka</artist>
+		<artist>Ghinzu</artist>
+		<artist>Michael Franti</artist>
+		<headliner>Coldplay</headliner>
+	</artists>
+	<venue>
+		<name>Grand' Place</name>
+		<location>
+			<city>Arras</city>
+			<country>France</country>
+			<street>Grand Place</street>
+			<postalcode>62000</postalcode>
+			<point>
+				<lat>50.293183</lat>
+				<long>2.778919</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8795919</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/5735261.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/5735261.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/5735261.jpg</image>
+	<attendance>49</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=919743</tag>
+	<url>http://www.last.fm/event/919743</url>
+</event>
+<event>
+	<id>763300</id>
+	<title>Rock Werchter Festival 2009</title>
+	<artists>
+		<artist>Coldplay</artist>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Metallica</artist>
+		<artist>Placebo</artist>
+		<artist>Bloc Party</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>The Prodigy</artist>
+		<artist>Kings of Leon</artist>
+		<artist>The Flaming Lips</artist>
+		<artist>Röyksopp</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Lily Allen</artist>
+		<artist>Dave Matthews Band</artist>
+		<artist>Jason Mraz</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Mogwai</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Streets</artist>
+		<artist>Elbow</artist>
+		<artist>Emiliana Torrini</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>Pendulum</artist>
+		<artist>M. Ward</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Tiga</artist>
+		<artist>Social Distortion</artist>
+		<artist>Mastodon</artist>
+		<artist>Just Jack</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>2 Many DJ's</artist>
+		<artist>Priscilla Ahn</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Ghinzu</artist>
+		<artist>Henry Rollins</artist>
+		<artist>The hickey underworld</artist>
+		<headliner>Coldplay</headliner>
+	</artists>
+	<venue>
+		<name>Werchter</name>
+		<location>
+			<city>Werchter</city>
+			<country>Belgium</country>
+			<street>Haachtsesteenweg</street>
+			<postalcode>B-3118</postalcode>
+			<point>
+				<lat>50.969376</lat>
+				<long>4.69036</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779175</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Donderdag 2 juli 2009 <br />
+		<br />
+		Main Stage: The Prodigy | Oasis | Placebo | Dave Matthews | Lily Allen <br />
+		Pyramid Marquee: Tiga | Pendulum | Laurent Garnier | Fleet Foxes | Emiliana Torrini <br />
+		<br />
+		Vrijdag 3 juli 2009 <br />
+		<br />
+		Main Stage: Coldplay | The Killers | Bloc Party | Elbow | Amy Macdonald | Just Jack <br />
+		Pyramid Marquee: Lady Gaga | Jason Mraz | The Streets | M. Ward | Priscilla Ahn | Henry Rollins Spoken Word <br />
+		<br />
+		Zaterdag 4 juli 2009 <br />
+		<br />
+		Main Stage: 2manydjs | Kings of Leon | Nick Cave and the Bad Seeds | Franz Ferdinand | Limp Bizkit | Social Distortion <br />
+		Pyramid Marquee: Katy Perry | Mogwai <br />
+		<br />
+		Zondag 5 juli 2009 <br />
+		<br />
+		Main Stage: Metallica | Nine Inch Nails | Kaiser Chiefs | The Mars Volta | Seasick Steve | Mastodon <br />
+	Pyramid Marquee: Flaming Lips | Röyksopp | Ghinzu | The Hickey Underworld</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16244305.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16244305.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16244305.jpg</image>
+	<attendance>825</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=763300</tag>
+	<url>http://www.last.fm/event/763300</url>
+</event>
+<event>
+	<id>759999</id>
+	<title>Hultsfredsfestivalen</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Regina Spektor</artist>
+		<artist>Klaxons</artist>
+		<artist>Dropkick Murphys</artist>
+		<artist>Peter Bjorn and John</artist>
+		<artist>Madness</artist>
+		<artist>The Gossip</artist>
+		<artist>The Sounds</artist>
+		<artist>Anna Ternheim</artist>
+		<artist>Hello Saferide</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>Cult of Luna</artist>
+		<artist>White Lies</artist>
+		<artist>Timbuktu</artist>
+		<artist>Lars Winnerbäck</artist>
+		<artist>Emmy the Great</artist>
+		<artist>Frida Hyvönen</artist>
+		<artist>Takida</artist>
+		<artist>Lenka</artist>
+		<artist>Thåström</artist>
+		<artist>Marnie Stern</artist>
+		<artist>Markus Krunegård</artist>
+		<artist>Maia Hirasawa</artist>
+		<artist>Lillasyster</artist>
+		<artist>Yo Majesty</artist>
+		<artist>Dead by April</artist>
+		<artist>Victims</artist>
+		<artist>Graveyard</artist>
+		<artist>Dan Black</artist>
+		<artist>Convoj</artist>
+		<artist>Invincible</artist>
+		<artist>Meleeh</artist>
+		<artist>The Heart Strings</artist>
+		<artist>Baddies</artist>
+		<artist>Snoddas</artist>
+		<artist>Pilgrimz</artist>
+		<artist>The Sacred Sailors</artist>
+		<artist>Henok</artist>
+		<artist>Twiggy Frostbite</artist>
+		<artist>John ME</artist>
+		<artist>MFMB</artist>
+		<artist>Simon Norrsveden</artist>
+		<artist>walking with strangers</artist>
+		<artist>Cilihili</artist>
+		<artist>Pretty Whores</artist>
+		<artist>The Koo Koo's</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Hultsfreds Hembygdspark</name>
+		<location>
+			<city>Hultsfred</city>
+			<country>Sweden</country>
+			<street>Folkparksvägen</street>
+			<postalcode>577 36</postalcode>
+			<point>
+				<lat>57.496459</lat>
+				<long>15.863033</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8964983</url>
+	</venue>
+	<startDate>Wed, 08 Jul 2009</startDate>
+	<endDate>Sat, 11 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">The Hultsfred Festival (Hultsfredsfestivalen in Swedish) is an annual music festival held in Hultsfred, Sweden. The festival is well known for its variety of genres and there are normally around 20 - 30 000 people attending.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24623139.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24623139.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24623139.jpg</image>
+<attendance>273</attendance>
+<reviews>1</reviews>
+<tag>lastfm:event=759999</tag>
+<url>http://www.last.fm/event/759999</url>
+</event>
+<event>
+	<id>984885</id>
+	<title>t in the park</title>
+	<artists>
+		<artist>Blur</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<headliner>Blur</headliner>
+	</artists>
+	<venue>
+		<name>Balado</name>
+		<location>
+			<city>Perthshire</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8974370</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/269394.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/269394.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/269394.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=984885</tag>
+	<url>http://www.last.fm/event/984885</url>
+</event>
+<event>
+	<id>701873</id>
+	<title>T In The Park 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Bloc Party</artist>
+		<artist>Blur</artist>
+		<artist>Keane</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Yeah Yeah Yeahs</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Razorlight</artist>
+		<artist>Lily Allen</artist>
+		<artist>Jason Mraz</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Mogwai</artist>
+		<artist>TV on the Radio</artist>
+		<artist>of Montreal</artist>
+		<artist>Manic Street Preachers</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>M83</artist>
+		<artist>Pet Shop Boys</artist>
+		<artist>The Streets</artist>
+		<artist>Maxïmo Park</artist>
+		<artist>Elbow</artist>
+		<artist>James Morrison</artist>
+		<artist>Jane's Addiction</artist>
+		<artist>The Game</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Maximo Park</artist>
+		<artist>Pendulum</artist>
+		<artist>Simian Mobile Disco</artist>
+		<artist>Felix da Housecat</artist>
+		<artist>The Specials</artist>
+		<artist>The View</artist>
+		<artist>Eagles of Death Metal</artist>
+		<artist>Foals</artist>
+		<artist>James</artist>
+		<artist>Boys Noize</artist>
+		<artist>Squeeze</artist>
+		<artist>The Script</artist>
+		<artist>Ladyhawke</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>Glasvegas</artist>
+		<artist>Friendly Fires</artist>
+		<artist>White Lies</artist>
+		<artist>Jeff Mills</artist>
+		<artist>Dave Clarke</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>The Saturdays</artist>
+		<artist>Slam</artist>
+		<artist>Florence and The Machine</artist>
+		<artist>Passion Pit</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Silicone Soul</artist>
+		<artist>The Airborne Toxic Event</artist>
+		<artist>Peter Doherty</artist>
+		<artist>Claude Von Stroke</artist>
+		<artist>Mr Scruff</artist>
+		<artist>hockey</artist>
+		<artist>Gary Go</artist>
+		<artist>Bjorn Again</artist>
+		<artist>BeardyMan</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Balado</name>
+		<location>
+			<city>Kinross</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>56.2</lat>
+				<long>-3.4166667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781944</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">T in the Park 2009 returns to Balado with a fantastic lineup , albeit poptastic . All the latest information is at <a href="http://www.tinthepark.com" rel="nofollow">tinthepark.com</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24844039.gif</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24844039.gif</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24844039.gif</image>
+<attendance>249</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=701873</tag>
+<url>http://www.last.fm/event/701873</url>
+</event>
+<event>
+	<id>977700</id>
+	<title>Musilac</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>The Kooks</artist>
+		<artist>Duffy</artist>
+		<artist>The Pretenders</artist>
+		<artist>The Gossip</artist>
+		<artist>Olivia Ruiz</artist>
+		<artist>Keziah Jones</artist>
+		<artist>Cocoon</artist>
+		<artist>Anis</artist>
+		<artist>Les Wampas</artist>
+		<artist>The Dodoz</artist>
+		<artist>Benabar</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Esplanade du Lac</name>
+		<location>
+			<city>Aix-les-Bains</city>
+			<country>France</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.693264</lat>
+				<long>5.896246</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8805669</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977700</tag>
+	<url>http://www.last.fm/event/977700</url>
+</event>
+<event>
+	<id>977703</id>
+	<title>Musilac</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>The Kooks</artist>
+		<artist>Duffy</artist>
+		<artist>The Pretenders</artist>
+		<artist>The Gossip</artist>
+		<artist>Olivia Ruiz</artist>
+		<artist>Keziah Jones</artist>
+		<artist>Cocoon</artist>
+		<artist>Anis</artist>
+		<artist>Les Wampas</artist>
+		<artist>The Dodoz</artist>
+		<artist>Benabar</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Esplanade du Lac</name>
+		<location>
+			<city>Aix-les-Bains</city>
+			<country>France</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.693264</lat>
+				<long>5.896246</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8805669</url>
+	</venue>
+	<startDate>Fri, 10 Jul 2009</startDate>
+	<endDate>Sun, 12 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977703</tag>
+	<url>http://www.last.fm/event/977703</url>
+</event>
+<event>
+	<id>953037</id>
+	<title>The Killers</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>White Lies</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Ippodromo delle Capannelle</name>
+		<location>
+			<city>Roma</city>
+			<country>Italy</country>
+			<street>via Appia Nuova</street>
+			<postalcode>00185</postalcode>
+			<point>
+				<lat>41.814476</lat>
+				<long>12.570955</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8794229</url>
+	</venue>
+	<startDate>Tue, 14 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Anche la band rivelazione inglese White Lies si aggiunge alla line up già annunciata di The Killers e Franz Ferdinand, le rock band del momento, per un evento sempre più imperdibile.<br />
+		<br />
+		<a href="http://www.facebook.com/group.php?gid=53452053348#/event.php?eid=55188351073" rel="nofollow">http://www.facebook.com/group.php?gid=53452053348#/event.php?eid=55188351073</a>
+		<br />
+		<br />
+		Aperture porte Ore 17.30<br />
+		<br />
+		<br />
+		Prezzo del biglietto € 40,00 + diritti di prevendita<br />
+		<br />
+		BIGLIETTI IN VENDITA<br />
+		<br />
+		Informazioni su come acquistare i biglietti per Roma:<br />
+		<br />
+		- Ticketone 892 101 <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a>
+		<br />
+		- Greenticket <a href="http://www.greenticket.it" rel="nofollow">www.greenticket.it</a>
+		<br />
+		- in tutte le prevendite abituali:<br />
+		<br />
+		Sito ufficiale:<br />
+		<a href="http://www.thekillersmusic.com" rel="nofollow">www.thekillersmusic.com</a>
+		<br />
+		<a href="http://www.myspace.com/thekillers" rel="nofollow">www.myspace.com/thekillers</a>
+		<br />
+		<br />
+		<a href="http://www.franzferdinand.co.uk" rel="nofollow">www.franzferdinand.co.uk</a>
+		<br />
+		<a href="http://www.myspace.com/franzferdinand" rel="nofollow">www.myspace.com/franzferdinand</a>
+		<br />
+		<br />
+		<a href="http://www.whitelies.com" rel="nofollow">www.whitelies.com</a>
+		<br />
+		<a href="http://www.myspace.com/whitelies" rel="nofollow">www.myspace.com/whitelies</a>
+		<br />
+		<br />
+		<br />
+		<br />
+		INFO<br />
+		<br />
+		Indipendente Eventi e Produzioni<br />
+		<br />
+		<a href="http://www.indipendente.com" rel="nofollow">www.indipendente.com</a>
+		<br />
+		<a href="mailto:info@indipendente.com">info@indipendente.com</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+	<attendance>82</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=953037</tag>
+	<url>http://www.last.fm/event/953037</url>
+</event>
+<event>
+	<id>929498</id>
+	<title>Benicassim</title>
+	<artists>
+		<artist>Kings of Leon</artist>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boys Noize</artist>
+		<headliner>Kings of Leon</headliner>
+	</artists>
+	<venue>
+		<name>Benicassim</name>
+		<location>
+			<city>Tarragona</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.008564</lat>
+				<long>0.913066</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9003312</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/11440969.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/11440969.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/11440969.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=929498</tag>
+	<url>http://www.last.fm/event/929498</url>
+</event>
+<event>
+	<id>878655</id>
+	<title>Gurtenfestival 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Ska-P</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Gurten</name>
+		<location>
+			<city>Berne</city>
+			<country>Switzerland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>46.9521371168289</lat>
+				<long>7.44117736816406</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8992198</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>23</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=878655</tag>
+	<url>http://www.last.fm/event/878655</url>
+</event>
+<event>
+	<id>797299</id>
+	<title>FIB Heineken 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Lily Allen</artist>
+		<artist>TV on the Radio</artist>
+		<artist>Late of the Pier</artist>
+		<artist>The Psychedelic Furs</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boys Noize</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>Glasvegas</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Bell X1</artist>
+		<artist>Magazine</artist>
+		<artist>White Lies</artist>
+		<artist>Nacho Vegas</artist>
+		<artist>Yuksek</artist>
+		<artist>The Bishops</artist>
+		<artist>CatPeople</artist>
+		<artist>Aeroplane</artist>
+		<artist>Fight Like Apes</artist>
+		<artist>Josele Santiago</artist>
+		<artist>Naive New Beaters</artist>
+		<artist>Tadeo</artist>
+		<artist>We Are Standard</artist>
+		<artist>Joe Crepúsculo</artist>
+		<artist>No Reply</artist>
+		<artist>NudoZurdo</artist>
+		<artist>The Coronas</artist>
+		<artist>Mistery Jets</artist>
+		<artist>Anni B Sweet</artist>
+		<artist>Aldi Linares</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Benicassim</name>
+		<location>
+			<city>Castellón de la Plana</city>
+			<country>Spain</country>
+			<street>Benicàssim</street>
+			<postalcode>12560</postalcode>
+			<point>
+				<lat>40.029535</lat>
+				<long>0.014109</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783275</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">FIB Heineken 2009 will take place on July 16, 17, 18 and 19, 2009, at the concert venue of Benicàssim (Castellón), as in past years.<br />
+		<br />
+		Buy your ticket here:<br />
+		<br />
+		<a href="http://tickets.fiberfib.com/" rel="nofollow">http://tickets.fiberfib.com/</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25545867.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25545867.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25545867.jpg</image>
+	<attendance>630</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=797299</tag>
+	<url>http://www.last.fm/event/797299</url>
+</event>
+<event>
+	<id>926736</id>
+	<title>FIB</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Paul Weller</artist>
+		<artist>King Of Leon</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>FIB</name>
+		<location>
+			<city>Benicassim</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.2166667</lat>
+				<long>7.5</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8953030</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=926736</tag>
+	<url>http://www.last.fm/event/926736</url>
+</event>
+<event>
+	<id>957939</id>
+	<title>Festival Internacional de Benicassim</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boys Noize</artist>
+		<artist>Friendly Fires</artist>
+		<artist>White Lies</artist>
+		<artist>The Bishops</artist>
+		<artist>The Phsychedelic Furs</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Ninguna</name>
+		<location>
+			<city>Benicassim.</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9009069</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Grande, muy GRANDE!!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24789471.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24789471.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24789471.jpg</image>
+<attendance>11</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=957939</tag>
+<url>http://www.last.fm/event/957939</url>
+</event>
+<event>
+	<id>922071</id>
+	<title>FIB</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Paul Weller</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>FIB</name>
+		<location>
+			<city>Benicassim</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.2166667</lat>
+				<long>7.5</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8953030</url>
+	</venue>
+	<startDate>Fri, 17 Jul 2009</startDate>
+	<endDate>Mon, 20 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">El tiempo sigue avanzando dentro de la historia del Festival y cada edición es un paso más en el emocionante universo de la música que se inició en 1995 y que continúa alimentando un fantástico viaje al sonido y la imaginación.<br />
+		<br />
+		Año tras año, artistas y asistentes de todo el mundo han reflejado su pasión por la música haciendo de él una cita realmente ineludible. Porque de lo que se trata es de ser parte de una experiencia completamente única, en plenas vacaciones frente al mar, sintiendo la alegría de un verano especial. Y es que el Festival ya es un hecho cultural, un motor de iniciativas, propuestas y descubrimientos que sirve para vivir nuevas sensaciones.<br />
+		<br />
+		Además de la música, que también se manifiesta en el ya necesario concurso de maquetas Proyecto Demo, hay espacios para otras disciplinas tales como la danza, la moda, el arte contemporáneo, el teatro y los cortometrajes, demostrando que la creatividad en el FIB Heineken fluye y se comunica a través del entusiasmo y la curiosidad.<br />
+		<br />
+	El Festival y todo su equipo buscan trasladar una pasión que se traduce en varios días de alegría, convivencia, identidad e ilusión. Porque cada año trae consigo tantas canciones, imágenes y encuentros, que es necesario compartirlos con vosotros, escuchando vuestras opiniones y sugerencias, esperando el momento en el que se enciendan las luces de los escenarios y vuestras sonrisas y aplausos vuelvan a ser la esencia de un FIB Heineken que os aguarda con los altavoces listos para sonar.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=922071</tag>
+	<url>http://www.last.fm/event/922071</url>
+</event>
+<event>
+	<id>985747</id>
+	<title>Kings of Leon</title>
+	<artists>
+		<artist>Kings of Leon</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boyz Noise</artist>
+		<headliner>Kings of Leon</headliner>
+	</artists>
+	<venue>
+		<name>Festival Benicasim</name>
+		<location>
+			<city>Benicàssim</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9015775</url>
+	</venue>
+	<startDate>Fri, 17 Jul 2009</startDate>
+	<endDate>Sat, 18 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Festival</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/11440969.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/11440969.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/11440969.jpg</image>
+<attendance>0</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=985747</tag>
+<url>http://www.last.fm/event/985747</url>
+</event>
+<event>
+	<id>882505</id>
+	<title>Fuji Rock Festival '09</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Weezer</artist>
+		<artist>Fall Out Boy</artist>
+		<artist>Röyksopp</artist>
+		<artist>Ben Harper</artist>
+		<artist>Basement Jaxx</artist>
+		<artist>M83</artist>
+		<artist>Animal Collective</artist>
+		<artist>Simian Mobile Disco</artist>
+		<artist>Patti Smith</artist>
+		<artist>Bad Brains</artist>
+		<artist>Melvins</artist>
+		<artist>Diplo</artist>
+		<artist>Justin Nozuka</artist>
+		<artist>Gang Gang Dance</artist>
+		<artist>Gong</artist>
+		<artist>The Higher</artist>
+		<artist>Polysics</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>The Virgins</artist>
+		<artist>Crookers</artist>
+		<artist>The Bloody Beetroots</artist>
+		<artist>System 7</artist>
+		<artist>The Aggrolites</artist>
+		<artist>Longwave</artist>
+		<artist>Twisted Wheel</artist>
+		<artist>Fake Blood</artist>
+		<artist>The Japanese Popstars</artist>
+		<artist>Easy Star All Stars</artist>
+		<artist>Hayley Sales</artist>
+		<artist>Räfven</artist>
+		<artist>Jeff Lang</artist>
+		<artist>Rowland S. Howard</artist>
+		<artist>Comeback My Daughters</artist>
+		<artist>Paul Steel</artist>
+		<artist>Funky Meters</artist>
+		<artist>Ben Harper &amp; Relentless 7</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Naeba</name>
+		<location>
+			<city>Yuzawa</city>
+			<country>Japan</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>36.9333333</lat>
+				<long>138.8166667</long>
+			</point>
+			<timezone>JST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8824322</url>
+	</venue>
+	<startDate>Fri, 24 Jul 2009</startDate>
+	<endDate>Sun, 26 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode"><em><span style="text-decoration:underline;"><strong><a href="http://www.last.fm/group/Fuji+Rock+Festival">Fuji Rock Festival  - Group</a></strong></span></em></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25156861.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25156861.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25156861.jpg</image>
+<attendance>48</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=882505</tag>
+<url>http://www.last.fm/event/882505</url>
+</event>
+<event>
+	<id>714742</id>
+	<title>Paredes de Coura 2009</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<artist>Supergrass</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Praia do Tabuão</name>
+		<location>
+			<city>Paredes de Coura</city>
+			<country>Portugal</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.9</lat>
+				<long>-8.5666667</long>
+			</point>
+			<timezone>WET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8791755</url>
+	</venue>
+	<startDate>Wed, 29 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><em>Bilhetes diários: 40€ | Bilhetes de três dias: 60€ até 12 de Abril, 70€ daí em diante</em><br />
+		<strong>29 de Julho | Recepção ao Campista</strong>
+		<br />
+		<strong>30 de Julho</strong>
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Franz+Ferdinand" class="bbcode_artist">Franz Ferdinand</a>
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Supergrass" class="bbcode_artist">Supergrass</a>
+		<br />
+		<strong>31 de Julho</strong>
+		<br />
+		<strong>1 de Agosto</strong>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/12677757.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/12677757.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/12677757.jpg</image>
+	<attendance>317</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=714742</tag>
+	<url>http://www.last.fm/event/714742</url>
+</event>
+<event>
+	<id>977922</id>
+	<title>Paredes de Coura</title>
+	<artists>
+		<artist>Franz Ferdinand</artist>
+		<headliner>Franz Ferdinand</headliner>
+	</artists>
+	<venue>
+		<name>Praia do Tabuão</name>
+		<location>
+			<city>Paredes de Coura</city>
+			<country>Portugal</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.9</lat>
+				<long>-8.5666667</long>
+			</point>
+			<timezone>WET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8791755</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/405294.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/405294.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/405294.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977922</tag>
+	<url>http://www.last.fm/event/977922</url>
+</event>
+</events>
+</lfm>

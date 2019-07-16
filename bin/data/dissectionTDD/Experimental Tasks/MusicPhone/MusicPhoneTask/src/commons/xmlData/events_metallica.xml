@@ -1,0 +1,2493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Metallica" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="55">
+		<event>
+			<id>809218</id>
+			<title>Metallica</title>
+			<artists>
+				<artist>Metallica</artist>
+				<artist>Machine Head</artist>
+				<artist>The Sword</artist>
+				<headliner>Metallica</headliner>
+			</artists>
+			<venue>
+				<name>LG Arena</name>
+				<location>
+					<city>Birmingham</city>
+					<country>United Kingdom</country>
+					<street>National Exhibition Centre</street>
+					<postalcode>B40 1NT</postalcode>
+					<point>
+						<lat>52.451118</lat>
+						<long>-1.721248</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8974925</url>
+			</venue>
+			<startDate>Wed, 25 Mar 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode"><strong>  <a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=SzEop7f-g8F9KJZ0&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.com%2Fconcerts%2Fmetallica_tickets" rel="nofollow">Buy tickets for this concert</a></strong></div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+		<attendance>83</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=809218</tag>
+		<url>http://www.last.fm/event/809218</url>
+	</event>
+	<event>
+		<id>952035</id>
+		<title>Metallica At Trent FM Arena! Machine Head and The Sword Supporting</title>
+		<artists>
+			<artist>Metallica</artist>
+			<artist>Machine Head</artist>
+			<artist>The Sword</artist>
+			<headliner>Metallica</headliner>
+		</artists>
+		<venue>
+			<name>Trent FM Arena Nottingham</name>
+			<location>
+				<city>Nottingham</city>
+				<country>United Kingdom</country>
+				<street>National Ice Centre</street>
+				<postalcode>NG1 1LA</postalcode>
+				<point>
+					<lat>52.9666667</lat>
+					<long>-1.1666667</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8917702</url>
+		</venue>
+		<startDate>Wed, 25 Mar 2009</startDate>
+		<startTime>19:30</startTime>
+		<description>
+		<![CDATA[<div class="bbcode"><strong>  <a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=SzEop7f-g8F9KJZ0&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.com%2Fconcerts%2Fmetallica_tickets" rel="nofollow">Buy tickets for this concert</a></strong></div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=952035</tag>
+	<url>http://www.last.fm/event/952035</url>
+</event>
+<event>
+	<id>809208</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>S.E.C.C.</name>
+		<location>
+			<city>Glasgow</city>
+			<country>United Kingdom</country>
+			<street>Exhibition Way</street>
+			<postalcode>G3 8YW</postalcode>
+			<point>
+				<lat>55.860853</lat>
+				<long>-4.288117</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777899</url>
+	</venue>
+	<startDate>Thu, 26 Mar 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>  <a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=SzEop7f-g8F9KJZ0&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.com%2Fconcerts%2Fmetallica_tickets" rel="nofollow">Buy tickets for this concert</a></strong><br />
+	<br />
+The metal giants return to Scotland for their first gig in Glasgow since 2004, and their first Scottish indoor gig since 1996. Support comes from Machine Head and The Sword.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>127</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=809208</tag>
+<url>http://www.last.fm/event/809208</url>
+</event>
+<event>
+	<id>803037</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sat, 28 Mar 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>  <a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=SzEop7f-g8F9KJZ0&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.com%2Fconcerts%2Fmetallica_tickets" rel="nofollow">Buy tickets for this concert</a></strong></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>155</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=803037</tag>
+<url>http://www.last.fm/event/803037</url>
+</event>
+<event>
+	<id>809012</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Ahoy</name>
+		<location>
+			<city>Rotterdam</city>
+			<country>Netherlands</country>
+			<street>Ahoyweg 10</street>
+			<postalcode>3084 BA</postalcode>
+			<point>
+				<lat>51.881762</lat>
+				<long>4.486211</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778505</url>
+	</venue>
+	<startDate>Mon, 30 Mar 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong><a href="http://onlineticketshop.cleafs.com/go?merc=22&amp;aff=WC6t4PM2QFem8VvD&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.onlineticketshop.nl%2Fmetallica-kaarten" rel="nofollow">Bestel Metallica kaarten</a></strong><br />
+	<br />
+	Voorverkoop begint 25 oktober 10.00 uur.<br />
+	Alleen online via livenation.nl<br />
+	Tickets: 64 Euro plus servicekosten.<br />
+Concert is Uitverkocht.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>159</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=809012</tag>
+<url>http://www.last.fm/event/809012</url>
+</event>
+<event>
+	<id>763242</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>POPB / Palais Omnisports de Paris-Bercy</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>8, boulevard de Bercy</street>
+			<postalcode>75012</postalcode>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781813</url>
+	</venue>
+	<startDate>Wed, 01 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>  <a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=WC6t4PM2QFem8VvD&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.fr%2Fconcerts%2Fbillets_metallica" rel="nofollow">Achetez billets pour Metallica</a></strong></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>127</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=763242</tag>
+<url>http://www.last.fm/event/763242</url>
+</event>
+<event>
+	<id>769645</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>POPB / Palais Omnisports de Paris-Bercy</name>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+			<street>8, boulevard de Bercy</street>
+			<postalcode>75012</postalcode>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781813</url>
+	</venue>
+	<startDate>Thu, 02 Apr 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>  <a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=WC6t4PM2QFem8VvD&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.fr%2Fconcerts%2Fbillets_metallica" rel="nofollow">Achetez billets pour Metallica</a></strong></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>98</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=769645</tag>
+<url>http://www.last.fm/event/769645</url>
+</event>
+<event>
+	<id>980804</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Globen</name>
+		<location>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+			<street>Globentorget 2</street>
+			<postalcode>12177</postalcode>
+			<point>
+				<lat>59.293786</lat>
+				<long>18.079975</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778853</url>
+	</venue>
+	<startDate>Mon, 04 May 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong><a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=WC6t4PM2QFem8VvD&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.com%2Fconcerts%2Fmetallica_tickets" rel="nofollow">Köp biljetter till Metallica</a></strong><br />
+	<br />
+	Instead of their cancelled show on 8 March. More information about the tickets later but the one you got from that show should you use on some level so keep it.<br />
+I think it is the same support but i am not sure. More information will be added later. If you know something more, feel free to submit it.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>31</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=980804</tag>
+<url>http://www.last.fm/event/980804</url>
+</event>
+<event>
+	<id>810316</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Olympiahalle</name>
+		<location>
+			<city>München</city>
+			<country>Germany</country>
+			<street>Olympiapark Parkharfe, Sapporobogen</street>
+			<postalcode>80809</postalcode>
+			<point>
+				<lat>49.55</lat>
+				<long>11.5833333</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8798505</url>
+	</venue>
+	<startDate>Wed, 06 May 2009</startDate>
+	<startTime>17:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>55</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=810316</tag>
+	<url>http://www.last.fm/event/810316</url>
+</event>
+<event>
+	<id>810365</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Arena Leipzig</name>
+		<location>
+			<city>Leipzig</city>
+			<country>Germany</country>
+			<street>Am Sportforum 2-3</street>
+			<postalcode>04105</postalcode>
+			<point>
+				<lat>51.34451</lat>
+				<long>12.351647</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778578</url>
+	</venue>
+	<startDate>Thu, 07 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>116</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=810365</tag>
+	<url>http://www.last.fm/event/810365</url>
+</event>
+<event>
+	<id>809296</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hanns-Martin-Schleyer-Halle</name>
+		<location>
+			<city>Stuttgart</city>
+			<country>Germany</country>
+			<street>Mercedesstr. 69</street>
+			<postalcode>70372</postalcode>
+			<point>
+				<lat>48.793838</lat>
+				<long>9.225865</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779783</url>
+	</venue>
+	<startDate>Sat, 09 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>132</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=809296</tag>
+	<url>http://www.last.fm/event/809296</url>
+</event>
+<event>
+	<id>810208</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Festhalle</name>
+		<location>
+			<city>Frankfurt am Main</city>
+			<country>Germany</country>
+			<street>Ludwig-Erhard-Anlage 1</street>
+			<postalcode>60327</postalcode>
+			<point>
+				<lat>50.111794</lat>
+				<long>8.653517</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788926</url>
+	</venue>
+	<startDate>Mon, 11 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>104</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=810208</tag>
+	<url>http://www.last.fm/event/810208</url>
+</event>
+<event>
+	<id>809037</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Color Line Arena</name>
+		<location>
+			<city>Hamburg</city>
+			<country>Germany</country>
+			<street>Sylvesterallee 10</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.590335</lat>
+				<long>9.899408</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778534</url>
+	</venue>
+	<startDate>Tue, 12 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">World Magnetic Tour '09</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>115</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=809037</tag>
+<url>http://www.last.fm/event/809037</url>
+</event>
+<event>
+	<id>804932</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Stadthalle</name>
+		<location>
+			<city>Wien</city>
+			<country>Austria</country>
+			<street>Vogelweidplatz 14</street>
+			<postalcode>1150</postalcode>
+			<point>
+				<lat>48.204387</lat>
+				<long>16.331251</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778751</url>
+	</venue>
+	<startDate>Thu, 14 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>139</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=804932</tag>
+	<url>http://www.last.fm/event/804932</url>
+</event>
+<event>
+	<id>920062</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>König-Pilsener-Arena</name>
+		<location>
+			<city>Oberhausen</city>
+			<country>Germany</country>
+			<street>Arenastr. 1</street>
+			<postalcode>46047</postalcode>
+			<point>
+				<lat>51.490481</lat>
+				<long>6.872633</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778577</url>
+	</venue>
+	<startDate>Fri, 15 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=920062</tag>
+	<url>http://www.last.fm/event/920062</url>
+</event>
+<event>
+	<id>810215</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>König-Pilsener-Arena</name>
+		<location>
+			<city>Oberhausen</city>
+			<country>Germany</country>
+			<street>Arenastr. 1</street>
+			<postalcode>46047</postalcode>
+			<point>
+				<lat>51.490481</lat>
+				<long>6.872633</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778577</url>
+	</venue>
+	<startDate>Sat, 16 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>78</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=810215</tag>
+	<url>http://www.last.fm/event/810215</url>
+</event>
+<event>
+	<id>809084</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Machine Head</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Lanxess Arena</name>
+		<location>
+			<city>Köln</city>
+			<country>Germany</country>
+			<street>Willy-Brandt-Platz</street>
+			<postalcode>50679</postalcode>
+			<point>
+				<lat>50.938635</lat>
+				<long>6.979938</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8976470</url>
+	</venue>
+	<startDate>Sun, 17 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>140</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=809084</tag>
+	<url>http://www.last.fm/event/809084</url>
+</event>
+<event>
+	<id>885157</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>[пока неизвестно]</name>
+		<location>
+			<city>Москва</city>
+			<country>Russian Federation</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>55.705243</lat>
+				<long>37.590373</long>
+			</point>
+			<timezone>MSK</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8993649</url>
+	</venue>
+	<startDate>Wed, 03 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://www.darkside.ru/show/3647/" rel="nofollow">http://www.darkside.ru/show/3647/</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>161</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=885157</tag>
+<url>http://www.last.fm/event/885157</url>
+</event>
+<event>
+	<id>799638</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hartwall Areena</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street>Areenakuja 1</street>
+			<postalcode>00240</postalcode>
+			<point>
+				<lat>60.204441</lat>
+				<long>24.930099</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784738</url>
+	</venue>
+	<startDate>Sun, 14 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">LIPUT: 59 / 69 euroa. Myyntiin ma 20.10.2008 klo 9.00. HUOM! Lippurajoitus: enintään 2 lippua / asiakas. Lippupalvelun myyntipisteistä, puhelinpalvelusta 0600-10-800 (1,83 euroa/min + pvm) ja 0600-10-020 (5,99 euroa/puhelu + pvm) sekä netistä <a href="http://www.lippupalvelu.fi" rel="nofollow">http://www.lippupalvelu.fi</a>.<br />
+		<br />
+	Maksettuja lippuja ei vaihdeta eikä lunasteta takaisin.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>191</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=799638</tag>
+<url>http://www.last.fm/event/799638</url>
+</event>
+<event>
+	<id>980163</id>
+	<title>Metallica with Lamb of God, Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hartwall Areena</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street>Areenakuja 1</street>
+			<postalcode>00240</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014532</url>
+	</venue>
+	<startDate>Sun, 14 Jun 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980163</tag>
+	<url>http://www.last.fm/event/980163</url>
+</event>
+<event>
+	<id>799640</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hartwall Areena</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street>Areenakuja 1</street>
+			<postalcode>00240</postalcode>
+			<point>
+				<lat>60.204441</lat>
+				<long>24.930099</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784738</url>
+	</venue>
+	<startDate>Mon, 15 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">LIPUT: 59 / 69 euroa. Myyntiin ma 20.10.2008 klo 9.00. HUOM! Lippurajoitus: enintään 2 lippua / asiakas. Lippupalvelun myyntipisteistä, puhelinpalvelusta 0600-10-800 (1,83 euroa/min + pvm) ja 0600-10-020 (5,99 euroa/puhelu + pvm) sekä netistä <a href="http://www.lippupalvelu.fi" rel="nofollow">http://www.lippupalvelu.fi</a>.<br />
+		<br />
+	Maksettuja lippuja ei vaihdeta eikä lunasteta takaisin.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>237</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=799640</tag>
+<url>http://www.last.fm/event/799640</url>
+</event>
+<event>
+	<id>980164</id>
+	<title>Metallica with Lamb of God, Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hartwall Areena</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street>Areenakuja 1</street>
+			<postalcode>00240</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014532</url>
+	</venue>
+	<startDate>Mon, 15 Jun 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980164</tag>
+	<url>http://www.last.fm/event/980164</url>
+</event>
+<event>
+	<id>803769</id>
+	<title>Metallica World Magnetic Tour 09</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Oslo Spektrum</name>
+		<location>
+			<city>Oslo</city>
+			<country>Norway</country>
+			<street>Sonja Henies pl. 2</street>
+			<postalcode>0185</postalcode>
+			<point>
+				<lat>59.912411</lat>
+				<long>10.754699</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779340</url>
+	</venue>
+	<startDate>Wed, 17 Jun 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Oslo Spektrum, onsdag 17. juni 2009<br />
+		Billetter i salg på <a href="http://www.billettservice.no" rel="nofollow">http://www.billettservice.no</a>
+		<br />
+		og telefon 815 33 133 fra mandag 20. oktober<br />
+		<br />
+		Metallica slapp sitt seneste album ”Death Magnetic” i Norge den 12. september.<br />
+		<br />
+		Albumet har allerede solgt over 60.000 ex og har ligget som nummer 1 på VG-lista i 4 uker.<br />
+		<br />
+		I forbindelse med dette albumet, legger Metallica ut på turnèen ”World Magnetic Tour ’09”.<br />
+		<br />
+	Oppsettet denne gangen blir ”In The Round”, noe som betyr at alle billettene vil ha like god sikt</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>83</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=803769</tag>
+<url>http://www.last.fm/event/803769</url>
+</event>
+<event>
+	<id>743707</id>
+	<title>Nova Rock 2009</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Placebo</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Disturbed</artist>
+		<artist>Slipknot</artist>
+		<artist>Staind</artist>
+		<artist>Faith No More</artist>
+		<artist>Guano Apes</artist>
+		<artist>Static-X</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Less Than Jake</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Trivium</artist>
+		<artist>Machine Head</artist>
+		<artist>Flyleaf</artist>
+		<artist>Dimmu Borgir</artist>
+		<artist>Gogol Bordello</artist>
+		<artist>Sevendust</artist>
+		<artist>dredg</artist>
+		<artist>Mastodon</artist>
+		<artist>Die Toten Hosen</artist>
+		<artist>All That Remains</artist>
+		<artist>Monster Magnet</artist>
+		<artist>Dir en grey</artist>
+		<artist>The Living End</artist>
+		<artist>In Extremo</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Madsen</artist>
+		<artist>August Burns Red</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>The Sword</artist>
+		<artist>Black Stone Cherry</artist>
+		<artist>Eisbrecher</artist>
+		<artist>Black Tide</artist>
+		<artist>Expatriate</artist>
+		<artist>3 Feet Smaller</artist>
+		<artist>Smoke Blow</artist>
+		<artist>Loaded</artist>
+		<artist>Zeronic</artist>
+		<artist>Centao</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Pannonia Fields II</name>
+		<location>
+			<city>Nickelsdorf</city>
+			<country>Austria</country>
+			<street></street>
+			<postalcode>2425</postalcode>
+			<point>
+				<lat>47.939995</lat>
+				<long>17.068561</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8787897</url>
+	</venue>
+	<startDate>Fri, 19 Jun 2009</startDate>
+	<endDate>Sun, 21 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">CAUTION, A CHANGE OF DATE!!! <br />
+	*NovaRock now takes place on june 19th-21st</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25347007.gif</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25347007.gif</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25347007.gif</image>
+<attendance>496</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=743707</tag>
+<url>http://www.last.fm/event/743707</url>
+</event>
+<event>
+	<id>931591</id>
+	<title>Sonisphere</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>KoЯn</artist>
+		<artist>Slipknot</artist>
+		<artist>Pendulum</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Kamelot</artist>
+		<artist>Down</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Goffertpark</name>
+		<location>
+			<city>Nijmegen</city>
+			<country>Netherlands</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.820834</lat>
+				<long>5.835297</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782650</url>
+	</venue>
+	<startDate>Sat, 20 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Sonisphere is een concept van de creatievelingen achter de legendarische festivals Monsters of Rock en Download. Op Sonisphere zullen verdeeld over twee podia acht á negen bands optreden en door de acts om-en-om te programmeren hoeft niemand iets te missen. Gedurende de komende weken worden er meer bands toegevoegd. <br />
+		<br />
+	vvk start vrijdag 13 februari om 11.00 uur via <a href="http://www.livenation.nl" rel="nofollow">livenation</a> of 0900 - 10102020 à € 75 of € 170 voor het De Luxe ticket  (excl. servicekosten).</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24619881.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24619881.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24619881.jpg</image>
+<attendance>199</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=931591</tag>
+<url>http://www.last.fm/event/931591</url>
+</event>
+<event>
+	<id>980329</id>
+	<title>Sonisphere with Metallica, Slipknot, KoRn and others</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>KoЯn</artist>
+		<artist>Slipknot</artist>
+		<artist>Pendulum</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Kamelot</artist>
+		<artist>Down</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Goffertpark</name>
+		<location>
+			<city>Nijmegen</city>
+			<country>Netherlands</country>
+			<street>Goffertpark</street>
+			<postalcode>6532</postalcode>
+			<point>
+				<lat>51.821787</lat>
+				<long>5.836173</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014420</url>
+	</venue>
+	<startDate>Sat, 20 Jun 2009</startDate>
+	<startTime>13:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980329</tag>
+	<url>http://www.last.fm/event/980329</url>
+</event>
+<event>
+	<id>802703</id>
+	<title>Metallica: World Magnetic Tour 2009</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Datchforum</name>
+		<location>
+			<city>Milano</city>
+			<country>Italy</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.5063469010834</lat>
+				<long>9.20654296875</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8968748</url>
+	</venue>
+	<startDate>Mon, 22 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">I biglietti saranno in vendita a partire dalle 00.01 di sabato 18 Ottobre via internet su <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a> e dalle ore 9.00 di sabato 18 Ottobre in tutti i punti vendita della rete Ticketone. <br />
+		<br />
+		I prezzi saranno i seguenti: <br />
+		<br />
+		Parterre (sotto palco - posto unico): 50 Euro + diritti di prevendita<br />
+		Platinum Ticket (posti numerati - primo settore): 55 Euro + diritti di prevendita<br />
+		Gold Ticket (posti numerati - secondo settore): 45 Euro + diritti di prevendita<br />
+		Silver Ticket (posto unico - terzo settore): 40 Euro + diritti di prevendita <br />
+		<br />
+		NB: per la data di Roma anche il Silver Ticket sarà numerato. <br />
+		<br />
+		Per gli iscritti al fan club sarà possibile acquistare in anteprima i biglietti a partire dalle 9.00 di giovedi16 Ottobre su <a href="http://www.metclub.com" rel="nofollow">www.metclub.com</a>
+		<br />
+		<br />
+	Per tutti gli altri: pronti a cliccare su <a href="http://www.ticketone.it" rel="nofollow">www.ticketone.it</a> allo scoccare della mezzanotte tra venerdi e sabato!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>97</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=802703</tag>
+<url>http://www.last.fm/event/802703</url>
+</event>
+<event>
+	<id>802695</id>
+	<title>World Magnetic Tour 2009</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Palalottomatica</name>
+		<location>
+			<city>Roma</city>
+			<country>Italy</country>
+			<street>Piazzale dello sport</street>
+			<postalcode>00100</postalcode>
+			<point>
+				<lat>41.833878</lat>
+				<long>12.489655</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782506</url>
+	</venue>
+	<startDate>Wed, 24 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">METALLICA saranno accompagnati dai <br />
+		Lamb Of God e Mastodon.<br />
+		<br />
+		biglietti saranno in vendita a partire dalle 00.<br />
+		01 di sabato 18 Ottobre via internet su www. ticketone. it e dalle ore 9.00 di sabato 18 Ottobre in tutti i punti vendita della rete Ticketone.<br />
+		I prezzi saranno i seguenti:<br />
+		Parterre (sotto palco - posto unico): 50 Euro + diritti di prevendita<br />
+		Platinum Ticket (posti numerati - primo settore): 55 Euro + diritti di prevendita<br />
+		Gold Ticket (posti numerati - secondo settore): 45 Euro + diritti di prevendita<br />
+		Silver Ticket (posto unico - terzo settore): 40 Euro + diritti di prevendita<br />
+		<br />
+		NB: per la data di Roma anche il Silver Ticket sarà numerato.<br />
+		<br />
+		<br />
+		Per gli iscritti al fan club sarà possibile acquistare in anteprima i biglietti a partire dalle 9.<br />
+		00 di giovedi16 Ottobre su www. metclub. com<br />
+		<br />
+	Per tutti gli altri: pronti a cliccare su www. ticketone. it allo scoccare della mezzanotte tra venerdi e sabato!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>124</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=802695</tag>
+<url>http://www.last.fm/event/802695</url>
+</event>
+<event>
+	<id>763300</id>
+	<title>Rock Werchter Festival 2009</title>
+	<artists>
+		<artist>Coldplay</artist>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Metallica</artist>
+		<artist>Placebo</artist>
+		<artist>Bloc Party</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>The Prodigy</artist>
+		<artist>Kings of Leon</artist>
+		<artist>The Flaming Lips</artist>
+		<artist>Röyksopp</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Lily Allen</artist>
+		<artist>Dave Matthews Band</artist>
+		<artist>Jason Mraz</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Mogwai</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Streets</artist>
+		<artist>Elbow</artist>
+		<artist>Emiliana Torrini</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>Pendulum</artist>
+		<artist>M. Ward</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Tiga</artist>
+		<artist>Social Distortion</artist>
+		<artist>Mastodon</artist>
+		<artist>Just Jack</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>2 Many DJ's</artist>
+		<artist>Priscilla Ahn</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Ghinzu</artist>
+		<artist>Henry Rollins</artist>
+		<artist>The hickey underworld</artist>
+		<headliner>Coldplay</headliner>
+	</artists>
+	<venue>
+		<name>Werchter</name>
+		<location>
+			<city>Werchter</city>
+			<country>Belgium</country>
+			<street>Haachtsesteenweg</street>
+			<postalcode>B-3118</postalcode>
+			<point>
+				<lat>50.969376</lat>
+				<long>4.69036</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779175</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Donderdag 2 juli 2009 <br />
+		<br />
+		Main Stage: The Prodigy | Oasis | Placebo | Dave Matthews | Lily Allen <br />
+		Pyramid Marquee: Tiga | Pendulum | Laurent Garnier | Fleet Foxes | Emiliana Torrini <br />
+		<br />
+		Vrijdag 3 juli 2009 <br />
+		<br />
+		Main Stage: Coldplay | The Killers | Bloc Party | Elbow | Amy Macdonald | Just Jack <br />
+		Pyramid Marquee: Lady Gaga | Jason Mraz | The Streets | M. Ward | Priscilla Ahn | Henry Rollins Spoken Word <br />
+		<br />
+		Zaterdag 4 juli 2009 <br />
+		<br />
+		Main Stage: 2manydjs | Kings of Leon | Nick Cave and the Bad Seeds | Franz Ferdinand | Limp Bizkit | Social Distortion <br />
+		Pyramid Marquee: Katy Perry | Mogwai <br />
+		<br />
+		Zondag 5 juli 2009 <br />
+		<br />
+		Main Stage: Metallica | Nine Inch Nails | Kaiser Chiefs | The Mars Volta | Seasick Steve | Mastodon <br />
+	Pyramid Marquee: Flaming Lips | Röyksopp | Ghinzu | The Hickey Underworld</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/16244305.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/16244305.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/16244305.jpg</image>
+<attendance>825</attendance>
+<reviews>1</reviews>
+<tag>lastfm:event=763300</tag>
+<url>http://www.last.fm/event/763300</url>
+</event>
+<event>
+	<id>931619</id>
+	<title>Sonisphere Festival 2009</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Die Toten Hosen</artist>
+		<artist>In Extremo</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hockenheimring</name>
+		<location>
+			<city>Hockenheim</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.328186</lat>
+				<long>8.570745</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8790511</url>
+	</venue>
+	<startDate>Sat, 04 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">SONISPHERE wurde von den Machern der legendären Monsters of Rock und Download Festivals entwickelt. Deren langjährige Erfahrung in der Durchführung von erstklassigen Konzerten und Festivals garantiert, dass SONISPHERE ein Projekt der Superlative werden wird.<br />
+		<br />
+	SONISPHERE ist das erste Musikfestival, das international auf Tournee gehen wird und am 4. Juli 2009 Station in Hockenheim macht. Die kommende Europatournee im Sommer präsentiert ein Line-up von hochkarätigen Rockbands. Hunderttausende Fans können sich auf Metallica als Headliner freuen, die sich die Bühnen Europas mit weiteren Schwergewichten wie Die Toten Hosen, In Extremo, Lamb of God, Mastodon und vielen anderen teilen werden.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>84</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=931619</tag>
+<url>http://www.last.fm/event/931619</url>
+</event>
+<event>
+	<id>984163</id>
+	<title>Sonisphere</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Die Toten Hosen</artist>
+		<artist>In Extremo</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hockenheimring</name>
+		<location>
+			<city>Hockenheim</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>49.328186</lat>
+				<long>8.570745</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8790511</url>
+	</venue>
+	<startDate>Sat, 04 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><span class="quote">EIN NEUES GLOBALES ROCKFESTIVAL GEHT AUF TOURNEE<br />
+			<br />
+			SONISPHERE wurde von den Machern der legendären Monsters of Rock und Download Festivals entwickelt. Deren langjährige Erfahrung in der Durchführung von erstklassigen Konzerten und Festivals garantiert, dass SONISPHERE ein Projekt der Superlative werden wird.<br />
+			<br />
+		SONISPHERE ist das erste Musikfestival, das international auf Tournee gehen wird und am 4. Juli 2009 Station in Hockenheim macht. Die kommende Europatournee im Sommer präsentiert ein Line-up von hochkarätigen Rockbands. Hunderttausende Fans können sich auf Metallica als Headliner freuen, die sich die Bühnen Europas mit weiteren Schwergewichten wie Die Toten Hosen, In Extremo, Lamb of God, Mastodon und vielen anderen teilen werden.</span>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25395869.png</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25395869.png</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25395869.png</image>
+<attendance>1</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=984163</tag>
+<url>http://www.last.fm/event/984163</url>
+</event>
+<event>
+	<id>826951</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Arènes de Nîmes</name>
+		<location>
+			<city>Nîmes</city>
+			<country>France</country>
+			<street>Boulevard des Arènes</street>
+			<postalcode>30000</postalcode>
+			<point>
+				<lat>43.834772</lat>
+				<long>4.359764</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8789092</url>
+	</venue>
+	<startDate>Tue, 07 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>47</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=826951</tag>
+	<url>http://www.last.fm/event/826951</url>
+</event>
+<event>
+	<id>916988</id>
+	<title>Optimus Alive! 09</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Placebo</artist>
+		<artist>Slipknot</artist>
+		<artist>Dave Matthews Band</artist>
+		<artist>TV on the Radio</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Klaxons</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Machine Head</artist>
+		<artist>Crystal Castles</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Late of the Pier</artist>
+		<artist>Los Campesinos!</artist>
+		<artist>Hadouken!</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>Erol Alkan</artist>
+		<artist>The Black Eyed Peas</artist>
+		<artist>Trouble Andrew</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Passeio Marítimo de Algés</name>
+		<location>
+			<city>Lisboa</city>
+			<country>Portugal</country>
+			<street>Av. Brasília @38.698113, -9.231640</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>38.697798</lat>
+				<long>-9.1849</long>
+			</point>
+			<timezone>WET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8807828</url>
+	</venue>
+	<startDate>Thu, 09 Jul 2009</startDate>
+	<endDate>Sat, 11 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.everythingisnew.pt" rel="nofollow">www.everythingisnew.pt</a><br />
+		<a href="http://www.optimusalive.com/" rel="nofollow">www.optimusalive.com/</a>
+		<br />
+		<br />
+		<br />
+		<span style="color:red">9 de Julho</span>
+		<br />
+		<br />
+		<strong>Palco Optimus:</strong>
+		<br />
+		Metallica<br />
+		Slipknot<br />
+		Mastodon<br />
+		Lamb of God<br />
+		Machine Head<br />
+		<br />
+		<strong>Palco Super Bock:</strong>
+		<br />
+		Erol Alkan<br />
+		Crystal Castles<br />
+		TV on the Radio<br />
+		Klaxons<br />
+		<br />
+		<br />
+		<span style="color:red">10 de Julho </span>
+		<br />
+		<br />
+		<strong>Palco Optimus:</strong>
+		<br />
+		Placebo<br />
+		<br />
+		<strong>Palco Super Bock:</strong>
+		<br />
+		<br />
+		The Ting Tings<br />
+		The Gaslight Anthem<br />
+		Late of the Pier<br />
+		Hadouken! <br />
+		<br />
+		<span style="color:red">11 de Julho </span>
+		<br />
+		<br />
+		<strong>Palco Optimus:</strong>
+		<br />
+		Dave Mathews Band<br />
+		Chris Cornell<br />
+		The Black Eyed Peas<br />
+		<br />
+		<strong>Palco Super Bock:</strong>
+		<br />
+		Los Campesinos!<br />
+		Trouble Andrew<br />
+		<br />
+		O preço dos bilhetes é de <strong>50 Euros</strong> diários ou <strong>90 Euros</strong> passe para os 3 dias<br />
+	e já se encontram à venda.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>592</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=916988</tag>
+<url>http://www.last.fm/event/916988</url>
+</event>
+<event>
+	<id>965321</id>
+	<title>OEIRAS ALIVE</title>
+	<artists>
+		<artist>Placebo</artist>
+		<artist>Metallica</artist>
+		<artist>Black Eyed Peas</artist>
+		<artist>Slipknot</artist>
+		<artist>Dave Matthews Band</artist>
+		<artist>TV on the Radio</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Machine Head</artist>
+		<artist>Crystal Castles</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Los Campesinos!</artist>
+		<artist>The Gaslight Anthem</artist>
+		<headliner>Placebo</headliner>
+	</artists>
+	<venue>
+		<name>Passeio Marítimo de Algés</name>
+		<location>
+			<city>Oeiras</city>
+			<country>Portugal</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>38.6833333</lat>
+				<long>-9.3166667</long>
+			</point>
+			<timezone>WET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8812604</url>
+	</venue>
+	<startDate>Thu, 09 Jul 2009</startDate>
+	<endDate>Sat, 11 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/135757.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/135757.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/135757.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=965321</tag>
+	<url>http://www.last.fm/event/965321</url>
+</event>
+<event>
+	<id>893890</id>
+	<title>SONISPHERE</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Slipknot</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Parc del Fòrum</name>
+		<location>
+			<city>Barcelona</city>
+			<country>Spain</country>
+			<street>Plaça de Llevant</street>
+			<postalcode>08019</postalcode>
+			<point>
+				<lat>41.409647</lat>
+				<long>2.224388</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8801698</url>
+	</venue>
+	<startDate>Sat, 11 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">BARCELONA SERÁ UNA DE LAS SEIS CIUDADES EUROPEAS QUE ACOJA EL FESTIVAL SONISPHERE, CON METALLICA DE CABEZA DE CARTEL<br />
+		<br />
+		La cita será el 11 de julio en el Parc del Forum y también están confirmados Slipknot, Mastodon y Lamb Of God. Las entradas salen a la venta el 16 de febrero<br />
+		<br />
+		<br />
+		Barcelona será, junto a Nijmegen (Holanda), Hockenheim (Alemania), Hultsfred (Suecia), Pori (Finlandia) y Stevenage (Inglaterra) una de las seis ciudades europeas que acoja Sonisphere, un nuevo festival internacional que traerá en gira a algunos de los mejores grupos de rock del momento.<br />
+		<br />
+		Metallica será el cabeza de cartel del festival en las seis ciudades europeas y compartirá escenario con otros pesos pesados del rock como Linkin Park (Finlandia e Inglaterra), Die Toten Hosen (Alemania), Splipknot (Holanda y Barcelona) o Mastodon (actuarán en las seis ciudades).<br />
+		<br />
+		“Estamos encantados de girar por Europa con Sonisphere”, afirma Lars Ulrich, de Metallica. “Los festivales de verano en Europa son lo que mejor sabe hacer Metallica. Estamos deseando poder volver a ver a todos nuestros fans europeos”.<br />
+		<br />
+		Sonisphere es un festival que llega de la mano de los creadores de los legendarios festivales británicos Monsters Of Rock y Download. La edición española del Sonisphere contará con Last Tour International como co-organizadores, también responsables de otros festivales como el Bilbao BBK Live, Azkena Rock Festival o Getafe Electric.<br />
+		<br />
+		La filosofía de Sonisphere va en contra de apretujar a un montón de bandas en múltiples escenarios y obligar así a los fans a elegir qué actuación ver. El festival presentará dos escenarios en el que los grupos irán alternando actuaciones sin solaparse. Sonisphere contará también con algunos de los atractivos habituales de los festivales: stands comerciales, atracciones, etc…<br />
+		<br />
+		Además, Sonisphere es un festival que llega para quedarse. La intención es que a partir de 2010 se expanda más allá de Europa para pasar a ser un fenómeno mundial.<br />
+		<br />
+		Los carteles completos de cada ciudad se darán a conocer en breve, incluído Barcelona.<br />
+		<br />
+		John Jackson y Stuart Galbraith – creadores y productores de Sonisphere<br />
+		<br />
+		“Ha habido muchos festivales de rock con éxito en el mundo, pero ésta será la primera vez que un festival gire por varios países. La involucración de Metallica hace que éste sea EL evento de 2009. Éste es sólo el comienzo, pero a partir de 2010, ampliaremos las fechas desde Europa al mundo entero. Es un festival verdaderamente único”.<br />
+		<br />
+		SONISPHERE<br />
+		<br />
+		11 de julio<br />
+		PARC DEL FÓRUM<br />
+		BARCELONA<br />
+		<br />
+		METALLICA<br />
+		SLIPKNOT<br />
+		MASTODON<br />
+		LAMB OF GOD<br />
+		y más bandas por confirmar<br />
+		<br />
+		ENTRADAS A LA VENTA EL LUNES, 16 DE FEBRERO<br />
+		70 € + gastos de distribución (TBC on Monday)<br />
+		Puntos de venta:<br />
+		Puntos de venta: Red Tick Tack Ticket, 902 15 00 25, Fnac, Carrefour, Mosaicodiffusion.com<br />
+		<br />
+		TODAS LAS FECHAS DEL SONISPHERE<br />
+		<br />
+		Nota: Metallica actuará en todas las fechas excepto el 1 de agosto en Inglaterra<br />
+		<br />
+		Sábado 20 de junio<br />
+		Goffert Park, Nijmegen, Holanda (con Slipknot) – A la venta el 13 de febrero<br />
+		<br />
+		Sábado 4 de julio<br />
+		Hockenheim, Alemania (con Die Toten Hosen) – A la venta el 14 de febrero<br />
+		<br />
+		Sábado 11 de julio<br />
+		Parc del Fórum, Barcelona (con Slipknot) – A la venta el 16 de febrero<br />
+		<br />
+		Sábado 18 de julio<br />
+		Folkets Park, Hultsfred, Suecia –A la venta el 16 de febrero<br />
+		<br />
+		Sábado 25 de Julio<br />
+		Kirjurinluoto, Pori, Finlandia (con Linkin Park) - A la venta el 16 de febrero<br />
+		<br />
+		Sábado 1 de agosto<br />
+		Knebworth House, Stevenage, Reino Unido (con Linkin Park como grupo principal)<br />
+		A la venta el 11 de febrero<br />
+		<br />
+		Domingo 2 de agosto<br />
+		Knebworth House, Stevenage, Reino Unido (con Metallica como grupo principal)<br />
+		A la venta el 11 de febrero<br />
+		<br />
+		Más información en:<br />
+		<br />
+		<a href="http://www.sonispherefestivals.com" rel="nofollow">www.sonispherefestivals.com</a>
+		<br />
+		<a href="http://www.ltinews.net" rel="nofollow">www.ltinews.net</a>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>320</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=893890</tag>
+<url>http://www.last.fm/event/893890</url>
+</event>
+<event>
+	<id>803933</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Palacio de Deportes de la Comunidad de Madrid</name>
+		<location>
+			<city>Madrid</city>
+			<country>Spain</country>
+			<street>Jorge Juan 99</street>
+			<postalcode>28009</postalcode>
+			<point>
+				<lat>40.423234</lat>
+				<long>-3.672654</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8795164</url>
+	</venue>
+	<startDate>Mon, 13 Jul 2009</startDate>
+	<startTime>18:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Metallica   <br />
+		Lunes, 13 de Julio de 2009  <br />
+		Palacio de Deportes Comunidad de Madrid - Madrid  <br />
+		18:30 - Apertura de puertas.  <br />
+		19:00 - Mastodon<br />
+		19:45 - Lamb of God<br />
+		21:00 - Metallica  <br />
+		<br />
+		ENTRADAS AGOTADAS!  <br />
+		<br />
+		El ‘World Magnetic Tour 09’ de Metallica pasará por el Palacio de Deportes de la Comunidad de Madrid el 13 de julio de 2009. La gira mundial de presentación de ‘Death Magnetic’, el aclamado nuevo disco de estudio de la banda estadounidense tras cinco años de silencio discográfico, llega a España después de que el álbum haya sido nº1 de ventas en numerosos paises a lo largo y ancho de todo el mundo.<br />
+		<br />
+		Las entradas valdrán 48, 53 o 58 € + gastos de distribución dependiendo de la localidad y saldrán a la venta a través de la red Tick Tack Ticket el próximo jueves, 23 de octubre, a las diez en punto de la mañana. Previamente, saldrá a la venta un número limitado de entradas para los miembros del Club de Fans de Metallica, que se podrán adquirir a través de <a href="http://www.metclub.com" rel="nofollow">www.metclub.com</a> del 17 al 20 de octubre.<br />
+		<br />
+		Es el tercer año consecutivo en el que Metallica actúa en España, tras sus fechas exclusivas de 2007 en el Bilbao BBK Live y 2008 en el Getafe Electric Festival. Ambas actuaciones se saldaron con un rotundo éxito de público y crítica. En Bilbao consiguieron congregar a 40.000 personas y en Getafe, a 55.000.<br />
+		<br />
+		Por lo que el concierto del 13 de julio en el Palacio de los Deportes de Madrid, con aforo para 16.000 personas, levantará, sin duda alguna, una gran expectación. Además, cabe destacar que el montaje del ‘World Magnetic Tour 09’ será espectacular y especial, con un escenario en forma de cuadrilátero situado en el centro del pabellón que proporciona visibilidad al público desde todos los ángulos del recinto.<br />
+		<br />
+		METALLICA<br />
+		‘WORLD MAGNETIC TOUR 09’<br />
+		<br />
+		MADRID<br />
+		Lunes, 13 de julio de 2009<br />
+		Palacio de los Deportes de la Comunidad<br />
+		<br />
+		18:30 - Apertura de Puertas<br />
+		19:00 - Artista Invitado<br />
+		19:45 - Artista Invitado<br />
+		21:00 - Metallica<br />
+		<br />
+		<em>El orden en el que tocarán Mastodon y Lamb of God es por ahora desconocido.</em>
+		<br />
+		<br />
+		A LA VENTA EL 23 DE OCTUBRE<br />
+		Precio: 48 / 53 / 58 € + gastos<br />
+		Puntos de venta: Red Tick Tack Ticket, <a href="http://www.ticktackticket.com" rel="nofollow">www.ticktackticket.com</a>, 902 15 00 25, FNAC, Carrefour<br />
+		<br />
+		Más información en:<br />
+		<br />
+		<a href="http://www.ltinews.net" rel="nofollow">www.ltinews.net</a>
+		<br />
+		<a href="http://www.metallica.com" rel="nofollow">www.metallica.com</a>
+		<br />
+		<a href="http://www.metclub.com" rel="nofollow">www.metclub.com</a>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>317</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=803933</tag>
+<url>http://www.last.fm/event/803933</url>
+</event>
+<event>
+	<id>820592</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Palacio de Deportes de la Comunidad de Madrid</name>
+		<location>
+			<city>Madrid</city>
+			<country>Spain</country>
+			<street>Jorge Juan 99</street>
+			<postalcode>28009</postalcode>
+			<point>
+				<lat>40.423234</lat>
+				<long>-3.672654</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8795164</url>
+	</venue>
+	<startDate>Tue, 14 Jul 2009</startDate>
+	<startTime>18:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Metallica <br />
+		Martes, 14 de Julio de 2009 <br />
+		Palacio de Deportes Comunidad de Madrid - Madrid <br />
+		18:30 - Apertura de puertas. <br />
+		19:00 - Mastodon<br />
+		19:45 - Lamb of God<br />
+		21:00 - Metallica<br />
+		<br />
+		Entrada General 58,80<br />
+		Asiento Reservado 63,80<br />
+		Asiento Reservado 53,80<br />
+		Palcos de pie (Visibilidad Reducida)   53,80<br />
+		<br />
+		<strong>ENTRADAS AGOTADAS</strong>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>179</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=820592</tag>
+<url>http://www.last.fm/event/820592</url>
+</event>
+<event>
+	<id>809289</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hallenstadion</name>
+		<location>
+			<city>Zürich</city>
+			<country>Switzerland</country>
+			<street>Wallisellenstrasse 45</street>
+			<postalcode>8050</postalcode>
+			<point>
+				<lat>47.411609</lat>
+				<long>8.551656</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778903</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>47</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=809289</tag>
+	<url>http://www.last.fm/event/809289</url>
+</event>
+<event>
+	<id>931857</id>
+	<title>Sonisphere</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Primal Scream</artist>
+		<artist>Cradle of Filth</artist>
+		<artist>Lamb of God</artist>
+		<artist>The Pogues</artist>
+		<artist>Mastodon</artist>
+		<artist>Meshuggah</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Hultsfreds Hembygdspark</name>
+		<location>
+			<city>Hultsfred</city>
+			<country>Sweden</country>
+			<street>Folkparksvägen</street>
+			<postalcode>577 36</postalcode>
+			<point>
+				<lat>57.496459</lat>
+				<long>15.863033</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8964983</url>
+	</venue>
+	<startDate>Sat, 18 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">METALLICA HEADLINAR SONISPHERE FESTIVAL I HULTSFRED!<br />
+		<br />
+		SONISPHERE är en helt ny internationellt turnerande musikfestival som samlar ihop flera av dagens bästa artister under sin turné i Europa.<br />
+		<br />
+		Den 18 juli stannar SONISPHERE till i Hultsfred med Metallica som headliner. Just nu jobbar vi på att sätta ihop en perfekt rockig lineup med några av de bästa banden i världen. Vi är nästan klara och kommer inom några veckor att gå ut med fler band samt information om biljettsläpp och biljettpris.<br />
+		<br />
+		&quot;We´re stoked to be touring England and Europe with Sonisphere&quot;, säger Metallica´s Lars Ulrich. &quot;Summer festivals in Europe are what Metallica do best. We can´t wait and see all of our fans over there.&quot; <br />
+		<br />
+		SONISPHERE handlar om kvalitet. Istället för att trycka in så många band som möjligt på flera scener och tvinga fansen att välja och välja bort kommer festivalen att bestå av 10-12 band som alternerar mellan två scener. Med andra ord -du kommer inte att missa någonting på hela dagen.<br />
+		<br />
+		SONISPHERE kommer att gå av stapeln runtom i Europa under sommaren och dra hundratusentals fans. Vi hoppas att du vill vara med när vi skapar historia med den här spektakulära festivalen!<br />
+		<br />
+		Biljetter:<br />
+		<br />
+		Åldersgräns 13 år<br />
+		Biljettpris 995kr - 2250kr + service enligt nedan<br />
+		<br />
+		OBS - Köp rätt typ av biljett från början då exempelvis campingbiljett inte kan köpas på plats. Köpta biljetter återlöses ej. <br />
+		<br />
+		<br />
+		1-dags biljett (Utan camping): 995kr + service<br />
+		1-dags biljett med tältplats: 1095kr + service<br />
+		1-dags biljett med husvagnsplats: 1295kr + service<br />
+		Kombo-biljett: 2250kr + service   <br />
+		(Kombo-biljetten innebär inträde till båda festivalerna, Sonisphere + Hultsfred samt tältplats under hela perioden)<br />
+		<br />
+		Ovan biljetter släpps till försäljning på <a href="http://www.ticnet.se" rel="nofollow">www.ticnet.se</a>
+		<br />
+		Ticnets serviceavgift är 30kr per biljett<br />
+		<br />
+		Se även på fliken info vad som gäller för olika typer av biljetter.<br />
+		<br />
+		Lämna körandet till någon annan!<br />
+		<br />
+		Med Festivalbussen tar du dig snabbt och bekvämt till Hultsfred och Sonisphere festivalen. Väl på plats slipper du bilköer och att leta efter parkeringsplatser.<br />
+		<br />
+		Festivalbussen avgår från mer än 60 orter i Sverige!<br />
+		<br />
+	Du kan även boka inträdesbiljett (1-dags biljett utan camping) till Sonisphere tillsammans med bussresan på: <a href="http://www.festivalbussen.com" rel="nofollow">www.festivalbussen.com</a> eller klicka HÄR för att komma direkt till Festivalbussens Sonisphere bokning.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>71</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=931857</tag>
+<url>http://www.last.fm/event/931857</url>
+</event>
+<event>
+	<id>803962</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Julius Thomsens Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779282</url>
+	</venue>
+	<startDate>Mon, 20 Jul 2009</startDate>
+	<startTime>08:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://worldticketshop.cleafs.com/go?merc=1&amp;aff=SzEop7f-g8F9KJZ0&amp;network=cleafs&amp;label=lastfm_metallica&amp;redirect=http%3A%2F%2Fwww.worldticketshop.com%2Fconcerts%2Fmetallica_tickets" rel="nofollow">Køb billetter til Metallica koncerten i Forum København</a><br />
+		<br />
+		Sakset fra Gaffa.dk<br />
+		<br />
+		Bandet indtager Forum i København i juli måned og giver hele fem koncerter<br />
+		<br />
+		Der var lidt brok i kulisserne over, at Metallica havde valgt ikke at spille i Danmark i forbindelse med udgivelsen af deres nye album &quot;Death Magnetic&quot;. Men nu tager gruppen revanche ved at offentliggøre hele tre danske koncerter i juli måned, der alle tre afvikles i Forum i København.<br />
+		<br />
+		Det bliver deres første københavnske koncerter i fire år, hvor man kunne opleve dem i Parken efter udgivelsen af albummet &quot;St. Anger&quot;. Siden da har gruppen dog været på besøg i Århus, hvor de spillede i 2007.<br />
+		<br />
+		Men nu vender de altså tilbage, og det betyder at der er mulighed for at opleve Metallica live i dagene 20., 22. og 23. juli.<br />
+		<br />
+		Billetsalget til koncerterne starter på mandag 20. oktober klokken 10:00 fra Billetlugen.dk, på telefon 70 263 267 samt i Fona-butikkerne.<br />
+		<br />
+	Max. 8 billetter pr. ekspedition - ved internet-køb kan kun købes til én koncert pr. ekspedition.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>32</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=803962</tag>
+<url>http://www.last.fm/event/803962</url>
+</event>
+<event>
+	<id>979926</id>
+	<title>Metallica&lt;br&gt;Support: Lamb of God og Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>Frederiksberg C</city>
+			<country>Denmark</country>
+			<street>Julius Thomsen Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014458</url>
+	</venue>
+	<startDate>Mon, 20 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979926</tag>
+	<url>http://www.last.fm/event/979926</url>
+</event>
+<event>
+	<id>979927</id>
+	<title>Metallica&lt;br&gt;Support: Lamb of God og Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>Frederiksberg C</city>
+			<country>Denmark</country>
+			<street>Julius Thomsen Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014458</url>
+	</venue>
+	<startDate>Wed, 22 Jul 2009</startDate>
+	<startTime>00:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979927</tag>
+	<url>http://www.last.fm/event/979927</url>
+</event>
+<event>
+	<id>803963</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Julius Thomsens Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779282</url>
+	</venue>
+	<startDate>Wed, 22 Jul 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.koncertlink.dk/events/gettickets/7993" rel="nofollow">Køb billetter til Metallica koncerten i Forum København</a><br />
+		<br />
+		Sakset fra Gaffa.dk<br />
+		<br />
+		Bandet indtager Forum i København i juli måned og giver hele tre koncerter<br />
+		<br />
+		Der var lidt brok i kulisserne over, at Metallica havde valgt ikke at spille i Danmark i forbindelse med udgivelsen af deres nye album &quot;Death Magnetic&quot;. Men nu tager gruppen revanche ved at offentliggøre hele tre danske koncerter i juli måned, der alle tre afvikles i Forum i København.<br />
+		<br />
+		Det bliver deres første københavnske koncerter i fire år, hvor man kunne opleve dem i Parken efter udgivelsen af albummet &quot;St. Anger&quot;. Siden da har gruppen dog været på besøg i Århus, hvor de spillede i 2007.<br />
+		<br />
+		Men nu vender de altså tilbage, og det betyder at der er mulighed for at opleve Metallica live i dagene 20., 22. og 23. juli.<br />
+		<br />
+		Billetsalget til koncerterne starter på mandag 20. oktober klokken 10:00 fra Billetlugen.dk, på telefon 70 263 267 samt i Fona-butikkerne.<br />
+		<br />
+	Max. 8 billetter pr. ekspedition - ved internet-køb kan kun købes til én koncert pr. ekspedition.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>39</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=803963</tag>
+<url>http://www.last.fm/event/803963</url>
+</event>
+<event>
+	<id>979928</id>
+	<title>Metallica&lt;br&gt;Support: Lamb of God og Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>Frederiksberg C</city>
+			<country>Denmark</country>
+			<street>Julius Thomsen Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014458</url>
+	</venue>
+	<startDate>Thu, 23 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979928</tag>
+	<url>http://www.last.fm/event/979928</url>
+</event>
+<event>
+	<id>803966</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Julius Thomsens Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779282</url>
+	</venue>
+	<startDate>Thu, 23 Jul 2009</startDate>
+	<startTime>21:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.koncertlink.dk/events/gettickets/7993" rel="nofollow">Køb billetter til Metallica koncerten i Forum København</a><br />
+		<br />
+		Sakset fra gaffa.dk<br />
+		<br />
+		Bandet indtager Forum i København i juli måned og giver hele tre koncerter<br />
+		<br />
+		Der var lidt brok i kulisserne over, at Metallica havde valgt ikke at spille i Danmark i forbindelse med udgivelsen af deres nye album &quot;Death Magnetic&quot;. Men nu tager gruppen revanche ved at offentliggøre hele tre danske koncerter i juli måned, der alle tre afvikles i Forum i København.<br />
+		<br />
+		Det bliver deres første københavnske koncerter i fire år, hvor man kunne opleve dem i Parken efter udgivelsen af albummet &quot;St. Anger&quot;. Siden da har gruppen dog været på besøg i Århus, hvor de spillede i 2007.<br />
+		<br />
+		Men nu vender de altså tilbage, og det betyder at der er mulighed for at opleve Metallica live i dagene 20., 22. og 23. juli.<br />
+		<br />
+		Billetsalget til koncerterne starter på mandag 20. oktober klokken 10:00 fra Billetlugen.dk, på telefon 70 263 267 samt i Fona-butikkerne.<br />
+		<br />
+	Max. 8 billetter pr. ekspedition - ved internet-køb kan kun købes til én koncert pr. ekspedition.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>25</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=803966</tag>
+<url>http://www.last.fm/event/803966</url>
+</event>
+<event>
+	<id>931863</id>
+	<title>Sonisphere 2009 / Finland</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Linkin Park</artist>
+		<artist>Machine Head</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Kirjurinluoto Arena</name>
+		<location>
+			<city>Pori</city>
+			<country>Finland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>61.4833333</lat>
+				<long>21.7833333</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8886267</url>
+	</venue>
+	<startDate>Sat, 25 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Sonisphere on legendaaristen Monsters Of Rock- ja Download-festivaalien luojien uusin tuotos. Heidän tuomansa vuosikymmenien kokemus huippuluokan konserttien ja festivaalien organisoimisessa takaa sen, että Sonisphere nousee muiden yläpuolelle.<br />
+		<br />
+		Sonisphere tuo heinäkuun 25. päivä Porin Kirjurinluodolle rockin suuruudet. Kymmenet tuhannet fanit näkevät titaanit Linkin Parkin ja yhden kaikkien aikojen suurimmista yhtyeistä, Metallican, nousevan lavalle tässä kaikkien aikojen ensimmäisessä Sonisphere-festivaalissa.<br />
+		<br />
+		LIPUNMYYNTI ALKAA LIPPUPALVELUSSA MAANANTAINA 16.2. KLO 9.00<br />
+		<br />
+		Lippujen hinnat: 89/160€<br />
+		<br />
+	Huom!! Ostorajoitus 10 lippua per asiakas.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>279</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=931863</tag>
+<url>http://www.last.fm/event/931863</url>
+</event>
+<event>
+	<id>980177</id>
+	<title>SONISPHERE: Metallica with Linkin Park, Mastodon, Lamb of God</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Linkin Park</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Kirjurinluoto</name>
+		<location>
+			<city>Pori</city>
+			<country>Finland</country>
+			<street>- -</street>
+			<postalcode>28100</postalcode>
+			<point>
+				<lat>61.490104</lat>
+				<long>21.788851</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014597</url>
+	</venue>
+	<startDate>Sat, 25 Jul 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980177</tag>
+	<url>http://www.last.fm/event/980177</url>
+</event>
+<event>
+	<id>809194</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Julius Thomsens Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779282</url>
+	</venue>
+	<startDate>Mon, 27 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.koncertlink.dk/events/gettickets/7993" rel="nofollow">Billetter sælges til Metallica koncerten i Forum København</a><br />
+		<br />
+		Metallica skriver koncerthistorie!<br />
+		<br />
+		Efterspørgslen efter billetter til de tre koncerter med Metallica i Forum er enorm: Koncerten den 23. juli er nu udsolgt, og der er kun få billetter tilbage til hhv. 20. og 22. juli. Til glæde for deres mange danske fans har METALLICA derfor besluttet sig til at blive i København lidt længere og gi’ en X-TRA KONCERT MANDAG 27. JULI. Det er første gang at en rockband har solgt så mange billetter i Forum – Der er allerede solgt mere end 27.000 billetter!<br />
+		<br />
+	Koncertene bliver ’in the round’ med scenen placeret midt på gulvet i Forum, og support til koncerterne er Lamb of God samt Mastodon.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>33</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=809194</tag>
+<url>http://www.last.fm/event/809194</url>
+</event>
+<event>
+	<id>979929</id>
+	<title>Metallica&lt;br&gt;Support: Lamb of God og Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>Frederiksberg C</city>
+			<country>Denmark</country>
+			<street>Julius Thomsen Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014458</url>
+	</venue>
+	<startDate>Mon, 27 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979929</tag>
+	<url>http://www.last.fm/event/979929</url>
+</event>
+<event>
+	<id>979930</id>
+	<title>Metallica&lt;br&gt;Support: Lamb of God og Mastodon</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>Frederiksberg C</city>
+			<country>Denmark</country>
+			<street>Julius Thomsen Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014458</url>
+	</venue>
+	<startDate>Tue, 28 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979930</tag>
+	<url>http://www.last.fm/event/979930</url>
+</event>
+<event>
+	<id>827645</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Forum</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Julius Thomsens Plads 1</street>
+			<postalcode>1925</postalcode>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779282</url>
+	</venue>
+	<startDate>Tue, 28 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://www.koncertlink.dk/events/gettickets/7993" rel="nofollow">Køb billetter til Metallica koncerten i Forum København</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>14</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=827645</tag>
+<url>http://www.last.fm/event/827645</url>
+</event>
+<event>
+	<id>834654</id>
+	<title>Metallica Death Magnetic Tour 2009</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Oslo Spektrum</name>
+		<location>
+			<city>Oslo</city>
+			<country>Norway</country>
+			<street>Sonja Henies pl. 2</street>
+			<postalcode>0185</postalcode>
+			<point>
+				<lat>59.912411</lat>
+				<long>10.754699</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779340</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>58</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=834654</tag>
+	<url>http://www.last.fm/event/834654</url>
+</event>
+<event>
+	<id>931354</id>
+	<title>Sonisphere</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Linkin Park</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Alice in Chains</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Avenged Sevenfold</artist>
+		<artist>Thin Lizzy</artist>
+		<artist>Machine Head</artist>
+		<artist>Anthrax</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Killing Joke</artist>
+		<artist>Airbourne</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Knebworth Park</name>
+		<location>
+			<city>Knebworth, Hertfordshire</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>SG3 6PY</postalcode>
+			<point>
+				<lat>51.872235</lat>
+				<long>-0.211709</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8825807</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<endDate>Sun, 02 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Great show, great bands. Quite expensive, but hell worth it. Knebworth is a home of rock. The last 30 years has brought us all time classic concerts. Pink Floyd, Rolling Stones, Lynyrd Skynyrd, The Beath Boys, Devo, Oasis, Frank Zappa, Chuck Berry, Deep Purple, and the last every original lineup shows for both Queen and Led Zeppelin. And now they're inviting some exclusives<br />
+		<br />
+		<br />
+		Metallica – Knebworth is the only show that Metallica are playing in the UK other than 2009 other than the indoor tour dates that start in Nottingham this Wednesday<br />
+		<br />
+		Linkin Park – Knebworth is the only show that Linkin Park are playing in the UK in 2009<br />
+		<br />
+		Avenged Sevenfold – Knebworth is the only show that Avenged Sevenfold are playing in the UK in 2009<br />
+		<br />
+		Alice in Chains – Knebworth is the only show that Alice in Chains are playing in the UK in 2009<br />
+		<br />
+		Machine Head – Knebworth is the only outdoor festival that Machine Head are playing in the UK in 2009.  They are playing indoor shows with Metallica that start this Wednesday in Nottingham<br />
+		<br />
+		<br />
+		<br />
+		<a href="http://linkin-park.lt" rel="nofollow">http://linkin-park.lt</a>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25217585.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25217585.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25217585.jpg</image>
+<attendance>179</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=931354</tag>
+<url>http://www.last.fm/event/931354</url>
+</event>
+<event>
+	<id>955616</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Fairyhouse Racecourse</name>
+		<location>
+			<city>Co. Meath</city>
+			<country>Ireland</country>
+			<street>Ratoath</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.5080556</lat>
+				<long>-6.4625</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8826807</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955616</tag>
+	<url>http://www.last.fm/event/955616</url>
+</event>
+<event>
+	<id>957293</id>
+	<title>Metallica</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Alice in Chains</artist>
+		<artist>Avenged Sevenfold</artist>
+		<artist>Thin Lizzy</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Marlay Park</name>
+		<location>
+			<city>Baile Átha Cliath</city>
+			<country>Ireland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.274513</lat>
+				<long>-6.27804</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783911</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets On Sale NOW!<br />
+		<br />
+		Metallica are confirmed for an outdoor concert at Marlay Park, Dublin on Saturday 1st August 2009, subject to licence.<br />
+		<br />
+		Tickets priced €76.50 including booking fee are on sale now. Tickets will be strictly limited to 8 per person.<br />
+		<br />
+		Special guests of Metallica are Avenged Sevenfold, Alice in Chains, Thin Lizzy, Mastodon and The Sword.<br />
+		<br />
+	From MCD.ie</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/7626883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/7626883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/7626883.jpg</image>
+<attendance>63</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=957293</tag>
+<url>http://www.last.fm/event/957293</url>
+</event>
+</events>
+</lfm>

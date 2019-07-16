@@ -1,0 +1,2412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Oasis" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="56">
+		<event>
+			<id>871524</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<artist>8otto</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>日本ガイシホール</name>
+				<location>
+					<city>名古屋市</city>
+					<country>Japan</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.1738083179996</lat>
+						<long>136.91162109375</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8990680</url>
+			</venue>
+			<startDate>Wed, 18 Mar 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>10</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=871524</tag>
+			<url>http://www.last.fm/event/871524</url>
+		</event>
+		<event>
+			<id>910452</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Makuhari Messe</name>
+				<location>
+					<city>Chiba</city>
+					<country>Japan</country>
+					<street>2-1 Nakase Mihama</street>
+					<postalcode>261-0023</postalcode>
+					<point>
+						<lat>35.6</lat>
+						<long>140.1166667</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8802555</url>
+			</venue>
+			<startDate>Fri, 20 Mar 2009</startDate>
+			<startTime>18:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>10</attendance>
+			<reviews>1</reviews>
+			<tag>lastfm:event=910452</tag>
+			<url>http://www.last.fm/event/910452</url>
+		</event>
+		<event>
+			<id>854579</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Makomanai Ice Areana</name>
+				<location>
+					<city>Sapporo</city>
+					<country>Japan</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8987061</url>
+			</venue>
+			<startDate>Sun, 22 Mar 2009</startDate>
+			<startTime>18:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>9</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=854579</tag>
+			<url>http://www.last.fm/event/854579</url>
+		</event>
+		<event>
+			<id>841641</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>インテックス大阪</name>
+				<location>
+					<city>Osaka</city>
+					<country>Japan</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.95</lat>
+						<long>137.2666667</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8814834</url>
+			</venue>
+			<startDate>Tue, 24 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>10</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=841641</tag>
+			<url>http://www.last.fm/event/841641</url>
+		</event>
+		<event>
+			<id>853667</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>インテックス大阪</name>
+				<location>
+					<city>Osaka</city>
+					<country>Japan</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>35.95</lat>
+						<long>137.2666667</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8814834</url>
+			</venue>
+			<startDate>Wed, 25 Mar 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>6</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=853667</tag>
+			<url>http://www.last.fm/event/853667</url>
+		</event>
+		<event>
+			<id>840449</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Makuhari Messe</name>
+				<location>
+					<city>Chiba</city>
+					<country>Japan</country>
+					<street>2-1 Nakase Mihama</street>
+					<postalcode>261-0023</postalcode>
+					<point>
+						<lat>35.6</lat>
+						<long>140.1166667</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8802555</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>18:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>36</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=840449</tag>
+			<url>http://www.last.fm/event/840449</url>
+		</event>
+		<event>
+			<id>840451</id>
+			<title>Oasis</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Makuhari Messe</name>
+				<location>
+					<city>Chiba</city>
+					<country>Japan</country>
+					<street>2-1 Nakase Mihama</street>
+					<postalcode>261-0023</postalcode>
+					<point>
+						<lat>35.6</lat>
+						<long>140.1166667</long>
+					</point>
+					<timezone>JST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8802555</url>
+			</venue>
+			<startDate>Sun, 29 Mar 2009</startDate>
+			<startTime>18:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>24</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=840451</tag>
+			<url>http://www.last.fm/event/840451</url>
+		</event>
+		<event>
+			<id>884451</id>
+			<title>Oasis live @ Seoul</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Olympic Gymnasium</name>
+				<location>
+					<city>Sŏul</city>
+					<country>Korea, Republic of</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>37.5663889</lat>
+						<long>126.9997222</long>
+					</point>
+					<timezone>KST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8819200</url>
+			</venue>
+			<startDate>Wed, 01 Apr 2009</startDate>
+			<startTime>20:30</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Oasis are to return to Korea after 3 years to play a show at the Olympic Stadium in Seoul on April 1st. This will be their 2nd visit to Korea after their sold out show back in 2006.<br />
+				<br />
+				The show is part of their 2008/2009 World Tour, which covers UK, Europe, North America, Japan and Asia.<br />
+				<br />
+				The tickets will go on sale on Thursday January 15th at 4 PM (local time) via Interpark and their various offline outlets in the city. They are also available on 1544-1555 (Korean) and +82 2 3444 9969 (English).<a href="http://ticketimage.interpark.com/TicketImage/notice_poster/09/090105_oasis.gif" rel="nofollow">oasis</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>34</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=884451</tag>
+			<url>http://www.last.fm/event/884451</url>
+		</event>
+		<event>
+			<id>982115</id>
+			<title>Oasis Live in Taipei 2009</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>TWTC Nangang Exhibition Hall</name>
+				<location>
+					<city>Taipei</city>
+					<country>Taiwan</country>
+					<street>No.1, Jingmao 2nd Rd., Nangang District, Taipei City 11568, Taiwan (R.O.C.)</street>
+					<postalcode>11568</postalcode>
+					<point>
+						<lat>25.056899</lat>
+						<long>121.616904</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8949932</url>
+			</venue>
+			<startDate>Fri, 03 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">日期:2009. 4. 3. (星期五)<br />
+				地:           南港展覽館<br />
+				地住址：      台北市11568南港區經貿二路1號<br />
+				團體：      1976<br />
+				時間:  18:00入場  19:30開始<br />
+				票價：          A區 4000 (首賣3600) /  B區 2800  /  C區 1500<br />
+				票區示意圖：    <a href="http://straightmusichouse.com/pricechart.jpg" rel="nofollow">http://straightmusichouse.com/pricechart.jpg</a>
+				<br />
+				票區：          全站位 (all sranding)<br />
+				：          直的音樂舍 Straight Music House<br />
+				：          Sony Music Taiwan<br />
+				出海報：  <a href="http://straightmusichouse.com/oasistaipei.jpg" rel="nofollow">http://straightmusichouse.com/oasistaipei.jpg</a>
+				<br />
+				團官方網站：  <a href="http://www.oasisinet.com" rel="nofollow">http://www.oasisinet.com</a>
+				<br />
+				活動官方網站：  <a href="http://straightmusichouse.com" rel="nofollow">http://straightmusichouse.com</a>
+				<br />
+				活動官方討論：  <a href="http://straightmusichouse.com/bbs/index.php?topic=91.0" rel="nofollow">http://straightmusichouse.com/bbs/index.php?topic=91.0</a>
+				<br />
+				地網站：      <a href="http://www.twtcnangang.com.tw/" rel="nofollow">http://www.twtcnangang.com.tw/</a>
+				<br />
+				地實景360度： <a href="http://www.twtcnangang.com.tw/DB/Flash/VR/VR4F_ch.html" rel="nofollow">http://www.twtcnangang.com.tw/DB/Flash/VR/VR4F_ch.html</a>
+				<br />
+				地Google地圖：<a href="http://tinyurl.com/da356d" rel="nofollow">http://tinyurl.com/da356d</a>
+				<br />
+				<br />
+				項：      活動場地全館禁煙 本活動禁止攜帶外食、飲料、任何種類之金<br />
+				玻璃、寶特瓶容器；錄影、錄音、專業攝影（具長鏡頭）器<br />
+				材；具政治意涵之標語布條等物品、有旗竿的旗幟；武器、螢光<br />
+				棒、煙火、安全帽與有大型釘扣裝飾的皮帶與手鐲等飾品入場<br />
+				入場時需經搜身與檢查攜帶物品程序請勿經不明單位或向陌生<br />
+				人購票<br />
+				<br />
+				地限制人數：  15,000<br />
+				(配合外貿協會安全入場人數限定，本場演出售完即止，<br />
+			恕不加售)</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>30</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=982115</tag>
+			<url>http://www.last.fm/event/982115</url>
+		</event>
+		<event>
+			<id>968601</id>
+			<title>Oasis Live in Taipei 2009</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>Pan-Ciao Stadium,Taipei County臺北縣立板橋體育場(第一運動場)</name>
+				<location>
+					<city>Taipei</city>
+					<country>Taiwan</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>25.0855988970648</lat>
+						<long>121.552734375</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9011156</url>
+			</venue>
+			<startDate>Fri, 03 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>11</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=968601</tag>
+			<url>http://www.last.fm/event/968601</url>
+		</event>
+		<event>
+			<id>908000</id>
+			<title>绿洲乐队2009中国演唱会北京站</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>北京首都体育馆</name>
+				<location>
+					<city>北京</city>
+					<country>China</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>39.9265884219094</lat>
+						<long>116.3671875</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8998564</url>
+			</venue>
+			<startDate>Fri, 03 Apr 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+			<attendance>35</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=908000</tag>
+			<url>http://www.last.fm/event/908000</url>
+		</event>
+		<event>
+			<id>909309</id>
+			<title>绿洲乐队2009中国演唱会</title>
+			<artists>
+				<artist>Oasis</artist>
+				<headliner>Oasis</headliner>
+			</artists>
+			<venue>
+				<name>上海大舞台</name>
+				<location>
+					<city>上海</city>
+					<country>China</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>31.2409853780213</lat>
+						<long>121.46484375</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8921723</url>
+			</venue>
+			<startDate>Sun, 05 Apr 2009</startDate>
+			<startTime>19:30</startTime>
+			<description>
+			<![CDATA[<div class="bbcode">作为Oasis有史以来首次在中国内地亮相，本次演唱会将于2009年4月3日（周五）及4月5日（周日）在北京首都体育馆和上海大舞台分别上演。</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>23</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=909309</tag>
+		<url>http://www.last.fm/event/909309</url>
+	</event>
+	<event>
+		<id>968546</id>
+		<title>Oasis</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Singapore Indoor Stadium</name>
+			<location>
+				<city>Singapore</city>
+				<country>Singapore</country>
+				<street>2 Stadium Walk</street>
+				<postalcode>397691</postalcode>
+				<point>
+					<lat>1.300904</lat>
+					<long>103.874298</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8787024</url>
+		</venue>
+		<startDate>Sun, 05 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>4</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=968546</tag>
+		<url>http://www.last.fm/event/968546</url>
+	</event>
+	<event>
+		<id>968548</id>
+		<title>OASIS – LIVE IN SINGAPORE </title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Singapore Indoor Stadium</name>
+			<location>
+				<city>Singapore</city>
+				<country>Singapore</country>
+				<street>2 Stadium Walk</street>
+				<postalcode>397691</postalcode>
+				<point>
+					<lat>1.300904</lat>
+					<long>103.874298</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8787024</url>
+		</venue>
+		<startDate>Sun, 05 Apr 2009</startDate>
+		<startTime>20:30</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">OASIS – LIVE IN SINGAPORE<br />
+			<br />
+			Oasis have announced today that they will be performing at the Singapore Indoor Stadium on Sunday, 5th April 2009.<br />
+			<br />
+			The band have only performed in Singapore once, back in February 2006.<br />
+			<br />
+		Tickets will go on sale on Saturday, 7th March 2009 and will be available from all SISTIC outlets and from SISTIC.COM  S$48 – $128</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>34</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=968548</tag>
+		<url>http://www.last.fm/event/968548</url>
+	</event>
+	<event>
+		<id>928007</id>
+		<title>Oasis Live in Hong Kong</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>AsiaWorld-Arena</name>
+			<location>
+				<city>Lantau</city>
+				<country>Hong Kong</country>
+				<street>Hong Kong International Airport</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>22.2833333</lat>
+					<long>113.95</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8793648</url>
+		</venue>
+		<startDate>Tue, 07 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=928007</tag>
+		<url>http://www.last.fm/event/928007</url>
+	</event>
+	<event>
+		<id>894387</id>
+		<title>Oasis Live In Hong Kong 2009</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>AsiaWorld-Arena</name>
+			<location>
+				<city>Lantau</city>
+				<country>Hong Kong</country>
+				<street>Hong Kong International Airport</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>22.2833333</lat>
+					<long>113.95</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8793648</url>
+		</venue>
+		<startDate>Tue, 07 Apr 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>24</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=894387</tag>
+		<url>http://www.last.fm/event/894387</url>
+	</event>
+	<event>
+		<id>905772</id>
+		<title>Coca-Cola Zero Fest 2009</title>
+		<artists>
+			<artist>Oasis</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Bullet For My Valentine</artist>
+			<artist>The Red Jumpsuit Apparatus</artist>
+			<artist>Panic at the Disco</artist>
+			<artist>Cassette</artist>
+			<artist>The Dirty Skirts</artist>
+			<artist>Aking</artist>
+			<artist>Foto Na Dans</artist>
+			<artist>Zebra and Giraffe</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>New Market Racecourse</name>
+			<location>
+				<city>Johannesburg</city>
+				<country>South Africa</country>
+				<street>Corner Heidelberg and Ring Road East, Alberton</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-26.2</lat>
+					<long>28.0833333</long>
+				</point>
+				<timezone>CAT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8810493</url>
+		</venue>
+		<startDate>Fri, 10 Apr 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">Believe It! Coca-Cola ZeroTM is bringing an unprecedented international and local line-up of the hottest rock bands, with 12 hours of rocking music and unbelievable experiences, making it the most adrenalin-fuelled festival in South Africa: Coca-Cola ZeroTM Fest in association with 5FM.<br />
+			<br />
+			Coca-Cola ZeroTM is offering you the VIP privilege to purchase your tickets a day early on 22nd January, prior to public ticket sales opening day on 23rd January. Visit your nearest Computicket outlet and state the phrase (the 5FM special).<br />
+			<br />
+			Consumers can now believe that unbelievable things do happen... South Africa, standby for British Rock Royalty and possibly the world's top headline live act - OASIS. Oasis will be supported by SNOW PATROL who got the global spotlight with their 2006 album &quot;Eyes Open&quot; which contains &quot;Chasing Cars&quot;. Also featured will be the Grammy nominated, multiple MTV Award winning American rock band – PANIC AT THE DISCO.<br />
+			<br />
+			And introducing, the band that Q Magazine dubbed &quot;The best British metal band to emerge in years&quot;, the Welsh metal-core band Bullet For My Valentine who spent most of the past two years taking over the world with massive U.K., European, U.S. and worldwide tours, sharing the stage with Guns N Roses, Metallica and Iron Maiden, playing the Main Stage at just about every rock festival on the planet!<br />
+			<br />
+			The Coca-Cola ZeroTM Fest will also feature local favourites like Zebra and Giraffe, The Dirty Skirts, and more.<br />
+			<br />
+			The Coca-Cola ZeroTM Fest in association with 5FM will take place at Johannesburg's New Market Racecourse on Friday, 10 April 2009 and Cape Town's Ostrich Farm on Monday, 13 April 2009.<br />
+			<br />
+			Taste life as it should be – Real Coke Taste, Zero Sugar. Grab Coca-Cola ZeroTM, tune into 5FM and watch this space, as we announce more details.<br />
+			<br />
+			Coca-Cola ZeroTM Fest in association with 5FM is going to rock you!<br />
+			<br />
+		For more information visit <a href="http://www.cokezero.co.za" rel="nofollow">www.cokezero.co.za</a> and <a href="http://www.5fm.co.za" rel="nofollow">www.5fm.co.za</a>.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/21993755.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/21993755.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/21993755.jpg</image>
+		<attendance>30</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=905772</tag>
+		<url>http://www.last.fm/event/905772</url>
+	</event>
+	<event>
+		<id>910014</id>
+		<title>Coca-Cola Zero Fest</title>
+		<artists>
+			<artist>Oasis</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Bullet For My Valentine</artist>
+			<artist>Panic at the Disco</artist>
+			<artist>The Dirty Skirts</artist>
+			<artist>Zebra and Giraffe</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Cape Town's Ostrich Farm</name>
+			<location>
+				<city>Cape Town, Western Cape</city>
+				<country>South Africa</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-33.9166667</lat>
+					<long>18.4166667</long>
+				</point>
+				<timezone>CAT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8998957</url>
+		</venue>
+		<startDate>Mon, 13 Apr 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">That’s right folks, the 2009 Coca Cola Fest, in association with 5FM and Big Concerts, are proud to announce the lineup and venues!<br />
+			The Coca-Cola Zero Fest will take place at Johannesburg’s New Market Racecourse on Friday, 10 April 2009 and Cape Town’s Ostrich Farm on Monday, 13 April 2009.<br />
+			<br />
+			The following international bands will be rocking Joburg and Cape Town:<br />
+			Oasis<br />
+			Bullet for my Valentine<br />
+			Snow Patrol<br />
+			Panic at the Disco<br />
+			<br />
+			The local bands playing at the 2009 Coca Cola Zero Fest are as follows:<br />
+			Zebra and Giraffe<br />
+			The Dirty Skirts<br />
+			<br />
+		There are still more bands to be announced, so stay tuned to 5FM or alternatively via RSS or fill in your email address below to get the latest updates from the mycoke.co.za!</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>22</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=910014</tag>
+		<url>http://www.last.fm/event/910014</url>
+	</event>
+	<event>
+		<id>979732</id>
+		<title>Oasis</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Campo de Fútbol USB</name>
+			<location>
+				<city>Caracas</city>
+				<country>Venezuela</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>10.5</lat>
+					<long>-66.9166667</long>
+				</point>
+				<timezone>VET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8970217</url>
+		</venue>
+		<startDate>Tue, 28 Apr 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>11</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=979732</tag>
+		<url>http://www.last.fm/event/979732</url>
+	</event>
+	<event>
+		<id>965594</id>
+		<title>Oasis en Lima</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Estadio Nacional</name>
+			<location>
+				<city>Lima</city>
+				<country>Peru</country>
+				<street>Calle de Jose Diaz</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-12.067812</lat>
+					<long>-77.033778</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8829031</url>
+		</venue>
+		<startDate>Thu, 30 Apr 2009</startDate>
+		<startTime>21:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode"><strong>Confirmado</strong>: <a href="http://music.myspace.com/index.cfm?fuseaction=music.showDetails&amp;Band_Show_ID=38549807&amp;friendid=4385325" rel="nofollow">Estadio Nacional José Diaz, 8:00pm</a><br />
+			<br />
+			<a href="http://www.terra.com.pe/terrastereo/articulo/html/mus5379.htm" rel="nofollow">http://www.terra.com.pe/terrastereo/articulo/html/mus5379.htm</a>
+			<br />
+			<br />
+			Entradas a la venta desde el 19 de marzo en <a href="http://www.teleticket.com.pe/" rel="nofollow">Teleticket</a> de Wong y Metro.<br />
+			<a href="http://burnagebyburnage.blogspot.com/2009/03/zonificacion-estadio-nacional-oasis-en.html" rel="nofollow">Zonificación del Estadio Nacional</a>
+			<br />
+			<a href="http://www.teleticket.com.pe/Imagenes/Planos/Como_llegar_Eventos/estadio-nacional.gif" rel="nofollow">Cómo llegar al evento</a>
+		</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>83</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=965594</tag>
+		<url>http://www.last.fm/event/965594</url>
+	</event>
+	<event>
+		<id>969112</id>
+		<title>Oasis</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Estadio Nacional de Lima</name>
+			<location>
+				<city>Lima</city>
+				<country>Peru</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-12.067812</lat>
+					<long>-77.033778</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9011289</url>
+		</venue>
+		<startDate>Thu, 30 Apr 2009</startDate>
+		<startTime>21:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">LIsta de Precios Oficial<br />
+			<br />
+			Localidad  Normal  Ripley 25% Dscto. -Marzo  Ripley 15% Dscto. Abril <br />
+			Champagne Supernova S/ 611.00 S/ 458.00 S/ 519.50 <br />
+			Songbird S/ 529.50 S/ 397.00 S/ 450 <br />
+			Wonderwall S/ 468.50 S/ 351.50 S/ 398.00 <br />
+			She's Electric S/ 407.50 S/ 305.50 S/ 346.50 <br />
+			The Shock of the Lightning S/ 339.00 S/ 254.50 S/ 288.50 <br />
+			Morning Glory S/ 251.50 S/ 188.50 S/ 214.00 <br />
+			Rock N Roll Star S/ 217.00 S/ 163.00 S/ 184.50 <br />
+			Supersonic S/ 217.00 S/ 163.00 S/ 184.50 <br />
+			Some Might Say S/ 135.50 S/ 102.00 S/115.50 <br />
+			Roll With it S/ 102.00 S/ 76.50 S/ 86.50 <br />
+			Live Forever S/ 57.00 S/ 43.00 S/ 48.50 <br />
+		Tribuna S/ 28.50 S/ 21.50 S/ 24.50</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>33</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=969112</tag>
+		<url>http://www.last.fm/event/969112</url>
+	</event>
+	<event>
+		<id>974145</id>
+		<title>Oasis</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Estadio River Plate</name>
+			<location>
+				<city>Buenos Aires</city>
+				<country>Argentina</country>
+				<street>Av. Figueroa Alcorta 7597</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-34.546662</lat>
+					<long>-58.449467</long>
+				</point>
+				<timezone>ART</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8787925</url>
+		</venue>
+		<startDate>Sun, 03 May 2009</startDate>
+		<startTime>19:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">PREVENTA CITI: A partir de las 10 am del viernes 13 de Marzo habrá una preventa exclusiva para clientes CITI hasta el 26 de Marzo inclusive. La venta al público general se realizará a partir del 27 de Marzo.<br />
+			<br />
+			Platea Preferida Vip: $380 + $60*<br />
+			Platea Preferida: $200 + $30*<br />
+			Campo: $150 + $20*<br />
+			Platea Alta: $90 + $10*<br />
+			Popular: $65 + $10*<br />
+			<br />
+			(*) Al valor de cada abono se suma el costo por servicio. <br />
+			<br />
+			OASIS TO PLAY RIVER PLATE STADIUM, BUENOS AIRES<br />
+			<br />
+			Oasis have just announced they will be performing at the River Plate Stadium, Argentina's national football stadium and venue for the 1978 World Cup final on Sunday the 3rd of May. Also known as 'El Monumental de Nuñez', the iconic stadium is the biggest stadium in Argentina for concerts.<br />
+			<br />
+		Oasis return to Argentina for the first time since playing a sold out show to 40,000 fans at the Buenos Aires Polo Fields in March of 2006. The date is part of their South American tour which also includes the previously confirmed gigs in Peru and Brazil.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+		<attendance>106</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=974145</tag>
+		<url>http://www.last.fm/event/974145</url>
+	</event>
+	<event>
+		<id>970909</id>
+		<title>Oasis</title>
+		<artists>
+			<artist>Oasis</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>Movistar Arena</name>
+			<location>
+				<city>Santiago</city>
+				<country>Chile</country>
+				<street>Av. Beaucheff 1204</street>
+				<postalcode>8370951</postalcode>
+				<point>
+					<lat>-33.461633</lat>
+					<long>-70.663777</long>
+				</point>
+				<timezone>CLT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8952518</url>
+		</venue>
+		<startDate>Tue, 05 May 2009</startDate>
+		<description>
+		<![CDATA[<div class="bbcode">A través de su sitio oficial (<a href="http://www.myspace.com/oasis" rel="nofollow">www.myspace.com/oasis</a>) el conjunto acaba de oficializar que emprenderá un recorrido por Sudamérica. Según fuentes de la industria, las negociaciones iniciadas este año entre una productora multinacional con sede en Chile y la representación del grupo han terminado en un acuerdo para que <strong><a href="http://ws.audioscrobbler.com/music/Oasis" class="bbcode_artist">Oasis</a></strong> ofrezca un nuevo show en Santiago, el día martes 5 de mayo en el Movistar Arena.<br />
+		<br />
+		Entradas a la venta con preventa exclusiva clientes Banco de Chile (20% descuento) desde 15 al 21 de marzo a través de Ticketmaster, llamando al 690 2000, <a href="http://www.ticketmaster.cl" rel="nofollow">www.ticketmaster.cl</a>, tiendas Falabella, Cines Hoyts y tiendas The Knife.<br />
+		<br />
+		<strong>Los valores van de $14.400 a $50.000.</strong>
+		<br />
+		<br />
+		La visita al país del conjunto liderado por la dupla fundadora de Liam (voces) y Noel Gallagher (guitarra y voces) más Andy Bell (bajo) y Gem Archer (segunda guitarra), tiene a Movistar Arena como el escenario más probable.<br />
+		<br />
+		Un recorrido por éxitos de todas sus etapas, más parte de su séptimo y último disco de estudio, conforma el repertorio que traerán a Sudamérica como el apronte final para el apoteósico cierre de la gira, que el grupo planificó con meses de antelación.<br />
+		<br />
+		Será la tercera visita a Chile del conjunto que debutó en Chile en marzo de 1998 ante un estadio San Carlos de Apoquindo a la mitad de su capacidad.<br />
+		<br />
+	El grupo regresó en 2006 al Velódromo del Estadio Nacional, que tuvo como baterista invitado al virtuoso Zack Starcksy, hijo de Ringo Star.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>111</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=970909</tag>
+	<url>http://www.last.fm/event/970909</url>
+</event>
+<event>
+	<id>977670</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Citibank Hall</name>
+		<location>
+			<city>Rio de Janeiro</city>
+			<country>Brazil</country>
+			<street>Av.Ayrton Senna, 3000 - Cj. 1005 - Barra da Tijuca - Rio de Janeiro</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-23.003948</lat>
+				<long>-43.321367</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8820664</url>
+	</venue>
+	<startDate>Thu, 07 May 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://colunistas.ig.com.br/lucioribeiro/" rel="nofollow">http://colunistas.ig.com.br/lucioribeiro/</a><br />
+		<br />
+		<br />
+		* AS DATAS OFICIAIS DO OASIS NO BRASIL - Atenção, vai ser assim, segundo o MySpace dos Gallagher:<br />
+		<br />
+		- Rio de Janeiro - Citibank Hall – 7 de maio<br />
+		- São Paulo - Arena Anhembi – 9 de maio<br />
+		- Curitiba - Pedreira Paulo Leminski – 10 de maio<br />
+	- Porto Alegre - Gigantinho – 12 de maio</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>106</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977670</tag>
+	<url>http://www.last.fm/event/977670</url>
+</event>
+<event>
+	<id>977676</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Arena Skol Anhembi</name>
+		<location>
+			<city>São Paulo</city>
+			<country>Brazil</country>
+			<street>Arena Skol Anhembi, av. Olavo Fontoura, 1209, entrada pelo portão 30</street>
+			<postalcode>02012-021</postalcode>
+			<point>
+				<lat>-23.515061</lat>
+				<long>-46.640958</long>
+			</point>
+			<timezone>BRT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779474</url>
+	</venue>
+	<startDate>Sat, 09 May 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">as outras datas da turnê no Brasil serão:<br />
+		<br />
+		07/05 Rio de Janeiro @ Citibank Hall<br />
+		10/05 Curitiba @ Pedreira Paulo Leminski<br />
+	12/05 Porto Alegre @ Gigantinho</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>150</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977676</tag>
+	<url>http://www.last.fm/event/977676</url>
+</event>
+<event>
+	<id>977795</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Pedreira Paulo Leminski</name>
+		<location>
+			<city>Curitiba/PR</city>
+			<country>Brazil</country>
+			<street>Rua João Gava</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-10.05</lat>
+				<long>-69.0833333</long>
+			</point>
+			<timezone>ACT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8846056</url>
+	</venue>
+	<startDate>Sun, 10 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Oasis pela primeira vez em Curitiba!<br />
+		<br />
+		Show na Pedreira Paulo Leminski, dia 10 de maio.<br />
+		<br />
+		Foi confirmado o show <a href="http://music.myspace.com/index.cfm?fuseaction=music.showDetails&amp;Band_Show_ID=38551237&amp;friendid=4385325" rel="nofollow">no myspace da banda</a>.<br />
+		<br />
+	E sobre a Pedreira: ela foi liberada, mas com algumas restrições, segundo a <a href="http://portal.rpc.com.br/gazetadopovo/cadernog/conteudo.phtml?id=822370&amp;tit=Com-restricoes-juiz-autoriza-shows-na-Pedreira-Paulo-Leminski&amp;tl=1" rel="nofollow">reportagem da RPC</a>.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>72</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977795</tag>
+	<url>http://www.last.fm/event/977795</url>
+</event>
+<event>
+	<id>978577</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Gigantinho</name>
+		<location>
+			<city>Porto Alegre</city>
+			<country>Brazil</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-30.065614</lat>
+				<long>-51.236086</long>
+			</point>
+			<timezone>BRT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014089</url>
+	</venue>
+	<startDate>Tue, 12 May 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Página do evento certa <br />
+		<a href="http://www.last.fm/event/937263">http://www.last.fm/event/937263</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=978577</tag>
+	<url>http://www.last.fm/event/978577</url>
+</event>
+<event>
+	<id>937263</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Gigantinho</name>
+		<location>
+			<city>Porto Alegre</city>
+			<country>Brazil</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-30.065614</lat>
+				<long>-51.236086</long>
+			</point>
+			<timezone>BRT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8803923</url>
+	</venue>
+	<startDate>Tue, 12 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>PORTO ALEGRE - Gigantinho – 12 de maio</strong><br />
+		<br />
+		<a href="http://www.myspace.com/oasis" rel="nofollow">http://www.myspace.com/oasis</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>169</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=937263</tag>
+	<url>http://www.last.fm/event/937263</url>
+</event>
+<event>
+	<id>814181</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Twisted Wheel</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Heaton Park</name>
+		<location>
+			<city>Manchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>M25 2SW</postalcode>
+			<point>
+				<lat>53.5</lat>
+				<long>-2.2166667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783065</url>
+	</venue>
+	<startDate>Thu, 04 Jun 2009</startDate>
+	<startTime>16:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>78</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=814181</tag>
+	<url>http://www.last.fm/event/814181</url>
+</event>
+<event>
+	<id>878386</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Heaton Park</name>
+		<location>
+			<city>Manchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>M25 2SW</postalcode>
+			<point>
+				<lat>53.5</lat>
+				<long>-2.2166667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783065</url>
+	</venue>
+	<startDate>Thu, 04 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=878386</tag>
+	<url>http://www.last.fm/event/878386</url>
+</event>
+<event>
+	<id>805363</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Twisted Wheel</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Heaton Park</name>
+		<location>
+			<city>Manchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>M25 2SW</postalcode>
+			<point>
+				<lat>53.5</lat>
+				<long>-2.2166667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783065</url>
+	</venue>
+	<startDate>Sat, 06 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>137</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=805363</tag>
+	<url>http://www.last.fm/event/805363</url>
+</event>
+<event>
+	<id>805364</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Twisted Wheel</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Heaton Park</name>
+		<location>
+			<city>Manchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>M25 2SW</postalcode>
+			<point>
+				<lat>53.5</lat>
+				<long>-2.2166667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783065</url>
+	</venue>
+	<startDate>Sun, 07 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>111</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=805364</tag>
+	<url>http://www.last.fm/event/805364</url>
+</event>
+<event>
+	<id>833712</id>
+	<title>Oasis at Sunderland</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Stadium Of Light</name>
+		<location>
+			<city>Sunderland</city>
+			<country>United Kingdom</country>
+			<street>Southwick Road</street>
+			<postalcode>SR5 1SU</postalcode>
+			<point>
+				<lat>54.9119444</lat>
+				<long>-1.3833333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8975621</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<startTime>15:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">The band that stamped Britpop firmly on the global music map will be taking the Stadium of Light by storm next year.<br />
+		Supergroup Oasis have announced they will be bringing their world famous sounds to Sunderland in June as the Black Cats' home is opened up for a musical extravaganza.<br />
+		<br />
+		The Mancunian band, which was propelled to fame in the Nineties with smash hit debut album Definitely Maybe, will be supported by two other massive acts - Kasabian and The Enemy - a massive coup for the city.<br />
+		<br />
+	They will play at the Stadium of Light on June 10.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=833712</tag>
+	<url>http://www.last.fm/event/833712</url>
+</event>
+<event>
+	<id>900363</id>
+	<title>Oasis at Sunderland</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Stadium of light</name>
+		<location>
+			<city>Sunderland, Tyne and Wear</city>
+			<country>United Kingdom</country>
+			<street>The Sunderland Stadium of Light</street>
+			<postalcode>SR5 1SU</postalcode>
+			<point>
+				<lat>54.7</lat>
+				<long>-3.2666667</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8996896</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<startTime>16:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">The band that stamped Britpop firmly on the global music map will be taking the Stadium of Light by storm next year.<br />
+		Supergroup Oasis have announced they will be bringing their world famous sounds to Sunderland in June as the Black Cats' home is opened up for a musical extravaganza.<br />
+		<br />
+		The Mancunian band, which was propelled to fame in the Nineties with smash hit debut album Definitely Maybe, will be supported by two other massive acts - Kasabian and The Enemy - a massive coup for the city.<br />
+		<br />
+	They will play at the Stadium of Light on June 10.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=900363</tag>
+	<url>http://www.last.fm/event/900363</url>
+</event>
+<event>
+	<id>819560</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Stadium of Light</name>
+		<location>
+			<city>Sunderland</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>54.914272</lat>
+				<long>-1.387989</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8978884</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=819560</tag>
+	<url>http://www.last.fm/event/819560</url>
+</event>
+<event>
+	<id>807479</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Sunderland Stadium of Light</name>
+		<location>
+			<city>Sunderland</city>
+			<country>United Kingdom</country>
+			<street>Millenium Way</street>
+			<postalcode>SR5 1SU</postalcode>
+			<point>
+				<lat>54.913709</lat>
+				<long>-1.38631</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8976080</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">OASIS will undertake their biggest ever tour of open air venues in the UK and Ireland next summer. It includes two dates at the iconic new Wembley Stadium as well as the promised homecoming shows over two nights in Manchester's Heaton Park. The tour will also see the band's first ever visit to Sunderland's Stadium of Light, a welcome return to both Murrayfield and Cardiff's Millennium Stadium and their first headline performance at Ireland’s Slane Castle.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+<attendance>52</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=807479</tag>
+<url>http://www.last.fm/event/807479</url>
+</event>
+<event>
+	<id>805371</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>The Peth</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Millennium Stadium</name>
+		<location>
+			<city>Caerdydd</city>
+			<country>United Kingdom</country>
+			<street>Westgate Street</street>
+			<postalcode>CF10 1JA</postalcode>
+			<point>
+				<lat>51.479029</lat>
+				<long>-3.17857</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778901</url>
+	</venue>
+	<startDate>Fri, 12 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>59</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=805371</tag>
+	<url>http://www.last.fm/event/805371</url>
+</event>
+<event>
+	<id>805377</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Reverend and The Makers</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Murrayfield</name>
+		<location>
+			<city>edinburgh</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>55.9353563623487</lat>
+				<long>-3.17916870117188</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8975625</url>
+	</venue>
+	<startDate>Wed, 17 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>84</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=805377</tag>
+	<url>http://www.last.fm/event/805377</url>
+</event>
+<event>
+	<id>804095</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>The Prodigy</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Slane Castle</name>
+		<location>
+			<city>Baile Shláine</city>
+			<country>Ireland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.71</lat>
+				<long>-6.5433333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782867</url>
+	</venue>
+	<startDate>Sat, 20 Jun 2009</startDate>
+	<startTime>15:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>78</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=804095</tag>
+	<url>http://www.last.fm/event/804095</url>
+</event>
+<event>
+	<id>907236</id>
+	<title>Roskilde festival 09</title>
+	<artists>
+		<artist>Coldplay</artist>
+		<artist>Oasis</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Slipknot</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>Madness</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Deichkind</artist>
+		<artist>Satyricon</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Amadou &amp; Mariam</artist>
+		<artist>Frightened Rabbit</artist>
+		<artist>Dungen</artist>
+		<artist>Volbeat</artist>
+		<artist>Down</artist>
+		<artist>Get Well Soon</artist>
+		<artist>Fever Ray</artist>
+		<artist>Darkane</artist>
+		<artist>Marnie Stern</artist>
+		<artist>Cancer Bats</artist>
+		<artist>La Coka Nostra</artist>
+		<artist>Klovner i Kamp</artist>
+		<artist>Skambankt</artist>
+		<artist>Katzenjammer</artist>
+		<artist>Baddies</artist>
+		<artist>Den Sorte Skole</artist>
+		<artist>The Soft Pack</artist>
+		<artist>HÅKAN HELLSTRÖM</artist>
+		<artist>RÖYKSOPP</artist>
+		<artist>Yoga Fire</artist>
+		<headliner>Coldplay</headliner>
+	</artists>
+	<venue>
+		<name>Dyrskuepladsen</name>
+		<location>
+			<city>Roskilde</city>
+			<country>Denmark</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>55.65</lat>
+				<long>12.0833333</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8795458</url>
+	</venue>
+	<startDate>Sun, 28 Jun 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.roskilde-festival.dk/" rel="nofollow">http://www.roskilde-festival.dk/</a><br />
+		Dyrskuepladsen, Darupvej<br />
+		4000 Roskilde<br />
+	Denmark</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/5735261.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/5735261.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/5735261.jpg</image>
+	<attendance>47</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=907236</tag>
+	<url>http://www.last.fm/event/907236</url>
+</event>
+<event>
+	<id>685715</id>
+	<title>Roskilde Festival</title>
+	<artists>
+		<artist>Coldplay</artist>
+		<artist>Oasis</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Röyksopp</artist>
+		<artist>Slipknot</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>Madness</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Deichkind</artist>
+		<artist>Satyricon</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Håkan Hellström</artist>
+		<artist>Amadou &amp; Mariam</artist>
+		<artist>The Dodos</artist>
+		<artist>Frightened Rabbit</artist>
+		<artist>Dungen</artist>
+		<artist>Volbeat</artist>
+		<artist>Down</artist>
+		<artist>Black Dice</artist>
+		<artist>Get Well Soon</artist>
+		<artist>Fever Ray</artist>
+		<artist>Fucked Up</artist>
+		<artist>Darkane</artist>
+		<artist>Marnie Stern</artist>
+		<artist>Cancer Bats</artist>
+		<artist>The Chap</artist>
+		<artist>La Coka Nostra</artist>
+		<artist>Steinski</artist>
+		<artist>Klovner i Kamp</artist>
+		<artist>Skambankt</artist>
+		<artist>Katzenjammer</artist>
+		<artist>Baddies</artist>
+		<artist>Den Sorte Skole</artist>
+		<artist>The Soft Pack</artist>
+		<artist>Yoga Fire</artist>
+		<headliner>Coldplay</headliner>
+	</artists>
+	<venue>
+		<name>Roskilde Festival</name>
+		<location>
+			<city>Roskilde</city>
+			<country>Denmark</country>
+			<street>Dyrskuepladsen, Darupvej</street>
+			<postalcode>4000</postalcode>
+			<point>
+				<lat>55.630249</lat>
+				<long>12.084327</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784070</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>Warm-up from June 28th</strong><br />
+		<br />
+		Each year Roskilde Festival attracts a massive audience from all over Europe, and today it is one of the biggest music festivals in Europe. It is a modern, cutting-edge festival which is organised by a non-profit humanitarian organisation on the basis of approximately 25,000 volunteers. All profits from the festival are donated to national and international humanitarian charity and cultural purposes by The Roskilde Festival Charity Society.<br />
+		<br />
+		Roskilde Festival presents a progressive music programme which offers memorable experiences and lots of surprises. Year after year, the largest international crowd in Europe is drawn to Roskilde because of a combination of this year’s greatest successes, the living legends and the best representatives of the many corners of musical expression.<br />
+		<br />
+		Each year, about 175 bands play at seven stages during four days from Thursday to Sunday. The camping areas open on the Sunday prior to the festival with music at Pavilion Junior – the stage for upcoming acts – and a wealth of activities during the four days leading up to Thursday. Roskilde Festival is 4 days’ warm-up and 4 days’ music. This is a total of 8 days of partying. Roskilde Festival is a unique and all-encompassing experience where music, events and activities form a unity with the intense sense of community among an emphatic audience.<br />
+		<br />
+		<br />
+		Roskilde Festival concentrates on quality, innovation, and variation – not on becoming the biggest or the most established festival. Over the years, the festival has gained a solid foundation of experience and routine. However, Roskilde Festival still wants to be cutting edge and innovative.<br />
+		<br />
+		Roskilde Festival was established in 1971 and have since then presented acts like Arcade Fire, Arctic Monkeys, Beastie Boys, Björk, Black Sabbath, David Bowie, Solomon Burke,  The Chemical Brothers, Bob Dylan, Foo Fighters, Gnarls Barkley, Guns N’ Roses, Jay-Z, Judas Priest, The Killers, Kings of Leon, Korn, Kraftwerk, Marilyn Manson, Bob Marley, Metallica, Muse, My Bloody Valentine, New Order, Nirvana, Queens Of The Stone Age, Radiohead, Rage Against The Machine, Red Hot Chili Peppers, Scissor Sisters, Slayer, Slipknot, The Streets, The Strokes, Talking Heads, Tiësto, Tool, U2, Underworld, Robbie Williams, Roger Waters, Kanye West, The White Stripes, The Who, Brian Wilson, Wu-Tang Clan, Neil Young  and many many others.<br />
+		<br />
+		Access to camping and parking is included in the ticket. Camping facilities include hot and cold showers, communal grills, food and drink stalls, shopping areas, cinema, street sports, skate ramp, free luggage storages and lots of activities and events.<br />
+		<br />
+		Rumors:<br />
+		<a href="http://ws.audioscrobbler.com/music/Placebo" class="bbcode_artist">Placebo</a>
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Marujah" class="bbcode_artist">Marujah</a>
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Natten" class="bbcode_artist">Natten</a>
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Phatbeatzz" class="bbcode_artist">Phatbeatzz</a>
+		<br />
+		<a href="http://ws.audioscrobbler.com/music/Lily+Allen" class="bbcode_artist">Lily Allen</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/8148677.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8148677.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8148677.jpg</image>
+	<attendance>411</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=685715</tag>
+	<url>http://www.last.fm/event/685715</url>
+</event>
+<event>
+	<id>763300</id>
+	<title>Rock Werchter Festival 2009</title>
+	<artists>
+		<artist>Coldplay</artist>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Metallica</artist>
+		<artist>Placebo</artist>
+		<artist>Bloc Party</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>The Prodigy</artist>
+		<artist>Kings of Leon</artist>
+		<artist>The Flaming Lips</artist>
+		<artist>Röyksopp</artist>
+		<artist>Limp Bizkit</artist>
+		<artist>Lily Allen</artist>
+		<artist>Dave Matthews Band</artist>
+		<artist>Jason Mraz</artist>
+		<artist>The Mars Volta</artist>
+		<artist>Mogwai</artist>
+		<artist>Nick Cave and the Bad Seeds</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Streets</artist>
+		<artist>Elbow</artist>
+		<artist>Emiliana Torrini</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>Pendulum</artist>
+		<artist>M. Ward</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Tiga</artist>
+		<artist>Social Distortion</artist>
+		<artist>Mastodon</artist>
+		<artist>Just Jack</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>2 Many DJ's</artist>
+		<artist>Priscilla Ahn</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Ghinzu</artist>
+		<artist>Henry Rollins</artist>
+		<artist>The hickey underworld</artist>
+		<headliner>Coldplay</headliner>
+	</artists>
+	<venue>
+		<name>Werchter</name>
+		<location>
+			<city>Werchter</city>
+			<country>Belgium</country>
+			<street>Haachtsesteenweg</street>
+			<postalcode>B-3118</postalcode>
+			<point>
+				<lat>50.969376</lat>
+				<long>4.69036</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779175</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Donderdag 2 juli 2009 <br />
+		<br />
+		Main Stage: The Prodigy | Oasis | Placebo | Dave Matthews | Lily Allen <br />
+		Pyramid Marquee: Tiga | Pendulum | Laurent Garnier | Fleet Foxes | Emiliana Torrini <br />
+		<br />
+		Vrijdag 3 juli 2009 <br />
+		<br />
+		Main Stage: Coldplay | The Killers | Bloc Party | Elbow | Amy Macdonald | Just Jack <br />
+		Pyramid Marquee: Lady Gaga | Jason Mraz | The Streets | M. Ward | Priscilla Ahn | Henry Rollins Spoken Word <br />
+		<br />
+		Zaterdag 4 juli 2009 <br />
+		<br />
+		Main Stage: 2manydjs | Kings of Leon | Nick Cave and the Bad Seeds | Franz Ferdinand | Limp Bizkit | Social Distortion <br />
+		Pyramid Marquee: Katy Perry | Mogwai <br />
+		<br />
+		Zondag 5 juli 2009 <br />
+		<br />
+		Main Stage: Metallica | Nine Inch Nails | Kaiser Chiefs | The Mars Volta | Seasick Steve | Mastodon <br />
+	Pyramid Marquee: Flaming Lips | Röyksopp | Ghinzu | The Hickey Underworld</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16244305.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16244305.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16244305.jpg</image>
+	<attendance>825</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=763300</tag>
+	<url>http://www.last.fm/event/763300</url>
+</event>
+<event>
+	<id>814261</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>The Enemy</artist>
+		<artist>Twisted Wheel</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Ricoh Arena</name>
+		<location>
+			<city>Coventry</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>52.4166667</lat>
+				<long>-1.55</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8791484</url>
+	</venue>
+	<startDate>Tue, 07 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">One of the biggest bands in British music history, Oasis, will rock the Ricoh Arena in Coventry next summer.<br />
+		<br />
+		The Gallagher brothers will be playing their only Midlands gig in the stadium bowl at the £113 million venue on Tuesday, July 7.<br />
+		<br />
+		The group – who have sold over 50 million records – are back in the charts with their seventh number one studio album Dig Out Your Soul.<br />
+		<br />
+		Tickets for the Coventry date will go on sale at 9am next Thursday (October 30) as part of Oasis’s biggest ever tour of open air venues in the UK and Ireland next summer.<br />
+		<br />
+		Coventry band The Enemy, who sold 16,000 tickets during two nights in the Jaguar Exhibition Hall at the Ricoh in April, will be providing the support.<br />
+		<br />
+		Daniel Gidney, chief executive of the Ricoh Arena, said he expected the Oasis gig to match the 40,000 tickets sold for the Red Hot Chili Peppers and Bon Jovi’s first concert.<br />
+		<br />
+		“Oasis are one of the biggest ever bands not just in this country but throughout the world,” he said.<br />
+		<br />
+		“We are absolutely delighted that Liam and Noel Gallagher will be performing in Coventry and this is a major coup for the Ricoh and the city.<br />
+		<br />
+		“The Enemy were a massive hit with the crowd when they played here earlier this year and it will be fantastic to see them play in the stadium bowl at the Ricoh this time.<br />
+		<br />
+		“Having Oasis and The Enemy on the same bill means this is going to an unmissable night.<br />
+		<br />
+		“We have worked really hard to entice music promoters to the Ricoh Arena and securing this Oasis date means we are firmly established on the map. They are, without doubt, once of the biggest bands in British music history.<br />
+		<br />
+		“We will have a limited number of tickets to sell at the venue and we expect tickets to sell extremely quickly so I would advise everyone to buy their tickets early to avoid any disappointment.<br />
+		<br />
+		“This is going to be the biggest concert of 2009 in the Midlands – and it is happening at the Ricoh Arena.”<br />
+		<br />
+		The tickets are £45 subject to a booking fee and are available via See Tickets at <a href="http://www.seetickets.com" rel="nofollow">www.seetickets.com</a>
+		<br />
+		<br />
+		There will be an allocation to sell from the Ricoh Arena ticket office to personal callers only from 9am next Thursday (October 30). The ticket office is open from 9am to 5.30pm from Monday to Friday and between 9.30am and 5.30pm on Saturdays.<br />
+		<br />
+		Oasis, with guitarist Gem Archer, bassist Andy Bell and drummer Chris Sharrock completing the line-up, will be playing at Sunderland’s Stadium of Light, Heaton Park in Manchester, Wembley in London, Cardiff’s Millennium Stadium, Murrayfield in Edinburgh and Slane Castle in Dublin, Ireland, during their 2009 summer tour.<br />
+		<br />
+		The band shot to fame in 1994 with album Definitely Maybe before (What’s the Story) Morning Glory sold four million copies.<br />
+		<br />
+	Oasis have also enjoyed number one success with the albums Be Here Now, Standing on the Shoulder of Giants, Heathen Chemistry and Don’t Believe the Truth.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>38</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=814261</tag>
+	<url>http://www.last.fm/event/814261</url>
+</event>
+<event>
+	<id>814202</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Reverend and The Makers</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Wembley Stadium</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Empire Way</street>
+			<postalcode>HA9 0WS</postalcode>
+			<point>
+				<lat>51.556701</lat>
+				<long>-0.279666</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782973</url>
+	</venue>
+	<startDate>Thu, 09 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>120</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=814202</tag>
+	<url>http://www.last.fm/event/814202</url>
+</event>
+<event>
+	<id>805373</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Reverend and The Makers</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Wembley Stadium</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Empire Way</street>
+			<postalcode>HA9 0WS</postalcode>
+			<point>
+				<lat>51.556701</lat>
+				<long>-0.279666</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782973</url>
+	</venue>
+	<startDate>Sat, 11 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>142</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=805373</tag>
+	<url>http://www.last.fm/event/805373</url>
+</event>
+<event>
+	<id>805375</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Kasabian</artist>
+		<artist>The Enemy</artist>
+		<artist>Reverend and The Makers</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Wembley Stadium</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Empire Way</street>
+			<postalcode>HA9 0WS</postalcode>
+			<point>
+				<lat>51.556701</lat>
+				<long>-0.279666</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782973</url>
+	</venue>
+	<startDate>Sun, 12 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>138</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=805375</tag>
+	<url>http://www.last.fm/event/805375</url>
+</event>
+<event>
+	<id>814541</id>
+	<title>Oasis</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>The Eden Project</name>
+		<location>
+			<city>St Austell</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>50.3383333</lat>
+				<long>-4.7658333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8917421</url>
+	</venue>
+	<startDate>Tue, 14 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=814541</tag>
+	<url>http://www.last.fm/event/814541</url>
+</event>
+<event>
+	<id>929498</id>
+	<title>Benicassim</title>
+	<artists>
+		<artist>Kings of Leon</artist>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boys Noize</artist>
+		<headliner>Kings of Leon</headliner>
+	</artists>
+	<venue>
+		<name>Benicassim</name>
+		<location>
+			<city>Tarragona</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.008564</lat>
+				<long>0.913066</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9003312</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/11440969.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/11440969.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/11440969.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=929498</tag>
+	<url>http://www.last.fm/event/929498</url>
+</event>
+<event>
+	<id>797299</id>
+	<title>FIB Heineken 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Lily Allen</artist>
+		<artist>TV on the Radio</artist>
+		<artist>Late of the Pier</artist>
+		<artist>The Psychedelic Furs</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boys Noize</artist>
+		<artist>Laurent Garnier</artist>
+		<artist>Glasvegas</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Bell X1</artist>
+		<artist>Magazine</artist>
+		<artist>White Lies</artist>
+		<artist>Nacho Vegas</artist>
+		<artist>Yuksek</artist>
+		<artist>The Bishops</artist>
+		<artist>CatPeople</artist>
+		<artist>Aeroplane</artist>
+		<artist>Fight Like Apes</artist>
+		<artist>Josele Santiago</artist>
+		<artist>Naive New Beaters</artist>
+		<artist>Tadeo</artist>
+		<artist>We Are Standard</artist>
+		<artist>Joe Crepúsculo</artist>
+		<artist>No Reply</artist>
+		<artist>NudoZurdo</artist>
+		<artist>The Coronas</artist>
+		<artist>Mistery Jets</artist>
+		<artist>Anni B Sweet</artist>
+		<artist>Aldi Linares</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Benicassim</name>
+		<location>
+			<city>Castellón de la Plana</city>
+			<country>Spain</country>
+			<street>Benicàssim</street>
+			<postalcode>12560</postalcode>
+			<point>
+				<lat>40.029535</lat>
+				<long>0.014109</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783275</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">FIB Heineken 2009 will take place on July 16, 17, 18 and 19, 2009, at the concert venue of Benicàssim (Castellón), as in past years.<br />
+		<br />
+		Buy your ticket here:<br />
+		<br />
+		<a href="http://tickets.fiberfib.com/" rel="nofollow">http://tickets.fiberfib.com/</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/25545867.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/25545867.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/25545867.jpg</image>
+	<attendance>630</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=797299</tag>
+	<url>http://www.last.fm/event/797299</url>
+</event>
+<event>
+	<id>926736</id>
+	<title>FIB</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Paul Weller</artist>
+		<artist>King Of Leon</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>FIB</name>
+		<location>
+			<city>Benicassim</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.2166667</lat>
+				<long>7.5</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8953030</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=926736</tag>
+	<url>http://www.last.fm/event/926736</url>
+</event>
+<event>
+	<id>957939</id>
+	<title>Festival Internacional de Benicassim</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Paul Weller</artist>
+		<artist>Boys Noize</artist>
+		<artist>Friendly Fires</artist>
+		<artist>White Lies</artist>
+		<artist>The Bishops</artist>
+		<artist>The Phsychedelic Furs</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Ninguna</name>
+		<location>
+			<city>Benicassim.</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9009069</url>
+	</venue>
+	<startDate>Thu, 16 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description>
+	<![CDATA[<div class="bbcode">Grande, muy GRANDE!!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24789471.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24789471.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24789471.jpg</image>
+<attendance>11</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=957939</tag>
+<url>http://www.last.fm/event/957939</url>
+</event>
+<event>
+	<id>703874</id>
+	<title>Melt! Festival 2009</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Bloc Party</artist>
+		<artist>Aphex Twin</artist>
+		<artist>Klaxons</artist>
+		<artist>The Faint</artist>
+		<artist>Digitalism</artist>
+		<artist>Simian Mobile Disco</artist>
+		<artist>Jazzanova</artist>
+		<artist>The Gossip</artist>
+		<artist>Foals</artist>
+		<artist>MSTRKRFT</artist>
+		<artist>Caribou</artist>
+		<artist>The Whitest Boy Alive</artist>
+		<artist>Ellen Allien</artist>
+		<artist>Diplo</artist>
+		<artist>The Dodos</artist>
+		<artist>Trentemøller</artist>
+		<artist>Paul Kalkbrenner</artist>
+		<artist>Sascha Funke</artist>
+		<artist>Rex the Dog</artist>
+		<artist>DJ Koze</artist>
+		<artist>Mediengruppe Telekommander</artist>
+		<artist>Ame</artist>
+		<artist>Kiki</artist>
+		<artist>WhoMadeWho</artist>
+		<artist>Luke Slater</artist>
+		<artist>Matias Aguayo</artist>
+		<artist>Henrik Schwarz</artist>
+		<artist>Bodi Bill</artist>
+		<artist>James Yuill</artist>
+		<artist>Bonaparte</artist>
+		<artist>DJ Mujava</artist>
+		<artist>Boy 8-Bit</artist>
+		<artist>Zander VT</artist>
+		<artist>Hudson Mohawke</artist>
+		<artist>Tobias Thomas</artist>
+		<artist>Filthy Dukes</artist>
+		<artist>Pilooski</artist>
+		<artist>Kasper Bjørke</artist>
+		<artist>Hecker</artist>
+		<artist>Super700</artist>
+		<artist>mikroboy</artist>
+		<artist>Baddies</artist>
+		<artist>Dixon</artist>
+		<artist>DJ Phono</artist>
+		<artist>Daniel Haaksman</artist>
+		<artist>The New Wine</artist>
+		<artist>The Cheapers</artist>
+		<artist>Fabiano</artist>
+		<artist>Markus Kavka</artist>
+		<artist>Sick Sinus</artist>
+		<artist>A Critical Mass</artist>
+		<artist>Sven Jozwiak</artist>
+		<artist>Max Hart Nibbrig</artist>
+		<artist>Jochen Distelmeyer</artist>
+		<artist>Taktzyklus</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Ferropolis</name>
+		<location>
+			<city>Gräfenhainichen</city>
+			<country>Germany</country>
+			<street>Ferropolisstraße 01</street>
+			<postalcode>06773</postalcode>
+			<point>
+				<lat>51.754577</lat>
+				<long>12.438258</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780901</url>
+	</venue>
+	<startDate>Fri, 17 Jul 2009</startDate>
+	<endDate>Sun, 19 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets: <a href="http://www.melt-festival.de/tickets.html" rel="nofollow">http://www.melt-festival.de/tickets.html</a><br />
+		<br />
+		<strong>FREITAG</strong>
+		<br />
+		Trentemøller<br />
+		<br />
+		<strong>SONNABEND</strong>
+		<br />
+		Bloc Party<br />
+		Digitalism<br />
+		Aphex Twin<br />
+		<br />
+		<strong>SONNTAG</strong>
+		<br />
+	Oasis</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/16155175.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/16155175.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/16155175.jpg</image>
+	<attendance>1083</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=703874</tag>
+	<url>http://www.last.fm/event/703874</url>
+</event>
+<event>
+	<id>922071</id>
+	<title>FIB</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Paul Weller</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>FIB</name>
+		<location>
+			<city>Benicassim</city>
+			<country>Spain</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.2166667</lat>
+				<long>7.5</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8953030</url>
+	</venue>
+	<startDate>Fri, 17 Jul 2009</startDate>
+	<endDate>Mon, 20 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">El tiempo sigue avanzando dentro de la historia del Festival y cada edición es un paso más en el emocionante universo de la música que se inició en 1995 y que continúa alimentando un fantástico viaje al sonido y la imaginación.<br />
+		<br />
+		Año tras año, artistas y asistentes de todo el mundo han reflejado su pasión por la música haciendo de él una cita realmente ineludible. Porque de lo que se trata es de ser parte de una experiencia completamente única, en plenas vacaciones frente al mar, sintiendo la alegría de un verano especial. Y es que el Festival ya es un hecho cultural, un motor de iniciativas, propuestas y descubrimientos que sirve para vivir nuevas sensaciones.<br />
+		<br />
+		Además de la música, que también se manifiesta en el ya necesario concurso de maquetas Proyecto Demo, hay espacios para otras disciplinas tales como la danza, la moda, el arte contemporáneo, el teatro y los cortometrajes, demostrando que la creatividad en el FIB Heineken fluye y se comunica a través del entusiasmo y la curiosidad.<br />
+		<br />
+	El Festival y todo su equipo buscan trasladar una pasión que se traduce en varios días de alegría, convivencia, identidad e ilusión. Porque cada año trae consigo tantas canciones, imágenes y encuentros, que es necesario compartirlos con vosotros, escuchando vuestras opiniones y sugerencias, esperando el momento en el que se enciendan las luces de los escenarios y vuestras sonrisas y aplausos vuelvan a ser la esencia de un FIB Heineken que os aguarda con los altavoces listos para sonar.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=922071</tag>
+	<url>http://www.last.fm/event/922071</url>
+</event>
+<event>
+	<id>945752</id>
+	<title>Oasis Fest</title>
+	<artists>
+		<artist>Oasis</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>In a Champagne Supernova in the Sky</name>
+		<location>
+			<city>Pomerode</city>
+			<country>Brazil</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-26.75</lat>
+				<long>-49.1833333</long>
+			</point>
+			<timezone>BRT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9006507</url>
+	</venue>
+	<startDate>Mon, 20 Jul 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=945752</tag>
+	<url>http://www.last.fm/event/945752</url>
+</event>
+<event>
+	<id>734627</id>
+	<title>V Festival 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Keane</artist>
+		<artist>Fatboy Slim</artist>
+		<artist>Razorlight</artist>
+		<artist>Lily Allen</artist>
+		<artist>MGMT</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>The Streets</artist>
+		<artist>Elbow</artist>
+		<artist>James Morrison</artist>
+		<artist>Paolo Nutini</artist>
+		<artist>Lady GaGa</artist>
+		<artist>Pendulum</artist>
+		<artist>The Specials</artist>
+		<artist>The Wombats</artist>
+		<artist>James</artist>
+		<artist>Ocean Colour Scene</artist>
+		<artist>Dizzee Rascal</artist>
+		<artist>British Sea Power</artist>
+		<artist>Taylor Swift</artist>
+		<artist>Biffy Clyro</artist>
+		<artist>The Enemy</artist>
+		<artist>Happy Mondays</artist>
+		<artist>The Script</artist>
+		<artist>The Saturdays</artist>
+		<artist>Seasick Steve</artist>
+		<artist>Alesha Dixon</artist>
+		<artist>Peter Doherty</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Weston Park</name>
+		<location>
+			<city>Stafford</city>
+			<country>United Kingdom</country>
+			<street>Weston-under-Lizard</street>
+			<postalcode>TF11 8LE</postalcode>
+			<point>
+				<lat>52.691026</lat>
+				<long>-2.276298</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781820</url>
+	</venue>
+	<startDate>Sat, 22 Aug 2009</startDate>
+	<endDate>Sun, 23 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/24819451.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/24819451.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/24819451.jpg</image>
+	<attendance>144</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=734627</tag>
+	<url>http://www.last.fm/event/734627</url>
+</event>
+<event>
+	<id>977896</id>
+	<title>V Festival</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Oasis</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Hylands Park</name>
+		<location>
+			<city>Chelmsford</city>
+			<country>United Kingdom</country>
+			<street>London Road</street>
+			<postalcode>CM2 8WQ</postalcode>
+			<point>
+				<lat>51.7333333</lat>
+				<long>0.4833333</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782994</url>
+	</venue>
+	<startDate>Sat, 22 Aug 2009</startDate>
+	<endDate>Sun, 23 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/250099.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/250099.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/250099.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=977896</tag>
+	<url>http://www.last.fm/event/977896</url>
+</event>
+</events>
+</lfm>

@@ -1,0 +1,1920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Bullet For My Valentine" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="35">
+		<event>
+			<id>946482</id>
+			<title>Bullet For My Valentine</title>
+			<artists>
+				<artist>Bullet For My Valentine</artist>
+				<artist>Fightstar</artist>
+				<artist>The Blackout</artist>
+				<headliner>Bullet For My Valentine</headliner>
+			</artists>
+			<venue>
+				<name>Royal Albert Hall</name>
+				<location>
+					<city>London</city>
+					<country>United Kingdom</country>
+					<street>Kensington Gore</street>
+					<postalcode>SW7 2A</postalcode>
+					<point>
+						<lat>51.500222</lat>
+						<long>-0.176256</long>
+					</point>
+					<timezone>GMT</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8777908</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>19:00</startTime>
+			<description>
+			<![CDATA[<div class="bbcode">Teenage Cancer Trust announce today that Welsh metalcore band, Bullet for My Valentine, will headline Saturday night at the charity’s renowned Royal Albert Hall shows in March this year. Tickets for the gig on Saturday 28 March, which are expected to sell-out, go on sale this Friday (20 February 2009) at 9am.</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/3419668.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/3419668.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/3419668.jpg</image>
+		<attendance>38</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=946482</tag>
+		<url>http://www.last.fm/event/946482</url>
+	</event>
+	<event>
+		<id>905772</id>
+		<title>Coca-Cola Zero Fest 2009</title>
+		<artists>
+			<artist>Oasis</artist>
+			<artist>Snow Patrol</artist>
+			<artist>Bullet For My Valentine</artist>
+			<artist>The Red Jumpsuit Apparatus</artist>
+			<artist>Panic at the Disco</artist>
+			<artist>Cassette</artist>
+			<artist>The Dirty Skirts</artist>
+			<artist>Aking</artist>
+			<artist>Foto Na Dans</artist>
+			<artist>Zebra and Giraffe</artist>
+			<headliner>Oasis</headliner>
+		</artists>
+		<venue>
+			<name>New Market Racecourse</name>
+			<location>
+				<city>Johannesburg</city>
+				<country>South Africa</country>
+				<street>Corner Heidelberg and Ring Road East, Alberton</street>
+				<postalcode></postalcode>
+				<point>
+					<lat>-26.2</lat>
+					<long>28.0833333</long>
+				</point>
+				<timezone>CAT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8810493</url>
+		</venue>
+		<startDate>Fri, 10 Apr 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">Believe It! Coca-Cola ZeroTM is bringing an unprecedented international and local line-up of the hottest rock bands, with 12 hours of rocking music and unbelievable experiences, making it the most adrenalin-fuelled festival in South Africa: Coca-Cola ZeroTM Fest in association with 5FM.<br />
+			<br />
+			Coca-Cola ZeroTM is offering you the VIP privilege to purchase your tickets a day early on 22nd January, prior to public ticket sales opening day on 23rd January. Visit your nearest Computicket outlet and state the phrase (the 5FM special).<br />
+			<br />
+			Consumers can now believe that unbelievable things do happen... South Africa, standby for British Rock Royalty and possibly the world's top headline live act - OASIS. Oasis will be supported by SNOW PATROL who got the global spotlight with their 2006 album &quot;Eyes Open&quot; which contains &quot;Chasing Cars&quot;. Also featured will be the Grammy nominated, multiple MTV Award winning American rock band – PANIC AT THE DISCO.<br />
+			<br />
+			And introducing, the band that Q Magazine dubbed &quot;The best British metal band to emerge in years&quot;, the Welsh metal-core band Bullet For My Valentine who spent most of the past two years taking over the world with massive U.K., European, U.S. and worldwide tours, sharing the stage with Guns N Roses, Metallica and Iron Maiden, playing the Main Stage at just about every rock festival on the planet!<br />
+			<br />
+			The Coca-Cola ZeroTM Fest will also feature local favourites like Zebra and Giraffe, The Dirty Skirts, and more.<br />
+			<br />
+			The Coca-Cola ZeroTM Fest in association with 5FM will take place at Johannesburg's New Market Racecourse on Friday, 10 April 2009 and Cape Town's Ostrich Farm on Monday, 13 April 2009.<br />
+			<br />
+			Taste life as it should be – Real Coke Taste, Zero Sugar. Grab Coca-Cola ZeroTM, tune into 5FM and watch this space, as we announce more details.<br />
+			<br />
+			Coca-Cola ZeroTM Fest in association with 5FM is going to rock you!<br />
+			<br />
+		For more information visit <a href="http://www.cokezero.co.za" rel="nofollow">www.cokezero.co.za</a> and <a href="http://www.5fm.co.za" rel="nofollow">www.5fm.co.za</a>.</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/21993755.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/21993755.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/21993755.jpg</image>
+	<attendance>30</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=905772</tag>
+	<url>http://www.last.fm/event/905772</url>
+</event>
+<event>
+	<id>910014</id>
+	<title>Coca-Cola Zero Fest</title>
+	<artists>
+		<artist>Oasis</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Panic at the Disco</artist>
+		<artist>The Dirty Skirts</artist>
+		<artist>Zebra and Giraffe</artist>
+		<headliner>Oasis</headliner>
+	</artists>
+	<venue>
+		<name>Cape Town's Ostrich Farm</name>
+		<location>
+			<city>Cape Town, Western Cape</city>
+			<country>South Africa</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-33.9166667</lat>
+				<long>18.4166667</long>
+			</point>
+			<timezone>CAT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8998957</url>
+	</venue>
+	<startDate>Mon, 13 Apr 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">That’s right folks, the 2009 Coca Cola Fest, in association with 5FM and Big Concerts, are proud to announce the lineup and venues!<br />
+		The Coca-Cola Zero Fest will take place at Johannesburg’s New Market Racecourse on Friday, 10 April 2009 and Cape Town’s Ostrich Farm on Monday, 13 April 2009.<br />
+		<br />
+		The following international bands will be rocking Joburg and Cape Town:<br />
+		Oasis<br />
+		Bullet for my Valentine<br />
+		Snow Patrol<br />
+		Panic at the Disco<br />
+		<br />
+		The local bands playing at the 2009 Coca Cola Zero Fest are as follows:<br />
+		Zebra and Giraffe<br />
+		The Dirty Skirts<br />
+		<br />
+	There are still more bands to be announced, so stay tuned to 5FM or alternatively via RSS or fill in your email address below to get the latest updates from the mycoke.co.za!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2932252.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2932252.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2932252.jpg</image>
+<attendance>22</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=910014</tag>
+<url>http://www.last.fm/event/910014</url>
+</event>
+<event>
+	<id>760328</id>
+	<title>Groezrock 2009</title>
+	<artists>
+		<artist>Taking Back Sunday</artist>
+		<artist>Rise Against</artist>
+		<artist>NOFX</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Underoath</artist>
+		<artist>The Academy Is...</artist>
+		<artist>Senses Fail</artist>
+		<artist>Thursday</artist>
+		<artist>The Get Up Kids</artist>
+		<artist>MxPx</artist>
+		<artist>Emery</artist>
+		<artist>Catch 22</artist>
+		<artist>Bleeding Through</artist>
+		<artist>The Vandals</artist>
+		<artist>The Living End</artist>
+		<artist>Escape The Fate</artist>
+		<artist>Poison the Well</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>The Aquabats</artist>
+		<artist>Comeback Kid</artist>
+		<artist>The Unseen</artist>
+		<artist>Darkest Hour</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Bane</artist>
+		<artist>Misery Signals</artist>
+		<artist>Street Dogs</artist>
+		<artist>Mad Sin</artist>
+		<artist>No Fun At All</artist>
+		<artist>Beneath the Massacre</artist>
+		<artist>Architects</artist>
+		<artist>Death Before Dishonor</artist>
+		<artist>The Flatliners</artist>
+		<artist>Innerpartysystem</artist>
+		<artist>Outbreak</artist>
+		<artist>United Nations</artist>
+		<artist>You Me At Six</artist>
+		<artist>Sounds Like Violence</artist>
+		<artist>This Is a Standoff</artist>
+		<artist>Amenra</artist>
+		<artist>VersaEmerge</artist>
+		<artist>P.O.BOX</artist>
+		<artist>True Colors</artist>
+		<artist>Kid Down</artist>
+		<artist>Backfire!</artist>
+		<artist>Tackleberry</artist>
+		<artist>Campus</artist>
+		<artist>The Sedan Vault</artist>
+		<artist>Tenement Kids</artist>
+		<artist>Static Radio</artist>
+		<artist>Gino's Eyeball</artist>
+		<artist>Mid Air Collision</artist>
+		<artist>Nations Afire</artist>
+		<artist>Nuns Go Riot</artist>
+		<artist>Jasta</artist>
+		<headliner>Taking Back Sunday</headliner>
+	</artists>
+	<venue>
+		<name>Gestel</name>
+		<location>
+			<city>Meerhout</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.35</lat>
+				<long>4.75</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8911883</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<endDate>Sat, 18 Apr 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>Time Shedule</strong><br />
+		-  <a href="http://img5.imageshack.us/img5/3636/gr09schedule.jpg" rel="nofollow">http://img5.imageshack.us/img5/3636/gr09schedule.jpg</a>
+		<br />
+		<br />
+		<strong>Cancelled</strong>
+		<br />
+		- H2O <br />
+		<br />
+		<strong>Tickets</strong>: <a href="http://www.groezrock.be/store/" rel="nofollow">Click Here</a>
+		<br />
+		<br />
+		<strong>Doors</strong>: <br />
+		- Friday:  17u00; First Band: 17u30<br />
+		- Saturday: 09u30; First Band: 10u30<br />
+		<br />
+		Für deutschsprachige Festivalbesucher: <a href="http://www.groezrock.de" rel="nofollow">groezrock.de</a>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/24890513.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/24890513.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/24890513.jpg</image>
+<attendance>952</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=760328</tag>
+<url>http://www.last.fm/event/760328</url>
+</event>
+<event>
+	<id>962701</id>
+	<title>Groezrock</title>
+	<artists>
+		<artist>Rise Against</artist>
+		<artist>Taking Back Sunday</artist>
+		<artist>NOFX</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Underoath</artist>
+		<artist>Senses Fail</artist>
+		<artist>Thursday</artist>
+		<artist>The Get Up Kids</artist>
+		<artist>MxPx</artist>
+		<artist>Escape The Fate</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>You, Me At Six</artist>
+		<headliner>Rise Against</headliner>
+	</artists>
+	<venue>
+		<name>Meerhout</name>
+		<location>
+			<city>Antwerpen</city>
+			<country>Belgium</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>51.2166667</lat>
+				<long>4.4166667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8821782</url>
+	</venue>
+	<startDate>Fri, 17 Apr 2009</startDate>
+	<endDate>Sat, 18 Apr 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Friday €40<br />
+		Saturday €58<br />
+		Combiticket €78<br />
+	Camping €10</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/20778187.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/20778187.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/20778187.jpg</image>
+<attendance>7</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=962701</tag>
+<url>http://www.last.fm/event/962701</url>
+</event>
+<event>
+	<id>902807</id>
+	<title>Bullet For My Valentine</title>
+	<artists>
+		<artist>Bullet For My Valentine</artist>
+		<headliner>Bullet For My Valentine</headliner>
+	</artists>
+	<venue>
+		<name>Den Atelier</name>
+		<location>
+			<city>Luxembourg</city>
+			<country>Luxembourg</country>
+			<street>54, Rue de Hollerich</street>
+			<postalcode>L-1013</postalcode>
+			<point>
+				<lat>49.598622</lat>
+				<long>6.126355</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8787565</url>
+	</venue>
+	<startDate>Sat, 18 Apr 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/3419668.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/3419668.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/3419668.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=902807</tag>
+	<url>http://www.last.fm/event/902807</url>
+</event>
+<event>
+	<id>875078</id>
+	<title>Bullet For My Valentine</title>
+	<artists>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Stigmata</artist>
+		<headliner>Bullet For My Valentine</headliner>
+	</artists>
+	<venue>
+		<name>ДС Лужники</name>
+		<location>
+			<city>Москва</city>
+			<country>Russian Federation</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>55.754178</lat>
+				<long>37.63605</long>
+			</point>
+			<timezone>MSK</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8899847</url>
+	</venue>
+	<startDate>Mon, 20 Apr 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://promoend-afisha.livejournal.com/14155.html" rel="nofollow">http://promoend-afisha.livejournal.com/14155.html</a><br />
+		<a href="http://www.promoend.ru/o_komp.html" rel="nofollow">http://www.promoend.ru/o_komp.html</a>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/3419668.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/3419668.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/3419668.jpg</image>
+<attendance>277</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=875078</tag>
+<url>http://www.last.fm/event/875078</url>
+</event>
+<event>
+	<id>786212</id>
+	<title>Tuska Open Air Metal Festival 2009</title>
+	<artists>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Amorphis</artist>
+		<artist>All That Remains</artist>
+		<artist>Ensiferum</artist>
+		<artist>My Dying Bride</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Immortal</artist>
+		<artist>Neurosis</artist>
+		<artist>Parkway Drive</artist>
+		<artist>Volbeat</artist>
+		<artist>Gojira</artist>
+		<artist>Eluveitie</artist>
+		<artist>Firewind</artist>
+		<artist>ムック</artist>
+		<artist>Stam1na</artist>
+		<artist>Sabaton</artist>
+		<artist>Paul Gilbert</artist>
+		<artist>Rotten Sound</artist>
+		<artist>Callisto</artist>
+		<artist>Legion of the Damned</artist>
+		<artist>Pestilence</artist>
+		<artist>Evile</artist>
+		<artist>Deathchain</artist>
+		<artist>Profane Omen</artist>
+		<artist>Gama Bomb</artist>
+		<artist>Jon Oliva's Pain</artist>
+		<artist>ギルガメッシュ</artist>
+		<artist>Dauntless</artist>
+		<artist>Medeia</artist>
+		<artist>Tukkanuotta</artist>
+		<headliner>Bullet For My Valentine</headliner>
+	</artists>
+	<venue>
+		<name>Kaisaniemi</name>
+		<location>
+			<city>Helsinki</city>
+			<country>Finland</country>
+			<street>Kaisaniemi</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>60.171344</lat>
+				<long>24.94714</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8792416</url>
+	</venue>
+	<startDate>Fri, 26 Jun 2009</startDate>
+	<endDate>Sun, 28 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tuska Festival 2009.<br />
+		<br />
+	Information about the festival is currently unannounced.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25002883.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25002883.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25002883.jpg</image>
+<attendance>554</attendance>
+<reviews>1</reviews>
+<tag>lastfm:event=786212</tag>
+<url>http://www.last.fm/event/786212</url>
+</event>
+<event>
+	<id>920193</id>
+	<title>Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Shoreline Amphitheatre</name>
+		<location>
+			<city>Mountain View, CA</city>
+			<country>United States</country>
+			<street>One Amphitheatre Parkway</street>
+			<postalcode>94043</postalcode>
+			<point>
+				<lat>37.423326</lat>
+				<long>-122.078012</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8900403</url>
+	</venue>
+	<startDate>Sat, 11 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+	<attendance>30</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=920193</tag>
+	<url>http://www.last.fm/event/920193</url>
+</event>
+<event>
+	<id>944304</id>
+	<title>Rockstar Mayhem Festival 2009</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Orange Pavilion</name>
+		<location>
+			<city>San Bernardino</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>34.10833</lat>
+				<long>-117.28889</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8797350</url>
+	</venue>
+	<startDate>Sun, 12 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=944304</tag>
+	<url>http://www.last.fm/event/944304</url>
+</event>
+<event>
+	<id>914959</id>
+	<title>Rockstar Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>White River Amphitheater</name>
+		<location>
+			<city>Seattle, WA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.237404</lat>
+				<long>-122.112061</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8900399</url>
+	</venue>
+	<startDate>Tue, 14 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>28</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=914959</tag>
+	<url>http://www.last.fm/event/914959</url>
+</event>
+<event>
+	<id>916457</id>
+	<title>Rockstar Energy Drink Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Coors Amphitheatre</name>
+		<location>
+			<city>Denver</city>
+			<country>United States</country>
+			<street>6350 Greenwood Plaza Blvd</street>
+			<postalcode>80111</postalcode>
+			<point>
+				<lat>39.73917</lat>
+				<long>-104.98417</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8793361</url>
+	</venue>
+	<startDate>Sun, 19 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Coors Amphitheatre's name is now Fiddler's Green Amphitheatre.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>15</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=916457</tag>
+<url>http://www.last.fm/event/916457</url>
+</event>
+<event>
+	<id>913243</id>
+	<title>Rockstar Mayhem Festival 2009</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Amphitheater</name>
+		<location>
+			<city>Bonner Springs</city>
+			<country>United States</country>
+			<street>633 N 130th St</street>
+			<postalcode>66012</postalcode>
+			<point>
+				<lat>39.111197</lat>
+				<long>-94.881554</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8793836</url>
+	</venue>
+	<startDate>Tue, 21 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Main Stage:<br />
+		<br />
+		Slayer<br />
+		Marilyn Manson<br />
+		Killswitch Engage<br />
+		Bullet for My Valentine<br />
+		<br />
+		Hot Topic Stage:<br />
+		<br />
+		Cannibal Corpse<br />
+		The Black Dahlia Murder<br />
+		Job For A Cowboy<br />
+		Behemoth<br />
+		Whitechapel<br />
+		<br />
+		Jägermeister Stage:<br />
+		<br />
+		Trivium<br />
+		All That Remains<br />
+	God Forbid</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+<attendance>16</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=913243</tag>
+<url>http://www.last.fm/event/913243</url>
+</event>
+<event>
+	<id>959788</id>
+	<title>Rockstar Mayhem Festival 2009</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<artist>Killswitch Engange</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Ampitheatre</name>
+		<location>
+			<city>Maryland Heights</city>
+			<country>United States</country>
+			<street>14141 Riverport Dr</street>
+			<postalcode>63043</postalcode>
+			<point>
+				<lat>38.74601</lat>
+				<long>-90.4708</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8819203</url>
+	</venue>
+	<startDate>Wed, 22 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">HOLY SHIT, IT'S LIKE HEAVY MUSIC AND STUFF!!!!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>5</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=959788</tag>
+<url>http://www.last.fm/event/959788</url>
+</event>
+<event>
+	<id>915729</id>
+	<title>Rockstar Energy Drink Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Music Center</name>
+		<location>
+			<city>Noblesville</city>
+			<country>United States</country>
+			<street>12880 E 146th</street>
+			<postalcode>46060</postalcode>
+			<point>
+				<lat>40.001482</lat>
+				<long>-85.936379</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8819435</url>
+	</venue>
+	<startDate>Sat, 25 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Marilyn+Manson" class="bbcode_artist">Marilyn Manson</a><a href="http://ws.audioscrobbler.com/music/+noredirect/Bullet+fo+my+Valentine" class="bbcode_artist">Bullet fo my Valentine</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>13</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=915729</tag>
+<url>http://www.last.fm/event/915729</url>
+</event>
+<event>
+	<id>913247</id>
+	<title>Rockstar Energy Drink Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>first midwest bank amphitheatre</name>
+		<location>
+			<city>tinley park, il</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.542945</lat>
+				<long>-87.771132</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8928350</url>
+	</venue>
+	<startDate>Sun, 26 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>32</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=913247</tag>
+	<url>http://www.last.fm/event/913247</url>
+</event>
+<event>
+	<id>913264</id>
+	<title>Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Molson Amphitheatre</name>
+		<location>
+			<city>Toronto</city>
+			<country>Canada</country>
+			<street>909 Lakeshore Blvd. W</street>
+			<postalcode>M6K 3L3</postalcode>
+			<point>
+				<lat>43.6666667</lat>
+				<long>-79.4166667</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8786466</url>
+	</venue>
+	<startDate>Tue, 28 Jul 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">MARILYN MANSON AND SLAYER TO TOP THE BILL ON <br />
+		ROCKSTAR ENERGY DRINK MAYHEM FESTIVAL '09<br />
+		<br />
+		LINEUP FOR RIOTOUS ROADSHOW INCLUDES <br />
+		<br />
+		BULLET FOR MY VALENTINE, TRIVIUM, CANNIBAL CORPSE, MANY MORE <br />
+		<br />
+		MAYHEM ENSUES JULY 10 IN SACRAMENTO, CA<br />
+		<br />
+		<br />
+		<br />
+		LOS ANGELES, CA (January 28, 2009) – Rockstar Energy Drink Mayhem Festival, the most electrifying carnival to ever hit the summer concert circuit, is back...and bigger. Organizers of the Rockstar Energy Drink Mayhem Festival announced today that hard music legends MARILYN MANSON and SLAYER will top the bill on this year's highly anticipated tour, which is set to kick off July 10 at the Sleep Train Amphitheatre in Sacramento, CA. The festival will tear through 27 cities in the U.S. and Canada. Mayhem tickets will go on sale to the public on April 24 - check <a href="http://www.mayhemfest.com" rel="nofollow">www.mayhemfest.com</a> and <a href="http://www.livenation.com" rel="nofollow">www.livenation.com</a> for more info.<br />
+		<br />
+		Like last year's Godzillian-sized lineup, the second annual Rockstar Energy Drink Mayhem Festival will feature a gaggle of rock's heaviest bands: the main stage will see Marilyn Manson and Slayer joined by BULLET FOR MY VALENTINE and a special guest that will be announced in the coming weeks; the Jägermeister stage will feature TRIVIUM, ALL THAT REMAINS, GOD FORBID and the Jägermeister Battle of the Bands winner; the Hot Topic stage will feature extreme metal bands CANNIBAL CORPSE, JOB FOR A COWBOY, BEHEMOTH, BLACK DAHLIA MURDER and WHITECHAPEL. The World's Greatest Freestyle Motocross team METAL MULISHA will also be revving up the crowd with their unique style of death-defying motorcycle stunts on all dates.<br />
+		<br />
+		&quot;Given the great success of last year's festival, we knew that we needed to put together a stellar group of talent for 2009—and we have,&quot; says Mayhem producers John Reese and Kevin Lyman. &quot;This will be a blockbuster event, one that blends thrilling live performances with special music-related events and a few yet-to-be-revealed surprises. The result is a concert experience like no other. We're extremely excited to get the show on the road.&quot;<br />
+		<br />
+		&quot;Last year's inaugural Mayhem Festival tour was a definitive success, attracting nearly 340,000 incremental fans to our amphitheaters,&quot; said Jason Garner, Chief Executive Officer of Global Music at Live Nation, the tour's co-producer. &quot;This year, the Mayhem team has delivered another great all-star lineup and we anticipate another huge success for Mayhem.&quot;<br />
+		<br />
+		&quot;I have good news and I have bad news to announce,&quot; declares Manson. &quot;The good news is that I am completely aware now that our music and our Mayhem tour will have a negative, destructive influence on America. The bad news is that I don't give a fuck.&quot; <br />
+		<br />
+		Manson is currently in the studio working on his forthcoming album scheduled for release in May on Interscope Records. This highly anticipated record reunites Manson and Twiggy Ramirez for their first collaboration since Hollywood in 2001.<br />
+		<br />
+		Summer 2009 will also see a brand new album from the mighty Slayer, who have already recorded three new songs and are slated to return to the studio in February to finish. Late last fall, Slayer made one of the new tracks, &quot;Psychopathy Red&quot;, available as a free online stream to fans, and to date, the song has been posted online at more than one million sites.<br />
+		<br />
+		&quot;We co-headlined with Manson once before, a couple of years ago,&quot; said Slayer's Kerry King, &quot;so we all know what we're getting into. Manson and I probably drank a little too much absinthe on that tour, but we had a really good time hanging out and playing good music - we're looking forward to doing the same this summer on Mayhem.&quot;<br />
+		<br />
+		Says Slayer vocalist/bassist Tom Araya, &quot;We're looking forward to some summer mayhem and playing new sh*t!&quot;<br />
+		<br />
+		The Rockstar Energy Drink Mayhem Festival is the brainchild of Kevin Lyman, John Reese and CAA's Darryl Eaton, the creative team behind some of the industry's most successful road jaunts, including the long-running Vans Warped Tour and the Worldwide Rockstar Taste of Chaos Tour.<br />
+		<br />
+		Following the proven model of utilizing sponsorship to deliver a lower ticket price and an enhanced concert experience, the tour organizers have joined forces once again with ROCKSTAR ENERGY DRINK, the festival's Title sponsor.<br />
+		<br />
+		&quot;We're excited to continue our successful relationship with the festival,&quot; says Michael Kelso, Marketing Director for Rockstar Energy Drink. &quot;We're looking forward to delivering a high-energy, mind-blowing event, one that not only brings you the biggest lineup of the summer, but also at an affordable ticket price. Let the Mayhem continue.&quot;<br />
+		<br />
+		In addition to catching a slew of speaker-shredding performances, fans can take part in a number of festival activities, including playing the newest video games, perusing vendors, attending autograph signing sessions and a host of other interactive activities that will add to the festival experience.<br />
+		<br />
+		Stage sponsor Jägermeister will be sampling their products and providing fun surprises for attendees. &quot;Jägermeister is proud to once again be working with Mayhem and its great staff of people in 2009,&quot; says Rick Zeiler, Jägermeister Director of Strategic Marketing. &quot;We plan to not only rock our million dollar mobile stage again this year but Slayer's Kerry King and a host of other great bands have agreed to sign autographs at our activation booth. Once again Jägermeister and Mayhem will prove to be a marriage made in heaven.&quot;<br />
+		<br />
+	Revolver Magazine (who will produce the Official Tour Program) has signed on as official Rockstar Energy Mayhem Festival media partners. Additional sponsors will be announced soon.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>71</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=913264</tag>
+<url>http://www.last.fm/event/913264</url>
+</event>
+<event>
+	<id>960369</id>
+	<title>Wacken (Inoffizielles Lineup)</title>
+	<artists>
+		<artist>In Flames</artist>
+		<artist>Motörhead</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>DragonForce</artist>
+		<artist>Machine Head</artist>
+		<artist>HammerFall</artist>
+		<artist>Stratovarius</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Testament</artist>
+		<artist>Edguy</artist>
+		<artist>Tristania</artist>
+		<artist>Saxon</artist>
+		<artist>Gamma Ray</artist>
+		<artist>Nevermore</artist>
+		<artist>Pain</artist>
+		<artist>Korpiklaani</artist>
+		<artist>UFO</artist>
+		<artist>In Extremo</artist>
+		<artist>Napalm Death</artist>
+		<artist>Rage</artist>
+		<artist>Turisas</artist>
+		<artist>Subway to Sally</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Mägo de Oz</artist>
+		<artist>Borknagar</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>Volbeat</artist>
+		<artist>GWAR</artist>
+		<artist>Schandmaul</artist>
+		<artist>Axel Rudi Pell</artist>
+		<artist>Doro</artist>
+		<artist>Cathedral</artist>
+		<artist>Einherjer</artist>
+		<artist>Warlock</artist>
+		<artist>Kampfar</artist>
+		<artist>Breed77</artist>
+		<artist>Whiplash</artist>
+		<artist>Kingdom of Sorrow</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Der W</artist>
+		<artist>Tracedawn</artist>
+		<artist>Callejón</artist>
+		<artist>Mambo Kurt</artist>
+		<artist>SARKE</artist>
+		<headliner>In Flames</headliner>
+	</artists>
+	<venue>
+		<name>Wacken</name>
+		<location>
+			<city>Wacken</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>54.020923</lat>
+				<long>9.373885</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9000978</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/277274.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/277274.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/277274.jpg</image>
+	<attendance>14</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=960369</tag>
+	<url>http://www.last.fm/event/960369</url>
+</event>
+<event>
+	<id>584022</id>
+	<title>Wacken Open Air 2009</title>
+	<artists>
+		<artist>Motörhead</artist>
+		<artist>In Flames</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>DragonForce</artist>
+		<artist>Machine Head</artist>
+		<artist>HammerFall</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Testament</artist>
+		<artist>Tristania</artist>
+		<artist>Nevermore</artist>
+		<artist>Korpiklaani</artist>
+		<artist>UFO</artist>
+		<artist>In Extremo</artist>
+		<artist>Napalm Death</artist>
+		<artist>Turisas</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Borknagar</artist>
+		<artist>Volbeat</artist>
+		<artist>GWAR</artist>
+		<artist>Airbourne</artist>
+		<artist>Axel Rudi Pell</artist>
+		<artist>Cathedral</artist>
+		<artist>Einherjer</artist>
+		<artist>Kampfar</artist>
+		<artist>Whiplash</artist>
+		<artist>Kingdom of Sorrow</artist>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Tracedawn</artist>
+		<artist>Callejón</artist>
+		<artist>SARKE</artist>
+		<headliner>Motörhead</headliner>
+	</artists>
+	<venue>
+		<name>Wacken</name>
+		<location>
+			<city>Wacken</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode>25596</postalcode>
+			<point>
+				<lat>54.020923</lat>
+				<long>9.373885</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778594</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><span style="text-decoration:underline;">Wacken Open Air 2009: The 20th Anniversary - SOLD OUT!</span> <br />
+		<br />
+		Inofficially confirmed bands:<br />
+		<a href="http://ws.audioscrobbler.com/music/Warlock" class="bbcode_artist">Warlock</a> or <a href="http://ws.audioscrobbler.com/music/Doro" class="bbcode_artist">Doro</a>, <a href="http://ws.audioscrobbler.com/music/Accept" class="bbcode_artist">Accept</a> or <a href="http://ws.audioscrobbler.com/music/U.D.O." class="bbcode_artist">U.D.O.</a>, <a href="http://ws.audioscrobbler.com/music/Saxon" class="bbcode_artist">Saxon</a>, <a href="http://ws.audioscrobbler.com/music/Rage" class="bbcode_artist">Rage</a>, <a href="http://ws.audioscrobbler.com/music/Gamma+Ray" class="bbcode_artist">Gamma Ray</a>, <a href="http://ws.audioscrobbler.com/music/M%C3%A4go+de+Oz" class="bbcode_artist">M&auml;go de Oz</a>
+	<span title="Unknown artist" class="bbcode_unknown">, <a class="music artist">PAIN</span>, <a href="http://ws.audioscrobbler.com/music/Der+W" class="bbcode_artist">Der W</a>, <a href="http://ws.audioscrobbler.com/music/Subway+to+Sally" class="bbcode_artist">Subway to Sally</a>, <a href="http://ws.audioscrobbler.com/music/J.B.O." class="bbcode_artist">J.B.O.</a>, <a href="http://ws.audioscrobbler.com/music/Sonic+Syndicate" class="bbcode_artist">Sonic Syndicate</a>, <a href="http://ws.audioscrobbler.com/music/Schandmaul" class="bbcode_artist">Schandmaul</a>, <a href="http://ws.audioscrobbler.com/music/Bring+Me+the+Horizon" class="bbcode_artist">Bring Me the Horizon</a>, <a href="http://ws.audioscrobbler.com/music/Eths" class="bbcode_artist">Eths</a>, <a href="http://ws.audioscrobbler.com/music/Breed77" class="bbcode_artist">Breed77</a>, <a href="http://ws.audioscrobbler.com/music/Bai+Bang" class="bbcode_artist">Bai Bang</a>, <a href="http://ws.audioscrobbler.com/music/Retrospect" class="bbcode_artist">Retrospect</a>, <a href="http://ws.audioscrobbler.com/music/Nervecell" class="bbcode_artist">Nervecell</a>
+	<br />
+	<br />
+	<br />
+	Wacken has been known to be the biggest metal festival in Europe (and even the world) for quite some years, and the 2009 edition will go into history as the best days in the history of metal. Even though hell will only be unleashed in some 250 days, every metalhead alive is counting the days for this special event. Wacken, it's time to rock!<br />
+	<br />
+	Wacken staat al jaren bekend als het grootste metalfestival in Europa (en zelfs de wereld). De 20ste editie zal meer dan waarschijnlijk de kronieken in gaan als het beste evenement in de geschiedenis van metal. Ook al zijn er nog meer dan 250 dagen te gaan vooraleer de poorten naar de hel worden geopend, elke metalhead telt nu al af naar deze gig. Wacken, it's time to rock!<br />
+	<br />
+Wacken est connu comme le festival metal le plus grand en Europe (et même dans le monde entier). Cette 20ième édition entrera probablement dans l'histoire de metal comme étant les meilleurs jours du métal. Même a plus de 250 jours avant l'enfer sur terre, chaque metalhead vivant commence a compter. Wacken, it's time to rock!</a>
+</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/22554891.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/22554891.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/22554891.jpg</image>
+<attendance>2273</attendance>
+<reviews>6</reviews>
+<tag>lastfm:event=584022</tag>
+<url>http://www.last.fm/event/584022</url>
+</event>
+<event>
+	<id>976869</id>
+	<title>W:O:A 2009 (inofficial lineup)</title>
+	<artists>
+		<artist>Heaven &amp; Hell</artist>
+		<artist>Motörhead</artist>
+		<artist>In Flames</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Lacuna Coil</artist>
+		<artist>DragonForce</artist>
+		<artist>Machine Head</artist>
+		<artist>HammerFall</artist>
+		<artist>Stratovarius</artist>
+		<artist>Amon Amarth</artist>
+		<artist>Epica</artist>
+		<artist>Testament</artist>
+		<artist>Edguy</artist>
+		<artist>Tristania</artist>
+		<artist>Saxon</artist>
+		<artist>Gamma Ray</artist>
+		<artist>DevilDriver</artist>
+		<artist>Nevermore</artist>
+		<artist>Pain</artist>
+		<artist>Korpiklaani</artist>
+		<artist>UFO</artist>
+		<artist>In Extremo</artist>
+		<artist>Bring Me the Horizon</artist>
+		<artist>Napalm Death</artist>
+		<artist>Heaven Shall Burn</artist>
+		<artist>J.B.O.</artist>
+		<artist>Rage</artist>
+		<artist>Turisas</artist>
+		<artist>Subway to Sally</artist>
+		<artist>Walls of Jericho</artist>
+		<artist>Mägo de Oz</artist>
+		<artist>Borknagar</artist>
+		<artist>Sonic Syndicate</artist>
+		<artist>Kataklysm</artist>
+		<artist>Volbeat</artist>
+		<artist>Eluveitie</artist>
+		<artist>All Shall Perish</artist>
+		<artist>GWAR</artist>
+		<artist>Schandmaul</artist>
+		<artist>Scar Symmetry</artist>
+		<artist>Airbourne</artist>
+		<artist>Axel Rudi Pell</artist>
+		<artist>U.D.O.</artist>
+		<artist>Doro</artist>
+		<artist>Equilibrium</artist>
+		<artist>Cathedral</artist>
+		<artist>Einherjer</artist>
+		<artist>Arsis</artist>
+		<artist>D-A-D</artist>
+		<artist>Warlock</artist>
+		<artist>The BossHoss</artist>
+		<artist>SuidAkrA</artist>
+		<artist>Torfrock</artist>
+		<artist>Kampfar</artist>
+		<artist>Breed77</artist>
+		<artist>Keep of Kalessin</artist>
+		<artist>Whiplash</artist>
+		<artist>Benediction</artist>
+		<artist>Psycroptic</artist>
+		<artist>Chrome Division</artist>
+		<artist>Eths</artist>
+		<artist>Kingdom of Sorrow</artist>
+		<artist>Sylosis</artist>
+		<artist>Der W</artist>
+		<artist>Tracedawn</artist>
+		<artist>Callejón</artist>
+		<artist>Mambo Kurt</artist>
+		<artist>Retrospect</artist>
+		<artist>Hackneyed</artist>
+		<artist>Nervecell</artist>
+		<artist>Mantic Ritual</artist>
+		<artist>Bai Bang</artist>
+		<artist>SARKE</artist>
+		<headliner>Heaven &amp; Hell</headliner>
+	</artists>
+	<venue>
+		<name>ITZEHOE</name>
+		<location>
+			<city>ITZEHOE</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.923959</lat>
+				<long>9.510319</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8983964</url>
+	</venue>
+	<startDate>Thu, 30 Jul 2009</startDate>
+	<endDate>Sat, 01 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">THIS IS NOT THE OFFICIALL WACKEN OPEN AIR 2009 LINEUP!<br />
+	I COLLECTED INFORMATION TO SHOW HOW THE FINAL LINEUP MIGHT LOOK LIKE. THERE IS NO GARANTIE FOR ANY OF THESE INOFFICAL COMFIRMATIONS, THIS LINEUP IS NOT YET COMPLETE!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/2134265.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/2134265.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/2134265.jpg</image>
+<attendance>5</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=976869</tag>
+<url>http://www.last.fm/event/976869</url>
+</event>
+<event>
+	<id>953144</id>
+	<title>Rockstar Energy Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<artist>Behometh</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Blossom Music Center</name>
+		<location>
+			<city>Cleveland, Ohio</city>
+			<country>United States</country>
+			<street>1145 W. Steels Corners</street>
+			<postalcode>44223</postalcode>
+			<point>
+				<lat>41.49944</lat>
+				<long>-81.69556</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8915696</url>
+	</venue>
+	<startDate>Fri, 31 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=953144</tag>
+	<url>http://www.last.fm/event/953144</url>
+</event>
+<event>
+	<id>967828</id>
+	<title>Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Post-Gazette Pavilion</name>
+		<location>
+			<city>Burgettstown</city>
+			<country>United States</country>
+			<street>Rt. 18 at Rt. 22 W</street>
+			<postalcode>15021</postalcode>
+			<point>
+				<lat>40.432265</lat>
+				<long>-80.434237</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8793834</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">TICKETS ONSALE APRIL 24<br />
+		<a href="http://www.mayhemfest.com" rel="nofollow">www.mayhemfest.com</a>
+		<br />
+		<a href="http://www.livenation.com" rel="nofollow">www.livenation.com</a>
+		<br />
+		<br />
+		“I have good news and I have bad news to announce,” declares Manson. “The good news is that I am completely aware now that our music and our Mayhem tour will have a negative, destructive influence on America. The bad news is that I don't give a fuck.”<br />
+		---<br />
+		<br />
+		Main Stage:<br />
+		<br />
+		MARILYN MANSON<br />
+		SLAYER<br />
+		<br />
+		<br />
+		Hot Topic Stage:<br />
+		<br />
+		WHITECHAPEL<br />
+		THE BLACK DAHLIA MURDER<br />
+		JOB FOR A COWBOY<br />
+		BEHEMOTH<br />
+		CANNIBAL CORPSE<br />
+		<br />
+		Jägermeister Stage:<br />
+		<br />
+		GOD FORBID<br />
+		ALL THAT REMAINS<br />
+	TRIVIUM</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>10</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=967828</tag>
+<url>http://www.last.fm/event/967828</url>
+</event>
+<event>
+	<id>931354</id>
+	<title>Sonisphere</title>
+	<artists>
+		<artist>Metallica</artist>
+		<artist>Linkin Park</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>Alice in Chains</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Avenged Sevenfold</artist>
+		<artist>Thin Lizzy</artist>
+		<artist>Machine Head</artist>
+		<artist>Anthrax</artist>
+		<artist>Lamb of God</artist>
+		<artist>Mastodon</artist>
+		<artist>Killing Joke</artist>
+		<artist>Airbourne</artist>
+		<artist>The Sword</artist>
+		<headliner>Metallica</headliner>
+	</artists>
+	<venue>
+		<name>Knebworth Park</name>
+		<location>
+			<city>Knebworth, Hertfordshire</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>SG3 6PY</postalcode>
+			<point>
+				<lat>51.872235</lat>
+				<long>-0.211709</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8825807</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<endDate>Sun, 02 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Great show, great bands. Quite expensive, but hell worth it. Knebworth is a home of rock. The last 30 years has brought us all time classic concerts. Pink Floyd, Rolling Stones, Lynyrd Skynyrd, The Beath Boys, Devo, Oasis, Frank Zappa, Chuck Berry, Deep Purple, and the last every original lineup shows for both Queen and Led Zeppelin. And now they're inviting some exclusives<br />
+		<br />
+		<br />
+		Metallica – Knebworth is the only show that Metallica are playing in the UK other than 2009 other than the indoor tour dates that start in Nottingham this Wednesday<br />
+		<br />
+		Linkin Park – Knebworth is the only show that Linkin Park are playing in the UK in 2009<br />
+		<br />
+		Avenged Sevenfold – Knebworth is the only show that Avenged Sevenfold are playing in the UK in 2009<br />
+		<br />
+		Alice in Chains – Knebworth is the only show that Alice in Chains are playing in the UK in 2009<br />
+		<br />
+		Machine Head – Knebworth is the only outdoor festival that Machine Head are playing in the UK in 2009.  They are playing indoor shows with Metallica that start this Wednesday in Nottingham<br />
+		<br />
+		<br />
+		<br />
+		<a href="http://linkin-park.lt" rel="nofollow">http://linkin-park.lt</a>
+	</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25217585.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25217585.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25217585.jpg</image>
+<attendance>179</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=931354</tag>
+<url>http://www.last.fm/event/931354</url>
+</event>
+<event>
+	<id>942893</id>
+	<title>Rockstar Mayhem Fest 2009</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>DTE Energy Music Theater</name>
+		<location>
+			<city>Clarkston, MI</city>
+			<country>United States</country>
+			<street>7774 Sashabaw Rd</street>
+			<postalcode>48348</postalcode>
+			<point>
+				<lat>42.33139</lat>
+				<long>-83.04583</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8946254</url>
+	</venue>
+	<startDate>Sun, 02 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=942893</tag>
+	<url>http://www.last.fm/event/942893</url>
+</event>
+<event>
+	<id>923315</id>
+	<title>Rockstar Energy Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Comcast Center</name>
+		<location>
+			<city>Mansfield</city>
+			<country>United States</country>
+			<street>885 S Main St</street>
+			<postalcode>02048</postalcode>
+			<point>
+				<lat>41.995282</lat>
+				<long>-71.210716</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8939934</url>
+	</venue>
+	<startDate>Tue, 04 Aug 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">METAL</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>15</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=923315</tag>
+<url>http://www.last.fm/event/923315</url>
+</event>
+<event>
+	<id>914519</id>
+	<title>Rockstar Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Amphitheater</name>
+		<location>
+			<city>Virginia Beach</city>
+			<country>United States</country>
+			<street>3550 Cellar Door Way</street>
+			<postalcode>23456</postalcode>
+			<point>
+				<lat>36.769185</lat>
+				<long>-76.104016</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785623</url>
+	</venue>
+	<startDate>Thu, 06 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=914519</tag>
+	<url>http://www.last.fm/event/914519</url>
+</event>
+<event>
+	<id>914254</id>
+	<title>USA Rockstar Energy Drink Mayhem Festival tour</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<artist>Switchpin</artist>
+		<artist>AdaKain</artist>
+		<artist>Saint Diablo</artist>
+		<artist>Negative 263</artist>
+		<artist>Northwest Royale</artist>
+		<artist>Madlife</artist>
+		<artist>X Factor 1</artist>
+		<artist>Continent of Ash</artist>
+		<artist>Mobile Deathcamp</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Susquehanna Bank Center</name>
+		<location>
+			<city>Camden, NJ</city>
+			<country>United States</country>
+			<street>1 Harbour Boulevard</street>
+			<postalcode>08103</postalcode>
+			<point>
+				<lat>39.942333</lat>
+				<long>-75.128549</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8905210</url>
+	</venue>
+	<startDate>Fri, 07 Aug 2009</startDate>
+	<startTime>16:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>18</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=914254</tag>
+	<url>http://www.last.fm/event/914254</url>
+</event>
+<event>
+	<id>914119</id>
+	<title>Rockstar Mayhem Festival 2009</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Dodge Music Center</name>
+		<location>
+			<city>Hartford, CT</city>
+			<country>United States</country>
+			<street>61 Savitt Way</street>
+			<postalcode>06103</postalcode>
+			<point>
+				<lat>41.780207</lat>
+				<long>-72.669229</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8825847</url>
+	</venue>
+	<startDate>Sat, 08 Aug 2009</startDate>
+	<startTime>12:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Main Stage:<br />
+		Slayer<br />
+		Marilyn Manson<br />
+		Bullet For My Valentine<br />
+		Killswitch Engage<br />
+		<br />
+		Jägermeister Stage:<br />
+		Trivium<br />
+		All That Remains<br />
+		God Forbid<br />
+		[Jägermeister Battle of the Bands Winner]<br />
+		<br />
+		Hot Topic Stage:<br />
+		Cannibal Corpse<br />
+		Behemoth<br />
+		Job For A Cowboy<br />
+		The Black Dahlia Murder<br />
+	Whitechapel</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+<attendance>16</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=914119</tag>
+<url>http://www.last.fm/event/914119</url>
+</event>
+<event>
+	<id>928807</id>
+	<title>Rockstar Mayhem Festival 2009</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Nissan Pavilion</name>
+		<location>
+			<city>Bristow</city>
+			<country>United States</country>
+			<street>7800 Cellar Door Drive</street>
+			<postalcode>20136</postalcode>
+			<point>
+				<lat>38.785915</lat>
+				<long>-77.587777</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785553</url>
+	</venue>
+	<startDate>Sun, 09 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Main Stage<br />
+		* Marilyn Manson<br />
+		* Slayer<br />
+		* Bullet For My Valentine<br />
+		* Killswitch Engage<br />
+		<br />
+		Jägermeister Stage<br />
+		* Trivium<br />
+		* All That Remains<br />
+		* God Forbid<br />
+		* Jägermeister Battle of the Bands winner<br />
+		<br />
+		Hot Topic Stage<br />
+		* Cannibal Corpse<br />
+		* Behemoth<br />
+		* Job For A Cowboy<br />
+		* The Black Dahlia Murder<br />
+	* Whitechapel</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+<attendance>10</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=928807</tag>
+<url>http://www.last.fm/event/928807</url>
+</event>
+<event>
+	<id>943716</id>
+	<title>Rockstar Energy Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Ford Amphitheatre</name>
+		<location>
+			<city>Tampa, FL</city>
+			<country>United States</country>
+			<street>4802 US 301 North</street>
+			<postalcode>33610</postalcode>
+			<point>
+				<lat>27.988118</lat>
+				<long>-82.359127</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780468</url>
+	</venue>
+	<startDate>Tue, 11 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=943716</tag>
+	<url>http://www.last.fm/event/943716</url>
+</event>
+<event>
+	<id>916314</id>
+	<title>Rockstar Energy Mayhem Festival 2009</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Killswitch Engage</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Sound Advice Amphitheatre</name>
+		<location>
+			<city>West Palm Beach, FL</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>26.715</lat>
+				<long>-80.05361</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8904588</url>
+	</venue>
+	<startDate>Wed, 12 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Main Stage:<br />
+		<br />
+		SLAYER<br />
+		MARILYN MANSON<br />
+		BULLET FOR MY VALENTINE<br />
+		KILLSWITCH ENGAGE (special guest)<br />
+		<br />
+		Hot Topic Stage:<br />
+		<br />
+		WHITECHAPEL<br />
+		THE BLACK DAHLIA MURDER<br />
+		JOB FOR A COWBOY<br />
+		BEHEMOTH<br />
+		CANNIBAL CORPSE<br />
+		<br />
+		Jägermeister Stage:<br />
+		<br />
+		GOD FORBID<br />
+		ALL THAT REMAINS<br />
+	TRIVIUM</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/36322.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/36322.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/36322.jpg</image>
+<attendance>20</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=916314</tag>
+<url>http://www.last.fm/event/916314</url>
+</event>
+<event>
+	<id>916190</id>
+	<title>Rockstar Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Superpages.com Center</name>
+		<location>
+			<city>Dallas, TX</city>
+			<country>United States</country>
+			<street>1818 1st Ave</street>
+			<postalcode>75210</postalcode>
+			<point>
+				<lat>32.78333</lat>
+				<long>-96.8</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8901507</url>
+	</venue>
+	<startDate>Fri, 14 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=916190</tag>
+	<url>http://www.last.fm/event/916190</url>
+</event>
+<event>
+	<id>916200</id>
+	<title>Rockstar Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Cynthia Woods Mitchell Pavilion</name>
+		<location>
+			<city>The Woodlands</city>
+			<country>United States</country>
+			<street>2005 Lake Robbins Drive</street>
+			<postalcode>77380</postalcode>
+			<point>
+				<lat>30.161367</lat>
+				<long>-95.46375</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781619</url>
+	</venue>
+	<startDate>Sat, 15 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=916200</tag>
+	<url>http://www.last.fm/event/916200</url>
+</event>
+<event>
+	<id>947337</id>
+	<title>Rockstar Mayhem Festival</title>
+	<artists>
+		<artist>Marilyn Manson</artist>
+		<artist>Slayer</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>All That Remains</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>White Chapel</artist>
+		<headliner>Marilyn Manson</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Amphitheater</name>
+		<location>
+			<city>San Antonio</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>29.593</lat>
+				<long>-98.314143</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9006858</url>
+	</venue>
+	<startDate>Sun, 16 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Ozzfest = Canceled <br />
+		<br />
+	So this is THE Metal Fest of the year!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/25019605.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/25019605.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/25019605.jpg</image>
+<attendance>6</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=947337</tag>
+<url>http://www.last.fm/event/947337</url>
+</event>
+<event>
+	<id>916205</id>
+	<title>Rockstar Mayhem Festival</title>
+	<artists>
+		<artist>Slayer</artist>
+		<artist>Marilyn Manson</artist>
+		<artist>Bullet For My Valentine</artist>
+		<artist>Trivium</artist>
+		<artist>Cannibal Corpse</artist>
+		<artist>Behemoth</artist>
+		<artist>The Black Dahlia Murder</artist>
+		<artist>Job for a Cowboy</artist>
+		<artist>God Forbid</artist>
+		<artist>Whitechapel</artist>
+		<headliner>Slayer</headliner>
+	</artists>
+	<venue>
+		<name>Verizon Wireless Amphitheater</name>
+		<location>
+			<city>Selma, Texas</city>
+			<country>United States</country>
+			<street>16765 Lookout Road</street>
+			<postalcode>28154</postalcode>
+			<point>
+				<lat>29.593001</lat>
+				<long>-98.314143</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8912190</url>
+	</venue>
+	<startDate>Sun, 16 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/10447745.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/10447745.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/10447745.jpg</image>
+	<attendance>7</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=916205</tag>
+	<url>http://www.last.fm/event/916205</url>
+</event>
+</events>
+</lfm>

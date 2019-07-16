@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Cyndi Lauper" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="5">
+		<event>
+			<id>987294</id>
+			<title>Cyndi Lauper</title>
+			<artists>
+				<artist>Cyndi Lauper</artist>
+				<headliner>Cyndi Lauper</headliner>
+			</artists>
+			<venue>
+				<name>Volkspark</name>
+				<location>
+					<city>Mainz</city>
+					<country>Germany</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>49.986587</lat>
+						<long>8.288423</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8999750</url>
+			</venue>
+			<startDate>Sun, 05 Jul 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/6967243.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/6967243.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/6967243.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=987294</tag>
+			<url>http://www.last.fm/event/987294</url>
+		</event>
+		<event>
+			<id>974236</id>
+			<title>Cyndi Lauper</title>
+			<artists>
+				<artist>Cyndi Lauper</artist>
+				<headliner>Cyndi Lauper</headliner>
+			</artists>
+			<venue>
+				<name>Élysée Montmartre</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>72 Boulevard Rochechouart</street>
+					<postalcode>75018</postalcode>
+					<point>
+						<lat>48.882934</lat>
+						<long>2.343777</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778720</url>
+			</venue>
+			<startDate>Mon, 06 Jul 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/6967243.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/6967243.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/6967243.jpg</image>
+			<attendance>4</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=974236</tag>
+			<url>http://www.last.fm/event/974236</url>
+		</event>
+		<event>
+			<id>956123</id>
+			<title>Live at Sunset 2009</title>
+			<artists>
+				<artist>UB40</artist>
+				<artist>Cyndi Lauper</artist>
+				<artist>Katie Melua</artist>
+				<artist>Jamie Cullum</artist>
+				<artist>Simple Minds</artist>
+				<artist>Simply Red</artist>
+				<artist>Amy Macdonald</artist>
+				<artist>Patricia Kaas</artist>
+				<artist>Kodo</artist>
+				<artist>Stephan Eicher</artist>
+				<artist>David Garrett</artist>
+				<artist>Sophie Hunger</artist>
+				<artist>Philipp Fankhauser</artist>
+				<headliner>UB40</headliner>
+			</artists>
+			<venue>
+				<name>Dolder Eisbahn</name>
+				<location>
+					<city>Zürich</city>
+					<country>Switzerland</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>47.375609</lat>
+						<long>8.57674</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9008693</url>
+			</venue>
+			<startDate>Wed, 08 Jul 2009</startDate>
+			<endDate>Sun, 19 Jul 2009</endDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/25115121.png</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/25115121.png</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/25115121.png</image>
+			<attendance>9</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=956123</tag>
+			<url>http://www.last.fm/event/956123</url>
+		</event>
+		<event>
+			<id>987299</id>
+			<title>Cyndi Lauper</title>
+			<artists>
+				<artist>Cyndi Lauper</artist>
+				<headliner>Cyndi Lauper</headliner>
+			</artists>
+			<venue>
+				<name>Stadtpark Freilichtbühne</name>
+				<location>
+					<city>Hamburg</city>
+					<country>Germany</country>
+					<street>Saarlandstraße</street>
+					<postalcode>22303</postalcode>
+					<point>
+						<lat>53.593064</lat>
+						<long>10.014949</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8785032</url>
+			</venue>
+			<startDate>Wed, 08 Jul 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/6967243.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/6967243.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/6967243.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=987299</tag>
+			<url>http://www.last.fm/event/987299</url>
+		</event>
+		<event>
+			<id>979680</id>
+			<title>Cyndi Lauper</title>
+			<artists>
+				<artist>Cyndi Lauper</artist>
+				<headliner>Cyndi Lauper</headliner>
+			</artists>
+			<venue>
+				<name>Parkbühne Clara Zetkin Park</name>
+				<location>
+					<city>Leipzig</city>
+					<country>Germany</country>
+					<street>Karl-Tauchnitz-Str./Höhe Haydnstr.</street>
+					<postalcode>04107</postalcode>
+					<point>
+						<lat>51.3</lat>
+						<long>12.3333333</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8798916</url>
+			</venue>
+			<startDate>Sat, 18 Jul 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/6967243.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/6967243.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/6967243.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=979680</tag>
+			<url>http://www.last.fm/event/979680</url>
+		</event>
+	</events>
+</lfm>

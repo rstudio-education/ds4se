@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Kylie Minogue" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="2">
+		<event>
+			<id>987167</id>
+			<title>Top of the Mountain Concert with Kylie Minogue</title>
+			<artists>
+				<artist>Kylie Minogue</artist>
+				<headliner>Kylie Minogue</headliner>
+			</artists>
+			<venue>
+				<name>Silvrettaseilbahn Talstation</name>
+				<location>
+					<city>Ischgl</city>
+					<country>Austria</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>47.010017</lat>
+						<long>10.288041</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8786598</url>
+			</venue>
+			<startDate>Sat, 02 May 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Mountain High for Kylie in Ischgl<br />
+				<br />
+				Ischgl, the showbiz centre of the Alps, has pulled off another coup by signing Kylie Minogue for the ski resort's end-of-season concert in May.<br />
+				<br />
+				Kylie follows in the footsteps of a galaxy of superstars who have entertained skiers and boarders in the Austrian resort's traditional Top of the Mountain gig, including Elton John, The Pussycat Dolls, Rihanna, Lionel Richie, Scissor Sisters and Stereophonics.<br />
+				<br />
+				About 20,000 are expected to attend the concert, held in a natural bowl near the top station of the main Silvrettabahn gondola from the centre of the village.<br />
+				<br />
+				It will be held at lunchtime on Saturday 2 May - the closing weekend of the Tirolean resort, with the last skiing of the season being on Sunday 3 May. The concert is free for those with lift-passes - necessary anyway to reach the venue.<br />
+				<br />
+				Kylie will close a season that has so far been one of Ischgl's best for snow on record, with superb skiing conditions from the opening at the end of November. The opening was marked by a concert in the village starring Leona Lewis and Gabriella Cilmi.<br />
+				<br />
+			Kylie is delighted to be returning to Austria for her first daytime concert.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/150300.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/150300.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/150300.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=987167</tag>
+			<url>http://www.last.fm/event/987167</url>
+		</event>
+		<event>
+			<id>965429</id>
+			<title>Festival Mawazine 2009</title>
+			<artists>
+				<artist>Kylie Minogue</artist>
+				<headliner>Kylie Minogue</headliner>
+			</artists>
+			<venue>
+				<name>OLM-SOUISSI</name>
+				<location>
+					<city>Rabat</city>
+					<country>Morocco</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>34.02</lat>
+						<long>-6.83</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8814008</url>
+			</venue>
+			<startDate>Fri, 15 May 2009</startDate>
+			<startTime>22:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/150300.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/150300.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/150300.jpg</image>
+			<attendance>5</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=965429</tag>
+			<url>http://www.last.fm/event/965429</url>
+		</event>
+	</events>
+</lfm>

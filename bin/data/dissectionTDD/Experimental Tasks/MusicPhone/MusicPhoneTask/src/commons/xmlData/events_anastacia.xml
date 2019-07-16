@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Anastacia" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="22">
+		<event>
+			<id>986659</id>
+			<title>Anastacia</title>
+			<artists>
+				<artist>Anastacia</artist>
+				<headliner>Anastacia</headliner>
+			</artists>
+			<venue>
+				<name>Hartwall Areena</name>
+				<location>
+					<city>Helsinki</city>
+					<country>Finland</country>
+					<street>Areenakuja 1</street>
+					<postalcode>00240</postalcode>
+					<point>
+						<lat>60.204441</lat>
+						<long>24.930099</long>
+					</point>
+					<timezone>EET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8784738</url>
+			</venue>
+			<startDate>Sat, 06 Jun 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=986659</tag>
+			<url>http://www.last.fm/event/986659</url>
+		</event>
+		<event>
+			<id>967612</id>
+			<title>Heavy Rotation European Tour</title>
+			<artists>
+				<artist>Anastacia</artist>
+				<headliner>Anastacia</headliner>
+			</artists>
+			<venue>
+				<name>Soenderborg</name>
+				<location>
+					<city>Soenderborg</city>
+					<country>Denmark</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat></lat>
+						<long></long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9010930</url>
+			</venue>
+			<startDate>Thu, 11 Jun 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=967612</tag>
+			<url>http://www.last.fm/event/967612</url>
+		</event>
+		<event>
+			<id>967620</id>
+			<title>Heavy Rotation European Tour</title>
+			<artists>
+				<artist>Anastacia</artist>
+				<headliner>Anastacia</headliner>
+			</artists>
+			<venue>
+				<name>Sports de Palais</name>
+				<location>
+					<city>Antwerp</city>
+					<country>Belgium</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>50.843737</lat>
+						<long>4.358639</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9010933</url>
+			</venue>
+			<startDate>Sat, 13 Jun 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=967620</tag>
+			<url>http://www.last.fm/event/967620</url>
+		</event>
+		<event>
+			<id>963672</id>
+			<title>Anastacia</title>
+			<artists>
+				<artist>Anastacia</artist>
+				<headliner>Anastacia</headliner>
+			</artists>
+			<venue>
+				<name>Heineken Music Hall</name>
+				<location>
+					<city>Amsterdam</city>
+					<country>Netherlands</country>
+					<street>ArenA Boulevard 590</street>
+					<postalcode>1101 DS</postalcode>
+					<point>
+						<lat>52.31266</lat>
+						<long>4.942487</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778722</url>
+			</venue>
+			<startDate>Sun, 14 Jun 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+			<![CDATA[<div class="bbcode">Anastacia is terug! Met een nieuwe start, een nieuw album, een nieuwe look, een nieuwe muziekstijl en een nieuwe man. Na het overwinnen van borstkanker heeft Anastacia haar leven 360 graden omgegooid. Op straat wordt de zangeres zonder bril en met een halflang krullenkoppie bijna niet meer herkend. Maar zodra ze het op een zingen zet herinnert iedereen die krachtige stem waarmee ze miljoenen albums verkocht.</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>9</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=963672</tag>
+		<url>http://www.last.fm/event/963672</url>
+	</event>
+	<event>
+		<id>956161</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Festspielhaus</name>
+			<location>
+				<city>Baden-Baden</city>
+				<country>Germany</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>48.75</lat>
+					<long>8.25</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8890872</url>
+		</venue>
+		<startDate>Tue, 16 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=956161</tag>
+		<url>http://www.last.fm/event/956161</url>
+	</event>
+	<event>
+		<id>956156</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Hamburg, Stadtpark</name>
+			<location>
+				<city>Hamburg</city>
+				<country>Germany</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>53.5810921282882</lat>
+					<long>10.0373840332031</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8969341</url>
+		</venue>
+		<startDate>Thu, 18 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>2</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=956156</tag>
+		<url>http://www.last.fm/event/956156</url>
+	</event>
+	<event>
+		<id>956158</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Philipshalle</name>
+			<location>
+				<city>Düsseldorf</city>
+				<country>Germany</country>
+				<street>Siegburger Straße 15</street>
+				<postalcode>40591</postalcode>
+				<point>
+					<lat>51.206009</lat>
+					<long>6.809559</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779785</url>
+		</venue>
+		<startDate>Fri, 19 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>5</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=956158</tag>
+		<url>http://www.last.fm/event/956158</url>
+	</event>
+	<event>
+		<id>956159</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Alte Oper</name>
+			<location>
+				<city>Frankfurt am Main</city>
+				<country>Germany</country>
+				<street>Opernplatz 1</street>
+				<postalcode>60313</postalcode>
+				<point>
+					<lat>50.115533</lat>
+					<long>8.671353</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778619</url>
+		</venue>
+		<startDate>Sun, 21 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=956159</tag>
+		<url>http://www.last.fm/event/956159</url>
+	</event>
+	<event>
+		<id>956141</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Philharmonie</name>
+			<location>
+				<city>Munich</city>
+				<country>Germany</country>
+				<street>Rosenheimer Straße 5</street>
+				<postalcode>81667</postalcode>
+				<point>
+					<lat>48.128602</lat>
+					<long>11.594848</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8852486</url>
+		</venue>
+		<startDate>Mon, 22 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>2</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=956141</tag>
+		<url>http://www.last.fm/event/956141</url>
+	</event>
+	<event>
+		<id>980643</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>HMV Hammersmith Apollo</name>
+			<location>
+				<city>London</city>
+				<country>United Kingdom</country>
+				<street>Queen Caroline Street London</street>
+				<postalcode>W6 9QH</postalcode>
+				<point>
+					<lat>51.490791</lat>
+					<long>-0.225623</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014708</url>
+		</venue>
+		<startDate>Thu, 25 Jun 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980643</tag>
+		<url>http://www.last.fm/event/980643</url>
+	</event>
+	<event>
+		<id>967623</id>
+		<title>Heavy Rotation European Tour</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Apollo Hammersmith</name>
+			<location>
+				<city>London</city>
+				<country>United Kingdom</country>
+				<street>Queen Caroline St</street>
+				<postalcode>W6 9QH</postalcode>
+				<point>
+					<lat>51.490569</lat>
+					<long>-0.225214</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777157</url>
+		</venue>
+		<startDate>Thu, 25 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967623</tag>
+		<url>http://www.last.fm/event/967623</url>
+	</event>
+	<event>
+		<id>966883</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Cardiff International Arena</name>
+			<location>
+				<city>Cardiff</city>
+				<country>United Kingdom</country>
+				<street>Mary Ann Street</street>
+				<postalcode>CF10 2EQ</postalcode>
+				<point>
+					<lat>51.478608</lat>
+					<long>-3.172066</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777929</url>
+		</venue>
+		<startDate>Fri, 26 Jun 2009</startDate>
+		<startTime>19:30</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=966883</tag>
+		<url>http://www.last.fm/event/966883</url>
+	</event>
+	<event>
+		<id>980653</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>NIA Birmingham</name>
+			<location>
+				<city>Birmingham</city>
+				<country>United Kingdom</country>
+				<street>King Edwards Road Birmingham, West Midlands</street>
+				<postalcode>B1 2AA</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014673</url>
+		</venue>
+		<startDate>Sun, 28 Jun 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980653</tag>
+		<url>http://www.last.fm/event/980653</url>
+	</event>
+	<event>
+		<id>967626</id>
+		<title>Heavy Rotation European Tour</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>National Indoor Arena</name>
+			<location>
+				<city>Birmingham</city>
+				<country>United Kingdom</country>
+				<street>King Edwards Road</street>
+				<postalcode>B1 2AA</postalcode>
+				<point>
+					<lat>52.4799228530354</lat>
+					<long>-1.91490996065193</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777921</url>
+		</venue>
+		<startDate>Sun, 28 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967626</tag>
+		<url>http://www.last.fm/event/967626</url>
+	</event>
+	<event>
+		<id>967629</id>
+		<title>Anastacia Live at the Marquee</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>The Marquee</name>
+			<location>
+				<city>Co Cork</city>
+				<country>Ireland</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>51.8986111</lat>
+					<long>-8.4958333</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8909737</url>
+		</venue>
+		<startDate>Tue, 30 Jun 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967629</tag>
+		<url>http://www.last.fm/event/967629</url>
+	</event>
+	<event>
+		<id>980664</id>
+		<title>Anastacia</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Manchester Apollo</name>
+			<location>
+				<city>Manchester</city>
+				<country>United Kingdom</country>
+				<street>Stockport Road Manchester, Lancashire</street>
+				<postalcode>M12 6AP</postalcode>
+				<point>
+					<lat></lat>
+					<long></long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9014677</url>
+		</venue>
+		<startDate>Thu, 02 Jul 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=980664</tag>
+		<url>http://www.last.fm/event/980664</url>
+	</event>
+	<event>
+		<id>967633</id>
+		<title>Heavy Rotation European Tour</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Manchester Apollo</name>
+			<location>
+				<city>Manchester</city>
+				<country>United Kingdom</country>
+				<street>Stockport Road, Ardwick Green</street>
+				<postalcode>M12 6AP</postalcode>
+				<point>
+					<lat>53.469413006754</lat>
+					<long>-2.22194864690236</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8795008</url>
+		</venue>
+		<startDate>Thu, 02 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967633</tag>
+		<url>http://www.last.fm/event/967633</url>
+	</event>
+	<event>
+		<id>967654</id>
+		<title>Heavy Rotation European Tour</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Hallenstadion</name>
+			<location>
+				<city>Zürich</city>
+				<country>United Kingdom</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>47.3732446484016</lat>
+					<long>8.53397369384766</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/9010947</url>
+		</venue>
+		<startDate>Sun, 05 Jul 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Die Königin des Soul-Pops – back in Switzerland<br />
+		Endlich zurück! Anastacia kehrt mit einem brandneuen Album zurück. Ein neuer, bezaubernder Look, ein neues Label, ein neues Management – und auch frisch verheiratet. Doch eines ist sie geblieben: die Pop-Königin mit der Ausnahmestimme, die immer wieder Nachahmerinnen findet. Nichtsdestotrotz gibt es zum Glück nur «eine» Anastacia – und auf ihrem aktuellen Werk «Heavy Rotation» stellt sie ihr enormes Können erneut unter Beweis. Die vor kurzem 40 Jahre alt gewordene Sängerin begeistert mit Pop und Soul vom Feinsten. Jetzt geht die in Chicago geborene Anastacia Lyn Newkirk auf Tournee. Am Sonntag, 5. Juli (20 Uhr) macht sie im Hallenstadion Zürich Halt. Ein Wiedersehen mit einer der wohl besten Sängerinnen der Gegenwart: ein absoluter Pflichttermin für alle Musikfans.</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>1</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967654</tag>
+		<url>http://www.last.fm/event/967654</url>
+	</event>
+	<event>
+		<id>967659</id>
+		<title>Elton John</title>
+		<artists>
+			<artist>Elton John</artist>
+			<artist>Anastacia</artist>
+			<headliner>Elton John</headliner>
+		</artists>
+		<venue>
+			<name>Arena di Verona</name>
+			<location>
+				<city>Verona</city>
+				<country>Italy</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>45.438973</lat>
+					<long>10.994112</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8790872</url>
+		</venue>
+		<startDate>Tue, 07 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/5670.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/5670.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/5670.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967659</tag>
+		<url>http://www.last.fm/event/967659</url>
+	</event>
+	<event>
+		<id>967669</id>
+		<title>Piazza Napoleone summer festival</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Piazza Napoleone</name>
+			<location>
+				<city>Lucca</city>
+				<country>Italy</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>43.8333333</lat>
+					<long>10.4833333</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8811552</url>
+		</venue>
+		<startDate>Wed, 08 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967669</tag>
+		<url>http://www.last.fm/event/967669</url>
+	</event>
+	<event>
+		<id>967675</id>
+		<title>Heavy Rotation European Tour</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Teatro Antico</name>
+			<location>
+				<city>Taormina</city>
+				<country>Italy</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>37.852905</lat>
+					<long>15.290199</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8949102</url>
+		</venue>
+		<startDate>Fri, 10 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967675</tag>
+		<url>http://www.last.fm/event/967675</url>
+	</event>
+	<event>
+		<id>967678</id>
+		<title>Heavy Rotation European Tour</title>
+		<artists>
+			<artist>Anastacia</artist>
+			<headliner>Anastacia</headliner>
+		</artists>
+		<venue>
+			<name>Cavea Auditorium</name>
+			<location>
+				<city>Rome</city>
+				<country>Italy</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>41.933795</lat>
+					<long>12.470181</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8946228</url>
+		</venue>
+		<startDate>Sun, 12 Jul 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/376350.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/376350.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/376350.jpg</image>
+		<attendance>0</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=967678</tag>
+		<url>http://www.last.fm/event/967678</url>
+	</event>
+</events>
+</lfm>

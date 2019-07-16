@@ -1,0 +1,1598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Beyoncé" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="46">
+		<event>
+			<id>966711</id>
+			<title>Beyoncé</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Rexall Place</name>
+				<location>
+					<city>Edmonton</city>
+					<country>Canada</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>53.570453</lat>
+						<long>-113.454444</long>
+					</point>
+					<timezone>MST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781553</url>
+			</venue>
+			<startDate>Thu, 26 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=966711</tag>
+			<url>http://www.last.fm/event/966711</url>
+		</event>
+		<event>
+			<id>966714</id>
+			<title>Beyoncé</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Credit Union Centre</name>
+				<location>
+					<city>Saskatoon</city>
+					<country>Canada</country>
+					<street>3515 Thatcher Ave</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>52.187823</lat>
+						<long>-106.67636</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8786013</url>
+			</venue>
+			<startDate>Fri, 27 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=966714</tag>
+			<url>http://www.last.fm/event/966714</url>
+		</event>
+		<event>
+			<id>957640</id>
+			<title>Beyoncé</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>MTS Centre</name>
+				<location>
+					<city>Winnipeg, MB</city>
+					<country>Canada</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>49.893697</lat>
+						<long>-97.143063</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8893492</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=957640</tag>
+			<url>http://www.last.fm/event/957640</url>
+		</event>
+		<event>
+			<id>966716</id>
+			<title>Beyoncé</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>MTS Centre</name>
+				<location>
+					<city>Winnipeg</city>
+					<country>Canada</country>
+					<street>300 Portage Ave</street>
+					<postalcode></postalcode>
+					<point>
+						<lat>49.893697</lat>
+						<long>-97.143063</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8813048</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=966716</tag>
+			<url>http://www.last.fm/event/966716</url>
+		</event>
+		<event>
+			<id>952136</id>
+			<title>Beyoncé returns to Winnipeg!</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>MTS Center</name>
+				<location>
+					<city>Winnipeg, Manitoba</city>
+					<country>Canada</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>49.893697</lat>
+						<long>-97.143063</long>
+					</point>
+					<timezone>CST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8991174</url>
+			</venue>
+			<startDate>Sat, 28 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">This spring, Beyonce is set to embark on her &quot;I AM...&quot; world tour. &quot;I AM...&quot; will mark the artist's first full-length concert tour since 2007's sold-out &quot;The Beyonce Experience&quot; and will premiere live performances of songs from I AM...SASHA FIERCE, her latest international #1 chart-topping album.<br />
+				<br />
+			Get your tickets @ ticketmaster.ca</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=952136</tag>
+			<url>http://www.last.fm/event/952136</url>
+		</event>
+		<event>
+			<id>957684</id>
+			<title>Beyoncé: I Am...</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>General Motors Place</name>
+				<location>
+					<city>Vancouver, Bc</city>
+					<country>Canada</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>49.277418</lat>
+						<long>-123.10966</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8870741</url>
+			</venue>
+			<startDate>Tue, 31 Mar 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>3</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=957684</tag>
+			<url>http://www.last.fm/event/957684</url>
+		</event>
+		<event>
+			<id>979958</id>
+			<title>Beyonce</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>General Motors Place</name>
+				<location>
+					<city>Vancouver</city>
+					<country>Canada</country>
+					<street>800 Griffiths Way</street>
+					<postalcode>V6B 6G1</postalcode>
+					<point>
+						<lat>49.277418</lat>
+						<long>-123.10966</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/9014498</url>
+			</venue>
+			<startDate>Tue, 31 Mar 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>0</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=979958</tag>
+			<url>http://www.last.fm/event/979958</url>
+		</event>
+		<event>
+			<id>965955</id>
+			<title>Beyoncé</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Key Arena</name>
+				<location>
+					<city>Seattle</city>
+					<country>United States</country>
+					<street>305 Harrison Street</street>
+					<postalcode>98109</postalcode>
+					<point>
+						<lat>47.622093</lat>
+						<long>-122.348601</long>
+					</point>
+					<timezone>UTC</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778827</url>
+			</venue>
+			<startDate>Wed, 01 Apr 2009</startDate>
+			<startTime>19:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>2</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=965955</tag>
+			<url>http://www.last.fm/event/965955</url>
+		</event>
+		<event>
+			<id>865181</id>
+			<title>I Am... Tour </title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<artist>maybe Đej xD</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Arena Zagreb</name>
+				<location>
+					<city>Zagreb</city>
+					<country>Croatia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.8</lat>
+						<long>16</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8992474</url>
+			</venue>
+			<startDate>Sun, 26 Apr 2009</startDate>
+			<description>
+				<![CDATA[<div class="bbcode">Kako izvještava The Wall Street Journal, koji je objavio popis gradova kroz koje će protutnjati Beyonce na svojoj europskoj turneji, na samom vrhu, kao polazna točka nalazi se Zagreb.<br />
+				<br />
+			Koncert bi se trebao održati u novoizgrađenoj dvorani Arena, a nakon toga Beyonce kreće put Beča, nakon kojeg će uslijediti koncerti u Budimpešti, Pragu i još 17 gradova, od kojih će zadnji biti u Belfastu u Odyssey Areni.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>7</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=865181</tag>
+			<url>http://www.last.fm/event/865181</url>
+		</event>
+		<event>
+			<id>863632</id>
+			<title>I Am... Tour </title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Arena Zagreb</name>
+				<location>
+					<city>Zagreb</city>
+					<country>Croatia</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>45.8</lat>
+						<long>16</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8992474</url>
+			</venue>
+			<startDate>Sun, 26 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">Da, potvrđeno je. <a href="http://ws.audioscrobbler.com/music/Beyonc%C3%A9" class="bbcode_artist">Beyonc&eacute;</a> kreće na europsku turneju, i to iz Zagreba.<br />
+				<br />
+				I Am... Tour je treća Beyoncéina turneja koja prati njen već uspješan treći album I Am.... Sasha Fierce. Turneja će obuhvatit 110 gostovanja diljem svijeta, a Zagreb ima tu čast da bude prvi. Više informacija: <a href="http://tinyurl.com/I-Am-Tour" rel="nofollow">http://tinyurl.com/I-Am-Tour</a>
+				<br />
+				<br />
+				Karte su u prodaji od 15.12. te će vjerovatno biti dostupne putem TicketPro i Eventima.<br />
+				<br />
+				<a href="http://www.eventim.hr/portal/hr/music/rock_pop/beyonce_i_am_world_tour/124626/performance.html" rel="nofollow">http://www.eventim.hr/portal/hr/music/rock_pop/beyonce_i_am_world_tour/124626/performance.html</a>
+			</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>88</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=863632</tag>
+			<url>http://www.last.fm/event/863632</url>
+		</event>
+		<event>
+			<id>859858</id>
+			<title>I Am... Tour </title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Stadthalle</name>
+				<location>
+					<city>Wien</city>
+					<country>Austria</country>
+					<street>Vogelweidplatz 14</street>
+					<postalcode>1150</postalcode>
+					<point>
+						<lat>48.204387</lat>
+						<long>16.331251</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778751</url>
+			</venue>
+			<startDate>Tue, 28 Apr 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>11</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=859858</tag>
+			<url>http://www.last.fm/event/859858</url>
+		</event>
+		<event>
+			<id>978553</id>
+			<title>Beyonce</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Wiener Stadthalle, Halle F</name>
+				<location>
+					<city>Wien</city>
+					<country>Austria</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>48.201944</lat>
+						<long>16.33179</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8983715</url>
+			</venue>
+			<startDate>Tue, 28 Apr 2009</startDate>
+			<startTime>19:30</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=978553</tag>
+			<url>http://www.last.fm/event/978553</url>
+		</event>
+		<event>
+			<id>873797</id>
+			<title>I Am... Tour </title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Papp László Budapest Sportaréna</name>
+				<location>
+					<city>Budapest</city>
+					<country>Hungary</country>
+					<street>Ifjúság útja 5.</street>
+					<postalcode>1148</postalcode>
+					<point>
+						<lat>47.501146</lat>
+						<long>19.103816</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8794933</url>
+			</venue>
+			<startDate>Wed, 29 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>8</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=873797</tag>
+			<url>http://www.last.fm/event/873797</url>
+		</event>
+		<event>
+			<id>863578</id>
+			<title>I Am... Tour </title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>O2 Arena</name>
+				<location>
+					<city>Praha</city>
+					<country>Czech Republic</country>
+					<street>Českomoravská 2345/17</street>
+					<postalcode>190 00</postalcode>
+					<point>
+						<lat>50.103298</lat>
+						<long>14.492088</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8913157</url>
+			</venue>
+			<startDate>Thu, 30 Apr 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>24</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=863578</tag>
+			<url>http://www.last.fm/event/863578</url>
+		</event>
+		<event>
+			<id>863446</id>
+			<title>I Am… Tour</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Ahoy</name>
+				<location>
+					<city>Rotterdam</city>
+					<country>Netherlands</country>
+					<street></street>
+					<postalcode></postalcode>
+					<point>
+						<lat>51.881762</lat>
+						<long>4.486211</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8941507</url>
+			</venue>
+			<startDate>Sat, 02 May 2009</startDate>
+			<startTime>08:00</startTime>
+			<description>
+				<![CDATA[<div class="bbcode">European dates have been announced for Beyoncé's &quot;I AM…&quot; World Tour, beginning Sunday, April 26 in Croatia and running through Sunday May 31 at the Odyssey Arena in Belfast (please see itinerary following).<br />
+				<br />
+			The most heavily anticipated concert event of the year, Beyoncé's &quot;I AM…&quot; Tour will mark the artist's first full-length concerts since 2007's sold-out &quot;The Beyoncé Experience&quot; and will premiere live performances of songs from I AM…SASHA FIERCE, her latest international #1 chart-topping album.</div>]]></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>26</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=863446</tag>
+			<url>http://www.last.fm/event/863446</url>
+		</event>
+		<event>
+			<id>967054</id>
+			<title>Beyoncé</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Ahoy</name>
+				<location>
+					<city>Rotterdam</city>
+					<country>Netherlands</country>
+					<street>Ahoyweg 10</street>
+					<postalcode>3084 BA</postalcode>
+					<point>
+						<lat>51.881762</lat>
+						<long>4.486211</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778505</url>
+			</venue>
+			<startDate>Sat, 02 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>1</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=967054</tag>
+			<url>http://www.last.fm/event/967054</url>
+		</event>
+		<event>
+			<id>872418</id>
+			<title>I Am… Tour</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>Ahoy</name>
+				<location>
+					<city>Rotterdam</city>
+					<country>Netherlands</country>
+					<street>Ahoyweg 10</street>
+					<postalcode>3084 BA</postalcode>
+					<point>
+						<lat>51.881762</lat>
+						<long>4.486211</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8778505</url>
+			</venue>
+			<startDate>Sun, 03 May 2009</startDate>
+			<description></description>
+			<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+			<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+			<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+			<attendance>7</attendance>
+			<reviews>0</reviews>
+			<tag>lastfm:event=872418</tag>
+			<url>http://www.last.fm/event/872418</url>
+		</event>
+		<event>
+			<id>869802</id>
+			<title>I Am… Tour</title>
+			<artists>
+				<artist>Beyoncé</artist>
+				<headliner>Beyoncé</headliner>
+			</artists>
+			<venue>
+				<name>POPB / Palais Omnisports de Paris-Bercy</name>
+				<location>
+					<city>Paris</city>
+					<country>France</country>
+					<street>8, boulevard de Bercy</street>
+					<postalcode>75012</postalcode>
+					<point>
+						<lat>48.839361</lat>
+						<long>2.37758</long>
+					</point>
+					<timezone>CET</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8781813</url>
+			</venue>
+			<startDate>Tue, 05 May 2009</startDate>
+			<startTime>20:00</startTime>
+			<description>
+			<![CDATA[<div class="bbcode">Beyoncé nous présente son troisième album solo</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>13</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=869802</tag>
+		<url>http://www.last.fm/event/869802</url>
+	</event>
+	<event>
+		<id>874403</id>
+		<title>"I am ..." World Tour</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Zénith Europe</name>
+			<location>
+				<city>Eckbolsheim</city>
+				<country>France</country>
+				<street>1 allée du Zénith</street>
+				<postalcode>67201</postalcode>
+				<point>
+					<lat>48.592845</lat>
+					<long>7.687103</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8865093</url>
+		</venue>
+		<startDate>Wed, 06 May 2009</startDate>
+		<startTime>20:30</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=874403</tag>
+		<url>http://www.last.fm/event/874403</url>
+	</event>
+	<event>
+		<id>873683</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Sportpaleis</name>
+			<location>
+				<city>Merksem</city>
+				<country>Belgium</country>
+				<street>Schijnpoortweg, 119</street>
+				<postalcode>2170</postalcode>
+				<point>
+					<lat>51.231736</lat>
+					<long>4.440424</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779118</url>
+		</venue>
+		<startDate>Thu, 07 May 2009</startDate>
+		<startTime>20:30</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>12</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=873683</tag>
+		<url>http://www.last.fm/event/873683</url>
+	</event>
+	<event>
+		<id>863776</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>O2 World</name>
+			<location>
+				<city>Berlin</city>
+				<country>Germany</country>
+				<street>Mühlenstr. 12 - 30</street>
+				<postalcode>10243</postalcode>
+				<point>
+					<lat>52.508549</lat>
+					<long>13.451181</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8910334</url>
+		</venue>
+		<startDate>Fri, 08 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>27</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=863776</tag>
+		<url>http://www.last.fm/event/863776</url>
+	</event>
+	<event>
+		<id>870362</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Scandinavium</name>
+			<location>
+				<city>Göteborg</city>
+				<country>Sweden</country>
+				<street>Valhallagatan 1</street>
+				<postalcode>412 51</postalcode>
+				<point>
+					<lat>57.699167</lat>
+					<long>11.987778</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8779180</url>
+		</venue>
+		<startDate>Mon, 11 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>8</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=870362</tag>
+		<url>http://www.last.fm/event/870362</url>
+	</event>
+	<event>
+		<id>879567</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Globen</name>
+			<location>
+				<city>Stockholm</city>
+				<country>Sweden</country>
+				<street>Globentorget 2</street>
+				<postalcode>12177</postalcode>
+				<point>
+					<lat>59.293786</lat>
+					<long>18.079975</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778853</url>
+		</venue>
+		<startDate>Wed, 13 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>9</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=879567</tag>
+		<url>http://www.last.fm/event/879567</url>
+	</event>
+	<event>
+		<id>876871</id>
+		<title>"I AM…" Tour</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>König-Pilsener-Arena</name>
+			<location>
+				<city>Oberhausen</city>
+				<country>Germany</country>
+				<street>Arenastr. 1</street>
+				<postalcode>46047</postalcode>
+				<point>
+					<lat>51.490481</lat>
+					<long>6.872633</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778577</url>
+		</venue>
+		<startDate>Fri, 15 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>4</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=876871</tag>
+		<url>http://www.last.fm/event/876871</url>
+	</event>
+	<event>
+		<id>958188</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>König-Pilsener-Arena</name>
+			<location>
+				<city>Oberhausen</city>
+				<country>Germany</country>
+				<street>Arenastr. 1</street>
+				<postalcode>46047</postalcode>
+				<point>
+					<lat>51.490481</lat>
+					<long>6.872633</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778577</url>
+		</venue>
+		<startDate>Fri, 15 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=958188</tag>
+		<url>http://www.last.fm/event/958188</url>
+	</event>
+	<event>
+		<id>890152</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Hallenstadion</name>
+			<location>
+				<city>Zürich</city>
+				<country>Switzerland</country>
+				<street>Wallisellenstrasse 45</street>
+				<postalcode>8050</postalcode>
+				<point>
+					<lat>47.411609</lat>
+					<long>8.551656</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778903</url>
+		</venue>
+		<startDate>Sat, 16 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>14</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=890152</tag>
+		<url>http://www.last.fm/event/890152</url>
+	</event>
+	<event>
+		<id>862408</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Pavilhão Atlântico</name>
+			<location>
+				<city>Lisboa</city>
+				<country>Portugal</country>
+				<street>Rossio dos Olivais</street>
+				<postalcode>1990</postalcode>
+				<point>
+					<lat>38.76735</lat>
+					<long>-9.094545</long>
+				</point>
+				<timezone>WET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8778515</url>
+		</venue>
+		<startDate>Mon, 18 May 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">Bilhetes:<br />
+			Plateia ~ 36€<br />
+			Balcão 1 ~ 42€<br />
+		Balcão 2 ~ 34€</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>34</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=862408</tag>
+		<url>http://www.last.fm/event/862408</url>
+	</event>
+	<event>
+		<id>865692</id>
+		<title>I Am… Tour</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Palacio de Deportes de la Comunidad de Madrid</name>
+			<location>
+				<city>Madrid</city>
+				<country>Spain</country>
+				<street>Jorge Juan 99</street>
+				<postalcode>28009</postalcode>
+				<point>
+					<lat>40.423234</lat>
+					<long>-3.672654</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8795164</url>
+		</venue>
+		<startDate>Tue, 19 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>38</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=865692</tag>
+		<url>http://www.last.fm/event/865692</url>
+	</event>
+	<event>
+		<id>863510</id>
+		<title>Beyoncé</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Palau Sant Jordi</name>
+			<location>
+				<city>Barcelona</city>
+				<country>Spain</country>
+				<street>Passeig Olímpic</street>
+				<postalcode>08004</postalcode>
+				<point>
+					<lat>41.365215</lat>
+					<long>2.157595</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8781778</url>
+		</venue>
+		<startDate>Wed, 20 May 2009</startDate>
+		<startTime>21:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Apertura de puertas: 19:00<br />
+			Precio:<br />
+			- Pista: 48 €<br />
+		- Gradas: De 48 a 59 €</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>31</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=863510</tag>
+		<url>http://www.last.fm/event/863510</url>
+	</event>
+	<event>
+		<id>914025</id>
+		<title>I Am… Tour</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>Newcastle Metroradio Arena</name>
+			<location>
+				<city>Newcastle upon Tyne</city>
+				<country>United Kingdom</country>
+				<street></street>
+				<postalcode>NE4 7NA</postalcode>
+				<point>
+					<lat>54.9638</lat>
+					<long>-1.62332</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777178</url>
+		</venue>
+		<startDate>Fri, 22 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+		<attendance>6</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=914025</tag>
+		<url>http://www.last.fm/event/914025</url>
+	</event>
+	<event>
+		<id>862339</id>
+		<title>I Am… Tour</title>
+		<artists>
+			<artist>Beyoncé</artist>
+			<headliner>Beyoncé</headliner>
+		</artists>
+		<venue>
+			<name>National Indoor Arena</name>
+			<location>
+				<city>Birmingham</city>
+				<country>United Kingdom</country>
+				<street>King Edwards Road</street>
+				<postalcode>B1 2AA</postalcode>
+				<point>
+					<lat>52.4799228530354</lat>
+					<long>-1.91490996065193</long>
+				</point>
+				<timezone>GMT</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8777921</url>
+		</venue>
+		<startDate>Sat, 23 May 2009</startDate>
+		<startTime>19:30</startTime>
+		<description>
+		<![CDATA[<div class="bbcode">&quot;I Am...&quot; Tour is the third concert tour by American singer-songwriter, Beyoncé. The tour supports her third studio album I Am... Sasha Fierce.</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=862339</tag>
+	<url>http://www.last.fm/event/862339</url>
+</event>
+<event>
+	<id>862341</id>
+	<title>Beyoncé</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Mon, 25 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>19</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=862341</tag>
+	<url>http://www.last.fm/event/862341</url>
+</event>
+<event>
+	<id>870591</id>
+	<title>Beyonce "I AM..." WORLD TOUR </title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Tue, 26 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>7</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=870591</tag>
+	<url>http://www.last.fm/event/870591</url>
+</event>
+<event>
+	<id>862342</id>
+	<title>Beyoncé</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>Manchester Evening News Arena</name>
+		<location>
+			<city>Manchester</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode>M3 1AR</postalcode>
+			<point>
+				<lat>53.487094</lat>
+				<long>-2.243988</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8777080</url>
+	</venue>
+	<startDate>Wed, 27 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=862342</tag>
+	<url>http://www.last.fm/event/862342</url>
+</event>
+<event>
+	<id>865053</id>
+	<title>Beyonce - "I AM…" WORLD TOUR </title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>East Link Bridge</street>
+			<postalcode>1</postalcode>
+			<point>
+				<lat>53.335889</lat>
+				<long>-6.256803</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8950850</url>
+	</venue>
+	<startDate>Fri, 29 May 2009</startDate>
+	<startTime>20:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">LIVE AT THE O2, DUBLIN – FRIDAY 29th MAY ‘09<br />
+		<br />
+	The most heavily anticipated concert event of the year, Beyoncé's &quot;I AM…&quot; Tour will mark the artist's first full-length concerts since 2007's sold-out &quot;The Beyoncé Experience&quot;. The world-renowned top designer, director and photographer Thierry Mugler will work as creative advisor and costume designer on Beyoncé's &quot;I AM…&quot; Tour.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=865053</tag>
+	<url>http://www.last.fm/event/865053</url>
+</event>
+<event>
+	<id>870580</id>
+	<title>Beyonce - "I AM…" WORLD TOUR</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>East Link Bridge</street>
+			<postalcode>1</postalcode>
+			<point>
+				<lat>53.335889</lat>
+				<long>-6.256803</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8950850</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=870580</tag>
+	<url>http://www.last.fm/event/870580</url>
+</event>
+<event>
+	<id>868925</id>
+	<title>I Am...tour</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>Odyssey Arena</name>
+		<location>
+			<city>Belfast</city>
+			<country>United Kingdom</country>
+			<street>2 Queen's Quay</street>
+			<postalcode>BT3 9QQ</postalcode>
+			<point>
+				<lat>54.603925</lat>
+				<long>-5.91539</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8792637</url>
+	</venue>
+	<startDate>Sun, 31 May 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=868925</tag>
+	<url>http://www.last.fm/event/868925</url>
+</event>
+<event>
+	<id>899269</id>
+	<title>Beyonce - "I AM…" WORLD TOUR </title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>Odyssey Arena</name>
+		<location>
+			<city>Belfast</city>
+			<country>United Kingdom</country>
+			<street>2 Queen's Quay</street>
+			<postalcode>BT3 9QQ</postalcode>
+			<point>
+				<lat>54.603925</lat>
+				<long>-5.91539</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8792637</url>
+	</venue>
+	<startDate>Mon, 01 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=899269</tag>
+	<url>http://www.last.fm/event/899269</url>
+</event>
+<event>
+	<id>897622</id>
+	<title>Beyonce - "I AM…" WORLD TOUR </title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>East Link Bridge</street>
+			<postalcode>1</postalcode>
+			<point>
+				<lat>53.335889</lat>
+				<long>-6.256803</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8950850</url>
+	</venue>
+	<startDate>Wed, 03 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=897622</tag>
+	<url>http://www.last.fm/event/897622</url>
+</event>
+<event>
+	<id>905261</id>
+	<title>Beyonce - "I AM…" WORLD TOUR</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>Dublin</city>
+			<country>Ireland</country>
+			<street>East Link Bridge</street>
+			<postalcode>1</postalcode>
+			<point>
+				<lat>53.335889</lat>
+				<long>-6.256803</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8950850</url>
+	</venue>
+	<startDate>Thu, 04 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=905261</tag>
+	<url>http://www.last.fm/event/905261</url>
+</event>
+<event>
+	<id>914062</id>
+	<title>Beyonce - "I AM…" WORLD TOUR</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>Echo Arena</name>
+		<location>
+			<city>Liverpool</city>
+			<country>United Kingdom</country>
+			<street>Monarchs Quay</street>
+			<postalcode>L3 4FP</postalcode>
+			<point>
+				<lat>53.4152617149922</lat>
+				<long>-2.97866821289062</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8873332</url>
+	</venue>
+	<startDate>Sat, 06 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=914062</tag>
+	<url>http://www.last.fm/event/914062</url>
+</event>
+<event>
+	<id>914274</id>
+	<title>Beyonce - "I AM…" WORLD TOUR </title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>Sheffield Arena</name>
+		<location>
+			<city>Sheffield</city>
+			<country>United Kingdom</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.401356</lat>
+				<long>-1.421871</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8926518</url>
+	</venue>
+	<startDate>Sun, 07 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>9</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=914274</tag>
+	<url>http://www.last.fm/event/914274</url>
+</event>
+<event>
+	<id>914302</id>
+	<title>Beyonce - "I AM…" WORLD TOUR</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Mon, 08 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=914302</tag>
+	<url>http://www.last.fm/event/914302</url>
+</event>
+<event>
+	<id>955068</id>
+	<title>Beyonce - "I AM…" WORLD TOUR</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Tue, 09 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955068</tag>
+	<url>http://www.last.fm/event/955068</url>
+</event>
+<event>
+	<id>923296</id>
+	<title>Essence Music Festival</title>
+	<artists>
+		<artist>Beyoncé</artist>
+		<artist>Al Green</artist>
+		<artist>Ne-Yo</artist>
+		<artist>John Legend</artist>
+		<artist>Robin Thicke</artist>
+		<artist>Salt-N-Pepa</artist>
+		<artist>En Vogue</artist>
+		<artist>Maxwell</artist>
+		<artist>Anita Baker</artist>
+		<artist>Solange</artist>
+		<artist>Raphael Saadiq</artist>
+		<artist>Keri Hilson</artist>
+		<artist>Zap Mama</artist>
+		<artist>Teena Marie</artist>
+		<artist>Ledisi</artist>
+		<artist>Jazmine Sullivan</artist>
+		<artist>Bill Cosby</artist>
+		<artist>Eric Benet</artist>
+		<artist>CeCe Winans</artist>
+		<artist>Donnie McClurkin</artist>
+		<artist>Lalah Hathaway</artist>
+		<artist>The Knux</artist>
+		<artist>Janelle Monáe</artist>
+		<artist>Marvin Sapp</artist>
+		<artist>Preservation Hall Jazz Band</artist>
+		<artist>Brand New Heavies</artist>
+		<artist>Sheryl Lee Ralph</artist>
+		<artist>Marva Wright</artist>
+		<artist>T.D. Jakes</artist>
+		<artist>Big Sam's Funky Nation</artist>
+		<artist>Blind Boys of Alabama</artist>
+		<artist>Dan Dyer</artist>
+		<artist>Sharon Jones and the Dap Kings</artist>
+		<artist>Irvin Mayfield</artist>
+		<artist>Sierra Leone Refugee All Stars</artist>
+		<artist>Trombone Shorty</artist>
+		<artist>Tom Joyner</artist>
+		<artist>Hill Harper</artist>
+		<artist>Orleans Ave</artist>
+		<artist>Donna Brazile</artist>
+		<headliner>Beyoncé</headliner>
+	</artists>
+	<venue>
+		<name>Superdome</name>
+		<location>
+			<city>New Orleans</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>29.951467</lat>
+				<long>-90.078505</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8801079</url>
+	</venue>
+	<startDate>Fri, 03 Jul 2009</startDate>
+	<endDate>Sun, 05 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://www.reuters.com/article/musicNews/idUSTRE50S70O20090129" rel="nofollow">NEW YORK (Billboard)</a> - MAXWELL, Anita Baker, Al Green and Ne-Yo will<br />
+		join previously announced headliner Beyonce at the 15th annual Essence Music Festival this summer in New Orleans.<br />
+		<br />
+		Also added to the lineup are John Legend, Robin Thicke, Salt-N-Pepa and En Vogue.<br />
+		<br />
+		Organized by Essence magazine, the event is scheduled for July 3-5 at the New Orleans Superdome.<br />
+		<br />
+		Rounding out the bill are Sierra Leone Refugee All Stars, Teena Marie, Eric Benet, Jazmine Sullivan, Janelle Monae, Raphael Saadiq, Sharon Jones and the Dap Kings, Zap Mama, The Knux, Irvin Mayfield, Lalah Hathaway, Blind Boys of Alabama, Ledisi, Marva Wright, Big Sam's Funky Nation, Brand New Heavies, Dan Dyer, DJ Soul Sister, Keri Hilson, Preservation Hall Jazz Band, Rebirth Brass Band, Trombone Shorty and Orleans Ave.<br />
+		<br />
+		In addition to its concerts, the Essence festival is known for its empowerment seminars, which are free and open to ticket-holders on a first-come, first-served basis. Among the personalities participating in these events are Bill Cosby, Sheryl Lee Ralph, Donna Brazile, Tom Joyner, Hill Harper and Donnie McClurkin.<br />
+		<br />
+		This year's festival also will include a tribute to pastor/author T.D. Jakes featuring CeCe Winans and Marvin Sapp, among others.<br />
+		<br />
+		***************<br />
+		<br />
+		Celebrate the 15th Anniversary of the ESSENCE Music Festival, July 3–5, 2009, in New Orleans, LA. It's the Ultimate Party Weekend with live musical performances each night, including Beyoncé, Maxwell, Anita Baker, John Legend with many more. The weekend also includes three days of Empowering Seminars FREE at the Convention Center with power speakers including Bishop T.D. Jakes, Dr. Juanita Bynum, Roland Martin, Tom Joyner and many more. Tickets are on sale now through Ticketmaster with the Best Prices.<br />
+		<br />
+		Get a 15% discount on tickets purchased now through February 15, 2009.<br />
+		<br />
+		You must buy a ticket for all three nights to get the 15% discount. No discount available for floor or Gold Circle tickets. Any additional service charges will be added after the discount has been calculated. All talent and programming is subject to change.<br />
+	_________________</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/22833155.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/22833155.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/22833155.jpg</image>
+	<attendance>23</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=923296</tag>
+	<url>http://www.last.fm/event/923296</url>
+</event>
+<event>
+	<id>905754</id>
+	<title>Domination</title>
+	<artists>
+		<artist>Lil' Wayne</artist>
+		<artist>Beyoncé</artist>
+		<artist>Jay-Z</artist>
+		<headliner>Lil' Wayne</headliner>
+	</artists>
+	<venue>
+		<name>Morris</name>
+		<location>
+			<city>South Philadelphia</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>44.15444</lat>
+				<long>-75.70917</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8998035</url>
+	</venue>
+	<startDate>Mon, 14 Dec 2009</startDate>
+	<startTime>21:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">This party is going to be DA-BOMB of this  December[youtube]Lil Wayne BurgerKing[/youtube]</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/5648723.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/5648723.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/5648723.jpg</image>
+<attendance>10</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=905754</tag>
+<url>http://www.last.fm/event/905754</url>
+</event>
+</events>
+</lfm>

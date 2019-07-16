@@ -1,0 +1,3256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+	<events artist="Depeche Mode" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="87">
+		<event>
+			<id>979424</id>
+			<title>Depeche Mode Dance Party</title>
+			<artists>
+				<artist>Depeche Mode</artist>
+				<headliner>Depeche Mode</headliner>
+			</artists>
+			<venue>
+				<name>Black Cat</name>
+				<location>
+					<city>Washington DC</city>
+					<country>United States</country>
+					<street>1811 14th St. NW</street>
+					<postalcode>20009</postalcode>
+					<point>
+						<lat>38.8867571406959</lat>
+						<long>-77.047119140625</long>
+					</point>
+					<timezone>EST</timezone>
+				</location>
+				<url>http://www.last.fm/venue/8843765</url>
+			</venue>
+			<startDate>Fri, 10 Apr 2009</startDate>
+			<description>
+			<![CDATA[<div class="bbcode">How much do you love Depeche Mode? Really? Do you have the band's logo tattooed on your body? Did you memorize every lyric on &quot;101&quot;? There's probably still someone at the Black Cat tonight who loves them more than you do. The semiannual Depeche Mode Party is still storming along, even though not much has changed over the years -- there's been one new album since 2001, the admittedly great &quot;Playing the Angel.&quot; But most of the black-clad fans don't care; they've come out to dance to b-side remixes, their favorite tunes from &quot;Violator&quot; and the inevitable late-night shout-along to &quot;Just Can't Get Enough.&quot; Old music videos show on a large screen while DJs Steve EP, Krasty McNasty and Killa K keep the crowd happy. Doors open at 9:30. (Fritz Hahn, The Washington Post)</div>]]>
+		</description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+		<attendance>3</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=979424</tag>
+		<url>http://www.last.fm/event/979424</url>
+	</event>
+	<event>
+		<id>952916</id>
+		<title>Warm-up Show for Tour Of The Universe</title>
+		<artists>
+			<artist>Depeche Mode</artist>
+			<headliner>Depeche Mode</headliner>
+		</artists>
+		<venue>
+			<name>Rockhal</name>
+			<location>
+				<city>Esch-Alzette</city>
+				<country>Luxembourg</country>
+				<street>5, avenue du Rock'n'Roll</street>
+				<postalcode>L-4361</postalcode>
+				<point>
+					<lat>49.500377</lat>
+					<long>5.9484</long>
+				</point>
+				<timezone>CET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8975597</url>
+		</venue>
+		<startDate>Wed, 06 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode"><strong>SHOW sold out!</strong><br />
+			<em>
+				<br />
+			It was the fastest sell out in Luxembourg ever!</em>
+			<br />
+			<br />
+			Besides the &quot;legendary&quot; show at Oberkorn in 1982 (&quot;It's a small town&quot;), it will be the second show for this group whose 12th album is expected soon. “Sounds of the Universe”, their latest album is planned for release on 20 April!<br />
+			<br />
+			Considered one of the most influential groups of the post-punk period, with album sales topping 100 million, Depeche Mode is one of those “supergroups” to survive the Eighties by virtue above all of its creative vision. Formed in 1981 and made up of Martin Gore, Dave Gahan and Andy Fletcher, Depeche Mode continues to achieve success after success. Since their inception, Depeche Mode’s live shows continue to be a must-see attraction, with the group playing to 2.8 million people across 31 countries on their last tour alone.<br />
+			<br />
+			“Sounds of the Universe”, the 12th album from Depeche Mode is expected to be released on 20 April. “Wrong”, the first single, will be released on 6 April.<br />
+			<br />
+		Depeche Mode in Luxembourg, the absolutely unmissable event of 2009!</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+		<attendance>18</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=952916</tag>
+		<url>http://www.last.fm/event/952916</url>
+	</event>
+	<event>
+		<id>793896</id>
+		<title>Depeche Mode</title>
+		<artists>
+			<artist>Depeche Mode</artist>
+			<artist>Yeah Yeah Yeahs</artist>
+			<artist>Infected Mushroom</artist>
+			<headliner>Depeche Mode</headliner>
+		</artists>
+		<venue>
+			<name>Ramat Gan stadium</name>
+			<location>
+				<city>Ramat Gan</city>
+				<country>Israel</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>32.0805556</lat>
+					<long>34.8141667</long>
+				</point>
+				<timezone>UTC</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8915122</url>
+		</venue>
+		<startDate>Sun, 10 May 2009</startDate>
+		<description></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+		<attendance>128</attendance>
+		<reviews>1</reviews>
+		<tag>lastfm:event=793896</tag>
+		<url>http://www.last.fm/event/793896</url>
+	</event>
+	<event>
+		<id>793708</id>
+		<title>Depeche Mode - Tour of The Universe 2009</title>
+		<artists>
+			<artist>Depeche Mode</artist>
+			<headliner>Depeche Mode</headliner>
+		</artists>
+		<venue>
+			<name>Terra Vibe</name>
+			<location>
+				<city>Athínai</city>
+				<country>Greece</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>37.981749</lat>
+					<long>23.731743</long>
+				</point>
+				<timezone>EET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8784721</url>
+		</venue>
+		<startDate>Tue, 12 May 2009</startDate>
+		<description>
+			<![CDATA[<div class="bbcode">Μόλις ανακοινώθηκε η ευρωπαϊκή περιοδεία των Depeche Mode, σε συνέντευξη τύπου που έδωσε η μπάντα στο Βερολίνο. Η Αθήνα είναι μέσα στον συναυλιακό τους χάρτη και πιο συγκεκριμένα το Terra Vibe, την Τρίτη 12 Μαΐου! Η προπώληση ξεκινάει στις 24 Οκτωβρίου.<br />
+			<br />
+			Ολη η περιοδεία τους είναι διαθέσιμη εδώ:<br />
+			<a href="http://www.depechemode.com/temp/" rel="nofollow">http://www.depechemode.com/temp/</a>
+			<br />
+			<br />
+			Tιμές εισιτηρίων:<br />
+			Pl1 100 euro: Ειδικά διαμορφωμένη περιοχή αμφιθεατρικά αριστερά και δεξιά της σκηνής για καθήμενους και όρθιους και εξασφάλιση θέσης παρκινγκ με την αγορά κάθε 3ων εισιτηρίων<br />
+			Pl2 80 euro: Oρθίων, ειδική περιοχή μπροστά από τη σκηνή (pitch A)<br />
+			Pl3 60 euro: Ορθίων γενική είσοδος<br />
+			<br />
+			Σημεία προπώλησης: <a href="http://www.ticketpro.gr" rel="nofollow">www.ticketpro.gr</a>
+			<br />
+			TICKET HOUSE, (Πανεπιστήμιου 42, 210 3608366) <a href="http://www.tickethouse.gr" rel="nofollow">www.tickethouse.gr</a>
+			<br />
+		TICKET HOUSE, Θεσσαλονίκη, (Μητροπόλεως 102 2310 264880)</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+		<attendance>216</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=793708</tag>
+		<url>http://www.last.fm/event/793708</url>
+	</event>
+	<event>
+		<id>765412</id>
+		<title>Depeche Mode - Tour of the Universe 2009</title>
+		<artists>
+			<artist>Depeche Mode</artist>
+			<headliner>Depeche Mode</headliner>
+		</artists>
+		<venue>
+			<name>Santralistanbul</name>
+			<location>
+				<city>İstanbul</city>
+				<country>Turkey</country>
+				<street>Eski Silahtarağa Elektrik  Santral'i</street>
+				<postalcode>34060</postalcode>
+				<point>
+					<lat>41.0369444</lat>
+					<long>28.9775</long>
+				</point>
+				<timezone>EET</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8872698</url>
+		</venue>
+		<startDate>Thu, 14 May 2009</startDate>
+		<startTime>21:00</startTime>
+		<description>
+			<![CDATA[<div class="bbcode">Normal: 99,00 YTL <br />
+			Sahne Önü: 300,00 YTL <br />
+			VIP: 180,00 YTL <br />
+			<br />
+			23 Aralık 2008 saat:11:00'da biletler satışta<br />
+			<a href="http://www.biletix.com/event.htm?id=KLDM1" rel="nofollow">biletix</a>
+			<br />
+			<a href="http://maps.google.com/maps?f=q&amp;hl=tr&amp;geocode=&amp;q=santralistanbul&amp;jsv=140g&amp;sll=36.943101,30.634089&amp;sspn=0.028674,0.055275&amp;g=santral&amp;ie=UTF8&amp;ei=g69TSb6oEYOk2wLohqCmDA&amp;cd=1&amp;cid=41066677,28946276,2405023931630403226&amp;li=lmd" rel="nofollow">doğru harita</a>
+		</div>]]></description>
+		<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+		<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+		<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+		<attendance>764</attendance>
+		<reviews>0</reviews>
+		<tag>lastfm:event=765412</tag>
+		<url>http://www.last.fm/event/765412</url>
+	</event>
+	<event>
+		<id>755593</id>
+		<title>Depeche Mode - Tour of The Universe 2009</title>
+		<artists>
+			<artist>Depeche Mode</artist>
+			<artist>Ladytron</artist>
+			<headliner>Depeche Mode</headliner>
+		</artists>
+		<venue>
+			<name>Parcul Izvor</name>
+			<location>
+				<city>Bucuresti</city>
+				<country>Romania</country>
+				<street></street>
+				<postalcode></postalcode>
+				<point>
+					<lat>39.79333</lat>
+					<long>-79.045</long>
+				</point>
+				<timezone>EST</timezone>
+			</location>
+			<url>http://www.last.fm/venue/8953254</url>
+		</venue>
+		<startDate>Sat, 16 May 2009</startDate>
+		<startTime>20:00</startTime>
+		<description>
+		<![CDATA[<div class="bbcode">Preţurile biletelor pentru concertul Depeche Mode vor varia în funcţie de poziţia faţă de scenă. Astfel, biletele vor costa 100, 120, 190 lei, iar cele VIP 360 lei . Biletele le puteti achizitiona de pe myticket.ro</div>]]>
+	</description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>349</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=755593</tag>
+	<url>http://www.last.fm/event/755593</url>
+</event>
+<event>
+	<id>793660</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Ladytron</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Vasil Levski Stadium</name>
+		<location>
+			<city>Sofia</city>
+			<country>Bulgaria</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.687583</lat>
+				<long>23.335444</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8792981</url>
+	</venue>
+	<startDate>Mon, 18 May 2009</startDate>
+	<startTime>18:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">След незабравимия си концерт на стадион &quot;Локомотив&quot; през 2006, &quot;Депеш мод&quot; се завръщат в България на 18 май 2009 г., за да изнесат още едно грандиозно шоу.<br />
+		<br />
+		овината бе съобщена на онлайн пресконференция от Берлин, излъчена на сайта на групата.<br />
+		<br />
+		Този път британските музиканти ще свирят на националния стадион &quot;Васил Левски&quot;, който ще може да побере всички желаещи.<br />
+		<br />
+		офия е включена в европейската част на турнето на &quot;Депеш&quot; Tour Of The Universe 2009. Билетите за концерта ще са в продажба от 13 октомври на сайта на ticketpro.bg.<br />
+		<br />
+		онцертът в столицата е петият от европейската обиколка на групата. Преди това &quot;Депеш&quot; ще свирят в Тел Авив, Атина, Истанбул и Букурещ.<br />
+		<br />
+	Европейското им турне завършва на 11 юли 2009 г. с концерт в Португалия на фестивала Super Block Super Rock.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>649</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793660</tag>
+	<url>http://www.last.fm/event/793660</url>
+</event>
+<event>
+	<id>793669</id>
+	<title>Tuborg Green Fest Beograd: Depeche Mode &amp; Ladytron</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Ladytron</artist>
+		<artist>Motor</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Usce</name>
+		<location>
+			<city>Belgrade</city>
+			<country>Serbia</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>44.8186111</lat>
+				<long>20.4680556</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8972328</url>
+	</venue>
+	<startDate>Wed, 20 May 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Depeche Mode će nastupiti u Beogradu 20. maja! Ovu vest su danas, 6. oktobra, potvrdili članovi benda na konferenciji za štampu koja je održana u Berlinu. Bend je najavio veliku svetsku turneju, pod nazivom &quot;Tour Of The Universe 2009!&quot;, koja počinje 10. maja u Izraelu a završava se 11. jula 2009. godine. Najpopularniji bend u Srbiji, prema rezultatima ankete koju je Kontra magazin sproveo prošle godine, posetiće Srbiju po prvi put. Koncert će se održati u 20. maja na Ušću u okviru Tuborg Green Festa a u organizaciji Exit festival i Live nation. Karte za beogradski koncert u prodaji će se naći od 13. oktobra. Posle Beograda bend će nastupiti u Zagrebu, 21. maja. Depeche Mode pripremaju dugo očekivani album, što će biti 12. izdanje za bend u njihovoj karijeri. ‘Tour of the Universe 2009’ je prva stadionska turneja benda i posetiće 28 gradova u 22 zemlje. Bend će nastupiti pred preko 1,3 miliona obožavalaca na ovom delu evropske turneje.<br />
+		<br />
+	Ulaznice po promotivnoj ceni od 2.390 (parter), 3.990 (fan-pit ispred bine) i 7.500 dinara (VIP) mogu se rezervisati preko sajtova <a href="http://www.exitfest.org" rel="nofollow">www.exitfest.org</a> i <a href="http://www.gigstix.com" rel="nofollow">www.gigstix.com</a>. U redovnoj prodaji karte za parter će koštati 2.990 dinara, a kapacitet Ušća je ograničen na 20.000 ljudi. Međutim, u slučaju velikog interesovanja, tražićemo od menadžmenta benda proširenje kapaciteta, i verujem da će nam oni izaći u susret - izjavio je Bojan Bošković, generalni menadžer „Egzita“, na jučerašnjoj konferenciji za novinare.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/13254215.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/13254215.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/13254215.jpg</image>
+	<attendance>469</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=793669</tag>
+	<url>http://www.last.fm/event/793669</url>
+</event>
+<event>
+	<id>793695</id>
+	<title>Tuborg Green Fest Zagreb: Depeche Mode &amp; Ladytron</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Ladytron</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Arena Zagreb</name>
+		<location>
+			<city>Zagreb</city>
+			<country>Croatia</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>45.8</lat>
+				<long>16</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8992474</url>
+	</venue>
+	<startDate>Thu, 21 May 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><em><strong>Tour Of The Universe</strong></em></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>546</attendance>
+<reviews>1</reviews>
+<tag>lastfm:event=793695</tag>
+<url>http://www.last.fm/event/793695</url>
+</event>
+<event>
+	<id>787557</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stadion Gwardii</name>
+		<location>
+			<city>Warsaw</city>
+			<country>Poland</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>52.175321</lat>
+				<long>21.029305</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8889077</url>
+	</venue>
+	<startDate>Sat, 23 May 2009</startDate>
+	<startTime>16:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>BILETY WYPRZEDANE/SOLD OUT</strong><br />
+		<br />
+		Jeden z najznakomitszych zespołów w historii muzyki - Depeche Mode (Dave Gahan, Martin Gore i Andy Fletcher) ogłasza europejską część trasy koncertowej 'Tour of the Universe 2009', promującej mający ukazać się 21 kwietnia 2009 album <strong>'Songs Of The Universe'</strong>. W ramach trasy zespół odwiedzi także Polskę - Depeche Mode wystąpi 23 maja na warszawskim Stadionie Gwardii.<br />
+		<br />
+		Wcześniej ukaże się singiel zatytułowany '<strong>Wrong</strong>'.<br />
+		<br />
+		<a href="http://www.livenation.pl/event/getEvent/eventId/337682/" rel="nofollow">http://www.livenation.pl/event/getEvent/eventId/337682/</a>
+		<br />
+		<br />
+		<strong>Bilety</strong>:<br />
+		bilet wstępu: 175 zł<br />
+		pakiet VIP: 440 zł<br />
+		<br />
+		AFTER PARTY &gt;&gt; <a href="http://www.lastfm.pl/event/911388">http://www.lastfm.pl/event/911388</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1179</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=787557</tag>
+	<url>http://www.last.fm/event/787557</url>
+</event>
+<event>
+	<id>980344</id>
+	<title>DEPECHE MODE - Tour Of The Universe</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stadion Gwardii</name>
+		<location>
+			<city>Warszawa</city>
+			<country>Poland</country>
+			<street>ul. Racławicka 132</street>
+			<postalcode>02</postalcode>
+			<point>
+				<lat>52.197605</lat>
+				<long>20.991551</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014275</url>
+	</venue>
+	<startDate>Sat, 23 May 2009</startDate>
+	<startTime>18:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980344</tag>
+	<url>http://www.last.fm/event/980344</url>
+</event>
+<event>
+	<id>982943</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Žalgirio Stadionas</name>
+		<location>
+			<city>Vilnius</city>
+			<country>Lithuania</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>54.693481</lat>
+				<long>25.29025</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8972687</url>
+	</venue>
+	<startDate>Mon, 25 May 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">See ya there, lad!</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>1</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=982943</tag>
+<url>http://www.last.fm/event/982943</url>
+</event>
+<event>
+	<id>793129</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Skonto stadions</name>
+		<location>
+			<city>Rīga</city>
+			<country>Latvia</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>56.961372</lat>
+				<long>24.116408</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8813940</url>
+	</venue>
+	<startDate>Mon, 25 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Biļetes uz „Depeche Mode” koncertu Latvijā pārdošanā nonāks pirmdien, 13. oktobrī, plkst. 10.00 un tās varēs iegādāties „Biļešu servisa” kasēs visā Latvijā, kā arī internetā <a href="http://www.bilesuserviss.lv" rel="nofollow">www.bilesuserviss.lv</a>. Stāvbiļetes cena būs 30 Ls. Būs pieejamas arī biļetes fanu zonā, kas atradīsies skatuves priekšā, un to cena būs 45 Ls. Sēdvietas maksās 40 Ls, 50 Ls un 70 Ls</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>231</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=793129</tag>
+<url>http://www.last.fm/event/793129</url>
+</event>
+<event>
+	<id>793554</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Happyendless</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Žalgirio Stadionas</name>
+		<location>
+			<city>Vilnius</city>
+			<country>Lithuania</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>54.693481</lat>
+				<long>25.29025</long>
+			</point>
+			<timezone>EET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8972687</url>
+	</venue>
+	<startDate>Wed, 27 May 2009</startDate>
+	<startTime>18:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">„Depeche Mode“ naujo koncertinio turo „Tour of the Universe 2009“ pasirodymą pamatys ir gerbėjai Lietuvoje. Kultinės britų grupės pasirodymas Vilniuje turėtų įvykti kitų metų gegužę. Apie tai pranešta specialioje spaudos konferencijoje Berlyne. Bilietus į „Depeche Mode“ koncertą Lietuvoje bus galima įsigyti nuo spalio 16 dienos.<br />
+		<br />
+		Europoje įvyksiančiuose koncertuose „Depeche Mode“ pristatys ilgai lauktą naujausią albumą. Kol kas pavadinimo neturintis dainų rinkinys šiuo metu dar kuriamas įrašų studijoje Niujorke. Prekyboje jis turėtų pasirodyti jau kitų metų balandžio mėnesį.<br />
+		<br />
+		Didžiausias muzikinis renginys Europoje<br />
+		<br />
+		Žadama, jog gegužės 10 d. Izraelyje prasidėsiantis „Tour of the Universe 2009“ taps didžiausiu metų Europos muzikiniu renginiu. „Depeche Mode“ per 3 mėnesius truksiantį turą planuoja aplankyti 28 miestus 22 šalyse. Prognozuojama, jog naujausią kūrybą pristatančios legendinės grupės koncertus išvys daugiau nei 1,3 mln. žmonių.<br />
+		<br />
+		Depeche Mode“ aktyviai nekoncertavo nuo 2006 metų, kai pristatinėjo albumą „Playing the Angel“. Prieš 3 metus įvykusios gastrolės, kurių metu aplankytas ir Vilnius, susilaukė milžiniško muzikos mylėtojų susidomėjimo. Tuomet grupės pasirodymus JAV ir Europoje gyvai stebėjo beveik 2 mln. žiūrovų. <br />
+		<br />
+		Lietuvoje ne pirmą kartą<br />
+		<br />
+		Britų roko grupė Vilniuje lankėsi keletą kartų. 2001-aisiais į Vingio parką buvo susirinkę daugiau kaip 20 tūkst. „Depeche Mode“ gerbėjų. Tai buvo vienas iš pasaulinio turo „Exciter Tour“ koncertų. 2006-aisiais Lietuvos sostinėje vykęs kultinės grupės pasirodymas sutraukė daugiau nei 12 tūkst. gerbėjų.<br />
+		<br />
+		3 dešimtmečius besitęsianti šlovė<br />
+		<br />
+		1980-aisiais įsikūrę „Depeche Mode“ yra muzikinio new wave stiliaus pionieriai. Karjeros pradžioje aktyviai naudodami sintezatorius, šie britai sukėlė tikrą revoliuciją elektroninės pop muzikos scenoje. Vėliau, pasinėrę į gilesnius kūrybinius ieškojimus, „Depeche Mode“ išleido į pop kultūros istoriją įėjusias dainas, tokias kaip: „People Are People“, „Personal Jesus“, „Enjoy the Silence“, „Policy of Truth“, „I Feel You“, „Walking in My Shoes“, „Barrel of a Gun“, „It's No Good“ ir daugybę kitų. „Depeche Mode“ tapo viena sėkmingiausių visų laikų alternatyviosios muzikos grupių.<br />
+		<br />
+		Depeche Mode“ yra vieni sėkmingiausių alternatyvios muzikos projektų, kartu kuriantys jau 28 metus. Per savo karjerą jie pardavė daugiau nei 75 mln. įrašų. 2009 m. balandį kultiniais dažnai vadinami britai išleis 12-ąjį studijinį albumą.<br />
+		<br />
+		Ilgai lauktas koncertas Vilniuje – jau pavasarį<br />
+		<br />
+		Gandai, kad Lietuva gali patekti į naujųjų „Depeche Mode“ gastrolių grafiką seniai kaitino grupės gerbėjų kraują. Specialios spaudos konferencijos Berlyne metu patvirtinta, kad naująjį grupės albumą pristatantis koncertas Vilniuje įvyks gegužės 27 dieną. Renginiui pasirinktas „Žalgirio“ stadionas, kuriame vienu metu telpa daugiau nei 30 tūkst. žiūrovų. Tikimasi, kad paklausyti naujų ir jau klasika tapusių „Depeche Mode“ dainų į Vilnių atvyks gerbėjai ne tik iš Lietuvos, bet ir iš kaimyninių šalių.<br />
+		<br />
+		Bilietais į koncertą bus pradėta prekiauti spalio 16 dieną, 10 valandą visose BILIETAI.LT kasose ir internetu. Pirmųjų bilietų kaina – nuo 129 litų.<br />
+		<br />
+		Tai ištisa pop muzikos istorijos epocha. Be jų įtakos šiuolaikinės muzikos žemėlapis atrodytų visai kitaip. Į nieką nepanašūs, dažnai kopijuojami, jie visada rinkosi savarankišką kelią, atspėdami ir formuodami naujas muzikos kryptis ir visada buvo madingi. Jie niekada neplaukė pasroviui, jie nesekė mados – „Depeche Mode“ ją kūrė“<br />
+		<br />
+	Rolling Stone“</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>368</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793554</tag>
+	<url>http://www.last.fm/event/793554</url>
+</event>
+<event>
+	<id>980322</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Placebo</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Elbow</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<startTime>15:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980322</tag>
+	<url>http://www.last.fm/event/980322</url>
+</event>
+<event>
+	<id>793715</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>O2 Arena</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Millennium Way</street>
+			<postalcode>SE10 0AX</postalcode>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
+			<timezone>GMT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8783707</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><strong>Depeche Mode</strong> (Dave Gahan, Martin Gore and Andy Fletcher) have today (06/10/08) announced the European leg of their <a href="http://www.depechemode.com/tour.html" rel="nofollow">‘Tour of the Universe 2009’</a>. The band are currently in New York working on a new album, due April next year.<br />
+		<br />
+		Depeche Mode’s eagerly-anticipated follow up to ‘Playing The Angel’ will be the 12th album of a glorious 28 year career in which they have sold over 75 million records. One of the world’s biggest and best live acts, ‘Tour of the Universe 2009’ will undoubtedly be the musical highlight of next year.<br />
+		<br />
+		Kicking off in Israel on May 10th, this will be Depeche Mode’s first ever stadium tour, taking in 28 cities across 22 countries before finishing at Seville's Olympic Stadium on July 12th.<br />
+		<br />
+		Depeche Mode will play to over 1.3 million fans on this European leg of ‘Tour of the Universe 2009’. It’s their first since 2006’s ‘Playing the Angel’ tour, which smashed European sales records with 1.8 million tickets sold across 87 shows.<br />
+		<br />
+	The last date of the ‘Playing The Angel’ tour – August 3rd 2006 – was to take place at Tel Aviv’s Hayarkon Park, but the band were forced to cancel due to the impending war. Tel Aviv’s Ramat Gan Stadium thus provides a fitting stage for Depeche Mode’s spectacular live return.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>222</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793715</tag>
+	<url>http://www.last.fm/event/793715</url>
+</event>
+<event>
+	<id>980588</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>The O2</name>
+		<location>
+			<city>London</city>
+			<country>United Kingdom</country>
+			<street>Drawdock Road Greenwich</street>
+			<postalcode>SE10 0BB</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014734</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980588</tag>
+	<url>http://www.last.fm/event/980588</url>
+</event>
+<event>
+	<id>740271</id>
+	<title>Pinkpop 2009</title>
+	<artists>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Placebo</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Bruce Springsteen</artist>
+		<artist>The All-American Rejects</artist>
+		<artist>Billy Talent</artist>
+		<artist>Katy Perry</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Elbow</artist>
+		<artist>James Morrison</artist>
+		<artist>Chris Cornell</artist>
+		<artist>Pendulum</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Madness</artist>
+		<artist>Maria Mena</artist>
+		<artist>Me First and the Gimme Gimmes</artist>
+		<artist>Anouk</artist>
+		<artist>Just Jack</artist>
+		<artist>Shinedown</artist>
+		<artist>The Script</artist>
+		<artist>White Lies</artist>
+		<artist>Hollywood Undead</artist>
+		<artist>Volbeat</artist>
+		<artist>Novastar</artist>
+		<artist>Milow</artist>
+		<artist>De Jeugd van Tegenwoordig</artist>
+		<artist>De Staat</artist>
+		<artist>Kyteman</artist>
+		<artist>Kings of the Day</artist>
+		<headliner>The Killers</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 13 - 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8960438</url>
+	</venue>
+	<startDate>Sat, 30 May 2009</startDate>
+	<endDate>Mon, 01 Jun 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets are available <a href="http://www.ticketmaster.nl/html/searchResult.htmI?&amp;keyword=pinkpop&amp;defaultKeyword=Vul+in+naam+artiest+of+locatie&amp;l=EN" rel="nofollow">on-line</a> and at the official ticketshops.<br />
+		<br />
+		<strong>3-day passe-partout (including camping site):</strong> € 140<br />
+		<strong>Saturday-only ticket:</strong> € 75 <span style="text-decoration:underline;">
+			<strong>SOLD OUT</strong>
+		</span>
+		<br />
+		<strong>Sunday-only ticket:</strong> € 75<br />
+	<strong>Monday-only ticket:</strong> € 75</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/23814409.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/23814409.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/23814409.png</image>
+	<attendance>826</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=740271</tag>
+	<url>http://www.last.fm/event/740271</url>
+</event>
+<event>
+	<id>980323</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Placebo</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Sun, 31 May 2009</startDate>
+	<startTime>13:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980323</tag>
+	<url>http://www.last.fm/event/980323</url>
+</event>
+<event>
+	<id>980324</id>
+	<title>Pinkpop with Bruce Springsteen &amp; The E-street Band, The Killers, Depeche Mode, Placebo and others</title>
+	<artists>
+		<artist>Pinkpop</artist>
+		<artist>The Killers</artist>
+		<artist>Franz Ferdinand</artist>
+		<artist>Snow Patrol</artist>
+		<artist>Placebo</artist>
+		<artist>Depeche Mode</artist>
+		<artist>Keane</artist>
+		<artist>The Kooks</artist>
+		<artist>Amy Macdonald</artist>
+		<artist>Anouk</artist>
+		<artist>Bruce Springsteen &amp; The E Street Band</artist>
+		<headliner>Pinkpop</headliner>
+	</artists>
+	<venue>
+		<name>Megaland</name>
+		<location>
+			<city>Landgraaf</city>
+			<country>Netherlands</country>
+			<street>Hofstraat 15</street>
+			<postalcode>6372 XC</postalcode>
+			<point>
+				<lat>50.879881</lat>
+				<long>6.019273</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780355</url>
+	</venue>
+	<startDate>Mon, 01 Jun 2009</startDate>
+	<startTime>12:00</startTime>
+	<description></description>
+	<image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<attendance>6</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980324</tag>
+	<url>http://www.last.fm/event/980324</url>
+</event>
+<event>
+	<id>793733</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>HSH Nordbank Arena</name>
+		<location>
+			<city>Hamburg</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>53.587355</lat>
+				<long>9.899214</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8882595</url>
+	</venue>
+	<startDate>Tue, 02 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>148</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793733</tag>
+	<url>http://www.last.fm/event/793733</url>
+</event>
+<event>
+	<id>790481</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>LTU-Arena</name>
+		<location>
+			<city>Düsseldorf</city>
+			<country>Germany</country>
+			<street>LTU-Arena-Str. 1</street>
+			<postalcode>40474</postalcode>
+			<point>
+				<lat>51.262178</lat>
+				<long>6.730179</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788501</url>
+	</venue>
+	<startDate>Thu, 04 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Tour of the Universe 2009</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>135</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=790481</tag>
+<url>http://www.last.fm/event/790481</url>
+</event>
+<event>
+	<id>810306</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>LTU-Arena</name>
+		<location>
+			<city>Düsseldorf</city>
+			<country>Germany</country>
+			<street>LTU-Arena-Str. 1</street>
+			<postalcode>40474</postalcode>
+			<point>
+				<lat>51.262178</lat>
+				<long>6.730179</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8788501</url>
+	</venue>
+	<startDate>Fri, 05 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Depeche Mode werden am <strong>5. Juni 2009</strong> ein Zusatzkonzert in der Düsseldorfer LTU-Arena geben. Karten gibt es ab sofort bei <a href="http://www.eventim.de" rel="nofollow">Eventim</a>.<br />
+		<object width="425" height="350">
+			<param name="movie" value="http://www.youtube.com/v/iiJzkLt_r_M"></param>
+			<param name="wmode" value="transparent"></param>
+			<embed src="http://www.youtube.com/v/iiJzkLt_r_M" wmode="transparent" type="application/x-shockwave-flash" width="425" height="350"></embed>
+		</object>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>83</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=810306</tag>
+	<url>http://www.last.fm/event/810306</url>
+</event>
+<event>
+	<id>793937</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Polarkreis 18</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Zentralstadion</name>
+		<location>
+			<city>Leipzig</city>
+			<country>Germany</country>
+			<street>Am Sportforum 3</street>
+			<postalcode>04105</postalcode>
+			<point>
+				<lat>51.346083</lat>
+				<long>12.349198</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8787349</url>
+	</venue>
+	<startDate>Sun, 07 Jun 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>78</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793937</tag>
+	<url>http://www.last.fm/event/793937</url>
+</event>
+<event>
+	<id>842800</id>
+	<title>Depeche Mode - Tour of the Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Polarkreis 18</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Zentralstadion</name>
+		<location>
+			<city>Leipzig</city>
+			<country>Germany</country>
+			<street>Am Sportforum 3</street>
+			<postalcode>04105</postalcode>
+			<point>
+				<lat>51.346083</lat>
+				<long>12.349198</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8787349</url>
+	</venue>
+	<startDate>Mon, 08 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Zusatzkonzert<br />
+		<br />
+		VVK ab 22.11.08, z.B. bei <a href="http://www.konzertkasse-dresden.de/?search=Depeche%20Mode" rel="nofollow">Konzertkasse Dresden</a> oder <a href="http://www.eventim.de/cgi-bin/depeche-mode-tickets.html?fun=TDetailA&amp;id=EVE_NO_SESSION&amp;doc=detaila&amp;key=261718" rel="nofollow">eventim</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>28</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=842800</tag>
+	<url>http://www.last.fm/event/842800</url>
+</event>
+<event>
+	<id>789592</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Polarkreis 18</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Olympiastadion</name>
+		<location>
+			<city>Berlin</city>
+			<country>Germany</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>52.514765</lat>
+				<long>13.244534</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8784117</url>
+	</venue>
+	<startDate>Wed, 10 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>230</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=789592</tag>
+	<url>http://www.last.fm/event/789592</url>
+</event>
+<event>
+	<id>928269</id>
+	<title>Super bock super bock</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Nouvelle Vague</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Pavilhão do Estádio do Bessa</name>
+		<location>
+			<city>Porto</city>
+			<country>Portugal</country>
+			<street>Rua de O Primeiro de Janeiro</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>41.180164</lat>
+				<long>-8.604079</long>
+			</point>
+			<timezone>WET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8958364</url>
+	</venue>
+	<startDate>Thu, 11 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=928269</tag>
+	<url>http://www.last.fm/event/928269</url>
+</event>
+<event>
+	<id>790437</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Commerzbank-Arena</name>
+		<location>
+			<city>Frankfurt am Main</city>
+			<country>Germany</country>
+			<street>Mörfelder Landstr. 362</street>
+			<postalcode>60528</postalcode>
+			<point>
+				<lat>50.067552</lat>
+				<long>8.651115</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782161</url>
+	</venue>
+	<startDate>Fri, 12 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>125</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=790437</tag>
+	<url>http://www.last.fm/event/790437</url>
+</event>
+<event>
+	<id>792862</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Olympiastadion</name>
+		<location>
+			<city>München</city>
+			<country>Germany</country>
+			<street>Spiridon-Louis-Ring 21</street>
+			<postalcode>80809</postalcode>
+			<point>
+				<lat>49.55</lat>
+				<long>11.5833333</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782484</url>
+	</venue>
+	<startDate>Sat, 13 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Depeche Mode sind zurück auf der Bühne!<br />
+	Sie sind die absoluten Megastars des Elektropop, die mit mehr als 50 Millionen verkauften Alben und über 10 Millionen Konzertbesuchern rockhistorische Dimensionen gesprengt haben. Im Sommer 2009 kehren David Gahan und seine Mitstreiter auf die deutschen Konzertbühnen zurück.[youtube]<a href="http://de.youtube.com/watch?v=jiLDXsBmEK8&amp;feature=related" rel="nofollow">http://de.youtube.com/watch?v=jiLDXsBmEK8&amp;feature=related</a>[/youtube]</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>131</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=792862</tag>
+	<url>http://www.last.fm/event/792862</url>
+</event>
+<event>
+	<id>793670</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stadio Olimpico</name>
+		<location>
+			<city>Roma</city>
+			<country>Italy</country>
+			<street>Viale dei Gladiatori, 2</street>
+			<postalcode>00194</postalcode>
+			<point>
+				<lat>41.934128</lat>
+				<long>12.455988</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8821665</url>
+	</venue>
+	<startDate>Tue, 16 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets available on October 27th, 2008, at 3pm local time<br />
+		<a href="http://www.ticketone.it/" rel="nofollow">http://www.ticketone.it/</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>271</attendance>
+	<reviews>1</reviews>
+	<tag>lastfm:event=793670</tag>
+	<url>http://www.last.fm/event/793670</url>
+</event>
+<event>
+	<id>980270</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stadio Olimpico</name>
+		<location>
+			<city>Roma</city>
+			<country>Italy</country>
+			<street>Viale dello Stadio Olimpico 1</street>
+			<postalcode>00194</postalcode>
+			<point>
+				<lat>41.930085</lat>
+				<long>12.453975</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014654</url>
+	</venue>
+	<startDate>Tue, 16 Jun 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980270</tag>
+	<url>http://www.last.fm/event/980270</url>
+</event>
+<event>
+	<id>793777</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stadio San Siro</name>
+		<location>
+			<city>Milano</city>
+			<country>Italy</country>
+			<street>Via Piccolomini 5</street>
+			<postalcode>20151</postalcode>
+			<point>
+				<lat>45.478462</lat>
+				<long>9.125321</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8815156</url>
+	</venue>
+	<startDate>Thu, 18 Jun 2009</startDate>
+	<startTime>21:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Tickets available on October 27th, 2008, at 2pm local time<br />
+		<a href="http://www.ticketone.it/" rel="nofollow">http://www.ticketone.it/</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>298</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793777</tag>
+	<url>http://www.last.fm/event/793777</url>
+</event>
+<event>
+	<id>793682</id>
+	<title>TW Classic 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Moby</artist>
+		<artist>Keane</artist>
+		<artist>Basement Jaxx</artist>
+		<artist>Duffy</artist>
+		<artist>Motor</artist>
+		<artist>Tom Helsen</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Werchter</name>
+		<location>
+			<city>Werchter</city>
+			<country>Belgium</country>
+			<street>Haachtsesteenweg</street>
+			<postalcode>B-3118</postalcode>
+			<point>
+				<lat>50.969376</lat>
+				<long>4.69036</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779175</url>
+	</venue>
+	<startDate>Sat, 20 Jun 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Het programma: <br />
+		Motor 13:25 – 14:05<br />
+		Tom Helsen 14:35 – 15:25<br />
+		Duffy 15:55 – 16:55<br />
+		Keane 17:30 – 18:30<br />
+		Moby 19:05 – 20:20<br />
+		Depeche Mode 21:00 – 23:00<br />
+	Basement Jaxx 23:40 – 00:55</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/13448853.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/13448853.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/13448853.jpg</image>
+	<attendance>65</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793682</tag>
+	<url>http://www.last.fm/event/793682</url>
+</event>
+<event>
+	<id>784028</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Inter Stadion</name>
+		<location>
+			<city>Bratislava</city>
+			<country>Slovakia</country>
+			<street>Junácka ulica 10</street>
+			<postalcode>832 84</postalcode>
+			<point>
+				<lat>48.15</lat>
+				<long>17.1166667</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8812165</url>
+	</venue>
+	<startDate>Mon, 22 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>Listky: </strong> <a href="http://www.e-ticketpro.sk/sk/event/depeche-mode-tour-of-the-universe-2009/132/" rel="nofollow"> Ticketpro </a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>156</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=784028</tag>
+<url>http://www.last.fm/event/784028</url>
+</event>
+<event>
+	<id>793888</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Puskás Ferenc Stadion</name>
+		<location>
+			<city>Budapest</city>
+			<country>Hungary</country>
+			<street>Istvánmezei út 3-5</street>
+			<postalcode>1146</postalcode>
+			<point>
+				<lat>47.503837</lat>
+				<long>19.090712</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8794761</url>
+	</venue>
+	<startDate>Tue, 23 Jun 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>122</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793888</tag>
+	<url>http://www.last.fm/event/793888</url>
+</event>
+<event>
+	<id>784021</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stadion Eden</name>
+		<location>
+			<city>Praha</city>
+			<country>Czech Republic</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>50.06883</lat>
+				<long>14.479483</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8888413</url>
+	</venue>
+	<startDate>Thu, 25 Jun 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Depeche Mode - Live in Prague 2009</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>262</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=784021</tag>
+<url>http://www.last.fm/event/784021</url>
+</event>
+<event>
+	<id>761896</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Stade de France</name>
+		<location>
+			<city>Saint Denis</city>
+			<country>France</country>
+			<street>rue Francis de Pressensé</street>
+			<postalcode>93210</postalcode>
+			<point>
+				<lat>48.923095</lat>
+				<long>2.361121</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778514</url>
+	</venue>
+	<startDate>Sat, 27 Jun 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>179</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=761896</tag>
+	<url>http://www.last.fm/event/761896</url>
+</event>
+<event>
+	<id>845827</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Zénith</name>
+		<location>
+			<city>Maxéville</city>
+			<country>France</country>
+			<street>Rue du Zénith</street>
+			<postalcode>54320</postalcode>
+			<point>
+				<lat>48.711552</lat>
+				<long>6.138461</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8806550</url>
+	</venue>
+	<startDate>Sun, 28 Jun 2009</startDate>
+	<startTime>21:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>26</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=845827</tag>
+	<url>http://www.last.fm/event/845827</url>
+</event>
+<event>
+	<id>793782</id>
+	<title>Depeche Mode - Tour of the Universe</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Parken</name>
+		<location>
+			<city>København</city>
+			<country>Denmark</country>
+			<street>Øster Allé 50</street>
+			<postalcode>2100</postalcode>
+			<point>
+				<lat>55.702967</lat>
+				<long>12.573907</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8779279</url>
+	</venue>
+	<startDate>Tue, 30 Jun 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>141</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793782</tag>
+	<url>http://www.last.fm/event/793782</url>
+</event>
+<event>
+	<id>793630</id>
+	<title>Arvikafestivalen</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Nine Inch Nails</artist>
+		<artist>KoЯn</artist>
+		<artist>Opeth</artist>
+		<artist>Fleet Foxes</artist>
+		<artist>The Sounds</artist>
+		<artist>Anna Ternheim</artist>
+		<artist>De/Vision</artist>
+		<artist>Alice in Videoland</artist>
+		<artist>Jenny Wilson</artist>
+		<artist>Deutsch Amerikanische Freundschaft</artist>
+		<artist>Diary of Dreams</artist>
+		<artist>Frida Hyvönen</artist>
+		<artist>bob hund</artist>
+		<artist>Welle:Erdball</artist>
+		<artist>Fever Ray</artist>
+		<artist>The Bloody Beetroots</artist>
+		<artist>Mustasch</artist>
+		<artist>Detektivbyrån</artist>
+		<artist>Thåström</artist>
+		<artist>Yuksek</artist>
+		<artist>Burst</artist>
+		<artist>VETO</artist>
+		<artist>Elegant Machinery</artist>
+		<artist>Mind.In.A.Box</artist>
+		<artist>Andreas Tilliander</artist>
+		<artist>James Yuill</artist>
+		<artist>Style of Eye</artist>
+		<artist>Bullet</artist>
+		<artist>Nordpolen</artist>
+		<artist>First Aid Kit</artist>
+		<artist>Engel</artist>
+		<artist>Parken</artist>
+		<artist>Jonna Lee</artist>
+		<artist>Joel Alme</artist>
+		<artist>The Mobile Homes</artist>
+		<artist>Casiokids</artist>
+		<artist>Adiam Dymott</artist>
+		<artist>I Are Droid</artist>
+		<artist>Adam Heldring</artist>
+		<artist>Lowood</artist>
+		<artist>La Fleur</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Folkets park</name>
+		<location>
+			<city>Arvika</city>
+			<country>Sweden</country>
+			<street>Fritidsgatan 2</street>
+			<postalcode>671 33</postalcode>
+			<point>
+				<lat>59.650823</lat>
+				<long>12.619945</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8796170</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<endDate>Sat, 04 Jul 2009</endDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>356</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=793630</tag>
+	<url>http://www.last.fm/event/793630</url>
+</event>
+<event>
+	<id>788117</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Koengen</name>
+		<location>
+			<city>Bergen</city>
+			<country>Norway</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>60.398323</lat>
+				<long>5.322011</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8827602</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Tour of The Universe 2009</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>85</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=788117</tag>
+<url>http://www.last.fm/event/788117</url>
+</event>
+<event>
+	<id>979873</id>
+	<title>Depeche Mode: Tour of the Universe</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Bergenhus Festning / Koengen</name>
+		<location>
+			<city>Bergen</city>
+			<country>Norway</country>
+			<street>Bergenhus Festning</street>
+			<postalcode>5003</postalcode>
+			<point>
+				<lat>60.398323</lat>
+				<long>5.322011</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014442</url>
+	</venue>
+	<startDate>Thu, 02 Jul 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979873</tag>
+	<url>http://www.last.fm/event/979873</url>
+</event>
+<event>
+	<id>958578</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Esplanade Gambetta</name>
+		<location>
+			<city>Carcassonne</city>
+			<country>France</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>43.212503</lat>
+				<long>2.356853</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9009221</url>
+	</venue>
+	<startDate>Mon, 06 Jul 2009</startDate>
+	<startTime>21:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Depeche Mode, groupe électro – pop à succès (Just cant’ get enough, Enjoy the silence…) sera au Festival des 2 Cités à Carcassonne, trois mois après la sortie de son nouvel album prévue en avril 2009.<br />
+		La tournée Tour Of The Universe 2009, une des plus grosses jamais entreprises par ce groupe considéré comme un des meilleurs du monde, sera sans conteste l’événement musical de l’année.<br />
+		Depeche Mode se produira devant un million trois cent mille fans lors la partie européenne de Tour Of The Universe 2009. Lors de la précédente tournée du groupe, Playing The Angel, le record européen de ventes de billets avait été pulvérisé (un million huit cent mille billets vendus pour quatre-vingt-sept concerts) !<br />
+		<br />
+		Soyez au rendez-vous le 6 juillet à l’esplanade Gambetta de Carcassonne !<br />
+		<br />
+		# Tarifs : 1ère série : 67€ (+ frais de loc 3,80€)<br />
+		# 2ème série : 57€ (+ frais de loc 3,80€)<br />
+	# Placement libre (debout)</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>7</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=958578</tag>
+	<url>http://www.last.fm/event/958578</url>
+</event>
+<event>
+	<id>832520</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Estadio José Zorrilla</name>
+		<location>
+			<city>Valladolid</city>
+			<country>Spain</country>
+			<street>Avenida Mundial 82</street>
+			<postalcode>47014</postalcode>
+			<point>
+				<lat>41.646213</lat>
+				<long>-4.759702</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8820670</url>
+	</venue>
+	<startDate>Wed, 08 Jul 2009</startDate>
+	<startTime>22:00</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Entradas a la venta en <a href="http://www.elcorteingles.es/entradas" rel="nofollow">www.elcorteingles.es/entradas</a><br />
+		<br />
+		<a href="http://www.lastfm.es/event/832520/images/18000915">Tipología de entradas y plano</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>95</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=832520</tag>
+	<url>http://www.last.fm/event/832520</url>
+</event>
+<event>
+	<id>817113</id>
+	<title>Bilbao BBK Live 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Placebo</artist>
+		<artist>Dave Matthews Band</artist>
+		<artist>Basement Jaxx</artist>
+		<artist>The Ting Tings</artist>
+		<artist>Babyshambles</artist>
+		<artist>Supergrass</artist>
+		<artist>Primal Scream</artist>
+		<artist>Fischerspooner</artist>
+		<artist>The Gaslight Anthem</artist>
+		<artist>El Columpio Asesino</artist>
+		<artist>Cycle</artist>
+		<artist>Vetusta Morla</artist>
+		<artist>Lain</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Kobetamendi</name>
+		<location>
+			<city>Bilbao</city>
+			<country>Spain</country>
+			<street>Calle del Monte Cobetas</street>
+			<postalcode>48002</postalcode>
+			<point>
+				<lat>43.265047</lat>
+				<long>-2.930722</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8801758</url>
+	</venue>
+	<startDate>Thu, 09 Jul 2009</startDate>
+	<endDate>Sat, 11 Jul 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">El miércoles 12 de noviembre saldrán a la venta los bonos de 3 días para el Bilbao BBK Live 2009. Se establecerá una oferta inicial de 100 € + gastos de distribución, con un descuento de 10 € para los primeros 1.500 bonos comprados con la tarjeta BBK26 (un bono por tarjeta), que estará vigente hasta el 9 de enero.<br />
+		<br />
+		9 de Julio: Depeche Mode<br />
+		10 de Julio: El Columpio Asesino<br />
+	11 de Julio:</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/17654837.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/17654837.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/17654837.png</image>
+	<attendance>174</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=817113</tag>
+	<url>http://www.last.fm/event/817113</url>
+</event>
+<event>
+	<id>807398</id>
+	<title>15º Super Bock Super Rock - Porto</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Nouvelle Vague</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Estádio do Bessa XXI</name>
+		<location>
+			<city>Porto</city>
+			<country>Portugal</country>
+			<street>Rua do Primeiro de Janeiro</street>
+			<postalcode>4100</postalcode>
+			<point>
+				<lat>41.16327</lat>
+				<long>-8.643332</long>
+			</point>
+			<timezone>WET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9002329</url>
+	</venue>
+	<startDate>Sat, 11 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>Porto | <a href="http://ws.audioscrobbler.com/event/807398" class="bbcode_event"> Estádio do Bessa XXI</a> | 11 de Julho</strong><br />
+	- Depeche Mode<br />
+	- Nouvelle Vague<br />
+	<br />
+<strong>Lisboa | <a href="http://ws.audioscrobbler.com/event/908324" class="bbcode_event">Estádio do Restelo</a> | 18 de Julho</strong>
+<br />
+- The Killers<br />
+- Duffy</div>]]></description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>248</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=807398</tag>
+<url>http://www.last.fm/event/807398</url>
+</event>
+<event>
+	<id>833885</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Estadio Olímpico</name>
+		<location>
+			<city>Sevilla</city>
+			<country>Spain</country>
+			<street>Isla De La Cartuja</street>
+			<postalcode>41092</postalcode>
+			<point>
+				<lat>37.403462</lat>
+				<long>-6.00865</long>
+			</point>
+			<timezone>CET</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8821554</url>
+	</venue>
+	<startDate>Sun, 12 Jul 2009</startDate>
+	<startTime>22:30</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">Entradas a la venta en <a href="http://www.ticktackticket.com" rel="nofollow">www.ticktackticket.com</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>169</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=833885</tag>
+<url>http://www.last.fm/event/833885</url>
+</event>
+<event>
+	<id>948601</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>TBA</name>
+		<location>
+			<city>Toronto</city>
+			<country>Canada</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>43.825474</lat>
+				<long>-79.350607</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8801231</url>
+	</venue>
+	<startDate>Fri, 24 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>25</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=948601</tag>
+	<url>http://www.last.fm/event/948601</url>
+</event>
+<event>
+	<id>980038</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Molson Amphitheatre</name>
+		<location>
+			<city>Toronto</city>
+			<country>Canada</country>
+			<street>909 Lakeshore Blvd. West</street>
+			<postalcode>M6K 3L3</postalcode>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014518</url>
+	</venue>
+	<startDate>Fri, 24 Jul 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>2</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=980038</tag>
+	<url>http://www.last.fm/event/980038</url>
+</event>
+<event>
+	<id>952183</id>
+	<title>Depeche Mode - Tour of the Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Centre Bell</name>
+		<location>
+			<city>Montreal</city>
+			<country>Canada</country>
+			<street>1260 De la Gauchetière Ouest</street>
+			<postalcode>H3B 5E8</postalcode>
+			<point>
+				<lat>45.496154</lat>
+				<long>-73.570575</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781188</url>
+	</venue>
+	<startDate>Sat, 25 Jul 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=952183</tag>
+	<url>http://www.last.fm/event/952183</url>
+</event>
+<event>
+	<id>955694</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Nissan Pavilion</name>
+		<location>
+			<city>Bristow</city>
+			<country>United States</country>
+			<street>7800 Cellar Door Drive</street>
+			<postalcode>20136</postalcode>
+			<point>
+				<lat>38.785915</lat>
+				<long>-77.587777</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8785553</url>
+	</venue>
+	<startDate>Tue, 28 Jul 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955694</tag>
+	<url>http://www.last.fm/event/955694</url>
+</event>
+<event>
+	<id>950355</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>TBA</name>
+		<location>
+			<city>Boston, MA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>42.365529</lat>
+				<long>-71.2436</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8899731</url>
+	</venue>
+	<startDate>Fri, 31 Jul 2009</startDate>
+	<description>
+	<![CDATA[<div class="bbcode">Venue to be announced. Check depechemode.com for more details.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>13</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=950355</tag>
+<url>http://www.last.fm/event/950355</url>
+</event>
+<event>
+	<id>955146</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Comcast Center</name>
+		<location>
+			<city>Mansfield</city>
+			<country>United States</country>
+			<street>885 S Main St</street>
+			<postalcode>02048</postalcode>
+			<point>
+				<lat>41.995282</lat>
+				<long>-71.210716</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8939934</url>
+	</venue>
+	<startDate>Fri, 31 Jul 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955146</tag>
+	<url>http://www.last.fm/event/955146</url>
+</event>
+<event>
+	<id>962933</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Borgata Hotel &amp; Casino</name>
+		<location>
+			<city>Atlantic City, New Jersey</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>39.35873</lat>
+				<long>-74.440385</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8927421</url>
+	</venue>
+	<startDate>Sat, 01 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=962933</tag>
+	<url>http://www.last.fm/event/962933</url>
+</event>
+<event>
+	<id>955429</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Madison Square Garden</name>
+		<location>
+			<city>New York</city>
+			<country>United States</country>
+			<street>4 Pennsylvania Plaza</street>
+			<postalcode>10001</postalcode>
+			<point>
+				<lat>40.71417</lat>
+				<long>-74.00639</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778812</url>
+	</venue>
+	<startDate>Mon, 03 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">7:30 p.m.<br />
+		$49.50 - $129.50<br />
+		<br />
+		Internet pre-sale password: WRONG<br />
+	Citicard pre-sale: First 6 numbers of your Citicard</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>36</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955429</tag>
+	<url>http://www.last.fm/event/955429</url>
+</event>
+<event>
+	<id>981693</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Madison Square Garden</name>
+		<location>
+			<city>New York City, New York</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.748256</lat>
+				<long>-73.990061</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8930905</url>
+	</venue>
+	<startDate>Mon, 03 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981693</tag>
+	<url>http://www.last.fm/event/981693</url>
+</event>
+<event>
+	<id>986661</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Madison Square Garden</name>
+		<location>
+			<city>New York</city>
+			<country>United States</country>
+			<street>4 Pennsylvania Plaza</street>
+			<postalcode>10001</postalcode>
+			<point>
+				<lat>40.71417</lat>
+				<long>-74.00639</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8778812</url>
+	</venue>
+	<startDate>Tue, 04 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">8:00 p.m.<br />
+	$49.50 - $129.50</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>4</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=986661</tag>
+	<url>http://www.last.fm/event/986661</url>
+</event>
+<event>
+	<id>798673</id>
+	<title>Lollapalooza 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Kaiser Chiefs</artist>
+		<artist>Beastie Boys</artist>
+		<artist>Kings of Leon</artist>
+		<artist>Ben Folds</artist>
+		<artist>Jane's Addiction</artist>
+		<artist>The Raveonettes</artist>
+		<artist>Atmosphere</artist>
+		<artist>Friendly Fires</artist>
+		<artist>Passion Pit</artist>
+		<artist>Delta Spirit</artist>
+		<artist>Ezra Furman and the Harpoons</artist>
+		<artist>thenewno2</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Grant Park</name>
+		<location>
+			<city>Chicago</city>
+			<country>United States</country>
+			<street>Congress Drive and Columbus Drive</street>
+			<postalcode>60601</postalcode>
+			<point>
+				<lat>41.875918</lat>
+				<long>-87.6206</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782817</url>
+	</venue>
+	<startDate>Fri, 07 Aug 2009</startDate>
+	<endDate>Sun, 09 Aug 2009</endDate>
+	<description>
+		<![CDATA[<div class="bbcode">Lollapalooza is a kick-ass three day festival in grant park. What could be better than seeing your favorite facemelting bands under Chicago's hot summer sun with nothing but a lake and skyscrapers surrounding you?<br />
+		<br />
+	More to be announced soon...</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>252</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=798673</tag>
+	<url>http://www.last.fm/event/798673</url>
+</event>
+<event>
+	<id>958913</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Key Arena</name>
+		<location>
+			<city>Seattle, WA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>47.60639</lat>
+				<long>-122.33083</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8904000</url>
+	</venue>
+	<startDate>Mon, 10 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>9</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=958913</tag>
+	<url>http://www.last.fm/event/958913</url>
+</event>
+<event>
+	<id>954262</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn &amp; John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Shoreline Amphitheatre</name>
+		<location>
+			<city>Mountain VIew, California</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>37.38611</lat>
+				<long>-122.08278</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8914552</url>
+	</venue>
+	<startDate>Wed, 12 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Door: 6:00 PM  Show: 7:30 PM<br />
+	All Ages</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=954262</tag>
+	<url>http://www.last.fm/event/954262</url>
+</event>
+<event>
+	<id>981714</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Shoreline Ampitheater</name>
+		<location>
+			<city></city>
+			<country>United States</country>
+			<street></street>
+			<postalcode>94043</postalcode>
+			<point>
+				<lat>37.40679</lat>
+				<long>-122.07461</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8852393</url>
+	</venue>
+	<startDate>Wed, 12 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981714</tag>
+	<url>http://www.last.fm/event/981714</url>
+</event>
+<event>
+	<id>981719</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Cricket Wireless Amphitheatre</name>
+		<location>
+			<city>Chula Vista, CA</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>32.588532</lat>
+				<long>-117.007377</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9003302</url>
+	</venue>
+	<startDate>Fri, 14 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981719</tag>
+	<url>http://www.last.fm/event/981719</url>
+</event>
+<event>
+	<id>955629</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter, Bjorn &amp; John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Cricket Wireless Amphitheatre</name>
+		<location>
+			<city>Chula Vista, California</city>
+			<country>United States</country>
+			<street>2050 Entertainment Circle</street>
+			<postalcode>91911</postalcode>
+			<point>
+				<lat>32.588532</lat>
+				<long>-117.007377</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8921942</url>
+	</venue>
+	<startDate>Fri, 14 Aug 2009</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Onsale to General Public<br />
+		Start: Sat, 03/14/09 12:00 PM PDT<br />
+		<br />
+		Citi Cardmembers<br />
+		Start: Tue, 03/10/09 10:00 AM PDT<br />
+		End: Fri, 03/13/09 10:00 PM PDT<br />
+		<br />
+		Internet Presale<br />
+		Start: Mon, 03/09/09 10:00 AM PDT<br />
+		End: Fri, 03/13/09 10:00 PM PDT<br />
+		<br />
+		TICKET RUSH<br />
+		Start: Fri, 03/13/09 10:00 AM PDT<br />
+	End: Fri, 03/13/09 10:00 PM PDT</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>15</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955629</tag>
+	<url>http://www.last.fm/event/955629</url>
+</event>
+<event>
+	<id>949922</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Hollywood Bowl</name>
+		<location>
+			<city>Los Angeles, CA</city>
+			<country>United States</country>
+			<street>2301 N. Highland Ave</street>
+			<postalcode>90078</postalcode>
+			<point>
+				<lat>34.110916</lat>
+				<long>-118.337678</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781573</url>
+	</venue>
+	<startDate>Sun, 16 Aug 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>27</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=949922</tag>
+	<url>http://www.last.fm/event/949922</url>
+</event>
+<event>
+	<id>981725</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Hollywood Bowl</name>
+		<location>
+			<city>Los Angeles, CA</city>
+			<country>United States</country>
+			<street>2301 N Highland Ave</street>
+			<postalcode>90068</postalcode>
+			<point>
+				<lat>34.09833</lat>
+				<long>-118.32583</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8924183</url>
+	</venue>
+	<startDate>Sun, 16 Aug 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981725</tag>
+	<url>http://www.last.fm/event/981725</url>
+</event>
+<event>
+	<id>949925</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Hollywood Bowl</name>
+		<location>
+			<city>Los Angeles, CA</city>
+			<country>United States</country>
+			<street>2301 N. Highland Ave</street>
+			<postalcode>90078</postalcode>
+			<point>
+				<lat>34.110916</lat>
+				<long>-118.337678</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781573</url>
+	</venue>
+	<startDate>Mon, 17 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>8</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=949925</tag>
+	<url>http://www.last.fm/event/949925</url>
+</event>
+<event>
+	<id>981727</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Hollywood Bowl</name>
+		<location>
+			<city>Los Angeles, CA</city>
+			<country>United States</country>
+			<street>2301 N Highland Ave</street>
+			<postalcode>90068</postalcode>
+			<point>
+				<lat>34.09833</lat>
+				<long>-118.32583</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8924183</url>
+	</venue>
+	<startDate>Mon, 17 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981727</tag>
+	<url>http://www.last.fm/event/981727</url>
+</event>
+<event>
+	<id>963170</id>
+	<title>Depeche Mode - Tour Of The Universe</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Santa Barbara Bowl</name>
+		<location>
+			<city>Santa Barbara, California</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>34.566393</lat>
+				<long>-120.14153</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9010321</url>
+	</venue>
+	<startDate>Thu, 20 Aug 2009</startDate>
+	<startTime>18:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode"><a href="http://ws.audioscrobbler.com/music/Depeche+Mode" class="bbcode_artist">Depeche Mode</a> <br />
+	<a title="Depeche Mode - Sounds of the Universe" href="http://ws.audioscrobbler.com/music/Depeche+Mode/Sounds+of+the+Universe" class="bbcode_album">Sounds of the Universe</a> album support tour - Tour Of The Universe.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=963170</tag>
+	<url>http://www.last.fm/event/963170</url>
+</event>
+<event>
+	<id>955123</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Pearl Concert Theater at Palms Casino Resort</name>
+		<location>
+			<city>Las Vegas, NV</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>36.175</lat>
+				<long>-115.13639</long>
+			</point>
+			<timezone>PST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8909902</url>
+	</venue>
+	<startDate>Sat, 22 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=955123</tag>
+	<url>http://www.last.fm/event/955123</url>
+</event>
+<event>
+	<id>975535</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Airways Center</name>
+		<location>
+			<city>phoenix, arizona</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>33.445805</lat>
+				<long>-112.07116</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013304</url>
+	</venue>
+	<startDate>Sun, 23 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=975535</tag>
+	<url>http://www.last.fm/event/975535</url>
+</event>
+<event>
+	<id>981744</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>US Airways Center</name>
+		<location>
+			<city>Phoenix</city>
+			<country>United States</country>
+			<street>201 East Jefferson Street</street>
+			<postalcode>85004</postalcode>
+			<point>
+				<lat>33.446406</lat>
+				<long>-112.071962</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8813729</url>
+	</venue>
+	<startDate>Sun, 23 Aug 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>3</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981744</tag>
+	<url>http://www.last.fm/event/981744</url>
+</event>
+<event>
+	<id>954289</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>E Center</name>
+		<location>
+			<city>Salt Lake City,Utah</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>40.76083</lat>
+				<long>-111.89028</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8955814</url>
+	</venue>
+	<startDate>Tue, 25 Aug 2009</startDate>
+	<startTime>19:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=954289</tag>
+	<url>http://www.last.fm/event/954289</url>
+</event>
+<event>
+	<id>981752</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Red Rocks Amphitheatre</name>
+		<location>
+			<city>Morrison</city>
+			<country>United States</country>
+			<street>17598 W Alameda Pkwy</street>
+			<postalcode>80465</postalcode>
+			<point>
+				<lat>39.679485</lat>
+				<long>-105.196472</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9014897</url>
+	</venue>
+	<startDate>Thu, 27 Aug 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981752</tag>
+	<url>http://www.last.fm/event/981752</url>
+</event>
+<event>
+	<id>970962</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Red Rocks Amphitheatre</name>
+		<location>
+			<city>Morrison</city>
+			<country>United States</country>
+			<street>Red Rocks Park</street>
+			<postalcode>80465</postalcode>
+			<point>
+				<lat>39.65361</lat>
+				<long>-105.19056</long>
+			</point>
+			<timezone>MST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8798196</url>
+	</venue>
+	<startDate>Thu, 27 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>9</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=970962</tag>
+	<url>http://www.last.fm/event/970962</url>
+</event>
+<event>
+	<id>954172</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Smirnoff Music Center</name>
+		<location>
+			<city>Dallas, Texas</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>32.774093</lat>
+				<long>-96.75604</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8906788</url>
+	</venue>
+	<startDate>Sat, 29 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>11</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=954172</tag>
+	<url>http://www.last.fm/event/954172</url>
+</event>
+<event>
+	<id>957569</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Cynthia Woods Mitchell Pavilion</name>
+		<location>
+			<city>The Woodlands</city>
+			<country>United States</country>
+			<street>2005 Lake Robbins Drive</street>
+			<postalcode>77380</postalcode>
+			<point>
+				<lat>30.161367</lat>
+				<long>-95.46375</long>
+			</point>
+			<timezone>UTC</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8781619</url>
+	</venue>
+	<startDate>Sun, 30 Aug 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>12</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=957569</tag>
+	<url>http://www.last.fm/event/957569</url>
+</event>
+<event>
+	<id>969922</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>HiFi Buys Amphitheater</name>
+		<location>
+			<city>Atlanta, GA</city>
+			<country>United States</country>
+			<street>2002 Lakewood Ave SE</street>
+			<postalcode>30315</postalcode>
+			<point>
+				<lat>33.701157</lat>
+				<long>-84.38664</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8947963</url>
+	</venue>
+	<startDate>Tue, 01 Sep 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>5</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=969922</tag>
+	<url>http://www.last.fm/event/969922</url>
+</event>
+<event>
+	<id>981763</id>
+	<title>Depeche Mode "Tour of the Universe"</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Lakewood Amphitheatre</name>
+		<location>
+			<city>Atlanta</city>
+			<country>United States</country>
+			<street>2002 Lakewood Ave</street>
+			<postalcode>30315</postalcode>
+			<point>
+				<lat>33.701157</lat>
+				<long>-84.38664</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8909581</url>
+	</venue>
+	<startDate>Tue, 01 Sep 2009</startDate>
+	<startTime>19:30</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>0</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981763</tag>
+	<url>http://www.last.fm/event/981763</url>
+</event>
+<event>
+	<id>958470</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Ford Amphitheatre</name>
+		<location>
+			<city>Tampa, FL</city>
+			<country>United States</country>
+			<street>4802 US 301 North</street>
+			<postalcode>33610</postalcode>
+			<point>
+				<lat>27.988118</lat>
+				<long>-82.359127</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8780468</url>
+	</venue>
+	<startDate>Fri, 04 Sep 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>9</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=958470</tag>
+	<url>http://www.last.fm/event/958470</url>
+</event>
+<event>
+	<id>957479</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Bankatlantic Center</name>
+		<location>
+			<city>Fort Lauderdale, Florida</city>
+			<country>United States</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>26.12194</lat>
+				<long>-80.14361</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8871253</url>
+	</venue>
+	<startDate>Sat, 05 Sep 2009</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>10</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=957479</tag>
+	<url>http://www.last.fm/event/957479</url>
+</event>
+<event>
+	<id>981768</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<artist>Peter Bjorn and John</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>BankAtlantic Center</name>
+		<location>
+			<city>Sunrise</city>
+			<country>United States</country>
+			<street>2555 Panther Pkwy</street>
+			<postalcode>33323</postalcode>
+			<point>
+				<lat>26.157998</lat>
+				<long>-80.324827</long>
+			</point>
+			<timezone>EST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8782021</url>
+	</venue>
+	<startDate>Sat, 05 Sep 2009</startDate>
+	<startTime>20:00</startTime>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>1</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=981768</tag>
+	<url>http://www.last.fm/event/981768</url>
+</event>
+<event>
+	<id>942552</id>
+	<title>Depeche Mode TBA</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Foro Sol</name>
+		<location>
+			<city>Ciudad de Mexico df</city>
+			<country>Mexico</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>19.408102</lat>
+				<long>-99.092955</long>
+			</point>
+			<timezone>CST</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8934132</url>
+	</venue>
+	<startDate>Sat, 26 Sep 2009</startDate>
+	<startTime>20:30</startTime>
+	<description>
+		<![CDATA[<div class="bbcode">Gira por Guadalajara - Monterrey Y Por su popllo D.F.<br />
+		<br />
+		<a href="http://www.depechemode.com.mx/dm2/" rel="nofollow">http://www.depechemode.com.mx/dm2/</a>
+	</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>80</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=942552</tag>
+	<url>http://www.last.fm/event/942552</url>
+</event>
+<event>
+	<id>949611</id>
+	<title>Depeche Mode - Tour of The Universe 2009</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>TBA</name>
+		<location>
+			<city>Buenos Aires</city>
+			<country>Argentina</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-34.5875</lat>
+				<long>-58.6725</long>
+			</point>
+			<timezone>ART</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8907263</url>
+	</venue>
+	<startDate>Tue, 20 Oct 2009</startDate>
+	<startTime>22:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode">La legendaria banda visitaría Argentina en la segunda quincena de octubre, presentando su nuevo trabajo &quot;Sounds of the Universe&quot;, que saldría a la venta el 20 de abril.</div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>81</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=949611</tag>
+<url>http://www.last.fm/event/949611</url>
+</event>
+<event>
+	<id>941202</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>Estadio Nacional</name>
+		<location>
+			<city>Ñuñoa, Santiago</city>
+			<country>Chile</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>-33.464444</lat>
+				<long>-70.610556</long>
+			</point>
+			<timezone>CLT</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8969975</url>
+	</venue>
+	<startDate>Mon, 26 Oct 2009</startDate>
+	<startTime>21:00</startTime>
+	<description>
+	<![CDATA[<div class="bbcode"><strong>Andrew Fletcher, uno de sus miembros históricos, confirma un concierto en Santiago para octubre de 2009. La fecha está incluida dentro de su Tour of The Universe.</strong></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>200</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=941202</tag>
+<url>http://www.last.fm/event/941202</url>
+</event>
+<event>
+	<id>978251</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>unknown</name>
+		<location>
+			<city>Санкт-Петербург</city>
+			<country>Russian Federation</country>
+			<street></street>
+			<postalcode></postalcode>
+			<point>
+				<lat>59.93056</lat>
+				<long>30.317809</long>
+			</point>
+			<timezone>MSK</timezone>
+		</location>
+		<url>http://www.last.fm/venue/9013993</url>
+	</venue>
+	<startDate>Thu, 04 Feb 2010</startDate>
+	<description>
+	<![CDATA[<div class="bbcode"><a href="http://community.livejournal.com/ru_depechemode/148529.html" rel="nofollow">http://community.livejournal.com/ru_depechemode/148529.html</a></div>]]>
+</description>
+<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+<attendance>1</attendance>
+<reviews>0</reviews>
+<tag>lastfm:event=978251</tag>
+<url>http://www.last.fm/event/978251</url>
+</event>
+<event>
+	<id>978302</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>"СКК" Петербургский</name>
+		<location>
+			<city>Санкт-Петербург</city>
+			<country>Russian Federation</country>
+			<street>(м) Парк Победы, ул. Гагарина, дом 8</street>
+			<postalcode></postalcode>
+			<point>
+				<lat>59.868378</lat>
+				<long>30.338539</long>
+			</point>
+			<timezone>MSK</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8959172</url>
+	</venue>
+	<startDate>Thu, 04 Feb 2010</startDate>
+	<description>
+		<![CDATA[<div class="bbcode">Легендарные Depeche Mode дадут два концерта в России в 2010 году. В Питере концерт состоится 4 февраля 2010 года в СКК «Петербургский», а 6 февраля в Москве легенды выступят в СК «Олимпийский».<br />
+		<br />
+		Весной 2009 года у группы выходит новый альбом, после чего группа отправляется в новое турне Depeche Mode 2009.<br />
+		<br />
+		Depeche Mode неоднократно приезжали в Россию — на концерты группы съезжалась вся страна. Музыканты и в этот раз не смогли обделить вниманием наших искренних поклонников. И не смотря на то, что в расписание официального тура наша страна не попала, группа выступит в России в феврале 2010 года.<br />
+		<br />
+		11 марта 2009 г. в Санкт-Петербурге прошла пресс-конференция корпорации PMI (организатора всех концертом ДМ в Питере), на которой ее глава Евгений Финкельштейн озвучил заветную информацию. Контракт с группой подписан и концерт состоится 4 февраля 2010 года в Петербуржском СКК!<br />
+		<br />
+		&quot;На самом деле дату мы можем объявить. В принципе мы не имеем права, но мы это сделаем :) Это 4 февраля будущего года. Билеты в продаже и объявление тура будут в апреле месяце. Собирать пресс-конференцию по этому поводу мы не будем. Но все получат пресс-релизы, при выходе нового альбома Depeche Mode в продажу.<br />
+		...<br />
+		огласен, это народная группа российская, которая собирает всегда дикие аншлаги. Концерт будет в СКК не в Ледовом дворце, потому что в прошлый раз на концерте было порядка 24000 зрителей, а Ледовый вмещает в себя только 12000.<br />
+		...<br />
+		ены на билеты пока не известны, мы планируем, но не имеем права пока сейчас их разглашать. Давайте подождём. Остался месяц и мы объявим этот концерт&quot;.<br />
+		<br />
+	Официально даты концертов 3-й части тура будут объявлены только после релиза альбома Sounds Of The Universe.</div>]]></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>69</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=978302</tag>
+	<url>http://www.last.fm/event/978302</url>
+</event>
+<event>
+	<id>979648</id>
+	<title>Depeche Mode</title>
+	<artists>
+		<artist>Depeche Mode</artist>
+		<headliner>Depeche Mode</headliner>
+	</artists>
+	<venue>
+		<name>СК Олимпийский</name>
+		<location>
+			<city>Москва</city>
+			<country>Russian Federation</country>
+			<street>Проспект Олимпийский, 16</street>
+			<postalcode>129090</postalcode>
+			<point>
+				<lat>55.783428</lat>
+				<long>37.626553</long>
+			</point>
+			<timezone>MSK</timezone>
+		</location>
+		<url>http://www.last.fm/venue/8802893</url>
+	</venue>
+	<startDate>Sat, 06 Feb 2010</startDate>
+	<description></description>
+	<image size="small">http://userserve-ak.last.fm/serve/34/75022.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75022.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75022.jpg</image>
+	<attendance>90</attendance>
+	<reviews>0</reviews>
+	<tag>lastfm:event=979648</tag>
+	<url>http://www.last.fm/event/979648</url>
+</event>
+</events>
+</lfm>

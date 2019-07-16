@@ -1,0 +1,84 @@
+---
+title: "Test-Driven Development: Does It Really Matter to Test-First or to Test-Last?"
+author: "Yim Register"
+date: "7/16/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+In my experience, the world of software is an *opinionated* one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. Below is an excellent quote from the paper, highlighting how statistics can uncover the relevant findings from other distracting factors:
+
+> *"This information can liberate developers and organizations
+who are interested in adopting TDD, and trainers who
+teach it, from process dogma based on pure intuition,
+allowing them to focus on aspects that matter most in
+terms of bottom line."*
+
+## Test-Driven Development Process
+- what is it?
+- why do people care?
+
+## The Study
+- beyond their very complex design
+- granularity, uniformity, sequencing, and refactoring
+- test-first, test-last
+```{r}
+data <- read.csv("../bin/data/dissectionTDD/dataset.csv",sep=";")
+head(data)
+```
+
+## Outcomes We Care About
+
+> *Which subset of the factors best explain
+the variability in external quality?*
+
+> *Which subset of the factors best explain
+the variability in developer productivity?*
+
+QLTY, TUS
+PROD
+
+
+## Factors We Measure
+
+
+
+## Descriptive Statistics
+There is a difference between **descriptive statistics** and **inferential statistics**. Descriptive statistics describe properties of the data; such as **means**, **ranges**, and **normality** of the variables of interest. Inferential statistics will draw the actual *conclusions* about the data; reporting on **correlations**, **hypothesis tests**, and **estimation of parameters**. Inferential statistics helps to generalize about a larger **population**, that can go beyond the descriptive statistics of an immediate sample.
+
+```{r}
+library(ggplot2)
+
+#small function to generate colors for ggplot
+gg_color_hue <- function(n) {
+  hues = seq(15, 375, length = n + 1)
+  hcl(h = hues, l = 65, c = 100)[1:n]
+}
+
+titles <- c("Quality","Productivity","Granularity","Uniformity","Sequencing","Refactoring")
+#get some colors for each
+cols = gg_color_hue(length(titles))
+
+# loop to create 6 density plots to look at spread for each variable
+loop <- 2:7
+for( i in loop){
+  x <- data[[i]]
+  plt <- ggplot(data,aes(x)) + 
+    ggtitle(paste("Histogram and Density for",titles[i-1]))+
+  geom_histogram(aes(y = ..density..), bins=25,color="black",fill=cols[i-1])+
+  geom_density(aes(y = ..density..),color="black",fill="black", alpha=.2,stat = 'density')+
+    xlab(titles[i-1])+
+  theme_bw()
+  
+  print(plt)
+}
+
+
+
+```
+
+## Regression Analysis vs. Hypothesis Testing
