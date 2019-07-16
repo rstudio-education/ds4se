@@ -10,7 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-In my experience, the world of software is an *opinionated* one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. Below is an excellent quote from the paper, highlighting how statistics can uncover the relevant findings from other distracting factors:
+In my experience, the world of software is an *opinionated* one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. The study we are using is: [*A Dissection of the Test-Driven Development
+Process: Does It Really Matter to Test-First or to
+Test-Last?*](https://arxiv.org/pdf/1611.05994.pdf)
+Below is an excellent quote from the paper, highlighting how statistics can separate the relevant findings from other distracting factors:
 
 > *"This information can liberate developers and organizations
 who are interested in adopting TDD, and trainers who
@@ -75,9 +78,16 @@ for( i in loop){
   theme_bw()
   
   print(plt)
+  print(shapiro.test(x))
 }
+```
 
+## Component Residual Plots
 
+```{r}
+library(car)
+
+crPlots(m<-lm(QLTY~GRA+UNI+SEQ+REF,data=data))
 
 ```
 
