@@ -82,8 +82,15 @@ for( i in loop){
 }
 ```
 
+## Let's Talk About Interactions
+- discuss interactions here
+```{r}
+cor(data$REF,data$SEQ)
 ## Component Residual Plots
 
+```
+
+## Component + Residual Plots
 ```{r}
 library(car)
 
@@ -92,3 +99,4 @@ crPlots(m<-lm(QLTY~GRA+UNI+SEQ+REF,data=data))
 ```
 
 ## Regression Analysis vs. Hypothesis Testing
+- explain how because theyre all continuous variables, we dont do hypothesis testing. we use regression
