@@ -20,11 +20,6 @@ Whether you're groaning over having to translate your code into some other langu
 One of the most common statistical tools is to compare samples in order to detect a significant difference. This might mean detecting a difference in their averages, or more formally, detecting that they are drawn from truly different generating processes in the world. More on that: whenever we draw a sample, we are trying to capture a sample of some phenomenon happening; there is some process (that we can't quite know) that dictates how that data turns out. In this example. it could be that there is something inherent about Python vs. JavaScript interpreters that make them actually different. Or perhaps it could be that Python *users* are different from JavaScript *users*, with one tending to be more verbose than the other. We are trying to draw samples in order to capture patterns in the world, and those patterns come from some causal relationship. With comparisons, we really *cannot* determine causality, but this is to get us thinking about the "why" when we do see a difference afterall. If we see a difference in average number of lines for Python vs. JavaScript, is there something inherent about writing Python code that lends nicely to one liners? Or is it the population of Python users? Or is it the specific Python code we grabbed? These are all questions we need to think about when we hear someone say "Oh please, use this language instead! It's way better at... blah blah blah." So let's get to the bottom of those "blah blah blah" claims, shall we?
 
 
-```{r message=FALSE}
-library(ggplot2)
-library(dplyr)
-
-```
 
 ## How does the number of lines relate to the number of function definitions?
 
@@ -32,6 +27,11 @@ You're faced with our question: How does the number of lines of code compare wit
 
 ## How do I parse a programming language? Abstract Syntax Trees
 We need  to parse a program in order to count up the number of function definitions. The most straightforward way of doing this might be to look for the "def" keyword in a language like Python. Imagine you were writing this yourself; trying to count the number of function definitions in a piece of code. You might rely on good old fashioned string matching: `for line in program: if "def" in line: function_count +=1` That's a fine start but it gets very messy, *fast*. Luckily, we can rely on something called an **Abstract Syntax Tree**. In this example, we use the `ast` package for Python and `acorn.js` for JavaScript. *TODO: lobstr for R* These parsers give us easy access to the different components of a program, and help us to count them up easier. The example scripts are located [here](https://github.com/rstudio-education/ds4se/blob/master/bin/PythonFiles/ast_example.py) (Python) and [here](https://github.com/rstudio-education/ds4se/blob/master/bin/JSFiles/acorn_example.js) (JavaScript).
+```{r message=FALSE}
+library(ggplot2)
+library(dplyr)
+
+```
 
 ```{r}
 
@@ -124,17 +124,20 @@ plt
 
 ```
 
+## Sample Bias
+You may have some questions about the sample we used. With any problem, we need to think about where our data came from (not just questions that we can ask *about* the data). Problems start in our sample, not in our analysis. This is an important concept to keep in mind when presented with *any* statistic. Is the sample representative? Where did the data come from? Is publicly available data different from what you could obtain from a private source? Is the sample from one group comparable with the sample from the other? In this case, I've tried to collect programs that are roughly the same content; introductory Computer Science programs and data structures. Whatever I find may not generalize to the languages as a whole; perhaps in writing out data structures the code is for educational purposes, and looks different from code in practice. Whatever we conclude on this sample might not be representative on a different sample. Not to get too philosophical, but any statistics that we perform are really an exercise in: 
 
+> *"How do we know what we know?"*
 
 ```{r}
 cor(data$FunctionDefs[data$Language=="JavaScript"],data$Lines[data$Language=="JavaScript"])
 
-data2 = data[data$FunctionDefs>=10 & data$Lines>=200,]
-cor(data2$FunctionDefs,data2$Lines)
 ```
 
 ## Normality Matters
-We are all about finding differences, but comparing those differences is a delicate business. We learned that we can't compare Apples to Oranges, so we **normalized** our data. Sometimes, that's enough to be able to draw direct comparisons. But there's something else that matters, and that's whether our data can be represented **parametrically** or not. Don't worry, it's not as scary as it sounds. **Parametric** means that the data distribution can be represented using *parameters*, like mean and standard deviation. We learned that the normal distribution can be expressed in terms of mean and standard deviation, and any data that falls *normally* is parametric. But lots of data will *not* fall under a normal distribution. Never fear, the weirdos can be compared too. We use something called **nonparametric testing**. Yep, you guessed it. These tests don't represent the data with parameters. They tend to use *ranks* instead. For now, just know that in order to compare two samples, we need to make sure we know which tests to use given the normality of those samples.
+We are all about finding differences, but comparing those differences is a delicate business. We learned that we can't compare Apples to Oranges, so we **normalized** our data. Sometimes, that's enough to be able to draw direct comparisons. Once we are on the same scale, we can go ahead and use statistical tests to compare groups. But there's something else that matters, and that's whether our data can be represented **parametrically** or not. Don't worry, it's not as scary as it sounds. **Parametric** means that the data distribution can be represented using *parameters*, like mean and standard deviation. We learned that the normal distribution can be expressed in terms of mean and standard deviation, and any data that falls *normally* is parametric. But lots of data will *not* fall under a normal distribution. Never fear, the weirdos can be compared too. We use something called **nonparametric testing**. Yep, you guessed it. These tests don't represent the data with parameters. They tend to use *ranks* instead. For now, just know that in order to compare two samples, we need to make sure we know which tests to use given the normality of those samples.
+
+
 
 ```{r fig.align='center',message=FALSE}
 
@@ -172,22 +175,8 @@ shapiro.test(data$Lines[data$Language=="JavaScript"])
 
 ```
 
-## Which Language Uses More Lines per Function?
 ```{r fig.align='center',message=FALSE}
-data <- data %>%
-  group_by(Language) %>%
-  mutate(line_per_func = Lines/(FunctionDefs))
 
-
-plt = ggplot(data,aes(line_per_func,fill=Language))+
-  geom_histogram(aes(y=..count../sum(..count..)),show.legend = FALSE)+
-  facet_wrap(~Language)+
-  theme_bw()
-plt
-
-data %>%
-  group_by(Language) %>%
-  summarise(mean(line_per_func))
 
 ```
 

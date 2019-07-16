@@ -286,6 +286,7 @@ predictions <-predictions[order(predictions$n),]
 test <-test[order(test$n),]
 head(test)
 residuals <- test$num_projects_sum-predictions$prediction
-
+View(residuals)
+rmse(residuals)
 
 ```

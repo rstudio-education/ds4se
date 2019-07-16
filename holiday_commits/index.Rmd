@@ -33,7 +33,7 @@ We need to begin by getting **data**. Luckily [the GHTorrent project](http://ght
 The next piece of this is to not only understand that the data is being held on the Google Cloud (that we can access with SQL queries), but to understand how we can do that from our local machines, in R. We will use the [`bigrquery`](https://www.rdocumentation.org/packages/bigrquery/versions/0.4.1) package, with a tutorial [here](https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-bigquery). `bigrquery` allows us to link our R code to our project on the cloud. You will be asked to authenticate.
 
 
-## Alan Turing's Birthday Examples (learn some SQL)
+## Alan Turing's Birthday Examples (learn some SQL queries)
 
 Here are some examples for using `bigrquery` to access GHTorrent data. Here, we take a look at Alan Turing's birthday (June 23) for the year 2016.This should help you get the hang of some SQL commands and collecting data. These examples certainly don't answer anything of note, but perhaps you can think of more ways to make queries like these ones more meaningful.
 
@@ -160,7 +160,7 @@ plt
 ```
 
 
-```{r}
+```{r, message=FALSE}
 #let's do some important checks on outliers
 bp <- boxplot(year_commits$num_commits ~ year_commits$country)
 year_commits <- year_commits[!(year_commits$num_commits %in% bp$out),]
@@ -228,6 +228,11 @@ ggplot(scaled[scaled$isWeekend==0,], aes(x=num_commits,fill=country))+
 
 #not normal
 ddply(scaled,c('country','isWeekend'),summarise,mean = mean(num_commits),sd(num_commits))
+```
+
+## Logistic regression for predicting your weekend commits
+
+```{r}
 
 #is the holiday really any different from any other weekday?
 plot(scaled$num_commits,scaled$isWeekend) # plot with body size on x-axis and survival (0 or 1) on y-axis
@@ -251,6 +256,6 @@ plt
 
 ## Should we look at other years?
 
-## Logistic regression for predicting your weekend commits
+
 
 
