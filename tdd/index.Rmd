@@ -21,7 +21,7 @@ teach it, from process dogma based on pure intuition,
 allowing them to focus on aspects that matter most in
 terms of bottom line."*
 
-!["Design Thinking" model](../bin/images/design.png)
+!["Design Thinking" model emphasizes the iterative dynamic of creating something useful](../bin/images/design2.png)
 
 
 ## Test-Driven Development Process
@@ -34,11 +34,28 @@ terms of bottom line."*
 - test-first, test-last
 
 
+## Modeling Recipe
+> Here is a little recipe for modeling:
 
-```{r}
-data <- read.csv("../bin/data/dissectionTDD/dataset.csv",sep=";")
-head(data)
-```
+1. Define the outcome variable(s) that you care about
+
+2. Define the factors that might affect (1); be willing to iterate!
+
+3. Determine which kind of model can explain the data we see: `lm`,`glm`,`chisq`,`anova` etc. 
+
+4. Keep it as simple as possible, and try to include as few features and interactions as you can. *simpler is better, without underfitting*
+
+5. Determine an appropriate metric to evaluate the model: `rmse`, `R^2`, `AIC`, `BIC`, etc.
+
+6. Compare models to find the model with a nice balance between simplicity and **goodness of fit**.
+
+7. Continue to ask yourself; does this model actually make sense in the world? Even if it mathematically fits really well, is it plausible?
+
+8. If so, then you have a very reasonable model! If you can, test it on new data, or perform an experiment that confirms your hypotheses.
+
+9. Without experimentation, you cannot know anything about *causality*. Instead, your model provides a representation of the phenomenon and the factors involved.
+
+
 
 ## Outcomes We Care About
 
@@ -70,6 +87,10 @@ The following is taken directly from Table 2.
 - **Refactoring**: Indicates the prevalence of the 
 refactoring activity in the development process. A value close to zero indicates nearly no detectable refactoring activity (negligable refactoring effort). A value close to 100 indicates a process dominated by refactoring activity (high refactoring effort).
 
+```{r}
+data <- read.csv("../bin/data/dissectionTDD/dataset.csv",sep=";")
+head(data)
+```
 
 ## Descriptive Statistics
 There is a difference between **descriptive statistics** and **inferential statistics**. Descriptive statistics describe properties of the data; such as **means**, **ranges**, and **normality** of the variables of interest. Inferential statistics will draw the actual *conclusions* about the data; reporting on **correlations**, **hypothesis tests**, and **estimation of parameters**. Inferential statistics helps to generalize about a larger **population**, that can go beyond the descriptive statistics of an immediate sample.
@@ -111,15 +132,12 @@ If you jump ahead to the **Discussion**, we know that the eventual findings are:
 > We conclude that granularity, uniformity and refactoring effort together constitute
 the best explanatory factors for external quality [and] productivity.
 
-So what would that conclusion look like in model form? First off, the conclusion implies that `SEQ` does not matter, and is not even included in the best performing model. This is interesting, because so many people evangelize the Test-Driven Development technique! In fact, it's not the sequencing of when you write the tests, but the level to which you iterate rapidly when writing code that affects quality and productivity.
+So what would that conclusion look like in model form? First off, the conclusion implies that `SEQ` does not matter, and is not even included in the best performing model. This is interesting, because so many people evangelize the Test-Driven Development technique! In fact, it's not the sequencing of when you write the tests, but the level to which you iterate rapidly when writing code that affects quality and productivity. It could be the case that people attributed their success to the wrong factor: *test-first* or *test-last*, when in fact, iteration was key to success. 
 
-## AIC
-- complexity of models
-- simpler is better
-- information loss
-- we always need some way to evaluate a model
 
-*remember our recipe* -> outcome variable ~ factors, explain the data we see, as simply as possible. compare models to find simplest/best fit. That's our winner
+
+
+
 
 
 ```{r}
@@ -140,7 +158,19 @@ summary(lm(QLTY ~ GRA + UNI + REF + SEQ, data=data))$r.squared
 ```
 
 ## Let's Talk About Interactions
-This paper mentions something called **interactions**. We will walk through a more basic example of what an interaction is before exploring what it means in this context. You can imagine a scenario where 
+This paper mentions something called **interactions**. We will walk through a more basic example of what an interaction is before exploring what it means in this context. You can imagine a scenario where there is a **categorical variable**: `test_first`, which can take on either 1 or 0 if the developer tested first or last, respectively. Now imagine we also record whether developers are coding in the morning or the afternoon. *It just so happens in our fake scenario*, that if you test-first in the mornings, your quality skyrockets. If you test-first any other time, you don't get the same effect. Therefore, there is an interaction between testing first and the time of day. This is **problematic** because if we don't look into this interaction, we simply report a mean quality of somewhere in the middle; not accounting for how  the test sequencing and time of day is affecting that quality. **If there is an interaction, the lines in the categorical interaction plot will cross**.
+
+```{r}
+fake <- read.csv("../bin/data/fake_interaction.csv")
+head(fake,10)
+fake$morning <- as.factor(fake$morning)
+fake$test_first <- as.factor(fake$test_first)
+interaction.plot(factor(fake$test_first),factor(fake$morning),fake$QLTY)
+library(dplyr)
+fake %>%
+  group_by(test_first,morning) %>%
+  summarise(mean=mean(QLTY))
+```
 
 ```{r}
 cor(data$REF,data$SEQ)
@@ -150,6 +180,12 @@ cor(data$REF,data$SEQ)
 
 ## Interpreting Regression Output
 
+
+## AIC
+- complexity of models
+- simpler is better
+- information loss
+- we always need some way to evaluate a model
 
 ## Component + Residual Plots
 ```{r fig.height=6.5, fig.width=9.5}
