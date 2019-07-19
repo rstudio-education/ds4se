@@ -3,6 +3,7 @@ title: "Test-Driven Development: Does It Really Matter to Test-First or to Test-
 author: "Yim Register"
 date: "7/16/2019"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +14,7 @@ library(dplyr)
 
 In my experience, the world of software is an *opinionated* one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. The study we are using is: [*A Dissection of the Test-Driven Development
 Process: Does It Really Matter to Test-First or to
-Test-Last?*](https://arxiv.org/pdf/1611.05994.pdf)
+Test-Last?*](https://arxiv.org/pdf/1611.05994.pdf)[@fucci2016dissection]
 Below is an excellent quote from the paper, highlighting how statistics can separate the relevant findings from other distracting factors:
 
 > *"This information can liberate developers and organizations
@@ -219,4 +220,6 @@ print(AIC(new_m))
 ```
 
 
-You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!
+### You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!
+
+## References

@@ -381,7 +381,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>In my experience, the world of software is an <em>opinionated</em> one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. The study we are using is: <a href="https://arxiv.org/pdf/1611.05994.pdf"><em>A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?</em></a> Below is an excellent quote from the paper, highlighting how statistics can separate the relevant findings from other distracting factors:</p>
+<p>In my experience, the world of software is an <em>opinionated</em> one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. The study we are using is: <a href="https://arxiv.org/pdf/1611.05994.pdf"><em>A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?</em></a><span class="citation">(Fucci et al. 2016)</span> Below is an excellent quote from the paper, highlighting how statistics can separate the relevant findings from other distracting factors:</p>
 <blockquote>
 <p><em>“This information can liberate developers and organizations who are interested in adopting TDD, and trainers who teach it, from process dogma based on pure intuition, allowing them to focus on aspects that matter most in terms of bottom line.”</em></p>
 </blockquote>
@@ -654,7 +654,7 @@ crPlots(m)</code></pre>
 <div id="interpreting-regression-output" class="section level2">
 <h2>Interpreting Regression Output</h2>
 <p>Here I’ve used a <strong>general linear model</strong> to map out the factors affecting code quality. In the paper, they systematically included or excluded different factors and their interactions, in order to find the best fitting model. “Finding the best fitting model” means finding which combination of factors, and in what weights, best represents the relationship between those factors and the outcome we care about (quality or productivity). Remember, you could always add more and more factors to a model; the code will still output an answer. But it doesn’t mean it’s a <em>correct</em> model, or a <em>useful</em> one.</p>
-<p>Looking at the final model used in the paper, we see that the factors kept were <strong>Granularity, Uniformity, and Refactoring</strong> in order to model <strong>Code Quality</strong>. This is particuarly interesting because <strong>Sequencing</strong> is <em>not</em> a factor in the model. The big question from software engineers was about <em>test-first</em> vs. <em>test-last</em>, but it turns out that it really doesn’t matter. The other factors are more important, and have a <em>negative relationship</em> with code quality. That negative relationship is because of how the measures were formulated; the closer to 0, the more granular and uniform the cycles were. So, the smaller the values for <code>GRA</code>, <code>UNI</code> and <code>REF</code>, the higher the value on <code>QLTY</code>. By looking at the output of the summary of the model, we see the Estimates as negative, and significant (or at least marginally significant). You can see significance by noting the number of stars (***) by each factor. (.) indicates a marginal trend. All of those significance factors are basically saying “hey! these factors are contributing to this outcome in a meaningful way!”</p>
+<p>Looking at the final model used in the paper, we see that the factors kept were <strong>Granularity, Uniformity, and Refactoring</strong> in order to model <strong>Code Quality</strong>. This is particuarly interesting because <strong>Sequencing</strong> is <em>not</em> a factor in the model. The big question from software engineers was about <em>test-first</em> vs. <em>test-last</em>, but it turns out that it really doesn’t matter. The other factors are more important, and have a <em>negative relationship</em> with code quality. That negative relationship is because of how the measures were formulated; the closer to 0, the more granular and uniform the cycles were. So, the smaller the values for <code>GRA</code>, <code>UNI</code> and <code>REF</code>, the higher the value on <code>QLTY</code>. By looking at the output of the summary of the model, we see the Estimates as negative, and significant (or at least marginally significant). You can see significance by noting the number of stars (***) by each factor. (.) indicates a marginal trend. The t value is also indicative of how large the effect is, with the absolute value of t indicating significance. All of those significance factors are basically saying “hey! these factors are contributing to this outcome in a meaningful way!”</p>
 <pre class="r"><code>summary(m)</code></pre>
 <pre><code>## 
 ## Call:
@@ -689,6 +689,17 @@ crPlots(m)</code></pre>
 <pre class="r"><code>new_m &lt;- glm(QLTY~GRA+UNI+REF+SEQ,data=data)
 print(AIC(new_m))</code></pre>
 <pre><code>## [1] 713.4556</code></pre>
+<div id="you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data" class="section level3">
+<h3>You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</h3>
+</div>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-fucci2016dissection">
+<p>Fucci, Davide, Hakan Erdogmus, Burak Turhan, Markku Oivo, and Natalia Juristo. 2016. “A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?” <em>IEEE Transactions on Software Engineering</em> 43 (7): 597–614.</p>
+</div>
+</div>
 </div>
 
 
