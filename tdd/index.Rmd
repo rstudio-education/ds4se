@@ -7,6 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
 ```
 
 
@@ -137,6 +138,8 @@ So what would that conclusion look like in model form? First off, the conclusion
 
 
 
+## Regression Analysis vs. Hypothesis Testing
+- explain how because theyre all continuous variables, we dont do hypothesis testing. we use regression
 
 
 
@@ -166,26 +169,26 @@ head(fake,10)
 fake$morning <- as.factor(fake$morning)
 fake$test_first <- as.factor(fake$test_first)
 interaction.plot(factor(fake$test_first),factor(fake$morning),fake$QLTY)
-library(dplyr)
+
+```
+
+Take a look at the means when we *do* take into account the interaction, looking at both `test_first` and `morning` as contributing to `QLTY`. If we *only* look at one or the other, our means are misleading, because clearly there is another factor affecting the code quality! Sure, we could say that on average the code quality is somewhere in the middle; but it's disingenuous because the truth is that your code quality will suffer if you're using test_first in the afternoon. (In this **fake data**, of course). In order to truly represent the phenomenon, we have to include results about the interaction.
+
+```{r}
+
 fake %>%
   group_by(test_first,morning) %>%
   summarise(mean=mean(QLTY))
+
+fake %>%
+  group_by(test_first) %>%
+  summarise(mean=mean(QLTY))
+
+fake %>%
+  group_by(morning) %>%
+  summarise(mean=mean(QLTY))
+
 ```
-
-```{r}
-cor(data$REF,data$SEQ)
-## Component Residual Plots
-
-```
-
-## Interpreting Regression Output
-
-
-## AIC
-- complexity of models
-- simpler is better
-- information loss
-- we always need some way to evaluate a model
 
 ## Component + Residual Plots
 ```{r fig.height=6.5, fig.width=9.5}
@@ -196,5 +199,20 @@ crPlots(m)
 
 ```
 
-## Regression Analysis vs. Hypothesis Testing
-- explain how because theyre all continuous variables, we dont do hypothesis testing. we use regression
+## Interpreting Regression Output
+Here I've used a **general linear model** to map out the factors affecting code quality. In the paper, they systematically included or excluded different factors and their interactions, in order to find the best fitting model. "Finding the best fitting model" means finding which combination of factors, and in what weights, best represents the relationship between those factors and the outcome we care about (quality or productivity). Remember, you could always add more and more factors to a model; the code will still output an answer. But it doesn't mean it's a *correct* model, or a *useful* one.
+
+Looking at the final model used in the paper, we see that the factors kept were **Granularity, Uniformity, and Refactoring** in order to model **Code Quality**. This is particuarly interesting because **Sequencing** is *not* a factor in the model. The big question from software engineers was about *test-first* vs. *test-last*, but it turns out that it really doesn't matter. The other factors are more important, and have a *negative relationship* with code quality. That negative relationship is because of how the measures were formulated; the closer to 0, the more granular and uniform the cycles were. So, the smaller the values for `GRA`, `UNI` and `REF`, the higher the value on `QLTY`. By looking at the output of the summary of the model, we see the Estimates as negative, and significant (or at least marginally significant). You can see significance by noting the number of stars (***) by each factor. (.) indicates a marginal trend. All of those significance factors are basically saying "hey! these factors are contributing to this outcome in a meaningful way!"
+```{r}
+summary(m)
+
+```
+
+## AIC (Akaike Information Criterion: Evaluating How Good a Model Is)
+
+- complexity of models
+- simpler is better
+- information loss
+- we always need some way to evaluate a model
+
+
