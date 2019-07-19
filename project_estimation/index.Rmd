@@ -7,6 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
 ```
 
 
@@ -48,6 +49,7 @@ accurate estimators?*
 source("../bin/data/ESEUR_config.r")
 
 library("plyr")
+library("dplyr")
 library("reshape2")
 library("ggplot2")
 ```
@@ -129,27 +131,44 @@ plt
 We have an opportunity here to highlight *individual differences* as a factor in experimental design and statistical testing. The design from this study is *within-subjects*. That means that the things we are comparing were done by the same people, who participated in more than one trial in the task. A *between-subjects* study would have completely different populations take part in different conditions, and they would only participate in one of those conditions being compared. **Within-subjects design mandates different statistics than Between-subjects design**. 
 
 ## Correlation (Misleading)
-We have explored the idea of looking at the strength of a linear relationship through correlation. It might seem intuitive that correlation between the **First Estimate** and **Second Estimate** could tell us something about rater accuracy.
-TODO:
-make the (false and misleading) case for correlation as accuracy
-demo on perfectly correlated, but inaccurate, data
+We have explored the idea of looking at the strength of a linear relationship through **correlation**. It might seem intuitive that correlation between the **First Estimate** and **Second Estimate** could tell us something about rater accuracy. Let's look into this correlation. First of all, we test the normality of our responses. Neither of the distributions are normally distributed, meaning that we need to employ a rank-based (nonparametric) method when looking at correlation. Here we use a method referring to *Kendall's Tau*. Our result is `.69` which indicates a moderately strong correlation between the first and second estimate. So, they must be pretty close then, right? If they're strongly correlated, it's gotta be that they're related enough to be accurate.
+
 ```{r}
 
-
+shapiro.test(tasks$Estimate.1)
+shapiro.test(tasks$Estimate.2)
 # Correlation is a misleading method of comparing accuracy
-cor.test(tasks$Estimate.1, tasks$Estimate.2)
+cor.test(tasks$Estimate.1, tasks$Estimate.2,method="kendall")
 
 # Percentage difference?
 # This is one of those awkward cases... TODO: switch brain
 # library("boot")
 
 ```
+### Don't fall for my logic!
+![](../bin/images/trap.jpg)
 
-## Relative Inconsistency (RIncons)
+Let's fabricate a scenario in which the two estimates are perfectly correlated but wildly different from each other. Clearly, correlation doesn't say anything about how reliable the estimates are. But it probably is saying *something* about the developer's ability to judge a project. What does a strong correlation indicate?
+
 ```{r}
- 
+first <- c (1,4,3,7,5,4,10,3,12)
+  
+second <- first *5.3 #any scalar ensures they will be perfectly correlated
 
+second
+
+plot(first,second)
+cor(first,second)
+
+#we could do it negatively too; the relationship would still be very strong
+negative <- first *-5.3
+cor(first,negative)
+
+error <- abs(mean(first) - mean(second))
+error #the error is pretty bad. on average, the second estimate was 34 hours off from the first. no bueno
 ```
+
+So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was **reliable** and if the measure was **valid**. Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take?
 
 ## Effort Estimation: Accuracy and Bias
 ```{r}
@@ -163,45 +182,35 @@ cor.test(tasks$Estimate.1, tasks$Estimate.2)
 
 library("foreign")
 
-pal_col=rainbow(2)
 
 
 kitch=read.arff(paste0(ESEUR_dir, "../bin/data/estimation/82507128-kitchenham.arff.txt"))
 jorg=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/Regression-models.csv.xz"), as.is=TRUE)
 
-plot(kitch$First.estimate/100, kitch$Actual.effort/100, log="xy", col=pal_col[1],
-	xlim=c(5, max(kitch$First.estimate))/100,
-	ylim=c(5, max(kitch$Actual.effort))/100,
-	xlab="Estimate (100 hours)", ylab="Actual\n")
 
-points(jorg$Estimated.effort/100, jorg$Actual.effort/100, col=pal_col[2])
+data <- kitch %>% 
+  select(First.estimate,Actual.effort)
+data$Paper <- "Kitchenham"
 
-lines(c(5, 1e5)/100, c(5, 1e5)/100, col="grey")
+jorg <- jorg %>%
+  select(Estimated.effort,Actual.effort)
+jorg$Paper <- "Jorgensen"
+colnames(jorg) <- c("First.estimate","Actual.effort","Paper")
 
-legend(x="bottomright", legend=c("Kitchenham", "Jørgensen"), bty="n", fill=pal_col, cex=1.2)
+data<-rbind(data,jorg)
 
-# 
-# plot(kitch$First.estimate, kitch$Adjusted.function.points, log="xy", col=point_col,
-# 	xlab="Estimate", ylab="Adjusted.function.points\n")
-# 
-# plot(kitch$Actual.effort, kitch$Adjusted.function.points, log="xy", col=point_col,
-# 	xlab="Actual", ylab="Function points\n")
-# 
-# library("MASS")
-# 
-# e_mod=glm(Actual.effort ~ (First.estimate+Adjusted.function.points
-# 				+Client.code+Project.type
-# 				+First.estimate.method)^2
-# 				, data=kitch)
-# 
-# t=stepAIC(e_mod)
-# summary(t)
-# 
-# 
-# e_mod=glm(formula = Actual.effort ~ First.estimate
-#     + First.estimate:Adjusted.function.points
-#     + First.estimate:Client.code
-#     , data = kitch)
-# 
-# summary(e_mod)
+plt = ggplot(data,aes(First.estimate/100,Actual.effort/100,color=Paper))+
+  scale_x_continuous(trans='log') +
+  scale_y_continuous(trans='log')+
+  ggtitle("Developer Effort Estimate vs. Actual (2 sources)",subtitle="log scale")+
+  xlab("Estimate")+
+  ylab("Actual")+
+  geom_point()+
+  geom_abline(slope=1,linetype="dashed")+
+  theme_bw()
+plt
+#ggsave("estimateactual.png",plt)
+
+
+
 ```
