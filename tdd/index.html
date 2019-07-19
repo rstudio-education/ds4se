@@ -681,14 +681,14 @@ crPlots(m)</code></pre>
 ## 
 ## Number of Fisher Scoring iterations: 2</code></pre>
 </div>
-<div id="aic-akaike-information-criterion-evaluating-how-good-a-model-is" class="section level2">
-<h2>AIC (Akaike Information Criterion: Evaluating How Good a Model Is)</h2>
-<ul>
-<li>complexity of models</li>
-<li>simpler is better</li>
-<li>information loss</li>
-<li>we always need some way to evaluate a model</li>
-</ul>
+<div id="evaluating-how-good-a-model-is-aic" class="section level2">
+<h2>Evaluating How Good a Model Is (AIC)</h2>
+<p>How do we determine which model is the “right” one? Well, there’s a few ways to do that. Sometimes, we simply look at how good the model is at predicting test data. In this case, we are using something called AIC (Akaike Information Criterion). This is a very specific way of evaluating a model that deals with <em>preserving information</em>. It’s interesting and cool, and strikes a nice balance between <em>goodness of fit</em> and <em>simplicity</em> (not throwing too many parameters into the model). It’s okay if that doesn’t make sense; just know that a lower AIC indicates a “better” model. Notice how if we include <code>SEQ</code> in the model, the AIC is higher.</p>
+<pre class="r"><code>print(AIC(m))</code></pre>
+<pre><code>## [1] 711.5502</code></pre>
+<pre class="r"><code>new_m &lt;- glm(QLTY~GRA+UNI+REF+SEQ,data=data)
+print(AIC(new_m))</code></pre>
+<pre><code>## [1] 713.4556</code></pre>
 </div>
 
 
