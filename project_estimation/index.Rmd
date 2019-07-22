@@ -15,7 +15,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 We have talked a bit about how it's important to properly operationalize what we measure. Not to add more to your plate, but even if we get the right *measurement*, and do the correct *statistics*, when you're studying people, the *reliability of measurement* also matters. This lesson will highlight both a software engineering question (predicting when a project will be done), and how to think of reliability of what you measure. After walking through the [*Need for Sleep*](https://github.com/rstudio-education/ds4se/blob/master/sleep_deprive/index.Rmd) lesson, you're surely realizing how careful we have to be with our experimental setup. You can imagine that the best way to know if something is "true" is to test a concept over and over again, under lots of different circumstances, and see if your results hold true. Imagine testing participants on multiple occasions, trying to not only test your hypothesis, but seeing how steady that hypothesis holds over time. All of that is ideal, of course. Most of the time, there is limited resources, limited participants, limited time, and a rush towards a deadline. But convenience should never get in the way of good science. So let's take a look at how unreliable measurements might be.
 
-In the following study, *Inconsistency of expert judgment-based estimates of software development effort*, expert participants rated how much effort (work-hours) they estimate for sixty software projects. They unknowingly rated six of those projects *twice*, helping to answer questions about the reliability of professional judgments about software effort estimation.
+In the following study, [*Inconsistency of expert judgment-based estimates of software development effort*](https://www.sciencedirect.com/science/article/pii/S0164121207000714), expert participants rated how much effort (work-hours) they estimate for sixty software projects. They unknowingly rated six of those projects *twice*, helping to answer questions about the reliability of professional judgments about software effort estimation. The paper tries to answer the following research question:
+
+> *How consistent are software professionals’ expert
+judgment-based effort estimates?*
+
 
 
 This lesson is going to explore how we estimate how long software will take to finish (or your homework, for that matter). We will explore several statistical and scientific concepts:
@@ -28,14 +32,11 @@ This lesson is going to explore how we estimate how long software will take to f
 - within-subjects testing
 - mixed models
 
-> *How consistent are software professionals’ expert
-judgment-based effort estimates?*
 
-> *Do more accurate estimators have more consistent
-expert judgment-based effort estimates than less
-accurate estimators?*
 
-```{r}
+## Load Your Libraries
+
+```{r, message=FALSE,warning=FALSE}
 #
 # inconsistency_est.R,  9 Sep 17
 # Data from:
@@ -125,7 +126,23 @@ plt
 #ggsave("reliability.png",plt)
 
 ```
+```{r}
+shapiro.test(tasks$Estimate.1)
+shapiro.test(tasks$Estimate.2)
 
+
+plt = ggplot(tasks,aes(Estimate.1,Estimate.2,color=Task))+
+  geom_point()+
+  theme_bw()+
+  ggtitle("Repeated estimates of effort for six software tasks")+
+  xlab("First Estimate")+
+  ylab("Second Estimate")+
+  geom_abline(slope=1,linetype="dashed")+
+  scale_x_continuous(trans='log10') +
+  scale_y_continuous(trans='log10')
+plt
+
+```
 ## Within-Subjects and Mixed Modeling
 
 We have an opportunity here to highlight *individual differences* as a factor in experimental design and statistical testing. The design from this study is *within-subjects*. That means that the things we are comparing were done by the same people, who participated in more than one trial in the task. A *between-subjects* study would have completely different populations take part in different conditions, and they would only participate in one of those conditions being compared. **Within-subjects design mandates different statistics than Between-subjects design**. 
