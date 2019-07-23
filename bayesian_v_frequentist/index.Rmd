@@ -23,3 +23,49 @@ Let's try to concisely summarize what we have been doing so far, as we obtain *p
 
 ## Bayesian Statistics
 
+
+
+
+
+
+
+## Original Study
+they use a U test
+
+```{r}
+library(ggplot2)
+data <- read.csv("../bin/data/agile/survey.csv")
+head(data)
+
+
+
+
+plt <- ggplot(data[data$type=="Structured",],aes(outcome)) + 
+  geom_histogram(aes(y = ..density..), bins=25,color="black")+
+  geom_density(aes(y = ..density..),color="black",fill="black", alpha=.2,stat = 'density')+
+  theme_bw()
+  
+plt
+shapiro.test(data$outcome[data$type=="Structured"])
+
+
+plt <- ggplot(data[data$type=="Agile",],aes(outcome)) + 
+  geom_histogram(aes(y = ..density..), bins=25,color="black")+
+  geom_density(aes(y = ..density..),color="black",fill="black", alpha=.2,stat = 'density')+
+  theme_bw()
+  
+plt
+shapiro.test(data$outcome[data$type=="Agile"])
+
+
+#HERE IS THE U TEST THEY DID
+wilcox.test(data$outcome[data$type=="Agile"],data$outcome[data$type=="Structured"])
+
+
+# larger scale study they ran, we will do the bayesian analysis here
+itp <- read.csv("../bin/data/agile/itproj.csv")
+head(itp)
+
+#PS the bayesian analysis turns out the same as the frequentist though, so why are we doing this
+```
+
