@@ -342,17 +342,19 @@ cowplot::plot_grid(plt1, plt2,
 ## So Can We Estimate Resources or Not?
 What is the biggest problem with these studies? I'll give you a hint. Have you ever looked at a project overview, and said to yourself "hmm, seems simple enough!" only to find yourself deep into a rabbit hole at 4am working on configuring some weird dependencies to allow you to do the nine other tasks you have to do before you can do the first thing for the project? How about the other way around; have you looked at a project spec and panicked, knowing it will take you *forever* until you realize that the package is actually pretty simple and you can probably finish this on time if the stars align just right? What I'm getting at is: *project estimation changes as you gain new information*. If I were to ask you how long something would take before you'd really started to try it, there's a good chance your estimation will be inaccurate. But what about when you've spent countless hours and are actually almost done? Will you be able to tell me how much you actually have left? Once you've worked with something for a while, you should probably get a better gauge of how long those types of problems take to complete. This concept is referred to as **the cone of uncertainty**. The idea is that as you get new information about a project, you can make more accurate judgments about the time to completion on that project. That makes some intuitive sense, but keep in mind that *by definition* you will converge to **1x** the project length by the end, because "it is what it is". Take a moment to discuss with a partner (or your cat, whatever) about this concept.
 
+
+
 ![](../bin/images/cone.png)
 
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&rep=rep1&type=pdf
+
 https://github.com/Derek-Jones/ESEUR-code-data/blob/master/projects/Little-cone.R
 
 ## Estimate Updating
 
+What if you were to take *multiple* estimates as the project progressed? 
+
 ```{r}
-
-
-
 
 # Project Code,Week End Date,Target RelDate,Env,Plan,Dev,Stab,Mob,Adj Week,Est EndDate,First Est,Actual Release,Start Date,X,Absolute Ratio,Relative Ratio,Update,Absolute ratio without factor 2,,Eind project,Oppervlakte,Counter,Som oppervlakte,EQF all,EQF end,Eind project factor 2,Oppervlakte factor 2,Counter factor 2,Som oppervlakte factor 2,EQF all factor 2,EQF end factor 2
 # 1,12/01/00,03/01/01,C,C,I,,,12/01/00,03/01/01,03/01/01,08/22/01,12/01/00,0.00,0.6770156819,2.95,1,0.33851,,0,0.0085951791,1,0,4235.7284514877,0,0,0.0176034663,1,0,#DIV/0!,0
@@ -366,6 +368,7 @@ est$First.Est=as.Date(est$First.Est, format="%m/%d/%y")
 est$Actual.Release=as.Date(est$Actual.Release, format="%m/%d/%y")
 est$Start.Date=as.Date(est$Start.Date, format="%m/%d/%y")
 est$est_duration=est$First.Est-est$Start.Date
+
 
 
 mk_target_unique=function(df)
@@ -385,10 +388,12 @@ return(data.frame(est_duration=df$est_duration[1], num_reest=nrow(df)))
 u_est=ddply(est, .(Project.Code), mk_target_unique)
 t_sum=ddply(u_est, .(Project.Code), target_summary)
 
-plot(t_sum$est_duration,t_sum$num_reest, col=point_col,
-	xlab="Initial estimated duration (days)", ylab="Number of estimates")
-
-lines(loess.smooth(t_sum$est_duration, t_sum$num_reest, span=0.5, family="gaussian"), col="green")
+ggplot(t_sum,aes(est_duration,num_reest))+
+  geom_point(color="#00BFC4")+
+  xlab("Initial estimated duration (days)")+
+  ylab("Number of estimates")+
+  stat_smooth(method="loess",color="black")+
+  theme_bw()
 ```
 
 ```{r}
@@ -408,13 +413,19 @@ est$AE_ratio=as.integer(est$Actual.Release-est$Start.Date)/as.integer(est$Target
 est=subset(est, Week.End.Date <= Actual.Release)
 u_est=ddply(est, .(Project.Code), mk_target_unique)
 
-plot(u_est$percent_comp,u_est$AE_ratio, col=point_col,
-	xlab="Percentage completed", ylab="Actual/Estimated")
+x_vals=seq(from=10, to=100,by=((100 - 10)/(length(u_est$percent_comp) - 1))) #just some slight coercing so we can draw our lines!
 
-x_vals=10:100
-lines(x_vals, 100/x_vals, col=pal_col[1])
 
-lines(c(0, 100), c(1, 1), col=pal_col[2])
+ggplot(u_est,aes(percent_comp,AE_ratio))+
+  geom_point(color="#00BFC4")+
+  geom_line(aes(x_vals,100/x_vals))+
+  geom_hline(yintercept=1)+
+  xlab("Percentage completed")+
+  ylab("Actual/Estimated")+
+  theme_bw()
+
+
+
 
 
 
