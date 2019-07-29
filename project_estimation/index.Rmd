@@ -29,7 +29,6 @@ This lesson is going to explore how we estimate how long software will take to f
 - features that could matter
 - data wrangling
 - accuracy
-- within-subjects testing
 - mixed models
 
 
@@ -143,9 +142,7 @@ plt = ggplot(tasks,aes(Estimate.1,Estimate.2,color=Task))+
 plt
 
 ```
-## Within-Subjects and Mixed Modeling
 
-We have an opportunity here to highlight *individual differences* as a factor in experimental design and statistical testing. The design from this study is *within-subjects*. That means that the things we are comparing were done by the same people, who participated in more than one trial in the task. A *between-subjects* study would have completely different populations take part in different conditions, and they would only participate in one of those conditions being compared. **Within-subjects design mandates different statistics than Between-subjects design**. 
 
 ## Correlation (Misleading)
 We have explored the idea of looking at the strength of a linear relationship through **correlation**. It might seem intuitive that correlation between the **First Estimate** and **Second Estimate** could tell us something about rater accuracy. Let's look into this correlation. First of all, we test the normality of our responses. Neither of the distributions are normally distributed, meaning that we need to employ a rank-based (nonparametric) method when looking at correlation. Here we use a method referring to *Kendall's Tau*. Our result is `.69` which indicates a moderately strong correlation between the first and second estimate. So, they must be pretty close then, right? If they're strongly correlated, it's gotta be that they're related enough to be accurate.
@@ -185,7 +182,7 @@ error <- abs(mean(first) - mean(second))
 error #the error is pretty bad. on average, the second estimate was 34 hours off from the first. no bueno
 ```
 
-So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was **reliable** and if the measure was **valid**. Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take?
+So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was **reliable** and if the measure was **valid**. Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take? The following two studies report data on this, with develpers reporting in *hundreds of hours* how long they think a project will take to finish, against how long it actually took in reality. Both Jorgensen and Kitchenham data are plotted together.
 
 ## Effort Estimation: Accuracy and Bias
 ```{r}
@@ -197,7 +194,7 @@ So, we've looked into *reliability* of measurement, but we still haven't compare
 
 
 
-library("foreign")
+library("foreign") #just to read in the arff file
 
 
 
@@ -227,6 +224,170 @@ plt = ggplot(data,aes(First.estimate/100,Actual.effort/100,color=Paper))+
   theme_bw()
 plt
 #ggsave("estimateactual.png",plt)
+
+```
+
+## Data Visualizations: A tricky statistical tool
+
+Remember when we took a look at the First vs. Second estimate data? We chose to plot using log/log scale, and we have just done the same for the Estimate vs. Actual data, above. Just remember that visualizations are also statistical communication tools; a plot can guide your story in ways you might not even anticipate. So for instance, in the plot above, we do see some variation around the *ideal line* (dashed), but it doesn't seem drastic. We also see that the slopes are roughly similar between the Jorgensen and Kitchenham data, just by using our eye. We can say a lot of things by simply looking at the red and blue dots and their shape, but the visualization can easily prime us to agree with one hypothesis over another. So it is always important to delve into the data, and explore it on different scales, different transformations, paying attention to some of the things we have already taught; like normality testing and curve fitting. There is nothing *wrong* with how this data has been presented, it is just important to see how the communication changes over different forms of visualization. So let's take a look at this plot *not* using a log transformation of the axes:
+
+## Without a Log Transformation
+
+```{r}
+
+plt = ggplot(data,aes(First.estimate/100,Actual.effort/100,color=Paper))+
+  ggtitle("Developer Effort Estimate vs. Actual (2 sources)")+
+  xlab("Estimate")+
+  ylab("Actual")+
+  geom_point()+
+  geom_abline(slope=1,linetype="dashed")+
+  theme_bw()
+plt
+```
+
+Well, there's a significant outlier that becomes much clearer in this representation. It is still visible in the original visualization, but log scale warps the *orders of magnitude*, affecting the distance between points that in raw form are actually much further from each other. It's quite difficult to see the rest of the data, and since there is no actual reason to remove that outlier (it's still a perfectly true estimate!), the only way to see the rest is to "zoom in". The log transformed plot does not have this problem. Let's take a look, even closer on the raw form.
+
+### Zoom In
+
+```{r}
+
+plt = ggplot(data,aes(First.estimate/100,Actual.effort/100,color=Paper))+
+  ggtitle("Developer Effort Estimate vs. Actual (2 sources)")+
+  xlab("Estimate")+
+  ylab("Actual")+
+  geom_point()+
+  xlim(0,100)+
+  ylim(0,150)+
+  geom_abline(slope=1,linetype="dashed")+
+  theme_bw()
+plt
+
+```
+
+Note how the distance from the *ideal line* is more exaggerated now. You can more clearly see that developer *estimates* differed from the *actual* hours. We have yet another layer of "orders of magnitude" that is slightly hidden from us. Remember that the measurement we are working with is *hundreds of hours*. For the actual visualizations, this doesn't matter, but for the seriousness of the actual phenomenon, **it matters**. In the scaled plot (hundreds of hours), the worst underestimate was 1.2 hours for a 7.2 hour job. 6 hours is just an afternoon, right? Well, the worst underestimate was an inital estimate of `121` hours, with an actual time of `718` hours. This is *5.9 times more than the original estimate*, and a difference of 597 hours (maybe months, depending on how many people are working!). From the original plot, and from the rescaling of the points, it was not as clear to me that some projects suffered from such delusion. 
+
+Let's briefly look at the most overestimated project and the most underestimated project. We can actually use the histogram visualization to note that the maximum underestimate is actually pretty bad; an outlier from the rest of the distribution! In fact, there are quite a few outliers. A reminder that outliers are abnormal values with regards to the mean and the distribution, but should still be investigated carefully. Not every outlier can simply be thrown out; because they may be perfectly reasonable with regards to the underlying process. In our case, there was one project that was estimated to take `79870 hours`, which then used `113930 hours` to complete. This may be an outlier from *this* data distribution, but it is not unreasonable for the actual phenomena we are looking at. I'm sure there are plenty of projects within that range, or longer. Our initial sample just wasn't covering larger projects. There is nothing inherent about that outlier that is not relevant to the process we are investigating: estimated time vs. actual time. Below, we see an investigation into the histogram of the ratios (spread), and the boxplot representation (*horizontally aligned*).
+
+```{r}
+data <- data %>%
+  mutate(Ratio= Actual.effort/First.estimate)
+
+data[data$Ratio == max(data$Ratio),]
+data[data$Ratio == min(data$Ratio),]
+
+
+
+plt1 <- data %>% select(Ratio) %>%
+  ggplot(aes(x="", y = Ratio)) +
+  geom_boxplot(fill = "lightblue", color = "black") + 
+  coord_flip() +
+  theme_classic() +
+  xlab("") +
+  theme(axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+
+plt2 <- data %>% select(Ratio) %>%
+  ggplot() +
+  geom_histogram(aes(x = Ratio, y = (..count..)/sum(..count..)),
+                 position = "identity", binwidth = 1, 
+                 fill = "lightblue", color = "black") +
+  ylab("Relative Frequency") +
+  theme_classic()
+
+
+
+cowplot::plot_grid(plt2, plt1, 
+                   ncol = 1, rel_heights = c(2, 1),
+                   align = 'v', axis = 'lr')
+
+```
+
+### Zoom in on Jorgensen Data
+
+```{r}
+
+plt = ggplot(data[data$Paper=="Jorgensen",],aes(First.estimate/100,Actual.effort/100,color=Paper))+
+  ggtitle("Developer Effort Estimate vs. Actual (2 sources)")+
+  xlab("Estimate")+
+  ylab("Actual")+
+  geom_point()+
+  geom_abline(slope=1,linetype="dashed")+
+  theme_bw()
+plt
+
+```
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&rep=rep1&type=pdf
+https://github.com/Derek-Jones/ESEUR-code-data/blob/master/projects/Little-cone.R
+
+## Estimate Updating
+
+```{r}
+
+
+
+
+# Project Code,Week End Date,Target RelDate,Env,Plan,Dev,Stab,Mob,Adj Week,Est EndDate,First Est,Actual Release,Start Date,X,Absolute Ratio,Relative Ratio,Update,Absolute ratio without factor 2,,Eind project,Oppervlakte,Counter,Som oppervlakte,EQF all,EQF end,Eind project factor 2,Oppervlakte factor 2,Counter factor 2,Som oppervlakte factor 2,EQF all factor 2,EQF end factor 2
+# 1,12/01/00,03/01/01,C,C,I,,,12/01/00,03/01/01,03/01/01,08/22/01,12/01/00,0.00,0.6770156819,2.95,1,0.33851,,0,0.0085951791,1,0,4235.7284514877,0,0,0.0176034663,1,0,#DIV/0!,0
+est=read.csv(paste0(ESEUR_dir, "../bin/data/Little06.csv.xz"), as.is=TRUE)
+
+est$Week.End.Date=as.Date(est$Week.End.Date, format="%m/%d/%y")
+est$Target.RelDate=as.Date(est$Target.RelDate, format="%m/%d/%y")
+est$Adj.Week=as.Date(est$Adj.Week, format="%m/%d/%y")
+est$Est.EndDate=as.Date(est$Est.EndDate, format="%m/%d/%y")
+est$First.Est=as.Date(est$First.Est, format="%m/%d/%y")
+est$Actual.Release=as.Date(est$Actual.Release, format="%m/%d/%y")
+est$Start.Date=as.Date(est$Start.Date, format="%m/%d/%y")
+est$est_duration=est$First.Est-est$Start.Date
+
+
+mk_target_unique=function(df)
+{
+# The same Target release date might be estimated again after a change of date,
+# so duplicated cannot be used.  rle only works with atomic types
+t=cumsum(c(1, head(rle(as.integer(df$Target.RelDate))$lengths, n=-1)))
+return(df[t, ])
+}
+
+target_summary=function(df)
+{
+return(data.frame(est_duration=df$est_duration[1], num_reest=nrow(df)))
+}
+
+
+u_est=ddply(est, .(Project.Code), mk_target_unique)
+t_sum=ddply(u_est, .(Project.Code), target_summary)
+
+plot(t_sum$est_duration,t_sum$num_reest, col=point_col,
+	xlab="Initial estimated duration (days)", ylab="Number of estimates")
+
+lines(loess.smooth(t_sum$est_duration, t_sum$num_reest, span=0.5, family="gaussian"), col="green")
+```
+
+```{r}
+pal_col=rainbow(2)
+mk_target_unique=function(df)
+{
+# The same Target release date might be estimated again after a change of date,
+# so duplicated cannot be used.  rle only works with atomic types
+t=cumsum(c(1, head(rle(as.integer(df$Target.RelDate))$lengths, n=-1)))
+return(df[t, ])
+}
+
+
+
+est$percent_comp=100*as.integer(est$Week.End.Date-est$Start.Date)/as.integer(est$Actual.Release-est$Start.Date)
+est$AE_ratio=as.integer(est$Actual.Release-est$Start.Date)/as.integer(est$Target.RelDate-est$Start.Date)
+est=subset(est, Week.End.Date <= Actual.Release)
+u_est=ddply(est, .(Project.Code), mk_target_unique)
+
+plot(u_est$percent_comp,u_est$AE_ratio, col=point_col,
+	xlab="Percentage completed", ylab="Actual/Estimated")
+
+x_vals=10:100
+lines(x_vals, 100/x_vals, col=pal_col[1])
+
+lines(c(0, 100), c(1, 1), col=pal_col[2])
+
 
 
 
