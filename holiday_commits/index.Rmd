@@ -57,11 +57,39 @@ from [ghtorrent-bq.ght.project_commits] pc join
 group by language
 order by num_commits desc;"
 
+r_sql <- "select  p.language as language, date(created_at) as day,count(c.id) as num_commits
+from [ghtorrent-bq.ght.project_commits] pc join
+     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+     date(created_at) between date('2012-01-01')
+                          and  date('2016-09-05') )c on pc.commit_id = c.id join
+     (SELECT id, language, description
+     FROM [ghtorrent-bq.ght.projects] WHERE language == 'R' || language == 'Python')p on p.id = pc.project_id join
+     (SELECT login,  id
+     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+group by language,day
+order by num_commits desc;"
 
 
-example  <- query_exec(sql_example, project = project, useLegacySql = FALSE)
+example  <- query_exec(r_sql, project = project, useLegacySql = FALSE)
 
 head(example)
+View(example)
+
+example <-example[order(example$day),]
+example$n <-seq.int(nrow(example))
+example$csum <- ave(example$num_commits, example$language, FUN=cumsum)
+example <- example %>%
+  group_by(language) %>%
+  mutate(sum_commits = cumsum(num_commits))
+
+plt = ggplot(example,aes(n,csum,color=language))+
+  geom_line()+
+  theme_bw()+
+  ggtitle("R Commits over time")+
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
+plt
+ggsave("commits.png",plt)
+
 
 plt = ggplot(example[1:6,],aes(language,num_commits,fill=language))+
   geom_bar(stat="identity")+

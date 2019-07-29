@@ -66,6 +66,39 @@ wilcox.test(data$outcome[data$type=="Agile"],data$outcome[data$type=="Structured
 itp <- read.csv("../bin/data/agile/itproj.csv")
 head(itp)
 
-#PS the bayesian analysis turns out the same as the frequentist though, so why are we doing this
 ```
+## Mathematical Peacocking, stop it!
+![](../bin/images/easy.png)
+While we work through this paper, it is important to remember that the entire point of academic research is scientific findings and communication; if the paper is riddled with equations and uninterpretable variable names, then *it is bad communication*. It has absolutely nothing to do with the reader's intelligence or ability to grasp that material. It is the author's responsibility to carefully communicate problems, methods, and results, while remembering that the purpose of the work is to be distributed. As we approach the problem of **Agile vs. Structured Development**, I will continuously translate the infuriating mathematical peacocking that is meant to obscure actual communication and build up an inflated ego of an entire research field who use LaTeX expressions to make the reader feel inferior.
 
+
+```{r}
+itp <- read.csv("../bin/data/agile/itproj.csv")
+head(itp)
+levels <- levels(itp$success)
+replace <- c("",1,11,21,31,41,51,61,71,81,91,NA,NA)
+
+for( i in 1:length(replace)){
+  itp <- data.frame(lapply(itp, function(x) {
+                  gsub(levels[i], replace[i], x)
+              }))
+}
+
+itp$success <- as.numeric(as.character(itp$success))
+itp$failure <- as.numeric(as.character(itp$failure))
+itp$challenge <- as.numeric(as.character(itp$challenge))
+summary <-data.frame()
+
+for (i in levels(itp$type)){
+  print(i)
+  summary <-itp[itp$type==i,] %>%
+  summarize(type=i,mean_fail = mean(na.omit(failure)),mean_chal = mean(na.omit(challenge)), mean_suc = mean(na.omit(success))) %>%
+ bind_rows(.,summary)
+}
+
+wilcox.test(itp$success[itp$type=="A"],itp$success[itp$type=="T"])
+wilcox.test(itp$failure[itp$type=="A"],itp$failure[itp$type=="T"])
+wilcox.test(itp$challenge[itp$type=="A"],itp$challenge[itp$type=="T"])
+View(summary)
+
+```
