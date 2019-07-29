@@ -182,7 +182,7 @@ error <- abs(mean(first) - mean(second))
 error #the error is pretty bad. on average, the second estimate was 34 hours off from the first. no bueno
 ```
 
-So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was **reliable** and if the measure was **valid**. Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take? The following two studies report data on this, with develpers reporting in *hundreds of hours* how long they think a project will take to finish, against how long it actually took in reality. Both Jorgensen and Kitchenham data are plotted together.
+So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was **reliable** and if the measure was **valid**. Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take? The following two studies report data on this, with develpers reporting in *hundreds of hours* how long they think a project will take to finish, against how long it actually took in reality. Both Jorgensen and Kitchenham data are plotted together.  It's very clear in the software world that *underestimated* projects are far more common than *overestimated* projects, but these mishaps are also pushed around a bit by company culture.
 
 ## Effort Estimation: Accuracy and Bias
 ```{r}
@@ -303,8 +303,9 @@ cowplot::plot_grid(plt2, plt1,
 ```
 
 ### Zoom in on Jorgensen Data
+The previous plots are still dominated by the Kitchenham data, simply because those projects were longer on average. Zooming in on just that paper, we might want to know if those two studies are actually comparable together. Judging by the histograms, after removing the outlier (just for this comparison, because we clearly know it's origins), the spread of ratios is pretty similar between the two studies, despite the studies being different scales.
 
-```{r}
+```{r,message=FALSE,warning=FALSE}
 
 plt = ggplot(data[data$Paper=="Jorgensen",],aes(First.estimate/100,Actual.effort/100,color=Paper))+
   ggtitle("Developer Effort Estimate vs. Actual (2 sources)")+
@@ -315,7 +316,34 @@ plt = ggplot(data[data$Paper=="Jorgensen",],aes(First.estimate/100,Actual.effort
   theme_bw()
 plt
 
+
+plt1 <- ggplot(data[data$Paper=="Jorgensen",],aes(Ratio))+
+  #geom_density(alpha=.5)+
+  geom_histogram(aes(y=(..count..)/sum(..count..)), position='dodge',fill="#F8766D") +
+  theme_bw()+
+  ggtitle("Jorgensen")+
+  ylab("Proportion")+
+  xlim(0,6.3)
+plt2 <- ggplot(data[data$Paper=="Kitchenham",],aes(Ratio))+
+  #geom_density(alpha=.5)+
+  geom_histogram(aes(y=(..count..)/sum(..count..)), position='dodge',fill="#00BFC4") +
+  theme_bw()+
+  ggtitle("Kitchenham")+
+  ylab("Proportion")+
+  xlim(0,6.3)
+
+cowplot::plot_grid(plt1, plt2, 
+                   ncol = 1, rel_heights = c(2, 2),
+                   align = 'v', axis = 'lr')
+
+
 ```
+
+## So Can We Estimate Resources or Not?
+What is the biggest problem with these studies? I'll give you a hint. Have you ever looked at a project overview, and said to yourself "hmm, seems simple enough!" only to find yourself deep into a rabbit hole at 4am working on configuring some weird dependencies to allow you to do the nine other tasks you have to do before you can do the first thing for the project? How about the other way around; have you looked at a project spec and panicked, knowing it will take you *forever* until you realize that the package is actually pretty simple and you can probably finish this on time if the stars align just right? What I'm getting at is: *project estimation changes as you gain new information*. If I were to ask you how long something would take before you'd really started to try it, there's a good chance your estimation will be inaccurate. But what about when you've spent countless hours and are actually almost done? Will you be able to tell me how much you actually have left? Once you've worked with something for a while, you should probably get a better gauge of how long those types of problems take to complete. This concept is referred to as **the cone of uncertainty**. The idea is that as you get new information about a project, you can make more accurate judgments about the time to completion on that project. That makes some intuitive sense, but keep in mind that *by definition* you will converge to **1x** the project length by the end, because "it is what it is". Take a moment to discuss with a partner (or your cat, whatever) about this concept.
+
+![](../bin/images/cone.png)
+
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&rep=rep1&type=pdf
 https://github.com/Derek-Jones/ESEUR-code-data/blob/master/projects/Little-cone.R
 
