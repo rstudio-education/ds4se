@@ -7,14 +7,53 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(kableExtra)
 ```
+<center>
+![](../bin/images/teamwork.svg)
+</center><br>
+
+
+Someone wise once asked me:
+
+> *"How do you choose a heart surgeon?"*
+>
+> "I don't know, how?"
+>
+>*"You look for the surgeon with the highest failure rate who is still accepting patients"*
+>
+> "And why on earth would you want that?"
+>
+>"*Because it means that they're getting* **all the hardest cases** *and people still trust them to do the surgery*."
+
+This little exchange is surprisingly relevant to how we measure developer performance. Bear with me. If I were to tell you that the best developer at my company fixed the least number of bugs, what would you think? *Perhaps they are fixing the really tough ones*. It could also be that they simply don't make mistakes but that is just untrue. We all make mistakes in our code and spend a lot of time debugging (novices more than experts, but also the problems get harder so there's a lot at play!). Imagine that at the end of the workweek, everyone has to report how many bugs they fixed. One person reports fixing 78 and another person reports fixing 2. Who is the better developer?
+
+Maybe you have some theories, or some immediate reactions. Perhaps you have some explanations of why that's not enough information. This is great practice for figuring out how to measure a concept like performance. 
+
+One way to measure performance is to look at "number of faults found" in software testing. Finding and fixing faults may be a reasonable way to determine if developers can identify a problem and implement solutions to help software behave as expected. Reasonable enough, right? Hopefully you're learning that when we measure *anything*, we have to operationalize it in a reasonable way, taking into account prior research and interpreting results with our nuanced operationaliztion in mind. "Performance" is not necessarily captured entirely by "number of faults found" but it is totally reasonable to start somewhere. We take a look at data provided from Iivonen's [*Identifying and Characterizing Highly Performing Testers– A Case Study in Three Software Product Companies*](http://www.soberit.hut.fi/espa/publications/MSc-Thesis-Iivonen-2009-10-30.pdf)
+
+
+http://www.knosof.co.uk/ESEUR/ESEUR-draft.pdf pg 52
+
+
 ## How do developers differ in their measurable output performance?
 
-## Operationalization
 
-One metric used in software testing is number of faults found. In practice non-failing tests,
-written by software testers, are useful because they provide evidence that particular functionality behaves as expected
 
+
+
+```{r}
+library(knitr)
+data <- read.csv("performance_dev.csv")
+
+#just adding in a check on the percentages, we see some off-by-ones but that's probably due to rounding
+data$Totals <- data$Fixed + data$No.Fix +data$Duplicate + data$Cannot.reproduce
+
+kable(data)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+```
+**Note that everything except the first column is in percentages**
 
 ## Weighted Factors
 Defects differ in their commercial importance, and a relative
@@ -26,17 +65,12 @@ To what extent would a tester’s performance, based on measurements involving o
 system in one company, be transferable to another system in the same company or another
 company?
 
-```{r}
-library(knitr)
-data <- read.csv("performance_dev.csv")
-
-kable(data)
-
-```
-
 ### The Measure Matters
+Here we have the developer with the *least* defects and the developer with the *most* defects. Do you think we can tell who is performing better from that measure?
 ```{r}
 
-data$Tester[data$Defects==min(data$Defects)]
+data[data$Defects==min(data$Defects),]
+
+data[data$Defects==max(data$Defects),]
 
 ```
