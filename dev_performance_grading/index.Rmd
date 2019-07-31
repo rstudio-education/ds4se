@@ -108,6 +108,7 @@ ggplot(hot,aes(Value,fill=Heat))+
   theme_bw()
 
 ```
+We can see that "Extra Hot" faults occur with a lower frequency (the majority being close to 0), and "Normal" faults are...well, normal.
 
 
 Defects differ in their commercial importance, and a relative
