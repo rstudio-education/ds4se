@@ -9,6 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(kableExtra)
 library(ggplot2)
+library(dplyr)
 ```
 <center>
 ![](../bin/images/teamwork.svg)
@@ -175,14 +176,43 @@ gs2 <-gs
 gs2$task[gs$group=="online"] <- paste(gs$task[gs$group=="online"],"_online")
 gs2$task[gs$group=="offline"] <- paste(gs$task[gs$group=="offline"],"_offline")
 
-plt = ggplot(gs2,aes(task,time,fill=task))+
+plt = ggplot(gs2,aes(task,time,fill=type,linetype=group))+
   geom_boxplot()+
   coord_flip()+
-  theme_bw()+
-  theme(legend.position = "none")
+  theme_bw()
 plt
 #ggsave("boxplots.png",plt)
+```
 
+## Order Effects
+
+```{r}
+#is there an order effect?
+library(car)
+model = lm(time ~seq,
+           data = gs)
+
+
+Anova(model,
+      type = "II")
+
+```
+
+## Interaction Plots
+```{r}
+interaction.plot(gs$group,gs$task,gs$time)
+interaction.plot(gs$task,gs$group,gs$time)
+```
+
+
+```{r}
+summary <- gs %>%
+  group_by(task,group) %>%
+  summarise(mean=mean(time),min=min(time),max=max(time),ratio=max(time)/min(time))
+kable(summary)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+  
+  
 algebra=subset(gs, task=="C_algebra")
 
 online=subset(subset(algebra, group == "online"))
@@ -212,6 +242,7 @@ perm_res=apply(subj_perms, 2, mean_diff)
 sum(abs(perm_res) >= abs(subj_mean_diff)) / length(perm_res)
 ```
 
+This shiz is nuanced! 
 
 ```{r}
 
@@ -243,3 +274,6 @@ sd(bid_boot$t)
 
 length(bid_boot$t[abs(bid_boot$t) >= subj_mean_diff])
 ```
+
+## In Your Ideal World...
+### How should group projects be graded fairly?
