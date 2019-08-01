@@ -1,0 +1,866 @@
+type,group,percent,success,challenge,failure,time,ROI,stakeholders,quality
+H,0,1-10%,None,81-90%,11-20%,Neutral,Neutral,Neutral,Effective
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,31-40%,11-20%,81-90%,None,Ineffective,Neutral,Neutral,Very Ineffective
+H,0,81-90%,71-80%,71-80%,21-30%,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,61-70%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Very Effective,Very Effective
+H,0,1-10%,1-10%,81-90%,1-10%,Effective,Neutral,Ineffective,Very Ineffective
+H,0,1-10%,31-40%,31-40%,11-20%,Neutral,Ineffective,Very Ineffective,Very Ineffective
+H,0,91-100%,Don't Know,Don't Know,Don't Know,Ineffective,Very Ineffective,Ineffective,Ineffective
+H,0,41-50%,1-10%,81-90%,None,Very Effective,Effective,Very Effective,Effective
+H,0,11-20%,,,,,,,
+H,0,1-10%,51-60%,91-100%,11-20%,Ineffective,Ineffective,Effective,Ineffective
+H,0,31-40%,,,,,,,
+H,0,31-40%,81-90%,21-30%,1-10%,Effective,Very Effective,Very Effective,Very Effective
+H,0,None,,,,,,,
+H,0,,,,,,,,
+H,0,51-60%,,,,,,,
+H,0,,,,,,,,
+H,0,31-40%,71-80%,51-60%,11-20%,Ineffective,Very Effective,Effective,Very Ineffective
+H,0,11-20%,21-30%,41-50%,31-40%,Effective,Ineffective,Very Effective,Neutral
+H,0,51-60%,,,,,,,
+H,0,81-90%,91-100%,71-80%,1-10%,Ineffective,Neutral,Effective,Neutral
+H,0,31-40%,81-90%,61-70%,11-20%,Effective,Ineffective,Effective,Effective
+H,0,41-50%,Don't Know,Don't Know,Don't Know,Neutral,Ineffective,Neutral,Ineffective
+H,0,21-30%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,11-20%,,,,,,,
+H,0,91-100%,,,,,,,
+H,0,31-40%,,,,,,,
+H,0,21-30%,71-80%,11-20%,11-20%,Neutral,Not Applicable,Effective,Very Ineffective
+H,0,21-30%,51-60%,71-80%,41-50%,Effective,Neutral,Neutral,Neutral
+H,0,None,,,,,,,
+H,0,81-90%,,,,,,,
+H,0,1-10%,,,,,,,
+H,0,1-10%,31-40%,61-70%,1-10%,Ineffective,Neutral,Neutral,Effective
+H,0,None,,,,,,,
+H,0,None,,,,,,,
+H,0,51-60%,81-90%,51-60%,11-20%,Ineffective,Ineffective,Very Effective,Effective
+H,0,71-80%,21-30%,61-70%,11-20%,Neutral,Ineffective,Ineffective,Very Ineffective
+H,0,11-20%,71-80%,51-60%,61-70%,Effective,Effective,Neutral,Neutral
+H,0,81-90%,,,,,,,
+H,0,21-30%,Don't Know,61-70%,1-10%,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,21-30%,,,,,,,
+H,0,61-70%,,,,,,,
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Neutral,Neutral
+H,0,1-10%,41-50%,1-10%,31-40%,Ineffective,Very Ineffective,Very Ineffective,Very Ineffective
+H,0,81-90%,Don't Know,Don't Know,51-60%,Not Applicable,Not Applicable,Ineffective,Not Applicable
+H,0,21-30%,71-80%,11-20%,1-10%,Neutral,Very Effective,Effective,Effective
+H,0,None,,,,,,,
+H,0,1-10%,,,,,,,
+H,0,,,,,,,,
+H,0,1-10%,,,,,,,
+H,0,51-60%,None,21-30%,71-80%,Ineffective,Very Ineffective,Ineffective,Very Ineffective
+H,0,31-40%,None,None,None,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,61-70%,41-50%,21-30%,21-30%,Neutral,Neutral,Neutral,Neutral
+H,0,21-30%,,,,,,,
+H,0,41-50%,,,,,,,
+H,0,11-20%,11-20%,None,None,Neutral,Neutral,Neutral,Neutral
+H,0,41-50%,,,,,,,
+H,0,,,,,,,,
+H,0,41-50%,91-100%,Don't Know,None,Ineffective,Ineffective,Ineffective,Very Ineffective
+H,0,41-50%,81-90%,31-40%,31-40%,Effective,Effective,Effective,Very Effective
+H,0,21-30%,41-50%,21-30%,11-20%,Neutral,Very Effective,Neutral,Neutral
+H,0,41-50%,,,,,,,
+H,0,1-10%,11-20%,71-80%,1-10%,Neutral,Not Applicable,Neutral,Neutral
+H,0,21-30%,91-100%,Don't Know,None,Effective,Very Effective,Very Effective,Effective
+H,0,1-10%,,,,,,,
+H,0,21-30%,,,,,,,
+H,0,91-100%,,,,,,,
+H,0,,,,,,,,
+H,0,None,,,,,,,
+H,0,21-30%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,21-30%,,,,,,,
+H,0,11-20%,71-80%,31-40%,21-30%,Ineffective,Neutral,Neutral,Neutral
+H,0,11-20%,81-90%,11-20%,1-10%,Ineffective,Ineffective,Very Effective,Ineffective
+H,0,21-30%,,,,,,,
+H,0,91-100%,,,,,,,
+H,0,71-80%,,,,,,,
+H,0,11-20%,,,,,,,
+H,0,41-50%,51-60%,11-20%,1-10%,Effective,Ineffective,Neutral,Ineffective
+H,0,61-70%,,,,,,,
+H,0,11-20%,,,,,,,
+H,0,11-20%,,,,,,,
+H,0,51-60%,61-70%,11-20%,1-10%,Effective,Effective,Effective,Neutral
+H,0,81-90%,71-80%,71-80%,11-20%,Neutral,Neutral,Very Effective,Effective
+H,0,None,,,,,,,
+H,0,None,,,,,,,
+H,0,31-40%,91-100%,1-10%,1-10%,Effective,Effective,Effective,Effective
+H,0,11-20%,,,,,,,
+H,0,1-10%,81-90%,1-10%,1-10%,Neutral,Effective,Effective,Ineffective
+H,0,81-90%,,,,,,,
+H,0,None,,,,,,,
+H,0,31-40%,,,,,,,
+H,0,71-80%,Don't Know,81-90%,Don't Know,Ineffective,Ineffective,Ineffective,Ineffective
+H,0,91-100%,91-100%,None,1-10%,Ineffective,Ineffective,Effective,Effective
+H,0,31-40%,11-20%,61-70%,81-90%,Very Ineffective,Ineffective,Ineffective,Very Ineffective
+H,0,91-100%,,,,,,,
+H,0,21-30%,,,,,,,
+H,0,51-60%,,,,,,,
+H,0,21-30%,,,,,,,
+H,0,51-60%,31-40%,71-80%,71-80%,Neutral,Ineffective,Neutral,Very Ineffective
+H,0,71-80%,81-90%,Don't Know,11-20%,Effective,Not Applicable,Not Applicable,Neutral
+H,0,51-60%,,,,,,,
+H,0,41-50%,71-80%,1-10%,1-10%,Neutral,Neutral,Effective,Neutral
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,21-30%,Don't Know,31-40%,41-50%,Ineffective,Neutral,Effective,Ineffective
+H,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Effective
+H,0,41-50%,81-90%,11-20%,None,Very Effective,Neutral,Effective,Effective
+H,0,1-10%,,,,,,,
+H,0,,,,,,,,
+H,0,1-10%,,,,,,,
+H,0,1-10%,Don't Know,None,Don't Know,Neutral,Neutral,Neutral,Ineffective
+H,0,21-30%,,,,,,,
+H,0,61-70%,41-50%,41-50%,11-20%,Effective,Neutral,Effective,Ineffective
+H,0,11-20%,81-90%,31-40%,1-10%,Ineffective,Ineffective,Effective,Ineffective
+H,0,None,,,,,,,
+H,0,71-80%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,21-30%,,,,,,,
+H,0,71-80%,71-80%,11-20%,1-10%,Neutral,Neutral,Neutral,Ineffective
+H,0,21-30%,Don't Know,21-30%,1-10%,Not Applicable,Not Applicable,Very Effective,Effective
+H,0,61-70%,,,,,,,
+H,0,61-70%,,,,,,,
+H,0,1-10%,11-20%,41-50%,51-60%,Ineffective,Ineffective,Ineffective,Ineffective
+H,0,51-60%,11-20%,71-80%,31-40%,Ineffective,Very Ineffective,Ineffective,Ineffective
+H,0,21-30%,Don't Know,Don't Know,1-10%,Ineffective,Neutral,Not Applicable,Neutral
+H,0,71-80%,31-40%,61-70%,1-10%,Effective,Very Ineffective,Neutral,Ineffective
+H,0,11-20%,Don't Know,Don't Know,Don't Know,Neutral,Ineffective,Neutral,Neutral
+H,0,1-10%,51-60%,21-30%,1-10%,Neutral,Ineffective,Neutral,Ineffective
+H,0,None,,,,,,,
+H,0,51-60%,None,41-50%,51-60%,Very Ineffective,Very Ineffective,Ineffective,Very Ineffective
+H,0,61-70%,,,,,,,
+H,0,1-10%,,,,,,,
+H,0,31-40%,81-90%,11-20%,1-10%,Effective,Ineffective,Ineffective,Ineffective
+H,0,41-50%,11-20%,71-80%,11-20%,Very Ineffective,Neutral,Neutral,Very Ineffective
+H,0,21-30%,61-70%,11-20%,1-10%,Ineffective,Neutral,Effective,Effective
+H,0,31-40%,21-30%,61-70%,11-20%,Neutral,Ineffective,Neutral,Very Ineffective
+H,0,21-30%,,,,,,,
+H,0,11-20%,31-40%,11-20%,1-10%,Neutral,Neutral,Ineffective,Very Ineffective
+H,0,61-70%,71-80%,1-10%,11-20%,Ineffective,Neutral,Ineffective,Neutral
+H,0,51-60%,81-90%,1-10%,None,Very Effective,Very Effective,Very Effective,Very Effective
+H,0,21-30%,51-60%,81-90%,21-30%,Effective,Very Effective,Very Effective,Effective
+H,0,1-10%,91-100%,11-20%,1-10%,Ineffective,Effective,Very Effective,Neutral
+H,0,41-50%,Don't Know,Don't Know,Don't Know,Ineffective,Ineffective,Ineffective,Very Ineffective
+H,0,71-80%,Don't Know,81-90%,Don't Know,Ineffective,Neutral,Neutral,Neutral
+H,0,31-40%,,,,,,,
+H,0,51-60%,91-100%,None,None,Effective,Effective,Effective,Effective
+H,0,21-30%,71-80%,41-50%,11-20%,Effective,Effective,Ineffective,Neutral
+H,0,None,,,,,,,
+H,0,21-30%,91-100%,1-10%,None,Very Effective,Very Effective,Very Effective,Effective
+H,0,None,,,,,,,
+H,0,11-20%,Don't Know,Don't Know,Don't Know,Neutral,Effective,Very Effective,Neutral
+H,0,None,,,,,,,
+H,0,51-60%,31-40%,51-60%,1-10%,Neutral,Neutral,Effective,Neutral
+H,0,21-30%,21-30%,41-50%,11-20%,Ineffective,Ineffective,Neutral,Ineffective
+H,0,None,,,,,,,
+H,0,41-50%,,,,,,,
+H,0,81-90%,51-60%,11-20%,21-30%,Neutral,Neutral,Effective,Effective
+H,0,1-10%,None,None,None,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,None,,,,,,,
+H,0,None,,,,,,,
+H,0,71-80%,Don't Know,Don't Know,Don't Know,Very Effective,Very Effective,Effective,Effective
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,21-30%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+H,0,21-30%,61-70%,11-20%,1-10%,Ineffective,Effective,Neutral,Neutral
+H,0,51-60%,61-70%,91-100%,1-10%,Very Effective,Not Applicable,Effective,Very Effective
+H,0,1-10%,,,,,,,
+H,0,11-20%,,,,,,,
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Neutral,Not Applicable,Neutral,Ineffective
+H,0,11-20%,51-60%,31-40%,11-20%,Effective,Effective,Effective,Effective
+H,0,91-100%,41-50%,1-10%,31-40%,Ineffective,Ineffective,Neutral,Ineffective
+H,0,21-30%,41-50%,11-20%,21-30%,Ineffective,Very Ineffective,Neutral,Neutral
+H,0,1-10%,51-60%,31-40%,1-10%,Effective,Ineffective,Ineffective,Very Ineffective
+H,0,,,,,,,,
+H,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+I,0,None,,,,,,,
+I,0,81-90%,Don't Know,91-100%,Don't Know,Effective,Effective,Very Effective,Effective
+I,0,61-70%,11-20%,81-90%,None,Effective,Neutral,Effective,Very Ineffective
+I,0,21-30%,,,,,,,
+I,0,71-80%,Don't Know,Don't Know,Don't Know,Ineffective,Effective,Ineffective,Ineffective
+I,0,21-30%,None,91-100%,None,Effective,Very Effective,Very Effective,Effective
+I,0,1-10%,None,91-100%,None,Effective,Neutral,Effective,Neutral
+I,0,None,,,,,,,
+I,0,71-80%,61-70%,31-40%,None,Very Effective,Effective,Very Effective,Effective
+I,0,,,,,,,,
+I,0,1-10%,81-90%,41-50%,Don't Know,Effective,Effective,Very Effective,Effective
+I,0,,,,,,,,
+I,0,11-20%,81-90%,21-30%,1-10%,Effective,Very Effective,Very Effective,Very Effective
+I,0,91-100%,81-90%,11-20%,None,Neutral,Effective,Very Effective,Very Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,61-70%,51-60%,51-60%,21-30%,Neutral,Neutral,Neutral,Neutral
+I,0,21-30%,71-80%,31-40%,21-30%,Very Effective,Very Effective,Very Effective,Neutral
+I,0,,,,,,,,
+I,0,91-100%,,,,,,,
+I,0,81-90%,,,,,,,
+I,0,11-20%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Neutral,Neutral
+I,0,61-70%,51-60%,31-40%,11-20%,Effective,Neutral,Very Effective,Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,91-100%,81-90%,1-10%,None,Effective,Very Effective,Very Effective,Effective
+I,0,81-90%,71-80%,21-30%,21-30%,Neutral,Effective,Effective,Effective
+I,0,None,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,1-10%,71-80%,21-30%,1-10%,Effective,Effective,Neutral,Effective
+I,0,None,,,,,,,
+I,0,91-100%,,,,,,,
+I,0,51-60%,81-90%,51-60%,11-20%,Effective,Very Effective,Very Effective,Very Effective
+I,0,21-30%,61-70%,31-40%,None,Effective,Very Effective,Effective,Effective
+I,0,91-100%,91-100%,91-100%,1-10%,Effective,Effective,Effective,Effective
+I,0,,,,,,,,
+I,0,1-10%,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,71-80%,71-80%,11-20%,None,Very Effective,Effective,Effective,Neutral
+I,0,91-100%,51-60%,31-40%,1-10%,Effective,Very Effective,Very Effective,Neutral
+I,0,1-10%,51-60%,Don't Know,Don't Know,Not Applicable,Not Applicable,Very Effective,Very Effective
+I,0,61-70%,71-80%,1-10%,None,Effective,Effective,Effective,Effective
+I,0,71-80%,61-70%,81-90%,1-10%,Effective,Neutral,Neutral,Ineffective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,None,,,,,,,
+I,0,31-40%,51-60%,51-60%,51-60%,Neutral,Neutral,Effective,Effective
+I,0,71-80%,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,91-100%,91-100%,11-20%,None,Effective,Effective,Very Effective,Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,61-70%,81-90%,1-10%,None,Very Effective,Very Effective,Effective,Effective
+I,0,21-30%,,,,,,,
+I,0,1-10%,21-30%,41-50%,11-20%,Very Ineffective,Very Ineffective,Very Ineffective,Very Ineffective
+I,0,,,,,,,,
+I,0,81-90%,11-20%,71-80%,1-10%,Effective,Not Applicable,Neutral,Effective
+I,0,None,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,41-50%,,,,,,,
+I,0,31-40%,41-50%,21-30%,21-30%,Very Effective,Effective,Neutral,Neutral
+I,0,,,,,,,,
+I,0,71-80%,81-90%,1-10%,1-10%,Effective,Effective,Neutral,Neutral
+I,0,81-90%,91-100%,1-10%,1-10%,Effective,Effective,Effective,Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,91-100%,91-100%,1-10%,None,Effective,Effective,Effective,Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,31-40%,61-70%,11-20%,1-10%,Effective,Effective,Very Effective,Effective
+I,0,81-90%,,,,,,,
+I,0,91-100%,41-50%,Don't Know,Don't Know,Effective,Effective,Effective,Neutral
+I,0,91-100%,71-80%,21-30%,None,Effective,Very Effective,Very Effective,Very Effective
+I,0,51-60%,91-100%,1-10%,1-10%,Neutral,Effective,Neutral,Effective
+I,0,,,,,,,,
+I,0,91-100%,81-90%,1-10%,1-10%,Very Effective,Neutral,Neutral,Very Effective
+I,0,,,,,,,,
+I,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Effective,Neutral
+I,0,,,,,,,,
+I,0,11-20%,None,91-100%,Don't Know,Effective,Ineffective,Neutral,Ineffective
+I,0,21-30%,91-100%,None,None,Very Effective,Effective,Effective,Effective
+I,0,1-10%,41-50%,71-80%,Don't Know,Neutral,Neutral,Neutral,Neutral
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,51-60%,,,,,,,
+I,0,91-100%,91-100%,21-30%,1-10%,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+I,0,,,,,,,,
+I,0,91-100%,71-80%,1-10%,1-10%,Effective,Not Applicable,Effective,Effective
+I,0,None,Don't Know,Don't Know,Don't Know,Effective,Neutral,Neutral,Effective
+I,0,31-40%,,,,,,,
+I,0,None,,,,,,,
+I,0,71-80%,81-90%,1-10%,1-10%,Very Effective,Very Effective,Very Effective,Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,91-100%,51-60%,None,Don't Know,Neutral,Neutral,Neutral,Neutral
+I,0,,,,,,,,
+I,0,11-20%,91-100%,None,None,Effective,Neutral,Effective,Effective
+I,0,91-100%,91-100%,1-10%,None,Effective,Very Effective,Effective,Very Effective
+I,0,None,91-100%,1-10%,None,Very Effective,Very Effective,Very Effective,Very Effective
+I,0,61-70%,,,,,,,
+I,0,31-40%,51-60%,1-10%,21-30%,Neutral,Neutral,Neutral,Neutral
+I,0,,,,,,,,
+I,0,21-30%,81-90%,1-10%,1-10%,Neutral,Neutral,Effective,Neutral
+I,0,71-80%,Don't Know,Don't Know,Don't Know,Neutral,Not Applicable,Very Effective,Very Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,None,,,,,,,
+I,0,11-20%,71-80%,21-30%,11-20%,Very Effective,Neutral,Very Effective,Effective
+I,0,31-40%,61-70%,11-20%,Don't Know,Very Effective,Effective,Effective,Effective
+I,0,1-10%,11-20%,81-90%,None,Effective,Neutral,Effective,Effective
+I,0,81-90%,61-70%,11-20%,1-10%,Ineffective,Effective,Neutral,Effective
+I,0,None,,,,,,,
+I,0,91-100%,71-80%,1-10%,1-10%,Effective,Effective,Very Effective,Effective
+I,0,None,,,,,,,
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,1-10%,81-90%,31-40%,1-10%,Very Effective,Effective,Very Effective,Neutral
+I,0,41-50%,21-30%,41-50%,21-30%,Ineffective,Ineffective,Very Effective,Effective
+I,0,61-70%,,,,,,,
+I,0,81-90%,21-30%,51-60%,1-10%,Very Effective,Very Effective,Very Effective,Very Effective
+I,0,,,,,,,,
+I,0,81-90%,91-100%,11-20%,1-10%,Very Effective,Very Effective,Very Effective,Very Effective
+I,0,31-40%,41-50%,21-30%,11-20%,Neutral,Ineffective,Neutral,Effective
+I,0,91-100%,81-90%,1-10%,None,Very Effective,Very Effective,Very Effective,Very Effective
+I,0,61-70%,51-60%,41-50%,21-30%,Effective,Effective,Very Effective,Effective
+I,0,31-40%,,,,,,,
+I,0,31-40%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Neutral,Very Ineffective
+I,0,51-60%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Very Effective,Neutral
+I,0,,,,,,,,
+I,0,91-100%,91-100%,None,None,Effective,Effective,Effective,Effective
+I,0,21-30%,91-100%,21-30%,11-20%,Very Effective,Effective,Effective,Effective
+I,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+I,0,31-40%,81-90%,1-10%,None,Ineffective,Effective,Effective,Very Effective
+I,0,71-80%,71-80%,21-30%,None,Effective,Effective,Effective,Neutral
+I,0,31-40%,Don't Know,Don't Know,Don't Know,Effective,Neutral,Effective,Effective
+I,0,21-30%,81-90%,11-20%,Don't Know,Effective,Effective,Very Effective,Very Effective
+I,0,61-70%,41-50%,31-40%,11-20%,Effective,Neutral,Effective,Neutral
+I,0,31-40%,41-50%,41-50%,11-20%,Effective,Effective,Effective,Neutral
+I,0,31-40%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+I,0,,,,,,,,
+I,0,21-30%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+I,0,91-100%,51-60%,31-40%,None,Very Effective,Ineffective,Neutral,Effective
+I,0,None,81-90%,11-20%,None,Very Effective,Very Effective,Very Effective,Effective
+I,0,21-30%,61-70%,51-60%,1-10%,Neutral,Effective,Effective,Effective
+I,0,91-100%,81-90%,71-80%,1-10%,Very Effective,Very Effective,Very Effective,Effective
+I,0,91-100%,51-60%,41-50%,None,Effective,Effective,Effective,Effective
+I,0,21-30%,41-50%,41-50%,41-50%,Effective,Effective,Effective,Effective
+I,0,91-100%,,,,,,,
+I,0,91-100%,91-100%,1-10%,None,Very Effective,Not Applicable,Very Effective,Effective
+I,0,,,,,,,,
+I,0,,,,,,,,
+I,0,71-80%,71-80%,11-20%,1-10%,Effective,Neutral,Effective,Effective
+I,0,61-70%,81-90%,1-10%,1-10%,Very Effective,Neutral,Neutral,Ineffective
+I,0,91-100%,,,,,,,
+I,0,1-10%,41-50%,31-40%,1-10%,Effective,Ineffective,Effective,Neutral
+I,0,31-40%,81-90%,1-10%,1-10%,Effective,Effective,Effective,Neutral
+I,0,,,,,,,,
+I,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+A,0,None,,,,,,,
+A,0,81-90%,Don't Know,91-100%,Don't Know,Effective,Very Effective,Very Effective,Ineffective
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,21-30%,Don't Know,Don't Know,Don't Know,Very Effective,Effective,Very Effective,Effective
+A,0,11-20%,None,91-100%,None,Effective,Very Effective,Very Effective,Effective
+A,0,1-10%,,,,,,,
+A,0,None,,,,,,,
+A,0,71-80%,61-70%,31-40%,None,Very Effective,Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,1-10%,91-100%,Don't Know,Don't Know,Neutral,Effective,Effective,Effective
+A,0,,,,,,,,
+A,0,11-20%,81-90%,11-20%,1-10%,Effective,Very Effective,Very Effective,Effective
+A,0,91-100%,81-90%,1-10%,None,Neutral,Effective,Very Effective,Very Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,51-60%,Don't Know,Don't Know,Don't Know,Ineffective,Effective,Effective,Effective
+A,0,11-20%,51-60%,31-40%,11-20%,Effective,Neutral,Effective,Neutral
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,1-10%,81-90%,1-10%,None,Effective,Effective,Effective,Neutral
+A,0,21-30%,41-50%,31-40%,1-10%,Neutral,Ineffective,Ineffective,Ineffective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,81-90%,81-90%,21-30%,21-30%,Neutral,Effective,Very Effective,Effective
+A,0,91-100%,51-60%,41-50%,None,Very Effective,Very Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,81-90%,81-90%,11-20%,None,Very Effective,Very Effective,Effective,Effective
+A,0,91-100%,91-100%,None,None,Effective,Effective,Effective,Very Effective
+A,0,,,,,,,,
+A,0,81-90%,81-90%,51-60%,11-20%,Ineffective,Effective,Very Effective,Effective
+A,0,21-30%,21-30%,61-70%,1-10%,Effective,Very Effective,Effective,Effective
+A,0,71-80%,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,21-30%,51-60%,31-40%,1-10%,Neutral,Very Effective,Very Effective,Neutral
+A,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,21-30%,51-60%,71-80%,1-10%,Ineffective,Neutral,Neutral,Ineffective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,21-30%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,31-40%,81-90%,51-60%,71-80%,Neutral,Very Effective,Not Applicable,Ineffective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,91-100%,91-100%,11-20%,None,Effective,Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,71-80%,91-100%,21-30%,None,Very Effective,Very Effective,Very Effective,Very Effective
+A,0,,,,,,,,
+A,0,91-100%,11-20%,81-90%,1-10%,Effective,Not Applicable,Neutral,Neutral
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,1-10%,51-60%,31-40%,1-10%,Ineffective,Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,41-50%,91-100%,21-30%,1-10%,Effective,Effective,Effective,Effective
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,81-90%,91-100%,1-10%,None,Effective,Effective,Effective,Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,31-40%,51-60%,21-30%,1-10%,Effective,Effective,Neutral,Effective
+A,0,91-100%,71-80%,21-30%,None,Effective,Very Effective,Very Effective,Very Effective
+A,0,81-90%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,11-20%,Don't Know,71-80%,Don't Know,Effective,Effective,Effective,Effective
+A,0,None,,,,,,,
+A,0,51-60%,91-100%,1-10%,11-20%,Very Effective,Very Effective,Very Effective,Very Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,91-100%,91-100%,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,,,,,,,,
+A,0,61-70%,71-80%,11-20%,1-10%,Effective,Not Applicable,Effective,Effective
+A,0,81-90%,Don't Know,Don't Know,Don't Know,Effective,Neutral,Neutral,Effective
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,91-100%,51-60%,None,Don't Know,Neutral,Neutral,Effective,Neutral
+A,0,,,,,,,,
+A,0,1-10%,81-90%,Don't Know,Don't Know,Effective,Neutral,Effective,Effective
+A,0,91-100%,91-100%,1-10%,None,Effective,Effective,Very Effective,Very Effective
+A,0,91-100%,,,,,,,
+A,0,,,,,,,,
+A,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,,,,,,,,
+A,0,1-10%,1-10%,81-90%,None,Neutral,Neutral,Effective,Neutral
+A,0,41-50%,Don't Know,Don't Know,Don't Know,Neutral,Effective,Neutral,Neutral
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,81-90%,91-100%,1-10%,None,Very Effective,Effective,Very Effective,Effective
+A,0,31-40%,81-90%,21-30%,21-30%,Very Effective,Very Effective,Effective,Effective
+A,0,11-20%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,1-10%,1-10%,71-80%,1-10%,Ineffective,Neutral,Ineffective,Effective
+A,0,,,,,,,,
+A,0,81-90%,81-90%,1-10%,None,Effective,Very Effective,Very Effective,Effective
+A,0,81-90%,,,,,,,
+A,0,1-10%,None,91-100%,None,Ineffective,Very Effective,Very Effective,Very Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,None,,,,,,,
+A,0,,,,,,,,
+A,0,81-90%,31-40%,41-50%,1-10%,Very Effective,Very Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,91-100%,91-100%,1-10%,1-10%,Very Effective,Very Effective,Very Effective,Effective
+A,0,41-50%,41-50%,11-20%,21-30%,Ineffective,Ineffective,Neutral,Effective
+A,0,81-90%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+A,0,31-40%,91-100%,61-70%,None,Very Effective,Very Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,21-30%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Neutral,Very Ineffective
+A,0,11-20%,81-90%,1-10%,None,Effective,Effective,Effective,Neutral
+A,0,,,,,,,,
+A,0,None,,,,,,,
+A,0,31-40%,81-90%,31-40%,11-20%,Ineffective,Neutral,Very Effective,Neutral
+A,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+A,0,None,,,,,,,
+A,0,None,,,,,,,
+A,0,11-20%,Don't Know,Don't Know,Don't Know,Effective,Neutral,Effective,Neutral
+A,0,21-30%,81-90%,11-20%,Don't Know,Effective,Effective,Very Effective,Very Effective
+A,0,21-30%,21-30%,51-60%,1-10%,Neutral,Neutral,Neutral,Neutral
+A,0,21-30%,41-50%,41-50%,11-20%,Effective,Effective,Effective,Effective
+A,0,51-60%,61-70%,21-30%,21-30%,Effective,Effective,Effective,Effective
+A,0,,,,,,,,
+A,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+A,0,91-100%,71-80%,31-40%,None,Effective,Effective,Ineffective,Effective
+A,0,91-100%,81-90%,11-20%,None,Very Effective,Very Effective,Very Effective,Effective
+A,0,11-20%,,,,,,,
+A,0,71-80%,71-80%,71-80%,11-20%,Very Effective,Very Effective,Very Effective,Effective
+A,0,21-30%,81-90%,11-20%,None,Effective,Effective,Very Effective,Very Effective
+A,0,21-30%,Don't Know,41-50%,Don't Know,Neutral,Neutral,Neutral,Neutral
+A,0,,,,,,,,
+A,0,81-90%,81-90%,81-90%,Don't Know,Very Effective,Not Applicable,Very Effective,Very Effective
+A,0,,,,,,,,
+A,0,,,,,,,,
+A,0,21-30%,Don't Know,71-80%,Don't Know,Neutral,Neutral,Effective,Ineffective
+A,0,81-90%,81-90%,1-10%,1-10%,Very Effective,Effective,Very Effective,Neutral
+A,0,,,,,,,,
+A,0,1-10%,41-50%,31-40%,1-10%,Effective,Ineffective,Neutral,Neutral
+A,0,41-50%,91-100%,1-10%,None,Effective,Very Effective,Very Effective,Effective
+A,0,,,,,,,,
+A,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+T,0,81-90%,71-80%,11-20%,1-10%,Ineffective,Ineffective,Neutral,Effective
+T,0,41-50%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,71-80%,51-60%,41-50%,11-20%,Ineffective,Neutral,Neutral,Effective
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,21-30%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+T,0,,,,,,,,
+T,0,81-90%,41-50%,71-80%,Don't Know,Ineffective,Ineffective,Neutral,Neutral
+T,0,,,,,,,,
+T,0,41-50%,81-90%,31-40%,11-20%,Neutral,Effective,Effective,Effective
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,11-20%,81-90%,21-30%,11-20%,Effective,Effective,Effective,Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,41-50%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Neutral,Effective
+T,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,11-20%,51-60%,21-30%,1-10%,Ineffective,Effective,Effective,Effective
+T,0,11-20%,21-30%,31-40%,71-80%,Ineffective,Ineffective,Ineffective,Effective
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,31-40%,51-60%,21-30%,21-30%,Very Ineffective,Ineffective,Ineffective,Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,None,,,,,,,
+T,0,1-10%,71-80%,1-10%,1-10%,Effective,Neutral,Effective,Effective
+T,0,61-70%,81-90%,71-80%,None,Effective,Neutral,Effective,Very Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,61-70%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+T,0,41-50%,91-100%,21-30%,61-70%,Very Effective,Very Effective,Very Effective,Very Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,91-100%,91-100%,1-10%,None,Effective,Effective,Effective,Effective
+T,0,,,,,,,,
+T,0,1-10%,11-20%,11-20%,81-90%,Very Ineffective,Very Ineffective,Very Ineffective,Very Ineffective
+T,0,,,,,,,,
+T,0,51-60%,11-20%,81-90%,1-10%,Ineffective,Not Applicable,Ineffective,Effective
+T,0,91-100%,91-100%,1-10%,None,Very Effective,Very Effective,Very Effective,Very Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,31-40%,71-80%,11-20%,1-10%,Very Effective,Neutral,Ineffective,Neutral
+T,0,,,,,,,,
+T,0,1-10%,31-40%,51-60%,51-60%,Neutral,Neutral,Neutral,Neutral
+T,0,91-100%,91-100%,1-10%,Don't Know,Effective,Neutral,Ineffective,Ineffective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,11-20%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,71-80%,,,,,,,
+T,0,,,,,,,,
+T,0,41-50%,41-50%,Don't Know,Don't Know,Ineffective,Neutral,Effective,Effective
+T,0,None,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,91-100%,91-100%,None,None,Effective,Very Effective,Effective,Neutral
+T,0,,,,,,,,
+T,0,81-90%,Don't Know,Don't Know,Don't Know,Very Ineffective,Very Ineffective,Very Ineffective,Very Ineffective
+T,0,1-10%,81-90%,11-20%,11-20%,Ineffective,Neutral,Neutral,Neutral
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,1-10%,Don't Know,Don't Know,Don't Know,Very Ineffective,Neutral,Neutral,Very Ineffective
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,71-80%,41-50%,81-90%,1-10%,Very Ineffective,Very Ineffective,Very Ineffective,Ineffective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,61-70%,51-60%,41-50%,11-20%,Neutral,Neutral,Effective,Ineffective
+T,0,1-10%,91-100%,1-10%,None,Neutral,Neutral,Effective,Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,71-80%,41-50%,31-40%,1-10%,Very Effective,Very Effective,Neutral,Very Effective
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,51-60%,71-80%,11-20%,None,Effective,Not Applicable,Neutral,Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,1-10%,61-70%,41-50%,11-20%,Neutral,Effective,Neutral,Effective
+T,0,51-60%,21-30%,51-60%,71-80%,Very Ineffective,Very Ineffective,Ineffective,Ineffective
+T,0,71-80%,61-70%,Don't Know,Don't Know,Effective,Effective,Effective,Effective
+T,0,71-80%,41-50%,31-40%,1-10%,Effective,Neutral,Ineffective,Ineffective
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,81-90%,None,71-80%,21-30%,Very Ineffective,Ineffective,Ineffective,Neutral
+T,0,41-50%,41-50%,41-50%,1-10%,Effective,Effective,Effective,Very Effective
+T,0,,,,,,,,
+T,0,1-10%,21-30%,21-30%,21-30%,Ineffective,Very Ineffective,Very Ineffective,Neutral
+T,0,,,,,,,,
+T,0,11-20%,41-50%,21-30%,51-60%,Neutral,Neutral,Effective,Effective
+T,0,31-40%,71-80%,1-10%,11-20%,Effective,Effective,Effective,Very Effective
+T,0,None,,,,,,,
+T,0,21-30%,21-30%,21-30%,31-40%,Ineffective,Ineffective,Ineffective,Effective
+T,0,,,,,,,,
+T,0,71-80%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Neutral,Very Ineffective
+T,0,81-90%,Don't Know,Don't Know,Don't Know,Ineffective,Neutral,Ineffective,Ineffective
+T,0,,,,,,,,
+T,0,1-10%,91-100%,None,None,Neutral,Effective,Neutral,Neutral
+T,0,91-100%,71-80%,51-60%,51-60%,Very Effective,Very Effective,Neutral,Neutral
+T,0,None,,,,,,,
+T,0,None,,,,,,,
+T,0,91-100%,81-90%,21-30%,None,Effective,Effective,Effective,Neutral
+T,0,41-50%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Effective,Neutral
+T,0,31-40%,Don't Know,Don't Know,Don't Know,Neutral,Neutral,Ineffective,Ineffective
+T,0,21-30%,41-50%,11-20%,21-30%,Effective,Effective,Ineffective,Neutral
+T,0,31-40%,21-30%,31-40%,21-30%,Ineffective,Neutral,Neutral,Ineffective
+T,0,1-10%,61-70%,11-20%,11-20%,Effective,Effective,Effective,Effective
+T,0,,,,,,,,
+T,0,71-80%,51-60%,71-80%,1-10%,Very Effective,Effective,Effective,Very Effective
+T,0,None,,,,,,,
+T,0,None,,,,,,,
+T,0,,,,,,,,
+T,0,11-20%,31-40%,81-90%,51-60%,Ineffective,Neutral,Ineffective,Effective
+T,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+T,0,41-50%,21-30%,71-80%,1-10%,Ineffective,Ineffective,Neutral,Neutral
+T,0,,,,,,,,
+T,0,1-10%,11-20%,91-100%,1-10%,Ineffective,Not Applicable,Ineffective,Very Effective
+T,0,,,,,,,,
+T,0,,,,,,,,
+T,0,61-70%,21-30%,61-70%,1-10%,Very Ineffective,Neutral,Effective,Effective
+T,0,1-10%,51-60%,81-90%,41-50%,Ineffective,Ineffective,Effective,Effective
+T,0,,,,,,,,
+T,0,71-80%,41-50%,11-20%,21-30%,Ineffective,Neutral,Ineffective,Effective
+T,0,1-10%,41-50%,21-30%,11-20%,Ineffective,Neutral,Neutral,Ineffective
+T,0,,,,,,,,
+T,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,21-30%,,,,,,,
+L,0,91-100%,91-100%,1-10%,None,Neutral,Effective,Very Effective,Very Effective
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,1-10%,,,,,,,
+L,0,51-60%,61-70%,Don't Know,Don't Know,Neutral,Very Effective,Effective,Ineffective
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,21-30%,71-80%,1-10%,None,Effective,Effective,Effective,Effective
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,51-60%,61-70%,81-90%,71-80%,Effective,Very Effective,Neutral,Effective
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,21-30%,91-100%,21-30%,11-20%,Effective,Effective,Effective,Effective
+L,0,,,,,,,,
+L,0,81-90%,11-20%,81-90%,1-10%,Effective,Not Applicable,Effective,Neutral
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,81-90%,71-80%,11-20%,1-10%,Effective,Effective,Neutral,Neutral
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,71-80%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,91-100%,91-100%,None,None,Effective,Very Effective,Very Effective,Effective
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,61-70%,81-90%,1-10%,1-10%,Effective,Effective,Very Effective,Very Effective
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,21-30%,81-90%,1-10%,None,Very Effective,Very Effective,Very Effective,Effective
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,31-40%,Don't Know,Don't Know,Don't Know,Effective,Neutral,Effective,Neutral
+L,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,1-10%,11-20%,51-60%,11-20%,Ineffective,Neutral,Ineffective,Neutral
+L,0,1-10%,Don't Know,Don't Know,Don't Know,Very Effective,Effective,Very Effective,Very Effective
+L,0,31-40%,51-60%,31-40%,1-10%,Effective,Neutral,Effective,Effective
+L,0,11-20%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+L,0,1-10%,Don't Know,Don't Know,Don't Know,Effective,Effective,Effective,Effective
+L,0,,,,,,,,
+L,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+L,0,61-70%,51-60%,31-40%,None,Very Effective,Effective,Ineffective,Effective
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,,,,,,,,
+L,0,,,,,,,,
+L,0,1-10%,Don't Know,Don't Know,Don't Know,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+L,0,61-70%,81-90%,1-10%,1-10%,Effective,Effective,Effective,Effective
+L,0,,,,,,,,
+L,0,None,,,,,,,
+L,0,31-40%,91-100%,1-10%,None,Very Effective,Effective,Effective,Neutral
+L,0,,,,,,,,
+L,0,91-100%,91-100%,None,None,Very Effective,Very Effective,Very Effective,Very Effective
