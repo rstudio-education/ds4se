@@ -128,8 +128,30 @@ Some of the theme of these lessons is to critically scrutinize statistics and t
 
 ## Investigating the Grant-Sackman Legend
 ### How long do different programmers take to solve the same task? It's not a 28:1 difference!
+>There are three problems with this number:
+>
+>1. It is wrong.
+>
+>2. Comparing the best with the worst is inappropriate.
+>
+>3. One should use more data to make such a claim.
+
+a bunch of developers did 2 tasks.
+1. find the proper way through a maze (maze)
+2. do some algebra operations (algebra)
+
+they both CODED it (C) and DEBUGGED it (D), and were timed for everything they did
+
+some of the devs did it online interactively with others and some did it offline where they got help, like, later?
+
+some dingbats back in the 70s tried to say that for any given project, theres a 28:1 ratio of time-taken/ability between the worst developer and the best developer, meaning theres tons of variation for any developer and its a crapshoot.
+
+but they didn't do their comparisons taking into accounts the different groups.... because, dingbats. and its just a dumb measure.
+
+my lesson walks through why its a dumb measure
 
 https://pdfs.semanticscholar.org/7fa6/bb45efda15fd9aef3c225b2dd99a7dc018d6.pdf
+
 ```{r}
 #
 # GS-perm-diff.R, 29 Aug 16
@@ -149,6 +171,17 @@ source("../bin/data/ESEUR_config.r")
 
 
 gs=read.csv(paste0(ESEUR_dir, "../bin/data/grant-sackman.csv.xz"), as.is=TRUE)
+gs2 <-gs
+gs2$task[gs$group=="online"] <- paste(gs$task[gs$group=="online"],"_online")
+gs2$task[gs$group=="offline"] <- paste(gs$task[gs$group=="offline"],"_offline")
+
+plt = ggplot(gs2,aes(task,time,fill=task))+
+  geom_boxplot()+
+  coord_flip()+
+  theme_bw()+
+  theme(legend.position = "none")
+plt
+#ggsave("boxplots.png",plt)
 
 algebra=subset(gs, task=="C_algebra")
 
@@ -177,10 +210,18 @@ perm_res=apply(subj_perms, 2, mean_diff)
 
 # p-value of two-sided test
 sum(abs(perm_res) >= abs(subj_mean_diff)) / length(perm_res)
+```
+
+
+```{r}
 
 plot(density(perm_res),
 	main="", ylab="Density\n")
+```
 
+## Bootstrapping
+
+```{r}
 
 # Now the bootstrap, which in this case is testing an assumed wider population.
 
