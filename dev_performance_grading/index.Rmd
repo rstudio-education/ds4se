@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(kableExtra)
 library(ggplot2)
 library(dplyr)
+library(car)
 ```
 <center>
 ![](../bin/images/teamwork.svg)
@@ -185,10 +186,19 @@ plt
 ```
 
 ## Order Effects
+It's important to explain order effects, because they have the potential to seriously mess with experimental results. **Order effects** can sometimes be found in a **within-subjects** experimental design. **Within-subjects** means that each participant does more than one condition. It makes sense to mix around the order that participants see each condition, because of **learning effects**, **priming**, or **fatigue**. Imagine the following scenario:
+
+> First Task: programmers must implement a Tetris game
+>
+> Second Task: programmers choose between creating a Chess game or making a data visualization
+
+***Is it possible that the first task affects the choice in the second task?*** If they were reversed, would something else happen? Maybe programmers get tired, or get used to creating some graphics and want to continue thinking about creating games. Or maybe they're so sick of making games that they always choose to make a data visualization next. Order can affect things. It makes the most sense to randomly present the conditions to your participants, to try to "wash out" any effects like that in the final results. If, regardless of Order, participants are always choosing to make a Chess game, perhaps it's just the more interesting option. But sometimes we can have accidental effects of Order that are difficult to anticipate. What if we mix around Order, but for the people who made Tetris first, they *always* choose Chess? But for people who didn't make Tetris first, it's more of a 50-50 toss up? That is an **Order Effect**.
+
+You can test for Order effects by modeling Order as an actual feature in your model. Normally, we simply mix up the Order to avoid any confounding factors. But what if Order is the confound, itself? We want to look at the *weight* that Order is having on our outcome variable:
 
 ```{r}
 #is there an order effect?
-library(car)
+
 model = lm(time ~seq,
            data = gs)
 
@@ -198,11 +208,52 @@ Anova(model,
 
 ```
 
+It turns out that there *is* an effect of Order, which is yet another problem with the commonly parroted Grant-Sackman study.
+
+
 ## Interaction Plots
+Turns out we might have another Boogeyman affecting our results. It's called an **interaction**. This is when you have two categorical factors that are affecting the outcome variable in contradiction. **Stats Cheatcode: if you plot the variables and any of them cross, you've got an interaction effect**. These aren't necessarily *bad* but they need to be taken into account. This is because taking the means without considering the interacting factor will result in some value somewhere in the middle, when in fact, it's systematically dependent on some other factor you'd be missing. 
+
 ```{r}
-interaction.plot(gs$group,gs$task,gs$time)
-interaction.plot(gs$task,gs$group,gs$time)
+interaction.plot(gs$group,gs$task,gs$time,col=2:5)
 ```
+
+Here is a little bit tricky but let's try to unpack it. We do see two lines crossing, so we know we have an interaction somewhere. It looks like the crossing pair is between `C_algebra` and `D_algebra`. What does that mean? So, first off, we are comparing **Coding** the algebra task, and **Debugging** the algebra task. There is an interaction across `online` and `offline` (groups of interest). Take a deep breath, don't worry I'm kind of confused too. Okay. 
+
+**OFFLINE**:
+
+- D_algebra: `mean = 3010`
+
+- C_algebra: `mean = 2100`
+
+**ONLINE**:
+
+- D_algebra: `mean = 2070`
+
+- C_algebra: `mean = 3460`
+
+So that means that if you were in the `offline` condition, you **debug slower than you code**. But if you were in the `online` condition, you **code slower than you debug**. That's not a meaningless result! It was a little bit tricky to get to, but that's actually something to pay attention to. It's also weird that it *didn't* happen for the `maze` task. So something funky is going on, and these are the kind of hidden disaster-storms you can find in your data and *need to account for*.
+
+
+```{r}
+interaction.plot(gs$task,gs$group,gs$time,col=2:3)
+```
+
+Here, we have another crossing in the interaction plot. Let's break it down like we did in the last one.
+
+**CODING ALGEBRA**:
+
+- offline: `mean = 2100`
+
+- online: `mean = 3460`
+
+**CODING MAZE**:
+
+- offline: `mean = 1080`
+
+- online: `mean = 480`
+
+So this means that for coding the maze task, `offline` coding was slower than `online` coding, but for the algebra task, `offline` coding was faster than `online` coding. You can try to come up with what that means about the tasks themselves (also noting that the maze task took less time overall), but what I'm trying to point out is that these are the things that a responsible statitician *must* look into when they have data they want to make claims about. Certain interactions can actually invalidate the entire experiment. And if you take nothing else away, just remember: *parallel = move along, crossed = something's wrong!* I just made that up, but it's probably good.
 
 
 ```{r}
@@ -274,6 +325,12 @@ sd(bid_boot$t)
 
 length(bid_boot$t[abs(bid_boot$t) >= subj_mean_diff])
 ```
+
+## Personality Effects on Pair Programming
+### It's not worth measuring
+
+http://neverworkintheory.org/2011/07/26/effects-of-personality-on-pair-programming.html
+
 
 ## In Your Ideal World...
 ### How should group projects be graded fairly?
