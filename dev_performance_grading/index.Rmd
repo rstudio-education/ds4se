@@ -11,6 +11,7 @@ library(kableExtra)
 library(ggplot2)
 library(dplyr)
 library(car)
+library("boot")
 ```
 <center>
 ![](../bin/images/teamwork.svg)
@@ -112,24 +113,39 @@ ggplot(hot,aes(Value,fill=Heat))+
 ```
 We can see that "Extra Hot" faults occur with a lower frequency (the majority being close to 0), and "Normal" faults are...well, normal. We don't actually have access to how many of the **Fixed** faults were which Heat Level, but you might imagine that fixing an "Extra Hot" should count for more than fixing a "Normal" fault. Keep in mind that these are self-reported Heat levels, as well. One person's "Normal" might be someone else's "Extra Hot". But is there a way to give someone more credit for fixing an "Extra Hot" fault than for fixing a "Normal" one? Or would that simply incentivize developers to label all of their work as "Extra Hot"? Maybe other developers could rate how difficult the faults were, so that people wouldn't game the system. But that would also be really unfair, as someone might have worked *really* hard on something that would take someone else less time. Or another developer may not have the expertise to actually rate the severity of a fault for another developer. 
 
-**Weighted Features** are a foundation in machine learning models. Algorithms can actually systematically infer the proper combination of weights on each feature that most accurately predicts an outcome variable.
+**Weighted Features** are a foundation in machine learning models. Algorithms can actually systematically infer the proper combination of weights on each feature that most accurately predicts an outcome variable. But this is a complex interaction between algorithm and experimental design. An algorithm can only work with what was measured; and sometimes our operationalization of what should be measured isn't valid. This is a delicate balance that hopefully comes with experience, but be reminded that you always have the power to question even the most confident statistical result!
 
+```{r}
+#you can play around with different combos that you think might affect the percentage Fixed.
+#Note: No.Fix will predict Fixed, because they're related by their sum. It's not meaningful in any predictive way
+model <- glm(data$Fixed~data$Defects+data$Status.Open+data$Extra.Hot)
+Anova(model) #significant effect of Status.Open and Extra.Hot on percentage Fixed, can you even describe what that might mean?
 
-Defects differ in their commercial importance, and a relative
-weight for each classification has to be decided; should the weight of “No fix” be larger than
-that given to “Cannot reproduce” or “Duplicate”
+model <- glm(data$Fixed~data$Defects)
+Anova(model) #no significance
 
-## Generalizability
-To what extent would a tester’s performance, based on measurements involving one software
-system in one company, be transferable to another system in the same company or another
-company?
-
-## It's All Made Up and the Points Don't Matter
-Some of the theme of these lessons is to critically scrutinize statistics and t
-
+```
 
 ## Investigating the Grant-Sackman Legend
-### How long do different programmers take to solve the same task? It's not a 28:1 difference!
+### How long do different programmers take to solve the same task? It's not what you think!
+
+As I delve more into the world of software engineering, I'm uncovering countless myths, folklore, and dogma. It seems that software engineers are particularly religious when it comes to their opinions and cited "facts", choosing multiple hills to die on, over and over. This might be part of the engineering culture, where people must consistently argue to prove their value, without a ton of access and experience with academic literature. This is a product of how we value employees, productivity, and "sounding smart" and we are all victim to it. So let's strip back some of the layers of the things we thought we knew, and try to approach these things with an evidence-based mindset. And hey, it might be even more fun to argue when you've got proper statistical skills and citations in your back pocket!
+
+Apparently, the software world loves to cite the "fact" that the difference between the worst programmer and best programmer in a group is about *10-fold*. It's one of those things that is either commonly stated or debated, but nevertheless it persists. Personally, I find it to be yet another excuse to try to rank yourself against others; seeing where you "fit" in the hierarchy of productivity and performance. Unfortunately, no one really wants to be called out as the "worst" programmer, and if you really are the "best" programmer, you've got a million opportunities already! Realistically, we all probably have a distribution of skills that are each useful for different problems. Here's a cheesy, mathematical, motivational comic I drew when I was in my first research job learning Bayesian inference and constantly feeling behind:
+
+<center>
+
+
+<img src="../bin/images/distrib1.jpg" style="border:5px solid black; height:240px;"></img><img src="../bin/images/distrib2.jpg" style="height:240px;border:5px solid black;margin-left:5%;"></img>
+
+</center>
+
+Okay so let's investigate the original culprit of this 10-fold measure. 
+
+### The Study
+
+12 developers participated in 2 programming tasks, each with a `coding` portion and a `debugging` portion. One task was to do some algebra operations, and the other task was to find the proper path through a 20x20 maze. Half of the developers were in an `online` group, and the other half in an `offline` group. They were timed at everything they did. This is the study that is the origin of the famous claim that there's such a big discrepancy between programmers in how fast they can do any given task. This original study came up with a 28:1 ratio between the best to worst programmer times.
+
 >There are three problems with this number:
 >
 >1. It is wrong.
@@ -138,19 +154,7 @@ Some of the theme of these lessons is to critically scrutinize statistics and t
 >
 >3. One should use more data to make such a claim.
 
-a bunch of developers did 2 tasks.
-1. find the proper way through a maze (maze)
-2. do some algebra operations (algebra)
-
-they both CODED it (C) and DEBUGGED it (D), and were timed for everything they did
-
-some of the devs did it online interactively with others and some did it offline where they got help, like, later?
-
-some dingbats back in the 70s tried to say that for any given project, theres a 28:1 ratio of time-taken/ability between the worst developer and the best developer, meaning theres tons of variation for any developer and its a crapshoot.
-
-but they didn't do their comparisons taking into accounts the different groups.... because, dingbats. and its just a dumb measure.
-
-my lesson walks through why its a dumb measure
+So, those dingbats back in the 70s tried to say that for any given project, theres a 28:1 ratio of time-taken/ability between the worst developer and the best developer, meaning theres tons of variation for any developer and its a crapshoot. They literally did their comparisons incorrectly, comparing groups that could not logically be compared. They also allowed developers to code in different langugaes, with some of the programmers choosing Assembly; no one knows why. The measure, *if anything* should be about 9:1, but the study is riddled with issues. We walk through a few of these issues, and look at that original data below:
 
 https://pdfs.semanticscholar.org/7fa6/bb45efda15fd9aef3c225b2dd99a7dc018d6.pdf
 
@@ -263,7 +267,9 @@ summary <- gs %>%
 kable(summary)%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
   
-  
+```
+
+```{r echo=FALSE, message=FALSE,warning=FALSE,results='hide'}
 algebra=subset(gs, task=="C_algebra")
 
 online=subset(subset(algebra, group == "online"))
@@ -291,23 +297,14 @@ perm_res=apply(subj_perms, 2, mean_diff)
 
 # p-value of two-sided test
 sum(abs(perm_res) >= abs(subj_mean_diff)) / length(perm_res)
-```
 
-This shiz is nuanced! 
 
-```{r}
-
-plot(density(perm_res),
-	main="", ylab="Density\n")
-```
-
-## Bootstrapping
-
-```{r}
+#plot(density(perm_res),
+	#main="", ylab="Density\n")
 
 # Now the bootstrap, which in this case is testing an assumed wider population.
 
-library("boot")
+
 
 mean_diff=function(bids, indices)
 {
@@ -317,8 +314,8 @@ return(mean(t[1:subj_online])-mean(t[(subj_online+1):total_subj]))
 
 bid_boot=boot(algebra$time, mean_diff, R = 9999)
 
-plot(density(bid_boot$t),
-	main="", ylab="Density\n")
+#plot(density(bid_boot$t),
+	#main="", ylab="Density\n")
 
 mean(bid_boot$t)
 sd(bid_boot$t)
@@ -326,11 +323,17 @@ sd(bid_boot$t)
 length(bid_boot$t[abs(bid_boot$t) >= subj_mean_diff])
 ```
 
-## Personality Effects on Pair Programming
-### It's not worth measuring
+## Back to Basics: How to Measure Performance at all
 
-http://neverworkintheory.org/2011/07/26/effects-of-personality-on-pair-programming.html
+https://catenary.wordpress.com/2011/01/12/the-thorny-and-the-obvious/
 
+The problem is not necessarily in how rigorously we are measuring performance; though having more participants and less confounding variables is a must! The real problem lies more in the idea that we are measuring performance at all; without an agreed-upon definition of what that means and how it helps. Several companies use performance metrics to monitor employees, give bonuses, or terminate employment. But given all of the statistical caveats we have looked at in this lesson, how can we really be sure that those measures aren't more harmful than helpful? Your next task will be to design a system for measuring group performance for a project. Make sure to provide argumentation for why your measure is valid, reasonable, and helpful.
 
 ## In Your Ideal World...
 ### How should group projects be graded fairly?
+
+- define your outcome variables
+- define factors affecting the outcome variables
+- define the weighting system
+- define how the information will be combined to give a final "score"
+- justify your design
