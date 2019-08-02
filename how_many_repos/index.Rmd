@@ -292,6 +292,7 @@ head(residuals)
 RMSE = function(predictions, true_values){
   sqrt(mean((predictions - true_values)^2))
 }
+
 RMSE(predictions$prediction,test$num_projects_sum)
 
 ```

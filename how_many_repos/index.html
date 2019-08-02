@@ -417,7 +417,7 @@ sql &lt;- &quot;select count(id) as num_projects,date(created_at) as day
 
 #executing the query
 data  &lt;- query_exec(sql, project = project, useLegacySql = FALSE)</code></pre>
-<pre><code>## 0 bytes processed</code></pre>
+<pre><code>## 576.0 megabytes processed</code></pre>
 <pre class="r"><code>data &lt;- data[data$day!=&quot;2016-05-01&quot;,] #crazy outlier? #like unreasonably so
 
 #number of projects created each day (it&#39;s going up, but its not the running sum! don&#39;t mix them up)
@@ -654,18 +654,19 @@ predictions &lt;-predictions[order(predictions$n),]
 test &lt;-test[order(test$n),]
 head(test)</code></pre>
 <pre><code>##      num_projects        day    n num_projects_sum
-## 2168        12595 2013-10-19 2107          6459831
-## 2451        12179 2013-10-20 2108          6472010
-## 892         18097 2013-10-21 2109          6490107
-## 125         18414 2013-10-22 2110          6508521
-## 2450        18160 2013-10-23 2111          6526681
-## 2460        18949 2013-10-24 2112          6545630</code></pre>
+## 117         12595 2013-10-19 2107          6459831
+## 2583        12179 2013-10-20 2108          6472010
+## 2033        18097 2013-10-21 2109          6490107
+## 858         18414 2013-10-22 2110          6508521
+## 2455        18160 2013-10-23 2111          6526681
+## 2465        18949 2013-10-24 2112          6545630</code></pre>
 <pre class="r"><code>residuals &lt;- test$num_projects_sum-predictions$prediction
 head(residuals)</code></pre>
 <pre><code>## [1] 11933.068  8412.371 10777.812 13428.346 15792.929 18914.514</code></pre>
 <pre class="r"><code>RMSE = function(predictions, true_values){
   sqrt(mean((predictions - true_values)^2))
 }
+
 RMSE(predictions$prediction,test$num_projects_sum)</code></pre>
 <pre><code>## [1] 6035449</code></pre>
 </div>
