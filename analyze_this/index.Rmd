@@ -1,0 +1,115 @@
+---
+title: "Analyze This!"
+author: "Yim Register"
+date: "8/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(ggplot2)
+```
+
+
+## What is "Evidence"?
+
+You're about to learn a term that hopefully won't haunt you like it haunted me: *epistemology*. I recently spent an entire year using the term *epistemology* to the point of irony, after having it repeated over and over in my first-year PhD courses. Epistemology is the study of knowing. I won't go too far into this, as it's literally PhDs worth of studying, but it's "how we know what we think we know".
+
+>the theory of knowledge, especially with regard to its methods, validity, and scope. Epistemology is the investigation of what distinguishes justified belief from opinion
+
+Miraculously, we can go through years of school and never question how we know anything. We learn from history books, practice math formulas, create artwork, and maybe conduct some neat experiments. All of that knowledge had to come from *somewhere*, and some of it is wrong.
+
+Part of being a digital citizen, software engineer, and scholar is learning how to defend what you think you know. Whether that's in political arguments or convincing someone why pickles are a polarized issue, you will be caught over and over again in some form of argumentation. In software engineering, there are opinions abound! On the best language, best practice, hottest new package, best workflow, etc.
+
+Through these lessons, you will develop your own ability to question how we know what we know; walking through how we can use data and statistics to make conclusions about the software industry. Some people believe that statistics are the ground truth, while others believe that numbers could never capture the nuance of a problem. Both of these views are dangerous. We are about to embark on a journey into Statistical Wonderland, where some things are nonsense, some things are useful, some things are wrong, and some things are awesome. The goal of this curriculum is to give you a toolbox to find your *own* answers; to learn to read and dissect academic findings and to apply the useful results to your own practice of software engineering.
+
+
+## Surveying a Population
+
+Sometimes we don't know anything about anything. We all have to start somewhere. The following paper, *[Analyze This!](http://delivery.acm.org/10.1145/2570000/2568233/p12-begel.pdf?ip=97.113.215.117&id=2568233&acc=ACTIVE%20SERVICE&key=B63ACEF81C6334F5%2EF43F328D6C8418D0%2E90053D5C35FBAB49%2E4D4702B0C3E38B35&__acm__=1565042855_5bb53d7b3013f10739251d27178d0bb7) approaches an unexplored research area with a certain elegance. They asked 1500 Microsoft engineers the following:
+
+>Please list up to five questions you would like [a team of data scientists who specialize in studying how software is developed] to answer
+
+They then asked a new sample of 2500 Microsoft engineers to prioritize the questions.
+
+So yeah, they just *asked*. If you want to know what the most important things that Data Scientists should work on, *just ask*. This is an incredible, high-powered starting point for distilling how we should investigate what is most important to the stakeholders involved. Let's take a look at how this sample prioritized things:
+
+```{r}
+data <- read_excel("../bin/data/145Questions.xlsx",skip=3)
+colnames(data) <- c("QuestionID","Category","Question","Essential",  "Worthwhile"  ,     "Unimportant" , "Unwise","Don't Know" , "Distribution",  "EssentialPercent" ,  "WorthwhilePercent" ,"UnwisePercent" ,     "EssentialRank"  , "WorthwhileRank", "UnwiseRank")
+View(data)
+
+#what I want is, across the different categories, how much was labeled Essential, Worthwhile, Unimportant, Unwise
+
+
+
+
+#idk what the hell I'm trying to show here
+ggplot(data,aes())+
+  geom_density(aes(UnwisePercent,fill="Unwise"),alpha=.5,)+
+  geom_density(aes(data$EssentialPercent,fill="Essential"),alpha=.5)+
+  geom_density(aes(data$WorthwhilePercent,fill="Worthwhile"),alpha=.5)+
+  xlab("Distributed Priority Percentage Across Questions")+
+  theme_bw()
+
+ggplot(data,aes(QuestionID,Essential,fill=as.factor(QuestionID)))+
+  geom_bar(stat="identity")+
+  guides(fill=FALSE)+
+  theme_bw()
+  
+
+```
+
+## Reading Academic Papers
+## Qualitative and Quantitative Methods
+
+
+## Statistics Refresher and R Basics
+
+## Measuring "Essential"
+
+
+```{r}
+
+
+ggplot(data,aes(Category,Essential,color=Category))+
+  stat_summary(fun.data=mean_cl_boot)+
+  ggtitle("Essential")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggplot(data,aes(Category,Worthwhile,color=Category))+
+  stat_summary(fun.data=mean_cl_boot)+
+  ggtitle("Worthwhile")+
+  
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+## Don't Measure Dev Practices
+
+It's actually in line with the research, there's not a ton of need to measure (for possible intervention probably), dev practice and testing
+```{r}
+ggplot(data,aes(Category,Unimportant,color=Category))+
+  stat_summary(fun.data=mean_cl_boot)+
+  ggtitle("Unimportant")+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+## Unwise to measure
+
+Don't measure productivity
+```{r}
+ggplot(data,aes(Category,Unwise,color=Category))+
+  stat_summary(fun.data=mean_cl_boot)+
+  theme_bw()+
+  ggtitle("Unwise")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
