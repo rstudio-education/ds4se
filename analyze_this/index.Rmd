@@ -33,32 +33,102 @@ Sometimes we don't know anything about anything. We all have to start somewhere.
 
 They then asked a new sample of 2500 Microsoft engineers to prioritize the questions.
 
-So yeah, they just *asked*. If you want to know what the most important things that Data Scientists should work on, *just ask*. This is an incredible, high-powered starting point for distilling how we should investigate what is most important to the stakeholders involved. Let's take a look at how this sample prioritized things:
+So yeah, they just *asked*. If you want to know what the most important things that Data Scientists should work on, *just ask*. This is an incredible, high-powered starting point for distilling how we should investigate what is most important to the stakeholders involved. Let's take a look at how this sample prioritized things, while also getting a lesson in R.
+
+### Reading in the Data
+Here we have an excel sheet, but many data files will be Comma Separated Values `(.csv)`. We are using the `readxl` library to convert the excel sheet into a `dataframe` that R can work with. 
 
 ```{r}
-data <- read_excel("../bin/data/145Questions.xlsx",skip=3)
+data <- read_excel("../bin/data/145Questions.xlsx",skip=3) #skip the first three rows because they have some copywrite stuff from Microsoft that reads in a little weird
+#read.csv("path/here.csv")
+```
+
+### Renaming Columns
+The columns had names that weren't as condusive to the code we will write, so here's how to rename columns in a dataframe. You do need to include all of the names using this technique.
+```{r}
 colnames(data) <- c("QuestionID","Category","Question","Essential",  "Worthwhile"  ,     "Unimportant" , "Unwise","Don't Know" , "Distribution",  "EssentialPercent" ,  "WorthwhilePercent" ,"UnwisePercent" ,     "EssentialRank"  , "WorthwhileRank", "UnwiseRank")
-View(data)
+```
+
+### Descriptive Statistics
+Whenever we have data, we first report on descriptive statistics. *Descriptive* statistics are things like the average values, the ranges of those values (highest and lowest), and other facts about the data that was collected. Descriptive statistics are contrasted with *inferential* statistics, which use statistical tests to draw conclusions about differences between groups, or fits of models, or other things that we can use to make sense of various phenomena. Let's stick with descriptive statistics for now.
+
+
+### First Visualization
+
+We are going to make some boxplots. You may or may not have learned about "Box-and-Whisker Plots" before. There are several pieces to these plots that help us visualize descriptive statistics. The bar in the middle of the box is the **mean**, and any points outside of the box-and-whisker plot are **outliers** (meaning they are significantly above or below the **interquartile range**.) We can't actually know too much from these plots, as they simply show us, *across all categories*, how willing the participants were to assign a certain label to a Question. We can observe that people seemed more willing to label something as "Worthwhile" than they did "Unwise" or "Essential". This actually makes sense, because it's easier to label something with a less-extreme judgment. "Unwise" is seriously suggesting that something should not be done, and "Essential" is making a serious judgment call on the value of something. "Worthwhile" is more relaxed, and it seems that more people were willing to use that label instead of strongly committing on most of the topics. It's lucky for us that everything wasn't labeled "Essential" or we wouldn't even have a better idea of where to start researching!
+
+* Note: I'm using something called `ggplot` and `cowplot` to make these graphs. `ggplot` is a cornerstone of data visualization, whereas `cowplot` simply allows me to line them up horizontally. I've used `theme(axis.text.x=element_blank()` to remove the x-axis labels. I use `theme_bw()` which stands for "Theme Black and White" because it looks better to me. You should play around with your own preferences! 
+```{r fig.width=10}
+
+essential <- ggplot(data,aes(y=Essential,))+
+  geom_boxplot()+
+  theme_bw()+
+  theme(
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+worthwhile <- ggplot(data,aes(y=Worthwhile))+
+  geom_boxplot()+
+  theme_bw()+
+  theme(
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+unimportant <- ggplot(data,aes(y=Unimportant))+
+  geom_boxplot()+
+  theme_bw()+
+  theme(
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+unwise <- ggplot(data,aes(y=Unwise))+
+  geom_boxplot()+
+  theme_bw()+
+  theme(
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+cowplot::plot_grid(essential, worthwhile, unimportant,unwise ,
+                   ncol = 4, rel_heights = c(1, 1),
+                   align = 'h', axis = 'lr')
+
+```
+
+### Distribution Across Questions
+
+```{r}
 
 #what I want is, across the different categories, how much was labeled Essential, Worthwhile, Unimportant, Unwise
 
-
-
-
 #idk what the hell I'm trying to show here
 ggplot(data,aes())+
-  geom_density(aes(UnwisePercent,fill="Unwise"),alpha=.5,)+
-  geom_density(aes(data$EssentialPercent,fill="Essential"),alpha=.5)+
-  geom_density(aes(data$WorthwhilePercent,fill="Worthwhile"),alpha=.5)+
+  geom_density(aes(Essential,fill="Essential"),alpha=.5)+
+  geom_density(aes(Worthwhile,fill="Worthwhile"),alpha=.5)+
+  geom_density(aes(Unimportant,fill="Unimportant"),alpha=.5)+
+  geom_density(aes(Unwise,fill="Unwise"),alpha=.5,)+
   xlab("Distributed Priority Percentage Across Questions")+
   theme_bw()
+```
 
-ggplot(data,aes(QuestionID,Essential,fill=as.factor(QuestionID)))+
+### Most Essential Question
+```{r fig.width=10}
+ggplot(data,aes(QuestionID,Essential,fill=Category))+
   geom_bar(stat="identity")+
-  guides(fill=FALSE)+
   theme_bw()
-  
 
+
+#this R syntax is grabbing the Question cell wherever the Essential value is matching the maximum Essential value. Let's see what was considered Essential by the most people!
+data$Question[data$Essential==max(data$Essential)]
+```
+
+### Most Unwise Question
+```{r fig.width=10}
+ggplot(data,aes(QuestionID,Unwise,fill=Category))+
+  geom_bar(stat="identity")+
+  theme_bw()
+
+
+data$Question[data$Unwise==max(data$Unwise)]
 ```
 
 ## Reading Academic Papers
