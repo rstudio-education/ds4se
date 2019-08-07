@@ -11,6 +11,8 @@ library(dplyr)
 library(kableExtra)
 ```
 
+https://medium.com/@yimregister/how-to-meaningfully-play-with-data-f5183fe82539
+
 ## Curiosity killed the cat, but satisfaction brought it back
 
 Sometimes, some of the most intricate problems arise from simple musings among friends. This is one of the beautiful things about problem solving, programming, and statistics. When you are curious enough and excited about a problem, you may find yourself exploring every caveat just to prove your point! (*Be careful though, don't forgo sleep. We cover the detrimental effects of missing sleep on your coding performance in another lesson!*) While it is very important to tackle real problems that are genuinely affecting people's lives, first we have to learn to wrangle statistics and ask the right kinds of questions. Learning this skill will help you to ask critical questions when it really counts, like when building software for hospitals, news sites, financial institutions, or maybe the next rocket to Mars. One of the best ways to teach these skills is to lock on to a personally meaningful, but low-stakes, question; **and answer it**.
@@ -169,6 +171,7 @@ kable(head(lang_growth))%>%
 ```
 ### Cumulative Sum
 We take the cumulative sum over time to indicate *total* commits over time, as opposed to commits on that particular day.
+
 ```{r}
 lang_growth <-lang_growth[order(lang_growth$day),]
 lang_growth$n <-seq.int(nrow(lang_growth))
@@ -246,6 +249,8 @@ year_commits  <- query_exec(data_sql, project = project, useLegacySql = FALSE)
 plt = ggplot(year_commits,aes(day,num_commits,colour=country))+
   geom_line(aes(group=country))+
   theme_bw()+
+  ylab("Number of Commits")+
+  xlab("Time(day)")+
   theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
   ggtitle("2016 Commits on GitHub (Canada vs. USA)", subtitle="January 1 - September 5")
 plt
@@ -348,6 +353,75 @@ plt
 ```
 
 
+```{r}
+sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
+from [ghtorrent-bq.ght.project_commits] pc join
+     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+     date(created_at) between date('2012-01-01')
+                          and  date('2016-09-05') )c on pc.commit_id = c.id join
+     (SELECT id, language, description
+     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%dumb%')p on p.id = pc.project_id join
+     (SELECT login,  id
+     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+group by description,language
+order by num_commits desc;"
+results  <- query_exec(sql, project = project, useLegacySql = FALSE)
 
+pizza_sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
+from [ghtorrent-bq.ght.project_commits] pc join
+     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+     date(created_at) between date('2012-01-01')
+                          and  date('2016-09-05') )c on pc.commit_id = c.id join
+     (SELECT id, language, description
+     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%pizza%')p on p.id = pc.project_id join
+     (SELECT login,  id
+     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+group by description,language
+order by num_commits desc;"
+pizza  <- query_exec(pizza_sql, project = project, useLegacySql = FALSE)
+pizza <- pizza[order(-pizza$num_commits),]
+
+summary <- pizza %>%
+  count(language)
+summary <- summary[order(-summary$n),]
+plt = ggplot(summary[1:7,],aes(language,n,fill=language))+
+  geom_bar(stat="identity")+
+  theme_bw()+
+  xlab("Language")+
+  ylab("Total Commits")+
+  ggtitle("Language Choice for Projects About Pizza 🍕")+
+  theme(legend.position = "none") 
+plt
+
+cats_sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
+from [ghtorrent-bq.ght.project_commits] pc join
+     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+     date(created_at) between date('2012-01-01')
+                          and  date('2016-09-05') )c on pc.commit_id = c.id join
+     (SELECT id, language, description
+     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%scats')p on p.id = pc.project_id join
+     (SELECT login,  id
+     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+group by description,language
+order by num_commits desc;"
+cats  <- query_exec(cats_sql, project = project, useLegacySql = FALSE)
+cats <- cats[order(-cats$num_commits),]
+
+summary <- cats %>%
+  count(language)
+summary <- summary[order(-summary$n),]
+plt = ggplot(summary[1:7,],aes(language,n,fill=language))+
+  geom_bar(stat="identity")+
+  theme_bw()+
+  xlab("Language")+
+  ylab("Total Commits")+
+  ggtitle("Language Choice for Projects About Cats 🐱")+
+  theme(legend.position = "none") 
+plt
+
+
+
+
+```
 
 
