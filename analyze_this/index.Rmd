@@ -7,10 +7,15 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(readxl)
-library(ggplot2)
+
 ```
 
+### Before this lesson:
+
+* Read the paper: Analyze This!
+* Download and start RStudio
+* Get comfortable copying and pasting from this Markdown and running in your own R file
+* Group discussion about how you might use statistics in software engineering
 
 ## What is "Evidence"?
 
@@ -35,10 +40,20 @@ They then asked a new sample of 2500 Microsoft engineers to prioritize the quest
 
 So yeah, they just *asked*. If you want to know what the most important things that Data Scientists should work on, *just ask*. This is an incredible, high-powered starting point for distilling how we should investigate what is most important to the stakeholders involved. Let's take a look at how this sample prioritized things, while also getting a lesson in R.
 
-### Reading in the Data
-Here we have an excel sheet, but many data files will be Comma Separated Values `(.csv)`. We are using the `readxl` library to convert the excel sheet into a `dataframe` that R can work with. 
+### Loading Libraries
+"Libraries" may also be referred to as packages. They are collections of functions that someone else has written that are not part of the base programming language, but have functions for a specific purpose. So for instance, R has a `plot` function, but we use `ggplot2` because it has better graphics and more customization. It's like an "add-on" or "expansion pack" to a programming language.
 
-```{r}
+```{r message=FALSE,warning=FALSE}
+library(readxl)
+library(ggplot2)
+library(kableExtra)
+library(dplyr)
+```
+
+### Reading in the Data
+Here we have an excel sheet, but many data files will be Comma Separated Values `(.csv)`. We are using the `readxl` library to convert the excel sheet into a `dataframe` that R can work with. Here I have printed out the `head` and `tail` of this dataframe, but you should run the `View(data)` command in R to see the entire dataframe. You can run that command from the **Console** after highlighting it in your R code.
+
+```{r message=FALSE,warning=FALSE}
 data <- read_excel("../bin/data/145Questions.xlsx",skip=3) #skip the first three rows because they have some copywrite stuff from Microsoft that reads in a little weird
 #read.csv("path/here.csv")
 ```
@@ -47,11 +62,29 @@ data <- read_excel("../bin/data/145Questions.xlsx",skip=3) #skip the first three
 The columns had names that weren't as condusive to the code we will write, so here's how to rename columns in a dataframe. You do need to include all of the names using this technique.
 ```{r}
 colnames(data) <- c("QuestionID","Category","Question","Essential",  "Worthwhile"  ,     "Unimportant" , "Unwise","Don't Know" , "Distribution",  "EssentialPercent" ,  "WorthwhilePercent" ,"UnwisePercent" ,     "EssentialRank"  , "WorthwhileRank", "UnwiseRank")
+
+kable(head(data[1:8])) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+kable(tail(data[1:8])) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
 ### Descriptive Statistics
 Whenever we have data, we first report on descriptive statistics. *Descriptive* statistics are things like the average values, the ranges of those values (highest and lowest), and other facts about the data that was collected. Descriptive statistics are contrasted with *inferential* statistics, which use statistical tests to draw conclusions about differences between groups, or fits of models, or other things that we can use to make sense of various phenomena. Let's stick with descriptive statistics for now.
 
+* Note that the data we have access to is already in aggregate form (we don't have access to each of the 2500 Microsoft engineer ratings, due to privacy). I will demonstrate how to get aggregate statistics across the categories with `dplyr`. This would work even if we hadn't already aggregated the data:
+
+```{r}
+
+aggregate <- data %>% # this symbol is referred to as a "pipe". it "pipes" the data into the other function calls
+              group_by(Category) %>%
+              summarise(AverageEssential = mean(Essential))
+
+kable(aggregate) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+  
+
+```
 
 ### First Visualization
 
@@ -88,6 +121,7 @@ unwise <- ggplot(data,aes(y=Unwise))+
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank())
 
+#lining up all the boxplots horizontally using cowplot
 cowplot::plot_grid(essential, worthwhile, unimportant,unwise ,
                    ncol = 4, rel_heights = c(1, 1),
                    align = 'h', axis = 'lr')
@@ -131,14 +165,11 @@ ggplot(data,aes(QuestionID,Unwise,fill=Category))+
 data$Question[data$Unwise==max(data$Unwise)]
 ```
 
-## Reading Academic Papers
-## Qualitative and Quantitative Methods
 
 
-## Statistics Refresher and R Basics
+## Customers Matter the Most!
 
-## Measuring "Essential"
-
+Specifically, people want to know about the user. Their experiences and their opinions on the tool. Do you think that academics would value this also? Or is there something about having to hit a bottom line that matters? I predict that everyone cares more about the user than we are currently catering for. In Computer Science curriculums, students are often building games or programs without ever evaluating how a user interacts with the program they've built; even though that's one of the most important parts of software engineering! Perhaps CS curriculums can also take a hint from these findings. 
 
 ```{r}
 
@@ -159,9 +190,10 @@ ggplot(data,aes(Category,Worthwhile,color=Category))+
 
 ```
 
-## Don't Measure Dev Practices
+## Developer Practices Don't Matter
 
-It's actually in line with the research, there's not a ton of need to measure (for possible intervention probably), dev practice and testing
+It's actually in line with the research, there's not a ton of need to measure (for possible intervention probably), dev practice and testing. You'll see in some of the future lessons that we delve into "developer folklore" about the importance of different dogmas in software development, and how it doesn't matter as much as many people think it does. Maybe these Microsoft engineers already knew that!
+
 ```{r}
 ggplot(data,aes(Category,Unimportant,color=Category))+
   stat_summary(fun.data=mean_cl_boot)+
@@ -171,9 +203,10 @@ ggplot(data,aes(Category,Unimportant,color=Category))+
 
 ```
 
-## Unwise to measure
+## Don't Measure Productivity
 
-Don't measure productivity
+As we saw from our "Most Unwise" question, we should *not* be measuring productivity in such a dystopian manner. Later on, you'll see a lesson on measuring developer performance and all of the things that can go wrong. Some things should be measured, while others should be left out of the discussion. We do not need some dystopian algorithm determining if your IQ is high enough for you to do well at your job.
+
 ```{r}
 ggplot(data,aes(Category,Unwise,color=Category))+
   stat_summary(fun.data=mean_cl_boot)+
@@ -183,3 +216,24 @@ ggplot(data,aes(Category,Unwise,color=Category))+
 
 
 ```
+
+## How Unwise is it compared to the other categories: Test of Significance
+We are moving beyond Descriptive Statistics to *Inferential Statistics*. Here we will use a test of significance to see if Productivity is *truly* more Unwise to study than the other categories. According to the above graphs, we can use visual reasoning to make a judgment about this. Does the Prouctivity mean look different than the others, on average? But sometimes it is much more subtle than that, or the confidence intervals are very large (the vertical bars radiating from the mean points). That could mean that the data is really widespread, has some outliers, or doesn't have a very large sample size. We use something called a **Mann-Whitney U Test** to compare the two groups. We will go further into detail about that test in future lessons. But for now, know that we are comparing two groups, and want to know if they are "*significantly different"* or not.
+
+* Unwise ratings for all of the questions in the Productivity category vs. Unwise ratings for all the questions in the other categories
+
+Our **null hypothesis** is what we start off with. We begin with the assumption that **The two groups are NOT different**. If the result of our statistical test is a **p-value** < .05, it means that the null hypothesis is true with very little probability (less than 5% chance). This would lead us to suggest that the null hypothesis does not hold, and that the groups may truly be different afterall.
+
+```{r}
+mean(data$Unwise[data$Category=='Productivity'])
+mean(data$Unwise[data$Category!='Productivity'])
+wilcox.test(data$Unwise[data$Category=='Productivity'],data$Unwise[data$Category!='Productivity'])
+
+```
+
+## Academic and Industry Partnership for Good Research
+In academic research, we are reminded that our projects should be *"novel, feasible, and impactful"*. 
+
+>I often make the joke that on your first day of PhD school, you're basically just faced with an empty desk and the task of developing something brand new and brilliant that no one else has been able to do. Good luck!
+
+It's actually much more structured, supportive, and gentle than that, but that's still the crux of it. The goal is to contribute to science with something that is new, actually possible, but also helps people (my version of impactful) and contributes to what we know. This paper points out that one of the best ways to achieve all of those is to do some of your research outside of academia. Asking industry professionals what they need is *good research*. Asking any population of interest what they need is *good practice* and needs to be taken into account. We often have opinions about what we think is important, novel, feasible, etc. But our number one step as researchers is to go find out if our "hunches" are actually founded, and if anyone else sees value in what we are envisioning. Some people will be naysayers to everything; but let's apply what we are learning about statistics to how we feel about our own ideas: if a large sample of people seem to think your work will be a good idea and will be impactful and important, (and they can't think of someone who is already doing it!), then you've already started on your statistical journey of knowing something.
