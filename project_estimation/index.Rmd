@@ -1,15 +1,13 @@
 ---
-title: "When will I be done with this project?"
+title: "When Will I Be Done This Project?"
 author: "Yim Register"
-date: "7/12/2019"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
 ```
-
 
 ## Inconsistency of Measurement
 

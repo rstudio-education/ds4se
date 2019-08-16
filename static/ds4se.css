@@ -1,0 +1,24 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 1em;
+    width: 60em;
+    line-height: 120%;
+    font-size: 110%;
+}
+
+main {
+}
+
+footer {
+    text-align: center;
+}
+
+img.footer {
+    vertical-align: middle;
+    height: 2em;
+    padding: 0.25em;
+}
+
+dt {
+    font-weight: bold;
+}
