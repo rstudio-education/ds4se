@@ -1,9 +1,10 @@
-
-
 ---
-title: "What's the Relationship Between # of Lines and # of Functions in Different Languages?"
+title: "Number of Lines versus Number of Functions in Different Languages"
+author: "Yim Register"
 output: html_document
+bibliography: bibliography.bib
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -11,7 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 # here is where I would like a block image to go for each lesson. Imagery is important to engage the learner.
 ```
+
 ## "Ugh, why do we have to write this in *that* language?"
+
 Whether you're groaning over having to translate your code into some other language, or arguing profusely over the benefits of some obscure package, it's likely that you've considered the differences between programming languages before.  Perhaps you're such a language switcher that your semicolons get mixed up with your whitespace and you search for way too long for the `switch` statement in Python. Perhaps you're committed to your language and never touching anything else, because yours is *clearly* superior. But whatever the case, we are going to explore some differences between languages today. 
 
 ![](figures/languages.png)
