@@ -164,11 +164,41 @@ from [ghtorrent-bq.ght.project_commits] pc join
 group by language,day
 order by num_commits desc;"
 
+language_sql <- "SELECT  p.language as language, date(created_at) as day,count(c.id) as num_commits
+from [ghtorrent-bq.ght.project_commits] pc join
+     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+     date(created_at) between date('2012-01-01')
+                          and  date('2016-09-05') )c on pc.commit_id = c.id join
+     (SELECT id, language, description
+     FROM [ghtorrent-bq.ght.projects] WHERE language !='NULL')p on p.id = pc.project_id join
+     (SELECT login,  id
+     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+group by language,day
+order by num_commits desc;"
+
 
 lang_growth  <- query_exec(language_sql, project = project, useLegacySql = FALSE)
 
 kable(head(lang_growth))%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
+
+#i want the top 10
+View(lang_growth)
+
+summary <- lang_growth %>%
+            group_by(language)%>%
+            summarise(total_num_commits = sum(num_commits))%>%
+            arrange(-total_num_commits)%>%
+            head(5)
+View(summary)
+            
+top_langs <- lang_growth[lang_growth$language %in% summary$language,]
+
+plt =ggplot(top_langs,aes(day,num_commits,color=language,group=language))+
+  geom_line()+
+  theme_bw()+
+  theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())
+plt
 ```
 ### Cumulative Sum
 
