@@ -1,7 +1,8 @@
 ---
 title: "How Many Repositories Are There on GitHub?"
-subtitle: "An Introduction to Statistical Thinking"
+author: "Yim Register"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
