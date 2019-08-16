@@ -1,14 +1,16 @@
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 1em;
-    width: 60em;
-    line-height: 120%;
-    font-size: 110%;
+li {
+  font-size:large;
+  margin-bottom:.5%;
 }
 
 main {
 }
 
+body{
+   margin-bottom: 100px;
+   margin-right: 8%;
+   margin-left: 8%;"
+}
 footer {
     text-align: center;
 }
