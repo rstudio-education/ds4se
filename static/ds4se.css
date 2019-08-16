@@ -3,14 +3,14 @@ li {
   margin-bottom:.5%;
 }
 
-main {
+
+
+main{
+   margin-bottom: 100px;
+   margin-right: 10%;
+   margin-left: 10%;"
 }
 
-body{
-   margin-bottom: 100px;
-   margin-right: 8%;
-   margin-left: 8%;"
-}
 footer {
     text-align: center;
 }
