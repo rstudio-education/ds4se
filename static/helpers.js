@@ -71,8 +71,9 @@
 
         for (var j = 0; j < col.length; j++) {
             var tabCell = tr.insertCell(-1);
-            tabCell.style="font-weight: bold;";
+            tabCell.style="font-weight: bold;width:30%;";
             tabCell.id = myGlossary[i][col[j]];
+
             if(j==1){
               tabCell.style="font-weight:normal;"
             }
