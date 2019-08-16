@@ -755,32 +755,33 @@ StatisticalPowerNonParam &lt;- function(distribution1, nameDistribution1, distri
 ##  SD PAAP :  0.0034  
 ##  RS PAAP :  0.0344
 ##  Cliff Delta  large  ( -0.476 )
-##  Statistical Power 0.684 
-##  beta-val 0.316
+##  Statistical Power 0.639 
+##  beta-val 0.361
 ##  Mean improvement -48.077 \%
 ##  Statistical test p-value (i.e., Hnx)  0.016 
 ## ***  STATISTICALLY SIGNIFICANT DIFFERENCE ***
-## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.684</code></pre>
+## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.639</code></pre>
 <pre class="r"><code>Control_vs_Treatment(&#39;SD #EPISODES&#39;,SD_Cleaned$`#EPISODES`,&#39;RS # EPISODES&#39;,NOSD_Cleaned$`#EPISODES`) #medium but not significant</code></pre>
 <pre><code>##  Non-parametric analyses 
 ##  SD #EPISODES :  0.0291  
 ##  RS # EPISODES :  0.0871
 ##  Cliff Delta  small  ( -0.32 )
-##  Statistical Power 0.345 
-##  beta-val 0.655
+##  Statistical Power 0.364 
+##  beta-val 0.636
 ##  Mean improvement -39.623 \%
 ##  Statistical test p-value (i.e., Hnx)  0.116 
-## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.345</code></pre>
+## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.364</code></pre>
 <pre class="r"><code>Control_vs_Treatment(&#39;SD %CONF&#39;,SD_Cleaned$`%CONF`,&#39;RS %CONF&#39;,NOSD_Cleaned$`%CONF`) #small</code></pre>
 <pre><code>##  Non-parametric analyses 
 ##  SD %CONF :  4e-04  
 ##  RS %CONF :  0.0164
 ##  Cliff Delta  small  ( -0.293 )
-##  Statistical Power 0.254 
-##  beta-val 0.746
+##  Statistical Power 0.255 
+##  beta-val 0.745
 ##  Mean improvement -40.409 \%
 ##  Statistical test p-value (i.e., Hnx)  0.135 
-## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.254</code></pre>
+## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.255</code></pre>
+<p>We successfully replicate the findings in the <em>Need For Sleep</em> paper, demonstrating that there was a significant difference for Percentage of Acceptance Asserts Passed: those who were sleep deprived performed 48% <em>worse</em> on the programming task than those who had regular sleep.</p>
 </div>
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>

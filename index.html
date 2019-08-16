@@ -1,22 +1,63 @@
 <html>
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="static/ds4se.css" rel="stylesheet" type="text/css">
   </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom:3%;">
+  <img class="navbar-brand" src="static/small.png" width="4%;"style="float:left;"></img>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">More Resources</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
   <body>
+
     <main>
-      <h1>Data Science for Software Engineering</h1>
+
+
+      <h1 style="display:inline-block;">Data Science for Software Engineering</h1><img width="20%" src="static/logo.png" style="display:inline-block;float:right;">
+
       <p>
+
         The goal of this project is to teach statistical data analysis to software engineering students
         using software engineering questions and data as examples.
       </p>
+
+
+<div class="jumbotron">
+
+
       <ul>
-        <li><a href="./analyze_this/index.html">Analyze This!</a></li>
+        <li><a href="./analyze_this/index.html" style="margin-right:10px;">Analyze This!</a><span class="badge badge-primary">ggplot2</span>
+<span class="badge badge-success">warmup</span>
+<span class="badge badge-danger">dplyr</span>
+<span class="badge badge-warning">wilcox test</span>
+<span class="badge badge-dark">academic</span>
+<span class="badge badge-secondary">industry</span>
+<span class="badge badge-info">finished</span></li>
         <li><a href="./bayesian_vs_frequentist/index.html">Bayesian vs Frequentist Statistics</a></li>
         <li><a href="./dev_performance_grading/index.html">Developer Performance and Designing a New Grading System for Teams</a></li>
-        <li><a href="./holiday_commits/index.html">Curiosity and Play</a></li>
+        <li><a href="./holiday_commits/index.html" style="margin-right:10px;">Curiosity and Play</a><span class="badge badge-success">warmup</span></li>
         <li><a href="./how_many_repos/index.html">How Many Repositories Are There on GitHub?</a></li>
         <li><a href="./java_vs_c/index.html">Code Quality and Lines of Code</a></li>
         <li><a href="./lines_and_functions/index.html">Number of Lines versus Number of Functions in Different Languages</a></li>
@@ -24,6 +65,7 @@
         <li><a href="./sleep_deprive/index.html">Sleep Deprivation and Software Engineering Performance</a></li>
         <li><a href="./tdd/index.html">Does It Really Matter to Test First or Test After?</a></li>
       </ul>
+</div>
       <p>
         See also:
       </p>
@@ -43,17 +85,22 @@
       </ul>
     </main>
     <footer>
+      <center>
+        <blockquote class="blockquote">
+    <p class="mb-0">“Where should I go?" -Alice. <br>"That depends on where you want to end up." </p>
+    <footer class="blockquote-footer">Chesire Cat in <cite title="Source Title">Alice's Adventures in Wonderland</cite></footer>
+  </blockquote>
       <p>
         <a href="./LICENSE.md">
           <img class="footer" src="./static/cc-by.svg" alt="License" />
         </a>
         <a href="https://github.com/rstudio-education/ds4se/">
-          <img class="footer" src="./static/github.svg" alt="Repository" />
+          <img class="footer" src="./static/github.svg" alt="Repository" width="4%;"/>
         </a>
         <br/>
         © 2019 <a href="https://towardsdatascience.com/@yimregister">Yim Register</a>
       </p>
+    </center>
     </footer>
   </body>
 </html>
-
