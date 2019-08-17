@@ -2,6 +2,7 @@
 
 SRC=$(wildcard */index.Rmd)
 OUT=$(patsubst %/index.Rmd,%/index.html,$(SRC))
+TIMEOUT_SEC=15
 
 #-------------------------------------------------------------------------------
 
@@ -13,7 +14,8 @@ commands :
 all : $(OUT)
 
 %/index.html : %/index.Rmd
-	cd $$(dirname $<) && Rscript -e "rmarkdown::render('index.Rmd')"
+	-cd $$(dirname $<) && \
+	../bin/timeout.sh ${TIMEOUT_SEC} 'Rscript -e "rmarkdown::render(\"index.Rmd\")"'
 
 ## clean        : clean up generated files.
 clean :
