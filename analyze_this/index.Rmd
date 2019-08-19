@@ -2,6 +2,7 @@
 title: "Analyze This!"
 author: "Yim Register"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}

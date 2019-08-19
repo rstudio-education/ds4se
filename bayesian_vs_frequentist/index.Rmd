@@ -1,8 +1,8 @@
 ---
 title: "Bayesian vs Frequentist Statistics"
 author: "Yim Register"
-date: "7/22/2019"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}

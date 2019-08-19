@@ -2,6 +2,7 @@
 title: "Developer Performance and Designing a New Grading System for Teams"
 author: "Yim Register"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
