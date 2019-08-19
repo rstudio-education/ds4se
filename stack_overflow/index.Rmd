@@ -77,3 +77,18 @@ plt = ggplot(cumulative,aes(Month,csum,group=TagName,color=TagName))+
 plt
 
 ```
+## Curiouser and Curiouser...
+
+What we see above is cumulative growth curves for each of the top 10 tags on Stack Overflow. Each one seems to follow a similar trend, though with different magnitudes. All except one... the `python` tag. While the other growth curves appear sigmoidal [LINK TO GLOSS], the `python` growth looks like it isn't reaching a plateau in the time period we are looking at. It is more likely that `python` is still an actively growing area for questions on Stack Overflow, in a different manner than the other tags. In my own mind, it's easy to look at this plot and think of `python` as a car trying to rapidly cut across the highway as it changes multiple lanes, while everyone else is trying to mind their own business.
+
+## Time vs. Totals
+
+If we look at the summary, we see that `python` and `php` have similar total tagged questions:
+
+```{r}
+kable(summary %>% filter(TagName=="php" | TagName == "python")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+  
+```
+
+But there is more *information* in looking at the growth over time. Despite the `python` tag being similar to, and actually less than, the `php` tag, predictive models might show that `python` is growing much faster than `php`. If Stack Overflow were to choose which tags to pay more attention to, in order to help most of its users, which one do you think they ought to choose?
