@@ -29,7 +29,7 @@ One of the most common statistical tools is to compare samples in order to detec
 You're faced with our question: How does the number of lines of code compare with the number of function definitions between languages? Immediately, I think about the many times I've seen code that copy-and-pastes the same block of code over and over, without declaring it as a function. (*Remember your coding etiquette, people! If you copy and paste 3 times, it's time for a function.*) But I'm also reminded of the massive code libaries, containing a function for *everything*, with hundreds of lines of code for all of those functions. Try to reflect on your own intuition about if the number of lines has a relationship to the number of function declarations in a program. Maybe take a look at a program you've written: how many lines? how many function declarations? And did it change over the duration of your first programming course? (I personally went from copy-and-pasting a hard-coded mess into neat little helper functions as I had to face my own monsterous and unmaintainable code.) But wouldn't that *shorten* my program length? You can imagine that the larger the program, the more function definitions there are. But you can also imagine just the opposite.
 
 ## How do I parse a programming language? Abstract Syntax Trees
-We need  to parse a program in order to count up the number of function definitions. The most straightforward way of doing this might be to look for the "def" keyword in a language like Python. Imagine you were writing this yourself; trying to count the number of function definitions in a piece of code. You might rely on good old fashioned string matching: `for line in program: if "def" in line: function_count +=1` That's a fine start but it gets very messy, *fast*. Luckily, we can rely on something called an **Abstract Syntax Tree**. In this example, we use the `ast` package for Python and `acorn.js` for JavaScript. *TODO: lobstr for R* These parsers give us easy access to the different components of a program, and help us to count them up easier. The example scripts are located [here](https://github.com/rstudio-education/ds4se/blob/master/bin/PythonFiles/ast_example.py) (Python) and [here](https://github.com/rstudio-education/ds4se/blob/master/bin/JSFiles/acorn_example.js) (JavaScript).
+We need  to parse a program in order to count up the number of function definitions. The most straightforward way of doing this might be to look for the "def" keyword in a language like Python. Imagine you were writing this yourself; trying to count the number of function definitions in a piece of code. You might rely on good old fashioned string matching: `for line in program: if "def" in line: function_count +=1` That's a fine start but it gets very messy, *fast*. Luckily, we can rely on something called an **Abstract Syntax Tree**. In this example, we use the `ast` package for Python and `acorn.js` for JavaScript. *TODO: lobstr for R* These parsers give us easy access to the different components of a program, and help us to count them up easier. The example scripts are located [here](https://github.com/rstudio-education/ds4se/blob/master/data/PythonFiles/ast_example.py) (Python) and [here](https://github.com/rstudio-education/ds4se/blob/master/data/JSFiles/acorn_example.js) (JavaScript).
 ```{r message=FALSE}
 library(ggplot2)
 library(dplyr)
@@ -38,14 +38,14 @@ library(dplyr)
 
 ```{r}
 
-py = read.csv("../bin/PythonFiles/Stats/python_stats.csv")
+py = read.csv("../data/PythonFiles/Stats/python_stats.csv")
 colnames(py) <- c("Lines","FunctionDefs")
 length(py$Lines)
 #240 python programs
 py$Language = "Python"
 
 # JS programs
-js = read.csv("../bin/JSFiles/Stats/js_stats.csv")
+js = read.csv("../data/JSFiles/Stats/js_stats.csv")
 colnames(js) <- c("Lines","FunctionDefs")
 js$Language= "JavaScript"
 

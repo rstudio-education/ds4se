@@ -22,7 +22,7 @@ teach it, from process dogma based on pure intuition,
 allowing them to focus on aspects that matter most in
 terms of bottom line."*
 
-!["Design Thinking" model emphasizes the iterative dynamic of creating something useful](../bin/images/design2.png)
+!["Design Thinking" model emphasizes the iterative dynamic of creating something useful](../static/design2.png)
 
 
 ## Test-Driven Development Process
@@ -64,7 +64,7 @@ terms of bottom line."*
 the variability in external quality?*
 
 With any measure, we have to operationalize it in some way. "Code Quality" is defined as: 
-![](../bin/images/qlty.PNG), with *QLTYi* defined as: ![](../bin/images/qltyi.PNG)
+![](../static/qlty.PNG), with *QLTYi* defined as: ![](../static/qltyi.PNG)
 
 Don't panic. I've actually wanted to do a research study where I use eyetracking technology to watch how learners react to equations in an academic paper. If you're anything like me, your eyes *glaze right over it* and then you curse yourself for not immediately understanding it by just absorbing it into your mind without reading it. When you dig into these equations, you see that it's a fancy way of counting stuff. `TUS` is the number of "Tackled User Stories", or "how many problems attempted". So, for each of those stories, count up the proportion of passing assert statements, and take the average over all the stories attempted. This way, we are simply measuring functional correctedness, with no accounting for things like style or readability.
 
@@ -72,7 +72,7 @@ Don't panic. I've actually wanted to do a research study where I use eyetracking
 > *Which subset of the factors best explain
 the variability in developer productivity?*
 
-Productivity is defined as: ![](../bin/images/prod.png) with OUTPUT as the total passing assert statements. TIME measures from the time the task is opened until closed.
+Productivity is defined as: ![](../static/prod.png) with OUTPUT as the total passing assert statements. TIME measures from the time the task is opened until closed.
 
 
 ## Factors We Measure
@@ -89,7 +89,7 @@ The following is taken directly from Table 2.
 refactoring activity in the development process. A value close to zero indicates nearly no detectable refactoring activity (negligable refactoring effort). A value close to 100 indicates a process dominated by refactoring activity (high refactoring effort).
 
 ```{r}
-data <- read.csv("../bin/data/dissectionTDD/dataset.csv",sep=";")
+data <- read.csv("../data/dissectionTDD/dataset.csv",sep=";")
 head(data)
 ```
 
@@ -164,7 +164,7 @@ summary(lm(QLTY ~ GRA + UNI + REF + SEQ, data=data))$r.squared
 This paper mentions something called **interactions**. We will walk through a more basic example of what an interaction is before exploring what it means in this context. You can imagine a scenario where there is a **categorical variable**: `test_first`, which can take on either 1 or 0 if the developer tested first or last, respectively. Now imagine we also record whether developers are coding in the morning or the afternoon. *It just so happens in our fake scenario*, that if you test-first in the mornings, your quality skyrockets. If you test-first any other time, you don't get the same effect. Therefore, there is an interaction between testing first and the time of day. This is **problematic** because if we don't look into this interaction, we simply report a mean quality of somewhere in the middle; not accounting for how  the test sequencing and time of day is affecting that quality. **If there is an interaction, the lines in the categorical interaction plot will cross**.
 
 ```{r}
-fake <- read.csv("../bin/data/fake_interaction.csv")
+fake <- read.csv("../data/fake_interaction.csv")
 head(fake,10)
 fake$morning <- as.factor(fake$morning)
 fake$test_first <- as.factor(fake$test_first)

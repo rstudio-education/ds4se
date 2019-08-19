@@ -171,11 +171,11 @@ https://pdfs.semanticscholar.org/7fa6/bb45efda15fd9aef3c225b2dd99a7dc018d6.pdf
 # TAG experiment developer performance
 
 
-source("../bin/data/ESEUR_config.r")
+source("../data/ESEUR_config.r")
 
 
 
-gs=read.csv(paste0(ESEUR_dir, "../bin/data/grant-sackman.csv.xz"), as.is=TRUE)
+gs=read.csv(paste0(ESEUR_dir, "../data/grant-sackman.csv.xz"), as.is=TRUE)
 gs2 <-gs
 gs2$task[gs$group=="online"] <- paste(gs$task[gs$group=="online"],"_online")
 gs2$task[gs$group=="offline"] <- paste(gs$task[gs$group=="offline"],"_offline")

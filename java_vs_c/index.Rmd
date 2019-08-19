@@ -38,10 +38,10 @@ FIXME: They're actually different problems. I have to figure out how to tie them
 ```{r}
 # lang,cc,sloc
 
-source("../bin/data/ESEUR_config.r")
+source("../data/ESEUR_config.r")
 
 library("plyr")
-cc_loc=read.csv(paste0(ESEUR_dir, "../bin/data/Landman_m_ccsloc.csv.xz"), as.is=TRUE)
+cc_loc=read.csv(paste0(ESEUR_dir, "../data/Landman_m_ccsloc.csv.xz"), as.is=TRUE)
 cc_loc=subset(cc_loc, cc != 0)
 cc_loc$logloc=log(cc_loc$sloc)
 
