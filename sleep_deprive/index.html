@@ -376,7 +376,6 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Sleep Deprivation and Software Engineering Performance</h1>
 <h4 class="author">Yim Register</h4>
-<h4 class="date">6/26/2019</h4>
 
 </div>
 
@@ -412,7 +411,7 @@ subTable &lt;- function(data, nameCol, val){
 
 # loading data including the sleep deprived set where we remove some particpants
 
-loadAllData &lt;- function(fileName = &quot;../bin/data/sleepDepr/labpackage/data/piglatin.xlsx&quot;){
+loadAllData &lt;- function(fileName = &quot;../data/sleepDepr/labpackage/data/piglatin.xlsx&quot;){
 
   Exp &lt;&lt;-   read_xlsx(fileName)
   Exp_Cleaned &lt;&lt;- subTable(Exp, &quot;PVT-remove&quot;, &quot;NO&quot;)
@@ -424,7 +423,7 @@ loadAllData &lt;- function(fileName = &quot;../bin/data/sleepDepr/labpackage/dat
 loadAllData()
 
 # this is the post-questionnaire
-post &lt;- read_xlsx(&quot;../bin/data/sleepDepr/labpackage/data/post-questionnaire.xlsx&quot;)
+post &lt;- read_xlsx(&quot;../data/sleepDepr/labpackage/data/post-questionnaire.xlsx&quot;)
 
 #merging things together so we can work with one dataframe
 data &lt;- merge(Exp,post,by=&quot;ID&quot;)
@@ -755,32 +754,32 @@ StatisticalPowerNonParam &lt;- function(distribution1, nameDistribution1, distri
 ##  SD PAAP :  0.0034  
 ##  RS PAAP :  0.0344
 ##  Cliff Delta  large  ( -0.476 )
-##  Statistical Power 0.639 
-##  beta-val 0.361
+##  Statistical Power 0.651 
+##  beta-val 0.349
 ##  Mean improvement -48.077 \%
 ##  Statistical test p-value (i.e., Hnx)  0.016 
 ## ***  STATISTICALLY SIGNIFICANT DIFFERENCE ***
-## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.639</code></pre>
+## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.651</code></pre>
 <pre class="r"><code>Control_vs_Treatment(&#39;SD #EPISODES&#39;,SD_Cleaned$`#EPISODES`,&#39;RS # EPISODES&#39;,NOSD_Cleaned$`#EPISODES`) #medium but not significant</code></pre>
 <pre><code>##  Non-parametric analyses 
 ##  SD #EPISODES :  0.0291  
 ##  RS # EPISODES :  0.0871
 ##  Cliff Delta  small  ( -0.32 )
-##  Statistical Power 0.364 
-##  beta-val 0.636
+##  Statistical Power 0.351 
+##  beta-val 0.649
 ##  Mean improvement -39.623 \%
 ##  Statistical test p-value (i.e., Hnx)  0.116 
-## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.364</code></pre>
+## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.351</code></pre>
 <pre class="r"><code>Control_vs_Treatment(&#39;SD %CONF&#39;,SD_Cleaned$`%CONF`,&#39;RS %CONF&#39;,NOSD_Cleaned$`%CONF`) #small</code></pre>
 <pre><code>##  Non-parametric analyses 
 ##  SD %CONF :  4e-04  
 ##  RS %CONF :  0.0164
 ##  Cliff Delta  small  ( -0.293 )
-##  Statistical Power 0.255 
-##  beta-val 0.745
+##  Statistical Power 0.26 
+##  beta-val 0.74
 ##  Mean improvement -40.409 \%
 ##  Statistical test p-value (i.e., Hnx)  0.135 
-## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.255</code></pre>
+## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.26</code></pre>
 <p>We successfully replicate the findings in the <em>Need For Sleep</em> paper, demonstrating that there was a significant difference for Percentage of Acceptance Asserts Passed: those who were sleep deprived performed 48% <em>worse</em> on the programming task than those who had regular sleep.</p>
 </div>
 <div id="references" class="section level2 unnumbered">

@@ -47,7 +47,7 @@ This lesson is going to explore how we estimate how long software will take to f
 # Empirical Software Engineering using R
 # Derek M. Jones
 
-source("../bin/data/ESEUR_config.r")
+source("../data/ESEUR_config.r")
 
 library("plyr")
 library("dplyr")
@@ -62,7 +62,7 @@ Whatever your problem, you will come across the need to wrangle your data into d
 ### Original Data
 ```{r}
 
-incon=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/inconsistency_est.csv.xz"), as.is=TRUE)
+incon=read.csv(paste0(ESEUR_dir, "../data/estimation/inconsistency_est.csv.xz"), as.is=TRUE)
 
 
 ```
@@ -161,7 +161,7 @@ cor.test(tasks$Estimate.1, tasks$Estimate.2,method="kendall")
 
 ```
 ### Don't fall for my logic!
-![](../bin/images/trap.jpg)
+![](../static/trap.jpg)
 
 Let's fabricate a scenario in which the two estimates are perfectly correlated but wildly different from each other. Clearly, correlation doesn't say anything about how reliable the estimates are. But it probably is saying *something* about the developer's ability to judge a project. What does a strong correlation indicate?
 
@@ -199,8 +199,8 @@ library("foreign") #just to read in the arff file
 
 
 
-kitch=read.arff(paste0(ESEUR_dir, "../bin/data/estimation/82507128-kitchenham.arff.txt"))
-jorg=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/Regression-models.csv.xz"), as.is=TRUE)
+kitch=read.arff(paste0(ESEUR_dir, "../data/estimation/82507128-kitchenham.arff.txt"))
+jorg=read.csv(paste0(ESEUR_dir, "../data/estimation/Regression-models.csv.xz"), as.is=TRUE)
 
 
 data <- kitch %>% 
@@ -345,7 +345,7 @@ What is the biggest problem with these studies? I'll give you a hint. Have you e
 
 
 
-![](../bin/images/cone.png)
+![](../static/cone.png)
 
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&rep=rep1&type=pdf
 
@@ -359,7 +359,7 @@ What if you were to take *multiple* estimates as the project progressed? It make
 
 # Project Code,Week End Date,Target RelDate,Env,Plan,Dev,Stab,Mob,Adj Week,Est EndDate,First Est,Actual Release,Start Date,X,Absolute Ratio,Relative Ratio,Update,Absolute ratio without factor 2,,Eind project,Oppervlakte,Counter,Som oppervlakte,EQF all,EQF end,Eind project factor 2,Oppervlakte factor 2,Counter factor 2,Som oppervlakte factor 2,EQF all factor 2,EQF end factor 2
 # 1,12/01/00,03/01/01,C,C,I,,,12/01/00,03/01/01,03/01/01,08/22/01,12/01/00,0.00,0.6770156819,2.95,1,0.33851,,0,0.0085951791,1,0,4235.7284514877,0,0,0.0176034663,1,0,#DIV/0!,0
-est=read.csv(paste0(ESEUR_dir, "../bin/data/Little06.csv.xz"), as.is=TRUE)
+est=read.csv(paste0(ESEUR_dir, "../data/Little06.csv.xz"), as.is=TRUE)
 
 est$Week.End.Date=as.Date(est$Week.End.Date, format="%m/%d/%y")
 est$Target.RelDate=as.Date(est$Target.RelDate, format="%m/%d/%y")
@@ -429,19 +429,9 @@ ggplot(u_est,aes(percent_comp,AE_ratio))+
 
 
 
-
-
-=======
----
-title: "When Will I Be Done This Project?"
-author: "Yim Register"
-output: html_document
-bibliography: bibliography.bib
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 ```
+
+
 
 ## Inconsistency of Measurement
 
@@ -478,7 +468,7 @@ This lesson is going to explore how we estimate how long software will take to f
 # Empirical Software Engineering using R
 # Derek M. Jones
 
-source("../bin/data/ESEUR_config.r")
+source("../data/ESEUR_config.r")
 
 library("plyr")
 library("dplyr")
@@ -493,7 +483,7 @@ Whatever your problem, you will come across the need to wrangle your data into d
 ### Original Data
 ```{r}
 
-incon=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/inconsistency_est.csv.xz"), as.is=TRUE)
+incon=read.csv(paste0(ESEUR_dir, "../data/estimation/inconsistency_est.csv.xz"), as.is=TRUE)
 
 
 ```
@@ -592,7 +582,7 @@ cor.test(tasks$Estimate.1, tasks$Estimate.2,method="kendall")
 
 ```
 ### Don't fall for my logic!
-![](../bin/images/trap.jpg)
+![](../static/trap.jpg)
 
 Let's fabricate a scenario in which the two estimates are perfectly correlated but wildly different from each other. Clearly, correlation doesn't say anything about how reliable the estimates are. But it probably is saying *something* about the developer's ability to judge a project. What does a strong correlation indicate?
 
@@ -630,8 +620,8 @@ library("foreign") #just to read in the arff file
 
 
 
-kitch=read.arff(paste0(ESEUR_dir, "../bin/data/estimation/82507128-kitchenham.arff.txt"))
-jorg=read.csv(paste0(ESEUR_dir, "../bin/data/estimation/Regression-models.csv.xz"), as.is=TRUE)
+kitch=read.arff(paste0(ESEUR_dir, "../data/estimation/82507128-kitchenham.arff.txt"))
+jorg=read.csv(paste0(ESEUR_dir, "../data/estimation/Regression-models.csv.xz"), as.is=TRUE)
 
 
 data <- kitch %>% 
@@ -776,7 +766,7 @@ What is the biggest problem with these studies? I'll give you a hint. Have you e
 
 
 
-![](../bin/images/cone.png)
+![](../static/cone.png)
 
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&rep=rep1&type=pdf
 
@@ -790,7 +780,7 @@ What if you were to take *multiple* estimates as the project progressed?
 
 # Project Code,Week End Date,Target RelDate,Env,Plan,Dev,Stab,Mob,Adj Week,Est EndDate,First Est,Actual Release,Start Date,X,Absolute Ratio,Relative Ratio,Update,Absolute ratio without factor 2,,Eind project,Oppervlakte,Counter,Som oppervlakte,EQF all,EQF end,Eind project factor 2,Oppervlakte factor 2,Counter factor 2,Som oppervlakte factor 2,EQF all factor 2,EQF end factor 2
 # 1,12/01/00,03/01/01,C,C,I,,,12/01/00,03/01/01,03/01/01,08/22/01,12/01/00,0.00,0.6770156819,2.95,1,0.33851,,0,0.0085951791,1,0,4235.7284514877,0,0,0.0176034663,1,0,#DIV/0!,0
-est=read.csv(paste0(ESEUR_dir, "../bin/data/Little06.csv.xz"), as.is=TRUE)
+est=read.csv(paste0(ESEUR_dir, "../data/Little06.csv.xz"), as.is=TRUE)
 
 est$Week.End.Date=as.Date(est$Week.End.Date, format="%m/%d/%y")
 est$Target.RelDate=as.Date(est$Target.RelDate, format="%m/%d/%y")
@@ -860,7 +850,4 @@ ggplot(u_est,aes(percent_comp,AE_ratio))+
 
 
 
-
-
->>>>>>> 856fe7b568eadacd210ee7be7abd4b5b870f2ff3
 ```
