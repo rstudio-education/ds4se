@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 ---
-title: "When will I be done with this project?"
+title: "When Will I Be Done With This Project?"
 author: "Yim Register"
-date: "7/12/2019"
 output: html_document
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
 ```
 
 
@@ -845,9 +843,4 @@ ggplot(u_est,aes(percent_comp,AE_ratio))+
   xlab("Percentage completed")+
   ylab("Actual/Estimated")+
   theme_bw()
-
-
-
-
-
 ```
