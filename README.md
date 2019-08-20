@@ -142,3 +142,12 @@ Students will be able to:
 - interactions
 - component and residual plots
 - regression output
+
+*Stack Overflow*
+
+- SQL query to Stack Exchange
+- curve comparison
+- kolmogorov-smirnov test
+- time series
+- cumulative sums
+- let's try to put in a t-test or something simple, and discuss standard deviation and whatnot
