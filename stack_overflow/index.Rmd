@@ -1,0 +1,94 @@
+---
+title: "Stack Overflow Queries"
+author: "Yim Register"
+date: "8/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(kableExtra)
+library(ggplot2)
+library(dplyr)
+```
+
+## I am thankful for Stack Overflow
+
+You've come through for me in my dark moments of swearing at Tetris, forgetting any and all JavaScript syntax, and more. I dedicate this lesson to all the Stack Overflow contributors who didn't make me feel like a moron, and to all the new students fixing their bugs one at a time with 26 tabs open.
+
+![](../static/tryingstuff.jpg)
+![](../static/changingstuff.jpg)
+![](../static/copying.jpg)
+
+Fake book covers from *the Practical Developer*, mimicking O'Reilly textbooks
+
+## Stack Exchange Queries
+
+One of the coolest things about learning Data Science and statistics is that we can apply our methods to any dataset that interests us. This is an excellent opportunity for creativity and expression. But it can be difficult to know where to begin; especially because our questions might be too advanced, or difficult to get data for. These lessons approach this problem by analyzing data from Software Engineering research, and guiding the learner through the findings. We also use sources like Stack Overflow, GitHub, and Eclipse (Java IDE) Bug Reports.
+
+```{r}
+data <- read.csv("../data/stackoverflow/top10tags.csv")
+
+kable(head(data,13))%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+
+
+
+# total growth over time, holding on to the cumulative sum
+cumulative <- data %>%
+  group_by(TagName) %>%
+  mutate(csum=cumsum(X)) %>%
+  arrange(Month)
+
+#summarizing up the totals, collapsing over Month
+summary <- data %>%
+  group_by(TagName) %>%
+  summarise(sum=sum(X))%>%
+  arrange(desc(sum))
+
+ggplot(summary,aes(TagName,sum,fill=TagName))+
+  geom_bar(stat="identity")+
+  ggtitle("Total Questions With Top 10 Stack Overflow Tags")+
+  theme_bw()
+
+kable(summary)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+
+
+```{r, fig.width=10}
+
+
+plt = ggplot(data,aes(Month,X,group=TagName,color=TagName))+
+  geom_line(size=1)+
+  ggtitle("Top 10 Stack Overflow Tags Over Time")+
+  theme_bw()+
+  theme(axis.text.x=element_blank())
+plt
+
+
+plt = ggplot(cumulative,aes(Month,csum,group=TagName,color=TagName))+
+  geom_line(size=1)+
+  ggtitle("Top 10 Stack Overflow Tags Over Time (Cumulative)")+
+  theme_bw()+
+  theme(axis.text.x=element_blank())
+plt
+
+```
+## Curiouser and Curiouser...
+
+What we see above is cumulative growth curves for each of the top 10 tags on Stack Overflow. Each one seems to follow a similar trend, though with different magnitudes. All except one... the `python` tag. While the other growth curves appear sigmoidal [LINK TO GLOSS], the `python` growth looks like it isn't reaching a plateau in the time period we are looking at. It is more likely that `python` is still an actively growing area for questions on Stack Overflow, in a different manner than the other tags. In my own mind, it's easy to look at this plot and think of `python` as a car trying to rapidly cut across the highway as it changes multiple lanes, while everyone else is trying to mind their own business.
+
+## Time vs. Totals
+
+If we look at the summary, we see that `python` and `php` have similar total tagged questions:
+
+```{r}
+kable(summary %>% filter(TagName=="php" | TagName == "python")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+  
+```
+
+But there is more *information* in looking at the growth over time. Despite the `python` tag being similar to, and actually less than, the `php` tag, predictive models might show that `python` is growing much faster than `php`. If Stack Overflow were to choose which tags to pay more attention to, in order to help most of its users, which one do you think they ought to choose?
