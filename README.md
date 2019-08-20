@@ -42,3 +42,103 @@ Students will be able to:
 [github-api]: https://developer.github.com/v3/
 [internship]: https://blog.rstudio.com/2019/03/25/summer-interns-2019/
 [register-yim]: http://students.washington.edu/yreg/
+
+
+### Things Covered In Current Lessons (8/20/19)
+
+- `tidyverse` and data wrangling
+- `ggplot2`
+
+*Analyze This!*
+
+- boxplots and outliers (IQR, standard deviation)
+- distributions (normal and non-normal)
+- means, confidence intervals, comparing means
+
+*Developer Performance*
+
+- correlation and r^2
+- glm
+- weighted features
+- Anova
+- boxplots and outliers
+- experimental design
+- order effects
+- lm
+- interaction plots
+
+*Curiosity and Play*
+
+- queries to github/bigquery
+- SQL
+- periodicity/time series
+- boxplots and outliers
+- logistic regression
+- sigmoid curve
+- predictive modeling
+
+*How Many Repos*
+
+- queries to github/bigquery
+- SQL
+- test and training data
+- overfitting and underfitting
+- modeling, number of parameters
+- predictive modeling
+- curve fitting
+- residuals
+- model evaluation
+
+*Lines and Functions*
+
+- boxplots and outliers
+- effectively comparing means
+- normalization
+- correlation
+- sample bias
+- histograms
+- normality
+- shapiro test
+- p value
+- nonparametric tests
+
+*When Will I Be Done?*
+
+- reliability and validity
+- data wrangling, `melt`,`cast`,`reshape`, long form, wide form
+- log plot
+- shapiro test
+- correlation
+- data viz
+- histogram
+- boxplots and outliers
+- geom_smooth
+- why is this lesson double, Greg?
+
+
+*Sleep Deprivation*
+
+- quasi-experiment
+- distributions
+- boxplots and outliers
+- operationalizing a measurement
+- normality and shaprio test
+- violin plots
+- confidence intervals
+- effect size: cliff's delta
+- parametric vs nonparametric
+- statistical power
+- Wilcoxon/Mann-Whitney U Test
+
+*TDD*
+
+- design thinking
+- modeling recipe
+- features
+- descriptive vs inferential statistics
+- modeling
+- regression vs hypothesis testing
+- AIC evaluation of modeling
+- interactions
+- component and residual plots
+- regression output
