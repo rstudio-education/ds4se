@@ -1,0 +1,74 @@
+---
+title: "Statistics Warmup"
+author: "Yim Register"
+date: "8/21/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Learning to Code
+
+https://github.com/freeCodeCamp/2016-new-coder-survey#about-the-data
+
+This is a survey of over 15,000 respondants about their experiences of learning to code. You can read more about their goals, process, and survey [here](https://www.freecodecamp.org/news/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea/#.8g9ts8gm5). The "Learn to Code!" buzz is not the same everywhere in the world, but it is clear that there is a need for these skills across almost every domain. But who is trying to learn? And who is failing? How might we intervene? You are a learner too, and it will be fun to compare your own answers to the survey as we go along. Today's lesson will be a warmup in R, Statistics, and handling data. 
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+```
+
+```{r}
+data <- read.csv("../data/newcoders.csv")
+head(data)
+
+# how many people are in this dataset?
+nrow(data)
+
+#R doesn't have a built-in mode, but this means find the highest count for any of the values and return that value
+getmode <- function(v) {
+   uniqv <- unique(na.omit(v))
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+#mean, median, and mode
+
+mean_age <-mean(data$Age,na.rm=TRUE)
+med_age <- median(data$Age,na.rm=TRUE)
+mode_age <-getmode(data$Age)
+
+ggplot(data,aes(Age))+
+  geom_histogram()+
+  geom_vline(xintercept = mean_age,linetype="dashed",color="red")+
+  geom_vline(xintercept = med_age,linetype="dashed",color="blue")+
+  geom_vline(xintercept = mode_age,linetype="dashed",color="green")+
+  theme_bw()
+
+median(data$Age,na.rm=TRUE)
+
+table(data$Gender)
+
+ggplot(data,aes(Gender,fill=Gender))+
+  geom_bar()+
+  theme_bw()
+```
+
+```{r}
+library(dplyr)
+forcats::fct_explicit_na
+
+bootcampers <- data[!is.na(data$Gender)&!is.na(data$BootcampFinish),]%>%
+  group_by(Gender) %>%
+  summarise(mean=mean(BootcampFinish))
+bootcampers
+
+ggplot(bootcampers,aes(Gender,mean,fill=Gender))+
+  geom_bar(stat="identity")+
+  theme_bw()
+
+table(data$Gender)
+
+wilcox.test(data$BootcampFinish[data$Gender=='male'],data$BootcampFinish[data$Gender=='female'])
+```
