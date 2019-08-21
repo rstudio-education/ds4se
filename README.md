@@ -151,3 +151,8 @@ Students will be able to:
 - time series
 - cumulative sums
 - let's try to put in a t-test or something simple, and discuss standard deviation and whatnot
+
+```{r}
+library(renv)
+renv::init()
+```

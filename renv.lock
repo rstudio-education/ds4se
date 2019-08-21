@@ -1,0 +1,15 @@
+{
+  "renv": {
+    "Version": "0.6.0-130"
+  },
+  "R": {
+    "Version": "3.6.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {}
+}
