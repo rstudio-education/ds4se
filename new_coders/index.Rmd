@@ -1,5 +1,5 @@
 ---
-title: "Statistics Warmup"
+title: "Bootcamps: Learning to Code"
 author: "Yim Register"
 date: "8/21/2019"
 output: html_document
@@ -14,19 +14,65 @@ https://github.com/freeCodeCamp/2016-new-coder-survey#about-the-data
 
 This is a survey of over 15,000 respondants about their experiences of learning to code. You can read more about their goals, process, and survey [here](https://www.freecodecamp.org/news/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea/#.8g9ts8gm5). The "Learn to Code!" buzz is not the same everywhere in the world, but it is clear that there is a need for these skills across almost every domain. But who is trying to learn? And who is failing? How might we intervene? You are a learner too, and it will be fun to compare your own answers to the survey as we go along. Today's lesson will be a warmup in R, Statistics, and handling data. 
 
-```{r}
+## Topics Covered:
+
+- data types
+- data structure
+- factors and outcomes
+- measures of centrality
+- bar plots
+- normal distribution
+- wilcox test
+- kruskall wallis
+- glm
+
+
+
+
+
+
+
+## Load Your Libraries
+```{r message=FALSE}
 library(ggplot2)
 library(dplyr)
+library(kableExtra)
 
 ```
 
+## Data Structure
 ```{r}
 data <- read.csv("../data/newcoders.csv")
-head(data)
+#head(data)
 
 # how many people are in this dataset?
 nrow(data)
 
+# how many columns/questions?
+ncol(data)
+
+#this dataset is almost 50% NAs. It's not a problem, but something to be aware of
+sum(!is.na(data))/sum(is.na(data))
+```
+
+## Useful Things To Do With Variables
+
+```{r}
+
+#get the data type
+typeof(data$Age)
+
+#get some descriptive statistics on the column
+summary(data$Age)
+
+#get the structure: datatype, range, and head
+str(data$Age)
+
+```
+
+## Measures of Centrality
+Mean, median, and mode
+```{r}
 #R doesn't have a built-in mode, but this means find the highest count for any of the values and return that value
 getmode <- function(v) {
    uniqv <- unique(na.omit(v))
@@ -48,16 +94,43 @@ ggplot(data,aes(Age))+
 
 median(data$Age,na.rm=TRUE)
 
-table(data$Gender)
-
-ggplot(data,aes(Gender,fill=Gender))+
-  geom_bar()+
-  theme_bw()
 ```
 
+## Factors and Outcomes We Care About
+When developing a research question, start with a vague idea of what you'd like to know about.
+
+> "I want to know about people who learn to code in coding bootcamps"
+
+The next steps involve questioning every inch of this idea until you have a fully formed, answerable research investigation. *What do you want to know? Any bootcamps? What people? What are they learning? Where? Do you want to know about their experience during or after?* There is **so much** to know, and this process can quickly become overwhelming. This lesson will put into practice some of this "narrowing down" necessary to make progress. We might have a large dataset, with 15000 respondents and over 100 questions, but we will systematically choose our focus to make sense of a research question.
+
+### Outcomes
+Let's begin with identifying the *outcomes* we want to know about. These may also be referred to as *response variables* or *dependent variables*. They may also simply be represented by the variable **y**. So, we have a dataset of people who went through coding bootcamps. Maybe we want to know about their success in the bootcamp (whether they finished or not), their job prospects, and their income. We are also interested in their Employment field, which was answered categorically. 
+
+Here we can see the summaries of the relevant outcome variables. Note that both `BootcampPostSalary` and `Income` (in the past year) were recorded. I'm assuming that these are different because maybe some people got salary boosts for participating in bootcamps, were offerred short contracting jobs, or other factors that made it so that it does not match up with the current Incomes at the time of the survey.
+
 ```{r}
-library(dplyr)
-forcats::fct_explicit_na
+summary(data$BootcampFinish)
+
+summary(data$BootcampFullJobAfter)
+
+
+summary(data$BootcampPostSalary)
+
+summary(data$Income)
+
+kable(summary(data$EmploymentField))
+```
+
+### Factors
+The *factors* are variables that may be affecting the outcomes we care about. These may also be referred to as *independent variables* or represented by the variable **x** (sometimes with numbered subscripts when there are multiple independent variables involved). Often these are demographics variables or things like time. Here, I select a few interesting factors: *Age, Gender, Money invested in the bootcamps, Education (including school major), Software development experience, and time spent practicing.*
+
+
+## Gender Comparisons
+should probably stick to one or two, because this is way too overwhelming and political for a n00b
+
+```{r}
+
+
 
 bootcampers <- data[!is.na(data$Gender)&!is.na(data$BootcampFinish),]%>%
   group_by(Gender) %>%
@@ -70,5 +143,43 @@ ggplot(bootcampers,aes(Gender,mean,fill=Gender))+
 
 table(data$Gender)
 
-wilcox.test(data$BootcampFinish[data$Gender=='male'],data$BootcampFinish[data$Gender=='female'])
+shapiro.test(data$BootcampFinish[data$Gender=='male']) #not normal
+shapiro.test(data$BootcampFinish[data$Gender=='female']) #not normal
+wilcox.test(data$BootcampFinish[data$Gender=='male'],data$BootcampFinish[data$Gender=='female']) #no difference
+
+fulljob <- data[!is.na(data$Gender)&!is.na(data$BootcampFullJobAfter),]%>%
+  group_by(Gender) %>%
+  summarise(mean=mean(BootcampFullJobAfter))
+fulljob
+
+postsalary <- data[!is.na(data$Gender)&!is.na(data$BootcampPostSalary),]%>%
+  group_by(Gender) %>%
+  summarise(mean=mean(BootcampPostSalary))
+postsalary
+
+wilcox.test(data$BootcampPostSalary[data$Gender=='male'],data$BootcampPostSalary[data$Gender=='female']) #no difference
+
+income <- data[!is.na(data$Gender)&!is.na(data$Income),]%>%
+  group_by(Gender) %>%
+  summarise(mean=mean(Income))
+income
+
+employment <- data[!is.na(data$Gender)&!is.na(data$IsUnderEmployed),]%>%
+  group_by(Gender) %>%
+  summarise(mean=mean(IsUnderEmployed))
+employment
+# interesting results here
+
+wilcox.test(data$Income[data$Gender=='male'],data$Income[data$Gender=='female']) #no difference
+
+softwaredev <- data[!is.na(data$Gender)&!is.na(data$IsSoftwareDev),]%>%
+  group_by(Gender) %>%
+  summarise(mean=mean(IsSoftwareDev))
+softwaredev
+
+wilcox.test(data$IsSoftwareDev[data$Gender=='male'],data$IsSoftwareDev[data$Gender=='female']) #difference
+```
+
+```{r}
+
 ```
