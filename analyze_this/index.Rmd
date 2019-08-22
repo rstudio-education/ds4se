@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 1eecb3e59603e9979fea3256d6ed7fd3b719887b
 ---
 title: "Analyze This!"
 author: "Yim Register"
 output: html_document
-<<<<<<< HEAD
-=======
-bibliography: bibliography.bib
->>>>>>> 1eecb3e59603e9979fea3256d6ed7fd3b719887b
+
 ---
 
 ```{r setup, include=FALSE}
