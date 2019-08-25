@@ -1,5 +1,5 @@
 ---
-title: "Bootcamps: Learning to Code"
+title: "Learning to Code at Coding Bootcamps"
 author: "Yim Register"
 date: "8/21/2019"
 output: html_document
@@ -31,9 +31,8 @@ This is a survey of over 15,000 respondants about their experiences of learning 
 
 
 
-
 ## Load Your Libraries
-```{r message=FALSE}
+```{r message=FALSE,warning=FALSE}
 library(ggplot2)
 library(dplyr)
 library(kableExtra)
@@ -41,7 +40,7 @@ library(kableExtra)
 ```
 
 ## Data Structure
-```{r}
+```{r }
 data <- read.csv("../data/newcoders.csv")
 #head(data)
 
@@ -72,7 +71,7 @@ str(data$Age)
 
 ## Measures of Centrality
 Mean, median, and mode
-```{r}
+```{r message=FALSE, warning=FALSE}
 #R doesn't have a built-in mode, but this means find the highest count for any of the values and return that value
 getmode <- function(v) {
    uniqv <- unique(na.omit(v))
@@ -92,21 +91,20 @@ ggplot(data,aes(Age))+
   geom_vline(xintercept = mode_age,linetype="dashed",color="green")+
   theme_bw()
 
-median(data$Age,na.rm=TRUE)
 
 ```
 
 ## Factors and Outcomes We Care About
-When developing a research question, start with a vague idea of what you'd like to know about.
+When developing a research question, we often start with a vague idea of what you'd like to know about.
 
 > "I want to know about people who learn to code in coding bootcamps"
 
-The next steps involve questioning every inch of this idea until you have a fully formed, answerable research investigation. *What do you want to know? Any bootcamps? What people? What are they learning? Where? Do you want to know about their experience during or after?* There is **so much** to know, and this process can quickly become overwhelming. This lesson will put into practice some of this "narrowing down" necessary to make progress. We might have a large dataset, with 15000 respondents and over 100 questions, but we will systematically choose our focus to make sense of a research question.
+The next steps involve questioning every inch of this idea until you have a fully formed, answerable research investigation. *What do you want to know? Any bootcamps? What people? What are they learning? Where? Do you want to know about their experience during or after?* There is **so much** to know, and this process can quickly become overwhelming. I remember during the first quarter of my PhD being so frustrated every time someone would poke at my barely formed research question, saying "yeah but what is *learning* exactly?"  This lesson will put into practice some of this "narrowing down" necessary to make progress. We might have a large dataset, with 15000 respondents and over 100 questions, but we will systematically choose our focus to make sense of a research question.By the end of the lesson, you may want to investigate something else in this dataset, and you'll have the tools to do that.
 
 ### Outcomes
-Let's begin with identifying the *outcomes* we want to know about. These may also be referred to as *response variables* or *dependent variables*. They may also simply be represented by the variable **y**. So, we have a dataset of people who went through coding bootcamps. Maybe we want to know about their success in the bootcamp (whether they finished or not), their job prospects, and their income. We are also interested in their Employment field, which was answered categorically. 
+Let's begin with identifying the **outcomes** we want to know about. These may also be referred to as **response variables** or **dependent variables**. They may also simply be represented by the variable **y**. So, we have a dataset of people who went through coding bootcamps. Maybe we want to know about their success in the bootcamp (whether they finished or not), their job prospects, and their income. We are also interested in their Employment field, which was answered categorically. 
 
-Here we can see the summaries of the relevant outcome variables. Note that both `BootcampPostSalary` and `Income` (in the past year) were recorded. I'm assuming that these are different because maybe some people got salary boosts for participating in bootcamps, were offerred short contracting jobs, or other factors that made it so that it does not match up with the current Incomes at the time of the survey.
+Here we can see the summaries of the relevant outcome variables. Note that both `BootcampPostSalary` and `Income` (in the past year) were recorded. I'm assuming that these are different because maybe some people got salary boosts for participating in bootcamps, were offerred short contracting jobs, or other factors that made it so that it does not match up with the current Incomes at the time of the survey. More people answered about their Income, so we will use that measure primarily.
 
 ```{r}
 summary(data$BootcampFinish)
@@ -118,66 +116,97 @@ summary(data$BootcampPostSalary)
 
 summary(data$Income)
 
-kable(summary(data$EmploymentField))
+kable(summary(data$EmploymentField))%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
 ### Factors
-The *factors* are variables that may be affecting the outcomes we care about. These may also be referred to as *independent variables* or represented by the variable **x** (sometimes with numbered subscripts when there are multiple independent variables involved). Often these are demographics variables or things like time. Here, I select a few interesting factors: *Age, Gender, Money invested in the bootcamps, Education (including school major), Software development experience, and time spent practicing.*
-
-
-## Gender Comparisons
-should probably stick to one or two, because this is way too overwhelming and political for a n00b
+The **factors** are variables that may be affecting the outcomes we care about. These may also be referred to as **independent variables** or represented by the variable **x** (sometimes with numbered subscripts when there are multiple independent variables involved). Often these are demographics variables or things like time. Here, I select a few interesting factors: *Age, Gender, Money invested in the bootcamps, Education (including school major), Software development experience, and time spent practicing.*
 
 ```{r}
+summary(data$Age)
 
 
+summary(data$Gender)
 
-bootcampers <- data[!is.na(data$Gender)&!is.na(data$BootcampFinish),]%>%
-  group_by(Gender) %>%
-  summarise(mean=mean(BootcampFinish))
-bootcampers
+summary(data$MoneyForLearning)
 
-ggplot(bootcampers,aes(Gender,mean,fill=Gender))+
-  geom_bar(stat="identity")+
+summary(data$MonthsProgramming)
+summary(data$HoursLearning)
+
+kable(summary(data$SchoolDegree))%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+majors <- data[!is.na(data$SchoolMajor),] %>%
+  count(SchoolMajor)%>%
+  arrange(desc(n)) 
+kable(head(majors,10))%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+```
+## Descriptive vs. Inferential Statistics
+
+A good place to start is working with the difference between descriptive and inferential statistics. **Descriptive** statistics are summmarizing and describing the data, without making conclusions about the larger population. This includes things like **measures of centrality, ranges, counts, spreads** and more. **Inferential** statistics uses the sample data to make conclusions about hypotheses regarding the general population that the sample may have come from. This includes **hypothesis testing** and **modeling**. Inferential statistics is also where you would see things like **effect size** and **significance (or p) values**. The way that I think about hypothesis testing is that we are looking for evidence for whether or not there is a *true difference* between groups. A *true difference* would mean a difference in the means or distributions that could reliably generalize if we got more people in the sample. We can never *prove* anything with statistics, but we can collect evidence. And that is powerful.
+
+### Descriptive
+We started looking at descriptive statistics when we used the `summary()` command in R. Another tool for descriptive statistics is data visualization and **histograms**. Below, we have a histogram for one of our outcome variables, `Income`
+```{r fig.width=10, warning=FALSE}
+ggplot(data,aes(Income))+
+  geom_histogram(bins=40)+
   theme_bw()
 
-table(data$Gender)
 
-shapiro.test(data$BootcampFinish[data$Gender=='male']) #not normal
-shapiro.test(data$BootcampFinish[data$Gender=='female']) #not normal
-wilcox.test(data$BootcampFinish[data$Gender=='male'],data$BootcampFinish[data$Gender=='female']) #no difference
 
-fulljob <- data[!is.na(data$Gender)&!is.na(data$BootcampFullJobAfter),]%>%
-  group_by(Gender) %>%
-  summarise(mean=mean(BootcampFullJobAfter))
-fulljob
+```
 
-postsalary <- data[!is.na(data$Gender)&!is.na(data$BootcampPostSalary),]%>%
-  group_by(Gender) %>%
-  summarise(mean=mean(BootcampPostSalary))
-postsalary
+Let's refer to one of our **factors** and take a look at a visualization of `Income`. I've selected `SchoolDegree` to see if the type of degree you have interacts with the salary in any way. What do you think?
+```{r fig.width=10}
+levels(data$SchoolDegree)
 
-wilcox.test(data$BootcampPostSalary[data$Gender=='male'],data$BootcampPostSalary[data$Gender=='female']) #no difference
+ggplot(data[!is.na(data$SchoolDegree),],aes(Income,fill=SchoolDegree))+
+  geom_histogram(position="dodge")+
+  theme_bw()
 
-income <- data[!is.na(data$Gender)&!is.na(data$Income),]%>%
-  group_by(Gender) %>%
-  summarise(mean=mean(Income))
-income
+```
 
-employment <- data[!is.na(data$Gender)&!is.na(data$IsUnderEmployed),]%>%
-  group_by(Gender) %>%
-  summarise(mean=mean(IsUnderEmployed))
-employment
-# interesting results here
+The above graph is a bit difficult to interpret. Instead, let's look at a more isolated comparison. It appears there might be no difference between people who had a Master's degree and those who had a Bachelor's degree (somewhat unexpected). Let's isolate those two groups using `dplyr` and the `filter()` command in order to get a clearer visualization of those groups.
 
-wilcox.test(data$Income[data$Gender=='male'],data$Income[data$Gender=='female']) #no difference
+```{r fig.width=10}
+ba_and_ma <- data %>%
+                  filter(SchoolDegree %in% c("bachelor's degree", "master's degree (non-professional)"))
 
-softwaredev <- data[!is.na(data$Gender)&!is.na(data$IsSoftwareDev),]%>%
-  group_by(Gender) %>%
-  summarise(mean=mean(IsSoftwareDev))
-softwaredev
 
-wilcox.test(data$IsSoftwareDev[data$Gender=='male'],data$IsSoftwareDev[data$Gender=='female']) #difference
+View(ba_and_ma)
+ggplot(ba_and_ma,aes(Income,fill=SchoolDegree))+
+  geom_histogram(position="dodge")+
+  theme_bw()
+
+```
+
+We might be able to use our common sense to determine that these two groups are, in fact, the same. But it is not always so clear. This is why we rely on statistical tests to *find evidence against the null hypothesis*. The **null hypothesis** can be thought of like the "devil's advocate" of the problem: Nothing is happening here, there is no difference, and you're wasting your time looking for one. With enough evidence, we can argue that the null hypothesis is full of BS.
+
+### Inferential
+Using our example from above, Bachelor's vs. trade schoolers and their `Income` values, let's look to see if we can find evidence that they are truly different phenomena.
+
+> Null Hypothesis (H<sub>0</sub>): There is no true difference in Bootcamp Post Salary for those with Bachelor's degrees vs those with Master's degrees.
+>
+> Alternative Hypothesis (H<sub>A</sub>): There is a true difference in Bootcamp Post Salary for those with Bachelor's degree vs those with Master's degrees.
+
+- Step 1: test the normality of the distributions you're working with
+```{r}
+ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="bachelor's degree",],aes(Income))+
+         geom_histogram(bins=40)
+
+ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="master's degree (non-professional)",],aes(Income))+
+         geom_histogram(bins=40)
+
+normals <- ba_and_ma %>%
+  group_by(SchoolDegree) %>%
+  summarise(normality =shapiro.test(Income)$statistic, 
+p.value = shapiro.test(Income)$p.value) 
+
+normals
+
 ```
 
 ```{r}
