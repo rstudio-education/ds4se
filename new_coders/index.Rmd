@@ -1,5 +1,5 @@
 ---
-title: "Learning to Code at Coding Bootcamps"
+title: "Coding Bootcamps: What affects job placement and income?"
 author: "Yim Register"
 date: "8/21/2019"
 output: html_document
@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 ## Learning to Code
 
 https://github.com/freeCodeCamp/2016-new-coder-survey#about-the-data
@@ -24,7 +25,6 @@ This is a survey of over 15,000 respondants about their experiences of learning 
 - normal distribution
 - wilcox test
 - kruskall wallis
-- glm
 
 
 
@@ -159,7 +159,8 @@ ggplot(data,aes(Income))+
 
 ```
 
-Let's refer to one of our **factors** and take a look at a visualization of `Income`. I've selected `SchoolDegree` to see if the type of degree you have interacts with the salary in any way. What do you think?
+Let's refer to one of our **factors** and take a look at a visualization of `Income`. I've selected `SchoolDegree` to see if the type of degree you have interacts with income in any way. What do you think?
+
 ```{r fig.width=10}
 levels(data$SchoolDegree)
 
@@ -169,11 +170,11 @@ ggplot(data[!is.na(data$SchoolDegree),],aes(Income,fill=SchoolDegree))+
 
 ```
 
-The above graph is a bit difficult to interpret. Instead, let's look at a more isolated comparison. It appears there might be no difference between people who had a Master's degree and those who had a Bachelor's degree (somewhat unexpected). Let's isolate those two groups using `dplyr` and the `filter()` command in order to get a clearer visualization of those groups.
+The above graph is a bit difficult to interpret. Instead, let's look at a more isolated comparison.  Let's isolate the groups we are curious about using `dplyr` and the `filter()` command in order to get a clearer visualization of those groups.
 
 ```{r fig.width=10}
 ba_and_ma <- data %>%
-                  filter(SchoolDegree %in% c("bachelor's degree", "master's degree (non-professional)"))
+                  filter(SchoolDegree %in% c("bachelor's degree", "master's degree (non-professional)","trade, technical, or vocational training"))
 
 
 View(ba_and_ma)
@@ -182,11 +183,51 @@ ggplot(ba_and_ma,aes(Income,fill=SchoolDegree))+
   theme_bw()
 
 ```
+At first, it's tempting to say that the groups differ by a lot, just by looking at the histogram. But this observation is almost entirely due to the fact that *much more* responders had Bachelor's degrees than any of the other `SchoolDegree` values. The histogram is showing raw counts, meaning that it's going to look very skewed towards the group with the largest population. We can barely even see the trade schoolers.
+
+Let's take a look at a **normalized** histogram, and discuss what that means. Take a peek at the ballers over in the $200,000 income range. From the above histogram, we see that the raw count for those in that range is higher for those with Bachelor's degrees, and lowest for those with trade school experience.
+
+```{r}
+ba_and_ma$SchoolDegree <- droplevels(ba_and_ma$SchoolDegree)
+kable(table(ba_and_ma$SchoolDegree[ba_and_ma$Income==200000]))%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+```
+When we look at the *proportions*, maybe we have a different story. Is `.0085` (Bachelor's) really different from `.0083` (Master's)? Is `.0067` (trade school) really different? Or could it be the case that no matter what degree you started with, the coding bootcamps give you an equal opportunity for eventual Income?
+
+The numbers confirm what we observed in the raw counts. The raw counts are not useless as we may want to know that more bootcampers had Bachelor's degrees and most of those in the $200,000 Income range had Bachelor's degrees (in this subset). But in comparing the *distributions*, we need the **proportions** instead.
+
+```{r}
+ba_and_ma <- ba_and_ma %>%
+  group_by(SchoolDegree,Income) %>%
+  summarise(n=n())%>%
+  mutate(prop = n / sum(n))
+
+#48/sum(ba_and_ma$n[ba_and_ma$SchoolDegree=="bachelor's degree"])
+
+
+
+kable(na.omit(ba_and_ma[ba_and_ma$Income==200000,]))%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+
+```
+
+```{r}
+
+
+plt=ggplot(ba_and_ma,aes(Income,fill=SchoolDegree))+
+  geom_histogram(aes(y = stat(density)),position="dodge")+
+  theme_bw()
+plt
+
+```
 
 We might be able to use our common sense to determine that these two groups are, in fact, the same. But it is not always so clear. This is why we rely on statistical tests to *find evidence against the null hypothesis*. The **null hypothesis** can be thought of like the "devil's advocate" of the problem: Nothing is happening here, there is no difference, and you're wasting your time looking for one. With enough evidence, we can argue that the null hypothesis is full of BS.
 
 ### Inferential
-Using our example from above, Bachelor's vs. trade schoolers and their `Income` values, let's look to see if we can find evidence that they are truly different phenomena.
+Using our example from above, Bachelor's vs. Master's degree students and their `Income` values, let's look to see if we can find evidence that they are truly different phenomena. I've also included the trade schoolers, but we will get to that later.
+
 
 > Null Hypothesis (H<sub>0</sub>): There is no true difference in Bootcamp Post Salary for those with Bachelor's degrees vs those with Master's degrees.
 >
@@ -195,10 +236,16 @@ Using our example from above, Bachelor's vs. trade schoolers and their `Income` 
 - Step 1: test the normality of the distributions you're working with
 ```{r}
 ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="bachelor's degree",],aes(Income))+
-         geom_histogram(bins=40)
+         geom_histogram(bins=40)+
+  theme_bw()
 
 ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="master's degree (non-professional)",],aes(Income))+
-         geom_histogram(bins=40)
+         geom_histogram(bins=40)+
+  theme_bw()
+
+ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="trade, technical, or vocational training",],aes(Income))+
+         geom_histogram(bins=40)+
+  theme_bw()
 
 normals <- ba_and_ma %>%
   group_by(SchoolDegree) %>%
@@ -210,5 +257,5 @@ normals
 ```
 
 ```{r}
-
+length(data$Income[data$SchoolDegree=="trade, technical, or vocational training"])
 ```
