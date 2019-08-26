@@ -1,5 +1,5 @@
 ---
-title: "Coding Bootcamps: What affects job placement and income?"
+title: "Coding Bootcamps & $$$ : What affects income?"
 author: "Yim Register"
 date: "8/21/2019"
 output: html_document
@@ -177,7 +177,7 @@ ba_and_ma <- data %>%
                   filter(SchoolDegree %in% c("bachelor's degree", "master's degree (non-professional)","trade, technical, or vocational training"))
 
 
-View(ba_and_ma)
+
 ggplot(ba_and_ma,aes(Income,fill=SchoolDegree))+
   geom_histogram(position="dodge")+
   theme_bw()
@@ -198,6 +198,19 @@ When we look at the *proportions*, maybe we have a different story. Is `.0085` (
 The numbers confirm what we observed in the raw counts. The raw counts are not useless as we may want to know that more bootcampers had Bachelor's degrees and most of those in the $200,000 Income range had Bachelor's degrees (in this subset). But in comparing the *distributions*, we need the **proportions** instead.
 
 ```{r}
+
+ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="bachelor's degree",],aes(Income))+
+         geom_histogram(bins=100)+
+  theme_bw()
+
+ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="master's degree (non-professional)",],aes(Income))+
+         geom_histogram(bins=40)+
+  theme_bw()
+
+ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="trade, technical, or vocational training",],aes(Income))+
+         geom_histogram(bins=40)+
+  theme_bw()
+
 ba_and_ma <- ba_and_ma %>%
   group_by(SchoolDegree,Income) %>%
   summarise(n=n())%>%
@@ -213,13 +226,23 @@ kable(na.omit(ba_and_ma[ba_and_ma$Income==200000,]))%>%
 
 ```
 
-```{r}
-
-
-plt=ggplot(ba_and_ma,aes(Income,fill=SchoolDegree))+
-  geom_histogram(aes(y = stat(density)),position="dodge")+
-  theme_bw()
+```{r fig.width=10}
+plt=ggplot(ba_and_ma,aes(Income,prop,color=SchoolDegree))+
+            facet_wrap(~SchoolDegree)+
+             geom_point(stat="identity")+
+             theme_bw()+
+              ylim(0,.04)
 plt
+
+plt=ggplot(ba_and_ma,aes(Income,prop,color=SchoolDegree))+
+             geom_point(stat="identity")+
+             theme_bw()+
+              ylim(0,.04)
+plt
+
+#i've been wrestling way too long with trying to get this to show up like a bar chart and I give up for now
+
+
 
 ```
 
@@ -235,17 +258,7 @@ Using our example from above, Bachelor's vs. Master's degree students and their 
 
 - Step 1: test the normality of the distributions you're working with
 ```{r}
-ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="bachelor's degree",],aes(Income))+
-         geom_histogram(bins=40)+
-  theme_bw()
 
-ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="master's degree (non-professional)",],aes(Income))+
-         geom_histogram(bins=40)+
-  theme_bw()
-
-ggplot(ba_and_ma[ba_and_ma$SchoolDegree=="trade, technical, or vocational training",],aes(Income))+
-         geom_histogram(bins=40)+
-  theme_bw()
 
 normals <- ba_and_ma %>%
   group_by(SchoolDegree) %>%
