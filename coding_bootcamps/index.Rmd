@@ -265,9 +265,47 @@ But first, we need to talk about normality.
 
 <center> ![](../static/pretend.png) </center>
 
-You may have heard of the **normal distribution**, or heard it referred to as a **bell curve**, **normal curve**, or perhaps even a **Gaussian curve**. Note, it gets referred to as a Gaussian because it was discovered by a guy named Gauss. It took me a while to realize that the people around me were referring to a simple bell curve when all I was hearing was the word "Gaussian", which is just a fancier and less-descriptive way to say normal distribution.
+You may have heard of the **normal distribution**, or heard it referred to as a **bell curve**, **normal curve**, or perhaps even a **Gaussian curve**. Note, it gets referred to as a Gaussian because it was discovered by a guy named Gauss. It took me a while to realize that the people around me were referring to a simple bell curve when all I was hearing was the word "Gaussian", which is just a fancier and less-descriptive way to say normal distribution. 
 
+The reason we need to talk about normality is two-fold:
+
+- thinking of phenomena in terms of **standard deviation**, **means**, and **number of standard deviations from the mean** can be helpful to learn about probability and inferential statistics
+- we need to test our variables for normality in order to know if we should use **parametric** or **nonparametric** methods
+
+### The Normal Distribution
+
+Many real-life variables follow a normal distribution. That means that the large majority (68%) tend to fall towards a mean (or average) value, and less values fall further from that mean. The classic example is heights, or even IQ (intelligence quotient), but I find both of those pretty boring and also not helpful. The example is often to talk about how most people have a height around the average, with less of the population being significantly further from that value (way taller or way shorter). The same can be noted about IQ. But there are other factors that can affect height, and *certainly* other factors that result in someone getting a high score on an IQ test or even taking that test at all (don't get me started on how invalid the test is, anyways). I firmly believe that we can do better than heights or IQs to explain natural phenomena.
+
+#### Let's Talk About Social Media
+I was curious to see if there were any normally distributed variables on social media sites. I came across [some suggestion](http://web.peanutlabs.com/wp-content/uploads/2013/07/SocialMediaDataDistributionConversition.pdf) that sentiment of social media chatter regarding brand names is normally distributed. The examples were funny enough that I needed to include them.
+
+**Sentiment** refers to the negativity, neutrality, or positivity of a statement, often applied to things like Twitter data. In this case, the investigators used a **Likert scale** which is very common in experimental design and surveys. You may have seen a Likert scale before, when answering something with a scale from *Strongly Disagree* to *Strongly Agree*. There are a few variations on the setup, but in this social media example  they used a 5-point scale (from *very negative* to *very positive*). Some negative sentiment included:
+
+> "Apple maps need to pay for my gas since it keeps getting me lost"
+>
+> "eff you blackberry my phone is so effing slow"
+
+Whereas positive sentiment was more like:
+
+> "Wouldn't be great if Apple just did everything in the world? #apple"
+
+I can't corroborate their findings, as I didn't have access to the data, but the example is compelling enough. Across billions of social media users, on any given day, there might be a normal distribution of positive, negative, and neutral sentiment. Be careful though! We need to wear our Data Scientist hats to think about why this might *not* be the case. Perhaps people refrain from posting very neutral sentiment (though, I've definitely seen people post about their boring bowl of cheerios). Maybe people on social media are only positing more extremes, or maybe they post only positive sentiment in one platform due to social pressures we can't explain. 
+<center>
+![](../static/social.PNG)
+
+</center>
+Well, it could be the case that the majority of sentiment is somewhere in the middle, with the **tails** falling further from the mean. In normal distribution terms, that means that ~68% of the values fall within one **standard deviation** of the **mean**, ~27% of values fall 2 standard deviations from the mean, ~4.3% of the values are 3 standard deviations from the mean, and a very very teeny percentage is over 3 standard deviations from the mean (considered an outlier).
+
+<center>
 ![](../static/normal.png)
+</center>
+It's important to note that while many phenomena *do* occur in a normal distribution (and with enough samples, meany things converge upon a normal distribution due to the **central limit theorem**), many real-world science does not have the luxury of getting normal data. Why is it a luxury? That is because of the power of **parametric tests**.
+
+A **parametric test** is generally considered more powerful and precise than a **nonparametric test**, and can only be used if the variables that you are comparing are normally distributed. *Parametric* is referring to how the normal distribution can actually be generated from **parameters** (components of the equation). Similar to how *y = mx + b* can form a line from *m* and *b*, the normal distribution can be formed from *mu* and *sigma*. **Mu** is the mean (or average) of the values. **Sigma** is referring to the **standard deviation**, which is how widespread the average tends to be (or how much deviation from the mean is warranted). A *high standard deviation* means that the data is very widespread, whereas a *low standard deviation* refers to a tighter peak.
+<center>![](../static/lowhigh.jpg)</center>
+
+### Parametric vs. NonParametric Tests
+
 
 
 - test the normality of the distributions you're working with
