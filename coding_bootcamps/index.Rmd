@@ -301,14 +301,18 @@ Well, it could be the case that the majority of sentiment is somewhere in the mi
 </center>
 It's important to note that while many phenomena *do* occur in a normal distribution (and with enough samples, meany things converge upon a normal distribution due to the **central limit theorem**), many real-world science does not have the luxury of getting normal data. Why is it a luxury? That is because of the power of **parametric tests**.
 
+### Parametric vs. NonParametric Tests
+
 A **parametric test** is generally considered more powerful and precise than a **nonparametric test**, and can only be used if the variables that you are comparing are normally distributed. *Parametric* is referring to how the normal distribution can actually be generated from **parameters** (components of the equation). Similar to how *y = mx + b* can form a line from *m* and *b*, the normal distribution can be formed from *mu* and *sigma*. **Mu** is the mean (or average) of the values. **Sigma** is referring to the **standard deviation**, which is how widespread the average tends to be (or how much deviation from the mean is warranted). A *high standard deviation* means that the data is very widespread, whereas a *low standard deviation* refers to a tighter peak.
 <center>![](../static/lowhigh.jpg)</center>
 
-### Parametric vs. NonParametric Tests
+If the data is normally distributed, we can rely on parametric methods. If the data is not normally distributed, we use nonparametric methods, which can sometimes be considered less powerful and precise. One of the sad realities of statistics is that you *can* do a parametric test on non-normal data in R, and you *will* get an answer; but the assumptions will all be violated and your answer will likely be wrong.
 
 
+### Back to Coding Bootcamps
 
-- test the normality of the distributions you're working with
+- Step 1: identify which, and how many, groups you are comparing
+- Step 2 : test the normality of the distributions you're working with
 ```{r}
 
 #cannot test normality until you explain what a normal curve is
@@ -320,8 +324,12 @@ p.value = shapiro.test(Income)$p.value)
 normals
 
 ```
+- Step 3: use the flowchart to determine which test you need
+<center>
+![](../static/flowchart.gif)
+</center>
 
-
+- Step 4: perform pairwise comparisons *if warranted*
 ```{r}
 
 m <- kruskal.test(ba_and_ma$Income ~ ba_and_ma$SchoolDegree)
