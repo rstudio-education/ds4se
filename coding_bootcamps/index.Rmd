@@ -226,7 +226,7 @@ kable(na.omit(ba_and_ma[ba_and_ma$Income==200000,]))%>%
 
 ```
 
-```{r fig.width=10}
+```{r fig.width=10, warning=FALSE}
 plt=ggplot(ba_and_ma,aes(Income,prop,color=SchoolDegree))+
             facet_wrap(~SchoolDegree)+
              geom_point(stat="identity")+
@@ -246,20 +246,34 @@ plt
 
 ```
 
-We might be able to use our common sense to determine that these two groups are, in fact, the same. But it is not always so clear. This is why we rely on statistical tests to *find evidence against the null hypothesis*. The **null hypothesis** can be thought of like the "devil's advocate" of the problem: Nothing is happening here, there is no difference, and you're wasting your time looking for one. With enough evidence, we can argue that the null hypothesis is full of BS.
+We might be able to use our common sense to determine that these two groups are, in fact, the same. But it is not always so clear. This is why we rely on statistical tests to *find evidence against the null hypothesis*. The **null hypothesis** can be thought of like the "devil's advocate" of the problem: Nothing is happening here, there is no difference, and you're wasting your time looking for one. With enough evidence, we can argue that the null hypothesis is full of BS. We can never *prove* the alternative hypothesis, but we can show that the null hypothesis is very unlikely. Keep in mind, this might be a good thing or a bad thing; it depends what you are investigating and trying to show. In this example, it might be very interesting that `SchoolDegree` is *not* affecting `Income` if you enroll in a coding bootcamp. That would be good news for many people trying to make it in the tech world. That is where interpretation of results comes into play, where you need to think about if what kind of impact your results could have on people's lives. But the statistics themselves are not making a good or bad judgement; they are simply demonstrating what the evidence shows.
 
 ### Inferential
 Using our example from above, Bachelor's vs. Master's degree students and their `Income` values, let's look to see if we can find evidence that they are truly different phenomena. I've also included the trade schoolers, but we will get to that later.
 
 
-> Null Hypothesis (H<sub>0</sub>): There is no true difference in Bootcamp Post Salary for those with Bachelor's degrees vs those with Master's degrees.
+> Null Hypothesis (H<sub>0</sub>): There is no true difference in Income for those with Bachelor's degrees vs those with Master's degrees.
 >
-> Alternative Hypothesis (H<sub>A</sub>): There is a true difference in Bootcamp Post Salary for those with Bachelor's degree vs those with Master's degrees.
+> Alternative Hypothesis (H<sub>A</sub>): There is a true difference in Income for those with Bachelor's degree vs those with Master's degrees.
 
-- Step 1: test the normality of the distributions you're working with
+We will use inferential statistics to provide evidence for or against the null hypothesis.
+
+
+## Normality
+
+But first, we need to talk about normality.
+
+<center> ![](../static/pretend.png) </center>
+
+You may have heard of the **normal distribution**, or heard it referred to as a **bell curve**, **normal curve**, or perhaps even a **Gaussian curve**. Note, it gets referred to as a Gaussian because it was discovered by a guy named Gauss. It took me a while to realize that the people around me were referring to a simple bell curve when all I was hearing was the word "Gaussian", which is just a fancier and less-descriptive way to say normal distribution.
+
+![](../static/normal.png)
+
+
+- test the normality of the distributions you're working with
 ```{r}
 
-
+#cannot test normality until you explain what a normal curve is
 normals <- ba_and_ma %>%
   group_by(SchoolDegree) %>%
   summarise(normality =shapiro.test(Income)$statistic, 
@@ -269,6 +283,10 @@ normals
 
 ```
 
+
 ```{r}
-length(data$Income[data$SchoolDegree=="trade, technical, or vocational training"])
+
+m <- kruskal.test(ba_and_ma$Income ~ ba_and_ma$SchoolDegree)
+pairwise.wilcox.test(ba_and_ma$Income, ba_and_ma$SchoolDegree,
+                 p.adjust.method = "BH")
 ```
