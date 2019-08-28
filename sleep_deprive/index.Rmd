@@ -47,7 +47,7 @@ subTable <- function(data, nameCol, val){
 
 # loading data including the sleep deprived set where we remove some particpants
 
-loadAllData <- function(fileName = "../data/sleepDepr/labpackage/data/piglatin.xlsx"){
+loadAllData <- function(fileName = "../data/sleepDepr/piglatin.xlsx"){
 
   Exp <<-   read_xlsx(fileName)
   Exp_Cleaned <<- subTable(Exp, "PVT-remove", "NO")
@@ -59,7 +59,7 @@ loadAllData <- function(fileName = "../data/sleepDepr/labpackage/data/piglatin.x
 loadAllData()
 
 # this is the post-questionnaire
-post <- read_xlsx("../data/sleepDepr/labpackage/data/post-questionnaire.xlsx")
+post <- read_xlsx("../data/sleepDepr/post-questionnaire.xlsx")
 
 #merging things together so we can work with one dataframe
 data <- merge(Exp,post,by="ID")
