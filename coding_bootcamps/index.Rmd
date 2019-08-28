@@ -312,10 +312,24 @@ If the data is normally distributed, we can rely on parametric methods. If the d
 ### Back to Coding Bootcamps
 
 - Step 1: identify which, and how many, groups you are comparing
+
+We already isolated some of the groups we want to compare and for which variable. The groups we grabbed were responders with Master's degrees, Bachelor's degrees, or trade school experience. We are comparing their `Income` variable.
+
 - Step 2 : test the normality of the distributions you're working with
+
+The "distributions" we are working with are the three groups and their spread of values across `Income`. We use a `shpairo.test` to determine if that distribution is normal or not. The hypothesis test is set up with a null and alternative hypothesis:
+
+> Null Hypothesis (H<sub>0</sub>): There is no significant difference between these values and a normal distribution.
+>
+> Alternative Hypothesis (H<sub>A</sub>): There is a significant difference between these values and a normal distribution.
+
+The **p-value** that comes out of the test is referring to the likelihood that the Null Hypothesis is true. A *low p value* means a low likelihood that the null hypothesis is true. A *high p value* means a high likelihood that the null hypothesis is true. If the p value is low, we have evidence that the distribution is likely *not normal*.
+
+Referring back to the visualizations we saw of the groups (the histograms), we can say that these distributions are probably not normal. They are **skewed** to the left, with a long right **tail**. That means that that data seems to cluster over to the left instead of having **symmetry**, which we expect from a normal distribution. Let's see if our predictions are correct (that the distributions are *not* normal).
+
 ```{r}
 
-#cannot test normality until you explain what a normal curve is
+# we use dplyr to group by the degree and then run the shapiro test and report the p value for each
 normals <- ba_and_ma %>%
   group_by(SchoolDegree) %>%
   summarise(normality =shapiro.test(Income)$statistic, 
@@ -329,10 +343,29 @@ normals
 ![](../static/flowchart.gif)
 </center>
 
-- Step 4: perform pairwise comparisons *if warranted*
+We determined that we are comparing 3 groups, and they are not normal. We will use the nonparametric, Kruskal-Wallis test. So many of these tests are named after the people who invented them, but it makes it sound scarier than it is. So, we will do the "Not Normal 3 groups test" and sound really official and awesome when we say *"We performed a nonparametric Kruskal Wallis analysis"* and then we will go have tea with the Queen.
 ```{r}
 
 m <- kruskal.test(ba_and_ma$Income ~ ba_and_ma$SchoolDegree)
-pairwise.wilcox.test(ba_and_ma$Income, ba_and_ma$SchoolDegree,
-                 p.adjust.method = "BH")
+m$statistic
+m$p.value
 ```
+
+The outcome has several parts to it, the *statistic* and the *p-value*. The p-value is going to tell us about the likelihood of the null hypothesis being true. You may hear the term **alpha** and that's because math is indebted to the Greek gods and if they don't use Greek symbols, logic ceases to cooperate. Just kidding. So, the **alpha** value is the threshhold at which we *reject the null hypothesis*. This is typically `p < .05`. So, if it is less than 5% chance that the null hypothesis is true, we favor the alternative hypothesis. Check out the p-value result from our Kruskal Wallis test. Is it less than .05? We can even write a function to tell us, filling it in with whatever plain language helps you to understand what is going on. This extra step of self-reflection can help solidify the knowledge.
+
+```{r}
+checkAlpha <- function(model) {
+  if (model$p.value < .05) {
+    print("The null hypothesis is unlikely. With .05 as the alpha value, you can reject the null hypothesis that these groups are the same, as they are likely different.")
+  }
+  else {
+    print("The null hypothesis is likely. With .05 as the alpha value, you can fail to reject the null hypothesis. These groups are likely the same.")
+  }
+  
+}
+
+checkAlpha(m)
+```
+So, we can determine that there seems to be no significant difference between our three selected groups and their `Income` after their coding bootcamp. It's very likely that there are other factors at play; perhaps it matters what experience and field each responder came from. Did they have a technical background? What was their age? Is their income actually coming from a software-related position or not?
+
+You can use what we learned to investigate these different pieces of the problem; exploring differences between groups and factors that contribute to different outcomes. So far, you have accomplished a lot of critical computational thinking about experimental design and statistics. Next, answer a question that you are curious about with this dataset.
