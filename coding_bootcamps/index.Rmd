@@ -368,4 +368,36 @@ checkAlpha(m)
 ```
 So, we can determine that there seems to be no significant difference between our three selected groups and their `Income` after their coding bootcamp. It's very likely that there are other factors at play; perhaps it matters what experience and field each responder came from. Did they have a technical background? What was their age? Is their income actually coming from a software-related position or not?
 
-You can use what we learned to investigate these different pieces of the problem; exploring differences between groups and factors that contribute to different outcomes. So far, you have accomplished a lot of critical computational thinking about experimental design and statistics. Next, answer a question that you are curious about with this dataset.
+You can use what we learned to investigate these different pieces of the problem; exploring differences between groups and factors that contribute to different outcomes. So far, you have accomplished a lot of critical computational thinking about experimental design and statistics. Next, answer a question that you are curious about with this dataset. Here is some starter code to guide you.
+
+### Starter Code to Guide Your Exploration
+
+```{r, warning=FALSE}
+
+ggplot(data,aes(Income,MoneyForLearning))+
+  geom_point()+
+  theme_bw()
+cor.test(data$Income,data$MoneyForLearning) #no relation for omnibus test (omnibus=everything all at once, not looking at different groups)
+
+ggplot(data,aes(Income,HoursLearning))+
+  geom_point()+
+  theme_bw()
+cor.test(data$Income,data$HoursLearning) #no relation for omnibus test (omnibus=everything all at once, not looking at different groups)
+
+ggplot(data,aes(Income,MonthsProgramming))+
+  geom_point()+
+  theme_bw()
+cor.test(data$Income,data$MonthsProgramming) #no relation for omnibus test (omnibus=everything all at once, not looking at different groups)
+
+ggplot(data,aes(HoursLearning,MonthsProgramming))+
+  geom_point()+
+  theme_bw()
+cor.test(data$HoursLearning,data$MonthsProgramming)
+
+ggplot(data,aes(MonthsProgramming,BootcampFullJobAfter,))+
+  geom_point()+
+  theme_bw()
+
+ggplot(data,aes(MoneyForLearning,BootcampFullJobAfter,))+
+  geom_point()+
+  theme_bw()
