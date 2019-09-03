@@ -65,7 +65,7 @@ function grabStatus(list){
     warmup_badge.classList.add("badge");
     warmup_badge.classList.add("badge-success");
     warmup_badge.innerHTML=("warmup");
-    warmup_badge.style="margin-left:2%;"
+    warmup_badge.style="margin-left:1%;"
     return (warmup_badge);
   }
 
@@ -74,7 +74,7 @@ function grabStatus(list){
     academic_badge.classList.add("badge");
     academic_badge.classList.add("badge-dark");
     academic_badge.innerHTML=("academic");
-    academic_badge.style="margin-left:2%;"
+    academic_badge.style="margin-left:1%;"
     return (academic_badge);
   }
 
@@ -83,7 +83,7 @@ function grabStatus(list){
     industry_badge.classList.add("badge");
     industry_badge.classList.add("badge-secondary");
     industry_badge.innerHTML=("industry");
-    industry_badge.style="margin-left:2%;"
+    industry_badge.style="margin-left:1%;"
     return (industry_badge);
   }
 
