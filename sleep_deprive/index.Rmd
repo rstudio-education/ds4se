@@ -3,6 +3,8 @@ title: "Sleep Deprivation and Software Engineering Performance"
 author: "Yim Register"
 output: html_document
 bibliography: bibliography.bib
+status: draft1 complete
+badges: academic
 ---
 
 ```{r setup, include=FALSE}

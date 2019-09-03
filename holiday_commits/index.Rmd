@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-
 ---
 title: "Curiosity and Play"
 author: "Yim Register"
 date: "7/2/2019"
 output: html_document
+status: draft1 complete
+badges: warmup,industry,play
 ---
 
 ```{r setup, include=FALSE}
@@ -873,8 +873,4 @@ plt = ggplot(summary[1:7,],aes(language,n,fill=language))+
   theme(legend.position = "none") 
 plt
 ```
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 1eecb3e59603e9979fea3256d6ed7fd3b719887b

@@ -3,6 +3,8 @@ title: "How Many Repositories Are There on GitHub?"
 author: "Yim Register"
 output: html_document
 bibliography: bibliography.bib
+status: draft1 complete
+badges: warmup, industry
 ---
 
 ```{r setup, include=FALSE}

@@ -2,7 +2,8 @@
 title: "Analyze This!"
 author: "Yim Register"
 output: html_document
-
+status: draft1 complete
+badges: warmup, academia, industry
 ---
 
 ```{r setup, include=FALSE}

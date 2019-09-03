@@ -28,7 +28,7 @@ def py2json():
 # next we need to store those statuses with the file name and write some js that can populate the html with badges
 def getStatus():
     import glob
-    print(glob.glob('../*/*.Rmd'))
+    print(glob.glob("../*.Rmd"))
 
 
 def main():

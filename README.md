@@ -156,3 +156,11 @@ Students will be able to:
 library(renv)
 renv::init()
 ```
+
+### Making Status Changes
+
+Within the `yaml` there is a 'status:' string where the status of the index.RmD file is recorded. If you make any changes, right now you must manually run:
+
+`python bin/py2json.py`
+
+in order to update the status badges on the main webpage.
