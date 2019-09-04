@@ -170,4 +170,4 @@ in order to update the status badges on the main webpage.
 *Thanks kindly to Greg Wilson, Derek Jones, Davide Fucci, Julia Silge, Rayce Rossum, Tom Zimmerman, Andy Begel, Andy Stefik, Ahmed Hassan, Jake Wobbrock, Andy Ko, Alison Hill, Carl Howe, and Dan Chen for academic and statistics inspiration, datasets, and guidance.*
 TODO: ahh who else?
 
-*Thanks kindly to Lisa Elkin, Maya Gans, and Lenny Brown for reminding me that it's totally okay to have to look everything up, that you don't need an airtight legal case to take a break, and for helping me through this summer.*
+*Thanks kindly to Lisa Elkin, Maya Gans, Lenny Brown, and Greg again, for reminding me that it's totally okay to have to look everything up, that you don't need an airtight legal case to take a break, and for helping me through this summer.*
