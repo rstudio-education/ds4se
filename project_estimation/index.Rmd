@@ -153,7 +153,7 @@ cor.test(tasks$Estimate.1, tasks$Estimate.2,method="kendall")
 
 ```
 ### Don't fall for my logic!
-![](../static/trap.jpg)
+<center>![](../static/trap.jpg)</center><br>
 
 Let's fabricate a scenario in which the two estimates are perfectly correlated but wildly different from each other. Clearly, correlation doesn't say anything about how reliable the estimates are. But it probably is saying *something* about the developer's ability to judge a project. What does a strong correlation indicate?
 
