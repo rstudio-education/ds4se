@@ -1,4 +1,3 @@
-
 ---
 title: "When will I be done with this project?"
 author: "Yim Register"
@@ -15,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Inconsistency of Measurement
 
-We have talked a bit about how it's important to properly operationalize what we measure. Not to add more to your plate, but even if we get the right *measurement*, and do the correct *statistics*, when you're studying people, the *reliability of measurement* also matters. This lesson will highlight both a software engineering question (predicting when a project will be done), and how to think of reliability of what you measure. After walking through the [*Need for Sleep*](https://github.com/rstudio-education/ds4se/blob/master/sleep_deprive/index.Rmd) lesson, you're surely realizing how careful we have to be with our experimental setup. You can imagine that the best way to know if something is "true" is to test a concept over and over again, under lots of different circumstances, and see if your results hold true. Imagine testing participants on multiple occasions, trying to not only test your hypothesis, but seeing how steady that hypothesis holds over time. All of that is ideal, of course. Most of the time, there is limited resources, limited participants, limited time, and a rush towards a deadline. But convenience should never get in the way of good science. So let's take a look at how unreliable measurements might be.
+We have talked a bit about how it's important to properly [**operationalize**](../glossary.html#operationalize) what we [**measure**](../glossary.html#measurement). Not to add more to your plate, but even if we get the right *measurement*, and do the correct *statistics*, when you're studying people, the *reliability of measurement* also matters. This lesson will highlight both a software engineering question (predicting when a project will be done), and how to think of reliability of what you measure. After walking through the [*Need for Sleep*](../sleep_deprive/index.Rmd) lesson, you're surely realizing how careful we have to be with our experimental setup. You can imagine that the best way to know if something is "true" is to test a concept over and over again, under lots of different circumstances, and see if your results hold true. Imagine testing participants on multiple occasions, trying to not only test your [**hypothesis**](../glossary.html#hypothesistesting), but seeing how steady that hypothesis holds over time. All of that is ideal, of course. Most of the time, there is limited resources, limited participants, limited time, and a rush towards a deadline. But convenience should never get in the way of good science. So let's take a look at how unreliable measurements might be.
 
 In the following study, [*Inconsistency of expert judgment-based estimates of software development effort*](https://www.sciencedirect.com/science/article/pii/S0164121207000714), expert participants rated how much effort (work-hours) they estimate for sixty software projects. They unknowingly rated six of those projects *twice*, helping to answer questions about the reliability of professional judgments about software effort estimation. The paper tries to answer the following research question:
 
@@ -31,22 +30,12 @@ This lesson is going to explore how we estimate how long software will take to f
 - features that could matter
 - data wrangling
 - accuracy
-- mixed models
 
 
 
 ## Load Your Libraries
 
 ```{r, message=FALSE,warning=FALSE}
-#
-# inconsistency_est.R,  9 Sep 17
-# Data from:
-# Inconsistency of Expert Judgement-based Estimates of Software Development Effort
-# Stein Grimstad and Magne J{\o}rgensen
-#
-# Example from:
-# Empirical Software Engineering using R
-# Derek M. Jones
 
 source("../data/ESEUR_config.r")
 
@@ -58,7 +47,9 @@ library("ggplot2")
 
 ## Data Wrangling
 
-Whatever your problem, you will come across the need to wrangle your data into different shapes. At first, it can seem either pointless or too complicated to be worth it. I remember first hearing the terms "melt" or "longform data" and wondering if I could just avoid ever doing that. Turns out, everyone was right and it's way better to wrap your head around a good `melt` command and move on with your life. Let's get a quick briefing on **long form**, **wide form**, **reshaping**, and **melting** data.
+<center>![](../static/dplyr.jpg)</center><br>
+
+Whatever your problem, you will come across the need to wrangle your data into different shapes. At first, it can seem either pointless or too complicated to be worth it. I remember first hearing the terms "melt" or "longform data" and wondering if I could just avoid ever doing that. Turns out, everyone was right and it's way better to wrap your head around a good `melt` command and move on with your life. Let's get a quick briefing on [**long form**](../glossary.html#longformdata),[ **wide form**](../glossary.html#wideformdata), [**reshaping**](../glossary.html#reshape), and [**melting**](../glossary.html#melt) data.
 
 ### Original Data
 ```{r}
@@ -69,7 +60,7 @@ incon=read.csv(paste0(ESEUR_dir, "../data/estimation/inconsistency_est.csv.xz"),
 ```
 
 ### Wide Form
-This data format "stretches" the results by each Task across several columns. Each task has its own column. I've even demonstrated the *even wider* version of the data, where the **Order** variable is also "stretched" across the columns, instead of being in long form. What we are left with is simply the Subject ID number and then a separate column for each subject's ratings for each Task in each Order. 
+This data format "stretches" the results by each Task across several columns. Each task has its own column. I've even demonstrated the *even wider* version of the data, where the [**Order**](../glossary.html#order) variable is also "stretched" across the columns, instead of being in long form. What we are left with is simply the Subject ID number and then a separate column for each subject's ratings for each Task in each Order. 
 ```{r}
 
 head(incon)
@@ -88,7 +79,7 @@ tasks=melt(incon, measure.vars=paste0("T", 1:6),
 ```
 
 ### Long Form
-Here you can see that tasks has been melted down to now represent each Task (T1, T2, T3..) as a factor of **Task** in one column. You can also see a difference with **Subject**, as it has to be recorded *twice* per column, in order to demonstrate the *repeated measure* for each task.
+Here you can see that tasks has been melted down to now represent each Task (T1, T2, T3..) as a factor of `Task` in one column. You can also see a difference with `Subject`, as it has to be recorded *twice* per column, in order to demonstrate the *repeated measure* for each task.
 
 ```{r}
 head(tasks)
@@ -111,7 +102,7 @@ head(tasks)
 I'm truly not exaggerating when I once tried to avoid any and all reshaping/reformatting of my data. It was a difficult concept to wrap my head around, and I hoped I could just format my data in one way and stick to it. Turns out that it's much easier to commit to learning these tools and apply them to make your life easier when answering statistical questions. I'm also not exaggerating when I say I've come across almost every configuration of data you can imagine; *long form, wide form, half-melted-who-knows-what form*. If I can swallow my pride and learn a `melt` command, I believe you can too.
 
 ### Log Plot
-Here we include a **reference line**. This is the *y==x* line, and it is describing a hypothetical scenario where each participant perfectly reliably rates each software task. On the x axis we have their first estimate for each task, and on the y axis we see the second estimate. If they were perfectly reliable, the *y==x* line would represent the data. If they are not perfectly reliable, the points will deviate from the *y==x* line. The following plot also uses **log scale**, a common technique to visualize data with a spread that would otherwise be difficult to interpret. Try it without the log transformation and see which plot is more interpretable...
+Here we include a [**reference line**](../glossary.html#referenceline). This is the *y==x* line, and it is describing a hypothetical scenario where each participant perfectly reliably rates each software task. On the x axis we have their first estimate for each task, and on the y axis we see the second estimate. If they were perfectly reliable, the *y==x* line would represent the data. If they are not perfectly reliable, the points will deviate from the *y==x* line. The following plot also uses [**log scale**](../glossary.html#log), a common technique to visualize data with a spread that would otherwise be difficult to interpret. Try it without the log transformation and see which plot is more interpretable...
 
 ```{r}
 plt = ggplot(tasks,aes(Estimate.1,Estimate.2,color=Task))+
@@ -147,7 +138,7 @@ plt
 
 
 ## Correlation (Misleading)
-We have explored the idea of looking at the strength of a linear relationship through **correlation**. It might seem intuitive that correlation between the **First Estimate** and **Second Estimate** could tell us something about rater accuracy. Let's look into this correlation. First of all, we test the normality of our responses. Neither of the distributions are normally distributed, meaning that we need to employ a rank-based (nonparametric) method when looking at correlation. Here we use a method referring to *Kendall's Tau*. Our result is `.69` which indicates a moderately strong correlation between the first and second estimate. So, they must be pretty close then, right? If they're strongly correlated, it's gotta be that they're related enough to be accurate.
+We have explored the idea of looking at the strength of a linear relationship through (../glossary.html#correlation). It might seem intuitive that correlation between the **First Estimate** and **Second Estimate** could tell us something about rater accuracy. Let's look into this correlation. First of all, we test the normality of our responses. Neither of the distributions are normally distributed, meaning that we need to employ a rank-based (nonparametric) method when looking at correlation. Here we use a method referring to [**Kendall's Tau**](../glossary.html#kendallstau). Our result is `.69` which indicates a moderately strong correlation between the first and second estimate. So, they must be pretty close then, right? If they're strongly correlated, it's gotta be that they're related enough to be accurate.
 
 ```{r}
 
@@ -184,7 +175,7 @@ error <- abs(mean(first) - mean(second))
 error #the error is pretty bad. on average, the second estimate was 34 hours off from the first. no bueno
 ```
 
-So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was **reliable** and if the measure was **valid**. Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take? The following two studies report data on this, with develpers reporting in *hundreds of hours* how long they think a project will take to finish, against how long it actually took in reality. Both Jorgensen and Kitchenham data are plotted together.  It's very clear in the software world that *underestimated* projects are far more common than *overestimated* projects, but these mishaps are also pushed around a bit by company culture.
+So, we've looked into *reliability* of measurement, but we still haven't compared those subjective estimates to *what actually happened*. Whenever we measure anything, we want to know if the masure was [**reliable**](../glossary.html#reliability) and if the measure was [**valid**](../glossary.html#validity). Validity of a measure means *it is actually measuring what you think it's measuring*. So, if we want to know about developer productivity, is it actually worth it to *ask* developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually *accurate* though? How good are devs at estimating how long a project will take? The following two studies report data on this, with develpers reporting in *hundreds of hours* how long they think a project will take to finish, against how long it actually took in reality. Both Jorgensen and Kitchenham data are plotted together.  It's very clear in the software world that *underestimated* projects are far more common than *overestimated* projects, but these mishaps are also pushed around a bit by company culture.
 
 ## Effort Estimation: Accuracy and Bias
 ```{r}
@@ -342,7 +333,7 @@ cowplot::plot_grid(plt1, plt2,
 ```
 
 ## So Can We Estimate Resources or Not?
-What is the biggest problem with these studies? I'll give you a hint. Have you ever looked at a project overview, and said to yourself "hmm, seems simple enough" only to find yourself deep into a rabbit hole at 4am working on configuring some weird dependencies to allow you to do the nine other tasks you have to do before you can do the first thing for the project? How about the other way around; have you looked at a project spec and panicked, knowing it will take you *forever* until you realize that the package is actually pretty simple and you can probably finish this on time if the stars align just right? What I'm getting at is: *project estimation changes as you gain new information*. If I were to ask you how long something would take before you'd really started to try it, there's a good chance your estimation will be inaccurate. But what about when you've spent countless hours and are actually almost done? Will you be able to tell me how much you actually have left? Once you've worked with something for a while, you should probably get a better gauge of how long those types of problems take to complete. This concept is referred to as **the cone of uncertainty**. The idea is that as you get new information about a project, you can make more accurate judgments about the time to completion on that project. That makes some intuitive sense, but keep in mind that *by definition* you will converge to **1x** the project length by the end, because "it is what it is". Take a moment to discuss with a partner (or your cat, whatever) about this concept.
+What is the biggest problem with these studies? I'll give you a hint. Have you ever looked at a project overview, and said to yourself "hmm, seems simple enough" only to find yourself deep into a rabbit hole at 4am working on configuring some weird dependencies to allow you to do the nine other tasks you have to do before you can do the first thing for the project? How about the other way around; have you looked at a project spec and panicked, knowing it will take you *forever* until you realize that the package is actually pretty simple and you can probably finish this on time if the stars align just right? What I'm getting at is: *project estimation changes as you gain new information*. If I were to ask you how long something would take before you'd really started to try it, there's a good chance your estimation will be inaccurate. But what about when you've spent countless hours and are actually almost done? Will you be able to tell me how much you actually have left? Once you've worked with something for a while, you should probably get a better gauge of how long those types of problems take to complete. This concept is referred to as [**the cone of uncertainty**](../glossary.html#coneofuncertainty). The idea is that as you get new information about a project, you can make more accurate judgments about the time to completion on that project. That makes some intuitive sense, but keep in mind that *by definition* you will converge to **1x** the project length by the end, because "it is what it is". Take a moment to discuss with a partner (or your cat, whatever) about this concept.
 
 
 
