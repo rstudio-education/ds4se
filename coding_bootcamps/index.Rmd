@@ -31,8 +31,6 @@ This is a survey of over 15,000 respondants about their experiences of learning 
 
 
 
-
-
 ## Load Your Libraries
 
 A [**library**](../glossary.html#library) is a collection of other programs and [**functions**](../glossary.html#function) written to support a specific task. Basically, it saves you the time of writing these things by hand, because someone has already done it. We load these libraries so we can use their features in our code.
