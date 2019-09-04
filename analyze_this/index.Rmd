@@ -51,7 +51,7 @@ library(dplyr)
 
 ### Reading in the Data
 
-Here we have an Excel spreadsheet, but many data files will be [Comma Separated Values](../glossary.html#csv) `(.csv)`. We are using the `readxl` library to convert the spreadsheet into a [**dataframe**](../glossary.html#dataframe) that R can work with. Here I have printed out the head and tail of this dataframe, but you should run the `View(data)` command in R to see the entire thing. You can run that command from the [**console**](../glossary.html#console) after highlighting it in your R code.
+Here we have an Excel spreadsheet, but many data files will be [**Comma Separated Values**](../glossary.html#csv) `(.csv)`. We are using the `readxl` library to convert the spreadsheet into a [**dataframe**](../glossary.html#dataframe) that R can work with. Here I have printed out the head and tail of this dataframe, but you should run the `View(data)` command in R to see the entire thing. You can run that command from the [**console**](../glossary.html#console) after highlighting it in your R code.
 
 ```{r message=FALSE,warning=FALSE}
 data <- read_excel("../data/145Questions.xlsx",skip=3) #skip the first three rows because they have some copywrite stuff from Microsoft that reads in a little weird
