@@ -1,28 +1,94 @@
 
-    function CreateTableFromJSON() {
-    var myGlossary = [
-        {
-            "Term": "Epistemology",
-            "Defined": "whatttt"
 
-        },
-        {"Term": "Box-and-whisker plot", "Defined": "FIXME"},
-{"Term": "Console", "Defined": "FIXME"},
-{"Term": "Comma-separated values (CSV)", "Defined": "FIXME"},
-{"Term": "Dataframe", "Defined": "FIXME"},
-{"Term": "Descriptive statistics", "Defined": "FIXME"},
-{"Term": "Inferential statistics", "Defined": "FIXME"},
-{"Term": "Inter-quartile-range", "Defined": "FIXME"},
-{"Term": "Library", "Defined": "FIXME"},
-{"Term": "Mann-whitney-u-test", "Defined": "FIXME"},
-{"Term": "Mean", "Defined": "FIXME"},
-{"Term": "Null-hypothesis", "Defined": "FIXME"},
-{"Term": "Outlier", "Defined": "FIXME"},
-{"Term": "P-value", "Defined": "FIXME"},
-{"Term": "Package", "Defined": "FIXME"}
+function grabStatus(list){
+  //looks in the yaml headers of the RMarkdown files to find the status
+  // will populate that list item with the correct status badge
+  var ul = document.getElementById(list);
+  var items = ul.getElementsByTagName("li");
+  for (var i = 0; i < items.length; ++i) {
+  //for each list item, look it up in the dictionary
+  //append its status badge
+  //append its badge badges
+
+    var filepath = items[i].getElementsByTagName("a")[0].getAttribute("href");
+
+    var to_lookup = filepath.replace("./","");
+    to_lookup = to_lookup.replace("/index.html","");
+    var status = files_status_badges[to_lookup][0].replace("status: ","");
+
+    //make all the status badges
+    console.log(status);
+    var status_badge=makeStatusBadge(status);
+    items[i].appendChild(status_badge);
+
+    //make all the badge badges lol yep that's their name
+
+    //WARMUPS
+    if(files_status_badges[to_lookup][1].includes("warmup")){
+      console.log(files_status_badges[to_lookup][1]);
+      var warmup_badge = makeWarmupBadge();
+
+      items[i].appendChild(warmup_badge);
+    }
+
+    //ACADEMIC
+    if(files_status_badges[to_lookup][1].includes("academic")){
+      console.log(files_status_badges[to_lookup][1]);
+      var academic_badge = makeAcademicBadge();
+
+      items[i].appendChild(academic_badge);
+    }
+
+    //INDUSTRY
+    if(files_status_badges[to_lookup][1].includes("industry")){
+      console.log(files_status_badges[to_lookup][1]);
+      var industry_badge = makeIndustryBadge();
+
+      items[i].appendChild(industry_badge);
+    }
 
 
-    ]
+  }
+
+}
+
+
+  function makeStatusBadge(status){
+    var status_badge = document.createElement("SPAN");
+    status_badge.classList.add("badge");
+    status_badge.classList.add("badge-info");
+    status_badge.innerHTML=(status);
+    return (status_badge);
+  }
+  function makeWarmupBadge(){
+    var warmup_badge = document.createElement("SPAN");
+    warmup_badge.classList.add("badge");
+    warmup_badge.classList.add("badge-success");
+    warmup_badge.innerHTML=("warmup");
+    warmup_badge.style="margin-left:1%;"
+    return (warmup_badge);
+  }
+
+  function makeAcademicBadge(){
+    var academic_badge = document.createElement("SPAN");
+    academic_badge.classList.add("badge");
+    academic_badge.classList.add("badge-dark");
+    academic_badge.innerHTML=("academic");
+    academic_badge.style="margin-left:1%;"
+    return (academic_badge);
+  }
+
+  function makeIndustryBadge(){
+    var industry_badge = document.createElement("SPAN");
+    industry_badge.classList.add("badge");
+    industry_badge.classList.add("badge-secondary");
+    industry_badge.innerHTML=("industry");
+    industry_badge.style="margin-left:1%;"
+    return (industry_badge);
+  }
+
+function CreateTableFromJSON() {
+
 
     function compareStrings(a, b) {
       // Assuming you want case-insensitive comparison
@@ -88,5 +154,3 @@
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
     }
-
-CreateTableFromJSON();

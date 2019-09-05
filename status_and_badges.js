@@ -1,0 +1,1 @@
+var files_status_badges = {}

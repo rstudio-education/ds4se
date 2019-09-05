@@ -3,6 +3,8 @@ title: "Coding Bootcamps: What factors affect income?"
 author: "Yim Register"
 date: "8/21/2019"
 output: html_document
+status: draft1 complete
+badges: warmup, industry
 ---
 
 ```{r setup, include=FALSE}
@@ -11,9 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Learning to Code
 
-https://github.com/freeCodeCamp/2016-new-coder-survey#about-the-data
 
-This is a survey of over 15,000 respondants about their experiences of learning to code. You can read more about their goals, process, and survey [here](https://www.freecodecamp.org/news/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea/#.8g9ts8gm5). The "Learn to Code!" buzz is not the same everywhere in the world, but it is clear that there is a need for these skills across almost every domain. But who is trying to learn? And who is failing? How might we intervene? You are a learner too, and it will be fun to compare your own answers to the survey as we go along. Today's lesson will be a warmup in R, Statistics, and handling data. 
+
+This is a survey of over 15,000 respondants about their experiences of learning to code. You can read more about their goals, process, and survey [here](https://www.freecodecamp.org/news/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea/#.8g9ts8gm5). You can learn about the data [here](https://github.com/freeCodeCamp/2016-new-coder-survey#about-the-data). The "Learn to Code!" buzz is not the same everywhere in the world, but it is clear that there is a need for these skills across almost every domain. But who is trying to learn? And who is failing? How might we intervene? You are a learner too, and it will be fun to compare your own answers to the survey as we go along. Today's lesson will be a warmup in R, Statistics, and handling data. 
 
 ## Topics Covered:
 
@@ -29,9 +31,10 @@ This is a survey of over 15,000 respondants about their experiences of learning 
 
 
 
-
-
 ## Load Your Libraries
+
+A [**library**](../glossary.html#library) is a collection of other programs and [**functions**](../glossary.html#function) written to support a specific task. Basically, it saves you the time of writing these things by hand, because someone has already done it. We load these libraries so we can use their features in our code.
+
 ```{r message=FALSE,warning=FALSE}
 library(ggplot2)
 library(dplyr)
@@ -39,7 +42,10 @@ library(kableExtra)
 
 ```
 
-## Data Structure
+## Structure of the Data
+
+Here we read in a [**.csv**](../glossary.html#csv) file using the `read.csv` function, and take a look at the dimensions of the [**dataframe**](../glossary.html#dataframe). If you've used spreadsheets before, dataframes are similar to that except represented in the R code in a way that allows us to more freely manipulate that data and perform coding actions on it. In this little exercise we also explore the `is.na()` function, which tells us about [**missing data**](../glossary.html#missingdata), which is often represented as `NA`.
+
 ```{r }
 data <- read.csv("../data/newcoders.csv")
 #head(data)
@@ -56,6 +62,8 @@ sum(!is.na(data))/sum(is.na(data))
 
 ## Useful Things To Do With Variables
 
+We can explore properties of our data using `typeof`, `summary`, and `str`. A [**data type**](../glossary.html#datatype) indicates a kind of data item that constrains what actions can be performed on it. So for instance, we might have integers, floats (not whole numbers; numbers with decimal points), character types (encoded as alphabetic or numeric characters and treated like words), or [**factors**](../glossary.html#factor) (categories). These are all examples of data types. We might be able to treat `Age` as a factor (category), but that would mean that we could not get the average age, because you cannot take the mean of a category.
+
 ```{r}
 
 #get the data type
@@ -70,7 +78,9 @@ str(data$Age)
 ```
 
 ## Measures of Centrality
-Mean, median, and mode
+We use the idea of centrality to say something about the population. Sometimes the middle is meaningful. If *most* values occur around a certain point, maybe we can use that information to infer things about our sample. However, it's important to keep in mind that sometimes those measures can give different results. Here we explore [**mean**](../glossary.html#mean), [**median**](../glossary.html#median), and [**mode**](../glossary.html#mode). While these are usually where we begin with statistics, be aware that taking the average of a group is not always the right way to go, especially when the distribution has more than one peak.
+
+<center>![](../static/spiderman.jpg)</center><br>
 ```{r message=FALSE, warning=FALSE}
 #R doesn't have a built-in mode, but this means find the highest count for any of the values and return that value
 getmode <- function(v) {
@@ -99,10 +109,10 @@ When developing a research question, we often start with a vague idea of what yo
 
 > "I want to know about people who learn to code in coding bootcamps"
 
-The next steps involve questioning every inch of this idea until you have a fully formed, answerable research investigation. *What do you want to know? Any bootcamps? What people? What are they learning? Where? Do you want to know about their experience during or after?* There is **so much** to know, and this process can quickly become overwhelming. I remember during the first quarter of my PhD being so frustrated every time someone would poke at my barely formed research question, saying "yeah but what is *learning* exactly?"  This lesson will put into practice some of this "narrowing down" necessary to make progress. We might have a large dataset, with 15000 respondents and over 100 questions, but we will systematically choose our focus to make sense of a research question.By the end of the lesson, you may want to investigate something else in this dataset, and you'll have the tools to do that.
+The next steps involve questioning every inch of this idea until you have a fully formed, answerable research investigation. *What do you want to know? Any bootcamps? What people? What are they learning? Where? Do you want to know about their experience during or after?* There is *so much* to know, and this process can quickly become overwhelming. I remember during the first quarter of my PhD being so frustrated every time someone would poke at my barely formed research question, saying "yeah but what is *learning* exactly?"  This lesson will put into practice some of this "narrowing down" necessary to make progress. We might have a large dataset, with 15000 respondents and over 100 questions, but we will systematically choose our focus to make sense of a research question.By the end of the lesson, you may want to investigate something else in this dataset, and you'll have the tools to do that.
 
 ### Outcomes
-Let's begin with identifying the **outcomes** we want to know about. These may also be referred to as **response variables** or **dependent variables**. They may also simply be represented by the variable **y**. So, we have a dataset of people who went through coding bootcamps. Maybe we want to know about their success in the bootcamp (whether they finished or not), their job prospects, and their income. We are also interested in their Employment field, which was answered categorically. 
+Let's begin with identifying the [**outcomes**](../glossary.html#outcomes) we want to know about. These may also be referred to as [**response variables**](../glossary.html#responsevariables) or [**dependent variables**](../glossary.html#dependentvariables). They may also simply be represented by the variable [**y**](../glossary.html#y). So, we have a dataset of people who went through coding bootcamps. Maybe we want to know about their success in the bootcamp (whether they finished or not), their job prospects, and their income. We are also interested in their Employment field, which was answered categorically. 
 
 Here we can see the summaries of the relevant outcome variables. Note that both `BootcampPostSalary` and `Income` (in the past year) were recorded. I'm assuming that these are different because maybe some people got salary boosts for participating in bootcamps, were offerred short contracting jobs, or other factors that made it so that it does not match up with the current Incomes at the time of the survey. More people answered about their Income, so we will use that measure primarily.
 
@@ -121,7 +131,7 @@ kable(summary(data$EmploymentField))%>%
 ```
 
 ### Factors
-The **factors** are variables that may be affecting the outcomes we care about. These may also be referred to as **independent variables** or represented by the variable **x** (sometimes with numbered subscripts when there are multiple independent variables involved). Often these are demographics variables or things like time. Here, I select a few interesting factors: *Age, Gender, Money invested in the bootcamps, Education (including school major), Software development experience, and time spent practicing.*
+The [**factors**](../glossary.html#factor) are variables that may be affecting the outcomes we care about. These may also be referred to as [**independent variables**](../glossary.html#independentvariables) or represented by the variable [**x**](../glossary.html#x) (sometimes with numbered subscripts when there are multiple independent variables involved). Often these are demographics variables or things like time. Here, I select a few interesting factors: *Age, Gender, Money invested in the bootcamps, Education (including school major), Software development experience, and time spent practicing.*
 
 ```{r}
 summary(data$Age)
@@ -146,20 +156,19 @@ kable(head(majors,10))%>%
 ```
 ## Descriptive vs. Inferential Statistics
 
-A good place to start is working with the difference between descriptive and inferential statistics. **Descriptive** statistics are summmarizing and describing the data, without making conclusions about the larger population. This includes things like **measures of centrality, ranges, counts, spreads** and more. **Inferential** statistics uses the sample data to make conclusions about hypotheses regarding the general population that the sample may have come from. This includes **hypothesis testing** and **modeling**. Inferential statistics is also where you would see things like **effect size** and **significance (or p) values**. The way that I think about hypothesis testing is that we are looking for evidence for whether or not there is a *true difference* between groups. A *true difference* would mean a difference in the means or distributions that could reliably generalize if we got more people in the sample. We can never *prove* anything with statistics, but we can collect evidence. And that is powerful.
+A good place to start is working with the difference between descriptive and inferential statistics. [**Descriptive statistics**](../glossary.html#descriptivestatistics) are summmarizing and describing the data, without making conclusions about the larger population. This includes things like measures of centrality, [**ranges**](../glossary.html#range), counts, [**spreads**](../glossary.html#spread) and more. **Inferential statistics**](../glossary.html#inferentialstatistics) uses the sample data to make conclusions about hypotheses regarding the general population that the sample may have come from. This includes [**hypothesis testing**](../glossary.html#hypothesistesting) and [**modeling**](../glossary.html#model). Inferential statistics is also where you would see things like [**effect size**](../glossary.html#effectsize) and [**significance (or p) values**](../glossary.html#pvalue). The way that I think about hypothesis testing is that we are looking for evidence for whether or not there is a *true difference* between groups. A *true difference* would mean a difference in the means or distributions that could reliably generalize if we got more people in the sample. We can never *prove* anything with statistics, but we can collect evidence. And that is powerful.
 
 ### Descriptive
-We started looking at descriptive statistics when we used the `summary()` command in R. Another tool for descriptive statistics is data visualization and **histograms**. Below, we have a histogram for one of our outcome variables, `Income`
+We started looking at descriptive statistics when we used the `summary()` command in R. Another tool for descriptive statistics is data visualization and [**histograms**](../glossary.html#histogram). Below, we have a histogram for one of our outcome variables, `Income`
+
 ```{r fig.width=10, warning=FALSE}
 ggplot(data,aes(Income))+
   geom_histogram(bins=40)+
   theme_bw()
 
-
-
 ```
 
-Let's refer to one of our **factors** and take a look at a visualization of `Income`. I've selected `SchoolDegree` to see if the type of degree you have interacts with income in any way. What do you think?
+Let's refer to one of our *factors* and take a look at a visualization of `Income`. I've selected `SchoolDegree` to see if the type of degree you have interacts with income in any way. What do you think?
 
 ```{r fig.width=10}
 levels(data$SchoolDegree)
@@ -185,7 +194,8 @@ ggplot(ba_and_ma,aes(Income,fill=SchoolDegree))+
 ```
 At first, it's tempting to say that the groups differ by a lot, just by looking at the histogram. But this observation is almost entirely due to the fact that *much more* responders had Bachelor's degrees than any of the other `SchoolDegree` values. The histogram is showing raw counts, meaning that it's going to look very skewed towards the group with the largest population. We can barely even see the trade schoolers.
 
-Let's take a look at a **normalized** histogram, and discuss what that means. Take a peek at the ballers over in the $200,000 income range. From the above histogram, we see that the raw count for those in that range is higher for those with Bachelor's degrees, and lowest for those with trade school experience.
+Let's take a look at a [**normalized**](../glossary.html#normalize) histogram, and discuss what that means. Take a peek at the ballers over in the $200,000 income range. From the above histogram, we see that the raw count for those in that range is higher for those with Bachelor's degrees, and lowest for those with trade school experience.
+
 
 ```{r}
 ba_and_ma$SchoolDegree <- droplevels(ba_and_ma$SchoolDegree)
@@ -193,9 +203,12 @@ kable(table(ba_and_ma$SchoolDegree[ba_and_ma$Income==200000]))%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 
 ```
+
 When we look at the *proportions*, maybe we have a different story. Is `.0085` (Bachelor's) really different from `.0083` (Master's)? Is `.0067` (trade school) really different? Or could it be the case that no matter what degree you started with, the coding bootcamps give you an equal opportunity for eventual Income?
 
-The numbers confirm what we observed in the raw counts. The raw counts are not useless as we may want to know that more bootcampers had Bachelor's degrees and most of those in the $200,000 Income range had Bachelor's degrees (in this subset). But in comparing the *distributions*, we need the **proportions** instead.
+The numbers confirm what we observed in the raw counts. The raw counts are not useless as we may want to know that more bootcampers had Bachelor's degrees and most of those in the $200,000 Income range had Bachelor's degrees (in this subset). But in comparing the *distributions*, we need the [**proportions**](../glossary.html#normalize) instead.
+
+<center>![](../static/standard.png)</center><br>
 
 ```{r}
 
@@ -246,7 +259,7 @@ plt
 
 ```
 
-We might be able to use our common sense to determine that these two groups are, in fact, the same. But it is not always so clear. This is why we rely on statistical tests to *find evidence against the null hypothesis*. The **null hypothesis** can be thought of like the "devil's advocate" of the problem: Nothing is happening here, there is no difference, and you're wasting your time looking for one. With enough evidence, we can argue that the null hypothesis is full of BS. We can never *prove* the alternative hypothesis, but we can show that the null hypothesis is very unlikely. Keep in mind, this might be a good thing or a bad thing; it depends what you are investigating and trying to show. In this example, it might be very interesting that `SchoolDegree` is *not* affecting `Income` if you enroll in a coding bootcamp. That would be good news for many people trying to make it in the tech world. That is where interpretation of results comes into play, where you need to think about if what kind of impact your results could have on people's lives. But the statistics themselves are not making a good or bad judgement; they are simply demonstrating what the evidence shows.
+We might be able to use our common sense to determine that these two groups are, in fact, the same. But it is not always so clear. This is why we rely on statistical tests to *find evidence against the null hypothesis*. The [**null hypothesis**](../glossary.html#nullhypothesis) can be thought of like the "devil's advocate" of the problem: Nothing is happening here, there is no difference, and you're wasting your time looking for one. With enough evidence, we can argue that the null hypothesis is full of BS. We can never *prove* the alternative hypothesis, but we can show that the null hypothesis is very unlikely. Keep in mind, this might be a good thing or a bad thing; it depends what you are investigating and trying to show. In this example, it might be very interesting that `SchoolDegree` is *not* affecting `Income` if you enroll in a coding bootcamp. That would be good news for many people trying to make it in the tech world. That is where interpretation of results comes into play, where you need to think about if what kind of impact your results could have on people's lives. But the statistics themselves are not making a good or bad judgement; they are simply demonstrating what the evidence shows.
 
 ### Inferential
 Using our example from above, Bachelor's vs. Master's degree students and their `Income` values, let's look to see if we can find evidence that they are truly different phenomena. I've also included the trade schoolers, but we will get to that later.
@@ -265,12 +278,13 @@ But first, we need to talk about normality.
 
 <center> ![](../static/pretend.png) </center>
 
-You may have heard of the **normal distribution**, or heard it referred to as a **bell curve**, **normal curve**, or perhaps even a **Gaussian curve**. Note, it gets referred to as a Gaussian because it was discovered by a guy named Gauss. It took me a while to realize that the people around me were referring to a simple bell curve when all I was hearing was the word "Gaussian", which is just a fancier and less-descriptive way to say normal distribution. 
+You may have heard of the [**normal distribution**](../glossary.html#normaldistribution), or heard it referred to as a *bell curve*, *normal curve*, or perhaps even a *Gaussian curve*. Note, it gets referred to as a Gaussian because it was discovered by a guy named Gauss. It took me a while to realize that the people around me were referring to a simple bell curve when all I was hearing was the word "Gaussian", which is just a fancier and less-descriptive way to say normal distribution. 
 
 The reason we need to talk about normality is two-fold:
 
-- thinking of phenomena in terms of **standard deviation**, **means**, and **number of standard deviations from the mean** can be helpful to learn about probability and inferential statistics
-- we need to test our variables for normality in order to know if we should use **parametric** or **nonparametric** methods
+- thinking of phenomena in terms of [**standard deviation**](../glossary.html#standarddeviation), **means**, and **number of standard deviations from the mean** can be helpful to learn about probability and inferential statistics
+- we need to test our variables for normality in order to know if we should use [**parametric**](../glossary.html#parametric) or [**nonparametric**](../glossary.html#nonparametric) methods
+
 
 ### The Normal Distribution
 
@@ -279,7 +293,7 @@ Many real-life variables follow a normal distribution. That means that the large
 #### Let's Talk About Social Media
 I was curious to see if there were any normally distributed variables on social media sites. I came across [some suggestion](http://web.peanutlabs.com/wp-content/uploads/2013/07/SocialMediaDataDistributionConversition.pdf) that sentiment of social media chatter regarding brand names is normally distributed. The examples were funny enough that I needed to include them.
 
-**Sentiment** refers to the negativity, neutrality, or positivity of a statement, often applied to things like Twitter data. In this case, the investigators used a **Likert scale** which is very common in experimental design and surveys. You may have seen a Likert scale before, when answering something with a scale from *Strongly Disagree* to *Strongly Agree*. There are a few variations on the setup, but in this social media example  they used a 5-point scale (from *very negative* to *very positive*). Some negative sentiment included:
+*Sentiment* refers to the negativity, neutrality, or positivity of a statement, often applied to things like Twitter data. In this case, the investigators used a [**Likert scale**](../glossary.html#likertscale) which is very common in experimental design and surveys. You may have seen a Likert scale before, when answering something with a scale from *Strongly Disagree* to *Strongly Agree*. There are a few variations on the setup, but in this social media example  they used a 5-point scale (from *very negative* to *very positive*). Some negative sentiment included:
 
 > "Apple maps need to pay for my gas since it keeps getting me lost"
 >
@@ -299,11 +313,11 @@ Well, it could be the case that the majority of sentiment is somewhere in the mi
 <center>
 ![](../static/normal.png)
 </center>
-It's important to note that while many phenomena *do* occur in a normal distribution (and with enough samples, meany things converge upon a normal distribution due to the **central limit theorem**), many real-world science does not have the luxury of getting normal data. Why is it a luxury? That is because of the power of **parametric tests**.
+It's important to note that while many phenomena *do* occur in a normal distribution (and with enough samples, meany things converge upon a normal distribution due to the [**central limit theorem**](../glossary.html#centrallimittheorem), many real-world science does not have the luxury of getting normal data. Why is it a luxury? That is because of the power of [**parametric tests**](../glossary.html#parametric).
 
 ### Parametric vs. NonParametric Tests
 
-A **parametric test** is generally considered more powerful and precise than a **nonparametric test**, and can only be used if the variables that you are comparing are normally distributed. *Parametric* is referring to how the normal distribution can actually be generated from **parameters** (components of the equation). Similar to how *y = mx + b* can form a line from *m* and *b*, the normal distribution can be formed from *mu* and *sigma*. **Mu** is the mean (or average) of the values. **Sigma** is referring to the **standard deviation**, which is how widespread the average tends to be (or how much deviation from the mean is warranted). A *high standard deviation* means that the data is very widespread, whereas a *low standard deviation* refers to a tighter peak.
+A **parametric test** is generally considered more powerful and precise than a **nonparametric test**, and can only be used if the variables that you are comparing are normally distributed. *Parametric* is referring to how the normal distribution can actually be generated from [**parameters**](../glossary.html#parameter) (components of the equation). Similar to how *y = mx + b* can form a line from *m* and *b*, the normal distribution can be formed from *mu* and *sigma*. **Mu** is the mean (or average) of the values. **Sigma** is referring to the **standard deviation**, which is how widespread the average tends to be (or how much deviation from the mean is warranted). A *high standard deviation* means that the data is very widespread, whereas a *low standard deviation* refers to a tighter peak.
 <center>![](../static/lowhigh.jpg)</center>
 
 If the data is normally distributed, we can rely on parametric methods. If the data is not normally distributed, we use nonparametric methods, which can sometimes be considered less powerful and precise. One of the sad realities of statistics is that you *can* do a parametric test on non-normal data in R, and you *will* get an answer; but the assumptions will all be violated and your answer will likely be wrong.
@@ -323,9 +337,9 @@ The "distributions" we are working with are the three groups and their spread of
 >
 > Alternative Hypothesis (H<sub>A</sub>): There is a significant difference between these values and a normal distribution.
 
-The **p-value** that comes out of the test is referring to the likelihood that the Null Hypothesis is true. A *low p value* means a low likelihood that the null hypothesis is true. A *high p value* means a high likelihood that the null hypothesis is true. If the p value is low, we have evidence that the distribution is likely *not normal*.
+The [**p-value**](../glossary.html#pvalue) that comes out of the test is referring to the likelihood that the Null Hypothesis is true. A *low p value* means a low likelihood that the null hypothesis is true. A *high p value* means a high likelihood that the null hypothesis is true. If the p value is low, we have evidence that the distribution is likely *not normal*.
 
-Referring back to the visualizations we saw of the groups (the histograms), we can say that these distributions are probably not normal. They are **skewed** to the left, with a long right **tail**. That means that that data seems to cluster over to the left instead of having **symmetry**, which we expect from a normal distribution. Let's see if our predictions are correct (that the distributions are *not* normal).
+Referring back to the visualizations we saw of the groups (the histograms), we can say that these distributions are probably not normal. They are [**skewed**](../glossary.html#shape) to the left, with a long right [**tail**](../glossary.html#shape). That means that that data seems to cluster over to the left instead of having [*symmetry*](../glossary.html#shape), which we expect from a normal distribution. Let's see if our predictions are correct (that the distributions are *not* normal).
 
 ```{r}
 
@@ -351,7 +365,7 @@ m$statistic
 m$p.value
 ```
 
-The outcome has several parts to it, the *statistic* and the *p-value*. The p-value is going to tell us about the likelihood of the null hypothesis being true. You may hear the term **alpha** and that's because math is indebted to the Greek gods and if they don't use Greek symbols, logic ceases to cooperate. Just kidding. So, the **alpha** value is the threshhold at which we *reject the null hypothesis*. This is typically `p < .05`. So, if it is less than 5% chance that the null hypothesis is true, we favor the alternative hypothesis. Check out the p-value result from our Kruskal Wallis test. Is it less than .05? We can even write a function to tell us, filling it in with whatever plain language helps you to understand what is going on. This extra step of self-reflection can help solidify the knowledge.
+The outcome has several parts to it, the *statistic* and the *p-value*. The p-value is going to tell us about the likelihood of the null hypothesis being true. You may hear the term [**alpha**](../glossary.html#alpha) and that's because math is indebted to the Greek gods and if they don't use Greek symbols, logic ceases to cooperate. Just kidding. So, the **alpha** value is the threshhold at which we *reject the null hypothesis*. This is typically `p < .05`. So, if it is less than 5% chance that the null hypothesis is true, we favor the alternative hypothesis. Check out the p-value result from our Kruskal Wallis test. Is it less than .05? We can even write a function to tell us, filling it in with whatever plain language helps you to understand what is going on. This extra step of self-reflection can help solidify the knowledge.
 
 ```{r}
 checkAlpha <- function(model) {

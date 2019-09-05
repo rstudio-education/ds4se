@@ -3,6 +3,8 @@ title: "Stack Overflow Queries"
 author: "Yim Register"
 date: "8/19/2019"
 output: html_document
+status: draft1 complete
+badges: warmup,industry
 ---
 
 ```{r setup, include=FALSE}
@@ -26,7 +28,7 @@ Fake book covers from *the Practical Developer*, mimicking O'Reilly textbooks
 
 One of the coolest things about learning Data Science and statistics is that we can apply our methods to any dataset that interests us. This is an excellent opportunity for creativity and expression. But it can be difficult to know where to begin; especially because our questions might be too advanced, or difficult to get data for. These lessons approach this problem by analyzing data from Software Engineering research, and guiding the learner through the findings. We also use sources like Stack Overflow, GitHub, and Eclipse (Java IDE) Bug Reports. For this lesson, it's all about Stack Overflow tags. [Stack Overflow](https://stackoverflow.com/) is a forum where developers can ask and answer questions about code. There are other features to the site, like gaining reputation and earning badges, but above all else they market the site as "ask questions, get answers, no distractions". There is certainly a culture to be reckoned with; as some people can be unkind to beginners on the site. But never fear, you are a coder and you belong.
 
-In this lesson we use the [Stack Exchange API](https://api.stackexchange.com/docs) to get data from Stack Overflow. We use [this query](https://data.stackexchange.com/stackoverflow/query/59301/questions-per-month-top-10-tags-compared) to get a **.csv file** that pulls data from Stack Overflow. We can actually download that file to our local machine and work with the data from there. 
+In this lesson we use the [Stack Exchange API](https://api.stackexchange.com/docs) to get data from Stack Overflow. We use [this query](https://data.stackexchange.com/stackoverflow/query/59301/questions-per-month-top-10-tags-compared) to get a [**.csv file**](../glossary.html#csv) that pulls data from Stack Overflow. We can actually download that file to our local machine and work with the data from there. 
 
 
 
@@ -115,7 +117,7 @@ plt
 ```
 
 ## Cumulative Growth Over Time
-If we want to get the cumulative sum, we will use `dplyr` again with the `mutate()` command. `mutate()` creates a new column in the dataframe. The `cumsum()` command refers to **cumulative sum**, similar to a `+=` in a typical for loop. The last piece of this code is to order the dataframe by the Month. You'll note that these curves are much smoother than the month to month fluctuations, and that's because a cumulative sum guarantees that kind of smoothness (and no decreasing is possible).
+If we want to get the cumulative sum, we will use `dplyr` again with the `mutate()` command. `mutate()` creates a new column in the dataframe. The `cumsum()` command refers to [**cumulative sum**](../glossary.html#cumulativesum), similar to a `+=` in a typical for loop. The last piece of this code is to order the dataframe by the Month. You'll note that these curves are much smoother than the month to month fluctuations, and that's because a cumulative sum guarantees that kind of smoothness (and no decreasing is possible).
 
 ```{r fig.width=10}
 
@@ -154,13 +156,13 @@ But there is more *information* in looking at the growth over time. Despite the 
 
 Despite the name of this test sounding like a strong drink, it's a statistical method tracing back to the 1930s that compares two distributions from possibly different samples. Basically, it is what we can use to compare *curves*. We look at the difference between the curves, and test if they come from similar data-producing processes.
 
-Let's set up our **null** and **alternative hypotheses**.
+Let's set up our [**null**](../glossary.html#hypothesistesting) and [**alternative hypotheses**](../glossary.html#hypothesistesting).
 
 > Null Hypothesis (H<sub>0</sub>): There is no significant difference between these curves. They are likely the same pattern.
 >
 > Alternative Hypothesis (H<sub>A</sub>): There is a significant difference between these curves. They are likely different patterns.
 
-Remember, the **p-value** is telling us about the likelihood of the null hypothesis. A *low p-value* means that the null hypothesis is not likely, and we favor the alternative hypothesis. A *high p-value* means that the null hypothesis is likely, and we fail to reject the null hypothesis. If the p-value is less than .05, we can reject the null hypothesis.
+Remember, the [**p-value**](../glossary.html#pvalue) is telling us about the likelihood of the null hypothesis. A *low p-value* means that the null hypothesis is not likely, and we favor the alternative hypothesis. A *high p-value* means that the null hypothesis is likely, and we fail to reject the null hypothesis. If the p-value is less than .05, we can reject the null hypothesis.
 
 ```{r}
 ks.test(cumulative$csum[cumulative$TagName=='python'],cumulative$csum[cumulative$TagName=='php'])
@@ -191,7 +193,7 @@ plt
 ```
 
 ## Log-Log Plots and Power Laws, Oh My!
-We can see from the above histogram that many people have low reputation, and very few people have high reputation. This is expected, as high reputation is difficult to get and is probably only obtained by a rare few who answer questions all day. But it isn't just decreasing at one rate; it appears to be exponentially decreasing. If you plot this data on a log-log scale, it would appear to be a decreasing, straight line. Below is an example of a **Zipf plot**, or **power law** which shows this relationship. The super funky awesome interesting part is that [Zipf's law occurs all over the place in natural settings](https://www.youtube.com/watch?v=fCn8zs912OE). The English language is Zipfianly ditributed, and we see this kind of power-law dropoff in wealth disparities as well. It's interesting to find it in our own developer backyard, Stack Overflow.
+We can see from the above histogram that many people have low reputation, and very few people have high reputation. This is expected, as high reputation is difficult to get and is probably only obtained by a rare few who answer questions all day. But it isn't just decreasing at one rate; it appears to be exponentially decreasing. If you plot this data on a [**log-log scale**](../glossary.html#log), it would appear to be a decreasing, straight line. Below is an example of a [**Zipf plot**](../glossary.html#zipf), or [**power law**](../glossary.html#zipf) which shows this relationship. The super funky awesome interesting part is that [Zipf's law occurs all over the place in natural settings](https://www.youtube.com/watch?v=fCn8zs912OE). The English language is Zipfianly ditributed, and we see this kind of power-law dropoff in wealth disparities as well. It's interesting to find it in our own developer backyard, Stack Overflow.
 ```{r}
 Zipf_plot(reps)
 

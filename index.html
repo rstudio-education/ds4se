@@ -2,9 +2,13 @@
   <head>
 
     <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="static/helpers.js"></script>
+    <script src="static/myglossary.js"></script>
+    <script src="static/status_and_badges.js"></script>
     <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="static/ds4se.css" rel="stylesheet" type="text/css">
   </head>
@@ -29,7 +33,7 @@
     </div>
   </nav>
 
-  <body>
+  <body onload="grabStatus('list_of_lessons');">
 
     <main>
 
@@ -41,38 +45,40 @@
       </p>
 
       <div class="jumbotron">
-        <ul>
-          <li><a href="./coding_bootcamps/index.html" style="margin-right:10px;">Coding Bootcamps: What affects income?</a>
-            <span class="badge badge-success">warmup</span>
-            <span class="badge badge-info">draft1 done</span>
+        <ul id="list_of_lessons">
+          <li><a href="./coding_bootcamps/index.html" style="margin-right:10px;" >Coding Bootcamps: What affects income?</a>
+
 
           </li>
+
           <li><a href="./holiday_commits/index.html" style="margin-right:10px;">Curiosity and Play</a>
-            <span class="badge badge-info">draft1 done</span>
-            <span class="badge badge-success">warmup</span>
+
           </li>
+
           <li><a href="./stack_overflow/index.html" style="margin-right:10px;">Stack Overflow trends over time</a>
-            <span class="badge badge-success">warmup</span>
-          <span class="badge badge-info">draft1 done</span>
+
         </li>
 
           <li><a href="./analyze_this/index.html" style="margin-right:10px;">Analyze This!</a>
-            <span class="badge badge-primary">ggplot2</span>
-            <span class="badge badge-success">warmup</span>
-            <span class="badge badge-danger">dplyr</span>
-            <span class="badge badge-warning">wilcox test</span>
-            <span class="badge badge-dark">academic</span>
-            <span class="badge badge-secondary">industry</span>
-            <span class="badge badge-info">draft1 done</span>
+
           </li>
-          <li><a href="./how_many_repos/index.html" style="margin-right:10px;">How Many Repositories Are There on GitHub?</a><span class="badge badge-info">draft1 done</span></li>
-          <li><a href="./project_estimation/index.html" style="margin-right:10px;">When Will I Be Done This Project?</a><span class="badge badge-info">draft1 done</span></li>
-          <li><a href="./sleep_deprive/index.html" style="margin-right:10px;">Sleep Deprivation and Software Engineering Performance</a><span class="badge badge-info">draft1 done</span></li>
-          <li><a href="./tdd/index.html" style="margin-right:10px;" >Does It Really Matter to Test First or Test After?</a><span class="badge badge-info">draft1 done</span></li>
-          <li><a href="./dev_performance_grading/index.html" style="margin-right:10px;">Developer Performance and Designing a New Grading System for Teams</a><span class="badge badge-info" style="margin-right:10px;">draft1 done</span></li>
-          <li><a href="./function_modification/index.html" style="margin-right:10px;">Don't Touch My Code! Multiple Authors and Function Modification</a><span class="badge badge-success">warmup</span></li>
+
+          <li><a href="./how_many_repos/index.html" style="margin-right:10px;">How Many Repositories Are There on GitHub?</a></li>
+
+          <li><a href="./project_estimation/index.html" style="margin-right:10px;">When Will I Be Done This Project?</a></li>
+
+          <li><a href="./sleep_deprive/index.html" style="margin-right:10px;">Sleep Deprivation and Software Engineering Performance</a></li>
+
+          <li><a href="./tdd/index.html" style="margin-right:10px;" >Does It Really Matter to Test First or Test After?</a></li>
+
+          <li><a href="./dev_performance_grading/index.html" style="margin-right:10px;">Developer Performance and Designing a New Grading System for Teams</a></li>
+
+          <li><a href="./function_modification/index.html" style="margin-right:10px;">Don't Touch My Code! Multiple Authors and Function Modification</a></li>
+
           <li><a href="./bayesian_vs_frequentist/index.html" style="margin-right:10px;">Bayesian vs Frequentist Statistics</a></li>
+
           <li><a href="./java_vs_c/index.html" style="margin-right:10px;">Code Quality and Lines of Code</a></li>
+
           <li><a href="./lines_and_functions/index.html" style="margin-right:10px;">Number of Lines versus Number of Functions in Different Languages</a></li>
 
         </ul>

@@ -2,7 +2,7 @@
 title: "Number of Lines versus Number of Functions in Different Languages"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
+
 ---
 
 ```{r setup, include=FALSE}

@@ -2,16 +2,15 @@
 title: "How Many Repositories Are There on GitHub?"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
+status: draft1 complete
+badges: warmup, industry
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r}
-# here is where I would like a block image to go for each lesson. Imagery is important to engage the learner.
-```
+<center>![](../static/brace.jpeg)</center><br>
 
 
 
@@ -26,7 +25,7 @@ Consider this question. The immediate response is to go Google it; voila! You ha
 
 
 ### Our Data (GHTorrent)
-An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or **repository** with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like *commits, users, language, description* and more. For now, let's look at the simplest count.
+An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or [**repository**](../glossary.html#github) with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like [*commits, users, language, description*](../glossary.html#github) and more. For now, let's look at the simplest count.
 
 ```{r}
 library(bigrquery)
@@ -85,7 +84,7 @@ kable(different_results,caption="different results obtained from different setup
 ```
 
 ### Training Data and Testing Data
-You may have a heard about models being "trained". Sometimes this conjures up images of a baby robot learning its ABCs. But training a model basically means building an equation or program off of some data, so that it can reliably generalize to *new* data. We try to find an equation that "fits" the data while also being flexible enough to generalize into the future. If you've heard of the term "trend line" or "line of best fit", this is the concept we will start with when discussing training and test data. On our training data, we find a good fitting trend line. In order to evaluate how good that trend line is, we can compare how it performs on our test data. The benefit of reserving test data is that we can immediately evaluate our model, instead of simply waiting for it to be deployed in the world and either failing or succeeding (trust me, that's not a good idea). So we hold on to some data where we know the **true** values, and compare to what our trained model would predict. Below, we split our data into a training and test set, with a 70/30 split. With some data, you would sample in order to get a wide range of test data from across the entire set. However, because our model is *over time* we will reserve the last 30% of true data in order to evaluate how effective our models are. **You do not always want to just grab the last bit of data, as this can be biased for some problems where time is not the independent variable.** (Imagine you were trying to fit a model to determine the genre of a movie, and your test set was accidentally all holiday movies because you pulled from December for your test set). In our case, we will grab the most recent 30%.
+You may have a heard about models being "trained". Sometimes this conjures up images of a baby robot learning its ABCs. But training a [**model**](../glossary.html#model) basically means building an equation or program off of some data, so that it can reliably generalize to *new* data. We try to find an equation that "fits" the data while also being flexible enough to generalize into the future. If you've heard of the term "trend line" or "line of best fit", this is the concept we will start with when discussing training and test data. On our training data, we find a good fitting trend line. In order to evaluate how good that trend line is, we can compare how it performs on our test data. The benefit of reserving test data is that we can immediately evaluate our model, instead of simply waiting for it to be deployed in the world and either failing or succeeding (trust me, that's not a good idea). So we hold on to some data where we know the **true** values, and compare to what our trained model would predict. Below, we split our data into a training and test set, with a 70/30 split. With some data, you would sample in order to get a wide range of test data from across the entire set. However, because our model is *over time* we will reserve the last 30% of true data in order to evaluate how effective our models are. **You do not always want to just grab the last bit of data, as this can be biased for some problems where time is not the independent variable.** (Imagine you were trying to fit a model to determine the genre of a movie, and your test set was accidentally all holiday movies because you pulled from December for your test set). In our case, we will grab the most recent 30%.
 
 
 ```{r}
@@ -110,7 +109,8 @@ ggplot(test,aes(n,num_projects_sum))+
 ```
 
 ## Overfitting and Underfitting
-I guarantee it, you can probably fit a model to anything. It doesn't mean it's a *good* model, and it's most certainly not guaranteed to be a *useful* one. The reason why we have training and testing data is so that we can evaluate how useful our model is at predicting new information. A big danger of fitting a model to your training data is **overfitting**. All data is messy, and contains *noise*. That means, tiny dips and jumps that are just natural in the data. But we want to capture the main trends, the main patterns, in the data we have. So we want to make sure that we aren't creating models to fit those tiny dips that don't really matter. Let's zoom in on our data, and look at a *very* close fit vs. a not so great fit:
+
+I guarantee it, you can probably fit a model to anything. It doesn't mean it's a *good* model, and it's most certainly not guaranteed to be a *useful* one. The reason why we have training and testing data is so that we can evaluate how useful our model is at predicting new information. A big danger of fitting a model to your training data is [**overfitting**](../glossary.html#overfit). All data is messy, and contains [**noise**](../glossary.html#noise). That means, tiny dips and jumps that are just natural in the data. But we want to capture the main trends, the main patterns, in the data we have. So we want to make sure that we aren't creating models to fit those tiny dips that don't really matter. Let's zoom in on our data, and look at a *very* close fit vs. a not so great fit:
 
 
 ```{r, warning=FALSE,message=FALSE}
@@ -151,9 +151,9 @@ ggplot(train[train$n>zoom,],aes(n,num_projects_sum))+
 
 ```
 
-The model with more parameters sure does seem to fit the data best! You can imagine going to GitHub and announcing *"I've found the exact predictive model of how fast you are growing!"* Your fit is so great, that it captures the small little nuances of how the growth fluctuates. You must be so proud. 
+The model with more [**parameters**](../glossary.html#parameter) sure does seem to fit the data best! You can imagine going to GitHub and announcing *"I've found the exact predictive model of how fast you are growing!"* Your fit is so great, that it captures the small little nuances of how the growth fluctuates. You must be so proud. 
 
-Unfortunately, let's look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn't capturing the main trend, and is then subject to totally bombing on new data. **Overfitting**: using too complex a model, with too many unjustified parameters, to accidentally fit to the noise in your data instead of capturing the main trend. **Underfitting**: not complex enough of a model, missing out on valuable information about the patterns in the data (like a straight line attempting to fit an exponential). We want the "sweet spot" where we have a reasonable number of parameters, but are also robust to real world data, and can handle noisy inputs.
+Unfortunately, let's look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn't capturing the main trend, and is then subject to totally bombing on new data. **Overfitting**: using too complex a model, with too many unjustified parameters, to accidentally fit to the noise in your data instead of capturing the main trend. [**Underfitting**](../glossary.html#underfit): not complex enough of a model, missing out on valuable information about the patterns in the data (like a straight line attempting to fit an exponential). We want the "sweet spot" where we have a reasonable number of parameters, but are also robust to real world data, and can handle noisy inputs.
 
 
 ```{r, message=FALSE,warning=FALSE}
@@ -273,11 +273,11 @@ ggplot(future_and_test,aes(n,prediction))+
   geom_vline(xintercept=tail(train$n,1),linetype="dashed")+
   geom_vline(xintercept=tail(test$n,1),linetype="dashed")+
   theme_bw()
-View(future_and_test)
+
 ```
 ## Evaluation
 
-Because we held on to some test data, we can evaluate how good our model is on actual prediction, as opposed to just looking at how well it fits the training data (that matters too, but not nearly as much). What we have now is two vectors that we can compare. The **true** data (our test data), and the **predicted** data (our model). We can compare how good our model did by recording the **root mean squared error**. One of the great things about R is that we can do this very straightforwardly:
+Because we held on to some [**test data**](../glossary.html#testdata), we can evaluate how good our model is on actual prediction, as opposed to just looking at how well it fits the [**training data**](../glossary.html#trainingdata] (that matters too, but not nearly as much). What we have now is two vectors that we can compare. The **true** data (our test data), and the [**predicted**](../glossary.html#model) data (our model). We can compare how good our model did by recording the [**root mean squared error**](../glossary.html#rmse). One of the great things about R is that we can do this very straightforwardly:
 
 ```{r}
 

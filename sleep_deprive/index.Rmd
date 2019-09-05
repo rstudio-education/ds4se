@@ -3,6 +3,8 @@ title: "Sleep Deprivation and Software Engineering Performance"
 author: "Yim Register"
 output: html_document
 bibliography: bibliography.bib
+status: draft1 complete
+badges: academic
 ---
 
 ```{r setup, include=FALSE}
@@ -11,8 +13,7 @@ library(plyr)
 library(dplyr)
 library(knitr)
 ```
-<center>
-![](../static/000.png)</center>
+<center>![](../static/sleepymood.jpg)</center><br>
 
 ## "Pulling an All-Nighter"
 Whether you stocked up on coffee and snacks and holed up in the library to finish programming that project due tomorrow, or stayed up all night playing video games until your eyes can only squint, perhaps you are familiar with what the next day feels like after a night without sleep. Unfortunatlely, studies suggest that sleep deprivation is cognitively comparable to [being drunk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/pdf/v057p00649.pdf), with impairments to memory, reasoning, reaction time, and decision making. I think we can all agree that everyone would prefer that critical software was not made by a drunk programmer. But is it really *that bad*? Especially given the trope that programmers are up all night shouting into their gaming headsets or hacking the CIA, how bad could it really be to lose a little sleep? Answer: **bad**. It's really bad. This lesson will walk us through just how bad it is to be sleep deprived while trying to write code, and teach you how to interpret experiment design and results of an academic paper. Hopefully by the end, you'll understand statistical concepts like: **experimental design, hypothesis testing, mean, variance, standard deviation, the normal distribution, Type I and Type II errors, Bonferroni correction, correlation, Cliff's delta (effect size), and the Kruskall Wallis Test**. And hopefully you'll realize how abysmal your code will be if you forgo those extra hours to order 3am pizza.
@@ -249,6 +250,8 @@ cliffs.d  <-  function(x,y) {
 ```
 
 ## Parametric vs. NonParametric Statistical Power
+
+<center>![](../static/paranormal.jpeg)</center><br>
 Similar to effect size, we care about **statistical power**. Imagine a scenario where there *is* a difference, it's a *big* difference, but it's *very unlikely* that we will get that result again. Then the confidence that we should reject the null hypothesis is *high*, the effect size is *high*, but the statistical power is *low*. Ideally, we would have high statistical power in addition to a large effect size. Below is a function that routes the data to different tests, depending on the normality of the data. We already know that our data requires nonparametric testing. You can see in the code for the nonparametric test that the p value is *simulated* and *averaged* in 1000 runs.
 
 ```{r}
