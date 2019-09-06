@@ -2,6 +2,7 @@
 title: "How Many Repositories Are There on GitHub?"
 author: "Yim Register"
 output: html_document
+bibliography: bibliography.bib
 status: draft1 complete
 badges: warmup, industry
 ---
@@ -25,7 +26,11 @@ Consider this question. The immediate response is to go Google it; voila! You ha
 
 
 ### Our Data (GHTorrent)
-An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called GHTorrent. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or [**repository**](../glossary.html#github) with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like [*commits, users, language, description*](../glossary.html#github) and more. For now, let's look at the simplest count.
+An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called **GHTorrent** [@Gousi13]. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or [**repository**](../glossary.html#github) with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like [*commits, users, language, description*](../glossary.html#github) and more. For now, let's look at the simplest count.
+
+### DataFiles for this Lesson
+
+For this lesson, we actually stored all of the queries in datafiles that you can load from the `ghtorrentdata/` directory. Accessing the data required a credit card, which is unreasonable to expect from anyone just trying to use these lessons to learn. If you *do* want to perform different queries of your own, there are several ways to do that. I have included how you could do it using [**BigQuery**](../glossary.html#bigquery) and `bigrquery` (that's the R package, see the r in there?). Any time you see `query_exec()` it will be commented out and you will use the data we have provided from the result of that query as of September 2019. That way, you can see how the query would be executed but also you don't need to fiddle with APIs to follow along in this lesson.
 
 ```{r}
 library(bigrquery)
@@ -41,8 +46,11 @@ sql <- "select count(id) as num_projects,date(created_at) as day
 
 
 
-#executing the query
-data  <- query_exec(sql, project = project, useLegacySql = FALSE)
+#executing the query if you aren't using data provided
+#data  <- query_exec(sql, project = project, useLegacySql = FALSE)
+
+#reading in data for the above query that we stored earlier
+data <- read.csv("ghtorrentdata/data1.csv")
 
 data <- data[data$day!="2016-05-01",] #crazy outlier? #like unreasonably so
 
@@ -275,6 +283,7 @@ ggplot(future_and_test,aes(n,prediction))+
   theme_bw()
 
 ```
+
 ## Evaluation
 
 Because we held on to some [**test data**](../glossary.html#testdata), we can evaluate how good our model is on actual prediction, as opposed to just looking at how well it fits the [**training data**](../glossary.html#trainingdata] (that matters too, but not nearly as much). What we have now is two vectors that we can compare. The **true** data (our test data), and the [**predicted**](../glossary.html#model) data (our model). We can compare how good our model did by recording the [**root mean squared error**](../glossary.html#rmse). One of the great things about R is that we can do this very straightforwardly:
@@ -297,3 +306,5 @@ RMSE = function(predictions, true_values){
 RMSE(predictions$prediction,test$num_projects_sum)
 
 ```
+
+# References

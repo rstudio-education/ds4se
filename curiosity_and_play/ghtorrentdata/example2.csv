@@ -1,0 +1,98 @@
+"description","language","num_commits"
+"Record for playing with OpenAI Gym","Python",42
+"shogi engine(AI player), stronger than Bonanza6 , educational and tiny code(about 2500 lines) , USI compliant engine , capable of being compiled by VC++2015","C++",23
+"CBRAIN is a flexible Ruby on Rails framework for accessing and processing of large data on high-performance computing infrastructures.","Ruby",18
+"Freeciv-web is an Open Source strategy game implemented in HTML5, which can be played online against other players, or in single player mode against AI opponents.","JavaScript",16
+"rllab is a framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym.","Python",14
+"Braille Production Modules for the DAISY Pipeline 2","Java",14
+"Documentation for CATMAID","HTML",8
+"AI of bombｌiss(almost tetris) on NES","Python",8
+":alien: An AI project. :alien:","Python",8
+"AIM World Site Template","PHP",8
+"A simple AI for 2048","CSS",7
+"GAIL is a suite of algorithms for integration problems in one, many, and infinite dimensions, and whose answers are guaranteed to be correct.  GAIL is created, developed, and maintained by Fred Hickernell (Illinois Institute of Technology), Sou-Cheng Choi","Matlab",7
+"Information Inference Service of the OpenAIRE system","Java",7
+"Jorvik è la seconda e ultima versione del software del Progetto Gaia di Croce Rossa Italiana. GAIA è l'acronimo di ""Gestione Avanzata ed Integrata dell'Anagrafica"", nonché il nome di un pianeta dalla fantasia di Isaac Asimov.","HTML",7
+"Iomrascálaí is an AI for the game of Go/Weiqi/Baduk written in Rust","Rust",6
+"AI for 2048 using simple reinforcement learning","Python",6
+"Repository with Rwanda CHAIN data manipulation information","R",6
+"Dedicon specific modules for the DAISY Pipeline 2","Java",6
+"Rust crate for a convenient RAII scope guard.","Rust",5
+"Learning some weak AI algorithms","Go",5
+"A RESTful Haskell web framework built on WAI.","Haskell",5
+"The programming environment »Open Roberta Lab"" by Fraunhofer IAIS enables children and adolescents to program robots. A variety of different programming blocks are provided to program motors and sensors of the robot. Open Roberta Lab uses an approach of g","Java",5
+"A concise ChartPlotter/Navigator. A cross-platform ship-borne GUI application supporting * GPS/GPDS Postition Input * BSB Raster Chart Display * S57 Vector ENChart Display * AIS Input Decoding * Waypoint Autopilot Navigation","C++",5
+"Jitsi is an audio/video and chat communicator that supports protocols such as SIP, XMPP/Jabber, AIM/ICQ, IRC, Yahoo! and many other useful features.","Java",4
+"Educational small project. It will contain my simple implemetations of data structures, sorting and AI algorithms. GUI will be provived much later.","C#",4
+" xpp - A C++11 RAII wrapper for XCB","C++",4
+"SIMA and RAIN comparison","Python",4
+"Tend.AI","CSS",4
+"ActionScript3 SDK for use in Adobe Flash and AIR.","ActionScript",4
+"Hub for anything related to AI evaluations based on exams and other tests","HTML",4
+"unRAID plugins and packages","JavaScript",3
+"Adobe AIR Native Extension (ANE) for the Bugsnag platform","ActionScript",3
+"PHP MySQL AIML Chatbot - One click installation. Fully loaded admin area to admin your chatbot. Set up multiple chatbots. Foreign language support. XML/JSON responses or just plain HTML. Massive community of users. Twitter Plugins and lots and lots more. ","PHP",3
+"Mycroft AI Desktop UI ","JavaScript",3
+"The OAI Harvest module handles metadata gathering between OAI-PMH v.2.0 compliant repositories.","Python",3
+"Base implementation of VPAID ad unit","JavaScript",3
+"This depot is used for learning of AI for robotics in Udacity ","Python",3
+"ANTI-VILLAIN's Website","HTML",3
+"web app for YAOPAI","JavaScript",3
+"Aplicación web para administrar y poner en acceso las fichas de catalogación de los documentales del LAIS","PHP",3
+"NLB specific modules for the DAISY Pipeline 2","XProc",3
+"Pandora FMS is a flexible and highly scalable monitoring system ready for big environments. It uses agents (Linux, Windows, AIX, HP-UX, Solaris and BSD systems) and can do both local and remote network monitoring (SNMP v3, TCP checks, WMI, etc).","PHP",3
+"Keyboard navigate WAI-ARIA landmarks","JavaScript",3
+"Scrabble game with AI opponent and Dawg word lookup.","Swift",3
+"A game about tense one-on-one situations between spidery headshot robots, and an AI who thinks she's a person.","C++",3
+"Website version of the AIS Network Mapper project","Python",3
+"Goal : create a bot that can play slither.io just for fun and for the sake of AI","JavaScript",2
+"An overview of the resources on the /WAI/ website.","HTML",2
+"SRI International's AIC PRAiSE (Probabilistic Reasoning As Symbolic Evaluation) Library (for Java 1.8+)","Java",2
+"Interactive_AI Window & Android","C#",2
+"模拟网络游戏agar(琼脂)的单机游戏, 旨在完善技术及研究AI","Ruby",2
+"A Swift implementation of the game checkers with AI agents utilizing Monte-Carlo tree search.","Swift",2
+"Gen-6 Pokemon Battling Sim and AI","Python",2
+"An AI for Crypt of the NecroDancer","C",2
+"WAI-ARIA compliant React autocomplete (combobox) component","JavaScript",2
+"JAIN-SIP-HA : Provides extensions done by TeleStax, Inc. to provide high availability and fault tolerance through replication of various states of the stack. It supports Call Established Failover or Early Dialog Failover.","Java",2
+"#GARVHAI","HTML",2
+"AI opponent for Counter-Strike based on POD-Bot 2.6","C++",2
+"We are collaborating with a handful of AI students and making a game using SDL.","Emacs Lisp",2
+"neurGAI","Java",2
+"The IOS app for AImergence","Swift",2
+"Accessible Rich Internet Applications (WAI-ARIA)","HTML",2
+"Yet another AI attempt. Woo!","Perl",1
+"Invenio module for OAI-PMH metadata harvesting between repositories.","Python",1
+"In-unit to inspect VPAID ad","JavaScript",1
+"iDAI.field 2","TypeScript",1
+"Simple AI for OpenAI Gym","Python",1
+"iDAI.gazetteer geo theosaurus publishing and management tool","Java",1
+"Set of (Tensorflow) implementations which generate comments from code. Thesis for the B.sc. AI. ","Python",1
+"AICB Engine.  Based off SAI_Engine","Shell",1
+"behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool.   behaviac supports the behavior tree(BT), finite state machine(FSM) and hierarchical task network(HTN).  Behaviors can be designed and debu","C++",1
+"CERN PyHEADTAIL numerical n-body simulation code for simulating macro-particle beam dynamics with collective effects ","Jupyter Notebook",1
+"NMON For Splunk App - convert, index and exploit nmon metrics data for AIX, Solaris and Linux Systems","JavaScript",1
+"Various OAI tools used mostly with DLTN work","Python",1
+"Consolidated switch repo (API, SAI and Nettlink)","C",1
+"Scientific Spark - a NASA AIST14 project","Scala",1
+"Attempting to train AI to solve the Rubik's cube","Go",1
+"AI that plays Melee inside the Dolphin emulator","C++",1
+"AIMBAT: Automated and Interactive Measurement of Body wave Arrival Times","Python",1
+"Spring RTS local native AI","C++",1
+"Course Introduction to AI Project","Python",1
+"MOAI, an Open Access Server Platform for Institutional Repositories","Python",1
+"A fully accessible React modal built according WAI-ARIA Authoring Practices","JavaScript",1
+"USAID MMC Django component","Python",1
+"loo R package: Efficient approximate leave-one-out cross-validation and WAIC for fitted Bayesian models","R",1
+"Behaviac 游戏AI的开发框架组件   behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool.   behaviac supports the behavior tree(BT), finite state machine(FSM) and hierarchical task network(HTN).  Behaviors c","C++",1
+"AIMP DotNet plugin","C++",1
+"AIR project","HTML",1
+"Oracle JAI Open Source Replacement Wannabe","Java",1
+"myanmaremr for HIV/AIDS and TB","Java",1
+"File parsing and processing scripts for the CAIDA congestion measurement efforts.","Python",1
+"behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool.   behaviac supports the behavior tree, finite state machine and hierarchical task network.  Behaviors can be designed and debugged in the de","C++",1
+"ROBOTIS Framework GIT REP MAIN","C++",1
+"Backend del proyecto CAPTAINOPS","Java",1
+"middleware_master controller_service layer_restfull api_RAISe","PHP",1
+"An AI-contest framework for hosting and playing games for AI agents","Scala",1
+"bug's game AI homework","Elm",1
