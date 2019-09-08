@@ -2,7 +2,6 @@
 title: "Code Quality and Lines of Code"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -40,7 +39,7 @@ FIXME: They're actually different problems. I have to figure out how to tie them
 
 source("../data/ESEUR_config.r")
 
-library("plyr")
+library(plyr)
 cc_loc=read.csv(paste0(ESEUR_dir, "../data/Landman_m_ccsloc.csv.xz"), as.is=TRUE)
 cc_loc=subset(cc_loc, cc != 0)
 cc_loc$logloc=log(cc_loc$sloc)

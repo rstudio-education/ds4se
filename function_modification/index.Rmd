@@ -27,7 +27,7 @@ https://github.com/Derek-Jones/ESEUR-code-data/blob/master/evolution/functions/n
 
 source("../data/ESEUR_config.r")
 
-library("plyr")
+library(plyr)
 
 
 funcs=read.csv(paste0(ESEUR_dir, "../data/ev_funcmod.tsv.xz"), as.is=TRUE, sep="\t")
@@ -131,8 +131,8 @@ points(pred5, col=pal_col[5])
 unloadNamespace("treemap")
 unloadNamespace("igraph")
 
-library("gnm")
-library("plyr")
+library(gnm)
+library(plyr)
 
 pal_col=rainbow(3)
 plot_layout(2, 1)
