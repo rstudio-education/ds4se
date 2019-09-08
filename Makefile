@@ -2,7 +2,7 @@
 
 SRC=$(wildcard */index.Rmd)
 OUT=$(patsubst %/index.Rmd,%/index.html,$(SRC))
-TIMEOUT_SEC=15
+TIMEOUT_SEC=60
 
 #-------------------------------------------------------------------------------
 

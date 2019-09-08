@@ -39,10 +39,10 @@ This lesson is going to explore how we estimate how long software will take to f
 
 source("../data/ESEUR_config.r")
 
-library("plyr")
-library("dplyr")
-library("reshape2")
-library("ggplot2")
+library(plyr)
+library(dplyr)
+library(reshape2)
+library(ggplot2)
 ```
 
 ## Data Wrangling
@@ -187,7 +187,7 @@ So, we've looked into *reliability* of measurement, but we still haven't compare
 
 
 
-library("foreign") #just to read in the arff file
+library(foreign) #just to read in the arff file
 
 
 

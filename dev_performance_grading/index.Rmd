@@ -12,7 +12,7 @@ library(kableExtra)
 library(ggplot2)
 library(dplyr)
 library(car)
-library("boot")
+library(boot)
 ```
 <center>
 ![](../static/teamwork.svg)

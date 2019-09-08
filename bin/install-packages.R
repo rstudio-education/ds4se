@@ -1,0 +1,17 @@
+# Make sure all required packages are installed.
+REPO <- "https://cloud.r-project.org"
+install.packages("bigrquery", repos=REPO)
+install.packages("boot", repos=REPO)
+install.packages("car", repos=REPO)
+install.packages("data.table", repos=REPO)
+install.packages("dplyr", repos=REPO)
+install.packages("foreign", repos=REPO)
+install.packages("ggplot2", repos=REPO)
+install.packages("gnm", repos=REPO)
+install.packages("kableExtra", repos=REPO)
+install.packages("knitr", repos=REPO)
+install.packages("plyr", repos=REPO)
+install.packages("readxl", repos=REPO)
+install.packages("reshape2", repos=REPO)
+install.packages("tidyr", repos=REPO)
+install.packages("tm", repos=REPO)
