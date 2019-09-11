@@ -2,7 +2,7 @@
 title: "Sleep Deprivation and Software Engineering Performance"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
+bibliography: ../bibliography.bib
 status: draft1 complete
 badges: academic
 ---
@@ -26,7 +26,7 @@ Whether you stocked up on coffee and snacks and holed up in the library to finis
 
 ## Research Question
 
-This lesson will discuss and follow the methods of [*Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers' Performance*.](https://arxiv.org/pdf/1805.02544.pdf)[@FSR18] This will allow you to get practice reading academic research, while also testing out their analysis methods in R. 
+This lesson will discuss and follow the methods of [*Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers' Performance*.](https://arxiv.org/pdf/1805.02544.pdf)[@Fucc18] This will allow you to get practice reading academic research, while also testing out their analysis methods in R. 
 
 Given that we *know* sleep deprivation affects cognitive functioning, it wouldn't necessarily be the most interesting question to ask *if* sleep deprivation affects programming, but rather, *how much*? The authors form their first research question as the following:
 

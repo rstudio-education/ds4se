@@ -2,41 +2,41 @@
   <head>
 
     <meta charset="utf-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/ds4se.css" rel="stylesheet" type="text/css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="static/helpers.js"></script>
     <script src="static/myglossary.js"></script>
     <script src="static/status_and_badges.js"></script>
-    <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="static/ds4se.css" rel="stylesheet" type="text/css">
-  </head>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom:3%;">
-    <img class="navbar-brand" src="static/small.png" width="4%;"style="float:left;"></img>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#resources">More Resources</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  </head>
 
   <body onload="grabStatus('list_of_lessons');">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom:3%;">
+      <img class="navbar-brand" src="static/small.png" width="4%;"style="float:left;"></img>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">More Resources</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <main>
-
       <h1 style="display:inline-block;">Data Science for Software Engineering</h1><img width="20%" src="static/logo.png" style="display:inline-block;float:right;">
 
       <p>
@@ -46,41 +46,19 @@
 
       <div class="jumbotron">
         <ul id="list_of_lessons">
-          <li><a href="./coding_bootcamps/index.html" style="margin-right:10px;" >Coding Bootcamps: What affects income?</a>
-
-
-          </li>
-
-          <li><a href="./holiday_commits/index.html" style="margin-right:10px;">Curiosity and Play</a>
-
-          </li>
-
-          <li><a href="./stack_overflow/index.html" style="margin-right:10px;">Stack Overflow trends over time</a>
-
-        </li>
-
-          <li><a href="./analyze_this/index.html" style="margin-right:10px;">Analyze This!</a>
-
-          </li>
-
+          <li><a href="./coding_bootcamps/index.html" style="margin-right:10px;" >Coding Bootcamps: What affects income?</a></li>
+          <li><a href="./holiday_commits/index.html" style="margin-right:10px;">Curiosity and Play</a></li>
+          <li><a href="./stack_overflow/index.html" style="margin-right:10px;">Stack Overflow trends over time</a></li>
+          <li><a href="./analyze_this/index.html" style="margin-right:10px;">Analyze This!</a></li>
           <li><a href="./how_many_repos/index.html" style="margin-right:10px;">How Many Repositories Are There on GitHub?</a></li>
-
           <li><a href="./project_estimation/index.html" style="margin-right:10px;">When Will I Be Done This Project?</a></li>
-
           <li><a href="./sleep_deprive/index.html" style="margin-right:10px;">Sleep Deprivation and Software Engineering Performance</a></li>
-
           <li><a href="./tdd/index.html" style="margin-right:10px;" >Does It Really Matter to Test First or Test After?</a></li>
-
           <li><a href="./dev_performance_grading/index.html" style="margin-right:10px;">Developer Performance and Designing a New Grading System for Teams</a></li>
-
           <li><a href="./function_modification/index.html" style="margin-right:10px;">Don't Touch My Code! Multiple Authors and Function Modification</a></li>
-
           <li><a href="./bayesian_vs_frequentist/index.html" style="margin-right:10px;">Bayesian vs Frequentist Statistics</a></li>
-
           <li><a href="./java_vs_c/index.html" style="margin-right:10px;">Code Quality and Lines of Code</a></li>
-
           <li><a href="./lines_and_functions/index.html" style="margin-right:10px;">Number of Lines versus Number of Functions in Different Languages</a></li>
-
         </ul>
       </div>
 
@@ -104,12 +82,9 @@
 
       <section id="about">
         <h2>About This Project</h2>
-        <p>The software engineering world is full of claims about best practices, languages, packages, styles, and workflows, but most software engineering students are never taught how to find, read, and interpret actual evidence on those topics. Is agile development really the secret to success? Do some languages actually cause more defects than others? We have created a series of meaningful  lessons that explore research in software engineering for the beginner R programmer. These lessons teach students to interpret and replicate research findings while learning meaningful results for their field in addition to common statistical methods. The lessons serve as a primer for software engineers to participate in a data-driven society; from advertising and business to combating misinformation and helping user experience.<br><br>
-
-        Each lesson uses the R programming language, but does not assume any prior experience. The lessons cover introduction to R syntax, data cleaning and wrangling, data visualization, statistical tests, some predictive modeling, experimental methods, how to read academic research, and key findings from software engineering research.<br><br>
-
-        These lessons are intentionally written colloquially. Far too many resources are written without remembering to help the learner laugh and find joy in their work. While you may not find all of the jokes funny, keep in mind that the author sure tried.
-</p>
+        <p>The software engineering world is full of claims about best practices, languages, packages, styles, and workflows, but most software engineering students are never taught how to find, read, and interpret actual evidence on those topics. Is agile development really the secret to success? Do some languages actually cause more defects than others? We have created a series of meaningful  lessons that explore research in software engineering for the beginner R programmer. These lessons teach students to interpret and replicate research findings while learning meaningful results for their field in addition to common statistical methods. The lessons serve as a primer for software engineers to participate in a data-driven society; from advertising and business to combating misinformation and helping user experience.</p>
+        <p>Each lesson uses the R programming language, but does not assume any prior experience. The lessons cover introduction to R syntax, data cleaning and wrangling, data visualization, statistical tests, some predictive modeling, experimental methods, how to read academic research, and key findings from software engineering research.</p>
+        <p>These lessons are intentionally written colloquially. Far too many resources are written without remembering to help the learner laugh and find joy in their work. While you may not find all of the jokes funny, keep in mind that the author sure tried.</p>
       </section>
 
       <section id="resources">
@@ -128,8 +103,8 @@
     <footer>
       <center>
         <blockquote class="blockquote">
-          <p class="mb-0">“Where should I go?" -Alice. <br>"That depends on where you want to end up." </p>
-          <footer class="blockquote-footer">Chesire Cat in <cite title="Source Title">Alice's Adventures in Wonderland</cite></footer>
+          <p class="mb-0">"Where should I go?" -Alice. <br>"That depends on where you want to end up."</p>
+          <p class="blockquote-footer">Chesire Cat in <cite title="Source Title">Alice's Adventures in Wonderland</cite></p>
         </blockquote>
         <p>
           <a href="./LICENSE.md">

@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Yim Register" />
@@ -343,18 +344,6 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -376,12 +365,11 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Code Quality and Lines of Code</h1>
 <h4 class="author">Yim Register</h4>
-<h4 class="date">6/27/2019</h4>
 
 </div>
 
 
-<div id="code-quality-vs.-lines-of-code" class="section level2">
+<div id="code-quality-vs.lines-of-code" class="section level2">
 <h2>Code Quality vs. Lines of Code</h2>
 <div id="redundancy" class="section level3">
 <h3>Redundancy?</h3>
@@ -394,21 +382,23 @@ $(document).ready(function () {
 </div>
 <div id="how-does-complexity-relate-to-quality" class="section level2">
 <h2>How Does Complexity Relate to Quality?</h2>
+<p>FIXME</p>
 </div>
 <div id="cycolmatic-complexity" class="section level2">
 <h2>Cycolmatic Complexity</h2>
 </div>
-<div id="big-data-lines-of-code-vs.-function-declarations" class="section level2">
-<h2>Big Data! Lines of Code vs. Function Declarations</h2>
+<div id="big-data-lines-of-code-vs.function-declarations" class="section level2">
+<h2>“Big Data”! Lines of Code vs. Function Declarations</h2>
 <p>We saw in our last exercise that we could use ASTs to explore the components of a program. That was a helpful exercise for learning about how we employ tools to collect data from programs on GitHub. However, we only collected a few hundred programs; and if you recall, they were all implementations of data structures and programming concepts in isolation. We know that from our <em>sample</em>, our results may not generalize to production code. This means we are lacking something called <strong>external validity</strong>: results of a study can realiably generalize to other contexts/samples (within reason).</p>
-<p>Now, you’ve probably heard this before when discussing concepts like Big O: it only really starts to matter for performance when n is big enough. I know I’ve certainly questioned why <em>O(log(n))</em> vs. <em>O(n)</em> even matters when my little sorting snippet runs just fine whatever the algorithm. But here is a big concept: <strong>Complexity matters for big data, and the important findings may be undetectable on toy problems</strong>.</p>
+<p>Now, you’ve probably heard this before when discussing concepts like Big O: it only really starts to matter for performance when n is big enough. I know I’ve certainly questioned why <em>O(log(n))</em> vs. <em>O(n)</em> even matters when my little sorting snippet runs just fine whatever the algorithm. But here is a big concept: <strong>Complexity matters for big data, and the important findings may be undetectable on toy problems</strong>.</p>
 <p>Landman et al. also investigated this problem, using <em>millions</em> of Java and C programs.</p>
+<p>FIXME: They’re actually different problems. I have to figure out how to tie them together: our problem looks at functions and lines, theirs looks at number of lines per function, and also looks at CC.</p>
 <pre class="r"><code># lang,cc,sloc
 
-source(&quot;../bin/data/ESEUR_config.r&quot;)
+source(&quot;../data/ESEUR_config.r&quot;)
 
 library(&quot;plyr&quot;)
-cc_loc=read.csv(paste0(ESEUR_dir, &quot;../bin/data/Landman_m_ccsloc.csv.xz&quot;), as.is=TRUE)
+cc_loc=read.csv(paste0(ESEUR_dir, &quot;../data/Landman_m_ccsloc.csv.xz&quot;), as.is=TRUE)
 cc_loc=subset(cc_loc, cc != 0)
 cc_loc$logloc=log(cc_loc$sloc)
 
@@ -433,6 +423,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

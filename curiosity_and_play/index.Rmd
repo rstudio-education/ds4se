@@ -44,8 +44,8 @@ For this lesson, we actually stored all of the queries in datafiles that you can
 ```{r}
 library(bigrquery)
 library(ggplot2)
-bq_auth(path="../../servicetoken.json") # you will need to get your own service token from your account. Don't share this!
-project <- "gitstats" #your project name here
+#- bq_auth(path="../../servicetoken.json") # you will need to get your own service token from your account. Don't share this!
+#- project <- "gitstats" #your project name here
 ```
 
 ## Alan Turing's Birthday Examples (learn some SQL queries)
@@ -66,32 +66,31 @@ There is a lot to unpack in your first SQL command. Here's a small recipe for re
 
 
 ```{r}
-# walking through an SQL example
-# languge with most commits on Alan Turing's birthday in 2016 
-sql_birthday <- "SELECT  p.language as language, count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) = date('2016-06-23') )c on pc.commit_id = c.id join
-     (SELECT id, language, description
-     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null')p on p.id = pc.project_id join
-     (SELECT login,  id
-     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
-group by language
-order by num_commits desc;"
+#- # walking through an SQL example
+#- # language with most commits on Alan Turing's birthday in 2016 
+#- sql_birthday <- "SELECT  p.language as language, count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) = date('2016-06-23') )c on pc.commit_id = c.id join
+#-      (SELECT id, language, description
+#-      FROM [ghtorrent-bq.ght.projects] WHERE language != 'null')p on p.id = pc.project_id join
+#-      (SELECT login,  id
+#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+#- group by language
+#- order by num_commits desc;"
 ```
 
 ## Execute the query
 We use `query_exec` to execute the query with `bigrquery` to the ghtorrent database, hosted on BigQuery. We get back a dataframe, stored in `bday_commits`.
 ```{r}
-#executing the query if you aren't using data provided
-#bday_commits  <- query_exec(sql_birthday, project = project, useLegacySql = FALSE) #remember we defined 'project' up above
+#- # executing the query if you aren't using data provided
+#- bday_commits  <- query_exec(sql_birthday, project = project, useLegacySql = FALSE) #remember we defined 'project' up above
 
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 bday_commits <- read.csv("ghtorrentdata/bdaycommits.csv")
 
 kable(head(bday_commits)) %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
-
 ```
 
 ## Visualize the Data
@@ -114,34 +113,28 @@ plt = ggplot(bday_commits[1:7,],aes(language,num_commits,fill=language))+
   theme_bw()
 plt
 ggsave("bdaycommits.png",plt)
- 
 ```
 
-
-
-#### I can't imagine that Alan Turing would have been the biggest JavaScript fan. Let's take a look at projects where the project description includes "AI". Here, we see Python emerge as top commits for the day.
+I can't imagine that Alan Turing would have been the biggest JavaScript fan. Let's take a look at projects where the project description includes "AI". Here, we see Python emerge as top commits for the day.
 
 ```{r}
-# languge with most commits on Alan Turing's birthday in 2016 
+#- # languge with most commits on Alan Turing's birthday in 2016 
+#- sql_example2 <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) = date('2016-06-23') )c on pc.commit_id = c.id join
+#-      (SELECT id, language, description
+#-      FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%AI%')p on p.id = pc.project_id join
+#-      (SELECT login,  id
+#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+#- group by description,language
+#- order by num_commits desc;"
 
-sql_example2 <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) = date('2016-06-23') )c on pc.commit_id = c.id join
-     (SELECT id, language, description
-     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%AI%')p on p.id = pc.project_id join
-     (SELECT login,  id
-     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
-group by description,language
-order by num_commits desc;"
+#- # executing the query if you aren't using data provided
+#- example2  <- query_exec(sql_example2, project = project, useLegacySql = FALSE)
 
-#executing the query if you aren't using data provided
-#example2  <- query_exec(sql_example2, project = project, useLegacySql = FALSE)
-
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 example2 <- read.csv("ghtorrentdata/example2.csv")
-
-
 
 plt = ggplot(example2[1:6,],aes(language,num_commits,fill=language))+
   geom_bar(stat="identity")+
@@ -151,7 +144,6 @@ plt
 
 python_desc <- example2[example2$language=='Python',]
 python_desc <- python_desc[order(-python_desc$num_commits),]
-
 
 kable(python_desc[1:10,])%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
@@ -168,29 +160,27 @@ In this example:
 - And finally, we order the data by the greatest number of commits first
 
 ```{r}
-language_sql <- "SELECT  p.language as language, date(created_at) as day,count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) between date('2012-01-01')
-                          and  date('2016-09-05') )c on pc.commit_id = c.id join
-     (SELECT id, language, description
-     FROM [ghtorrent-bq.ght.projects] WHERE language == 'Scala' || language == 'Python' || language == 'Julia' || language=='Ruby')p on p.id = pc.project_id join
-     (SELECT login,  id
-     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
-group by language,day
-order by num_commits desc;"
+#- language_sql <- "SELECT  p.language as language, date(created_at) as day,count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) between date('2012-01-01')
+#-                           and  date('2016-09-05') )c on pc.commit_id = c.id join
+#-      (SELECT id, language, description
+#-      FROM [ghtorrent-bq.ght.projects] WHERE language == 'Scala' || language == 'Python' || language == 'Julia' || language=='Ruby')p on p.id = pc.project_id join
+#-      (SELECT login,  id
+#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+#- group by language,day
+#- order by num_commits desc;"
+#- # executing the query if you aren't using data provided
+#- lang_growth  <- query_exec(language_sql, project = project, useLegacySql = FALSE)
 
-#executing the query if you aren't using data provided
-lang_growth  <- query_exec(language_sql, project = project, useLegacySql = FALSE)
-
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 lang_growth <- read.csv("ghtorrentdata/lang_growth.csv")
 
 kable(head(lang_growth))%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 
-#i want the top 3
-
+# I want the top 3
 
 summary <- lang_growth %>%
             group_by(language)%>%
@@ -198,7 +188,6 @@ summary <- lang_growth %>%
             arrange(-total_num_commits)%>%
             head(3)
 
-            
 top_langs <- lang_growth[lang_growth$language %in% summary$language,]
 
 plt =ggplot(top_langs,aes(day,num_commits,color=language,group=language))+
@@ -208,8 +197,6 @@ plt =ggplot(top_langs,aes(day,num_commits,color=language,group=language))+
 plt
 ```
 
-
-
 ## Commits to GitHub: Canada Day vs. July 4th
 Alright, now that we have explored how to use `bigrquery` and generate some simple queries and plots, let's approach another curiosity. It occurred to me that I was curious about holidays. This most recent 4th of July I checked the GitHub data to see if people commit differently on the 4th of July than they do normally. It then occurred to me that I might compare it to Canada Day, which is very close in date to American Independence Day. The queries will get more complex as we continue to explore, and refine what we want to know. You may be developing an intuition for what you believe to be true; of course people don't commit on a holiday. They're not working! But what about the case where company repos are kept private, and the data that GHTorrent has access to is actually "for fun" repos, and a day off is the perfect day for that programmer to keep making their alien game. Intuition is certainly important when asking statistical questions, as it guides us towards different factors to account for and questions to ask. But remember, your intuition may be the exact opposite of someone else's.
 
@@ -217,23 +204,23 @@ Alright, now that we have explored how to use `bigrquery` and generate some simp
 
 We start by taking a look at the total commits to GitHub on either Canada Day or Independence Day, from either Canada or the United States. We immediately discover that raw count is *not* going to be helpful in making any meaningful comparsions. The US has *orders of magnitude* more commits on any given day than Canada does. While that is good to know, we need to account for it if we actually want to make comparisons.
 ```{r}
-data_sql <- "select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) = date('2016-07-01')
-                          or date(created_at)= date('2016-07-04') )c on pc.commit_id = c.id join
-     (SELECT id,
-     FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join
-     (SELECT login, location, id, country_code,
-     FROM [ghtorrent-bq.ght.users]
-     WHERE country_code = 'us' or country_code = 'ca') u on c.author_id = u.id,
-group by country, day
-order by num_commits desc;"
+#- data_sql <- "select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) = date('2016-07-01')
+#-                           or date(created_at)= date('2016-07-04') )c on pc.commit_id = c.id join
+#-      (SELECT id,
+#-      FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join
+#-      (SELECT login, location, id, country_code,
+#-      FROM [ghtorrent-bq.ght.users]
+#-      WHERE country_code = 'us' or country_code = 'ca') u on c.author_id = u.id,
+#- group by country, day
+#- order by num_commits desc;"
 
-#executing the query if you aren't using data provided
-total_commits  <- query_exec(data_sql, project = project, useLegacySql = FALSE)
+#- # executing the query if you aren't using data provided
+#- total_commits  <- query_exec(data_sql, project = project, useLegacySql = FALSE)
 
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 total_commits <- read.csv("ghtorrentdata/total_commits.csv")
 
 kable(total_commits)%>%
@@ -244,30 +231,29 @@ plt = ggplot(total_commits, aes(day,num_commits,fill=country))+
   ggtitle("Number of Holiday Commits (Canada v. USA)")+
   theme_bw()
 plt
-
 ```
 
 ### Yearly Commits
 What we actually need to care about is, *on average* do number of commits differ on a holiday? In order to do that, let's look at number of commits per day across a year sample, between Canada and USA.
 
 ```{r fig.width=13,fig.height=4}
-data_sql <- "select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) between date('2016-01-01')
-                          and  date('2016-09-05') )c on pc.commit_id = c.id join
-     (SELECT id,
-     FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join
-     (SELECT login, location, id, country_code,
-     FROM [ghtorrent-bq.ght.users]
-     WHERE country_code = 'us' or country_code = 'ca') u on c.author_id = u.id,
-group by country, day
-order by num_commits desc;"
+#- data_sql <- "select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) between date('2016-01-01')
+#-                           and  date('2016-09-05') )c on pc.commit_id = c.id join
+#-      (SELECT id,
+#-      FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join
+#-      (SELECT login, location, id, country_code,
+#-      FROM [ghtorrent-bq.ght.users]
+#-      WHERE country_code = 'us' or country_code = 'ca') u on c.author_id = u.id,
+#- group by country, day
+#- order by num_commits desc;"
 
-#executing the query if you aren't using data provided
-#year_commits  <- query_exec(data_sql, project = project, useLegacySql = FALSE)
+#- # executing the query if you aren't using data provided
+#- year_commits  <- query_exec(data_sql, project = project, useLegacySql = FALSE)
 
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 year_commits <- read.csv("ghtorrentdata/year_commits.csv")
 
 plt = ggplot(year_commits,aes(day,num_commits,colour=country))+
@@ -280,7 +266,7 @@ plt = ggplot(year_commits,aes(day,num_commits,colour=country))+
 plt
 ```
 
-### What are those fluctuatons?
+### What are those fluctuations?
 Look at those patterns, and take a guess at what you are seeing. There appears to be a regular, periodic trend in the data. That means that it seems to rise and fall in a consistent way. It seems less prominent for Canada, but that could also be due to scaling. What is your hunch about these curves? What are we looking at?
 
 > The answer: *weekends*
@@ -295,7 +281,6 @@ year_commits$isWeekend[year_commits$weekday=='Saturday'|year_commits$weekday=='S
 ```
 
 ```{r}
-
 ggplot(year_commits,aes(as.factor(isWeekend),num_commits,fill=country))+
   geom_boxplot()+
   facet_wrap(~country)+
@@ -310,14 +295,9 @@ summary <- year_commits %>%
 
 kable(summary)%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
-
-
-
-
 ```
 
 ```{r}
-
 kable(ddply(year_commits,c('country','isWeekend'),summarise,mean = mean(num_commits),sd(num_commits)))%>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
@@ -339,8 +319,6 @@ ggplot(year_commits[year_commits$country=='us',],aes(num_commits,isWeekend))+
 
 logistic <- glm(isWeekend ~ num_commits, data=year_commits[year_commits$country=='us',],family = binomial)
 
-
-
 vals <- predict(logistic,data.frame(num_commits=year_commits[year_commits$country=='us',]$num_commits), type="resp") # draws a curve based on prediction from logistic regression model
 
 plt <- ggplot(year_commits[year_commits$country=='us',],aes(num_commits,isWeekend))+
@@ -352,21 +330,18 @@ plt <- ggplot(year_commits[year_commits$country=='us',],aes(num_commits,isWeeken
   ylab("isWeekend (0=No,1=Yes)")+
   ggtitle("Github Commits in USA: Weekend vs Weekday Logistic Regression")
 plt
-
-
-
 ```
 
 ### Making Predictions
 
 We now have a curve that demonstrates the likelihood that given a certain number of commits, if it is a weekend or not a weekend. So, if there were 100,000 commits, is it a weekend or not a weekend? According to this `predict` function on our [**test data**](../glossary.html#model), the likelihood that 100,000 commits was done on a Saturday or Sunday is only 5%. But if we see 50,000 commits, suddenly it is a 75% that it's a weekend, because that is much more in line with the kinds of commits happening on a weekend.  We use our data to create a useful, predictive model.
+
 ```{r}
 newdata = data.frame(num_commits=100000)
 predict(logistic,newdata,type="response")
 
 newdata = data.frame(num_commits=50000)
 predict(logistic,newdata,type="response")
-
 ```
 
 ## Time for a Cooldown: Pizza & Cats
@@ -374,25 +349,22 @@ predict(logistic,newdata,type="response")
 Okay, you've gotten through a lot already today. We are going to finish up the lesson with some fun. One thing we have access to in the ghtorrent database is *project descriptions*. We saw this earlier when we tried to find Artificial Intelligence projects. Now, we will explore more words that we want to play with. This should be a low-stakes investigation, where you plug in some of your silliest words into the SQL query and generate some statistics about your findings. Think of everything you've accomplished today. SQL queries to the cloud, barplots, boxplots, comparisons, time series, statistical testing, logistic regression, and more. Now it's time to just look up stupid project descriptions and laugh about them.
 
 ```{r}
+#- pizza_sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) between date('2012-01-01')
+#-                           and  date('2016-09-05') )c on pc.commit_id = c.id join
+#-      (SELECT id, language, description
+#-      FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%pizza%')p on p.id = pc.project_id join
+#-      (SELECT login,  id
+#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+#- group by description,language
+#- order by num_commits desc;"
 
+#- # executing the query if you aren't using data provided
+#- pizza  <- query_exec(pizza_sql, project = project, useLegacySql = FALSE)
 
-pizza_sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) between date('2012-01-01')
-                          and  date('2016-09-05') )c on pc.commit_id = c.id join
-     (SELECT id, language, description
-     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%pizza%')p on p.id = pc.project_id join
-     (SELECT login,  id
-     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
-group by description,language
-order by num_commits desc;"
-
-
-#executing the query if you aren't using data provided
-#pizza  <- query_exec(pizza_sql, project = project, useLegacySql = FALSE)
-
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 pizza <- read.csv("ghtorrentdata/pizza.csv")
 
 pizza <- pizza[order(-pizza$num_commits),]
@@ -412,29 +384,26 @@ plt = ggplot(summary[1:7,],aes(language,n,fill=language))+
   ggtitle("Language Choice for Projects About Pizza")+
   theme(legend.position = "none") 
 plt
-
 ```
 
-
 ```{r}
-cats_sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
-from [ghtorrent-bq.ght.project_commits] pc join
-     (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
-     date(created_at) between date('2012-01-01')
-                          and  date('2016-09-05') )c on pc.commit_id = c.id join
-     (SELECT id, language, description
-     FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%cats%')p on p.id = pc.project_id join
-     (SELECT login,  id
-     FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
-group by description,language
-order by num_commits desc;"
+#- cats_sql <- "SELECT p.description as description, p.language as language, count(c.id) as num_commits
+#- from [ghtorrent-bq.ght.project_commits] pc join
+#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE
+#-      date(created_at) between date('2012-01-01')
+#-                           and  date('2016-09-05') )c on pc.commit_id = c.id join
+#-      (SELECT id, language, description
+#-      FROM [ghtorrent-bq.ght.projects] WHERE language != 'null' and description LIKE '%cats%')p on p.id = pc.project_id join
+#-      (SELECT login,  id
+#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,
+#- group by description,language
+#- order by num_commits desc;"
 
-#executing the query if you aren't using data provided
-#cats  <- query_exec(cats_sql, project = project, useLegacySql = FALSE)
+#- # executing the query if you aren't using data provided
+#- cats  <- query_exec(cats_sql, project = project, useLegacySql = FALSE)
 
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 cats <- read.csv("ghtorrentdata/cats.csv")
-
 
 cats <- cats[order(-cats$num_commits),]
 
@@ -450,8 +419,4 @@ plt = ggplot(summary[1:7,],aes(language,n,fill=language))+
   ggtitle("Language Choice for Projects About Cats")+
   theme(legend.position = "none") 
 plt
-
-
-
-
 ```

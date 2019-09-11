@@ -2,7 +2,7 @@
 title: "Does It Really Matter to Test First or Test After?"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
+bibliography: ../bibliography.bib
 status: draft1 complete
 badges: academic, industry
 ---
@@ -15,7 +15,7 @@ library(dplyr)
 
 In my experience, the world of software is an *opinionated* one. It seems like everyone has special tools, techniques, practices, and packages that they swear by. In this lesson, we will investigate one of these classic claims: Which is better? Test-first or test-last development? We will also explore what it looks like when people misattribute benefits to a specific practice, when in reality the cause is entirely different. The study we are using is: [*A Dissection of the Test-Driven Development
 Process: Does It Really Matter to Test-First or to
-Test-Last?*](https://arxiv.org/pdf/1611.05994.pdf)[@fucci2016dissection]
+Test-Last?*](https://arxiv.org/pdf/1611.05994.pdf)[@Fucc2016]
 Below is an excellent quote from the paper, highlighting how statistics can separate the relevant findings from other distracting factors:
 
 > *"This information can liberate developers and organizations

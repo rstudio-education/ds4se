@@ -2,7 +2,7 @@
 title: "How Many Repositories Are There on GitHub?"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
+bibliography: ../bibliography.bib
 status: draft1 complete
 badges: warmup, industry
 ---
@@ -14,7 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 <center>![](../static/brace.jpeg)</center><br>
 
 
-
 ## Have You Ever Wondered...
 
 We come across statistical questions all the time, even if we don't immediately realize it. From "whoah, how did Amazon know I was looking for a collection of rubber ducks that look like cowboys?" to more applied questions like "When will this server run out of storage space?" or "When will this project be completed?" Fortunatley, we live in a data-driven society; with access to billions of data sources from all over the world, we should be able to answer anything, right? Data comes in all kinds of forms; heartrate data every second from your fitness watch, location check-ins from that pizza place you went to last week, transactions, clicks, views, posts, tags... It's all digital data that can tell us something about the world. But making sense of it all requires statistical thinking and data-wrangling skills.
@@ -24,9 +23,9 @@ We come across statistical questions all the time, even if we don't immediately 
 Consider this question. The immediate response is to go Google it; voila! You have an answer (it seems to say that there are 100 million repositiories). But how would you actually arrive at that answer? And how would you know you were correct? Similarly to a straightforward programming task, seemingly simple questions can devolve into tons of unforseen caveats, constraints, and workarounds.
 
 
-
 ### Our Data (GHTorrent)
-An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called **GHTorrent** [@Gousi13]. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or [**repository**](../glossary.html#github) with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like [*commits, users, language, description*](../glossary.html#github) and more. For now, let's look at the simplest count.
+
+An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you'll get data via a `.csv` or `.txt` file and can run everything on your local machine. But when working with really large datasets, there's just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that's _terrabytes_ of data, so it's a no-go. So for our question, we are using something called **GHTorrent** [@Gous13]. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where `id` is a `project id` or [**repository**](../glossary.html#github) with a `created_at` value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like [*commits, users, language, description*](../glossary.html#github) and more. For now, let's look at the simplest count.
 
 ### DataFiles for this Lesson
 
@@ -35,26 +34,25 @@ For this lesson, we actually stored all of the queries in datafiles that you can
 ```{r}
 library(bigrquery)
 library(ggplot2)
-set_service_token("../../servicetoken.json") # you will need to get your own service token from your account. Don't share this!
-project <- "gitstats" #your project name here
+#- set_service_token("../../servicetoken.json") # you will need to get your own service token from your account. Don't share this!
+#- project <- "gitstats" #your project name here
 
 
-# an sql query string
-sql <- "select count(id) as num_projects,date(created_at) as day
-                FROM [ghtorrent-bq.ght.projects]
-                group by day"
+#- # an sql query string
+#- sql <- "select count(id) as num_projects,date(created_at) as day
+#-                 FROM [ghtorrent-bq.ght.projects]
+#-                 group by day"
 
 
+#- # executing the query if you aren't using data provided
+#- data  <- query_exec(sql, project = project, useLegacySql = FALSE)
 
-#executing the query if you aren't using data provided
-#data  <- query_exec(sql, project = project, useLegacySql = FALSE)
-
-#reading in data for the above query that we stored earlier
+# reading in data for the above query that we stored earlier
 data <- read.csv("ghtorrentdata/data1.csv")
 
 data <- data[data$day!="2016-05-01",] #crazy outlier? #like unreasonably so
 
-#number of projects created each day (it's going up, but its not the running sum! don't mix them up)
+# number of projects created each day (it's going up, but its not the running sum! don't mix them up)
 plt = ggplot(data,aes(day,num_projects))+
   geom_point()+
   theme_bw()+

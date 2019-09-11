@@ -2,7 +2,6 @@
 title: "Bayesian vs Frequentist Statistics"
 author: "Yim Register"
 output: html_document
-bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 So far, we have been using frequentist statistics; relying on hypothesis testing and *p-values*. Frequentist statistics were particularly popular when computational resources were scarce; but this is no longer the case. It is time to reexamine the benefits of applying Bayesian statistics to software engineering empirical work. If you've been lucky enough to never have been caught in the crossfire between a Bayesian and a Frequentist, then hopefully this lesson will go smoothly for you. But if you've firmly planted your flag on either side of the "debate", take a deep breath. This lesson merely demonstrates some of the benefits of using a Bayesian approach, while also pointing out that sometimes both approaches tend to result in functionally the same courses of action. Hopefully by the end, you'll feel much more prepared to chime in if a raging Frequentist and an exasperated Bayesian walk into a bar.
 
-~![](../bin/images/bayesian.png)
+~![](../static/bayesian.png)
 
 
 [*Bayesian Statistics in Software Engineering: Practical Guide and Case Studies*](https://arxiv.org/pdf/1608.06865.pdf)
@@ -33,8 +32,8 @@ Let's try to concisely summarize what we have been doing so far, as we obtain *p
 they use a U test
 
 ```{r}
-library(ggplot2)
-data <- read.csv("../bin/data/agile/survey.csv")
+library(tidyverse)
+data <- read.csv("../data/agile/survey.csv")
 head(data)
 
 
@@ -63,17 +62,17 @@ wilcox.test(data$outcome[data$type=="Agile"],data$outcome[data$type=="Structured
 
 
 # larger scale study they ran, we will do the bayesian analysis here
-itp <- read.csv("../bin/data/agile/itproj.csv")
+itp <- read.csv("../data/agile/itproj.csv")
 head(itp)
 
 ```
 ## Mathematical Peacocking, stop it!
-![](../bin/images/easy.png)
+![](../static/easy.png)
 While we work through this paper, it is important to remember that the entire point of academic research is scientific findings and communication; if the paper is riddled with equations and uninterpretable variable names, then *it is bad communication*. It has absolutely nothing to do with the reader's intelligence or ability to grasp that material. It is the author's responsibility to carefully communicate problems, methods, and results, while remembering that the purpose of the work is to be distributed. As we approach the problem of **Agile vs. Structured Development**, I will continuously translate the infuriating mathematical peacocking that is meant to obscure actual communication and build up an inflated ego of an entire research field who use LaTeX expressions to make the reader feel inferior.
 
 
 ```{r}
-itp <- read.csv("../bin/data/agile/itproj.csv")
+itp <- read.csv("../data/agile/itproj.csv")
 head(itp)
 levels <- levels(itp$success)
 replace <- c("",1,11,21,31,41,51,61,71,81,91,NA,NA)
@@ -99,6 +98,4 @@ for (i in levels(itp$type)){
 wilcox.test(itp$success[itp$type=="A"],itp$success[itp$type=="T"])
 wilcox.test(itp$failure[itp$type=="A"],itp$failure[itp$type=="T"])
 wilcox.test(itp$challenge[itp$type=="A"],itp$challenge[itp$type=="T"])
-View(summary)
-
 ```
