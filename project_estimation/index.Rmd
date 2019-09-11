@@ -18,10 +18,7 @@ We have talked a bit about how it's important to properly [**operationalize**](.
 
 In the following study, [*Inconsistency of expert judgment-based estimates of software development effort*](https://www.sciencedirect.com/science/article/pii/S0164121207000714), expert participants rated how much effort (work-hours) they estimate for sixty software projects. They unknowingly rated six of those projects *twice*, helping to answer questions about the reliability of professional judgments about software effort estimation. The paper tries to answer the following research question:
 
-> *How consistent are software professionals’ expert
-judgment-based effort estimates?*
-
-
+> *How consistent are software professionals' expert judgment-based effort estimates?*
 
 This lesson is going to explore how we estimate how long software will take to finish (or your homework, for that matter). We will explore several statistical and scientific concepts:
 

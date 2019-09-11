@@ -30,7 +30,7 @@ This lesson will discuss and follow the methods of [*Need for Sleep: the Impact 
 
 Given that we *know* sleep deprivation affects cognitive functioning, it wouldn't necessarily be the most interesting question to ask *if* sleep deprivation affects programming, but rather, *how much*? The authors form their first research question as the following:
 
-> "To what extent does sleep deprivation impact developers’ performance?"
+> "To what extent does sleep deprivation impact developers' performance?"
 
 Immediately, you can tell that we are not going over a "Yes" or "No" response, but some kind of measure of *effect size*, and some kind of operationalization of what "performance" really is. Remember that every measure must be carefully defined; and no measure will perfectly capture a larger concept like "performance", "creativity", or "skill". Before we begin describing the methods in the paper, try to think of how *you* might measure developer performance. What would you have the participants do? How would you determine success or failure? Next, how would you check how much sleep deprivation was affecting that measure?
 
@@ -214,7 +214,7 @@ ggplot(data,aes(METHOD,`%CONF`,fill=METHOD))+
 ```
 Remember, these are the **key comparisons** of the study. Most other tests are done to ensure that the study has *validity* (that it is testing what they say they are testing). After making sure that the populations are comparable, removing participants who did not adhere to the task, and testing data for normality, we can finally try to answer our question! 
 
-> "To what extent does sleep deprivation impact developers’ performance?"
+> "To what extent does sleep deprivation impact developers' performance?"
 
 
 
