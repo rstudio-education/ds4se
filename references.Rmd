@@ -1,0 +1,6 @@
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+```{r links, child="etc/links.md"}
+```

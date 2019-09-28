@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 When Will I Be Done With This Project? | Data Science for Software Engineering</title>
+  <meta name="description" content="An introduction to data science for software engineers" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 When Will I Be Done With This Project? | Data Science for Software Engineering" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="An introduction to data science for software engineers" />
+  <meta name="github-repo" content="rstudio-education/ds4se" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 When Will I Be Done With This Project? | Data Science for Software Engineering" />
+  
+  <meta name="twitter:description" content="An introduction to data science for software engineers" />
+  
+
+<meta name="author" content="Yim Register" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="how-many-repositories-are-there-on-github.html">
+<link rel="next" href="sleep-deprivation-and-software-engineering-performance.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">DS4SE</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#s:index-personas"><i class="fa fa-check"></i><b>1.1</b> Who are these lessons for?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#s:index-install"><i class="fa fa-check"></i><b>1.2</b> How do I get started?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#s:index-also"><i class="fa fa-check"></i><b>1.3</b> See Also</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html"><i class="fa fa-check"></i><b>2</b> Curiosity and Play</a><ul>
+<li class="chapter" data-level="2.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#curiosity-killed-the-cat-but-satisfaction-brought-it-back"><i class="fa fa-check"></i><b>2.1</b> Curiosity killed the cat, but satisfaction brought it back</a></li>
+<li class="chapter" data-level="2.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#playing-with-data"><i class="fa fa-check"></i><b>2.2</b> Playing with Data</a></li>
+<li class="chapter" data-level="2.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#ghtorrent-and-bigrquery"><i class="fa fa-check"></i><b>2.3</b> GHTorrent and BigRQuery</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#datafiles-for-this-lesson"><i class="fa fa-check"></i><b>2.3.1</b> DataFiles for this Lesson</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#alan-turings-birthday-examples-learn-some-sql-queries"><i class="fa fa-check"></i><b>2.4</b> Alan Turing’s Birthday Examples (learn some SQL queries)</a></li>
+<li class="chapter" data-level="2.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#execute-the-query"><i class="fa fa-check"></i><b>2.5</b> Execute the query</a></li>
+<li class="chapter" data-level="2.6" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#visualize-the-data"><i class="fa fa-check"></i><b>2.6</b> Visualize the Data</a></li>
+<li class="chapter" data-level="2.7" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#language-growth-over-time"><i class="fa fa-check"></i><b>2.7</b> Language Growth over Time</a></li>
+<li class="chapter" data-level="2.8" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#commits-to-github-canada-day-vs.july-4th"><i class="fa fa-check"></i><b>2.8</b> Commits to GitHub: Canada Day vs. July 4th</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#total-commits"><i class="fa fa-check"></i><b>2.8.1</b> Total Commits</a></li>
+<li class="chapter" data-level="2.8.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#yearly-commits"><i class="fa fa-check"></i><b>2.8.2</b> Yearly Commits</a></li>
+<li class="chapter" data-level="2.8.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#what-are-those-fluctuations"><i class="fa fa-check"></i><b>2.8.3</b> What are those fluctuations?</a></li>
+<li class="chapter" data-level="2.8.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#logistic-regression-for-predicting-your-weekend-commits"><i class="fa fa-check"></i><b>2.8.4</b> Logistic regression for predicting your weekend commits</a></li>
+<li class="chapter" data-level="2.8.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#making-predictions"><i class="fa fa-check"></i><b>2.8.5</b> Making Predictions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#time-for-a-cooldown-pizza-cats"><i class="fa fa-check"></i><b>2.9</b> Time for a Cooldown: Pizza &amp; Cats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html"><i class="fa fa-check"></i><b>3</b> Stack Overflow Queries</a><ul>
+<li class="chapter" data-level="3.1" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#i-am-thankful-for-stack-overflow"><i class="fa fa-check"></i><b>3.1</b> I am thankful for Stack Overflow</a></li>
+<li class="chapter" data-level="3.2" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#stack-exchange-queries"><i class="fa fa-check"></i><b>3.2</b> Stack Exchange Queries</a></li>
+<li class="chapter" data-level="3.3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-your-libraries"><i class="fa fa-check"></i><b>3.3</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="3.4" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-the-data"><i class="fa fa-check"></i><b>3.4</b> Load the Data</a></li>
+<li class="chapter" data-level="3.5" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#summarize-the-variables"><i class="fa fa-check"></i><b>3.5</b> Summarize the Variables</a></li>
+<li class="chapter" data-level="3.6" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#total-tags-and-dplyr-intro"><i class="fa fa-check"></i><b>3.6</b> Total Tags and dplyr Intro</a></li>
+<li class="chapter" data-level="3.7" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#tags-over-time-by-month"><i class="fa fa-check"></i><b>3.7</b> Tags Over Time By Month</a></li>
+<li class="chapter" data-level="3.8" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#cumulative-growth-over-time"><i class="fa fa-check"></i><b>3.8</b> Cumulative Growth Over Time</a></li>
+<li class="chapter" data-level="3.9" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#curiouser-and-curiouser"><i class="fa fa-check"></i><b>3.9</b> Curiouser and Curiouser…</a></li>
+<li class="chapter" data-level="3.10" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#time-vs.totals"><i class="fa fa-check"></i><b>3.10</b> Time vs. Totals</a></li>
+<li class="chapter" data-level="3.11" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#kolmogorov-smirnov-what"><i class="fa fa-check"></i><b>3.11</b> Kolmogorov-Smirnov what?!</a></li>
+<li class="chapter" data-level="3.12" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#reputation"><i class="fa fa-check"></i><b>3.12</b> Reputation</a></li>
+<li class="chapter" data-level="3.13" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#log-log-plots-and-power-laws-oh-my"><i class="fa fa-check"></i><b>3.13</b> Log-Log Plots and Power Laws, Oh My!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analyze-this.html"><a href="analyze-this.html"><i class="fa fa-check"></i><b>4</b> Analyze This!</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="analyze-this.html"><a href="analyze-this.html#before-this-lesson"><i class="fa fa-check"></i><b>4.0.1</b> Before this lesson:</a></li>
+<li class="chapter" data-level="4.1" data-path="analyze-this.html"><a href="analyze-this.html#what-is-evidence"><i class="fa fa-check"></i><b>4.1</b> What is “Evidence”?</a></li>
+<li class="chapter" data-level="4.2" data-path="analyze-this.html"><a href="analyze-this.html#surveying-a-population"><i class="fa fa-check"></i><b>4.2</b> Surveying a Population</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="analyze-this.html"><a href="analyze-this.html#loading-libraries"><i class="fa fa-check"></i><b>4.2.1</b> Loading Libraries</a></li>
+<li class="chapter" data-level="4.2.2" data-path="analyze-this.html"><a href="analyze-this.html#reading-in-the-data"><i class="fa fa-check"></i><b>4.2.2</b> Reading in the Data</a></li>
+<li class="chapter" data-level="4.2.3" data-path="analyze-this.html"><a href="analyze-this.html#renaming-columns"><i class="fa fa-check"></i><b>4.2.3</b> Renaming Columns</a></li>
+<li class="chapter" data-level="4.2.4" data-path="analyze-this.html"><a href="analyze-this.html#descriptive-statistics"><i class="fa fa-check"></i><b>4.2.4</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="4.2.5" data-path="analyze-this.html"><a href="analyze-this.html#first-visualization"><i class="fa fa-check"></i><b>4.2.5</b> First Visualization</a></li>
+<li class="chapter" data-level="4.2.6" data-path="analyze-this.html"><a href="analyze-this.html#distribution-across-questions"><i class="fa fa-check"></i><b>4.2.6</b> Distribution Across Questions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="analyze-this.html"><a href="analyze-this.html#most-essential-question"><i class="fa fa-check"></i><b>4.2.7</b> Most Essential Question</a></li>
+<li class="chapter" data-level="4.2.8" data-path="analyze-this.html"><a href="analyze-this.html#most-unwise-question"><i class="fa fa-check"></i><b>4.2.8</b> Most Unwise Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="analyze-this.html"><a href="analyze-this.html#customers-matter-the-most"><i class="fa fa-check"></i><b>4.3</b> Customers Matter the Most</a></li>
+<li class="chapter" data-level="4.4" data-path="analyze-this.html"><a href="analyze-this.html#developer-practices-dont-matter"><i class="fa fa-check"></i><b>4.4</b> Developer Practices Don’t Matter</a></li>
+<li class="chapter" data-level="4.5" data-path="analyze-this.html"><a href="analyze-this.html#dont-measure-productivity"><i class="fa fa-check"></i><b>4.5</b> Don’t Measure Productivity</a></li>
+<li class="chapter" data-level="4.6" data-path="analyze-this.html"><a href="analyze-this.html#how-unwise-is-it-compared-to-the-other-categories-test-of-significance"><i class="fa fa-check"></i><b>4.6</b> How Unwise is it compared to the other categories: Test of Significance</a></li>
+<li class="chapter" data-level="4.7" data-path="analyze-this.html"><a href="analyze-this.html#academic-and-industry-partnership-for-good-research"><i class="fa fa-check"></i><b>4.7</b> Academic and Industry Partnership for Good Research</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html"><i class="fa fa-check"></i><b>5</b> How Many Repositories Are There on GitHub?</a><ul>
+<li class="chapter" data-level="5.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#have-you-ever-wondered"><i class="fa fa-check"></i><b>5.1</b> Have You Ever Wondered…</a></li>
+<li class="chapter" data-level="5.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#how-many-repositories-are-there-on-github-1"><i class="fa fa-check"></i><b>5.2</b> How many repositories are there on GitHub?</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#our-data-ghtorrent"><i class="fa fa-check"></i><b>5.2.1</b> Our Data (GHTorrent)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#datafiles-for-this-lesson-1"><i class="fa fa-check"></i><b>5.2.2</b> DataFiles for this Lesson</a></li>
+<li class="chapter" data-level="5.2.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#different-strokes-for-different-folks"><i class="fa fa-check"></i><b>5.2.3</b> Different Strokes for Different Folks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#training-data-and-testing-data"><i class="fa fa-check"></i><b>5.2.4</b> Training Data and Testing Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#overfitting-and-underfitting"><i class="fa fa-check"></i><b>5.3</b> Overfitting and Underfitting</a></li>
+<li class="chapter" data-level="5.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#slow-down-how-can-we-fit-a-curve-to-this"><i class="fa fa-check"></i><b>5.4</b> Slow Down! How can we fit a curve to this?</a></li>
+<li class="chapter" data-level="5.5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#what-kind-of-curve-should-we-fit"><i class="fa fa-check"></i><b>5.5</b> What kind of curve should we fit?</a></li>
+<li class="chapter" data-level="5.6" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#evaluation"><i class="fa fa-check"></i><b>5.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html"><i class="fa fa-check"></i><b>6</b> When Will I Be Done With This Project?</a><ul>
+<li class="chapter" data-level="6.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#inconsistency-of-measurement"><i class="fa fa-check"></i><b>6.1</b> Inconsistency of Measurement</a></li>
+<li class="chapter" data-level="6.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#load-your-libraries-1"><i class="fa fa-check"></i><b>6.2</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-wrangling"><i class="fa fa-check"></i><b>6.3</b> Data Wrangling</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#original-data"><i class="fa fa-check"></i><b>6.3.1</b> Original Data</a></li>
+<li class="chapter" data-level="6.3.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#wide-form"><i class="fa fa-check"></i><b>6.3.2</b> Wide Form</a></li>
+<li class="chapter" data-level="6.3.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#melt"><i class="fa fa-check"></i><b>6.3.3</b> Melt</a></li>
+<li class="chapter" data-level="6.3.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#long-form"><i class="fa fa-check"></i><b>6.3.4</b> Long Form</a></li>
+<li class="chapter" data-level="6.3.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#reshape"><i class="fa fa-check"></i><b>6.3.5</b> Reshape</a></li>
+<li class="chapter" data-level="6.3.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#log-plot"><i class="fa fa-check"></i><b>6.3.6</b> Log Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#correlation-misleading"><i class="fa fa-check"></i><b>6.4</b> Correlation (Misleading)</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#dont-fall-for-my-logic"><i class="fa fa-check"></i><b>6.4.1</b> Don’t fall for my logic!</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#effort-estimation-accuracy-and-bias"><i class="fa fa-check"></i><b>6.5</b> Effort Estimation: Accuracy and Bias</a></li>
+<li class="chapter" data-level="6.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-visualizations-a-tricky-statistical-tool"><i class="fa fa-check"></i><b>6.6</b> Data Visualizations: A tricky statistical tool</a></li>
+<li class="chapter" data-level="6.7" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#without-a-log-transformation"><i class="fa fa-check"></i><b>6.7</b> Without a Log Transformation</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in"><i class="fa fa-check"></i><b>6.7.1</b> Zoom In</a></li>
+<li class="chapter" data-level="6.7.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in-on-jorgensen-data"><i class="fa fa-check"></i><b>6.7.2</b> Zoom in on Jorgensen Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#so-can-we-estimate-resources-or-not"><i class="fa fa-check"></i><b>6.8</b> So Can We Estimate Resources or Not?</a></li>
+<li class="chapter" data-level="6.9" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#estimate-updating"><i class="fa fa-check"></i><b>6.9</b> Estimate Updating</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html"><i class="fa fa-check"></i><b>7</b> Sleep Deprivation and Software Engineering Performance</a><ul>
+<li class="chapter" data-level="7.1" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#pulling-an-all-nighter"><i class="fa fa-check"></i><b>7.1</b> “Pulling an All-Nighter”</a></li>
+<li class="chapter" data-level="7.2" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#research-question"><i class="fa fa-check"></i><b>7.2</b> Research Question</a></li>
+<li class="chapter" data-level="7.3" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#who-are-the-participants"><i class="fa fa-check"></i><b>7.3</b> Who are the participants?</a></li>
+<li class="chapter" data-level="7.4" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#quasi-experimental-setup"><i class="fa fa-check"></i><b>7.4</b> Quasi-experimental setup</a></li>
+<li class="chapter" data-level="7.5" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#how-to-read-scientific-papers"><i class="fa fa-check"></i><b>7.5</b> How to Read Scientific Papers</a></li>
+<li class="chapter" data-level="7.6" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#percentage-of-acceptance-asserts-passed"><i class="fa fa-check"></i><b>7.6</b> Percentage of Acceptance Asserts Passed</a></li>
+<li class="chapter" data-level="7.7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#episodes-and-conformance"><i class="fa fa-check"></i><b>7.7</b> Episodes and Conformance</a></li>
+<li class="chapter" data-level="7.8" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#nothing-is-normal"><i class="fa fa-check"></i><b>7.8</b> NOTHING IS NORMAL!!</a></li>
+<li class="chapter" data-level="7.9" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#violin-plots"><i class="fa fa-check"></i><b>7.9</b> Violin Plots</a></li>
+<li class="chapter" data-level="7.10" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#effect-size-cliffs-delta"><i class="fa fa-check"></i><b>7.10</b> Effect Size: Cliff’s Delta</a></li>
+<li class="chapter" data-level="7.11" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#parametric-vs.nonparametric-statistical-power"><i class="fa fa-check"></i><b>7.11</b> Parametric vs. NonParametric Statistical Power</a></li>
+<li class="chapter" data-level="7.12" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#wilcoxon-aka-mann-whitney-test"><i class="fa fa-check"></i><b>7.12</b> Wilcoxon (aka Mann-Whitney) Test</a></li>
+<li class="chapter" data-level="7.13" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#results"><i class="fa fa-check"></i><b>7.13</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html"><i class="fa fa-check"></i><b>8</b> Does It Really Matter to Test First or Test After?</a><ul>
+<li class="chapter" data-level="8.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#test-driven-development-process"><i class="fa fa-check"></i><b>8.1</b> Test-Driven Development Process</a></li>
+<li class="chapter" data-level="8.2" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#the-study"><i class="fa fa-check"></i><b>8.2</b> The Study</a></li>
+<li class="chapter" data-level="8.3" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#modeling-recipe"><i class="fa fa-check"></i><b>8.3</b> Modeling Recipe</a></li>
+<li class="chapter" data-level="8.4" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#outcomes-we-care-about"><i class="fa fa-check"></i><b>8.4</b> Outcomes We Care About</a></li>
+<li class="chapter" data-level="8.5" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#factors-we-measure"><i class="fa fa-check"></i><b>8.5</b> Factors We Measure</a></li>
+<li class="chapter" data-level="8.6" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#descriptive-statistics-1"><i class="fa fa-check"></i><b>8.6</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8.7" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-models"><i class="fa fa-check"></i><b>8.7</b> Let’s Talk About Models</a></li>
+<li class="chapter" data-level="8.8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#regression-analysis-vs.hypothesis-testing"><i class="fa fa-check"></i><b>8.8</b> Regression Analysis vs. Hypothesis Testing</a></li>
+<li class="chapter" data-level="8.9" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-interactions"><i class="fa fa-check"></i><b>8.9</b> Let’s Talk About Interactions</a></li>
+<li class="chapter" data-level="8.10" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#component-residual-plots"><i class="fa fa-check"></i><b>8.10</b> Component + Residual Plots</a></li>
+<li class="chapter" data-level="8.11" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#interpreting-regression-output"><i class="fa fa-check"></i><b>8.11</b> Interpreting Regression Output</a></li>
+<li class="chapter" data-level="8.12" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#evaluating-how-good-a-model-is-aic"><i class="fa fa-check"></i><b>8.12</b> Evaluating How Good a Model Is (AIC)</a><ul>
+<li class="chapter" data-level="8.12.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data"><i class="fa fa-check"></i><b>8.12.1</b> You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html"><i class="fa fa-check"></i><b>9</b> Developer Performance and Designing a New Grading System for Teams</a><ul>
+<li class="chapter" data-level="9.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-do-developers-differ-in-their-measurable-output-performance"><i class="fa fa-check"></i><b>9.1</b> How do developers differ in their measurable output performance?</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-measure-matters"><i class="fa fa-check"></i><b>9.1.1</b> The Measure Matters</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found."><i class="fa fa-check"></i><b>9.1.2</b> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#weighted-features"><i class="fa fa-check"></i><b>9.2</b> Weighted Features</a></li>
+<li class="chapter" data-level="9.3" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#investigating-the-grant-sackman-legend"><i class="fa fa-check"></i><b>9.3</b> Investigating the Grant-Sackman Legend</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think"><i class="fa fa-check"></i><b>9.3.1</b> How long do different programmers take to solve the same task? It’s not what you think!</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-study-1"><i class="fa fa-check"></i><b>9.3.2</b> The Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#order-effects"><i class="fa fa-check"></i><b>9.4</b> Order Effects</a></li>
+<li class="chapter" data-level="9.5" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#interaction-plots"><i class="fa fa-check"></i><b>9.5</b> Interaction Plots</a></li>
+<li class="chapter" data-level="9.6" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#back-to-basics-how-to-measure-performance-at-all"><i class="fa fa-check"></i><b>9.6</b> Back to Basics: How to Measure Performance at all</a></li>
+<li class="chapter" data-level="9.7" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#in-your-ideal-world"><i class="fa fa-check"></i><b>9.7</b> In Your Ideal World…</a><ul>
+<li class="chapter" data-level="9.7.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-should-group-projects-be-graded-fairly"><i class="fa fa-check"></i><b>9.7.1</b> How should group projects be graded fairly?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="function-modification.html"><a href="function-modification.html"><i class="fa fa-check"></i><b>10</b> Function Modification</a><ul>
+<li class="chapter" data-level="10.1" data-path="function-modification.html"><a href="function-modification.html#figure-4.50-number-of-functions"><i class="fa fa-check"></i><b>10.1</b> Figure 4.50: Number of functions</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html"><i class="fa fa-check"></i><b>11</b> Bayesian vs Frequentist Statistics</a><ul>
+<li class="chapter" data-level="11.1" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#frequentist-statistics"><i class="fa fa-check"></i><b>11.1</b> Frequentist Statistics</a></li>
+<li class="chapter" data-level="11.2" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#bayesian-statistics"><i class="fa fa-check"></i><b>11.2</b> Bayesian Statistics</a></li>
+<li class="chapter" data-level="11.3" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#original-study"><i class="fa fa-check"></i><b>11.3</b> Original Study</a></li>
+<li class="chapter" data-level="11.4" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#mathematical-peacocking-stop-it"><i class="fa fa-check"></i><b>11.4</b> Mathematical Peacocking, stop it!</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html"><i class="fa fa-check"></i><b>12</b> Code Quality and Lines of Code</a><ul>
+<li class="chapter" data-level="12.0.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#redundancy"><i class="fa fa-check"></i><b>12.0.1</b> Redundancy?</a></li>
+<li class="chapter" data-level="12.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#how-does-complexity-relate-to-quality"><i class="fa fa-check"></i><b>12.1</b> How Does Complexity Relate to Quality?</a></li>
+<li class="chapter" data-level="12.2" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#cycolmatic-complexity"><i class="fa fa-check"></i><b>12.2</b> Cycolmatic Complexity</a></li>
+<li class="chapter" data-level="12.3" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#big-data-lines-of-code-vs.function-declarations"><i class="fa fa-check"></i><b>12.3</b> “Big Data”! Lines of Code vs. Function Declarations</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html"><i class="fa fa-check"></i><b>13</b> Number of Lines versus Number of Functions in Different Languages</a><ul>
+<li class="chapter" data-level="13.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#ugh-why-do-we-have-to-write-this-in-that-language"><i class="fa fa-check"></i><b>13.1</b> “Ugh, why do we have to write this in <em>that</em> language?”</a></li>
+<li class="chapter" data-level="13.2" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-does-it-mean-to-be-different"><i class="fa fa-check"></i><b>13.2</b> What does it mean to be “different”?</a></li>
+<li class="chapter" data-level="13.3" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-does-the-number-of-lines-relate-to-the-number-of-function-definitions"><i class="fa fa-check"></i><b>13.3</b> How does the number of lines relate to the number of function definitions?</a></li>
+<li class="chapter" data-level="13.4" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-do-i-parse-a-programming-language-abstract-syntax-trees"><i class="fa fa-check"></i><b>13.4</b> How do I parse a programming language? Abstract Syntax Trees</a></li>
+<li class="chapter" data-level="13.5" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#load-your-libraries-2"><i class="fa fa-check"></i><b>13.5</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="13.6" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#read-in-your-data"><i class="fa fa-check"></i><b>13.6</b> Read in Your Data</a></li>
+<li class="chapter" data-level="13.7" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#dont-compare-apples-to-oranges"><i class="fa fa-check"></i><b>13.7</b> Don’t Compare Apples to Oranges</a></li>
+<li class="chapter" data-level="13.8" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#sample-bias"><i class="fa fa-check"></i><b>13.8</b> Sample Bias</a></li>
+<li class="chapter" data-level="13.9" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#normality-matters"><i class="fa fa-check"></i><b>13.9</b> Normality Matters</a></li>
+<li class="chapter" data-level="13.10" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#does-comparing-averages-make-sense"><i class="fa fa-check"></i><b>13.10</b> Does Comparing Averages Make Sense?</a><ul>
+<li class="chapter" data-level="13.10.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#nonparametric-tests"><i class="fa fa-check"></i><b>13.10.1</b> NonParametric Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="13.11" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-to-compare-spreads"><i class="fa fa-check"></i><b>13.11</b> How to Compare Spreads</a><ul>
+<li class="chapter" data-level="13.11.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#clustering"><i class="fa fa-check"></i><b>13.11.1</b> Clustering</a></li>
+</ul></li>
+<li class="chapter" data-level="13.12" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-have-we-learned"><i class="fa fa-check"></i><b>13.12</b> What Have We Learned?</a></li>
+<li class="chapter" data-level="13.13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#next-steps-and-other-questions"><i class="fa fa-check"></i><b>13.13</b> Next Steps and Other Questions</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i><b>A</b> License</a></li>
+<li class="chapter" data-level="B" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>B</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="B.1" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-standards"><i class="fa fa-check"></i><b>B.1</b> Our Standards</a></li>
+<li class="chapter" data-level="B.2" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-responsibilities"><i class="fa fa-check"></i><b>B.2</b> Our Responsibilities</a></li>
+<li class="chapter" data-level="B.3" data-path="code-of-conduct.html"><a href="code-of-conduct.html#scope"><i class="fa fa-check"></i><b>B.3</b> Scope</a></li>
+<li class="chapter" data-level="B.4" data-path="code-of-conduct.html"><a href="code-of-conduct.html#enforcement"><i class="fa fa-check"></i><b>B.4</b> Enforcement</a></li>
+<li class="chapter" data-level="B.5" data-path="code-of-conduct.html"><a href="code-of-conduct.html#attribution"><i class="fa fa-check"></i><b>B.5</b> Attribution</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="contributing.html"><a href="contributing.html"><i class="fa fa-check"></i><b>C</b> Contributing</a><ul>
+<li class="chapter" data-level="C.1" data-path="contributing.html"><a href="contributing.html#contributors"><i class="fa fa-check"></i><b>C.1</b> Contributors</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>D</b> Glossary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Software Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="when-will-i-be-done-with-this-project" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> When Will I Be Done With This Project?</h1>
+<div id="inconsistency-of-measurement" class="section level2">
+<h2><span class="header-section-number">6.1</span> Inconsistency of Measurement</h2>
+<p>We have talked a bit about how it’s important to properly <a href="glossary.html#operationalize"><strong>operationalize</strong></a> what we <a href="glossary.html#measurement"><strong>measure</strong></a>. Not to add more to your plate, but even if we get the right <em>measurement</em>, and do the correct <em>statistics</em>, when you’re studying people, the <em>reliability of measurement</em> also matters. This lesson will highlight both a software engineering question (predicting when a project will be done), and how to think of reliability of what you measure. After walking through the <a href="sleep_deprive.Rmd"><em>Need for Sleep</em></a> lesson, you’re surely realizing how careful we have to be with our experimental setup. You can imagine that the best way to know if something is “true” is to test a concept over and over again, under lots of different circumstances, and see if your results hold true. Imagine testing participants on multiple occasions, trying to not only test your <a href="glossary.html#hypothesistesting"><strong>hypothesis</strong></a>, but seeing how steady that hypothesis holds over time. All of that is ideal, of course. Most of the time, there is limited resources, limited participants, limited time, and a rush towards a deadline. But convenience should never get in the way of good science. So let’s take a look at how unreliable measurements might be.</p>
+<p>In the following study, <a href="https://www.sciencedirect.com/science/article/pii/S0164121207000714"><em>Inconsistency of expert judgment-based estimates of software development effort</em></a>, expert participants rated how much effort (work-hours) they estimate for sixty software projects. They unknowingly rated six of those projects <em>twice</em>, helping to answer questions about the reliability of professional judgments about software effort estimation. The paper tries to answer the following research question:</p>
+<blockquote>
+<p><em>How consistent are software professionals’ expert judgment-based effort estimates?</em></p>
+</blockquote>
+<p>This lesson is going to explore how we estimate how long software will take to finish (or your homework, for that matter). We will explore several statistical and scientific concepts:</p>
+<ul>
+<li>reliability of measurement</li>
+<li>generalization of results</li>
+<li>features that could matter</li>
+<li>data wrangling</li>
+<li>accuracy</li>
+</ul>
+</div>
+<div id="load-your-libraries-1" class="section level2">
+<h2><span class="header-section-number">6.2</span> Load Your Libraries</h2>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">source</span>(<span class="st">&quot;data/ESEUR_config.r&quot;</span>) <span class="co"># </span><span class="al">FIXME</span>
+
+<span class="kw">library</span>(<span class="st">&quot;plyr&quot;</span>)
+<span class="kw">library</span>(<span class="st">&quot;dplyr&quot;</span>)
+<span class="kw">library</span>(<span class="st">&quot;reshape2&quot;</span>)
+<span class="kw">library</span>(<span class="st">&quot;ggplot2&quot;</span>)</code></pre>
+</div>
+<div id="data-wrangling" class="section level2">
+<h2><span class="header-section-number">6.3</span> Data Wrangling</h2>
+<center>
+<img src="static/dplyr.jpg" />
+</center>
+<p><br></p>
+<p>Whatever your problem, you will come across the need to wrangle your data into different shapes. At first, it can seem either pointless or too complicated to be worth it. I remember first hearing the terms “melt” or “longform data” and wondering if I could just avoid ever doing that. Turns out, everyone was right and it’s way better to wrap your head around a good <code>melt</code> command and move on with your life. Let’s get a quick briefing on <a href="glossary.html#longformdata"><strong>long form</strong></a>,<a href="glossary.html#wideformdata"><strong>wide form</strong></a>, <a href="glossary.html#reshape"><strong>reshaping</strong></a>, and <a href="glossary.html#melt"><strong>melting</strong></a> data.</p>
+<div id="original-data" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Original Data</h3>
+<pre class="sourceCode r"><code class="sourceCode r">incon=<span class="kw">read.csv</span>(<span class="kw">paste0</span>(ESEUR_dir, <span class="st">&quot;data/estimation/inconsistency_est.csv.xz&quot;</span>), <span class="dt">as.is=</span><span class="ot">TRUE</span>)</code></pre>
+</div>
+<div id="wide-form" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Wide Form</h3>
+<p>This data format “stretches” the results by each Task across several columns. Each task has its own column. I’ve even demonstrated the <em>even wider</em> version of the data, where the <a href="glossary.html#order"><strong>Order</strong></a> variable is also “stretched” across the columns, instead of being in long form. What we are left with is simply the Subject ID number and then a separate column for each subject’s ratings for each Task in each Order.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(incon)</code></pre>
+<pre><code>##   Order Subject T1  T2 T3  T4 T5 T6
+## 1     1       1 32 8.0 32 4.0 16  6
+## 2     2       1 30 8.0 28 4.0 40 10
+## 3     1       2  6 6.0  7 1.0 10  4
+## 4     2       2 13 2.5 11 2.5 15  3
+## 5     1       3  5 5.0  4 2.0  6  1
+## 6     2       3  5 2.0  5 2.0 16  3</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">wider &lt;-<span class="kw">reshape</span>(incon, <span class="dt">direction=</span><span class="st">&quot;wide&quot;</span>, <span class="dt">idvar=</span><span class="kw">c</span>(<span class="st">&quot;Subject&quot;</span>), <span class="dt">timevar=</span><span class="st">&quot;Order&quot;</span>)
+
+<span class="kw">head</span>(wider)</code></pre>
+<pre><code>##    Subject T1.1 T2.1 T3.1 T4.1 T5.1 T6.1 T1.2 T2.2 T3.2 T4.2 T5.2 T6.2
+## 1        1 32.0    8   32    4   16  6.0   30  8.0   28  4.0 40.0 10.0
+## 3        2  6.0    6    7    1   10  4.0   13  2.5   11  2.5 15.0  3.0
+## 5        3  5.0    5    4    2    6  1.0    5  2.0    5  2.0 16.0  3.0
+## 7        4  7.5    5    7    2    7  1.5    7  6.0    4  4.0  5.5  1.5
+## 9        5  8.0    4   16    3   80  1.0   25  6.0    8  2.0 30.0  1.0
+## 11       6  7.0    6    7    2   40  3.0   20  8.0   10  1.0 40.0  1.0</code></pre>
+</div>
+<div id="melt" class="section level3">
+<h3><span class="header-section-number">6.3.3</span> Melt</h3>
+<p>Personally, I never understood the “melt” terminology but basically we will take the wide form data and transform it to long form. I guess it kind of goes from being stretched to dripping down and melting together? Whatever helps you to think about it, here’s an example of “melting” down <code>tasks</code>.</p>
+<pre class="sourceCode r"><code class="sourceCode r">tasks=<span class="kw">melt</span>(incon, <span class="dt">measure.vars=</span><span class="kw">paste0</span>(<span class="st">&quot;T&quot;</span>, <span class="dv">1</span><span class="op">:</span><span class="dv">6</span>),
+        <span class="dt">variable.name=</span><span class="st">&quot;Task&quot;</span>, <span class="dt">value.name=</span><span class="st">&quot;Estimate&quot;</span>)</code></pre>
+</div>
+<div id="long-form" class="section level3">
+<h3><span class="header-section-number">6.3.4</span> Long Form</h3>
+<p>Here you can see that tasks has been melted down to now represent each Task (T1, T2, T3..) as a factor of <code>Task</code> in one column. You can also see a difference with <code>Subject</code>, as it has to be recorded <em>twice</em> per column, in order to demonstrate the <em>repeated measure</em> for each task.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(tasks)</code></pre>
+<pre><code>##   Order Subject Task Estimate
+## 1     1       1   T1       32
+## 2     2       1   T1       30
+## 3     1       2   T1        6
+## 4     2       2   T1       13
+## 5     1       3   T1        5
+## 6     2       3   T1        5</code></pre>
+</div>
+<div id="reshape" class="section level3">
+<h3><span class="header-section-number">6.3.5</span> Reshape</h3>
+<p>Yet another reshape will allow us to manipulate the data by whichever variable we choose. In this case, I would like to plot the <em>First Estimate</em> by the <em>Second Estimate</em>. To this day, it still helps me to draw out the exact kind of dataframe I need in order to make the comparisons or plots I have visualized in my mind. I realized that I had <strong>Order</strong> recorded, but those two groups of <strong>Estimate</strong>s were not easily comparable. I needed to manipulate my data further to have a mix of long and wide form to be the most amenable for <code>ggplot</code>.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># reshape data</span>
+tasks &lt;-<span class="kw">reshape</span>(tasks, <span class="dt">direction=</span><span class="st">&quot;wide&quot;</span>, <span class="dt">idvar=</span><span class="kw">c</span>(<span class="st">&quot;Subject&quot;</span>, <span class="st">&quot;Task&quot;</span>), <span class="dt">timevar=</span><span class="st">&quot;Order&quot;</span>)
+
+<span class="kw">head</span>(tasks)</code></pre>
+<pre><code>##    Subject Task Estimate.1 Estimate.2
+## 1        1   T1       32.0         30
+## 3        2   T1        6.0         13
+## 5        3   T1        5.0          5
+## 7        4   T1        7.5          7
+## 9        5   T1        8.0         25
+## 11       6   T1        7.0         20</code></pre>
+<p>I’m truly not exaggerating when I once tried to avoid any and all reshaping/reformatting of my data. It was a difficult concept to wrap my head around, and I hoped I could just format my data in one way and stick to it. Turns out that it’s much easier to commit to learning these tools and apply them to make your life easier when answering statistical questions. I’m also not exaggerating when I say I’ve come across almost every configuration of data you can imagine; <em>long form, wide form, half-melted-who-knows-what form</em>. If I can swallow my pride and learn a <code>melt</code> command, I believe you can too.</p>
+</div>
+<div id="log-plot" class="section level3">
+<h3><span class="header-section-number">6.3.6</span> Log Plot</h3>
+<p>Here we include a <a href="glossary.html#referenceline"><strong>reference line</strong></a>. This is the <em>y==x</em> line, and it is describing a hypothetical scenario where each participant perfectly reliably rates each software task. On the x axis we have their first estimate for each task, and on the y axis we see the second estimate. If they were perfectly reliable, the <em>y==x</em> line would represent the data. If they are not perfectly reliable, the points will deviate from the <em>y==x</em> line. The following plot also uses <a href="glossary.html#log"><strong>log scale</strong></a>, a common technique to visualize data with a spread that would otherwise be difficult to interpret. Try it without the log transformation and see which plot is more interpretable…</p>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(tasks,<span class="kw">aes</span>(Estimate<span class="fl">.1</span>,Estimate<span class="fl">.2</span>,<span class="dt">color=</span>Task))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Repeated estimates of effort for six software tasks&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;First Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Second Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_abline</span>(<span class="dt">slope=</span><span class="dv">1</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">trans=</span><span class="st">&#39;log10&#39;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">trans=</span><span class="st">&#39;log10&#39;</span>)
+plt</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-7-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">shapiro.test</span>(tasks<span class="op">$</span>Estimate<span class="fl">.1</span>)</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  tasks$Estimate.1
+## W = 0.55771, p-value = 4.725e-10</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">shapiro.test</span>(tasks<span class="op">$</span>Estimate<span class="fl">.2</span>)</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  tasks$Estimate.2
+## W = 0.77446, p-value = 1.32e-06</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(tasks,<span class="kw">aes</span>(Estimate<span class="fl">.1</span>,Estimate<span class="fl">.2</span>,<span class="dt">color=</span>Task))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Repeated estimates of effort for six software tasks&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;First Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Second Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_abline</span>(<span class="dt">slope=</span><span class="dv">1</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">trans=</span><span class="st">&#39;log10&#39;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">trans=</span><span class="st">&#39;log10&#39;</span>)
+plt</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-8-1.png" /><!-- --></p>
+</div>
+</div>
+<div id="correlation-misleading" class="section level2">
+<h2><span class="header-section-number">6.4</span> Correlation (Misleading)</h2>
+<p>We have explored the idea of looking at the strength of a linear relationship through (glossary.html#correlation). It might seem intuitive that correlation between the <strong>First Estimate</strong> and <strong>Second Estimate</strong> could tell us something about rater accuracy. Let’s look into this correlation. First of all, we test the normality of our responses. Neither of the distributions are normally distributed, meaning that we need to employ a rank-based (nonparametric) method when looking at correlation. Here we use a method referring to <a href="glossary.html#kendallstau"><strong>Kendall’s Tau</strong></a>. Our result is <code>.69</code> which indicates a moderately strong correlation between the first and second estimate. So, they must be pretty close then, right? If they’re strongly correlated, it’s gotta be that they’re related enough to be accurate.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">shapiro.test</span>(tasks<span class="op">$</span>Estimate<span class="fl">.1</span>)</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  tasks$Estimate.1
+## W = 0.55771, p-value = 4.725e-10</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">shapiro.test</span>(tasks<span class="op">$</span>Estimate<span class="fl">.2</span>)</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  tasks$Estimate.2
+## W = 0.77446, p-value = 1.32e-06</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Correlation is a misleading method of comparing accuracy</span>
+<span class="kw">cor.test</span>(tasks<span class="op">$</span>Estimate<span class="fl">.1</span>, tasks<span class="op">$</span>Estimate<span class="fl">.2</span>,<span class="dt">method=</span><span class="st">&quot;kendall&quot;</span>)</code></pre>
+<pre><code>## Warning in cor.test.default(tasks$Estimate.1, tasks$Estimate.2, method =
+## &quot;kendall&quot;): Cannot compute exact p-value with ties</code></pre>
+<pre><code>## 
+##  Kendall&#39;s rank correlation tau
+## 
+## data:  tasks$Estimate.1 and tasks$Estimate.2
+## z = 6.1993, p-value = 5.671e-10
+## alternative hypothesis: true tau is not equal to 0
+## sample estimates:
+##     tau 
+## 0.69277</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Percentage difference?</span>
+<span class="co"># This is one of those awkward cases... </span><span class="al">TODO</span><span class="co">: switch brain</span>
+<span class="co"># library(&quot;boot&quot;)</span></code></pre>
+<div id="dont-fall-for-my-logic" class="section level3">
+<h3><span class="header-section-number">6.4.1</span> Don’t fall for my logic!</h3>
+<center>
+<img src="static/trap.jpg" />
+</center>
+<p><br></p>
+<p>Let’s fabricate a scenario in which the two estimates are perfectly correlated but wildly different from each other. Clearly, correlation doesn’t say anything about how reliable the estimates are. But it probably is saying <em>something</em> about the developer’s ability to judge a project. What does a strong correlation indicate?</p>
+<pre class="sourceCode r"><code class="sourceCode r">first &lt;-<span class="st"> </span><span class="kw">c</span> (<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">3</span>,<span class="dv">7</span>,<span class="dv">5</span>,<span class="dv">4</span>,<span class="dv">10</span>,<span class="dv">3</span>,<span class="dv">12</span>)
+  
+second &lt;-<span class="st"> </span>first <span class="op">*</span><span class="fl">5.3</span> <span class="co">#any scalar ensures they will be perfectly correlated</span>
+
+second</code></pre>
+<pre><code>## [1]  5.3 21.2 15.9 37.1 26.5 21.2 53.0 15.9 63.6</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(first,second)</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-10-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cor</span>(first,second)</code></pre>
+<pre><code>## [1] 1</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#we could do it negatively too; the relationship would still be very strong</span>
+negative &lt;-<span class="st"> </span>first <span class="op">*-</span><span class="fl">5.3</span>
+<span class="kw">cor</span>(first,negative)</code></pre>
+<pre><code>## [1] -1</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">error &lt;-<span class="st"> </span><span class="kw">abs</span>(<span class="kw">mean</span>(first) <span class="op">-</span><span class="st"> </span><span class="kw">mean</span>(second))
+error <span class="co">#the error is pretty bad. on average, the second estimate was 34 hours off from the first. no bueno</span></code></pre>
+<pre><code>## [1] 23.41111</code></pre>
+<p>So, we’ve looked into <em>reliability</em> of measurement, but we still haven’t compared those subjective estimates to <em>what actually happened</em>. Whenever we measure anything, we want to know if the masure was <a href="glossary.html#reliability"><strong>reliable</strong></a> and if the measure was <a href="glossary.html#validity"><strong>valid</strong></a>. Validity of a measure means <em>it is actually measuring what you think it’s measuring</em>. So, if we want to know about developer productivity, is it actually worth it to <em>ask</em> developers how long something will take? We see from the previous case that they are not reliable from estimate to estimate. Are any of their estimates actually <em>accurate</em> though? How good are devs at estimating how long a project will take? The following two studies report data on this, with develpers reporting in <em>hundreds of hours</em> how long they think a project will take to finish, against how long it actually took in reality. Both Jorgensen and Kitchenham data are plotted together. It’s very clear in the software world that <em>underestimated</em> projects are far more common than <em>overestimated</em> projects, but these mishaps are also pushed around a bit by company culture.</p>
+</div>
+</div>
+<div id="effort-estimation-accuracy-and-bias" class="section level2">
+<h2><span class="header-section-number">6.5</span> Effort Estimation: Accuracy and Bias</h2>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Regression Models of Software Development Effort Estimation Accuracy and Bias</span>
+<span class="co">#</span>
+<span class="co"># Example from:</span>
+<span class="co"># Empirical Software Engineering using R</span>
+<span class="co"># Derek M. Jones</span>
+
+
+
+<span class="kw">library</span>(<span class="st">&quot;foreign&quot;</span>) <span class="co">#just to read in the arff file</span>
+
+
+
+kitch=<span class="kw">read.arff</span>(<span class="kw">paste0</span>(ESEUR_dir, <span class="st">&quot;data/estimation/82507128-kitchenham.arff.txt&quot;</span>))
+jorg=<span class="kw">read.csv</span>(<span class="kw">paste0</span>(ESEUR_dir, <span class="st">&quot;data/estimation/Regression-models.csv.xz&quot;</span>), <span class="dt">as.is=</span><span class="ot">TRUE</span>)
+
+
+data &lt;-<span class="st"> </span>kitch <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(First.estimate,Actual.effort)
+data<span class="op">$</span>Paper &lt;-<span class="st"> &quot;Kitchenham&quot;</span>
+
+jorg &lt;-<span class="st"> </span>jorg <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">select</span>(Estimated.effort,Actual.effort)
+jorg<span class="op">$</span>Paper &lt;-<span class="st"> &quot;Jorgensen&quot;</span>
+<span class="kw">colnames</span>(jorg) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;First.estimate&quot;</span>,<span class="st">&quot;Actual.effort&quot;</span>,<span class="st">&quot;Paper&quot;</span>)
+
+data&lt;-<span class="kw">rbind</span>(data,jorg)
+
+plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(First.estimate<span class="op">/</span><span class="dv">100</span>,Actual.effort<span class="op">/</span><span class="dv">100</span>,<span class="dt">color=</span>Paper))<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">trans=</span><span class="st">&#39;log&#39;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">trans=</span><span class="st">&#39;log&#39;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Developer Effort Estimate vs. Actual (2 sources)&quot;</span>,<span class="dt">subtitle=</span><span class="st">&quot;log scale&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Actual&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_abline</span>(<span class="dt">slope=</span><span class="dv">1</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-11-1.png" /><!-- --></p>
+</div>
+<div id="data-visualizations-a-tricky-statistical-tool" class="section level2">
+<h2><span class="header-section-number">6.6</span> Data Visualizations: A tricky statistical tool</h2>
+<p>Remember when we took a look at the First vs. Second estimate data? We chose to plot using log/log scale, and we have just done the same for the Estimate vs. Actual data, above. Just remember that visualizations are also statistical communication tools; a plot can guide your story in ways you might not even anticipate. So for instance, in the plot above, we do see some variation around the <em>ideal line</em> (dashed), but it doesn’t seem drastic. We also see that the slopes are roughly similar between the Jorgensen and Kitchenham data, just by using our eye. We can say a lot of things by simply looking at the red and blue dots and their shape, but the visualization can easily prime us to agree with one hypothesis over another. So it is always important to delve into the data, and explore it on different scales, different transformations, paying attention to some of the things we have already taught; like normality testing and curve fitting. There is nothing <em>wrong</em> with how this data has been presented, it is just important to see how the communication changes over different forms of visualization. So let’s take a look at this plot <em>not</em> using a log transformation of the axes:</p>
+</div>
+<div id="without-a-log-transformation" class="section level2">
+<h2><span class="header-section-number">6.7</span> Without a Log Transformation</h2>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(First.estimate<span class="op">/</span><span class="dv">100</span>,Actual.effort<span class="op">/</span><span class="dv">100</span>,<span class="dt">color=</span>Paper))<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Developer Effort Estimate vs. Actual (2 sources)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Actual&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_abline</span>(<span class="dt">slope=</span><span class="dv">1</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-12-1.png" /><!-- --></p>
+<p>Well, there’s a significant outlier that becomes much clearer in this representation. It is still visible in the original visualization, but log scale warps the <em>orders of magnitude</em>, affecting the distance between points that in raw form are actually much further from each other. It’s quite difficult to see the rest of the data, and since there is no actual reason to remove that outlier (it’s still a perfectly true estimate), the only way to see the rest is to “zoom in”. The log transformed plot does not have this problem. Let’s take a look, even closer on the raw form.</p>
+<div id="zoom-in" class="section level3">
+<h3><span class="header-section-number">6.7.1</span> Zoom In</h3>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(First.estimate<span class="op">/</span><span class="dv">100</span>,Actual.effort<span class="op">/</span><span class="dv">100</span>,<span class="dt">color=</span>Paper))<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Developer Effort Estimate vs. Actual (2 sources)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Actual&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlim</span>(<span class="dv">0</span>,<span class="dv">100</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylim</span>(<span class="dv">0</span>,<span class="dv">150</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_abline</span>(<span class="dt">slope=</span><span class="dv">1</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<pre><code>## Warning: Removed 3 rows containing missing values (geom_point).</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-13-1.png" /><!-- --></p>
+<p>Note how the distance from the <em>ideal line</em> is more exaggerated now. You can more clearly see that developer <em>estimates</em> differed from the <em>actual</em> hours. We have yet another layer of “orders of magnitude” that is slightly hidden from us. Remember that the measurement we are working with is <em>hundreds of hours</em>. For the actual visualizations, this doesn’t matter, but for the seriousness of the actual phenomenon, <strong>it matters</strong>. In the scaled plot (hundreds of hours), the worst underestimate was 1.2 hours for a 7.2 hour job. 6 hours is just an afternoon, right? Well, the worst underestimate was an inital estimate of <code>121</code> hours, with an actual time of <code>718</code> hours. This is <em>5.9 times more than the original estimate</em>, and a difference of 597 hours (maybe months, depending on how many people are working). From the original plot, and from the rescaling of the points, it was not as clear to me that some projects suffered from such delusion.</p>
+<p>Let’s briefly look at the most overestimated project and the most underestimated project. We can actually use the histogram visualization to note that the maximum underestimate is actually pretty bad; an outlier from the rest of the distribution. In fact, there are quite a few outliers. A reminder that outliers are abnormal values with regards to the mean and the distribution, but should still be investigated carefully. Not every outlier can simply be thrown out; because they may be perfectly reasonable with regards to the underlying process. In our case, there was one project that was estimated to take <code>79870 hours</code>, which then used <code>113930 hours</code> to complete. This may be an outlier from <em>this</em> data distribution, but it is not unreasonable for the actual phenomena we are looking at. I’m sure there are plenty of projects within that range, or longer. Our initial sample just wasn’t covering larger projects. There is nothing inherent about that outlier that is not relevant to the process we are investigating: estimated time vs. actual time. Below, we see an investigation into the histogram of the ratios (spread), and the boxplot representation (<em>horizontally aligned</em>).</p>
+<pre class="sourceCode r"><code class="sourceCode r">data &lt;-<span class="st"> </span>data <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Ratio=</span> Actual.effort<span class="op">/</span>First.estimate)
+
+data[data<span class="op">$</span>Ratio <span class="op">==</span><span class="st"> </span><span class="kw">max</span>(data<span class="op">$</span>Ratio),]</code></pre>
+<pre><code>##    First.estimate Actual.effort      Paper    Ratio
+## 69            121           718 Kitchenham 5.933884</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">data[data<span class="op">$</span>Ratio <span class="op">==</span><span class="st"> </span><span class="kw">min</span>(data<span class="op">$</span>Ratio),]</code></pre>
+<pre><code>##     First.estimate Actual.effort      Paper     Ratio
+## 138           1312           286 Kitchenham 0.2179878</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">plt1 &lt;-<span class="st"> </span>data <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(Ratio) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x=</span><span class="st">&quot;&quot;</span>, <span class="dt">y =</span> Ratio)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_boxplot</span>(<span class="dt">fill =</span> <span class="st">&quot;lightblue&quot;</span>, <span class="dt">color =</span> <span class="st">&quot;black&quot;</span>) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">coord_flip</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_classic</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text.y=</span><span class="kw">element_blank</span>(),
+        <span class="dt">axis.ticks.y=</span><span class="kw">element_blank</span>())
+
+plt2 &lt;-<span class="st"> </span>data <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(Ratio) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">ggplot</span>() <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="kw">aes</span>(<span class="dt">x =</span> Ratio, <span class="dt">y =</span> (..count..)<span class="op">/</span><span class="kw">sum</span>(..count..)),
+                 <span class="dt">position =</span> <span class="st">&quot;identity&quot;</span>, <span class="dt">binwidth =</span> <span class="dv">1</span>, 
+                 <span class="dt">fill =</span> <span class="st">&quot;lightblue&quot;</span>, <span class="dt">color =</span> <span class="st">&quot;black&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Relative Frequency&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_classic</span>()
+
+
+
+cowplot<span class="op">::</span><span class="kw">plot_grid</span>(plt2, plt1, 
+                   <span class="dt">ncol =</span> <span class="dv">1</span>, <span class="dt">rel_heights =</span> <span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">1</span>),
+                   <span class="dt">align =</span> <span class="st">&#39;v&#39;</span>, <span class="dt">axis =</span> <span class="st">&#39;lr&#39;</span>)</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-14-1.png" /><!-- --></p>
+</div>
+<div id="zoom-in-on-jorgensen-data" class="section level3">
+<h3><span class="header-section-number">6.7.2</span> Zoom in on Jorgensen Data</h3>
+<p>The previous plots are still dominated by the Kitchenham data, simply because those projects were longer on average. Zooming in on just that paper, we might want to know if those two studies are actually comparable together. Judging by the histograms, after removing the outlier (just for this comparison, because we clearly know it’s origins), the spread of ratios is pretty similar between the two studies, despite the studies being different scales.</p>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(data[data<span class="op">$</span>Paper<span class="op">==</span><span class="st">&quot;Jorgensen&quot;</span>,],<span class="kw">aes</span>(First.estimate<span class="op">/</span><span class="dv">100</span>,Actual.effort<span class="op">/</span><span class="dv">100</span>,<span class="dt">color=</span>Paper))<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Developer Effort Estimate vs. Actual (2 sources)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Estimate&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Actual&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_abline</span>(<span class="dt">slope=</span><span class="dv">1</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-15-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">plt1 &lt;-<span class="st"> </span><span class="kw">ggplot</span>(data[data<span class="op">$</span>Paper<span class="op">==</span><span class="st">&quot;Jorgensen&quot;</span>,],<span class="kw">aes</span>(Ratio))<span class="op">+</span>
+<span class="st">  </span><span class="co">#geom_density(alpha=.5)+</span>
+<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="kw">aes</span>(<span class="dt">y=</span>(..count..)<span class="op">/</span><span class="kw">sum</span>(..count..)), <span class="dt">position=</span><span class="st">&#39;dodge&#39;</span>,<span class="dt">fill=</span><span class="st">&quot;#F8766D&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Jorgensen&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Proportion&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlim</span>(<span class="dv">0</span>,<span class="fl">6.3</span>)
+plt2 &lt;-<span class="st"> </span><span class="kw">ggplot</span>(data[data<span class="op">$</span>Paper<span class="op">==</span><span class="st">&quot;Kitchenham&quot;</span>,],<span class="kw">aes</span>(Ratio))<span class="op">+</span>
+<span class="st">  </span><span class="co">#geom_density(alpha=.5)+</span>
+<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="kw">aes</span>(<span class="dt">y=</span>(..count..)<span class="op">/</span><span class="kw">sum</span>(..count..)), <span class="dt">position=</span><span class="st">&#39;dodge&#39;</span>,<span class="dt">fill=</span><span class="st">&quot;#00BFC4&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Kitchenham&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Proportion&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlim</span>(<span class="dv">0</span>,<span class="fl">6.3</span>)
+
+cowplot<span class="op">::</span><span class="kw">plot_grid</span>(plt1, plt2, 
+                   <span class="dt">ncol =</span> <span class="dv">1</span>, <span class="dt">rel_heights =</span> <span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">2</span>),
+                   <span class="dt">align =</span> <span class="st">&#39;v&#39;</span>, <span class="dt">axis =</span> <span class="st">&#39;lr&#39;</span>)</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-15-2.png" /><!-- --></p>
+</div>
+</div>
+<div id="so-can-we-estimate-resources-or-not" class="section level2">
+<h2><span class="header-section-number">6.8</span> So Can We Estimate Resources or Not?</h2>
+<p>What is the biggest problem with these studies? I’ll give you a hint. Have you ever looked at a project overview, and said to yourself “hmm, seems simple enough” only to find yourself deep into a rabbit hole at 4am working on configuring some weird dependencies to allow you to do the nine other tasks you have to do before you can do the first thing for the project? How about the other way around; have you looked at a project spec and panicked, knowing it will take you <em>forever</em> until you realize that the package is actually pretty simple and you can probably finish this on time if the stars align just right? What I’m getting at is: <em>project estimation changes as you gain new information</em>. If I were to ask you how long something would take before you’d really started to try it, there’s a good chance your estimation will be inaccurate. But what about when you’ve spent countless hours and are actually almost done? Will you be able to tell me how much you actually have left? Once you’ve worked with something for a while, you should probably get a better gauge of how long those types of problems take to complete. This concept is referred to as <a href="glossary.html#coneofuncertainty"><strong>the cone of uncertainty</strong></a>. The idea is that as you get new information about a project, you can make more accurate judgments about the time to completion on that project. That makes some intuitive sense, but keep in mind that <em>by definition</em> you will converge to <strong>1x</strong> the project length by the end, because “it is what it is”. Take a moment to discuss with a partner (or your cat, whatever) about this concept.</p>
+<p><img src="static/cone.png" /></p>
+<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&amp;rep=rep1&amp;type=pdf" class="uri">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.630.6667&amp;rep=rep1&amp;type=pdf</a></p>
+<p><a href="https://github.com/Derek-Jones/ESEUR-code-data/blob/master/projects/Little-cone.R" class="uri">https://github.com/Derek-Jones/ESEUR-code-data/blob/master/projects/Little-cone.R</a></p>
+</div>
+<div id="estimate-updating" class="section level2">
+<h2><span class="header-section-number">6.9</span> Estimate Updating</h2>
+<p>What if you were to take <em>multiple</em> estimates as the project progressed? It makes sense that perhaps you would get a better estimate as the project became closer and closer to finishing.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Project Code,Week End Date,Target RelDate,Env,Plan,Dev,Stab,Mob,Adj Week,Est EndDate,First Est,Actual Release,Start Date,X,Absolute Ratio,Relative Ratio,Update,Absolute ratio without factor 2,,Eind project,Oppervlakte,Counter,Som oppervlakte,EQF all,EQF end,Eind project factor 2,Oppervlakte factor 2,Counter factor 2,Som oppervlakte factor 2,EQF all factor 2,EQF end factor 2</span>
+<span class="co"># 1,12/01/00,03/01/01,C,C,I,,,12/01/00,03/01/01,03/01/01,08/22/01,12/01/00,0.00,0.6770156819,2.95,1,0.33851,,0,0.0085951791,1,0,4235.7284514877,0,0,0.0176034663,1,0,#DIV/0!,0</span>
+est=<span class="kw">read.csv</span>(<span class="kw">paste0</span>(ESEUR_dir, <span class="st">&quot;data/Little06.csv.xz&quot;</span>), <span class="dt">as.is=</span><span class="ot">TRUE</span>)
+
+est<span class="op">$</span>Week.End.Date=<span class="kw">as.Date</span>(est<span class="op">$</span>Week.End.Date, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>Target.RelDate=<span class="kw">as.Date</span>(est<span class="op">$</span>Target.RelDate, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>Adj.Week=<span class="kw">as.Date</span>(est<span class="op">$</span>Adj.Week, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>Est.EndDate=<span class="kw">as.Date</span>(est<span class="op">$</span>Est.EndDate, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>First.Est=<span class="kw">as.Date</span>(est<span class="op">$</span>First.Est, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>Actual.Release=<span class="kw">as.Date</span>(est<span class="op">$</span>Actual.Release, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>Start.Date=<span class="kw">as.Date</span>(est<span class="op">$</span>Start.Date, <span class="dt">format=</span><span class="st">&quot;%m/%d/%y&quot;</span>)
+est<span class="op">$</span>est_duration=est<span class="op">$</span>First.Est<span class="op">-</span>est<span class="op">$</span>Start.Date
+
+
+
+mk_target_unique=<span class="cf">function</span>(df)
+{
+<span class="co"># The same Target release date might be estimated again after a change of date,</span>
+<span class="co"># so duplicated cannot be used.  rle only works with atomic types</span>
+t=<span class="kw">cumsum</span>(<span class="kw">c</span>(<span class="dv">1</span>, <span class="kw">head</span>(<span class="kw">rle</span>(<span class="kw">as.integer</span>(df<span class="op">$</span>Target.RelDate))<span class="op">$</span>lengths, <span class="dt">n=</span><span class="op">-</span><span class="dv">1</span>)))
+<span class="kw">return</span>(df[t, ])
+}
+
+target_summary=<span class="cf">function</span>(df)
+{
+<span class="kw">return</span>(<span class="kw">data.frame</span>(<span class="dt">est_duration=</span>df<span class="op">$</span>est_duration[<span class="dv">1</span>], <span class="dt">num_reest=</span><span class="kw">nrow</span>(df)))
+}
+
+
+u_est=<span class="kw">ddply</span>(est, .(Project.Code), mk_target_unique)
+t_sum=<span class="kw">ddply</span>(u_est, .(Project.Code), target_summary)
+
+<span class="kw">ggplot</span>(t_sum,<span class="kw">aes</span>(est_duration,num_reest))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">color=</span><span class="st">&quot;#00BFC4&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Initial estimated duration (days)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Number of estimates&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">stat_smooth</span>(<span class="dt">method=</span><span class="st">&quot;loess&quot;</span>,<span class="dt">color=</span><span class="st">&quot;black&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<pre><code>## Don&#39;t know how to automatically pick scale for object of type difftime. Defaulting to continuous.</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-16-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">pal_col=<span class="kw">rainbow</span>(<span class="dv">2</span>)
+mk_target_unique=<span class="cf">function</span>(df)
+{
+<span class="co"># The same Target release date might be estimated again after a change of date,</span>
+<span class="co"># so duplicated cannot be used.  rle only works with atomic types</span>
+t=<span class="kw">cumsum</span>(<span class="kw">c</span>(<span class="dv">1</span>, <span class="kw">head</span>(<span class="kw">rle</span>(<span class="kw">as.integer</span>(df<span class="op">$</span>Target.RelDate))<span class="op">$</span>lengths, <span class="dt">n=</span><span class="op">-</span><span class="dv">1</span>)))
+<span class="kw">return</span>(df[t, ])
+}
+
+est<span class="op">$</span>percent_comp=<span class="dv">100</span><span class="op">*</span><span class="kw">as.integer</span>(est<span class="op">$</span>Week.End.Date<span class="op">-</span>est<span class="op">$</span>Start.Date)<span class="op">/</span><span class="kw">as.integer</span>(est<span class="op">$</span>Actual.Release<span class="op">-</span>est<span class="op">$</span>Start.Date)
+est<span class="op">$</span>AE_ratio=<span class="kw">as.integer</span>(est<span class="op">$</span>Actual.Release<span class="op">-</span>est<span class="op">$</span>Start.Date)<span class="op">/</span><span class="kw">as.integer</span>(est<span class="op">$</span>Target.RelDate<span class="op">-</span>est<span class="op">$</span>Start.Date)
+est=<span class="kw">subset</span>(est, Week.End.Date <span class="op">&lt;=</span><span class="st"> </span>Actual.Release)
+u_est=<span class="kw">ddply</span>(est, .(Project.Code), mk_target_unique)
+
+x_vals=<span class="kw">seq</span>(<span class="dt">from=</span><span class="dv">10</span>, <span class="dt">to=</span><span class="dv">100</span>,<span class="dt">by=</span>((<span class="dv">100</span> <span class="op">-</span><span class="st"> </span><span class="dv">10</span>)<span class="op">/</span>(<span class="kw">length</span>(u_est<span class="op">$</span>percent_comp) <span class="op">-</span><span class="st"> </span><span class="dv">1</span>))) <span class="co">#just some slight coercing so we can draw our lines!</span>
+
+<span class="kw">ggplot</span>(u_est,<span class="kw">aes</span>(percent_comp,AE_ratio))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">color=</span><span class="st">&quot;#00BFC4&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(x_vals,<span class="dv">100</span><span class="op">/</span>x_vals))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept=</span><span class="dv">1</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Percentage completed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Actual/Estimated&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="project_estimation_files/figure-html/unnamed-chunk-17-1.png" /><!-- --></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="how-many-repositories-are-there-on-github.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="sleep-deprivation-and-software-engineering-performance.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio-education/ds4se/edit/master/project_estimation.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ds4se.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -3,3 +3,6 @@
 .Rhistory
 .Rproj.user
 .~lock.*
+_bookdown_files
+ds4se.log
+ds4se.rds

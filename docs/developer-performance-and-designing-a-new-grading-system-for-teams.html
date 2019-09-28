@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 9 Developer Performance and Designing a New Grading System for Teams | Data Science for Software Engineering</title>
+  <meta name="description" content="An introduction to data science for software engineers" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 9 Developer Performance and Designing a New Grading System for Teams | Data Science for Software Engineering" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="An introduction to data science for software engineers" />
+  <meta name="github-repo" content="rstudio-education/ds4se" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 9 Developer Performance and Designing a New Grading System for Teams | Data Science for Software Engineering" />
+  
+  <meta name="twitter:description" content="An introduction to data science for software engineers" />
+  
+
+<meta name="author" content="Yim Register" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="does-it-really-matter-to-test-first-or-test-after.html">
+<link rel="next" href="function-modification.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">DS4SE</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#s:index-personas"><i class="fa fa-check"></i><b>1.1</b> Who are these lessons for?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#s:index-install"><i class="fa fa-check"></i><b>1.2</b> How do I get started?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#s:index-also"><i class="fa fa-check"></i><b>1.3</b> See Also</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html"><i class="fa fa-check"></i><b>2</b> Curiosity and Play</a><ul>
+<li class="chapter" data-level="2.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#curiosity-killed-the-cat-but-satisfaction-brought-it-back"><i class="fa fa-check"></i><b>2.1</b> Curiosity killed the cat, but satisfaction brought it back</a></li>
+<li class="chapter" data-level="2.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#playing-with-data"><i class="fa fa-check"></i><b>2.2</b> Playing with Data</a></li>
+<li class="chapter" data-level="2.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#ghtorrent-and-bigrquery"><i class="fa fa-check"></i><b>2.3</b> GHTorrent and BigRQuery</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#datafiles-for-this-lesson"><i class="fa fa-check"></i><b>2.3.1</b> DataFiles for this Lesson</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#alan-turings-birthday-examples-learn-some-sql-queries"><i class="fa fa-check"></i><b>2.4</b> Alan Turing’s Birthday Examples (learn some SQL queries)</a></li>
+<li class="chapter" data-level="2.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#execute-the-query"><i class="fa fa-check"></i><b>2.5</b> Execute the query</a></li>
+<li class="chapter" data-level="2.6" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#visualize-the-data"><i class="fa fa-check"></i><b>2.6</b> Visualize the Data</a></li>
+<li class="chapter" data-level="2.7" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#language-growth-over-time"><i class="fa fa-check"></i><b>2.7</b> Language Growth over Time</a></li>
+<li class="chapter" data-level="2.8" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#commits-to-github-canada-day-vs.july-4th"><i class="fa fa-check"></i><b>2.8</b> Commits to GitHub: Canada Day vs. July 4th</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#total-commits"><i class="fa fa-check"></i><b>2.8.1</b> Total Commits</a></li>
+<li class="chapter" data-level="2.8.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#yearly-commits"><i class="fa fa-check"></i><b>2.8.2</b> Yearly Commits</a></li>
+<li class="chapter" data-level="2.8.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#what-are-those-fluctuations"><i class="fa fa-check"></i><b>2.8.3</b> What are those fluctuations?</a></li>
+<li class="chapter" data-level="2.8.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#logistic-regression-for-predicting-your-weekend-commits"><i class="fa fa-check"></i><b>2.8.4</b> Logistic regression for predicting your weekend commits</a></li>
+<li class="chapter" data-level="2.8.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#making-predictions"><i class="fa fa-check"></i><b>2.8.5</b> Making Predictions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#time-for-a-cooldown-pizza-cats"><i class="fa fa-check"></i><b>2.9</b> Time for a Cooldown: Pizza &amp; Cats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html"><i class="fa fa-check"></i><b>3</b> Stack Overflow Queries</a><ul>
+<li class="chapter" data-level="3.1" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#i-am-thankful-for-stack-overflow"><i class="fa fa-check"></i><b>3.1</b> I am thankful for Stack Overflow</a></li>
+<li class="chapter" data-level="3.2" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#stack-exchange-queries"><i class="fa fa-check"></i><b>3.2</b> Stack Exchange Queries</a></li>
+<li class="chapter" data-level="3.3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-your-libraries"><i class="fa fa-check"></i><b>3.3</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="3.4" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-the-data"><i class="fa fa-check"></i><b>3.4</b> Load the Data</a></li>
+<li class="chapter" data-level="3.5" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#summarize-the-variables"><i class="fa fa-check"></i><b>3.5</b> Summarize the Variables</a></li>
+<li class="chapter" data-level="3.6" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#total-tags-and-dplyr-intro"><i class="fa fa-check"></i><b>3.6</b> Total Tags and dplyr Intro</a></li>
+<li class="chapter" data-level="3.7" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#tags-over-time-by-month"><i class="fa fa-check"></i><b>3.7</b> Tags Over Time By Month</a></li>
+<li class="chapter" data-level="3.8" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#cumulative-growth-over-time"><i class="fa fa-check"></i><b>3.8</b> Cumulative Growth Over Time</a></li>
+<li class="chapter" data-level="3.9" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#curiouser-and-curiouser"><i class="fa fa-check"></i><b>3.9</b> Curiouser and Curiouser…</a></li>
+<li class="chapter" data-level="3.10" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#time-vs.totals"><i class="fa fa-check"></i><b>3.10</b> Time vs. Totals</a></li>
+<li class="chapter" data-level="3.11" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#kolmogorov-smirnov-what"><i class="fa fa-check"></i><b>3.11</b> Kolmogorov-Smirnov what?!</a></li>
+<li class="chapter" data-level="3.12" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#reputation"><i class="fa fa-check"></i><b>3.12</b> Reputation</a></li>
+<li class="chapter" data-level="3.13" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#log-log-plots-and-power-laws-oh-my"><i class="fa fa-check"></i><b>3.13</b> Log-Log Plots and Power Laws, Oh My!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analyze-this.html"><a href="analyze-this.html"><i class="fa fa-check"></i><b>4</b> Analyze This!</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="analyze-this.html"><a href="analyze-this.html#before-this-lesson"><i class="fa fa-check"></i><b>4.0.1</b> Before this lesson:</a></li>
+<li class="chapter" data-level="4.1" data-path="analyze-this.html"><a href="analyze-this.html#what-is-evidence"><i class="fa fa-check"></i><b>4.1</b> What is “Evidence”?</a></li>
+<li class="chapter" data-level="4.2" data-path="analyze-this.html"><a href="analyze-this.html#surveying-a-population"><i class="fa fa-check"></i><b>4.2</b> Surveying a Population</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="analyze-this.html"><a href="analyze-this.html#loading-libraries"><i class="fa fa-check"></i><b>4.2.1</b> Loading Libraries</a></li>
+<li class="chapter" data-level="4.2.2" data-path="analyze-this.html"><a href="analyze-this.html#reading-in-the-data"><i class="fa fa-check"></i><b>4.2.2</b> Reading in the Data</a></li>
+<li class="chapter" data-level="4.2.3" data-path="analyze-this.html"><a href="analyze-this.html#renaming-columns"><i class="fa fa-check"></i><b>4.2.3</b> Renaming Columns</a></li>
+<li class="chapter" data-level="4.2.4" data-path="analyze-this.html"><a href="analyze-this.html#descriptive-statistics"><i class="fa fa-check"></i><b>4.2.4</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="4.2.5" data-path="analyze-this.html"><a href="analyze-this.html#first-visualization"><i class="fa fa-check"></i><b>4.2.5</b> First Visualization</a></li>
+<li class="chapter" data-level="4.2.6" data-path="analyze-this.html"><a href="analyze-this.html#distribution-across-questions"><i class="fa fa-check"></i><b>4.2.6</b> Distribution Across Questions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="analyze-this.html"><a href="analyze-this.html#most-essential-question"><i class="fa fa-check"></i><b>4.2.7</b> Most Essential Question</a></li>
+<li class="chapter" data-level="4.2.8" data-path="analyze-this.html"><a href="analyze-this.html#most-unwise-question"><i class="fa fa-check"></i><b>4.2.8</b> Most Unwise Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="analyze-this.html"><a href="analyze-this.html#customers-matter-the-most"><i class="fa fa-check"></i><b>4.3</b> Customers Matter the Most</a></li>
+<li class="chapter" data-level="4.4" data-path="analyze-this.html"><a href="analyze-this.html#developer-practices-dont-matter"><i class="fa fa-check"></i><b>4.4</b> Developer Practices Don’t Matter</a></li>
+<li class="chapter" data-level="4.5" data-path="analyze-this.html"><a href="analyze-this.html#dont-measure-productivity"><i class="fa fa-check"></i><b>4.5</b> Don’t Measure Productivity</a></li>
+<li class="chapter" data-level="4.6" data-path="analyze-this.html"><a href="analyze-this.html#how-unwise-is-it-compared-to-the-other-categories-test-of-significance"><i class="fa fa-check"></i><b>4.6</b> How Unwise is it compared to the other categories: Test of Significance</a></li>
+<li class="chapter" data-level="4.7" data-path="analyze-this.html"><a href="analyze-this.html#academic-and-industry-partnership-for-good-research"><i class="fa fa-check"></i><b>4.7</b> Academic and Industry Partnership for Good Research</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html"><i class="fa fa-check"></i><b>5</b> How Many Repositories Are There on GitHub?</a><ul>
+<li class="chapter" data-level="5.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#have-you-ever-wondered"><i class="fa fa-check"></i><b>5.1</b> Have You Ever Wondered…</a></li>
+<li class="chapter" data-level="5.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#how-many-repositories-are-there-on-github-1"><i class="fa fa-check"></i><b>5.2</b> How many repositories are there on GitHub?</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#our-data-ghtorrent"><i class="fa fa-check"></i><b>5.2.1</b> Our Data (GHTorrent)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#datafiles-for-this-lesson-1"><i class="fa fa-check"></i><b>5.2.2</b> DataFiles for this Lesson</a></li>
+<li class="chapter" data-level="5.2.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#different-strokes-for-different-folks"><i class="fa fa-check"></i><b>5.2.3</b> Different Strokes for Different Folks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#training-data-and-testing-data"><i class="fa fa-check"></i><b>5.2.4</b> Training Data and Testing Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#overfitting-and-underfitting"><i class="fa fa-check"></i><b>5.3</b> Overfitting and Underfitting</a></li>
+<li class="chapter" data-level="5.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#slow-down-how-can-we-fit-a-curve-to-this"><i class="fa fa-check"></i><b>5.4</b> Slow Down! How can we fit a curve to this?</a></li>
+<li class="chapter" data-level="5.5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#what-kind-of-curve-should-we-fit"><i class="fa fa-check"></i><b>5.5</b> What kind of curve should we fit?</a></li>
+<li class="chapter" data-level="5.6" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#evaluation"><i class="fa fa-check"></i><b>5.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html"><i class="fa fa-check"></i><b>6</b> When Will I Be Done With This Project?</a><ul>
+<li class="chapter" data-level="6.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#inconsistency-of-measurement"><i class="fa fa-check"></i><b>6.1</b> Inconsistency of Measurement</a></li>
+<li class="chapter" data-level="6.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#load-your-libraries-1"><i class="fa fa-check"></i><b>6.2</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-wrangling"><i class="fa fa-check"></i><b>6.3</b> Data Wrangling</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#original-data"><i class="fa fa-check"></i><b>6.3.1</b> Original Data</a></li>
+<li class="chapter" data-level="6.3.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#wide-form"><i class="fa fa-check"></i><b>6.3.2</b> Wide Form</a></li>
+<li class="chapter" data-level="6.3.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#melt"><i class="fa fa-check"></i><b>6.3.3</b> Melt</a></li>
+<li class="chapter" data-level="6.3.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#long-form"><i class="fa fa-check"></i><b>6.3.4</b> Long Form</a></li>
+<li class="chapter" data-level="6.3.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#reshape"><i class="fa fa-check"></i><b>6.3.5</b> Reshape</a></li>
+<li class="chapter" data-level="6.3.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#log-plot"><i class="fa fa-check"></i><b>6.3.6</b> Log Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#correlation-misleading"><i class="fa fa-check"></i><b>6.4</b> Correlation (Misleading)</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#dont-fall-for-my-logic"><i class="fa fa-check"></i><b>6.4.1</b> Don’t fall for my logic!</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#effort-estimation-accuracy-and-bias"><i class="fa fa-check"></i><b>6.5</b> Effort Estimation: Accuracy and Bias</a></li>
+<li class="chapter" data-level="6.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-visualizations-a-tricky-statistical-tool"><i class="fa fa-check"></i><b>6.6</b> Data Visualizations: A tricky statistical tool</a></li>
+<li class="chapter" data-level="6.7" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#without-a-log-transformation"><i class="fa fa-check"></i><b>6.7</b> Without a Log Transformation</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in"><i class="fa fa-check"></i><b>6.7.1</b> Zoom In</a></li>
+<li class="chapter" data-level="6.7.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in-on-jorgensen-data"><i class="fa fa-check"></i><b>6.7.2</b> Zoom in on Jorgensen Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#so-can-we-estimate-resources-or-not"><i class="fa fa-check"></i><b>6.8</b> So Can We Estimate Resources or Not?</a></li>
+<li class="chapter" data-level="6.9" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#estimate-updating"><i class="fa fa-check"></i><b>6.9</b> Estimate Updating</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html"><i class="fa fa-check"></i><b>7</b> Sleep Deprivation and Software Engineering Performance</a><ul>
+<li class="chapter" data-level="7.1" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#pulling-an-all-nighter"><i class="fa fa-check"></i><b>7.1</b> “Pulling an All-Nighter”</a></li>
+<li class="chapter" data-level="7.2" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#research-question"><i class="fa fa-check"></i><b>7.2</b> Research Question</a></li>
+<li class="chapter" data-level="7.3" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#who-are-the-participants"><i class="fa fa-check"></i><b>7.3</b> Who are the participants?</a></li>
+<li class="chapter" data-level="7.4" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#quasi-experimental-setup"><i class="fa fa-check"></i><b>7.4</b> Quasi-experimental setup</a></li>
+<li class="chapter" data-level="7.5" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#how-to-read-scientific-papers"><i class="fa fa-check"></i><b>7.5</b> How to Read Scientific Papers</a></li>
+<li class="chapter" data-level="7.6" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#percentage-of-acceptance-asserts-passed"><i class="fa fa-check"></i><b>7.6</b> Percentage of Acceptance Asserts Passed</a></li>
+<li class="chapter" data-level="7.7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#episodes-and-conformance"><i class="fa fa-check"></i><b>7.7</b> Episodes and Conformance</a></li>
+<li class="chapter" data-level="7.8" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#nothing-is-normal"><i class="fa fa-check"></i><b>7.8</b> NOTHING IS NORMAL!!</a></li>
+<li class="chapter" data-level="7.9" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#violin-plots"><i class="fa fa-check"></i><b>7.9</b> Violin Plots</a></li>
+<li class="chapter" data-level="7.10" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#effect-size-cliffs-delta"><i class="fa fa-check"></i><b>7.10</b> Effect Size: Cliff’s Delta</a></li>
+<li class="chapter" data-level="7.11" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#parametric-vs.nonparametric-statistical-power"><i class="fa fa-check"></i><b>7.11</b> Parametric vs. NonParametric Statistical Power</a></li>
+<li class="chapter" data-level="7.12" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#wilcoxon-aka-mann-whitney-test"><i class="fa fa-check"></i><b>7.12</b> Wilcoxon (aka Mann-Whitney) Test</a></li>
+<li class="chapter" data-level="7.13" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#results"><i class="fa fa-check"></i><b>7.13</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html"><i class="fa fa-check"></i><b>8</b> Does It Really Matter to Test First or Test After?</a><ul>
+<li class="chapter" data-level="8.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#test-driven-development-process"><i class="fa fa-check"></i><b>8.1</b> Test-Driven Development Process</a></li>
+<li class="chapter" data-level="8.2" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#the-study"><i class="fa fa-check"></i><b>8.2</b> The Study</a></li>
+<li class="chapter" data-level="8.3" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#modeling-recipe"><i class="fa fa-check"></i><b>8.3</b> Modeling Recipe</a></li>
+<li class="chapter" data-level="8.4" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#outcomes-we-care-about"><i class="fa fa-check"></i><b>8.4</b> Outcomes We Care About</a></li>
+<li class="chapter" data-level="8.5" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#factors-we-measure"><i class="fa fa-check"></i><b>8.5</b> Factors We Measure</a></li>
+<li class="chapter" data-level="8.6" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#descriptive-statistics-1"><i class="fa fa-check"></i><b>8.6</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8.7" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-models"><i class="fa fa-check"></i><b>8.7</b> Let’s Talk About Models</a></li>
+<li class="chapter" data-level="8.8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#regression-analysis-vs.hypothesis-testing"><i class="fa fa-check"></i><b>8.8</b> Regression Analysis vs. Hypothesis Testing</a></li>
+<li class="chapter" data-level="8.9" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-interactions"><i class="fa fa-check"></i><b>8.9</b> Let’s Talk About Interactions</a></li>
+<li class="chapter" data-level="8.10" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#component-residual-plots"><i class="fa fa-check"></i><b>8.10</b> Component + Residual Plots</a></li>
+<li class="chapter" data-level="8.11" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#interpreting-regression-output"><i class="fa fa-check"></i><b>8.11</b> Interpreting Regression Output</a></li>
+<li class="chapter" data-level="8.12" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#evaluating-how-good-a-model-is-aic"><i class="fa fa-check"></i><b>8.12</b> Evaluating How Good a Model Is (AIC)</a><ul>
+<li class="chapter" data-level="8.12.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data"><i class="fa fa-check"></i><b>8.12.1</b> You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html"><i class="fa fa-check"></i><b>9</b> Developer Performance and Designing a New Grading System for Teams</a><ul>
+<li class="chapter" data-level="9.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-do-developers-differ-in-their-measurable-output-performance"><i class="fa fa-check"></i><b>9.1</b> How do developers differ in their measurable output performance?</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-measure-matters"><i class="fa fa-check"></i><b>9.1.1</b> The Measure Matters</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found."><i class="fa fa-check"></i><b>9.1.2</b> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#weighted-features"><i class="fa fa-check"></i><b>9.2</b> Weighted Features</a></li>
+<li class="chapter" data-level="9.3" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#investigating-the-grant-sackman-legend"><i class="fa fa-check"></i><b>9.3</b> Investigating the Grant-Sackman Legend</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think"><i class="fa fa-check"></i><b>9.3.1</b> How long do different programmers take to solve the same task? It’s not what you think!</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-study-1"><i class="fa fa-check"></i><b>9.3.2</b> The Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#order-effects"><i class="fa fa-check"></i><b>9.4</b> Order Effects</a></li>
+<li class="chapter" data-level="9.5" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#interaction-plots"><i class="fa fa-check"></i><b>9.5</b> Interaction Plots</a></li>
+<li class="chapter" data-level="9.6" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#back-to-basics-how-to-measure-performance-at-all"><i class="fa fa-check"></i><b>9.6</b> Back to Basics: How to Measure Performance at all</a></li>
+<li class="chapter" data-level="9.7" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#in-your-ideal-world"><i class="fa fa-check"></i><b>9.7</b> In Your Ideal World…</a><ul>
+<li class="chapter" data-level="9.7.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-should-group-projects-be-graded-fairly"><i class="fa fa-check"></i><b>9.7.1</b> How should group projects be graded fairly?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="function-modification.html"><a href="function-modification.html"><i class="fa fa-check"></i><b>10</b> Function Modification</a><ul>
+<li class="chapter" data-level="10.1" data-path="function-modification.html"><a href="function-modification.html#figure-4.50-number-of-functions"><i class="fa fa-check"></i><b>10.1</b> Figure 4.50: Number of functions</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html"><i class="fa fa-check"></i><b>11</b> Bayesian vs Frequentist Statistics</a><ul>
+<li class="chapter" data-level="11.1" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#frequentist-statistics"><i class="fa fa-check"></i><b>11.1</b> Frequentist Statistics</a></li>
+<li class="chapter" data-level="11.2" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#bayesian-statistics"><i class="fa fa-check"></i><b>11.2</b> Bayesian Statistics</a></li>
+<li class="chapter" data-level="11.3" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#original-study"><i class="fa fa-check"></i><b>11.3</b> Original Study</a></li>
+<li class="chapter" data-level="11.4" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#mathematical-peacocking-stop-it"><i class="fa fa-check"></i><b>11.4</b> Mathematical Peacocking, stop it!</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html"><i class="fa fa-check"></i><b>12</b> Code Quality and Lines of Code</a><ul>
+<li class="chapter" data-level="12.0.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#redundancy"><i class="fa fa-check"></i><b>12.0.1</b> Redundancy?</a></li>
+<li class="chapter" data-level="12.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#how-does-complexity-relate-to-quality"><i class="fa fa-check"></i><b>12.1</b> How Does Complexity Relate to Quality?</a></li>
+<li class="chapter" data-level="12.2" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#cycolmatic-complexity"><i class="fa fa-check"></i><b>12.2</b> Cycolmatic Complexity</a></li>
+<li class="chapter" data-level="12.3" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#big-data-lines-of-code-vs.function-declarations"><i class="fa fa-check"></i><b>12.3</b> “Big Data”! Lines of Code vs. Function Declarations</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html"><i class="fa fa-check"></i><b>13</b> Number of Lines versus Number of Functions in Different Languages</a><ul>
+<li class="chapter" data-level="13.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#ugh-why-do-we-have-to-write-this-in-that-language"><i class="fa fa-check"></i><b>13.1</b> “Ugh, why do we have to write this in <em>that</em> language?”</a></li>
+<li class="chapter" data-level="13.2" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-does-it-mean-to-be-different"><i class="fa fa-check"></i><b>13.2</b> What does it mean to be “different”?</a></li>
+<li class="chapter" data-level="13.3" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-does-the-number-of-lines-relate-to-the-number-of-function-definitions"><i class="fa fa-check"></i><b>13.3</b> How does the number of lines relate to the number of function definitions?</a></li>
+<li class="chapter" data-level="13.4" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-do-i-parse-a-programming-language-abstract-syntax-trees"><i class="fa fa-check"></i><b>13.4</b> How do I parse a programming language? Abstract Syntax Trees</a></li>
+<li class="chapter" data-level="13.5" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#load-your-libraries-2"><i class="fa fa-check"></i><b>13.5</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="13.6" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#read-in-your-data"><i class="fa fa-check"></i><b>13.6</b> Read in Your Data</a></li>
+<li class="chapter" data-level="13.7" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#dont-compare-apples-to-oranges"><i class="fa fa-check"></i><b>13.7</b> Don’t Compare Apples to Oranges</a></li>
+<li class="chapter" data-level="13.8" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#sample-bias"><i class="fa fa-check"></i><b>13.8</b> Sample Bias</a></li>
+<li class="chapter" data-level="13.9" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#normality-matters"><i class="fa fa-check"></i><b>13.9</b> Normality Matters</a></li>
+<li class="chapter" data-level="13.10" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#does-comparing-averages-make-sense"><i class="fa fa-check"></i><b>13.10</b> Does Comparing Averages Make Sense?</a><ul>
+<li class="chapter" data-level="13.10.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#nonparametric-tests"><i class="fa fa-check"></i><b>13.10.1</b> NonParametric Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="13.11" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-to-compare-spreads"><i class="fa fa-check"></i><b>13.11</b> How to Compare Spreads</a><ul>
+<li class="chapter" data-level="13.11.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#clustering"><i class="fa fa-check"></i><b>13.11.1</b> Clustering</a></li>
+</ul></li>
+<li class="chapter" data-level="13.12" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-have-we-learned"><i class="fa fa-check"></i><b>13.12</b> What Have We Learned?</a></li>
+<li class="chapter" data-level="13.13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#next-steps-and-other-questions"><i class="fa fa-check"></i><b>13.13</b> Next Steps and Other Questions</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i><b>A</b> License</a></li>
+<li class="chapter" data-level="B" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>B</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="B.1" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-standards"><i class="fa fa-check"></i><b>B.1</b> Our Standards</a></li>
+<li class="chapter" data-level="B.2" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-responsibilities"><i class="fa fa-check"></i><b>B.2</b> Our Responsibilities</a></li>
+<li class="chapter" data-level="B.3" data-path="code-of-conduct.html"><a href="code-of-conduct.html#scope"><i class="fa fa-check"></i><b>B.3</b> Scope</a></li>
+<li class="chapter" data-level="B.4" data-path="code-of-conduct.html"><a href="code-of-conduct.html#enforcement"><i class="fa fa-check"></i><b>B.4</b> Enforcement</a></li>
+<li class="chapter" data-level="B.5" data-path="code-of-conduct.html"><a href="code-of-conduct.html#attribution"><i class="fa fa-check"></i><b>B.5</b> Attribution</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="contributing.html"><a href="contributing.html"><i class="fa fa-check"></i><b>C</b> Contributing</a><ul>
+<li class="chapter" data-level="C.1" data-path="contributing.html"><a href="contributing.html#contributors"><i class="fa fa-check"></i><b>C.1</b> Contributors</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>D</b> Glossary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Software Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="developer-performance-and-designing-a-new-grading-system-for-teams" class="section level1">
+<h1><span class="header-section-number">Chapter 9</span> Developer Performance and Designing a New Grading System for Teams</h1>
+<p>Someone wise once asked me:</p>
+<blockquote>
+<p><em>“How do you choose a heart surgeon?”</em></p>
+<p>“I don’t know, how?”</p>
+<p><em>“You look for the surgeon with the highest failure rate who is still accepting patients”</em></p>
+<p>“And why on earth would you want that?”</p>
+<p>“<em>Because it means that they’re getting</em> <strong>all the hardest cases</strong> <em>and people still trust them to do the surgery</em>.”</p>
+</blockquote>
+<p>This little exchange is surprisingly relevant to how we measure developer performance. Bear with me. If I were to tell you that the best developer at my company fixed the least number of bugs, what would you think? <em>Perhaps they are fixing the really tough ones</em>. It could also be that they simply don’t make mistakes but that is just untrue. We all make mistakes in our code and spend a lot of time debugging (novices more than experts, but also the problems get harder so there’s a lot at play!). Imagine that at the end of the workweek, everyone has to report how many bugs they fixed. One person reports fixing 78 and another person reports fixing 2. Who is the better developer?</p>
+<p>Maybe you have some theories, or some immediate reactions. Perhaps you have some explanations of why that’s not enough information. This is great practice for figuring out how to measure a concept like performance.</p>
+<p>One way to measure performance is to look at “number of <a href="glossary.html#bug"><strong>faults</strong></a> found” in software testing. Finding and fixing faults may be a reasonable way to determine if developers can identify a problem and implement solutions to help software behave as expected. Reasonable enough, right? Hopefully you’re learning that when we measure <em>anything</em>, we have to<a href="glossary.html#operationalize"><strong>operationalize</strong></a> it in a reasonable way, taking into account prior research and interpreting results with our nuanced operationaliztion in mind. “Performance” is not necessarily captured entirely by “number of faults found” but it is totally reasonable to start somewhere. We take a look at data provided from Iivonen’s <a href="http://www.soberit.hut.fi/espa/publications/MSc-Thesis-Iivonen-2009-10-30.pdf"><em>Identifying and Characterizing Highly Performing Testers–A Case Study in Three Software Product Companies</em></a></p>
+<center>
+<img src="static/realworld.jpg" />
+</center>
+<p><br></p>
+<p><a href="http://www.knosof.co.uk/ESEUR/ESEUR-draft.pdf" class="uri">http://www.knosof.co.uk/ESEUR/ESEUR-draft.pdf</a> pg 52</p>
+<div id="how-do-developers-differ-in-their-measurable-output-performance" class="section level2">
+<h2><span class="header-section-number">9.1</span> How do developers differ in their measurable output performance?</h2>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(knitr)
+data &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/performance_dev.csv&quot;</span>)
+
+<span class="co">#just adding in a check on the percentages, we see some off-by-ones but that&#39;s probably due to rounding</span>
+data<span class="op">$</span>Totals &lt;-<span class="st"> </span>data<span class="op">$</span>Fixed <span class="op">+</span><span class="st"> </span>data<span class="op">$</span>No.Fix <span class="op">+</span>data<span class="op">$</span>Duplicate <span class="op">+</span><span class="st"> </span>data<span class="op">$</span>Cannot.reproduce
+
+<span class="kw">kable</span>(data)<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Tester
+</th>
+<th style="text-align:right;">
+Defects
+</th>
+<th style="text-align:right;">
+Extra.Hot
+</th>
+<th style="text-align:right;">
+Hot
+</th>
+<th style="text-align:right;">
+Normal
+</th>
+<th style="text-align:right;">
+Status.Open
+</th>
+<th style="text-align:right;">
+Fixed
+</th>
+<th style="text-align:right;">
+No.Fix
+</th>
+<th style="text-align:right;">
+Duplicate
+</th>
+<th style="text-align:right;">
+Cannot.reproduce
+</th>
+<th style="text-align:right;">
+Totals
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:right;">
+74
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+95
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+62
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+B
+</td>
+<td style="text-align:right;">
+73
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+87
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+C
+</td>
+<td style="text-align:right;">
+70
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+99
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+D
+</td>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+73
+</td>
+<td style="text-align:right;">
+33
+</td>
+<td style="text-align:right;">
+85
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+E
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+82
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+101
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+F
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+78
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+99
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+G
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+99
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+H
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+53
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+94
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+I
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+75
+</td>
+<td style="text-align:right;">
+42
+</td>
+<td style="text-align:right;">
+100
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+100
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+K
+</td>
+<td style="text-align:right;">
+80
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+90
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+L
+</td>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+80
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+M
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+67
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+97
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+N
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+42
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+101
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note that everything except the first column is in percentages</strong></p>
+<div id="the-measure-matters" class="section level3">
+<h3><span class="header-section-number">9.1.1</span> The Measure Matters</h3>
+<p>Here we have the developer with the <em>least</em> <a href="glossary.html#bug"><strong>defects</strong></a> and the developer with the <em>most</em> defects. Let’s play with <a href="glossary.html#persona"><strong>personas</strong></a> a little bit:</p>
+<p><strong>Jesse Jordan (Tester J)</strong> found 2 defects, each self-reported as “Normal” faults. They fixed one of them, but couldn’t fix the other. The paper points out that Jesse actually resigned during the data collection period, and this is only a partial time series. We don’t know what actually happened to Jesse, or why they resigned.</p>
+<pre class="sourceCode r"><code class="sourceCode r">data[data<span class="op">$</span>Defects<span class="op">==</span><span class="kw">min</span>(data<span class="op">$</span>Defects),]</code></pre>
+<pre><code>##    Tester Defects Extra.Hot Hot Normal Status.Open Fixed No.Fix Duplicate
+## 10      J       2         0   0    100           0    50     50         0
+##    Cannot.reproduce Totals
+## 10                0    100</code></pre>
+<p><strong>Kendall Kennedy (Tester K)</strong> found 80 defects. They’re still working on 13% of the faults, but for the finished ones they fixed 90%. They weren’t able to fix 7% of those, though. They labeled the faults as primarily “Hot”, with a few “Normal” and a few “Extra Hot”. 3% were just not reproducible at all.</p>
+<pre class="sourceCode r"><code class="sourceCode r">data[data<span class="op">$</span>Defects<span class="op">==</span><span class="kw">max</span>(data<span class="op">$</span>Defects),]</code></pre>
+<pre><code>##    Tester Defects Extra.Hot Hot Normal Status.Open Fixed No.Fix Duplicate
+## 11      K      80        21  59     20          13    90      7         0
+##    Cannot.reproduce Totals
+## 11                3    100</code></pre>
+</div>
+<div id="do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found." class="section level3">
+<h3><span class="header-section-number">9.1.2</span> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</h3>
+<p>These lessons are here not only to provide some statistical skills but also to get you thinking about <em>how to <a href="glossary.html#measure"><strong>measure</strong></a> things</em>. Towards the end of this lesson, we will also try to devise a system for <strong>grading group work</strong>. Keep that in mind as we operationalize what it means to measure performance.</p>
+</div>
+</div>
+<div id="weighted-features" class="section level2">
+<h2><span class="header-section-number">9.2</span> Weighted Features</h2>
+<p>Each of the columns represents a <em>feature of interest</em>. If you’ve heard the term “feature engineering” when reading about Big Data or Machine Learning, it’s talking about choosing which <a href="glossary.html#factor"><strong>factors</strong></a> to pay attention to. Sometimes we get so nervous about the buzzwords like “Machine Learning” and don’t ever get the chance to break down what it all really means. Well, this problem is an introduction to what it might mean to select features and combine them to predict an outcome. Whether it’s determining what series you will watch on Netflix, or how well you are performing at your job, this kind of problem persists across all disciplines. It might occur to you that <em>it’s simply not fair</em> to use such a measure to determine someone’s productivity. Most of the time, you’d probably be correct. Our data sources, the people designing the measures, and the people interpreting the results are ill-equipped to account for the tons of diversity in the world. Hopefully now that you’re armed with more statistical know-how, you’d be able to better advocate for yourself against harmful models.</p>
+<p>While it may not be ideal to use a blanket measure for someone’s productivity, it might still be useful to implement different support systems for workers in a company; if someone is struggling to feel productive and accomplished, perhaps we could catch it with some metrics and intervene to help them be the most fulfilled version of themselves.</p>
+<p>We discussed that “number of faults found” isn’t the best measure of performance in isolation, and we talked about how you need to include other features in combination. But should every feature be <a href="glossary.html#weight"><strong>weighted</strong></a> equally? Or do some things matter more than others? In the performance data we have, we even have the developer ratings of how <em>serious</em> the faults were that they found. Let’s look at how Jesse and Kendall rated everything.</p>
+<pre class="sourceCode r"><code class="sourceCode r">min_and_max &lt;-<span class="st"> </span>data[data<span class="op">$</span>Defects<span class="op">==</span><span class="kw">max</span>(data<span class="op">$</span>Defects) <span class="op">|</span><span class="st"> </span>data<span class="op">$</span>Defects<span class="op">==</span><span class="kw">min</span>(data<span class="op">$</span>Defects) ,] <span class="co">#an overly verbose way to do this</span>
+
+<span class="kw">ggplot</span>(data,<span class="kw">aes</span>(Defects,Fixed,<span class="dt">color=</span>Tester))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Number of Defects Found&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Percentage Fixed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Defects Found by Percentage Fixed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="dev_performance_grading_files/figure-html/unnamed-chunk-4-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cor</span>(data<span class="op">$</span>Defects,data<span class="op">$</span>Fixed) <span class="co">#nada</span></code></pre>
+<pre><code>## [1] 0.1754979</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#I want the distribution of Extra Hot, Hot, Normal for each tester</span>
+<span class="kw">library</span>(tidyr)
+hot &lt;-<span class="st"> </span><span class="kw">gather</span>(data, Heat, Value, <span class="kw">c</span>(<span class="st">&quot;Extra.Hot&quot;</span>,<span class="st">&quot;Hot&quot;</span>,<span class="st">&quot;Normal&quot;</span>), <span class="dt">factor_key=</span><span class="ot">TRUE</span>)
+
+<span class="kw">ggplot</span>(hot,<span class="kw">aes</span>(Value,<span class="dt">fill=</span>Heat))<span class="op">+</span>
+<span class="st">  </span><span class="kw">facet_wrap</span>(<span class="op">~</span>Heat)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="kw">aes</span>(<span class="dt">y =</span> ..density..), <span class="dt">color=</span><span class="st">&quot;black&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="kw">aes</span>(<span class="dt">y =</span> ..density..),<span class="dt">color=</span><span class="st">&quot;black&quot;</span>,<span class="dt">fill=</span><span class="st">&quot;black&quot;</span>, <span class="dt">alpha=</span>.<span class="dv">2</span>,<span class="dt">stat =</span> <span class="st">&#39;density&#39;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="dev_performance_grading_files/figure-html/unnamed-chunk-4-2.png" /><!-- --></p>
+<p>We can see that “Extra Hot” faults occur with a lower frequency (the majority being close to 0), and “Normal” faults are…well, normal. We don’t actually have access to how many of the <strong>Fixed</strong> faults were which Heat Level, but you might imagine that fixing an “Extra Hot” should count for more than fixing a “Normal” fault. Keep in mind that these are self-reported Heat levels, as well. One person’s “Normal” might be someone else’s “Extra Hot”. But is there a way to give someone more credit for fixing an “Extra Hot” fault than for fixing a “Normal” one? Or would that simply incentivize developers to label all of their work as “Extra Hot”? Maybe other developers could rate how difficult the faults were, so that people wouldn’t game the system. But that would also be really unfair, as someone might have worked <em>really</em> hard on something that would take someone else less time. Or another developer may not have the expertise to actually rate the severity of a fault for another developer.</p>
+<p><a href="glossary.html#weights"><strong>Weighted Features</strong></a> are a foundation in machine learning models. Algorithms can actually systematically infer the proper combination of weights on each feature that most accurately predicts an outcome variable. But this is a complex interaction between algorithm and experimental design. An algorithm can only work with what was <a href="glossary.html#measure"><strong>measured</strong></a>; and sometimes our <a href="glossary.html#operationalize"><strong>operationalization</strong></a> of what should be measured isn’t valid. This is a delicate balance that hopefully comes with experience, but be reminded that you always have the power to question even the most confident statistical result!</p>
+<p>TODO: explain <a href="glossary.html#anova"><strong>anova</strong></a></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#you can play around with different combos that you think might affect the percentage Fixed.</span>
+<span class="co">#Note: No.Fix will predict Fixed, because they&#39;re related by their sum. It&#39;s not meaningful in any predictive way</span>
+model &lt;-<span class="st"> </span><span class="kw">glm</span>(data<span class="op">$</span>Fixed<span class="op">~</span>data<span class="op">$</span>Defects<span class="op">+</span>data<span class="op">$</span>Status.Open<span class="op">+</span>data<span class="op">$</span>Extra.Hot)
+<span class="kw">Anova</span>(model) <span class="co">#significant effect of Status.Open and Extra.Hot on percentage Fixed, can you even describe what that might mean?</span></code></pre>
+<pre><code>## Analysis of Deviance Table (Type II tests)
+## 
+## Response: data$Fixed
+##                  LR Chisq Df Pr(&gt;Chisq)   
+## data$Defects       1.6298  1   0.201735   
+## data$Status.Open   6.5808  1   0.010308 * 
+## data$Extra.Hot     9.5049  1   0.002049 **
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">model &lt;-<span class="st"> </span><span class="kw">glm</span>(data<span class="op">$</span>Fixed<span class="op">~</span>data<span class="op">$</span>Defects)
+<span class="kw">Anova</span>(model) <span class="co">#no significance</span></code></pre>
+<pre><code>## Analysis of Deviance Table (Type II tests)
+## 
+## Response: data$Fixed
+##              LR Chisq Df Pr(&gt;Chisq)
+## data$Defects  0.38134  1     0.5369</code></pre>
+</div>
+<div id="investigating-the-grant-sackman-legend" class="section level2">
+<h2><span class="header-section-number">9.3</span> Investigating the Grant-Sackman Legend</h2>
+<div id="how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think" class="section level3">
+<h3><span class="header-section-number">9.3.1</span> How long do different programmers take to solve the same task? It’s not what you think!</h3>
+<p>As I delve more into the world of software engineering, I’m uncovering countless myths, folklore, and dogma. It seems that software engineers are particularly religious when it comes to their opinions and cited “facts”, choosing multiple hills to die on, over and over. This might be part of the engineering culture, where people must consistently argue to prove their value, without a ton of access and experience with academic literature. This is a product of how we value employees, productivity, and “sounding smart” and we are all victim to it. So let’s strip back some of the layers of the things we thought we knew, and try to approach these things with an evidence-based mindset. And hey, it might be even more fun to argue when you’ve got proper statistical skills and citations in your back pocket!</p>
+<p>Apparently, the software world loves to cite the “fact” that the difference between the worst programmer and best programmer in a group is about <em>10-fold</em>. It’s one of those things that is either commonly stated or debated, but nevertheless it persists. Personally, I find it to be yet another excuse to try to rank yourself against others; seeing where you “fit” in the hierarchy of productivity and performance. Unfortunately, no one really wants to be called out as the “worst” programmer, and if you really are the “best” programmer, you’ve got a million opportunities already! Realistically, we all probably have a distribution of skills that are each useful for different problems. Here’s a cheesy, mathematical, motivational comic I drew when I was in my first research job learning Bayesian inference and constantly feeling behind:</p>
+<center>
+<p><img src="static/distrib1.jpg" style="border:3px solid black; height:240px;"></img><img src="static/distrib2.jpg" style="height:240px;border:3px solid black;margin-left:5%;"></img></p>
+</center>
+<p>Okay so let’s investigate the original culprit of this 10-fold measure.</p>
+</div>
+<div id="the-study-1" class="section level3">
+<h3><span class="header-section-number">9.3.2</span> The Study</h3>
+<p>12 developers participated in 2 programming tasks, each with a <code>coding</code> portion and a <a href="glossary.html#bug"><code>debugging</code></a> portion. One task was to do some algebra operations, and the other task was to find the proper path through a 20x20 maze. Half of the developers were in an <code>online</code> group, and the other half in an <code>offline</code> group. They were timed at everything they did. This is the study that is the origin of the famous claim that there’s such a big discrepancy between programmers in how fast they can do any given task. This original study came up with a 28:1 ratio between the best to worst programmer times.</p>
+<blockquote>
+<p>There are three problems with this number:</p>
+<ol style="list-style-type: decimal">
+<li><p>It is wrong.</p></li>
+<li><p>Comparing the best with the worst is inappropriate.</p></li>
+<li><p>One should use more data to make such a claim.</p></li>
+</ol>
+</blockquote>
+<p>So, those dingbats back in the 70s tried to say that for any given project, theres a 28:1 ratio of time-taken/ability between the worst developer and the best developer, meaning theres tons of variation for any developer and its a crapshoot. They literally did their comparisons incorrectly, comparing groups that could not logically be compared. They also allowed developers to code in different langugaes, with some of the programmers choosing Assembly; no one knows why. The measure, <em>if anything</em> should be about 9:1, but the study is riddled with issues. We walk through a few of these issues, and look at that <a href="https://pdfs.semanticscholar.org/7fa6/bb45efda15fd9aef3c225b2dd99a7dc018d6.pdf"><strong>original data</strong></a> below:</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#</span>
+<span class="co"># GS-perm-diff.R, 29 Aug 16</span>
+<span class="co"># Data from:</span>
+<span class="co"># The 28:1 {Grant}/{Sackman} legend is misleading, or: {How} large is interpersonal variation really?</span>
+<span class="co"># Lutz Prechelt</span>
+<span class="co">#</span>
+<span class="co"># Example from:</span>
+<span class="co"># Evidence-based Software Engineering: based on the publicly available data</span>
+<span class="co"># Derek M. Jones</span>
+<span class="co">#</span>
+<span class="co"># TAG experiment developer performance</span>
+
+
+<span class="kw">source</span>(<span class="st">&quot;data/ESEUR_config.r&quot;</span>) <span class="co"># </span><span class="al">FIXME</span>
+
+
+
+gs=<span class="kw">read.csv</span>(<span class="kw">paste0</span>(ESEUR_dir, <span class="st">&quot;data/grant-sackman.csv.xz&quot;</span>), <span class="dt">as.is=</span><span class="ot">TRUE</span>)
+gs2 &lt;-gs
+gs2<span class="op">$</span>task[gs<span class="op">$</span>group<span class="op">==</span><span class="st">&quot;online&quot;</span>] &lt;-<span class="st"> </span><span class="kw">paste</span>(gs<span class="op">$</span>task[gs<span class="op">$</span>group<span class="op">==</span><span class="st">&quot;online&quot;</span>],<span class="st">&quot;_online&quot;</span>)
+gs2<span class="op">$</span>task[gs<span class="op">$</span>group<span class="op">==</span><span class="st">&quot;offline&quot;</span>] &lt;-<span class="st"> </span><span class="kw">paste</span>(gs<span class="op">$</span>task[gs<span class="op">$</span>group<span class="op">==</span><span class="st">&quot;offline&quot;</span>],<span class="st">&quot;_offline&quot;</span>)
+
+plt =<span class="st"> </span><span class="kw">ggplot</span>(gs2,<span class="kw">aes</span>(task,time,<span class="dt">fill=</span>type,<span class="dt">linetype=</span>group))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_boxplot</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="dev_performance_grading_files/figure-html/unnamed-chunk-6-1.png" /><!-- --></p>
+</div>
+</div>
+<div id="order-effects" class="section level2">
+<h2><span class="header-section-number">9.4</span> Order Effects</h2>
+<p>It’s important to explain order effects, because they have the potential to seriously mess with experimental results. <a href="glossary.html#order"><strong>Order effects</strong></a> can sometimes be found in a <a href="glossary.html#withinsubjects"><strong>within-subjects</strong></a> experimental design. <strong>Within-subjects</strong> means that each participant does more than one condition. It makes sense to mix around the order that participants see each condition, because of <a href="glossary.html#learningeffects"><strong>learning effects</strong></a>, <a href="glossary.html#primingeffects"><strong>priming</strong></a>, or <strong>fatigue</strong>. Imagine the following scenario:</p>
+<blockquote>
+<p>First Task: programmers must implement a Tetris game</p>
+<p>Second Task: programmers choose between creating a Chess game or making a data visualization</p>
+</blockquote>
+<p><strong><em>Is it possible that the first task affects the choice in the second task?</em></strong> If they were reversed, would something else happen? Maybe programmers get tired, or get used to creating some graphics and want to continue thinking about creating games. Or maybe they’re so sick of making games that they always choose to make a data visualization next. Order can affect things. It makes the most sense to randomly present the conditions to your participants, to try to “wash out” any effects like that in the final results. If, regardless of Order, participants are always choosing to make a Chess game, perhaps it’s just the more interesting option. But sometimes we can have accidental effects of Order that are difficult to anticipate. What if we mix around Order, but for the people who made Tetris first, they <em>always</em> choose Chess? But for people who didn’t make Tetris first, it’s more of a 50-50 toss up? That is an <strong>Order Effect</strong>.</p>
+<p>You can test for Order effects by modeling Order as an actual feature in your model. Normally, we simply mix up the Order to avoid any confounding factors. But what if Order is the confound, itself? We want to look at the <a href="glossary.html#weights"><em>weight</em></a> that Order is having on our <a href="glossary.html#dependentvariable"><strong>outcome variable</strong></a>:</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#is there an order effect?</span>
+
+model =<span class="st"> </span><span class="kw">lm</span>(time <span class="op">~</span>seq,
+           <span class="dt">data =</span> gs)
+
+
+<span class="kw">Anova</span>(model,
+      <span class="dt">type =</span> <span class="st">&quot;II&quot;</span>)</code></pre>
+<pre><code>## Anova Table (Type II tests)
+## 
+## Response: time
+##              Sum Sq Df F value    Pr(&gt;F)    
+## seq        44686140  1  14.198 0.0004669 ***
+## Residuals 144774360 46                      
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<p>It turns out that there <em>is</em> an effect of Order, which is yet another problem with the commonly parroted Grant-Sackman study.</p>
+</div>
+<div id="interaction-plots" class="section level2">
+<h2><span class="header-section-number">9.5</span> Interaction Plots</h2>
+<p>Turns out we might have another Boogeyman affecting our results. It’s called an <a href="glossary.html#interaction"><strong>interaction</strong></a>. This is when you have two <a href="glossary.html#factor"><strong>categorical factors</strong></a> that are affecting the outcome variable in contradiction. <strong>Stats Cheatcode: if you plot the variables and any of them cross, you’ve got an interaction effect</strong>. These aren’t necessarily <em>bad</em> but they need to be taken into account. This is because taking the means without considering the interacting factor will result in some value somewhere in the middle, when in fact, it’s systematically dependent on some other factor you’d be missing.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">interaction.plot</span>(gs<span class="op">$</span>group,gs<span class="op">$</span>task,gs<span class="op">$</span>time,<span class="dt">col=</span><span class="dv">2</span><span class="op">:</span><span class="dv">5</span>)</code></pre>
+<p><img src="dev_performance_grading_files/figure-html/unnamed-chunk-8-1.png" /><!-- --></p>
+<p>Here is a little bit tricky but let’s try to unpack it. We do see two lines crossing, so we know we have an interaction somewhere. It looks like the crossing pair is between <code>C_algebra</code> and <code>D_algebra</code>. What does that mean? So, first off, we are comparing <strong>Coding</strong> the algebra task, and <strong>Debugging</strong> the algebra task. There is an interaction across <code>online</code> and <code>offline</code> (groups of interest). Take a deep breath, don’t worry I’m kind of confused too. Okay.</p>
+<p><strong>OFFLINE</strong>:</p>
+<ul>
+<li><p>D_algebra: <code>mean = 3010</code></p></li>
+<li><p>C_algebra: <code>mean = 2100</code></p></li>
+</ul>
+<p><strong>ONLINE</strong>:</p>
+<ul>
+<li><p>D_algebra: <code>mean = 2070</code></p></li>
+<li><p>C_algebra: <code>mean = 3460</code></p></li>
+</ul>
+<p>So that means that if you were in the <code>offline</code> condition, you <strong>debug slower than you code</strong>. But if you were in the <code>online</code> condition, you <strong>code slower than you debug</strong>. That’s not a meaningless result! It was a little bit tricky to get to, but that’s actually something to pay attention to. It’s also weird that it <em>didn’t</em> happen for the <code>maze</code> task. So something funky is going on, and these are the kind of hidden disaster-storms you can find in your data and <em>need to account for</em>.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">interaction.plot</span>(gs<span class="op">$</span>task,gs<span class="op">$</span>group,gs<span class="op">$</span>time,<span class="dt">col=</span><span class="dv">2</span><span class="op">:</span><span class="dv">3</span>)</code></pre>
+<p><img src="dev_performance_grading_files/figure-html/unnamed-chunk-9-1.png" /><!-- --></p>
+<p>Here, we have another crossing in the interaction plot. Let’s break it down like we did in the last one.</p>
+<p><strong>CODING ALGEBRA</strong>:</p>
+<ul>
+<li><p>offline: <code>mean = 2100</code></p></li>
+<li><p>online: <code>mean = 3460</code></p></li>
+</ul>
+<p><strong>CODING MAZE</strong>:</p>
+<ul>
+<li><p>offline: <code>mean = 1080</code></p></li>
+<li><p>online: <code>mean = 480</code></p></li>
+</ul>
+<p>So this means that for coding the maze task, <code>offline</code> coding was slower than <code>online</code> coding, but for the algebra task, <code>offline</code> coding was faster than <code>online</code> coding. You can try to come up with what that means about the tasks themselves (also noting that the maze task took less time overall), but what I’m trying to point out is that these are the things that a responsible statitician <em>must</em> look into when they have data they want to make claims about. Certain interactions can actually invalidate the entire experiment. And if you take nothing else away, just remember: <em>parallel = move along, crossed = something’s wrong!</em> I just made that up, but it’s probably good.</p>
+<pre class="sourceCode r"><code class="sourceCode r">summary &lt;-<span class="st"> </span>gs <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">group_by</span>(task,group) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">summarise</span>(<span class="dt">mean=</span><span class="kw">mean</span>(time),<span class="dt">min=</span><span class="kw">min</span>(time),<span class="dt">max=</span><span class="kw">max</span>(time),<span class="dt">ratio=</span><span class="kw">max</span>(time)<span class="op">/</span><span class="kw">min</span>(time))
+<span class="kw">kable</span>(summary)<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+task
+</th>
+<th style="text-align:left;">
+group
+</th>
+<th style="text-align:right;">
+mean
+</th>
+<th style="text-align:right;">
+min
+</th>
+<th style="text-align:right;">
+max
+</th>
+<th style="text-align:right;">
+ratio
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+C_algebra
+</td>
+<td style="text-align:left;">
+offline
+</td>
+<td style="text-align:right;">
+2100
+</td>
+<td style="text-align:right;">
+420
+</td>
+<td style="text-align:right;">
+5280
+</td>
+<td style="text-align:right;">
+12.571429
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+C_algebra
+</td>
+<td style="text-align:left;">
+online
+</td>
+<td style="text-align:right;">
+3460
+</td>
+<td style="text-align:right;">
+660
+</td>
+<td style="text-align:right;">
+6660
+</td>
+<td style="text-align:right;">
+10.090909
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+C_maze
+</td>
+<td style="text-align:left;">
+offline
+</td>
+<td style="text-align:right;">
+1080
+</td>
+<td style="text-align:right;">
+240
+</td>
+<td style="text-align:right;">
+3000
+</td>
+<td style="text-align:right;">
+12.500000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+C_maze
+</td>
+<td style="text-align:left;">
+online
+</td>
+<td style="text-align:right;">
+480
+</td>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:right;">
+960
+</td>
+<td style="text-align:right;">
+8.000000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+D_algebra
+</td>
+<td style="text-align:left;">
+offline
+</td>
+<td style="text-align:right;">
+3010
+</td>
+<td style="text-align:right;">
+1200
+</td>
+<td style="text-align:right;">
+10200
+</td>
+<td style="text-align:right;">
+8.500000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+D_algebra
+</td>
+<td style="text-align:left;">
+online
+</td>
+<td style="text-align:right;">
+2070
+</td>
+<td style="text-align:right;">
+360
+</td>
+<td style="text-align:right;">
+5100
+</td>
+<td style="text-align:right;">
+14.166667
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+D_maze
+</td>
+<td style="text-align:left;">
+offline
+</td>
+<td style="text-align:right;">
+740
+</td>
+<td style="text-align:right;">
+270
+</td>
+<td style="text-align:right;">
+1560
+</td>
+<td style="text-align:right;">
+5.777778
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+D_maze
+</td>
+<td style="text-align:left;">
+online
+</td>
+<td style="text-align:right;">
+240
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+750
+</td>
+<td style="text-align:right;">
+12.500000
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="back-to-basics-how-to-measure-performance-at-all" class="section level2">
+<h2><span class="header-section-number">9.6</span> Back to Basics: How to Measure Performance at all</h2>
+<p><a href="https://catenary.wordpress.com/2011/01/12/the-thorny-and-the-obvious/" class="uri">https://catenary.wordpress.com/2011/01/12/the-thorny-and-the-obvious/</a></p>
+<p>The problem is not necessarily in how rigorously we are measuring performance; though having more participants and less confounding variables is a must! The real problem lies more in the idea that we are measuring performance at all; without an agreed-upon definition of what that means and how it helps. Several companies use performance metrics to monitor employees, give bonuses, or terminate employment. But given all of the statistical caveats we have looked at in this lesson, how can we really be sure that those measures aren’t more harmful than helpful? Your next task will be to design a system for measuring group performance for a project. Make sure to provide argumentation for why your measure is valid, reasonable, and helpful.</p>
+</div>
+<div id="in-your-ideal-world" class="section level2">
+<h2><span class="header-section-number">9.7</span> In Your Ideal World…</h2>
+<div id="how-should-group-projects-be-graded-fairly" class="section level3">
+<h3><span class="header-section-number">9.7.1</span> How should group projects be graded fairly?</h3>
+<center>
+<img src="static/passing.jpg" />
+</center>
+<p><br></p>
+<ul>
+<li>define your outcome variables</li>
+<li>define factors affecting the outcome variables</li>
+<li>define the weighting system</li>
+<li>define how the information will be combined to give a final “score”</li>
+<li>justify your design</li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="does-it-really-matter-to-test-first-or-test-after.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="function-modification.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio-education/ds4se/edit/master/dev_performance_grading.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ds4se.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Curiosity and Play | Data Science for Software Engineering</title>
+  <meta name="description" content="An introduction to data science for software engineers" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Curiosity and Play | Data Science for Software Engineering" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="An introduction to data science for software engineers" />
+  <meta name="github-repo" content="rstudio-education/ds4se" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Curiosity and Play | Data Science for Software Engineering" />
+  
+  <meta name="twitter:description" content="An introduction to data science for software engineers" />
+  
+
+<meta name="author" content="Yim Register" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="stack-overflow-queries.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">DS4SE</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#s:index-personas"><i class="fa fa-check"></i><b>1.1</b> Who are these lessons for?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#s:index-install"><i class="fa fa-check"></i><b>1.2</b> How do I get started?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#s:index-also"><i class="fa fa-check"></i><b>1.3</b> See Also</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html"><i class="fa fa-check"></i><b>2</b> Curiosity and Play</a><ul>
+<li class="chapter" data-level="2.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#curiosity-killed-the-cat-but-satisfaction-brought-it-back"><i class="fa fa-check"></i><b>2.1</b> Curiosity killed the cat, but satisfaction brought it back</a></li>
+<li class="chapter" data-level="2.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#playing-with-data"><i class="fa fa-check"></i><b>2.2</b> Playing with Data</a></li>
+<li class="chapter" data-level="2.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#ghtorrent-and-bigrquery"><i class="fa fa-check"></i><b>2.3</b> GHTorrent and BigRQuery</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#datafiles-for-this-lesson"><i class="fa fa-check"></i><b>2.3.1</b> DataFiles for this Lesson</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#alan-turings-birthday-examples-learn-some-sql-queries"><i class="fa fa-check"></i><b>2.4</b> Alan Turing’s Birthday Examples (learn some SQL queries)</a></li>
+<li class="chapter" data-level="2.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#execute-the-query"><i class="fa fa-check"></i><b>2.5</b> Execute the query</a></li>
+<li class="chapter" data-level="2.6" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#visualize-the-data"><i class="fa fa-check"></i><b>2.6</b> Visualize the Data</a></li>
+<li class="chapter" data-level="2.7" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#language-growth-over-time"><i class="fa fa-check"></i><b>2.7</b> Language Growth over Time</a></li>
+<li class="chapter" data-level="2.8" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#commits-to-github-canada-day-vs.july-4th"><i class="fa fa-check"></i><b>2.8</b> Commits to GitHub: Canada Day vs. July 4th</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#total-commits"><i class="fa fa-check"></i><b>2.8.1</b> Total Commits</a></li>
+<li class="chapter" data-level="2.8.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#yearly-commits"><i class="fa fa-check"></i><b>2.8.2</b> Yearly Commits</a></li>
+<li class="chapter" data-level="2.8.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#what-are-those-fluctuations"><i class="fa fa-check"></i><b>2.8.3</b> What are those fluctuations?</a></li>
+<li class="chapter" data-level="2.8.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#logistic-regression-for-predicting-your-weekend-commits"><i class="fa fa-check"></i><b>2.8.4</b> Logistic regression for predicting your weekend commits</a></li>
+<li class="chapter" data-level="2.8.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#making-predictions"><i class="fa fa-check"></i><b>2.8.5</b> Making Predictions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#time-for-a-cooldown-pizza-cats"><i class="fa fa-check"></i><b>2.9</b> Time for a Cooldown: Pizza &amp; Cats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html"><i class="fa fa-check"></i><b>3</b> Stack Overflow Queries</a><ul>
+<li class="chapter" data-level="3.1" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#i-am-thankful-for-stack-overflow"><i class="fa fa-check"></i><b>3.1</b> I am thankful for Stack Overflow</a></li>
+<li class="chapter" data-level="3.2" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#stack-exchange-queries"><i class="fa fa-check"></i><b>3.2</b> Stack Exchange Queries</a></li>
+<li class="chapter" data-level="3.3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-your-libraries"><i class="fa fa-check"></i><b>3.3</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="3.4" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-the-data"><i class="fa fa-check"></i><b>3.4</b> Load the Data</a></li>
+<li class="chapter" data-level="3.5" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#summarize-the-variables"><i class="fa fa-check"></i><b>3.5</b> Summarize the Variables</a></li>
+<li class="chapter" data-level="3.6" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#total-tags-and-dplyr-intro"><i class="fa fa-check"></i><b>3.6</b> Total Tags and dplyr Intro</a></li>
+<li class="chapter" data-level="3.7" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#tags-over-time-by-month"><i class="fa fa-check"></i><b>3.7</b> Tags Over Time By Month</a></li>
+<li class="chapter" data-level="3.8" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#cumulative-growth-over-time"><i class="fa fa-check"></i><b>3.8</b> Cumulative Growth Over Time</a></li>
+<li class="chapter" data-level="3.9" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#curiouser-and-curiouser"><i class="fa fa-check"></i><b>3.9</b> Curiouser and Curiouser…</a></li>
+<li class="chapter" data-level="3.10" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#time-vs.totals"><i class="fa fa-check"></i><b>3.10</b> Time vs. Totals</a></li>
+<li class="chapter" data-level="3.11" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#kolmogorov-smirnov-what"><i class="fa fa-check"></i><b>3.11</b> Kolmogorov-Smirnov what?!</a></li>
+<li class="chapter" data-level="3.12" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#reputation"><i class="fa fa-check"></i><b>3.12</b> Reputation</a></li>
+<li class="chapter" data-level="3.13" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#log-log-plots-and-power-laws-oh-my"><i class="fa fa-check"></i><b>3.13</b> Log-Log Plots and Power Laws, Oh My!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analyze-this.html"><a href="analyze-this.html"><i class="fa fa-check"></i><b>4</b> Analyze This!</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="analyze-this.html"><a href="analyze-this.html#before-this-lesson"><i class="fa fa-check"></i><b>4.0.1</b> Before this lesson:</a></li>
+<li class="chapter" data-level="4.1" data-path="analyze-this.html"><a href="analyze-this.html#what-is-evidence"><i class="fa fa-check"></i><b>4.1</b> What is “Evidence”?</a></li>
+<li class="chapter" data-level="4.2" data-path="analyze-this.html"><a href="analyze-this.html#surveying-a-population"><i class="fa fa-check"></i><b>4.2</b> Surveying a Population</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="analyze-this.html"><a href="analyze-this.html#loading-libraries"><i class="fa fa-check"></i><b>4.2.1</b> Loading Libraries</a></li>
+<li class="chapter" data-level="4.2.2" data-path="analyze-this.html"><a href="analyze-this.html#reading-in-the-data"><i class="fa fa-check"></i><b>4.2.2</b> Reading in the Data</a></li>
+<li class="chapter" data-level="4.2.3" data-path="analyze-this.html"><a href="analyze-this.html#renaming-columns"><i class="fa fa-check"></i><b>4.2.3</b> Renaming Columns</a></li>
+<li class="chapter" data-level="4.2.4" data-path="analyze-this.html"><a href="analyze-this.html#descriptive-statistics"><i class="fa fa-check"></i><b>4.2.4</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="4.2.5" data-path="analyze-this.html"><a href="analyze-this.html#first-visualization"><i class="fa fa-check"></i><b>4.2.5</b> First Visualization</a></li>
+<li class="chapter" data-level="4.2.6" data-path="analyze-this.html"><a href="analyze-this.html#distribution-across-questions"><i class="fa fa-check"></i><b>4.2.6</b> Distribution Across Questions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="analyze-this.html"><a href="analyze-this.html#most-essential-question"><i class="fa fa-check"></i><b>4.2.7</b> Most Essential Question</a></li>
+<li class="chapter" data-level="4.2.8" data-path="analyze-this.html"><a href="analyze-this.html#most-unwise-question"><i class="fa fa-check"></i><b>4.2.8</b> Most Unwise Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="analyze-this.html"><a href="analyze-this.html#customers-matter-the-most"><i class="fa fa-check"></i><b>4.3</b> Customers Matter the Most</a></li>
+<li class="chapter" data-level="4.4" data-path="analyze-this.html"><a href="analyze-this.html#developer-practices-dont-matter"><i class="fa fa-check"></i><b>4.4</b> Developer Practices Don’t Matter</a></li>
+<li class="chapter" data-level="4.5" data-path="analyze-this.html"><a href="analyze-this.html#dont-measure-productivity"><i class="fa fa-check"></i><b>4.5</b> Don’t Measure Productivity</a></li>
+<li class="chapter" data-level="4.6" data-path="analyze-this.html"><a href="analyze-this.html#how-unwise-is-it-compared-to-the-other-categories-test-of-significance"><i class="fa fa-check"></i><b>4.6</b> How Unwise is it compared to the other categories: Test of Significance</a></li>
+<li class="chapter" data-level="4.7" data-path="analyze-this.html"><a href="analyze-this.html#academic-and-industry-partnership-for-good-research"><i class="fa fa-check"></i><b>4.7</b> Academic and Industry Partnership for Good Research</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html"><i class="fa fa-check"></i><b>5</b> How Many Repositories Are There on GitHub?</a><ul>
+<li class="chapter" data-level="5.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#have-you-ever-wondered"><i class="fa fa-check"></i><b>5.1</b> Have You Ever Wondered…</a></li>
+<li class="chapter" data-level="5.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#how-many-repositories-are-there-on-github-1"><i class="fa fa-check"></i><b>5.2</b> How many repositories are there on GitHub?</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#our-data-ghtorrent"><i class="fa fa-check"></i><b>5.2.1</b> Our Data (GHTorrent)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#datafiles-for-this-lesson-1"><i class="fa fa-check"></i><b>5.2.2</b> DataFiles for this Lesson</a></li>
+<li class="chapter" data-level="5.2.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#different-strokes-for-different-folks"><i class="fa fa-check"></i><b>5.2.3</b> Different Strokes for Different Folks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#training-data-and-testing-data"><i class="fa fa-check"></i><b>5.2.4</b> Training Data and Testing Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#overfitting-and-underfitting"><i class="fa fa-check"></i><b>5.3</b> Overfitting and Underfitting</a></li>
+<li class="chapter" data-level="5.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#slow-down-how-can-we-fit-a-curve-to-this"><i class="fa fa-check"></i><b>5.4</b> Slow Down! How can we fit a curve to this?</a></li>
+<li class="chapter" data-level="5.5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#what-kind-of-curve-should-we-fit"><i class="fa fa-check"></i><b>5.5</b> What kind of curve should we fit?</a></li>
+<li class="chapter" data-level="5.6" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#evaluation"><i class="fa fa-check"></i><b>5.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html"><i class="fa fa-check"></i><b>6</b> When Will I Be Done With This Project?</a><ul>
+<li class="chapter" data-level="6.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#inconsistency-of-measurement"><i class="fa fa-check"></i><b>6.1</b> Inconsistency of Measurement</a></li>
+<li class="chapter" data-level="6.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#load-your-libraries-1"><i class="fa fa-check"></i><b>6.2</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-wrangling"><i class="fa fa-check"></i><b>6.3</b> Data Wrangling</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#original-data"><i class="fa fa-check"></i><b>6.3.1</b> Original Data</a></li>
+<li class="chapter" data-level="6.3.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#wide-form"><i class="fa fa-check"></i><b>6.3.2</b> Wide Form</a></li>
+<li class="chapter" data-level="6.3.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#melt"><i class="fa fa-check"></i><b>6.3.3</b> Melt</a></li>
+<li class="chapter" data-level="6.3.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#long-form"><i class="fa fa-check"></i><b>6.3.4</b> Long Form</a></li>
+<li class="chapter" data-level="6.3.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#reshape"><i class="fa fa-check"></i><b>6.3.5</b> Reshape</a></li>
+<li class="chapter" data-level="6.3.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#log-plot"><i class="fa fa-check"></i><b>6.3.6</b> Log Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#correlation-misleading"><i class="fa fa-check"></i><b>6.4</b> Correlation (Misleading)</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#dont-fall-for-my-logic"><i class="fa fa-check"></i><b>6.4.1</b> Don’t fall for my logic!</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#effort-estimation-accuracy-and-bias"><i class="fa fa-check"></i><b>6.5</b> Effort Estimation: Accuracy and Bias</a></li>
+<li class="chapter" data-level="6.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-visualizations-a-tricky-statistical-tool"><i class="fa fa-check"></i><b>6.6</b> Data Visualizations: A tricky statistical tool</a></li>
+<li class="chapter" data-level="6.7" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#without-a-log-transformation"><i class="fa fa-check"></i><b>6.7</b> Without a Log Transformation</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in"><i class="fa fa-check"></i><b>6.7.1</b> Zoom In</a></li>
+<li class="chapter" data-level="6.7.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in-on-jorgensen-data"><i class="fa fa-check"></i><b>6.7.2</b> Zoom in on Jorgensen Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#so-can-we-estimate-resources-or-not"><i class="fa fa-check"></i><b>6.8</b> So Can We Estimate Resources or Not?</a></li>
+<li class="chapter" data-level="6.9" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#estimate-updating"><i class="fa fa-check"></i><b>6.9</b> Estimate Updating</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html"><i class="fa fa-check"></i><b>7</b> Sleep Deprivation and Software Engineering Performance</a><ul>
+<li class="chapter" data-level="7.1" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#pulling-an-all-nighter"><i class="fa fa-check"></i><b>7.1</b> “Pulling an All-Nighter”</a></li>
+<li class="chapter" data-level="7.2" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#research-question"><i class="fa fa-check"></i><b>7.2</b> Research Question</a></li>
+<li class="chapter" data-level="7.3" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#who-are-the-participants"><i class="fa fa-check"></i><b>7.3</b> Who are the participants?</a></li>
+<li class="chapter" data-level="7.4" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#quasi-experimental-setup"><i class="fa fa-check"></i><b>7.4</b> Quasi-experimental setup</a></li>
+<li class="chapter" data-level="7.5" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#how-to-read-scientific-papers"><i class="fa fa-check"></i><b>7.5</b> How to Read Scientific Papers</a></li>
+<li class="chapter" data-level="7.6" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#percentage-of-acceptance-asserts-passed"><i class="fa fa-check"></i><b>7.6</b> Percentage of Acceptance Asserts Passed</a></li>
+<li class="chapter" data-level="7.7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#episodes-and-conformance"><i class="fa fa-check"></i><b>7.7</b> Episodes and Conformance</a></li>
+<li class="chapter" data-level="7.8" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#nothing-is-normal"><i class="fa fa-check"></i><b>7.8</b> NOTHING IS NORMAL!!</a></li>
+<li class="chapter" data-level="7.9" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#violin-plots"><i class="fa fa-check"></i><b>7.9</b> Violin Plots</a></li>
+<li class="chapter" data-level="7.10" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#effect-size-cliffs-delta"><i class="fa fa-check"></i><b>7.10</b> Effect Size: Cliff’s Delta</a></li>
+<li class="chapter" data-level="7.11" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#parametric-vs.nonparametric-statistical-power"><i class="fa fa-check"></i><b>7.11</b> Parametric vs. NonParametric Statistical Power</a></li>
+<li class="chapter" data-level="7.12" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#wilcoxon-aka-mann-whitney-test"><i class="fa fa-check"></i><b>7.12</b> Wilcoxon (aka Mann-Whitney) Test</a></li>
+<li class="chapter" data-level="7.13" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#results"><i class="fa fa-check"></i><b>7.13</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html"><i class="fa fa-check"></i><b>8</b> Does It Really Matter to Test First or Test After?</a><ul>
+<li class="chapter" data-level="8.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#test-driven-development-process"><i class="fa fa-check"></i><b>8.1</b> Test-Driven Development Process</a></li>
+<li class="chapter" data-level="8.2" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#the-study"><i class="fa fa-check"></i><b>8.2</b> The Study</a></li>
+<li class="chapter" data-level="8.3" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#modeling-recipe"><i class="fa fa-check"></i><b>8.3</b> Modeling Recipe</a></li>
+<li class="chapter" data-level="8.4" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#outcomes-we-care-about"><i class="fa fa-check"></i><b>8.4</b> Outcomes We Care About</a></li>
+<li class="chapter" data-level="8.5" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#factors-we-measure"><i class="fa fa-check"></i><b>8.5</b> Factors We Measure</a></li>
+<li class="chapter" data-level="8.6" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#descriptive-statistics-1"><i class="fa fa-check"></i><b>8.6</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8.7" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-models"><i class="fa fa-check"></i><b>8.7</b> Let’s Talk About Models</a></li>
+<li class="chapter" data-level="8.8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#regression-analysis-vs.hypothesis-testing"><i class="fa fa-check"></i><b>8.8</b> Regression Analysis vs. Hypothesis Testing</a></li>
+<li class="chapter" data-level="8.9" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-interactions"><i class="fa fa-check"></i><b>8.9</b> Let’s Talk About Interactions</a></li>
+<li class="chapter" data-level="8.10" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#component-residual-plots"><i class="fa fa-check"></i><b>8.10</b> Component + Residual Plots</a></li>
+<li class="chapter" data-level="8.11" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#interpreting-regression-output"><i class="fa fa-check"></i><b>8.11</b> Interpreting Regression Output</a></li>
+<li class="chapter" data-level="8.12" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#evaluating-how-good-a-model-is-aic"><i class="fa fa-check"></i><b>8.12</b> Evaluating How Good a Model Is (AIC)</a><ul>
+<li class="chapter" data-level="8.12.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data"><i class="fa fa-check"></i><b>8.12.1</b> You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html"><i class="fa fa-check"></i><b>9</b> Developer Performance and Designing a New Grading System for Teams</a><ul>
+<li class="chapter" data-level="9.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-do-developers-differ-in-their-measurable-output-performance"><i class="fa fa-check"></i><b>9.1</b> How do developers differ in their measurable output performance?</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-measure-matters"><i class="fa fa-check"></i><b>9.1.1</b> The Measure Matters</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found."><i class="fa fa-check"></i><b>9.1.2</b> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#weighted-features"><i class="fa fa-check"></i><b>9.2</b> Weighted Features</a></li>
+<li class="chapter" data-level="9.3" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#investigating-the-grant-sackman-legend"><i class="fa fa-check"></i><b>9.3</b> Investigating the Grant-Sackman Legend</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think"><i class="fa fa-check"></i><b>9.3.1</b> How long do different programmers take to solve the same task? It’s not what you think!</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-study-1"><i class="fa fa-check"></i><b>9.3.2</b> The Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#order-effects"><i class="fa fa-check"></i><b>9.4</b> Order Effects</a></li>
+<li class="chapter" data-level="9.5" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#interaction-plots"><i class="fa fa-check"></i><b>9.5</b> Interaction Plots</a></li>
+<li class="chapter" data-level="9.6" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#back-to-basics-how-to-measure-performance-at-all"><i class="fa fa-check"></i><b>9.6</b> Back to Basics: How to Measure Performance at all</a></li>
+<li class="chapter" data-level="9.7" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#in-your-ideal-world"><i class="fa fa-check"></i><b>9.7</b> In Your Ideal World…</a><ul>
+<li class="chapter" data-level="9.7.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-should-group-projects-be-graded-fairly"><i class="fa fa-check"></i><b>9.7.1</b> How should group projects be graded fairly?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="function-modification.html"><a href="function-modification.html"><i class="fa fa-check"></i><b>10</b> Function Modification</a><ul>
+<li class="chapter" data-level="10.1" data-path="function-modification.html"><a href="function-modification.html#figure-4.50-number-of-functions"><i class="fa fa-check"></i><b>10.1</b> Figure 4.50: Number of functions</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html"><i class="fa fa-check"></i><b>11</b> Bayesian vs Frequentist Statistics</a><ul>
+<li class="chapter" data-level="11.1" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#frequentist-statistics"><i class="fa fa-check"></i><b>11.1</b> Frequentist Statistics</a></li>
+<li class="chapter" data-level="11.2" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#bayesian-statistics"><i class="fa fa-check"></i><b>11.2</b> Bayesian Statistics</a></li>
+<li class="chapter" data-level="11.3" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#original-study"><i class="fa fa-check"></i><b>11.3</b> Original Study</a></li>
+<li class="chapter" data-level="11.4" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#mathematical-peacocking-stop-it"><i class="fa fa-check"></i><b>11.4</b> Mathematical Peacocking, stop it!</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html"><i class="fa fa-check"></i><b>12</b> Code Quality and Lines of Code</a><ul>
+<li class="chapter" data-level="12.0.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#redundancy"><i class="fa fa-check"></i><b>12.0.1</b> Redundancy?</a></li>
+<li class="chapter" data-level="12.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#how-does-complexity-relate-to-quality"><i class="fa fa-check"></i><b>12.1</b> How Does Complexity Relate to Quality?</a></li>
+<li class="chapter" data-level="12.2" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#cycolmatic-complexity"><i class="fa fa-check"></i><b>12.2</b> Cycolmatic Complexity</a></li>
+<li class="chapter" data-level="12.3" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#big-data-lines-of-code-vs.function-declarations"><i class="fa fa-check"></i><b>12.3</b> “Big Data”! Lines of Code vs. Function Declarations</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html"><i class="fa fa-check"></i><b>13</b> Number of Lines versus Number of Functions in Different Languages</a><ul>
+<li class="chapter" data-level="13.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#ugh-why-do-we-have-to-write-this-in-that-language"><i class="fa fa-check"></i><b>13.1</b> “Ugh, why do we have to write this in <em>that</em> language?”</a></li>
+<li class="chapter" data-level="13.2" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-does-it-mean-to-be-different"><i class="fa fa-check"></i><b>13.2</b> What does it mean to be “different”?</a></li>
+<li class="chapter" data-level="13.3" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-does-the-number-of-lines-relate-to-the-number-of-function-definitions"><i class="fa fa-check"></i><b>13.3</b> How does the number of lines relate to the number of function definitions?</a></li>
+<li class="chapter" data-level="13.4" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-do-i-parse-a-programming-language-abstract-syntax-trees"><i class="fa fa-check"></i><b>13.4</b> How do I parse a programming language? Abstract Syntax Trees</a></li>
+<li class="chapter" data-level="13.5" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#load-your-libraries-2"><i class="fa fa-check"></i><b>13.5</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="13.6" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#read-in-your-data"><i class="fa fa-check"></i><b>13.6</b> Read in Your Data</a></li>
+<li class="chapter" data-level="13.7" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#dont-compare-apples-to-oranges"><i class="fa fa-check"></i><b>13.7</b> Don’t Compare Apples to Oranges</a></li>
+<li class="chapter" data-level="13.8" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#sample-bias"><i class="fa fa-check"></i><b>13.8</b> Sample Bias</a></li>
+<li class="chapter" data-level="13.9" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#normality-matters"><i class="fa fa-check"></i><b>13.9</b> Normality Matters</a></li>
+<li class="chapter" data-level="13.10" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#does-comparing-averages-make-sense"><i class="fa fa-check"></i><b>13.10</b> Does Comparing Averages Make Sense?</a><ul>
+<li class="chapter" data-level="13.10.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#nonparametric-tests"><i class="fa fa-check"></i><b>13.10.1</b> NonParametric Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="13.11" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-to-compare-spreads"><i class="fa fa-check"></i><b>13.11</b> How to Compare Spreads</a><ul>
+<li class="chapter" data-level="13.11.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#clustering"><i class="fa fa-check"></i><b>13.11.1</b> Clustering</a></li>
+</ul></li>
+<li class="chapter" data-level="13.12" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-have-we-learned"><i class="fa fa-check"></i><b>13.12</b> What Have We Learned?</a></li>
+<li class="chapter" data-level="13.13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#next-steps-and-other-questions"><i class="fa fa-check"></i><b>13.13</b> Next Steps and Other Questions</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i><b>A</b> License</a></li>
+<li class="chapter" data-level="B" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>B</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="B.1" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-standards"><i class="fa fa-check"></i><b>B.1</b> Our Standards</a></li>
+<li class="chapter" data-level="B.2" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-responsibilities"><i class="fa fa-check"></i><b>B.2</b> Our Responsibilities</a></li>
+<li class="chapter" data-level="B.3" data-path="code-of-conduct.html"><a href="code-of-conduct.html#scope"><i class="fa fa-check"></i><b>B.3</b> Scope</a></li>
+<li class="chapter" data-level="B.4" data-path="code-of-conduct.html"><a href="code-of-conduct.html#enforcement"><i class="fa fa-check"></i><b>B.4</b> Enforcement</a></li>
+<li class="chapter" data-level="B.5" data-path="code-of-conduct.html"><a href="code-of-conduct.html#attribution"><i class="fa fa-check"></i><b>B.5</b> Attribution</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="contributing.html"><a href="contributing.html"><i class="fa fa-check"></i><b>C</b> Contributing</a><ul>
+<li class="chapter" data-level="C.1" data-path="contributing.html"><a href="contributing.html#contributors"><i class="fa fa-check"></i><b>C.1</b> Contributors</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>D</b> Glossary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Software Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="curiosity-and-play" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Curiosity and Play</h1>
+<p><a href="https://medium.com/@yimregister/how-to-meaningfully-play-with-data-f5183fe82539">Here</a> is a blog post that I wrote about this lesson and about playing with data and how to infuse joy into learning statistics.</p>
+<div id="curiosity-killed-the-cat-but-satisfaction-brought-it-back" class="section level2">
+<h2><span class="header-section-number">2.1</span> Curiosity killed the cat, but satisfaction brought it back</h2>
+<p>Sometimes, some of the most intricate problems arise from simple musings among friends. This is one of the beautiful things about problem solving, programming, and statistics. When you are curious enough and excited about a problem, you may find yourself exploring every caveat just to prove your point. (<em>Be careful though, don’t forgo sleep. We cover the detrimental effects of missing sleep on your coding performance in another lesson.</em>) While it is very important to tackle real problems that are genuinely affecting people’s lives, first we have to learn to wrangle statistics and ask the right kinds of questions. Learning this skill will help you to ask critical questions when it really counts, like when building software for hospitals, news sites, financial institutions, or maybe the next rocket to Mars. One of the best ways to teach these skills is to lock on to a personally meaningful, but low-stakes, question; <strong>and answer it</strong>.</p>
+</div>
+<div id="playing-with-data" class="section level2">
+<h2><span class="header-section-number">2.2</span> Playing with Data</h2>
+<p>In this lesson, you will learn to meaningfully play with data. So often in our academic careers we are expected to perfectly follow along and do things the “right” way, in order to build our skills to become an essential and productive member of a team/company/society. We can get through our math classes by “plugging-it-in” to equations, get through English by practicing flash cards, and get through History by memorizing dates. But we can gain a lot through creatively expressing ourselves in our learning. So this lesson will demonstrate how to make queries to archived GitHub data, generate plots of interest, and answer our own curiosities (sometimes frivolous, but who cares?) You will have several chances to creatively express yourself in this lesson, while still being guided by examples.</p>
+</div>
+<div id="ghtorrent-and-bigrquery" class="section level2">
+<h2><span class="header-section-number">2.3</span> GHTorrent and BigRQuery</h2>
+<p>We need to begin by getting <strong>data</strong>. Luckily <a href="http://ghtorrent.org">the GHTorrent project</a> has been archiving data from the <a href="glossary.html#github"><strong>GitHub</strong></a> <a href="glossary.html#api"><strong>API</strong></a> for the past several years, and we can get access to <em>commits, users, forks, repos, locations</em> (see <a href="glossary.html#github"><strong>GitHub</strong></a> in glossary) and more. While there are several ways to load this data into R, we are going to rely on <code>bigrquery</code> to interface with Google BigQuery and the public GHTorrent data on the Google Cloud. Here are the steps you need to take:</p>
+<ul>
+<li>Set up an account with <a href="https://cloud.google.com/">Google Cloud</a>. They do require a credit card number, which is ridiculous. But they will <em>not</em> auto-charge you when your free trial is up.</li>
+<li>Create a project from the Google Cloud console. Name it using something you’d like to use to access the project with <code>bigrquery</code></li>
+<li>Make sure to enable the BigQuery API for the project. Go to the APIs &amp; Services card on the console, and navigate to “Enable APIs and Services” where you can search for ‘BigQuery’ and enable it.</li>
+<li>You will be able to test out SQL queries on <a href="https://bigquery.cloud.google.com">here</a></li>
+<li>The GHTorrent project for BigQuery is located <a href="https://bigquery.cloud.google.com/dataset/ghtorrent-bq:ght">here</a>, with a small tutorial <a href="http://ghtorrent.org/gcloud.html">here</a></li>
+</ul>
+<p>The next piece of this is to not only understand that the data is being held on the Google Cloud (that we can access with <a href="glossary.html#sql"><strong>SQL queries</strong></a>, but to understand how we can do that from our local machines, in R. We will use the <a href="https://www.rdocumentation.org/packages/bigrquery/versions/0.4.1"><code>bigrquery</code></a> package, with a tutorial <a href="https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-bigquery">here</a>. <code>bigrquery</code> allows us to link our R code to our project on the <a href="glossary.html#cloudcomputing">cloud</a>. You will be asked to authenticate. For the record, I did not know what the “cloud” really meant for a while, and was too afraid to ask.</p>
+<div id="datafiles-for-this-lesson" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> DataFiles for this Lesson</h3>
+<p>For this lesson, we actually stored all of the queries in datafiles in this repository. Accessing the data required a credit card, which is unreasonable to expect from anyone just trying to use these lessons to learn. If you <em>do</em> want to perform different queries of your own, there are several ways to do that. I have included how you could do it using <a href="glossary.html#bigquery"><strong>BigQuery</strong></a> and <code>bigrquery</code> (that’s the R package, see the r in there?). Any time you see <code>query_exec()</code> it will be commented out and you will use the data we have provided from the result of that query as of September 2019. That way, you can see how the query would be executed but also you don’t need to fiddle with APIs to follow along in this lesson.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(bigrquery)
+<span class="kw">library</span>(ggplot2)
+<span class="co">#- bq_auth(path=&quot;servicetoken.json&quot;) # you will need to get your own service token from your account. Don&#39;t share this!</span>
+<span class="co">#- project &lt;- &quot;gitstats&quot; #your project name here</span></code></pre>
+</div>
+</div>
+<div id="alan-turings-birthday-examples-learn-some-sql-queries" class="section level2">
+<h2><span class="header-section-number">2.4</span> Alan Turing’s Birthday Examples (learn some SQL queries)</h2>
+<p>Here are some examples for using <code>bigrquery</code> to access GHTorrent data. Here, we take a look at Alan Turing’s birthday (June 23) for the year 2016.This should help you get the hang of some SQL commands and collecting data. I chose <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a> because I’m an Artificial Intelligence nerd, and once even had a hamster named Turing. You can plug in your own birthday, or the birthday of someone else you admire. The point is to start playing.</p>
+<p>There is a lot to unpack in your first SQL command. Here’s a small recipe for reading the examples:</p>
+<ul>
+<li>the first line indicates what columns will come out in the final dataframe (<code>select  p.language as language, count(c.id) as num_commits</code>)</li>
+<li><code>WHERE</code> is similar to <code>if</code> logic, and it grabs anything that fits the specified condition</li>
+<li>in the following example, we care about anything in the ghtorrent database <code>WHERE date(created_at) = date('2016-06-23))</code></li>
+<li>that means that the commit data from ghtorrent has a <code>created_at</code> property, and we want data from where that date equals Alan Turing’s birthday in 2016</li>
+<li>the <code>language</code> property of those commits to GitHub are stored in the ghtorrent-bq.ght.projects database, and we want to report all the languages used on the day we selected, except for if the <code>language</code> property is <code>null</code> because that’s not helpful to us (unless you care about that)</li>
+<li>we <code>group_by</code> language, meaning that we want to see the number of commits for each language <em>separately</em>. We are going to compare the different languages and their relative number of commits on this day.</li>
+<li>and finally, we order everything in the data by the number of commits, in <em>descending order</em>. We want to see the <em>most</em> commits first.</li>
+<li>Do you have any predictions for which language was the most committed to?</li>
+</ul>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- # walking through an SQL example</span>
+<span class="co">#- # language with most commits on Alan Turing&#39;s birthday in 2016 </span>
+<span class="co">#- sql_birthday &lt;- &quot;SELECT  p.language as language, count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) = date(&#39;2016-06-23&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id, language, description</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects] WHERE language != &#39;null&#39;)p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login,  id</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,</span>
+<span class="co">#- group by language</span>
+<span class="co">#- order by num_commits desc;&quot;</span></code></pre>
+</div>
+<div id="execute-the-query" class="section level2">
+<h2><span class="header-section-number">2.5</span> Execute the query</h2>
+<p>We use <code>query_exec</code> to execute the query with <code>bigrquery</code> to the ghtorrent database, hosted on BigQuery. We get back a dataframe, stored in <code>bday_commits</code>.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- bday_commits  &lt;- query_exec(sql_birthday, project = project, useLegacySql = FALSE) #remember we defined &#39;project&#39; up above</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+bday_commits &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/bdaycommits.csv&quot;</span>)
+
+<span class="kw">kable</span>(<span class="kw">head</span>(bday_commits)) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+language
+</th>
+<th style="text-align:right;">
+num_commits
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+JavaScript
+</td>
+<td style="text-align:right;">
+45497
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Java
+</td>
+<td style="text-align:right;">
+34379
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+31760
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+HTML
+</td>
+<td style="text-align:right;">
+23366
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+C++
+</td>
+<td style="text-align:right;">
+19956
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+C
+</td>
+<td style="text-align:right;">
+17601
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="visualize-the-data" class="section level2">
+<h2><span class="header-section-number">2.6</span> Visualize the Data</h2>
+<p>The following is a <a href="glossary.html#ggplot"><code>ggplot</code></a> of the top 7 languages used on Alan Turing’s birthday, by number of commits to each.</p>
+<ul>
+<li><code>bday_commits[1:7,]</code> selects the first 7 rows in the dataframe</li>
+<li><code>aes()</code> is the “aesthetic”: what is the x and y that you are plotting?</li>
+<li><code>fill = language</code> is simply how we get the pretty colors to show up</li>
+<li><code>geom_bar</code> indicates that we want a bar plot. We could also use <code>geom_point()</code> for a scatter plot</li>
+<li><code>stat=&quot;identity&quot;</code> indicates that the bar plot should use the raw value of num_commits instead of a different statistical transformation</li>
+<li><code>xlab</code>,<code>ylab</code>,and <code>ggtitle</code> are the x-axis label, y-axis label, and title, respectively
+<code></code>theme_bw()` is “Theme Black and White” and I just like it better</li>
+</ul>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(bday_commits[<span class="dv">1</span><span class="op">:</span><span class="dv">7</span>,],<span class="kw">aes</span>(language,num_commits,<span class="dt">fill=</span>language))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Language&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Number of Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;GitHub Commits by Language on Alan Turing&#39;s Birthday&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-4-1.png" /><!-- --></p>
+<p>I can’t imagine that Alan Turing would have been the biggest JavaScript fan. Let’s take a look at projects where the project description includes “AI”. Here, we see Python emerge as top commits for the day.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- # languge with most commits on Alan Turing&#39;s birthday in 2016 </span>
+<span class="co">#- sql_example2 &lt;- &quot;SELECT p.description as description, p.language as language, count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) = date(&#39;2016-06-23&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id, language, description</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects] WHERE language != &#39;null&#39; and description LIKE &#39;%AI%&#39;)p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login,  id</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,</span>
+<span class="co">#- group by description,language</span>
+<span class="co">#- order by num_commits desc;&quot;</span>
+
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- example2  &lt;- query_exec(sql_example2, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+example2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/example2.csv&quot;</span>)
+
+plt =<span class="st"> </span><span class="kw">ggplot</span>(example2[<span class="dv">1</span><span class="op">:</span><span class="dv">6</span>,],<span class="kw">aes</span>(language,num_commits,<span class="dt">fill=</span>language))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Commits to &#39;AI&#39; Projects on Alan Turing&#39;s Birthday&quot;</span>,<span class="dt">subtitle=</span><span class="st">&quot;Who would even want to know this?&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-5-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">python_desc &lt;-<span class="st"> </span>example2[example2<span class="op">$</span>language<span class="op">==</span><span class="st">&#39;Python&#39;</span>,]
+python_desc &lt;-<span class="st"> </span>python_desc[<span class="kw">order</span>(<span class="op">-</span>python_desc<span class="op">$</span>num_commits),]
+
+<span class="kw">kable</span>(python_desc[<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>,])<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+description
+</th>
+<th style="text-align:left;">
+language
+</th>
+<th style="text-align:right;">
+num_commits
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+Record for playing with OpenAI Gym
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+42
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+5
+</td>
+<td style="text-align:left;">
+rllab is a framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym.
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+8
+</td>
+<td style="text-align:left;">
+AI of bombｌiss(almost tetris) on NES
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+9
+</td>
+<td style="text-align:left;">
+:alien: An AI project. :alien:
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+16
+</td>
+<td style="text-align:left;">
+AI for 2048 using simple reinforcement learning
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+27
+</td>
+<td style="text-align:left;">
+SIMA and RAIN comparison
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+35
+</td>
+<td style="text-align:left;">
+The OAI Harvest module handles metadata gathering between OAI-PMH v.2.0 compliant repositories.
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+37
+</td>
+<td style="text-align:left;">
+This depot is used for learning of AI for robotics in Udacity
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+46
+</td>
+<td style="text-align:left;">
+Website version of the AIS Network Mapper project
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+53
+</td>
+<td style="text-align:left;">
+Gen-6 Pokemon Battling Sim and AI
+</td>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="language-growth-over-time" class="section level2">
+<h2><span class="header-section-number">2.7</span> Language Growth over Time</h2>
+<p>Let’s investigate another question. Do you know anyone who is obsessed with a certain language? Maybe they can’t stop talking about how Julia (<em>programming language</em>) is gonna rule the world, or how Golang is the future because of all that multithreading (I’ve never used Golang). Or maybe you’re a straight up <em>fan</em> of some language and you want to make sure that other people know how awesome it is (Scala, anyone?) This is a fun exercise in seeing how languages grow over time, by the number of commits for those projects on GitHub.
+In this example:</p>
+<ul>
+<li>we <code>SELECT</code> language, day, and num_commits to make a dataframe where we can monitor commits over time for different languages</li>
+<li>we use <code>WHERE language == 'Python'</code> to select all projects where the language is Python</li>
+<li>the <code>||</code> syntax indicates a logical OR symbol. We are collecting Python <em>or</em> Scale <em>or</em> Julia <em>or</em> Ruby… <em>or</em> whatever else you’d like to plug in.</li>
+<li>We <code>group_by(language,day)</code> to get the number of commits, by language, by day, over time.</li>
+<li>And finally, we order the data by the greatest number of commits first</li>
+</ul>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- language_sql &lt;- &quot;SELECT  p.language as language, date(created_at) as day,count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) between date(&#39;2012-01-01&#39;)</span>
+<span class="co">#-                           and  date(&#39;2016-09-05&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id, language, description</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects] WHERE language == &#39;Scala&#39; || language == &#39;Python&#39; || language == &#39;Julia&#39; || language==&#39;Ruby&#39;)p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login,  id</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,</span>
+<span class="co">#- group by language,day</span>
+<span class="co">#- order by num_commits desc;&quot;</span>
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- lang_growth  &lt;- query_exec(language_sql, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+lang_growth &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/lang_growth.csv&quot;</span>)
+
+<span class="kw">kable</span>(<span class="kw">head</span>(lang_growth))<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+language
+</th>
+<th style="text-align:left;">
+day
+</th>
+<th style="text-align:right;">
+num_commits
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:left;">
+2014-06-26
+</td>
+<td style="text-align:right;">
+1166068
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:left;">
+2014-10-21
+</td>
+<td style="text-align:right;">
+1022681
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:left;">
+2014-11-11
+</td>
+<td style="text-align:right;">
+881825
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:left;">
+2014-10-15
+</td>
+<td style="text-align:right;">
+823475
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Python
+</td>
+<td style="text-align:left;">
+2014-11-18
+</td>
+<td style="text-align:right;">
+790873
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:left;">
+2014-12-10
+</td>
+<td style="text-align:right;">
+787341
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># I want the top 3</span>
+
+summary &lt;-<span class="st"> </span>lang_growth <span class="op">%&gt;%</span>
+<span class="st">            </span><span class="kw">group_by</span>(language)<span class="op">%&gt;%</span>
+<span class="st">            </span><span class="kw">summarise</span>(<span class="dt">total_num_commits =</span> <span class="kw">sum</span>(num_commits))<span class="op">%&gt;%</span>
+<span class="st">            </span><span class="kw">arrange</span>(<span class="op">-</span>total_num_commits)<span class="op">%&gt;%</span>
+<span class="st">            </span><span class="kw">head</span>(<span class="dv">3</span>)
+
+top_langs &lt;-<span class="st"> </span>lang_growth[lang_growth<span class="op">$</span>language <span class="op">%in%</span><span class="st"> </span>summary<span class="op">$</span>language,]
+
+plt =<span class="kw">ggplot</span>(top_langs,<span class="kw">aes</span>(day,num_commits,<span class="dt">color=</span>language,<span class="dt">group=</span>language))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text.x=</span><span class="kw">element_blank</span>(),<span class="dt">axis.ticks.x=</span><span class="kw">element_blank</span>())
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-6-1.png" /><!-- --></p>
+</div>
+<div id="commits-to-github-canada-day-vs.july-4th" class="section level2">
+<h2><span class="header-section-number">2.8</span> Commits to GitHub: Canada Day vs. July 4th</h2>
+<p>Alright, now that we have explored how to use <code>bigrquery</code> and generate some simple queries and plots, let’s approach another curiosity. It occurred to me that I was curious about holidays. This most recent 4th of July I checked the GitHub data to see if people commit differently on the 4th of July than they do normally. It then occurred to me that I might compare it to Canada Day, which is very close in date to American Independence Day. The queries will get more complex as we continue to explore, and refine what we want to know. You may be developing an intuition for what you believe to be true; of course people don’t commit on a holiday. They’re not working! But what about the case where company repos are kept private, and the data that GHTorrent has access to is actually “for fun” repos, and a day off is the perfect day for that programmer to keep making their alien game. Intuition is certainly important when asking statistical questions, as it guides us towards different factors to account for and questions to ask. But remember, your intuition may be the exact opposite of someone else’s.</p>
+<div id="total-commits" class="section level3">
+<h3><span class="header-section-number">2.8.1</span> Total Commits</h3>
+<p>We start by taking a look at the total commits to GitHub on either Canada Day or Independence Day, from either Canada or the United States. We immediately discover that raw count is <em>not</em> going to be helpful in making any meaningful comparsions. The US has <em>orders of magnitude</em> more commits on any given day than Canada does. While that is good to know, we need to account for it if we actually want to make comparisons.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- data_sql &lt;- &quot;select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) = date(&#39;2016-07-01&#39;)</span>
+<span class="co">#-                           or date(created_at)= date(&#39;2016-07-04&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id,</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login, location, id, country_code,</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]</span>
+<span class="co">#-      WHERE country_code = &#39;us&#39; or country_code = &#39;ca&#39;) u on c.author_id = u.id,</span>
+<span class="co">#- group by country, day</span>
+<span class="co">#- order by num_commits desc;&quot;</span>
+
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- total_commits  &lt;- query_exec(data_sql, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+total_commits &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/total_commits.csv&quot;</span>)
+
+<span class="kw">kable</span>(total_commits)<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+country
+</th>
+<th style="text-align:left;">
+day
+</th>
+<th style="text-align:right;">
+num_commits
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+us
+</td>
+<td style="text-align:left;">
+2016-07-01
+</td>
+<td style="text-align:right;">
+62582
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+us
+</td>
+<td style="text-align:left;">
+2016-07-04
+</td>
+<td style="text-align:right;">
+39811
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ca
+</td>
+<td style="text-align:left;">
+2016-07-04
+</td>
+<td style="text-align:right;">
+5305
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ca
+</td>
+<td style="text-align:left;">
+2016-07-01
+</td>
+<td style="text-align:right;">
+4096
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(total_commits, <span class="kw">aes</span>(day,num_commits,<span class="dt">fill=</span>country))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>,<span class="dt">position=</span><span class="st">&quot;dodge&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Number of Holiday Commits (Canada v. USA)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-7-1.png" /><!-- --></p>
+</div>
+<div id="yearly-commits" class="section level3">
+<h3><span class="header-section-number">2.8.2</span> Yearly Commits</h3>
+<p>What we actually need to care about is, <em>on average</em> do number of commits differ on a holiday? In order to do that, let’s look at number of commits per day across a year sample, between Canada and USA.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- data_sql &lt;- &quot;select  u.country_code as country, date(c.created_at) as day, count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) between date(&#39;2016-01-01&#39;)</span>
+<span class="co">#-                           and  date(&#39;2016-09-05&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id,</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects]) p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login, location, id, country_code,</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]</span>
+<span class="co">#-      WHERE country_code = &#39;us&#39; or country_code = &#39;ca&#39;) u on c.author_id = u.id,</span>
+<span class="co">#- group by country, day</span>
+<span class="co">#- order by num_commits desc;&quot;</span>
+
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- year_commits  &lt;- query_exec(data_sql, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+year_commits &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/year_commits.csv&quot;</span>)
+
+plt =<span class="st"> </span><span class="kw">ggplot</span>(year_commits,<span class="kw">aes</span>(day,num_commits,<span class="dt">colour=</span>country))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(<span class="dt">group=</span>country))<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Number of Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Time(day)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text.x=</span><span class="kw">element_blank</span>(),<span class="dt">axis.ticks.x=</span><span class="kw">element_blank</span>())<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;2016 Commits on GitHub (Canada vs. USA)&quot;</span>, <span class="dt">subtitle=</span><span class="st">&quot;January 1 - September 5&quot;</span>)
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-8-1.png" /><!-- --></p>
+</div>
+<div id="what-are-those-fluctuations" class="section level3">
+<h3><span class="header-section-number">2.8.3</span> What are those fluctuations?</h3>
+<p>Look at those patterns, and take a guess at what you are seeing. There appears to be a regular, periodic trend in the data. That means that it seems to rise and fall in a consistent way. It seems less prominent for Canada, but that could also be due to scaling. What is your hunch about these curves? What are we looking at?</p>
+<blockquote>
+<p>The answer: <em>weekends</em></p>
+</blockquote>
+<p>If you check the weekday for the dips in Number of Commits, you can see that on Saturdays and Sundays, the Number of Commits is less than during a weekday.</p>
+<p>Let’s make sure:</p>
+<pre class="sourceCode r"><code class="sourceCode r">year_commits<span class="op">$</span>weekday &lt;-<span class="st"> </span><span class="kw">weekdays</span>(<span class="kw">as.Date</span>(year_commits<span class="op">$</span>day))
+year_commits<span class="op">$</span>isWeekend &lt;-<span class="st"> </span><span class="dv">0</span>
+year_commits<span class="op">$</span>isWeekend[year_commits<span class="op">$</span>weekday<span class="op">==</span><span class="st">&#39;Saturday&#39;</span><span class="op">|</span>year_commits<span class="op">$</span>weekday<span class="op">==</span><span class="st">&#39;Sunday&#39;</span>]&lt;-<span class="dv">1</span></code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(year_commits,<span class="kw">aes</span>(<span class="kw">as.factor</span>(isWeekend),num_commits,<span class="dt">fill=</span>country))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_boxplot</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">facet_wrap</span>(<span class="op">~</span>country)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Weekend (0=No, 1=Yes)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Number of Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Git commits: Canada vs. USA, Weekends vs. Weekdays&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-10-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">summary &lt;-<span class="st"> </span>year_commits <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(country) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">summarise</span>(<span class="dt">avg =</span> <span class="kw">mean</span>(num_commits),<span class="dt">sd=</span><span class="kw">sd</span>(num_commits))
+
+<span class="kw">kable</span>(summary)<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+country
+</th>
+<th style="text-align:right;">
+avg
+</th>
+<th style="text-align:right;">
+sd
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+ca
+</td>
+<td style="text-align:right;">
+16707.84
+</td>
+<td style="text-align:right;">
+15061.61
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+us
+</td>
+<td style="text-align:right;">
+83648.84
+</td>
+<td style="text-align:right;">
+26215.89
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">kable</span>(<span class="kw">ddply</span>(year_commits,<span class="kw">c</span>(<span class="st">&#39;country&#39;</span>,<span class="st">&#39;isWeekend&#39;</span>),summarise,<span class="dt">mean =</span> <span class="kw">mean</span>(num_commits),<span class="kw">sd</span>(num_commits)))<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+country
+</th>
+<th style="text-align:right;">
+isWeekend
+</th>
+<th style="text-align:right;">
+mean
+</th>
+<th style="text-align:right;">
+sd(num_commits)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+ca
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+18400.07
+</td>
+<td style="text-align:right;">
+15722.57
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ca
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+12547.75
+</td>
+<td style="text-align:right;">
+12446.70
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+us
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+94069.36
+</td>
+<td style="text-align:right;">
+22410.14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+us
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+58031.75
+</td>
+<td style="text-align:right;">
+14815.83
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="logistic-regression-for-predicting-your-weekend-commits" class="section level3">
+<h3><span class="header-section-number">2.8.4</span> Logistic regression for predicting your weekend commits</h3>
+<p>A useful skill that you may want to return to is something called <a href="glossary.html#logisticregression"><strong>logistic regression</strong></a>. You may have seen “line of best fit” before, where you try to calculate the best fitting line across a scatter plot of numbers. What if you only have a 0 or 1 variable to map? In our case, we are dealing with “weekend” or “not a weekend”. Is there any way that we could look at the number of commits, and infer whether it was a weekend or not? We can use something called logistic regression. If you look up logistic regression, you will see lots and lots of plots like the one below. It looks like two bars of points, one clustered at the “1” (weekend), and another clustered across “0” (not a weekend). If the bars were exactly the same, that would mean that across our variable <code>num_commits</code>, there is no difference between weekend or not a weekend. The number of commits would be totally unrelated to that <a href="glossary.html#binary"><strong>binary</strong></a> variable, and it might not even be worth measuring, because it doesn’t tell us very much. But we <em>know</em> there’s a difference, and we can see it in the logistic plot as well. There tend to be more commits (higher <code>num_commits</code> values) in the “1” category as opposed to “0”. So could we go backwards? What if we knew that there were 100,567 commits one day in the USA. Can we take a guess at whether it was a weekend or not? We use logistic regression to map the probability across the <code>num_commits</code> variable. This is tough to process at first. How could we go from 0 or 1 to a continuous line? Well, it has to do with how the points are clustered and distributed across the 0 or 1 variables.</p>
+<p>By the way, this is all part of learning “machine learning”. I see so much hype around this subject, and “Big Data”, but I just want you to know that you are already on your way.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(year_commits[year_commits<span class="op">$</span>country<span class="op">==</span><span class="st">&#39;us&#39;</span>,],<span class="kw">aes</span>(num_commits,isWeekend))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Number of Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;isWeekend (0=No,1=Yes)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Github Commits in USA: Weekend vs Weekday&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-12-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">logistic &lt;-<span class="st"> </span><span class="kw">glm</span>(isWeekend <span class="op">~</span><span class="st"> </span>num_commits, <span class="dt">data=</span>year_commits[year_commits<span class="op">$</span>country<span class="op">==</span><span class="st">&#39;us&#39;</span>,],<span class="dt">family =</span> binomial)
+
+vals &lt;-<span class="st"> </span><span class="kw">predict</span>(logistic,<span class="kw">data.frame</span>(<span class="dt">num_commits=</span>year_commits[year_commits<span class="op">$</span>country<span class="op">==</span><span class="st">&#39;us&#39;</span>,]<span class="op">$</span>num_commits), <span class="dt">type=</span><span class="st">&quot;resp&quot;</span>) <span class="co"># draws a curve based on prediction from logistic regression model</span>
+
+plt &lt;-<span class="st"> </span><span class="kw">ggplot</span>(year_commits[year_commits<span class="op">$</span>country<span class="op">==</span><span class="st">&#39;us&#39;</span>,],<span class="kw">aes</span>(num_commits,isWeekend))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span><span class="dv">1</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(num_commits,vals),<span class="dt">color=</span><span class="st">&quot;#8DD3C7&quot;</span>,<span class="dt">size=</span><span class="dv">1</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">labels =</span> <span class="cf">function</span>(x) <span class="kw">format</span>(x, <span class="dt">scientific =</span> <span class="ot">FALSE</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Number of Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;isWeekend (0=No,1=Yes)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Github Commits in USA: Weekend vs Weekday Logistic Regression&quot;</span>)
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-12-2.png" /><!-- --></p>
+</div>
+<div id="making-predictions" class="section level3">
+<h3><span class="header-section-number">2.8.5</span> Making Predictions</h3>
+<p>We now have a curve that demonstrates the likelihood that given a certain number of commits, if it is a weekend or not a weekend. So, if there were 100,000 commits, is it a weekend or not a weekend? According to this <code>predict</code> function on our <a href="glossary.html#model"><strong>test data</strong></a>, the likelihood that 100,000 commits was done on a Saturday or Sunday is only 5%. But if we see 50,000 commits, suddenly it is a 75% that it’s a weekend, because that is much more in line with the kinds of commits happening on a weekend. We use our data to create a useful, predictive model.</p>
+<pre class="sourceCode r"><code class="sourceCode r">newdata =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">num_commits=</span><span class="dv">100000</span>)
+<span class="kw">predict</span>(logistic,newdata,<span class="dt">type=</span><span class="st">&quot;response&quot;</span>)</code></pre>
+<pre><code>##          1 
+## 0.05353886</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">newdata =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">num_commits=</span><span class="dv">50000</span>)
+<span class="kw">predict</span>(logistic,newdata,<span class="dt">type=</span><span class="st">&quot;response&quot;</span>)</code></pre>
+<pre><code>##         1 
+## 0.7572345</code></pre>
+</div>
+</div>
+<div id="time-for-a-cooldown-pizza-cats" class="section level2">
+<h2><span class="header-section-number">2.9</span> Time for a Cooldown: Pizza &amp; Cats</h2>
+<p>Okay, you’ve gotten through a lot already today. We are going to finish up the lesson with some fun. One thing we have access to in the ghtorrent database is <em>project descriptions</em>. We saw this earlier when we tried to find Artificial Intelligence projects. Now, we will explore more words that we want to play with. This should be a low-stakes investigation, where you plug in some of your silliest words into the SQL query and generate some statistics about your findings. Think of everything you’ve accomplished today. SQL queries to the cloud, barplots, boxplots, comparisons, time series, statistical testing, logistic regression, and more. Now it’s time to just look up stupid project descriptions and laugh about them.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- pizza_sql &lt;- &quot;SELECT p.description as description, p.language as language, count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) between date(&#39;2012-01-01&#39;)</span>
+<span class="co">#-                           and  date(&#39;2016-09-05&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id, language, description</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects] WHERE language != &#39;null&#39; and description LIKE &#39;%pizza%&#39;)p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login,  id</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,</span>
+<span class="co">#- group by description,language</span>
+<span class="co">#- order by num_commits desc;&quot;</span>
+
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- pizza  &lt;- query_exec(pizza_sql, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+pizza &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/pizza.csv&quot;</span>)
+
+pizza &lt;-<span class="st"> </span>pizza[<span class="kw">order</span>(<span class="op">-</span>pizza<span class="op">$</span>num_commits),]
+
+<span class="kw">kable</span>(<span class="kw">head</span>(pizza))<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+description
+</th>
+<th style="text-align:left;">
+language
+</th>
+<th style="text-align:right;">
+num_commits
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+A Jekyll-powered site generated by jekyll:pizza:pizza
+</td>
+<td style="text-align:left;">
+CSS
+</td>
+<td style="text-align:right;">
+2720
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+allows group orders on pizza.de // ermöglicht Gruppenbestellungen auf pizza.de
+</td>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:right;">
+1697
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Crazy Uncle Buck’s pizza ordering system.
+</td>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:right;">
+1239
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+This is a node.js wrapper for the dominos pizza apis
+</td>
+<td style="text-align:left;">
+JavaScript
+</td>
+<td style="text-align:right;">
+814
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Where is the best :pizza: in a given city?
+</td>
+<td style="text-align:left;">
+Ruby
+</td>
+<td style="text-align:right;">
+702
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Organisation of a student-run pizza seminar in mathematics at University of Augsburg, Germany
+</td>
+<td style="text-align:left;">
+Tcl
+</td>
+<td style="text-align:right;">
+492
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r">summary &lt;-<span class="st"> </span>pizza <span class="op">%&gt;%</span>
+<span class="st"> </span><span class="kw">count</span>(language)
+summary &lt;-<span class="st"> </span>summary[<span class="kw">order</span>(<span class="op">-</span>summary<span class="op">$</span>n),]
+
+plt =<span class="st"> </span><span class="kw">ggplot</span>(summary[<span class="dv">1</span><span class="op">:</span><span class="dv">7</span>,],<span class="kw">aes</span>(language,n,<span class="dt">fill=</span>language))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Language&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Total Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Language Choice for Projects About Pizza&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>) 
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-14-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#- cats_sql &lt;- &quot;SELECT p.description as description, p.language as language, count(c.id) as num_commits</span>
+<span class="co">#- from [ghtorrent-bq.ght.project_commits] pc join</span>
+<span class="co">#-      (SELECT id, author_id, created_at FROM [ghtorrent-bq.ght.commits] WHERE</span>
+<span class="co">#-      date(created_at) between date(&#39;2012-01-01&#39;)</span>
+<span class="co">#-                           and  date(&#39;2016-09-05&#39;) )c on pc.commit_id = c.id join</span>
+<span class="co">#-      (SELECT id, language, description</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.projects] WHERE language != &#39;null&#39; and description LIKE &#39;%cats%&#39;)p on p.id = pc.project_id join</span>
+<span class="co">#-      (SELECT login,  id</span>
+<span class="co">#-      FROM [ghtorrent-bq.ght.users]) u on c.author_id = u.id,</span>
+<span class="co">#- group by description,language</span>
+<span class="co">#- order by num_commits desc;&quot;</span>
+
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- cats  &lt;- query_exec(cats_sql, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+cats &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/curiosity_and_play/cats.csv&quot;</span>)
+
+cats &lt;-<span class="st"> </span>cats[<span class="kw">order</span>(<span class="op">-</span>cats<span class="op">$</span>num_commits),]
+
+summary &lt;-<span class="st"> </span>cats <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">count</span>(language)
+
+summary &lt;-<span class="st"> </span>summary[<span class="kw">order</span>(<span class="op">-</span>summary<span class="op">$</span>n),]
+plt =<span class="st"> </span><span class="kw">ggplot</span>(summary[<span class="dv">1</span><span class="op">:</span><span class="dv">7</span>,],<span class="kw">aes</span>(language,n,<span class="dt">fill=</span>language))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Language&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Total Commits&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Language Choice for Projects About Cats&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;none&quot;</span>) 
+plt</code></pre>
+<p><img src="curiosity_and_play_files/figure-html/unnamed-chunk-15-1.png" /><!-- --></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="stack-overflow-queries.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio-education/ds4se/edit/master/curiosity_and_play.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ds4se.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 How Many Repositories Are There on GitHub? | Data Science for Software Engineering</title>
+  <meta name="description" content="An introduction to data science for software engineers" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 How Many Repositories Are There on GitHub? | Data Science for Software Engineering" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="An introduction to data science for software engineers" />
+  <meta name="github-repo" content="rstudio-education/ds4se" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 How Many Repositories Are There on GitHub? | Data Science for Software Engineering" />
+  
+  <meta name="twitter:description" content="An introduction to data science for software engineers" />
+  
+
+<meta name="author" content="Yim Register" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="analyze-this.html">
+<link rel="next" href="when-will-i-be-done-with-this-project.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">DS4SE</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#s:index-personas"><i class="fa fa-check"></i><b>1.1</b> Who are these lessons for?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#s:index-install"><i class="fa fa-check"></i><b>1.2</b> How do I get started?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#s:index-also"><i class="fa fa-check"></i><b>1.3</b> See Also</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html"><i class="fa fa-check"></i><b>2</b> Curiosity and Play</a><ul>
+<li class="chapter" data-level="2.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#curiosity-killed-the-cat-but-satisfaction-brought-it-back"><i class="fa fa-check"></i><b>2.1</b> Curiosity killed the cat, but satisfaction brought it back</a></li>
+<li class="chapter" data-level="2.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#playing-with-data"><i class="fa fa-check"></i><b>2.2</b> Playing with Data</a></li>
+<li class="chapter" data-level="2.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#ghtorrent-and-bigrquery"><i class="fa fa-check"></i><b>2.3</b> GHTorrent and BigRQuery</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#datafiles-for-this-lesson"><i class="fa fa-check"></i><b>2.3.1</b> DataFiles for this Lesson</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#alan-turings-birthday-examples-learn-some-sql-queries"><i class="fa fa-check"></i><b>2.4</b> Alan Turing’s Birthday Examples (learn some SQL queries)</a></li>
+<li class="chapter" data-level="2.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#execute-the-query"><i class="fa fa-check"></i><b>2.5</b> Execute the query</a></li>
+<li class="chapter" data-level="2.6" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#visualize-the-data"><i class="fa fa-check"></i><b>2.6</b> Visualize the Data</a></li>
+<li class="chapter" data-level="2.7" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#language-growth-over-time"><i class="fa fa-check"></i><b>2.7</b> Language Growth over Time</a></li>
+<li class="chapter" data-level="2.8" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#commits-to-github-canada-day-vs.july-4th"><i class="fa fa-check"></i><b>2.8</b> Commits to GitHub: Canada Day vs. July 4th</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#total-commits"><i class="fa fa-check"></i><b>2.8.1</b> Total Commits</a></li>
+<li class="chapter" data-level="2.8.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#yearly-commits"><i class="fa fa-check"></i><b>2.8.2</b> Yearly Commits</a></li>
+<li class="chapter" data-level="2.8.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#what-are-those-fluctuations"><i class="fa fa-check"></i><b>2.8.3</b> What are those fluctuations?</a></li>
+<li class="chapter" data-level="2.8.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#logistic-regression-for-predicting-your-weekend-commits"><i class="fa fa-check"></i><b>2.8.4</b> Logistic regression for predicting your weekend commits</a></li>
+<li class="chapter" data-level="2.8.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#making-predictions"><i class="fa fa-check"></i><b>2.8.5</b> Making Predictions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#time-for-a-cooldown-pizza-cats"><i class="fa fa-check"></i><b>2.9</b> Time for a Cooldown: Pizza &amp; Cats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html"><i class="fa fa-check"></i><b>3</b> Stack Overflow Queries</a><ul>
+<li class="chapter" data-level="3.1" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#i-am-thankful-for-stack-overflow"><i class="fa fa-check"></i><b>3.1</b> I am thankful for Stack Overflow</a></li>
+<li class="chapter" data-level="3.2" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#stack-exchange-queries"><i class="fa fa-check"></i><b>3.2</b> Stack Exchange Queries</a></li>
+<li class="chapter" data-level="3.3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-your-libraries"><i class="fa fa-check"></i><b>3.3</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="3.4" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-the-data"><i class="fa fa-check"></i><b>3.4</b> Load the Data</a></li>
+<li class="chapter" data-level="3.5" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#summarize-the-variables"><i class="fa fa-check"></i><b>3.5</b> Summarize the Variables</a></li>
+<li class="chapter" data-level="3.6" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#total-tags-and-dplyr-intro"><i class="fa fa-check"></i><b>3.6</b> Total Tags and dplyr Intro</a></li>
+<li class="chapter" data-level="3.7" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#tags-over-time-by-month"><i class="fa fa-check"></i><b>3.7</b> Tags Over Time By Month</a></li>
+<li class="chapter" data-level="3.8" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#cumulative-growth-over-time"><i class="fa fa-check"></i><b>3.8</b> Cumulative Growth Over Time</a></li>
+<li class="chapter" data-level="3.9" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#curiouser-and-curiouser"><i class="fa fa-check"></i><b>3.9</b> Curiouser and Curiouser…</a></li>
+<li class="chapter" data-level="3.10" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#time-vs.totals"><i class="fa fa-check"></i><b>3.10</b> Time vs. Totals</a></li>
+<li class="chapter" data-level="3.11" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#kolmogorov-smirnov-what"><i class="fa fa-check"></i><b>3.11</b> Kolmogorov-Smirnov what?!</a></li>
+<li class="chapter" data-level="3.12" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#reputation"><i class="fa fa-check"></i><b>3.12</b> Reputation</a></li>
+<li class="chapter" data-level="3.13" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#log-log-plots-and-power-laws-oh-my"><i class="fa fa-check"></i><b>3.13</b> Log-Log Plots and Power Laws, Oh My!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analyze-this.html"><a href="analyze-this.html"><i class="fa fa-check"></i><b>4</b> Analyze This!</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="analyze-this.html"><a href="analyze-this.html#before-this-lesson"><i class="fa fa-check"></i><b>4.0.1</b> Before this lesson:</a></li>
+<li class="chapter" data-level="4.1" data-path="analyze-this.html"><a href="analyze-this.html#what-is-evidence"><i class="fa fa-check"></i><b>4.1</b> What is “Evidence”?</a></li>
+<li class="chapter" data-level="4.2" data-path="analyze-this.html"><a href="analyze-this.html#surveying-a-population"><i class="fa fa-check"></i><b>4.2</b> Surveying a Population</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="analyze-this.html"><a href="analyze-this.html#loading-libraries"><i class="fa fa-check"></i><b>4.2.1</b> Loading Libraries</a></li>
+<li class="chapter" data-level="4.2.2" data-path="analyze-this.html"><a href="analyze-this.html#reading-in-the-data"><i class="fa fa-check"></i><b>4.2.2</b> Reading in the Data</a></li>
+<li class="chapter" data-level="4.2.3" data-path="analyze-this.html"><a href="analyze-this.html#renaming-columns"><i class="fa fa-check"></i><b>4.2.3</b> Renaming Columns</a></li>
+<li class="chapter" data-level="4.2.4" data-path="analyze-this.html"><a href="analyze-this.html#descriptive-statistics"><i class="fa fa-check"></i><b>4.2.4</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="4.2.5" data-path="analyze-this.html"><a href="analyze-this.html#first-visualization"><i class="fa fa-check"></i><b>4.2.5</b> First Visualization</a></li>
+<li class="chapter" data-level="4.2.6" data-path="analyze-this.html"><a href="analyze-this.html#distribution-across-questions"><i class="fa fa-check"></i><b>4.2.6</b> Distribution Across Questions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="analyze-this.html"><a href="analyze-this.html#most-essential-question"><i class="fa fa-check"></i><b>4.2.7</b> Most Essential Question</a></li>
+<li class="chapter" data-level="4.2.8" data-path="analyze-this.html"><a href="analyze-this.html#most-unwise-question"><i class="fa fa-check"></i><b>4.2.8</b> Most Unwise Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="analyze-this.html"><a href="analyze-this.html#customers-matter-the-most"><i class="fa fa-check"></i><b>4.3</b> Customers Matter the Most</a></li>
+<li class="chapter" data-level="4.4" data-path="analyze-this.html"><a href="analyze-this.html#developer-practices-dont-matter"><i class="fa fa-check"></i><b>4.4</b> Developer Practices Don’t Matter</a></li>
+<li class="chapter" data-level="4.5" data-path="analyze-this.html"><a href="analyze-this.html#dont-measure-productivity"><i class="fa fa-check"></i><b>4.5</b> Don’t Measure Productivity</a></li>
+<li class="chapter" data-level="4.6" data-path="analyze-this.html"><a href="analyze-this.html#how-unwise-is-it-compared-to-the-other-categories-test-of-significance"><i class="fa fa-check"></i><b>4.6</b> How Unwise is it compared to the other categories: Test of Significance</a></li>
+<li class="chapter" data-level="4.7" data-path="analyze-this.html"><a href="analyze-this.html#academic-and-industry-partnership-for-good-research"><i class="fa fa-check"></i><b>4.7</b> Academic and Industry Partnership for Good Research</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html"><i class="fa fa-check"></i><b>5</b> How Many Repositories Are There on GitHub?</a><ul>
+<li class="chapter" data-level="5.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#have-you-ever-wondered"><i class="fa fa-check"></i><b>5.1</b> Have You Ever Wondered…</a></li>
+<li class="chapter" data-level="5.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#how-many-repositories-are-there-on-github-1"><i class="fa fa-check"></i><b>5.2</b> How many repositories are there on GitHub?</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#our-data-ghtorrent"><i class="fa fa-check"></i><b>5.2.1</b> Our Data (GHTorrent)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#datafiles-for-this-lesson-1"><i class="fa fa-check"></i><b>5.2.2</b> DataFiles for this Lesson</a></li>
+<li class="chapter" data-level="5.2.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#different-strokes-for-different-folks"><i class="fa fa-check"></i><b>5.2.3</b> Different Strokes for Different Folks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#training-data-and-testing-data"><i class="fa fa-check"></i><b>5.2.4</b> Training Data and Testing Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#overfitting-and-underfitting"><i class="fa fa-check"></i><b>5.3</b> Overfitting and Underfitting</a></li>
+<li class="chapter" data-level="5.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#slow-down-how-can-we-fit-a-curve-to-this"><i class="fa fa-check"></i><b>5.4</b> Slow Down! How can we fit a curve to this?</a></li>
+<li class="chapter" data-level="5.5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#what-kind-of-curve-should-we-fit"><i class="fa fa-check"></i><b>5.5</b> What kind of curve should we fit?</a></li>
+<li class="chapter" data-level="5.6" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#evaluation"><i class="fa fa-check"></i><b>5.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html"><i class="fa fa-check"></i><b>6</b> When Will I Be Done With This Project?</a><ul>
+<li class="chapter" data-level="6.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#inconsistency-of-measurement"><i class="fa fa-check"></i><b>6.1</b> Inconsistency of Measurement</a></li>
+<li class="chapter" data-level="6.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#load-your-libraries-1"><i class="fa fa-check"></i><b>6.2</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-wrangling"><i class="fa fa-check"></i><b>6.3</b> Data Wrangling</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#original-data"><i class="fa fa-check"></i><b>6.3.1</b> Original Data</a></li>
+<li class="chapter" data-level="6.3.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#wide-form"><i class="fa fa-check"></i><b>6.3.2</b> Wide Form</a></li>
+<li class="chapter" data-level="6.3.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#melt"><i class="fa fa-check"></i><b>6.3.3</b> Melt</a></li>
+<li class="chapter" data-level="6.3.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#long-form"><i class="fa fa-check"></i><b>6.3.4</b> Long Form</a></li>
+<li class="chapter" data-level="6.3.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#reshape"><i class="fa fa-check"></i><b>6.3.5</b> Reshape</a></li>
+<li class="chapter" data-level="6.3.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#log-plot"><i class="fa fa-check"></i><b>6.3.6</b> Log Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#correlation-misleading"><i class="fa fa-check"></i><b>6.4</b> Correlation (Misleading)</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#dont-fall-for-my-logic"><i class="fa fa-check"></i><b>6.4.1</b> Don’t fall for my logic!</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#effort-estimation-accuracy-and-bias"><i class="fa fa-check"></i><b>6.5</b> Effort Estimation: Accuracy and Bias</a></li>
+<li class="chapter" data-level="6.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-visualizations-a-tricky-statistical-tool"><i class="fa fa-check"></i><b>6.6</b> Data Visualizations: A tricky statistical tool</a></li>
+<li class="chapter" data-level="6.7" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#without-a-log-transformation"><i class="fa fa-check"></i><b>6.7</b> Without a Log Transformation</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in"><i class="fa fa-check"></i><b>6.7.1</b> Zoom In</a></li>
+<li class="chapter" data-level="6.7.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in-on-jorgensen-data"><i class="fa fa-check"></i><b>6.7.2</b> Zoom in on Jorgensen Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#so-can-we-estimate-resources-or-not"><i class="fa fa-check"></i><b>6.8</b> So Can We Estimate Resources or Not?</a></li>
+<li class="chapter" data-level="6.9" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#estimate-updating"><i class="fa fa-check"></i><b>6.9</b> Estimate Updating</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html"><i class="fa fa-check"></i><b>7</b> Sleep Deprivation and Software Engineering Performance</a><ul>
+<li class="chapter" data-level="7.1" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#pulling-an-all-nighter"><i class="fa fa-check"></i><b>7.1</b> “Pulling an All-Nighter”</a></li>
+<li class="chapter" data-level="7.2" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#research-question"><i class="fa fa-check"></i><b>7.2</b> Research Question</a></li>
+<li class="chapter" data-level="7.3" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#who-are-the-participants"><i class="fa fa-check"></i><b>7.3</b> Who are the participants?</a></li>
+<li class="chapter" data-level="7.4" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#quasi-experimental-setup"><i class="fa fa-check"></i><b>7.4</b> Quasi-experimental setup</a></li>
+<li class="chapter" data-level="7.5" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#how-to-read-scientific-papers"><i class="fa fa-check"></i><b>7.5</b> How to Read Scientific Papers</a></li>
+<li class="chapter" data-level="7.6" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#percentage-of-acceptance-asserts-passed"><i class="fa fa-check"></i><b>7.6</b> Percentage of Acceptance Asserts Passed</a></li>
+<li class="chapter" data-level="7.7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#episodes-and-conformance"><i class="fa fa-check"></i><b>7.7</b> Episodes and Conformance</a></li>
+<li class="chapter" data-level="7.8" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#nothing-is-normal"><i class="fa fa-check"></i><b>7.8</b> NOTHING IS NORMAL!!</a></li>
+<li class="chapter" data-level="7.9" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#violin-plots"><i class="fa fa-check"></i><b>7.9</b> Violin Plots</a></li>
+<li class="chapter" data-level="7.10" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#effect-size-cliffs-delta"><i class="fa fa-check"></i><b>7.10</b> Effect Size: Cliff’s Delta</a></li>
+<li class="chapter" data-level="7.11" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#parametric-vs.nonparametric-statistical-power"><i class="fa fa-check"></i><b>7.11</b> Parametric vs. NonParametric Statistical Power</a></li>
+<li class="chapter" data-level="7.12" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#wilcoxon-aka-mann-whitney-test"><i class="fa fa-check"></i><b>7.12</b> Wilcoxon (aka Mann-Whitney) Test</a></li>
+<li class="chapter" data-level="7.13" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#results"><i class="fa fa-check"></i><b>7.13</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html"><i class="fa fa-check"></i><b>8</b> Does It Really Matter to Test First or Test After?</a><ul>
+<li class="chapter" data-level="8.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#test-driven-development-process"><i class="fa fa-check"></i><b>8.1</b> Test-Driven Development Process</a></li>
+<li class="chapter" data-level="8.2" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#the-study"><i class="fa fa-check"></i><b>8.2</b> The Study</a></li>
+<li class="chapter" data-level="8.3" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#modeling-recipe"><i class="fa fa-check"></i><b>8.3</b> Modeling Recipe</a></li>
+<li class="chapter" data-level="8.4" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#outcomes-we-care-about"><i class="fa fa-check"></i><b>8.4</b> Outcomes We Care About</a></li>
+<li class="chapter" data-level="8.5" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#factors-we-measure"><i class="fa fa-check"></i><b>8.5</b> Factors We Measure</a></li>
+<li class="chapter" data-level="8.6" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#descriptive-statistics-1"><i class="fa fa-check"></i><b>8.6</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8.7" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-models"><i class="fa fa-check"></i><b>8.7</b> Let’s Talk About Models</a></li>
+<li class="chapter" data-level="8.8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#regression-analysis-vs.hypothesis-testing"><i class="fa fa-check"></i><b>8.8</b> Regression Analysis vs. Hypothesis Testing</a></li>
+<li class="chapter" data-level="8.9" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-interactions"><i class="fa fa-check"></i><b>8.9</b> Let’s Talk About Interactions</a></li>
+<li class="chapter" data-level="8.10" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#component-residual-plots"><i class="fa fa-check"></i><b>8.10</b> Component + Residual Plots</a></li>
+<li class="chapter" data-level="8.11" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#interpreting-regression-output"><i class="fa fa-check"></i><b>8.11</b> Interpreting Regression Output</a></li>
+<li class="chapter" data-level="8.12" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#evaluating-how-good-a-model-is-aic"><i class="fa fa-check"></i><b>8.12</b> Evaluating How Good a Model Is (AIC)</a><ul>
+<li class="chapter" data-level="8.12.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data"><i class="fa fa-check"></i><b>8.12.1</b> You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html"><i class="fa fa-check"></i><b>9</b> Developer Performance and Designing a New Grading System for Teams</a><ul>
+<li class="chapter" data-level="9.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-do-developers-differ-in-their-measurable-output-performance"><i class="fa fa-check"></i><b>9.1</b> How do developers differ in their measurable output performance?</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-measure-matters"><i class="fa fa-check"></i><b>9.1.1</b> The Measure Matters</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found."><i class="fa fa-check"></i><b>9.1.2</b> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#weighted-features"><i class="fa fa-check"></i><b>9.2</b> Weighted Features</a></li>
+<li class="chapter" data-level="9.3" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#investigating-the-grant-sackman-legend"><i class="fa fa-check"></i><b>9.3</b> Investigating the Grant-Sackman Legend</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think"><i class="fa fa-check"></i><b>9.3.1</b> How long do different programmers take to solve the same task? It’s not what you think!</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-study-1"><i class="fa fa-check"></i><b>9.3.2</b> The Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#order-effects"><i class="fa fa-check"></i><b>9.4</b> Order Effects</a></li>
+<li class="chapter" data-level="9.5" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#interaction-plots"><i class="fa fa-check"></i><b>9.5</b> Interaction Plots</a></li>
+<li class="chapter" data-level="9.6" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#back-to-basics-how-to-measure-performance-at-all"><i class="fa fa-check"></i><b>9.6</b> Back to Basics: How to Measure Performance at all</a></li>
+<li class="chapter" data-level="9.7" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#in-your-ideal-world"><i class="fa fa-check"></i><b>9.7</b> In Your Ideal World…</a><ul>
+<li class="chapter" data-level="9.7.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-should-group-projects-be-graded-fairly"><i class="fa fa-check"></i><b>9.7.1</b> How should group projects be graded fairly?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="function-modification.html"><a href="function-modification.html"><i class="fa fa-check"></i><b>10</b> Function Modification</a><ul>
+<li class="chapter" data-level="10.1" data-path="function-modification.html"><a href="function-modification.html#figure-4.50-number-of-functions"><i class="fa fa-check"></i><b>10.1</b> Figure 4.50: Number of functions</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html"><i class="fa fa-check"></i><b>11</b> Bayesian vs Frequentist Statistics</a><ul>
+<li class="chapter" data-level="11.1" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#frequentist-statistics"><i class="fa fa-check"></i><b>11.1</b> Frequentist Statistics</a></li>
+<li class="chapter" data-level="11.2" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#bayesian-statistics"><i class="fa fa-check"></i><b>11.2</b> Bayesian Statistics</a></li>
+<li class="chapter" data-level="11.3" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#original-study"><i class="fa fa-check"></i><b>11.3</b> Original Study</a></li>
+<li class="chapter" data-level="11.4" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#mathematical-peacocking-stop-it"><i class="fa fa-check"></i><b>11.4</b> Mathematical Peacocking, stop it!</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html"><i class="fa fa-check"></i><b>12</b> Code Quality and Lines of Code</a><ul>
+<li class="chapter" data-level="12.0.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#redundancy"><i class="fa fa-check"></i><b>12.0.1</b> Redundancy?</a></li>
+<li class="chapter" data-level="12.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#how-does-complexity-relate-to-quality"><i class="fa fa-check"></i><b>12.1</b> How Does Complexity Relate to Quality?</a></li>
+<li class="chapter" data-level="12.2" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#cycolmatic-complexity"><i class="fa fa-check"></i><b>12.2</b> Cycolmatic Complexity</a></li>
+<li class="chapter" data-level="12.3" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#big-data-lines-of-code-vs.function-declarations"><i class="fa fa-check"></i><b>12.3</b> “Big Data”! Lines of Code vs. Function Declarations</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html"><i class="fa fa-check"></i><b>13</b> Number of Lines versus Number of Functions in Different Languages</a><ul>
+<li class="chapter" data-level="13.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#ugh-why-do-we-have-to-write-this-in-that-language"><i class="fa fa-check"></i><b>13.1</b> “Ugh, why do we have to write this in <em>that</em> language?”</a></li>
+<li class="chapter" data-level="13.2" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-does-it-mean-to-be-different"><i class="fa fa-check"></i><b>13.2</b> What does it mean to be “different”?</a></li>
+<li class="chapter" data-level="13.3" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-does-the-number-of-lines-relate-to-the-number-of-function-definitions"><i class="fa fa-check"></i><b>13.3</b> How does the number of lines relate to the number of function definitions?</a></li>
+<li class="chapter" data-level="13.4" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-do-i-parse-a-programming-language-abstract-syntax-trees"><i class="fa fa-check"></i><b>13.4</b> How do I parse a programming language? Abstract Syntax Trees</a></li>
+<li class="chapter" data-level="13.5" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#load-your-libraries-2"><i class="fa fa-check"></i><b>13.5</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="13.6" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#read-in-your-data"><i class="fa fa-check"></i><b>13.6</b> Read in Your Data</a></li>
+<li class="chapter" data-level="13.7" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#dont-compare-apples-to-oranges"><i class="fa fa-check"></i><b>13.7</b> Don’t Compare Apples to Oranges</a></li>
+<li class="chapter" data-level="13.8" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#sample-bias"><i class="fa fa-check"></i><b>13.8</b> Sample Bias</a></li>
+<li class="chapter" data-level="13.9" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#normality-matters"><i class="fa fa-check"></i><b>13.9</b> Normality Matters</a></li>
+<li class="chapter" data-level="13.10" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#does-comparing-averages-make-sense"><i class="fa fa-check"></i><b>13.10</b> Does Comparing Averages Make Sense?</a><ul>
+<li class="chapter" data-level="13.10.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#nonparametric-tests"><i class="fa fa-check"></i><b>13.10.1</b> NonParametric Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="13.11" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-to-compare-spreads"><i class="fa fa-check"></i><b>13.11</b> How to Compare Spreads</a><ul>
+<li class="chapter" data-level="13.11.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#clustering"><i class="fa fa-check"></i><b>13.11.1</b> Clustering</a></li>
+</ul></li>
+<li class="chapter" data-level="13.12" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-have-we-learned"><i class="fa fa-check"></i><b>13.12</b> What Have We Learned?</a></li>
+<li class="chapter" data-level="13.13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#next-steps-and-other-questions"><i class="fa fa-check"></i><b>13.13</b> Next Steps and Other Questions</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i><b>A</b> License</a></li>
+<li class="chapter" data-level="B" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>B</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="B.1" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-standards"><i class="fa fa-check"></i><b>B.1</b> Our Standards</a></li>
+<li class="chapter" data-level="B.2" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-responsibilities"><i class="fa fa-check"></i><b>B.2</b> Our Responsibilities</a></li>
+<li class="chapter" data-level="B.3" data-path="code-of-conduct.html"><a href="code-of-conduct.html#scope"><i class="fa fa-check"></i><b>B.3</b> Scope</a></li>
+<li class="chapter" data-level="B.4" data-path="code-of-conduct.html"><a href="code-of-conduct.html#enforcement"><i class="fa fa-check"></i><b>B.4</b> Enforcement</a></li>
+<li class="chapter" data-level="B.5" data-path="code-of-conduct.html"><a href="code-of-conduct.html#attribution"><i class="fa fa-check"></i><b>B.5</b> Attribution</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="contributing.html"><a href="contributing.html"><i class="fa fa-check"></i><b>C</b> Contributing</a><ul>
+<li class="chapter" data-level="C.1" data-path="contributing.html"><a href="contributing.html#contributors"><i class="fa fa-check"></i><b>C.1</b> Contributors</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>D</b> Glossary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Software Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="how-many-repositories-are-there-on-github" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> How Many Repositories Are There on GitHub?</h1>
+<center>
+<img src="static/brace.jpeg" />
+</center>
+<p><br></p>
+<div id="have-you-ever-wondered" class="section level2">
+<h2><span class="header-section-number">5.1</span> Have You Ever Wondered…</h2>
+<p>We come across statistical questions all the time, even if we don’t immediately realize it. From “whoah, how did Amazon know I was looking for a collection of rubber ducks that look like cowboys?” to more applied questions like “When will this server run out of storage space?” or “When will this project be completed?” Fortunatley, we live in a data-driven society; with access to billions of data sources from all over the world, we should be able to answer anything, right? Data comes in all kinds of forms; heartrate data every second from your fitness watch, location check-ins from that pizza place you went to last week, transactions, clicks, views, posts, tags… It’s all digital data that can tell us something about the world. But making sense of it all requires statistical thinking and data-wrangling skills.</p>
+</div>
+<div id="how-many-repositories-are-there-on-github-1" class="section level2">
+<h2><span class="header-section-number">5.2</span> How many repositories are there on GitHub?</h2>
+<p>Consider this question. The immediate response is to go Google it; voila! You have an answer (it seems to say that there are 100 million repositiories). But how would you actually arrive at that answer? And how would you know you were correct? Similarly to a straightforward programming task, seemingly simple questions can devolve into tons of unforseen caveats, constraints, and workarounds.</p>
+<div id="our-data-ghtorrent" class="section level3">
+<h3><span class="header-section-number">5.2.1</span> Our Data (GHTorrent)</h3>
+<p>An important thing to understand early on in your programming career is about APIs and access to data. A lot of the time, you’ll get data via a <code>.csv</code> or <code>.txt</code> file and can run everything on your local machine. But when working with really large datasets, there’s just no way you can run it all on your own laptop. If you wanted to use a program to count the number of repositories on GitHub, you might consider downloading all of them and keeping a counter of each new one. Well, that’s <em>terrabytes</em> of data, so it’s a no-go. So for our question, we are using something called <strong>GHTorrent</strong> <span class="citation">(Gousios, <a href="references.html#ref-Gous13">2013</a>)</span>. GitHub itself keeps track of all the behavior happening across the site. Commits, pushes, pull requests, new repositories, issues; and you can access those things through the GitHub API when you have a query. GHTorrent holds on to all that data, through the years. So now we can get a good picture of how fast GitHub is growing over time. Below, we query the ghtorrent project on Google Big Query, where <code>id</code> is a <code>project id</code> or <a href="glossary.html#github"><strong>repository</strong></a> with a <code>created_at</code> value. Grouping by day, we see the number of projects created each day. We also have access to other information about those repositories, like <a href="glossary.html#github"><em>commits, users, language, description</em></a> and more. For now, let’s look at the simplest count.</p>
+</div>
+<div id="datafiles-for-this-lesson-1" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> DataFiles for this Lesson</h3>
+<p>For this lesson, we actually stored all of the queries in datafiles in this repository. Accessing the data required a credit card, which is unreasonable to expect from anyone just trying to use these lessons to learn. If you <em>do</em> want to perform different queries of your own, there are several ways to do that. I have included how you could do it using <a href="glossary.html#bigquery"><strong>BigQuery</strong></a> and <code>bigrquery</code> (that’s the R package, see the r in there?). Any time you see <code>query_exec()</code> it will be commented out and you will use the data we have provided from the result of that query as of September 2019. That way, you can see how the query would be executed but also you don’t need to fiddle with APIs to follow along in this lesson.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(bigrquery)
+<span class="kw">library</span>(ggplot2)
+<span class="co">#- set_service_token(&quot;servicetoken.json&quot;) # you will need to get your own service token from your account. Don&#39;t share this!</span>
+<span class="co">#- project &lt;- &quot;gitstats&quot; #your project name here</span>
+
+
+<span class="co">#- # an sql query string</span>
+<span class="co">#- sql &lt;- &quot;select count(id) as num_projects,date(created_at) as day</span>
+<span class="co">#-                 FROM [ghtorrent-bq.ght.projects]</span>
+<span class="co">#-                 group by day&quot;</span>
+
+
+<span class="co">#- # executing the query if you aren&#39;t using data provided</span>
+<span class="co">#- data  &lt;- query_exec(sql, project = project, useLegacySql = FALSE)</span>
+
+<span class="co"># reading in data for the above query that we stored earlier</span>
+data &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/how_many_repos/data1.csv&quot;</span>)
+
+data &lt;-<span class="st"> </span>data[data<span class="op">$</span>day<span class="op">!=</span><span class="st">&quot;2016-05-01&quot;</span>,] <span class="co">#crazy outlier? #like unreasonably so</span>
+
+<span class="co"># number of projects created each day (it&#39;s going up, but its not the running sum! don&#39;t mix them up)</span>
+plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(day,num_projects))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text.x=</span><span class="kw">element_blank</span>(),<span class="dt">axis.ticks.x=</span><span class="kw">element_blank</span>())<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>())
+plt</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-1-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">data &lt;-data[<span class="kw">order</span>(data<span class="op">$</span>day),]
+data<span class="op">$</span>n &lt;-<span class="kw">seq.int</span>(<span class="kw">nrow</span>(data)) <span class="co">#adding in indexing for the days, so they&#39;re numeric as opposed to dates</span>
+
+<span class="co">#what we care about is the number of projects total, over time</span>
+data<span class="op">$</span>num_projects_sum &lt;-<span class="st"> </span><span class="kw">cumsum</span>(data<span class="op">$</span>num_projects) 
+
+
+TOTAL &lt;-<span class="st"> </span><span class="kw">sum</span>(data<span class="op">$</span>num_projects) <span class="co">#here&#39;s our first answer</span></code></pre>
+</div>
+<div id="different-strokes-for-different-folks" class="section level3">
+<h3><span class="header-section-number">5.2.3</span> Different Strokes for Different Folks</h3>
+<p>Could it be that depending on what we investigate and take into account, our final result changes? Does a repository count if it’s not code? What if it hasn’t been committed to in over a year? Do we care about forked repositories? It depends on what we care about… Do we care about <em>active code on GitHub</em>? or do we care about the sheer amount of storage space being taken up on the site? If the latter is the case, do we need information about the size of the repository; maybe even the lines of code? If we care about the former, do we need to look at which files are getting committed to, and which ones aren’t being touched? Let’s keep track of some of our findings in a table.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(knitr)
+<span class="kw">library</span>(kableExtra)
+<span class="kw">library</span>(dplyr)
+
+Final_Result &lt;-<span class="st"> </span><span class="kw">c</span>(TOTAL)
+Description &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;simplest raw sum&quot;</span>)
+different_results &lt;-<span class="st"> </span><span class="kw">data.frame</span>(Final_Result,Description)
+<span class="kw">kable</span>(different_results,<span class="dt">caption=</span><span class="st">&quot;different results obtained from different setups of the problem&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="st">&quot;striped&quot;</span>, <span class="dt">full_width =</span> T)</code></pre>
+<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-2">Table 5.1: </span>different results obtained from different setups of the problem
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Final_Result
+</th>
+<th style="text-align:left;">
+Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+37473073
+</td>
+<td style="text-align:left;">
+simplest raw sum
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="training-data-and-testing-data" class="section level3">
+<h3><span class="header-section-number">5.2.4</span> Training Data and Testing Data</h3>
+<p>You may have a heard about models being “trained”. Sometimes this conjures up images of a baby robot learning its ABCs. But training a <a href="glossary.html#model"><strong>model</strong></a> basically means building an equation or program off of some data, so that it can reliably generalize to <em>new</em> data. We try to find an equation that “fits” the data while also being flexible enough to generalize into the future. If you’ve heard of the term “trend line” or “line of best fit”, this is the concept we will start with when discussing training and test data. On our training data, we find a good fitting trend line. In order to evaluate how good that trend line is, we can compare how it performs on our test data. The benefit of reserving test data is that we can immediately evaluate our model, instead of simply waiting for it to be deployed in the world and either failing or succeeding (trust me, that’s not a good idea). So we hold on to some data where we know the <strong>true</strong> values, and compare to what our trained model would predict. Below, we split our data into a training and test set, with a 70/30 split. With some data, you would sample in order to get a wide range of test data from across the entire set. However, because our model is <em>over time</em> we will reserve the last 30% of true data in order to evaluate how effective our models are. <strong>You do not always want to just grab the last bit of data, as this can be biased for some problems where time is not the independent variable.</strong> (Imagine you were trying to fit a model to determine the genre of a movie, and your test set was accidentally all holiday movies because you pulled from December for your test set). In our case, we will grab the most recent 30%.</p>
+<pre class="sourceCode r"><code class="sourceCode r">third &lt;-<span class="st"> </span><span class="kw">length</span>(data<span class="op">$</span>n)<span class="op">%/%</span><span class="dv">3</span>
+
+test &lt;-<span class="st"> </span><span class="kw">tail</span>(data,third)
+train &lt;-<span class="st"> </span><span class="kw">head</span>(data,third<span class="op">*</span><span class="dv">2</span>)
+
+<span class="kw">ggplot</span>(train,<span class="kw">aes</span>(n,num_projects_sum))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span>.<span class="dv">2</span>,<span class="dt">alpha=</span>.<span class="dv">2</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Training Data&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-3-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(test,<span class="kw">aes</span>(n,num_projects_sum))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span>.<span class="dv">2</span>,<span class="dt">alpha=</span>.<span class="dv">2</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Testing Data&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-3-2.png" /><!-- --></p>
+</div>
+</div>
+<div id="overfitting-and-underfitting" class="section level2">
+<h2><span class="header-section-number">5.3</span> Overfitting and Underfitting</h2>
+<p>I guarantee it, you can probably fit a model to anything. It doesn’t mean it’s a <em>good</em> model, and it’s most certainly not guaranteed to be a <em>useful</em> one. The reason why we have training and testing data is so that we can evaluate how useful our model is at predicting new information. A big danger of fitting a model to your training data is <a href="glossary.html#overfit"><strong>overfitting</strong></a>. All data is messy, and contains <a href="glossary.html#noise"><strong>noise</strong></a>. That means, tiny dips and jumps that are just natural in the data. But we want to capture the main trends, the main patterns, in the data we have. So we want to make sure that we aren’t creating models to fit those tiny dips that don’t really matter. Let’s zoom in on our data, and look at a <em>very</em> close fit vs. a not so great fit:</p>
+<pre class="sourceCode r"><code class="sourceCode r">zoom &lt;-<span class="dv">1500</span>
+<span class="co">#zoom in on a window of our data</span>
+small &lt;-<span class="st"> </span>train[train<span class="op">$</span>n<span class="op">&gt;</span>zoom,]
+
+underfit &lt;-<span class="st"> </span><span class="kw">lm</span>(num_projects_sum<span class="op">~</span><span class="kw">poly</span>(n,<span class="dv">1</span>,<span class="dt">raw=</span><span class="ot">TRUE</span>),<span class="dt">data=</span>small) <span class="co">#just one parameter, it will be a straight line</span>
+overfit &lt;-<span class="st"> </span><span class="kw">lm</span>(num_projects_sum<span class="op">~</span><span class="kw">poly</span>(n,<span class="dv">10</span>,<span class="dt">raw=</span><span class="ot">TRUE</span>),<span class="dt">data=</span>small) <span class="co">#10 parameters, this will be a very funky polynomial</span>
+just_right &lt;-<span class="st"> </span><span class="kw">lm</span>(num_projects_sum<span class="op">~</span><span class="kw">poly</span>(n,<span class="dv">3</span>,<span class="dt">raw=</span><span class="ot">TRUE</span>),<span class="dt">data=</span>small) <span class="co"># 3 parameters, this one seems to capture enough of the trend, but without overfitting</span>
+
+<span class="co">#generate predictions from the models</span>
+pred.underfit&lt;-<span class="st"> </span><span class="kw">predict</span>(underfit,<span class="kw">data.frame</span>(<span class="dt">n=</span>small<span class="op">$</span>n)) 
+pred.just_right&lt;-<span class="st"> </span><span class="kw">predict</span>(just_right,<span class="kw">data.frame</span>(<span class="dt">n=</span>small<span class="op">$</span>n))
+pred.overfit&lt;-<span class="st"> </span><span class="kw">predict</span>(overfit,<span class="kw">data.frame</span>(<span class="dt">n=</span>small<span class="op">$</span>n))
+
+<span class="co">#plot the prediction lines</span>
+<span class="kw">ggplot</span>(train[train<span class="op">$</span>n<span class="op">&gt;</span>zoom,],<span class="kw">aes</span>(n,num_projects_sum))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span>.<span class="dv">2</span>,<span class="dt">alpha=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,pred.just_right,<span class="dt">color=</span><span class="st">&quot;Just Right&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,pred.overfit,<span class="dt">color=</span><span class="st">&quot;Overfit&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,pred.underfit,<span class="dt">color=</span><span class="st">&quot;Underfit&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_color_discrete</span>(<span class="dt">name=</span><span class="st">&quot;Models&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Overfit and Underfit&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-4-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#zooming in even closer</span>
+<span class="kw">ggplot</span>(train[train<span class="op">$</span>n<span class="op">&gt;</span>zoom,],<span class="kw">aes</span>(n,num_projects_sum))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span>.<span class="dv">2</span>,<span class="dt">alpha=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,pred.just_right,<span class="dt">color=</span><span class="st">&quot;Just Right&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,pred.overfit,<span class="dt">color=</span><span class="st">&quot;Overfit&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,pred.underfit,<span class="dt">color=</span><span class="st">&quot;Underfit&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_color_discrete</span>(<span class="dt">name=</span><span class="st">&quot;Models&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Overfit and Underfit&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlim</span>(zoom<span class="op">+</span><span class="dv">300</span>,zoom<span class="op">+</span><span class="dv">500</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylim</span>(train<span class="op">$</span>num_projects_sum[zoom<span class="op">+</span><span class="dv">300</span>],train<span class="op">$</span>num_projects_sum[zoom<span class="op">+</span><span class="dv">500</span>])</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-4-2.png" /><!-- --></p>
+<p>The model with more <a href="glossary.html#parameter"><strong>parameters</strong></a> sure does seem to fit the data best! You can imagine going to GitHub and announcing <em>“I’ve found the exact predictive model of how fast you are growing!”</em> Your fit is so great, that it captures the small little nuances of how the growth fluctuates. You must be so proud.</p>
+<p>Unfortunately, let’s look at the extrapolated trajectory of the models we have. Extrapolating into the future, we see that the best fitting model actually starts going in a crazy direction. It wasn’t capturing the main trend, and is then subject to totally bombing on new data. <strong>Overfitting</strong>: using too complex a model, with too many unjustified parameters, to accidentally fit to the noise in your data instead of capturing the main trend. <a href="glossary.html#underfit"><strong>Underfitting</strong></a>: not complex enough of a model, missing out on valuable information about the patterns in the data (like a straight line attempting to fit an exponential). We want the “sweet spot” where we have a reasonable number of parameters, but are also robust to real world data, and can handle noisy inputs.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#extrapolate the model onto future data</span>
+extrap&lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span class="kw">predict</span>(overfit,<span class="kw">data.frame</span>(<span class="dt">n=</span><span class="kw">seq</span>(<span class="kw">tail</span>(train<span class="op">$</span>n, <span class="dv">1</span>),<span class="dv">4000</span>,<span class="dv">1</span>))))
+extrap<span class="op">$</span>n &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="kw">tail</span>(train<span class="op">$</span>n, <span class="dv">1</span>),<span class="dv">4000</span>,<span class="dv">1</span>)
+<span class="kw">colnames</span>(extrap) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;overfit&quot;</span>,<span class="st">&quot;n&quot;</span>)
+extrap<span class="op">$</span>underfit &lt;-<span class="kw">predict</span>(underfit,<span class="kw">data.frame</span>(<span class="dt">n=</span><span class="kw">seq</span>(<span class="kw">tail</span>(train<span class="op">$</span>n, <span class="dv">1</span>),<span class="dv">4000</span>,<span class="dv">1</span>)))
+extrap<span class="op">$</span>justright &lt;-<span class="kw">predict</span>(just_right,<span class="kw">data.frame</span>(<span class="dt">n=</span><span class="kw">seq</span>(<span class="kw">tail</span>(train<span class="op">$</span>n, <span class="dv">1</span>),<span class="dv">4000</span>,<span class="dv">1</span>)))
+
+merged &lt;-<span class="st"> </span><span class="kw">merge</span>(extrap,train,<span class="dt">all=</span><span class="ot">TRUE</span>)
+
+
+<span class="co">#plot those lines and see how well they will do on future data</span>
+plt =<span class="st"> </span><span class="kw">ggplot</span>(merged,<span class="kw">aes</span>(n,num_projects_sum))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span>.<span class="dv">5</span>,<span class="kw">aes</span>(<span class="dt">color=</span><span class="st">&quot;True Data&quot;</span>),<span class="dt">color=</span><span class="st">&quot;black&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,justright,<span class="dt">color=</span><span class="st">&quot;Just Right&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,overfit,<span class="dt">color=</span><span class="st">&quot;Overfit&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,underfit,<span class="dt">color=</span><span class="st">&quot;Underfit&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_vline</span>(<span class="dt">xintercept =</span> <span class="dv">3100</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlim</span>(zoom,<span class="ot">NA</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylim</span>(<span class="op">-</span><span class="dv">1000</span>,<span class="ot">NA</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Time (days)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Total Repositories&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_color_discrete</span>(<span class="dt">name =</span> <span class="st">&quot;Models&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylim</span>(<span class="ot">NA</span>,<span class="fl">1.0e+8</span>)
+plt</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-5-1.png" /><!-- --></p>
+<p>Here we have the story of the Three Bears, Machine Learning style. The first equation <em>sort of</em> gets the trend (at least it’s increasing?!) but really isn’t capturing the nonlinearity of the data. A line can only do so much. That’s an example of <strong>underfitting</strong>. Then, we have a 10-term polynomial that beautifully fits the data we have; too perfectly. Are <em>10 terms</em> really necessary to capture the basic trend? And beyond just being excessive, the complex model may fail miserably on future data.</p>
+</div>
+<div id="slow-down-how-can-we-fit-a-curve-to-this" class="section level2">
+<h2><span class="header-section-number">5.4</span> Slow Down! How can we fit a curve to this?</h2>
+<p>We are trying to understand the true trend in the world (in our case, the number of repositories on GitHub and how that is changing over time). Simply understanding trends is nice, as we might be able to infer some causal factors that help a company grow, or we may be able to show that some phenomenon is, in fact, changing over the course of several years. But the real value comes in being able to reliably predict how that trend will continue in the future. The world is filled with patterns and statistical questions, from asking how many repositories there are on GitHub to predicting who needs financial aid or how many people will go vote each year.</p>
+<p>Sometimes, we can simply <em>look</em> at the data and describe the trend line; “it’s linear and decreasing”, “there’s very little or no correlation here”, “that’s exponential”. But things get complicated when we care about the details (which we do!), or if we are dealing in more dimensions than we can see (whoah! don’t worry we will get to that in another lesson). For now, let’s talk about some of the details we might care about in <em>our</em> problem, that we need modeling to help us determine:</p>
+<ul>
+<li>can a model even capture the regularities in the data we have?</li>
+<li>how consistently is the number of repos growing over time?</li>
+<li>is it linear growth? exponential? could the growth go back down like a sine wave? maybe it will plateau?</li>
+<li>if we count all the different forks, is the growth different? what if we don’t consider them at all?</li>
+<li>the exact slope of the growth, helping us predict what will happen next year</li>
+</ul>
+<p>If we can fit a model, it means that we have an equation that helps us understand the true phenomenon happening in our data. It will <em>never</em> be perfect (you might have heard the term “noise” and that’s basically describing the beautiful unpredictableness of life). But what we hope to achieve is an equation that gets us close enough to what is happening so that it is useful. So for our data, what we hope to have by the end of this is an equation that helps us map a line through the growth of repositories on GitHub. For any year, we can look up in our equation how close we got to the <em>actual</em> number.</p>
+<p>So where do we start? I find it really helpful to imagine the worst model you could possibly think of, and start there. Think of this like a creative exercise; what would be the <em>worst</em> way to solve this problem? Some great terrible ideas might include:</p>
+<ul>
+<li>Always predict “7” as the answer</li>
+<li>Always predict the mean across all years</li>
+<li>Guess randomly, using different equations, until one sticks</li>
+</ul>
+<p>Luckily, the field of statistics and data science has come a tad further than these methodologies. So here are some guiding questions to help us determine which model to start with.</p>
+<ul>
+<li>What is a reasonable guess at the shape for this growth? Keep in mind that simpler is often better.</li>
+<li>What do we know about the world that makes that shape reasonable? For instance, we often see that exponential growth tends to taper off eventually, like in the case of X (example here). We also know that there really is only so much storage space, and other constraints that affect that happens in the world. As always, we don’t <em>just</em> have a bunch of numbers we are looking at about GitHub repos; but a result of complex interworking parts from behavior in the real world.</li>
+</ul>
+</div>
+<div id="what-kind-of-curve-should-we-fit" class="section level2">
+<h2><span class="header-section-number">5.5</span> What kind of curve should we fit?</h2>
+<pre class="sourceCode r"><code class="sourceCode r">linear_fit &lt;-<span class="st"> </span><span class="kw">lm</span>(num_projects_sum<span class="op">~</span>n,<span class="dt">data=</span>train)
+second_polynomial &lt;-<span class="st"> </span><span class="kw">lm</span>(num_projects_sum<span class="op">~</span><span class="kw">poly</span>(n,<span class="dv">2</span>,<span class="dt">raw=</span><span class="ot">TRUE</span>),<span class="dt">data=</span>train)
+third_polynomial &lt;-<span class="st"> </span><span class="kw">lm</span>(num_projects_sum<span class="op">~</span><span class="kw">poly</span>(n,<span class="dv">4</span>,<span class="dt">raw=</span><span class="ot">TRUE</span>),<span class="dt">data=</span>train)
+
+
+
+<span class="co"># testing out different shapes, from linear to third-order polynomial</span>
+train<span class="op">$</span>linear &lt;-<span class="st"> </span><span class="kw">predict</span>(linear_fit,<span class="kw">data.frame</span>(<span class="dt">n=</span>train<span class="op">$</span>n))
+train<span class="op">$</span>second_polynomial &lt;-<span class="st"> </span><span class="kw">predict</span>(second_polynomial, <span class="kw">data.frame</span>(<span class="dt">n=</span>train<span class="op">$</span>n)) 
+train<span class="op">$</span>third_polynomial &lt;-<span class="st"> </span><span class="kw">predict</span>(third_polynomial, <span class="kw">data.frame</span>(<span class="dt">n=</span>train<span class="op">$</span>n))
+
+
+
+<span class="co">#ggplot those curves</span>
+plt &lt;-<span class="st"> </span><span class="kw">ggplot</span>(train,<span class="kw">aes</span>(n,num_projects_sum))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Github repos over time&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,linear, <span class="dt">color=</span><span class="st">&quot;Linear&quot;</span>),<span class="dt">size=</span>.<span class="dv">5</span>,<span class="dt">alpha=</span>.<span class="dv">6</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,second_polynomial,<span class="dt">color=</span><span class="st">&quot;Second Polynomial&quot;</span>),<span class="dt">size=</span>.<span class="dv">5</span>,<span class="dt">alpha=</span>.<span class="dv">6</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(n,third_polynomial,<span class="dt">color=</span><span class="st">&quot;Third Polynomial&quot;</span>),<span class="dt">size=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_vline</span>(<span class="dt">xintercept =</span> <span class="kw">seq</span>(<span class="dv">0</span>,<span class="dv">3300</span>,<span class="dt">by=</span><span class="dv">365</span>),<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>,<span class="dt">alpha=</span>.<span class="dv">2</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text.x=</span><span class="kw">element_blank</span>(),<span class="dt">axis.ticks.x=</span><span class="kw">element_blank</span>())<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>())<span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Time&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Total Repositories&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">labels =</span> <span class="cf">function</span>(x) <span class="kw">format</span>(x, <span class="dt">scientific =</span> <span class="ot">FALSE</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_color_discrete</span>(<span class="dt">name=</span><span class="st">&quot;Models&quot;</span>)
+plt</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-6-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">future &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span class="kw">predict</span>(third_polynomial, <span class="kw">data.frame</span>(<span class="dt">n=</span><span class="kw">seq</span>(<span class="dv">0</span>,<span class="dv">5000</span>))))
+future<span class="op">$</span>n &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dv">0</span>,<span class="dv">5000</span>)
+<span class="kw">colnames</span>(future) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;prediction&quot;</span>,<span class="st">&quot;n&quot;</span>)
+
+future &lt;-<span class="st"> </span><span class="kw">merge</span>(train,future,<span class="dt">all=</span><span class="ot">TRUE</span>)
+
+<span class="kw">ggplot</span>(future,<span class="kw">aes</span>(n,prediction))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="dt">color=</span><span class="st">&quot;red&quot;</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(n,num_projects_sum),<span class="dt">color=</span><span class="st">&quot;black&quot;</span>,<span class="dt">size=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-6-2.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">future_and_test &lt;-<span class="st"> </span><span class="kw">merge</span>(test,future,<span class="dt">all=</span><span class="ot">TRUE</span>)
+<span class="co">#predictions for testing period</span>
+<span class="kw">library</span>(data.table)
+future_and_test&lt;-<span class="kw">setDT</span>(future_and_test)[, <span class="kw">lapply</span>(.SD, na.omit), by =<span class="st"> </span>n]
+
+
+<span class="kw">ggplot</span>(future_and_test,<span class="kw">aes</span>(n,prediction))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_line</span>(<span class="dt">color=</span><span class="st">&quot;red&quot;</span>,<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(n,num_projects_sum),<span class="dt">color=</span><span class="st">&quot;black&quot;</span>,<span class="dt">size=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_vline</span>(<span class="dt">xintercept=</span><span class="kw">tail</span>(train<span class="op">$</span>n,<span class="dv">1</span>),<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_vline</span>(<span class="dt">xintercept=</span><span class="kw">tail</span>(test<span class="op">$</span>n,<span class="dv">1</span>),<span class="dt">linetype=</span><span class="st">&quot;dashed&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<p><img src="how_many_repos_files/figure-html/unnamed-chunk-6-3.png" /><!-- --></p>
+</div>
+<div id="evaluation" class="section level2">
+<h2><span class="header-section-number">5.6</span> Evaluation</h2>
+<p>Because we held on to some <a href="glossary.html#testdata"><strong>test data</strong></a>, we can evaluate how good our model is on actual prediction, as opposed to just looking at how well it fits the [<strong>training data</strong>](glossary.html#trainingdata] (that matters too, but not nearly as much). What we have now is two vectors that we can compare. The <strong>true</strong> data (our test data), and the <a href="glossary.html#model"><strong>predicted</strong></a> data (our model). We can compare how good our model did by recording the <a href="glossary.html#rmse"><strong>root mean squared error</strong></a>. One of the great things about R is that we can do this very straightforwardly:</p>
+<pre class="sourceCode r"><code class="sourceCode r">predictions &lt;-<span class="st"> </span>future_and_test <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">                </span><span class="kw">filter</span>(n <span class="op">%in%</span><span class="st"> </span>(test<span class="op">$</span>n))
+predictions &lt;-predictions[<span class="kw">order</span>(predictions<span class="op">$</span>n),]
+test &lt;-test[<span class="kw">order</span>(test<span class="op">$</span>n),]
+<span class="kw">head</span>(test)</code></pre>
+<pre><code>##      num_projects        day    n num_projects_sum
+## 1749        12595 2013-10-19 2107          6459831
+## 501         12179 2013-10-20 2108          6472010
+## 2455        18097 2013-10-21 2109          6490107
+## 925         18414 2013-10-22 2110          6508521
+## 500         18160 2013-10-23 2111          6526681
+## 510         18949 2013-10-24 2112          6545630</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">residuals &lt;-<span class="st"> </span>test<span class="op">$</span>num_projects_sum<span class="op">-</span>predictions<span class="op">$</span>prediction
+<span class="kw">head</span>(residuals)</code></pre>
+<pre><code>## [1] 11933.068  8412.371 10777.812 13428.346 15792.929 18914.514</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">RMSE =<span class="st"> </span><span class="cf">function</span>(predictions, true_values){
+  <span class="kw">sqrt</span>(<span class="kw">mean</span>((predictions <span class="op">-</span><span class="st"> </span>true_values)<span class="op">^</span><span class="dv">2</span>))
+}
+
+<span class="kw">RMSE</span>(predictions<span class="op">$</span>prediction,test<span class="op">$</span>num_projects_sum)</code></pre>
+<pre><code>## [1] 6035449</code></pre>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="analyze-this.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="when-will-i-be-done-with-this-project.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio-education/ds4se/edit/master/how_many_repos.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ds4se.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
