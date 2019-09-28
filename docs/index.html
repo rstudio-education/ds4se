@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Data Science for Software Engineering</title>
+  <meta name="description" content="An introduction to data science for software engineers" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Data Science for Software Engineering" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="An introduction to data science for software engineers" />
+  <meta name="github-repo" content="rstudio-education/ds4se" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data Science for Software Engineering" />
+  
+  <meta name="twitter:description" content="An introduction to data science for software engineers" />
+  
+
+<meta name="author" content="Yim Register" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="curiosity-and-play.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">DS4SE</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#s:index-personas"><i class="fa fa-check"></i><b>1.1</b> Who are these lessons for?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#s:index-install"><i class="fa fa-check"></i><b>1.2</b> How do I get started?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#s:index-also"><i class="fa fa-check"></i><b>1.3</b> See Also</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html"><i class="fa fa-check"></i><b>2</b> Curiosity and Play</a><ul>
+<li class="chapter" data-level="2.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#curiosity-killed-the-cat-but-satisfaction-brought-it-back"><i class="fa fa-check"></i><b>2.1</b> Curiosity killed the cat, but satisfaction brought it back</a></li>
+<li class="chapter" data-level="2.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#playing-with-data"><i class="fa fa-check"></i><b>2.2</b> Playing with Data</a></li>
+<li class="chapter" data-level="2.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#ghtorrent-and-bigrquery"><i class="fa fa-check"></i><b>2.3</b> GHTorrent and BigRQuery</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#datafiles-for-this-lesson"><i class="fa fa-check"></i><b>2.3.1</b> DataFiles for this Lesson</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#alan-turings-birthday-examples-learn-some-sql-queries"><i class="fa fa-check"></i><b>2.4</b> Alan Turing’s Birthday Examples (learn some SQL queries)</a></li>
+<li class="chapter" data-level="2.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#execute-the-query"><i class="fa fa-check"></i><b>2.5</b> Execute the query</a></li>
+<li class="chapter" data-level="2.6" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#visualize-the-data"><i class="fa fa-check"></i><b>2.6</b> Visualize the Data</a></li>
+<li class="chapter" data-level="2.7" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#language-growth-over-time"><i class="fa fa-check"></i><b>2.7</b> Language Growth over Time</a></li>
+<li class="chapter" data-level="2.8" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#commits-to-github-canada-day-vs.july-4th"><i class="fa fa-check"></i><b>2.8</b> Commits to GitHub: Canada Day vs. July 4th</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#total-commits"><i class="fa fa-check"></i><b>2.8.1</b> Total Commits</a></li>
+<li class="chapter" data-level="2.8.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#yearly-commits"><i class="fa fa-check"></i><b>2.8.2</b> Yearly Commits</a></li>
+<li class="chapter" data-level="2.8.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#what-are-those-fluctuations"><i class="fa fa-check"></i><b>2.8.3</b> What are those fluctuations?</a></li>
+<li class="chapter" data-level="2.8.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#logistic-regression-for-predicting-your-weekend-commits"><i class="fa fa-check"></i><b>2.8.4</b> Logistic regression for predicting your weekend commits</a></li>
+<li class="chapter" data-level="2.8.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#making-predictions"><i class="fa fa-check"></i><b>2.8.5</b> Making Predictions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#time-for-a-cooldown-pizza-cats"><i class="fa fa-check"></i><b>2.9</b> Time for a Cooldown: Pizza &amp; Cats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html"><i class="fa fa-check"></i><b>3</b> Stack Overflow Queries</a><ul>
+<li class="chapter" data-level="3.1" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#i-am-thankful-for-stack-overflow"><i class="fa fa-check"></i><b>3.1</b> I am thankful for Stack Overflow</a></li>
+<li class="chapter" data-level="3.2" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#stack-exchange-queries"><i class="fa fa-check"></i><b>3.2</b> Stack Exchange Queries</a></li>
+<li class="chapter" data-level="3.3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-your-libraries"><i class="fa fa-check"></i><b>3.3</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="3.4" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-the-data"><i class="fa fa-check"></i><b>3.4</b> Load the Data</a></li>
+<li class="chapter" data-level="3.5" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#summarize-the-variables"><i class="fa fa-check"></i><b>3.5</b> Summarize the Variables</a></li>
+<li class="chapter" data-level="3.6" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#total-tags-and-dplyr-intro"><i class="fa fa-check"></i><b>3.6</b> Total Tags and dplyr Intro</a></li>
+<li class="chapter" data-level="3.7" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#tags-over-time-by-month"><i class="fa fa-check"></i><b>3.7</b> Tags Over Time By Month</a></li>
+<li class="chapter" data-level="3.8" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#cumulative-growth-over-time"><i class="fa fa-check"></i><b>3.8</b> Cumulative Growth Over Time</a></li>
+<li class="chapter" data-level="3.9" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#curiouser-and-curiouser"><i class="fa fa-check"></i><b>3.9</b> Curiouser and Curiouser…</a></li>
+<li class="chapter" data-level="3.10" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#time-vs.totals"><i class="fa fa-check"></i><b>3.10</b> Time vs. Totals</a></li>
+<li class="chapter" data-level="3.11" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#kolmogorov-smirnov-what"><i class="fa fa-check"></i><b>3.11</b> Kolmogorov-Smirnov what?!</a></li>
+<li class="chapter" data-level="3.12" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#reputation"><i class="fa fa-check"></i><b>3.12</b> Reputation</a></li>
+<li class="chapter" data-level="3.13" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#log-log-plots-and-power-laws-oh-my"><i class="fa fa-check"></i><b>3.13</b> Log-Log Plots and Power Laws, Oh My!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analyze-this.html"><a href="analyze-this.html"><i class="fa fa-check"></i><b>4</b> Analyze This!</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="analyze-this.html"><a href="analyze-this.html#before-this-lesson"><i class="fa fa-check"></i><b>4.0.1</b> Before this lesson:</a></li>
+<li class="chapter" data-level="4.1" data-path="analyze-this.html"><a href="analyze-this.html#what-is-evidence"><i class="fa fa-check"></i><b>4.1</b> What is “Evidence”?</a></li>
+<li class="chapter" data-level="4.2" data-path="analyze-this.html"><a href="analyze-this.html#surveying-a-population"><i class="fa fa-check"></i><b>4.2</b> Surveying a Population</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="analyze-this.html"><a href="analyze-this.html#loading-libraries"><i class="fa fa-check"></i><b>4.2.1</b> Loading Libraries</a></li>
+<li class="chapter" data-level="4.2.2" data-path="analyze-this.html"><a href="analyze-this.html#reading-in-the-data"><i class="fa fa-check"></i><b>4.2.2</b> Reading in the Data</a></li>
+<li class="chapter" data-level="4.2.3" data-path="analyze-this.html"><a href="analyze-this.html#renaming-columns"><i class="fa fa-check"></i><b>4.2.3</b> Renaming Columns</a></li>
+<li class="chapter" data-level="4.2.4" data-path="analyze-this.html"><a href="analyze-this.html#descriptive-statistics"><i class="fa fa-check"></i><b>4.2.4</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="4.2.5" data-path="analyze-this.html"><a href="analyze-this.html#first-visualization"><i class="fa fa-check"></i><b>4.2.5</b> First Visualization</a></li>
+<li class="chapter" data-level="4.2.6" data-path="analyze-this.html"><a href="analyze-this.html#distribution-across-questions"><i class="fa fa-check"></i><b>4.2.6</b> Distribution Across Questions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="analyze-this.html"><a href="analyze-this.html#most-essential-question"><i class="fa fa-check"></i><b>4.2.7</b> Most Essential Question</a></li>
+<li class="chapter" data-level="4.2.8" data-path="analyze-this.html"><a href="analyze-this.html#most-unwise-question"><i class="fa fa-check"></i><b>4.2.8</b> Most Unwise Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="analyze-this.html"><a href="analyze-this.html#customers-matter-the-most"><i class="fa fa-check"></i><b>4.3</b> Customers Matter the Most</a></li>
+<li class="chapter" data-level="4.4" data-path="analyze-this.html"><a href="analyze-this.html#developer-practices-dont-matter"><i class="fa fa-check"></i><b>4.4</b> Developer Practices Don’t Matter</a></li>
+<li class="chapter" data-level="4.5" data-path="analyze-this.html"><a href="analyze-this.html#dont-measure-productivity"><i class="fa fa-check"></i><b>4.5</b> Don’t Measure Productivity</a></li>
+<li class="chapter" data-level="4.6" data-path="analyze-this.html"><a href="analyze-this.html#how-unwise-is-it-compared-to-the-other-categories-test-of-significance"><i class="fa fa-check"></i><b>4.6</b> How Unwise is it compared to the other categories: Test of Significance</a></li>
+<li class="chapter" data-level="4.7" data-path="analyze-this.html"><a href="analyze-this.html#academic-and-industry-partnership-for-good-research"><i class="fa fa-check"></i><b>4.7</b> Academic and Industry Partnership for Good Research</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html"><i class="fa fa-check"></i><b>5</b> How Many Repositories Are There on GitHub?</a><ul>
+<li class="chapter" data-level="5.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#have-you-ever-wondered"><i class="fa fa-check"></i><b>5.1</b> Have You Ever Wondered…</a></li>
+<li class="chapter" data-level="5.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#how-many-repositories-are-there-on-github-1"><i class="fa fa-check"></i><b>5.2</b> How many repositories are there on GitHub?</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#our-data-ghtorrent"><i class="fa fa-check"></i><b>5.2.1</b> Our Data (GHTorrent)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#datafiles-for-this-lesson-1"><i class="fa fa-check"></i><b>5.2.2</b> DataFiles for this Lesson</a></li>
+<li class="chapter" data-level="5.2.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#different-strokes-for-different-folks"><i class="fa fa-check"></i><b>5.2.3</b> Different Strokes for Different Folks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#training-data-and-testing-data"><i class="fa fa-check"></i><b>5.2.4</b> Training Data and Testing Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#overfitting-and-underfitting"><i class="fa fa-check"></i><b>5.3</b> Overfitting and Underfitting</a></li>
+<li class="chapter" data-level="5.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#slow-down-how-can-we-fit-a-curve-to-this"><i class="fa fa-check"></i><b>5.4</b> Slow Down! How can we fit a curve to this?</a></li>
+<li class="chapter" data-level="5.5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#what-kind-of-curve-should-we-fit"><i class="fa fa-check"></i><b>5.5</b> What kind of curve should we fit?</a></li>
+<li class="chapter" data-level="5.6" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#evaluation"><i class="fa fa-check"></i><b>5.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html"><i class="fa fa-check"></i><b>6</b> When Will I Be Done With This Project?</a><ul>
+<li class="chapter" data-level="6.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#inconsistency-of-measurement"><i class="fa fa-check"></i><b>6.1</b> Inconsistency of Measurement</a></li>
+<li class="chapter" data-level="6.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#load-your-libraries-1"><i class="fa fa-check"></i><b>6.2</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-wrangling"><i class="fa fa-check"></i><b>6.3</b> Data Wrangling</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#original-data"><i class="fa fa-check"></i><b>6.3.1</b> Original Data</a></li>
+<li class="chapter" data-level="6.3.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#wide-form"><i class="fa fa-check"></i><b>6.3.2</b> Wide Form</a></li>
+<li class="chapter" data-level="6.3.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#melt"><i class="fa fa-check"></i><b>6.3.3</b> Melt</a></li>
+<li class="chapter" data-level="6.3.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#long-form"><i class="fa fa-check"></i><b>6.3.4</b> Long Form</a></li>
+<li class="chapter" data-level="6.3.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#reshape"><i class="fa fa-check"></i><b>6.3.5</b> Reshape</a></li>
+<li class="chapter" data-level="6.3.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#log-plot"><i class="fa fa-check"></i><b>6.3.6</b> Log Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#correlation-misleading"><i class="fa fa-check"></i><b>6.4</b> Correlation (Misleading)</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#dont-fall-for-my-logic"><i class="fa fa-check"></i><b>6.4.1</b> Don’t fall for my logic!</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#effort-estimation-accuracy-and-bias"><i class="fa fa-check"></i><b>6.5</b> Effort Estimation: Accuracy and Bias</a></li>
+<li class="chapter" data-level="6.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-visualizations-a-tricky-statistical-tool"><i class="fa fa-check"></i><b>6.6</b> Data Visualizations: A tricky statistical tool</a></li>
+<li class="chapter" data-level="6.7" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#without-a-log-transformation"><i class="fa fa-check"></i><b>6.7</b> Without a Log Transformation</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in"><i class="fa fa-check"></i><b>6.7.1</b> Zoom In</a></li>
+<li class="chapter" data-level="6.7.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in-on-jorgensen-data"><i class="fa fa-check"></i><b>6.7.2</b> Zoom in on Jorgensen Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#so-can-we-estimate-resources-or-not"><i class="fa fa-check"></i><b>6.8</b> So Can We Estimate Resources or Not?</a></li>
+<li class="chapter" data-level="6.9" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#estimate-updating"><i class="fa fa-check"></i><b>6.9</b> Estimate Updating</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html"><i class="fa fa-check"></i><b>7</b> Sleep Deprivation and Software Engineering Performance</a><ul>
+<li class="chapter" data-level="7.1" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#pulling-an-all-nighter"><i class="fa fa-check"></i><b>7.1</b> “Pulling an All-Nighter”</a></li>
+<li class="chapter" data-level="7.2" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#research-question"><i class="fa fa-check"></i><b>7.2</b> Research Question</a></li>
+<li class="chapter" data-level="7.3" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#who-are-the-participants"><i class="fa fa-check"></i><b>7.3</b> Who are the participants?</a></li>
+<li class="chapter" data-level="7.4" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#quasi-experimental-setup"><i class="fa fa-check"></i><b>7.4</b> Quasi-experimental setup</a></li>
+<li class="chapter" data-level="7.5" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#how-to-read-scientific-papers"><i class="fa fa-check"></i><b>7.5</b> How to Read Scientific Papers</a></li>
+<li class="chapter" data-level="7.6" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#percentage-of-acceptance-asserts-passed"><i class="fa fa-check"></i><b>7.6</b> Percentage of Acceptance Asserts Passed</a></li>
+<li class="chapter" data-level="7.7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#episodes-and-conformance"><i class="fa fa-check"></i><b>7.7</b> Episodes and Conformance</a></li>
+<li class="chapter" data-level="7.8" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#nothing-is-normal"><i class="fa fa-check"></i><b>7.8</b> NOTHING IS NORMAL!!</a></li>
+<li class="chapter" data-level="7.9" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#violin-plots"><i class="fa fa-check"></i><b>7.9</b> Violin Plots</a></li>
+<li class="chapter" data-level="7.10" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#effect-size-cliffs-delta"><i class="fa fa-check"></i><b>7.10</b> Effect Size: Cliff’s Delta</a></li>
+<li class="chapter" data-level="7.11" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#parametric-vs.nonparametric-statistical-power"><i class="fa fa-check"></i><b>7.11</b> Parametric vs. NonParametric Statistical Power</a></li>
+<li class="chapter" data-level="7.12" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#wilcoxon-aka-mann-whitney-test"><i class="fa fa-check"></i><b>7.12</b> Wilcoxon (aka Mann-Whitney) Test</a></li>
+<li class="chapter" data-level="7.13" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#results"><i class="fa fa-check"></i><b>7.13</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html"><i class="fa fa-check"></i><b>8</b> Does It Really Matter to Test First or Test After?</a><ul>
+<li class="chapter" data-level="8.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#test-driven-development-process"><i class="fa fa-check"></i><b>8.1</b> Test-Driven Development Process</a></li>
+<li class="chapter" data-level="8.2" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#the-study"><i class="fa fa-check"></i><b>8.2</b> The Study</a></li>
+<li class="chapter" data-level="8.3" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#modeling-recipe"><i class="fa fa-check"></i><b>8.3</b> Modeling Recipe</a></li>
+<li class="chapter" data-level="8.4" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#outcomes-we-care-about"><i class="fa fa-check"></i><b>8.4</b> Outcomes We Care About</a></li>
+<li class="chapter" data-level="8.5" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#factors-we-measure"><i class="fa fa-check"></i><b>8.5</b> Factors We Measure</a></li>
+<li class="chapter" data-level="8.6" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#descriptive-statistics-1"><i class="fa fa-check"></i><b>8.6</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8.7" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-models"><i class="fa fa-check"></i><b>8.7</b> Let’s Talk About Models</a></li>
+<li class="chapter" data-level="8.8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#regression-analysis-vs.hypothesis-testing"><i class="fa fa-check"></i><b>8.8</b> Regression Analysis vs. Hypothesis Testing</a></li>
+<li class="chapter" data-level="8.9" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-interactions"><i class="fa fa-check"></i><b>8.9</b> Let’s Talk About Interactions</a></li>
+<li class="chapter" data-level="8.10" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#component-residual-plots"><i class="fa fa-check"></i><b>8.10</b> Component + Residual Plots</a></li>
+<li class="chapter" data-level="8.11" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#interpreting-regression-output"><i class="fa fa-check"></i><b>8.11</b> Interpreting Regression Output</a></li>
+<li class="chapter" data-level="8.12" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#evaluating-how-good-a-model-is-aic"><i class="fa fa-check"></i><b>8.12</b> Evaluating How Good a Model Is (AIC)</a><ul>
+<li class="chapter" data-level="8.12.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data"><i class="fa fa-check"></i><b>8.12.1</b> You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html"><i class="fa fa-check"></i><b>9</b> Developer Performance and Designing a New Grading System for Teams</a><ul>
+<li class="chapter" data-level="9.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-do-developers-differ-in-their-measurable-output-performance"><i class="fa fa-check"></i><b>9.1</b> How do developers differ in their measurable output performance?</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-measure-matters"><i class="fa fa-check"></i><b>9.1.1</b> The Measure Matters</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found."><i class="fa fa-check"></i><b>9.1.2</b> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#weighted-features"><i class="fa fa-check"></i><b>9.2</b> Weighted Features</a></li>
+<li class="chapter" data-level="9.3" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#investigating-the-grant-sackman-legend"><i class="fa fa-check"></i><b>9.3</b> Investigating the Grant-Sackman Legend</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think"><i class="fa fa-check"></i><b>9.3.1</b> How long do different programmers take to solve the same task? It’s not what you think!</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-study-1"><i class="fa fa-check"></i><b>9.3.2</b> The Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#order-effects"><i class="fa fa-check"></i><b>9.4</b> Order Effects</a></li>
+<li class="chapter" data-level="9.5" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#interaction-plots"><i class="fa fa-check"></i><b>9.5</b> Interaction Plots</a></li>
+<li class="chapter" data-level="9.6" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#back-to-basics-how-to-measure-performance-at-all"><i class="fa fa-check"></i><b>9.6</b> Back to Basics: How to Measure Performance at all</a></li>
+<li class="chapter" data-level="9.7" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#in-your-ideal-world"><i class="fa fa-check"></i><b>9.7</b> In Your Ideal World…</a><ul>
+<li class="chapter" data-level="9.7.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-should-group-projects-be-graded-fairly"><i class="fa fa-check"></i><b>9.7.1</b> How should group projects be graded fairly?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="function-modification.html"><a href="function-modification.html"><i class="fa fa-check"></i><b>10</b> Function Modification</a><ul>
+<li class="chapter" data-level="10.1" data-path="function-modification.html"><a href="function-modification.html#figure-4.50-number-of-functions"><i class="fa fa-check"></i><b>10.1</b> Figure 4.50: Number of functions</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html"><i class="fa fa-check"></i><b>11</b> Bayesian vs Frequentist Statistics</a><ul>
+<li class="chapter" data-level="11.1" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#frequentist-statistics"><i class="fa fa-check"></i><b>11.1</b> Frequentist Statistics</a></li>
+<li class="chapter" data-level="11.2" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#bayesian-statistics"><i class="fa fa-check"></i><b>11.2</b> Bayesian Statistics</a></li>
+<li class="chapter" data-level="11.3" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#original-study"><i class="fa fa-check"></i><b>11.3</b> Original Study</a></li>
+<li class="chapter" data-level="11.4" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#mathematical-peacocking-stop-it"><i class="fa fa-check"></i><b>11.4</b> Mathematical Peacocking, stop it!</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html"><i class="fa fa-check"></i><b>12</b> Code Quality and Lines of Code</a><ul>
+<li class="chapter" data-level="12.0.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#redundancy"><i class="fa fa-check"></i><b>12.0.1</b> Redundancy?</a></li>
+<li class="chapter" data-level="12.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#how-does-complexity-relate-to-quality"><i class="fa fa-check"></i><b>12.1</b> How Does Complexity Relate to Quality?</a></li>
+<li class="chapter" data-level="12.2" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#cycolmatic-complexity"><i class="fa fa-check"></i><b>12.2</b> Cycolmatic Complexity</a></li>
+<li class="chapter" data-level="12.3" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#big-data-lines-of-code-vs.function-declarations"><i class="fa fa-check"></i><b>12.3</b> “Big Data”! Lines of Code vs. Function Declarations</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html"><i class="fa fa-check"></i><b>13</b> Number of Lines versus Number of Functions in Different Languages</a><ul>
+<li class="chapter" data-level="13.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#ugh-why-do-we-have-to-write-this-in-that-language"><i class="fa fa-check"></i><b>13.1</b> “Ugh, why do we have to write this in <em>that</em> language?”</a></li>
+<li class="chapter" data-level="13.2" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-does-it-mean-to-be-different"><i class="fa fa-check"></i><b>13.2</b> What does it mean to be “different”?</a></li>
+<li class="chapter" data-level="13.3" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-does-the-number-of-lines-relate-to-the-number-of-function-definitions"><i class="fa fa-check"></i><b>13.3</b> How does the number of lines relate to the number of function definitions?</a></li>
+<li class="chapter" data-level="13.4" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-do-i-parse-a-programming-language-abstract-syntax-trees"><i class="fa fa-check"></i><b>13.4</b> How do I parse a programming language? Abstract Syntax Trees</a></li>
+<li class="chapter" data-level="13.5" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#load-your-libraries-2"><i class="fa fa-check"></i><b>13.5</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="13.6" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#read-in-your-data"><i class="fa fa-check"></i><b>13.6</b> Read in Your Data</a></li>
+<li class="chapter" data-level="13.7" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#dont-compare-apples-to-oranges"><i class="fa fa-check"></i><b>13.7</b> Don’t Compare Apples to Oranges</a></li>
+<li class="chapter" data-level="13.8" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#sample-bias"><i class="fa fa-check"></i><b>13.8</b> Sample Bias</a></li>
+<li class="chapter" data-level="13.9" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#normality-matters"><i class="fa fa-check"></i><b>13.9</b> Normality Matters</a></li>
+<li class="chapter" data-level="13.10" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#does-comparing-averages-make-sense"><i class="fa fa-check"></i><b>13.10</b> Does Comparing Averages Make Sense?</a><ul>
+<li class="chapter" data-level="13.10.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#nonparametric-tests"><i class="fa fa-check"></i><b>13.10.1</b> NonParametric Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="13.11" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-to-compare-spreads"><i class="fa fa-check"></i><b>13.11</b> How to Compare Spreads</a><ul>
+<li class="chapter" data-level="13.11.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#clustering"><i class="fa fa-check"></i><b>13.11.1</b> Clustering</a></li>
+</ul></li>
+<li class="chapter" data-level="13.12" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-have-we-learned"><i class="fa fa-check"></i><b>13.12</b> What Have We Learned?</a></li>
+<li class="chapter" data-level="13.13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#next-steps-and-other-questions"><i class="fa fa-check"></i><b>13.13</b> Next Steps and Other Questions</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i><b>A</b> License</a></li>
+<li class="chapter" data-level="B" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>B</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="B.1" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-standards"><i class="fa fa-check"></i><b>B.1</b> Our Standards</a></li>
+<li class="chapter" data-level="B.2" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-responsibilities"><i class="fa fa-check"></i><b>B.2</b> Our Responsibilities</a></li>
+<li class="chapter" data-level="B.3" data-path="code-of-conduct.html"><a href="code-of-conduct.html#scope"><i class="fa fa-check"></i><b>B.3</b> Scope</a></li>
+<li class="chapter" data-level="B.4" data-path="code-of-conduct.html"><a href="code-of-conduct.html#enforcement"><i class="fa fa-check"></i><b>B.4</b> Enforcement</a></li>
+<li class="chapter" data-level="B.5" data-path="code-of-conduct.html"><a href="code-of-conduct.html#attribution"><i class="fa fa-check"></i><b>B.5</b> Attribution</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="contributing.html"><a href="contributing.html"><i class="fa fa-check"></i><b>C</b> Contributing</a><ul>
+<li class="chapter" data-level="C.1" data-path="contributing.html"><a href="contributing.html#contributors"><i class="fa fa-check"></i><b>C.1</b> Contributors</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>D</b> Glossary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Software Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Data Science for Software Engineering</h1>
+<h2 class="subtitle"><em>An Introduction to Data Science for Software Engineers</em></h2>
+<p class="author"><em>Yim Register</em></p>
+</div>
+<div id="introduction" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
+<p>The software engineering world is full of claims about best practices, languages, packages, styles, and workflows,
+but most software engineering students are never taught how to find, read, and interpret actual evidence on those topics.
+Is agile development really the secret to success?
+Do some languages actually cause more defects than others?</p>
+<p>We have created a series of meaningful lessons that explore research in software engineering for the beginner R programmer.
+These lessons teach students to interpret and replicate research findings
+while learning meaningful results for their field in addition to common statistical methods.
+The lessons serve as a primer for software engineers to participate in a data-driven society,
+from advertising and business to combating misinformation and helping user experience.</p>
+<p>Each lesson uses the R programming language, but does not assume any prior experience.
+The lessons cover introduction to R syntax,
+data cleaning and wrangling,
+data visualization,
+statistical tests,
+some predictive modeling,
+experimental methods,
+how to read academic research,
+and key findings from software engineering research.
+These lessons are intentionally written colloquially:
+far too many resources are written without remembering to help the learner laugh and find joy in their work.
+While you may not find all of the jokes funny,
+keep in mind that the author sure tried.</p>
+<div id="s:index-personas" class="section level2">
+<h2><span class="header-section-number">1.1</span> Who are these lessons for?</h2>
+<p>FIXME: learner personas</p>
+</div>
+<div id="s:index-install" class="section level2">
+<h2><span class="header-section-number">1.2</span> How do I get started?</h2>
+<p>FIXME: setup instructions</p>
+</div>
+<div id="s:index-also" class="section level2">
+<h2><span class="header-section-number">1.3</span> See Also</h2>
+<ul>
+<li><p><a href="./LICENSE.md">Our license</a> allows you to use this material however you want,
+provided you cite us as the original source.</p></li>
+<li><p><a href="./CONTRIBUTING.md">Contributions</a> are very welcome,
+from questions and corrections to new material.
+All contributors are required to abide by our <a href="./CONDUCT.md">code of conduct</a>.</p></li>
+<li><p>Please see <a href="./glossary.html">our glossary</a> for terms used in these lessons.</p></li>
+</ul>
+<p>You may also enjoy:</p>
+<ul>
+<li><a href="http://www.knosof.co.uk/ESEUR/"><em>Empirical Software Engineering Using R</em></a></li>
+<li><a href="https://www.worldcat.org/title/art-and-science-of-analyzing-software-data-analysis-patterns/oclc/1062303882"><em>The Art and Science of Analyzing Software Data</em></a></li>
+<li><a href="http://faculty.washington.edu/ajko/books/cooperative-software-development/index.html"><em>Cooperative Software Development</em></a></li>
+<li><a href="https://www.worldcat.org/title/sharing-data-and-models-in-software-engineering/oclc/906700665"><em>Sharing Data and Models in Software Engineering</em></a></li>
+<li><a href="https://www.worldcat.org/title/perspectives-on-data-science-for-software-engineering/oclc/1023264016"><em>Perspectives on Data Science for Software Engineering</em></a></li>
+<li><a href="https://www.worldcat.org/title/making-software-what-really-works-and-why-we-believe-it/oclc/700636023"><em>Making Software</em></a></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="curiosity-and-play.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio-education/ds4se/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ds4se.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

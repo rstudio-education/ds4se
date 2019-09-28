@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 Sleep Deprivation and Software Engineering Performance | Data Science for Software Engineering</title>
+  <meta name="description" content="An introduction to data science for software engineers" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 Sleep Deprivation and Software Engineering Performance | Data Science for Software Engineering" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="An introduction to data science for software engineers" />
+  <meta name="github-repo" content="rstudio-education/ds4se" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 Sleep Deprivation and Software Engineering Performance | Data Science for Software Engineering" />
+  
+  <meta name="twitter:description" content="An introduction to data science for software engineers" />
+  
+
+<meta name="author" content="Yim Register" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="when-will-i-be-done-with-this-project.html">
+<link rel="next" href="does-it-really-matter-to-test-first-or-test-after.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { background-color: #f8f8f8; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">DS4SE</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#s:index-personas"><i class="fa fa-check"></i><b>1.1</b> Who are these lessons for?</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#s:index-install"><i class="fa fa-check"></i><b>1.2</b> How do I get started?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#s:index-also"><i class="fa fa-check"></i><b>1.3</b> See Also</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html"><i class="fa fa-check"></i><b>2</b> Curiosity and Play</a><ul>
+<li class="chapter" data-level="2.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#curiosity-killed-the-cat-but-satisfaction-brought-it-back"><i class="fa fa-check"></i><b>2.1</b> Curiosity killed the cat, but satisfaction brought it back</a></li>
+<li class="chapter" data-level="2.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#playing-with-data"><i class="fa fa-check"></i><b>2.2</b> Playing with Data</a></li>
+<li class="chapter" data-level="2.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#ghtorrent-and-bigrquery"><i class="fa fa-check"></i><b>2.3</b> GHTorrent and BigRQuery</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#datafiles-for-this-lesson"><i class="fa fa-check"></i><b>2.3.1</b> DataFiles for this Lesson</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#alan-turings-birthday-examples-learn-some-sql-queries"><i class="fa fa-check"></i><b>2.4</b> Alan Turing’s Birthday Examples (learn some SQL queries)</a></li>
+<li class="chapter" data-level="2.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#execute-the-query"><i class="fa fa-check"></i><b>2.5</b> Execute the query</a></li>
+<li class="chapter" data-level="2.6" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#visualize-the-data"><i class="fa fa-check"></i><b>2.6</b> Visualize the Data</a></li>
+<li class="chapter" data-level="2.7" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#language-growth-over-time"><i class="fa fa-check"></i><b>2.7</b> Language Growth over Time</a></li>
+<li class="chapter" data-level="2.8" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#commits-to-github-canada-day-vs.july-4th"><i class="fa fa-check"></i><b>2.8</b> Commits to GitHub: Canada Day vs. July 4th</a><ul>
+<li class="chapter" data-level="2.8.1" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#total-commits"><i class="fa fa-check"></i><b>2.8.1</b> Total Commits</a></li>
+<li class="chapter" data-level="2.8.2" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#yearly-commits"><i class="fa fa-check"></i><b>2.8.2</b> Yearly Commits</a></li>
+<li class="chapter" data-level="2.8.3" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#what-are-those-fluctuations"><i class="fa fa-check"></i><b>2.8.3</b> What are those fluctuations?</a></li>
+<li class="chapter" data-level="2.8.4" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#logistic-regression-for-predicting-your-weekend-commits"><i class="fa fa-check"></i><b>2.8.4</b> Logistic regression for predicting your weekend commits</a></li>
+<li class="chapter" data-level="2.8.5" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#making-predictions"><i class="fa fa-check"></i><b>2.8.5</b> Making Predictions</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="curiosity-and-play.html"><a href="curiosity-and-play.html#time-for-a-cooldown-pizza-cats"><i class="fa fa-check"></i><b>2.9</b> Time for a Cooldown: Pizza &amp; Cats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html"><i class="fa fa-check"></i><b>3</b> Stack Overflow Queries</a><ul>
+<li class="chapter" data-level="3.1" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#i-am-thankful-for-stack-overflow"><i class="fa fa-check"></i><b>3.1</b> I am thankful for Stack Overflow</a></li>
+<li class="chapter" data-level="3.2" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#stack-exchange-queries"><i class="fa fa-check"></i><b>3.2</b> Stack Exchange Queries</a></li>
+<li class="chapter" data-level="3.3" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-your-libraries"><i class="fa fa-check"></i><b>3.3</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="3.4" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#load-the-data"><i class="fa fa-check"></i><b>3.4</b> Load the Data</a></li>
+<li class="chapter" data-level="3.5" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#summarize-the-variables"><i class="fa fa-check"></i><b>3.5</b> Summarize the Variables</a></li>
+<li class="chapter" data-level="3.6" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#total-tags-and-dplyr-intro"><i class="fa fa-check"></i><b>3.6</b> Total Tags and dplyr Intro</a></li>
+<li class="chapter" data-level="3.7" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#tags-over-time-by-month"><i class="fa fa-check"></i><b>3.7</b> Tags Over Time By Month</a></li>
+<li class="chapter" data-level="3.8" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#cumulative-growth-over-time"><i class="fa fa-check"></i><b>3.8</b> Cumulative Growth Over Time</a></li>
+<li class="chapter" data-level="3.9" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#curiouser-and-curiouser"><i class="fa fa-check"></i><b>3.9</b> Curiouser and Curiouser…</a></li>
+<li class="chapter" data-level="3.10" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#time-vs.totals"><i class="fa fa-check"></i><b>3.10</b> Time vs. Totals</a></li>
+<li class="chapter" data-level="3.11" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#kolmogorov-smirnov-what"><i class="fa fa-check"></i><b>3.11</b> Kolmogorov-Smirnov what?!</a></li>
+<li class="chapter" data-level="3.12" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#reputation"><i class="fa fa-check"></i><b>3.12</b> Reputation</a></li>
+<li class="chapter" data-level="3.13" data-path="stack-overflow-queries.html"><a href="stack-overflow-queries.html#log-log-plots-and-power-laws-oh-my"><i class="fa fa-check"></i><b>3.13</b> Log-Log Plots and Power Laws, Oh My!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analyze-this.html"><a href="analyze-this.html"><i class="fa fa-check"></i><b>4</b> Analyze This!</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="analyze-this.html"><a href="analyze-this.html#before-this-lesson"><i class="fa fa-check"></i><b>4.0.1</b> Before this lesson:</a></li>
+<li class="chapter" data-level="4.1" data-path="analyze-this.html"><a href="analyze-this.html#what-is-evidence"><i class="fa fa-check"></i><b>4.1</b> What is “Evidence”?</a></li>
+<li class="chapter" data-level="4.2" data-path="analyze-this.html"><a href="analyze-this.html#surveying-a-population"><i class="fa fa-check"></i><b>4.2</b> Surveying a Population</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="analyze-this.html"><a href="analyze-this.html#loading-libraries"><i class="fa fa-check"></i><b>4.2.1</b> Loading Libraries</a></li>
+<li class="chapter" data-level="4.2.2" data-path="analyze-this.html"><a href="analyze-this.html#reading-in-the-data"><i class="fa fa-check"></i><b>4.2.2</b> Reading in the Data</a></li>
+<li class="chapter" data-level="4.2.3" data-path="analyze-this.html"><a href="analyze-this.html#renaming-columns"><i class="fa fa-check"></i><b>4.2.3</b> Renaming Columns</a></li>
+<li class="chapter" data-level="4.2.4" data-path="analyze-this.html"><a href="analyze-this.html#descriptive-statistics"><i class="fa fa-check"></i><b>4.2.4</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="4.2.5" data-path="analyze-this.html"><a href="analyze-this.html#first-visualization"><i class="fa fa-check"></i><b>4.2.5</b> First Visualization</a></li>
+<li class="chapter" data-level="4.2.6" data-path="analyze-this.html"><a href="analyze-this.html#distribution-across-questions"><i class="fa fa-check"></i><b>4.2.6</b> Distribution Across Questions</a></li>
+<li class="chapter" data-level="4.2.7" data-path="analyze-this.html"><a href="analyze-this.html#most-essential-question"><i class="fa fa-check"></i><b>4.2.7</b> Most Essential Question</a></li>
+<li class="chapter" data-level="4.2.8" data-path="analyze-this.html"><a href="analyze-this.html#most-unwise-question"><i class="fa fa-check"></i><b>4.2.8</b> Most Unwise Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="analyze-this.html"><a href="analyze-this.html#customers-matter-the-most"><i class="fa fa-check"></i><b>4.3</b> Customers Matter the Most</a></li>
+<li class="chapter" data-level="4.4" data-path="analyze-this.html"><a href="analyze-this.html#developer-practices-dont-matter"><i class="fa fa-check"></i><b>4.4</b> Developer Practices Don’t Matter</a></li>
+<li class="chapter" data-level="4.5" data-path="analyze-this.html"><a href="analyze-this.html#dont-measure-productivity"><i class="fa fa-check"></i><b>4.5</b> Don’t Measure Productivity</a></li>
+<li class="chapter" data-level="4.6" data-path="analyze-this.html"><a href="analyze-this.html#how-unwise-is-it-compared-to-the-other-categories-test-of-significance"><i class="fa fa-check"></i><b>4.6</b> How Unwise is it compared to the other categories: Test of Significance</a></li>
+<li class="chapter" data-level="4.7" data-path="analyze-this.html"><a href="analyze-this.html#academic-and-industry-partnership-for-good-research"><i class="fa fa-check"></i><b>4.7</b> Academic and Industry Partnership for Good Research</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html"><i class="fa fa-check"></i><b>5</b> How Many Repositories Are There on GitHub?</a><ul>
+<li class="chapter" data-level="5.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#have-you-ever-wondered"><i class="fa fa-check"></i><b>5.1</b> Have You Ever Wondered…</a></li>
+<li class="chapter" data-level="5.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#how-many-repositories-are-there-on-github-1"><i class="fa fa-check"></i><b>5.2</b> How many repositories are there on GitHub?</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#our-data-ghtorrent"><i class="fa fa-check"></i><b>5.2.1</b> Our Data (GHTorrent)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#datafiles-for-this-lesson-1"><i class="fa fa-check"></i><b>5.2.2</b> DataFiles for this Lesson</a></li>
+<li class="chapter" data-level="5.2.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#different-strokes-for-different-folks"><i class="fa fa-check"></i><b>5.2.3</b> Different Strokes for Different Folks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#training-data-and-testing-data"><i class="fa fa-check"></i><b>5.2.4</b> Training Data and Testing Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#overfitting-and-underfitting"><i class="fa fa-check"></i><b>5.3</b> Overfitting and Underfitting</a></li>
+<li class="chapter" data-level="5.4" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#slow-down-how-can-we-fit-a-curve-to-this"><i class="fa fa-check"></i><b>5.4</b> Slow Down! How can we fit a curve to this?</a></li>
+<li class="chapter" data-level="5.5" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#what-kind-of-curve-should-we-fit"><i class="fa fa-check"></i><b>5.5</b> What kind of curve should we fit?</a></li>
+<li class="chapter" data-level="5.6" data-path="how-many-repositories-are-there-on-github.html"><a href="how-many-repositories-are-there-on-github.html#evaluation"><i class="fa fa-check"></i><b>5.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html"><i class="fa fa-check"></i><b>6</b> When Will I Be Done With This Project?</a><ul>
+<li class="chapter" data-level="6.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#inconsistency-of-measurement"><i class="fa fa-check"></i><b>6.1</b> Inconsistency of Measurement</a></li>
+<li class="chapter" data-level="6.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#load-your-libraries-1"><i class="fa fa-check"></i><b>6.2</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="6.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-wrangling"><i class="fa fa-check"></i><b>6.3</b> Data Wrangling</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#original-data"><i class="fa fa-check"></i><b>6.3.1</b> Original Data</a></li>
+<li class="chapter" data-level="6.3.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#wide-form"><i class="fa fa-check"></i><b>6.3.2</b> Wide Form</a></li>
+<li class="chapter" data-level="6.3.3" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#melt"><i class="fa fa-check"></i><b>6.3.3</b> Melt</a></li>
+<li class="chapter" data-level="6.3.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#long-form"><i class="fa fa-check"></i><b>6.3.4</b> Long Form</a></li>
+<li class="chapter" data-level="6.3.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#reshape"><i class="fa fa-check"></i><b>6.3.5</b> Reshape</a></li>
+<li class="chapter" data-level="6.3.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#log-plot"><i class="fa fa-check"></i><b>6.3.6</b> Log Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#correlation-misleading"><i class="fa fa-check"></i><b>6.4</b> Correlation (Misleading)</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#dont-fall-for-my-logic"><i class="fa fa-check"></i><b>6.4.1</b> Don’t fall for my logic!</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#effort-estimation-accuracy-and-bias"><i class="fa fa-check"></i><b>6.5</b> Effort Estimation: Accuracy and Bias</a></li>
+<li class="chapter" data-level="6.6" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#data-visualizations-a-tricky-statistical-tool"><i class="fa fa-check"></i><b>6.6</b> Data Visualizations: A tricky statistical tool</a></li>
+<li class="chapter" data-level="6.7" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#without-a-log-transformation"><i class="fa fa-check"></i><b>6.7</b> Without a Log Transformation</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in"><i class="fa fa-check"></i><b>6.7.1</b> Zoom In</a></li>
+<li class="chapter" data-level="6.7.2" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#zoom-in-on-jorgensen-data"><i class="fa fa-check"></i><b>6.7.2</b> Zoom in on Jorgensen Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6.8" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#so-can-we-estimate-resources-or-not"><i class="fa fa-check"></i><b>6.8</b> So Can We Estimate Resources or Not?</a></li>
+<li class="chapter" data-level="6.9" data-path="when-will-i-be-done-with-this-project.html"><a href="when-will-i-be-done-with-this-project.html#estimate-updating"><i class="fa fa-check"></i><b>6.9</b> Estimate Updating</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html"><i class="fa fa-check"></i><b>7</b> Sleep Deprivation and Software Engineering Performance</a><ul>
+<li class="chapter" data-level="7.1" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#pulling-an-all-nighter"><i class="fa fa-check"></i><b>7.1</b> “Pulling an All-Nighter”</a></li>
+<li class="chapter" data-level="7.2" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#research-question"><i class="fa fa-check"></i><b>7.2</b> Research Question</a></li>
+<li class="chapter" data-level="7.3" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#who-are-the-participants"><i class="fa fa-check"></i><b>7.3</b> Who are the participants?</a></li>
+<li class="chapter" data-level="7.4" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#quasi-experimental-setup"><i class="fa fa-check"></i><b>7.4</b> Quasi-experimental setup</a></li>
+<li class="chapter" data-level="7.5" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#how-to-read-scientific-papers"><i class="fa fa-check"></i><b>7.5</b> How to Read Scientific Papers</a></li>
+<li class="chapter" data-level="7.6" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#percentage-of-acceptance-asserts-passed"><i class="fa fa-check"></i><b>7.6</b> Percentage of Acceptance Asserts Passed</a></li>
+<li class="chapter" data-level="7.7" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#episodes-and-conformance"><i class="fa fa-check"></i><b>7.7</b> Episodes and Conformance</a></li>
+<li class="chapter" data-level="7.8" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#nothing-is-normal"><i class="fa fa-check"></i><b>7.8</b> NOTHING IS NORMAL!!</a></li>
+<li class="chapter" data-level="7.9" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#violin-plots"><i class="fa fa-check"></i><b>7.9</b> Violin Plots</a></li>
+<li class="chapter" data-level="7.10" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#effect-size-cliffs-delta"><i class="fa fa-check"></i><b>7.10</b> Effect Size: Cliff’s Delta</a></li>
+<li class="chapter" data-level="7.11" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#parametric-vs.nonparametric-statistical-power"><i class="fa fa-check"></i><b>7.11</b> Parametric vs. NonParametric Statistical Power</a></li>
+<li class="chapter" data-level="7.12" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#wilcoxon-aka-mann-whitney-test"><i class="fa fa-check"></i><b>7.12</b> Wilcoxon (aka Mann-Whitney) Test</a></li>
+<li class="chapter" data-level="7.13" data-path="sleep-deprivation-and-software-engineering-performance.html"><a href="sleep-deprivation-and-software-engineering-performance.html#results"><i class="fa fa-check"></i><b>7.13</b> Results</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html"><i class="fa fa-check"></i><b>8</b> Does It Really Matter to Test First or Test After?</a><ul>
+<li class="chapter" data-level="8.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#test-driven-development-process"><i class="fa fa-check"></i><b>8.1</b> Test-Driven Development Process</a></li>
+<li class="chapter" data-level="8.2" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#the-study"><i class="fa fa-check"></i><b>8.2</b> The Study</a></li>
+<li class="chapter" data-level="8.3" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#modeling-recipe"><i class="fa fa-check"></i><b>8.3</b> Modeling Recipe</a></li>
+<li class="chapter" data-level="8.4" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#outcomes-we-care-about"><i class="fa fa-check"></i><b>8.4</b> Outcomes We Care About</a></li>
+<li class="chapter" data-level="8.5" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#factors-we-measure"><i class="fa fa-check"></i><b>8.5</b> Factors We Measure</a></li>
+<li class="chapter" data-level="8.6" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#descriptive-statistics-1"><i class="fa fa-check"></i><b>8.6</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8.7" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-models"><i class="fa fa-check"></i><b>8.7</b> Let’s Talk About Models</a></li>
+<li class="chapter" data-level="8.8" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#regression-analysis-vs.hypothesis-testing"><i class="fa fa-check"></i><b>8.8</b> Regression Analysis vs. Hypothesis Testing</a></li>
+<li class="chapter" data-level="8.9" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#lets-talk-about-interactions"><i class="fa fa-check"></i><b>8.9</b> Let’s Talk About Interactions</a></li>
+<li class="chapter" data-level="8.10" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#component-residual-plots"><i class="fa fa-check"></i><b>8.10</b> Component + Residual Plots</a></li>
+<li class="chapter" data-level="8.11" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#interpreting-regression-output"><i class="fa fa-check"></i><b>8.11</b> Interpreting Regression Output</a></li>
+<li class="chapter" data-level="8.12" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#evaluating-how-good-a-model-is-aic"><i class="fa fa-check"></i><b>8.12</b> Evaluating How Good a Model Is (AIC)</a><ul>
+<li class="chapter" data-level="8.12.1" data-path="does-it-really-matter-to-test-first-or-test-after.html"><a href="does-it-really-matter-to-test-first-or-test-after.html#you-could-try-any-combination-of-factors-and-their-interactions-until-you-achieved-the-best-fitting-model-for-the-phenomenon.-davide-fucci-carefully-walks-through-model-choice-feature-selection-investigation-of-interactions-and-more.-follow-the-paper-step-by-step-to-replicate-their-results-on-this-data"><i class="fa fa-check"></i><b>8.12.1</b> You could try any combination of factors and their interactions, until you achieved the best fitting model for the phenomenon. Davide Fucci carefully walks through model choice, feature selection, investigation of interactions, and more. Follow the paper step by step to replicate their results on this data!</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html"><i class="fa fa-check"></i><b>9</b> Developer Performance and Designing a New Grading System for Teams</a><ul>
+<li class="chapter" data-level="9.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-do-developers-differ-in-their-measurable-output-performance"><i class="fa fa-check"></i><b>9.1</b> How do developers differ in their measurable output performance?</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-measure-matters"><i class="fa fa-check"></i><b>9.1.1</b> The Measure Matters</a></li>
+<li class="chapter" data-level="9.1.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#do-you-think-we-can-tell-who-is-performing-better-from-that-measure-surely-there-is-more-to-the-story-than-just-number-of-defects-found."><i class="fa fa-check"></i><b>9.1.2</b> Do you think we can tell who is performing better from that measure? Surely there is more to the story than just number of defects found.</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#weighted-features"><i class="fa fa-check"></i><b>9.2</b> Weighted Features</a></li>
+<li class="chapter" data-level="9.3" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#investigating-the-grant-sackman-legend"><i class="fa fa-check"></i><b>9.3</b> Investigating the Grant-Sackman Legend</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-long-do-different-programmers-take-to-solve-the-same-task-its-not-what-you-think"><i class="fa fa-check"></i><b>9.3.1</b> How long do different programmers take to solve the same task? It’s not what you think!</a></li>
+<li class="chapter" data-level="9.3.2" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#the-study-1"><i class="fa fa-check"></i><b>9.3.2</b> The Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#order-effects"><i class="fa fa-check"></i><b>9.4</b> Order Effects</a></li>
+<li class="chapter" data-level="9.5" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#interaction-plots"><i class="fa fa-check"></i><b>9.5</b> Interaction Plots</a></li>
+<li class="chapter" data-level="9.6" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#back-to-basics-how-to-measure-performance-at-all"><i class="fa fa-check"></i><b>9.6</b> Back to Basics: How to Measure Performance at all</a></li>
+<li class="chapter" data-level="9.7" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#in-your-ideal-world"><i class="fa fa-check"></i><b>9.7</b> In Your Ideal World…</a><ul>
+<li class="chapter" data-level="9.7.1" data-path="developer-performance-and-designing-a-new-grading-system-for-teams.html"><a href="developer-performance-and-designing-a-new-grading-system-for-teams.html#how-should-group-projects-be-graded-fairly"><i class="fa fa-check"></i><b>9.7.1</b> How should group projects be graded fairly?</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="function-modification.html"><a href="function-modification.html"><i class="fa fa-check"></i><b>10</b> Function Modification</a><ul>
+<li class="chapter" data-level="10.1" data-path="function-modification.html"><a href="function-modification.html#figure-4.50-number-of-functions"><i class="fa fa-check"></i><b>10.1</b> Figure 4.50: Number of functions</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html"><i class="fa fa-check"></i><b>11</b> Bayesian vs Frequentist Statistics</a><ul>
+<li class="chapter" data-level="11.1" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#frequentist-statistics"><i class="fa fa-check"></i><b>11.1</b> Frequentist Statistics</a></li>
+<li class="chapter" data-level="11.2" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#bayesian-statistics"><i class="fa fa-check"></i><b>11.2</b> Bayesian Statistics</a></li>
+<li class="chapter" data-level="11.3" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#original-study"><i class="fa fa-check"></i><b>11.3</b> Original Study</a></li>
+<li class="chapter" data-level="11.4" data-path="bayesian-vs-frequentist-statistics.html"><a href="bayesian-vs-frequentist-statistics.html#mathematical-peacocking-stop-it"><i class="fa fa-check"></i><b>11.4</b> Mathematical Peacocking, stop it!</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html"><i class="fa fa-check"></i><b>12</b> Code Quality and Lines of Code</a><ul>
+<li class="chapter" data-level="12.0.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#redundancy"><i class="fa fa-check"></i><b>12.0.1</b> Redundancy?</a></li>
+<li class="chapter" data-level="12.1" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#how-does-complexity-relate-to-quality"><i class="fa fa-check"></i><b>12.1</b> How Does Complexity Relate to Quality?</a></li>
+<li class="chapter" data-level="12.2" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#cycolmatic-complexity"><i class="fa fa-check"></i><b>12.2</b> Cycolmatic Complexity</a></li>
+<li class="chapter" data-level="12.3" data-path="code-quality-and-lines-of-code.html"><a href="code-quality-and-lines-of-code.html#big-data-lines-of-code-vs.function-declarations"><i class="fa fa-check"></i><b>12.3</b> “Big Data”! Lines of Code vs. Function Declarations</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html"><i class="fa fa-check"></i><b>13</b> Number of Lines versus Number of Functions in Different Languages</a><ul>
+<li class="chapter" data-level="13.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#ugh-why-do-we-have-to-write-this-in-that-language"><i class="fa fa-check"></i><b>13.1</b> “Ugh, why do we have to write this in <em>that</em> language?”</a></li>
+<li class="chapter" data-level="13.2" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-does-it-mean-to-be-different"><i class="fa fa-check"></i><b>13.2</b> What does it mean to be “different”?</a></li>
+<li class="chapter" data-level="13.3" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-does-the-number-of-lines-relate-to-the-number-of-function-definitions"><i class="fa fa-check"></i><b>13.3</b> How does the number of lines relate to the number of function definitions?</a></li>
+<li class="chapter" data-level="13.4" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-do-i-parse-a-programming-language-abstract-syntax-trees"><i class="fa fa-check"></i><b>13.4</b> How do I parse a programming language? Abstract Syntax Trees</a></li>
+<li class="chapter" data-level="13.5" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#load-your-libraries-2"><i class="fa fa-check"></i><b>13.5</b> Load Your Libraries</a></li>
+<li class="chapter" data-level="13.6" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#read-in-your-data"><i class="fa fa-check"></i><b>13.6</b> Read in Your Data</a></li>
+<li class="chapter" data-level="13.7" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#dont-compare-apples-to-oranges"><i class="fa fa-check"></i><b>13.7</b> Don’t Compare Apples to Oranges</a></li>
+<li class="chapter" data-level="13.8" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#sample-bias"><i class="fa fa-check"></i><b>13.8</b> Sample Bias</a></li>
+<li class="chapter" data-level="13.9" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#normality-matters"><i class="fa fa-check"></i><b>13.9</b> Normality Matters</a></li>
+<li class="chapter" data-level="13.10" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#does-comparing-averages-make-sense"><i class="fa fa-check"></i><b>13.10</b> Does Comparing Averages Make Sense?</a><ul>
+<li class="chapter" data-level="13.10.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#nonparametric-tests"><i class="fa fa-check"></i><b>13.10.1</b> NonParametric Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="13.11" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#how-to-compare-spreads"><i class="fa fa-check"></i><b>13.11</b> How to Compare Spreads</a><ul>
+<li class="chapter" data-level="13.11.1" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#clustering"><i class="fa fa-check"></i><b>13.11.1</b> Clustering</a></li>
+</ul></li>
+<li class="chapter" data-level="13.12" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#what-have-we-learned"><i class="fa fa-check"></i><b>13.12</b> What Have We Learned?</a></li>
+<li class="chapter" data-level="13.13" data-path="number-of-lines-versus-number-of-functions-in-different-languages.html"><a href="number-of-lines-versus-number-of-functions-in-different-languages.html#next-steps-and-other-questions"><i class="fa fa-check"></i><b>13.13</b> Next Steps and Other Questions</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i><b>A</b> License</a></li>
+<li class="chapter" data-level="B" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>B</b> Code of Conduct</a><ul>
+<li class="chapter" data-level="B.1" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-standards"><i class="fa fa-check"></i><b>B.1</b> Our Standards</a></li>
+<li class="chapter" data-level="B.2" data-path="code-of-conduct.html"><a href="code-of-conduct.html#our-responsibilities"><i class="fa fa-check"></i><b>B.2</b> Our Responsibilities</a></li>
+<li class="chapter" data-level="B.3" data-path="code-of-conduct.html"><a href="code-of-conduct.html#scope"><i class="fa fa-check"></i><b>B.3</b> Scope</a></li>
+<li class="chapter" data-level="B.4" data-path="code-of-conduct.html"><a href="code-of-conduct.html#enforcement"><i class="fa fa-check"></i><b>B.4</b> Enforcement</a></li>
+<li class="chapter" data-level="B.5" data-path="code-of-conduct.html"><a href="code-of-conduct.html#attribution"><i class="fa fa-check"></i><b>B.5</b> Attribution</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="contributing.html"><a href="contributing.html"><i class="fa fa-check"></i><b>C</b> Contributing</a><ul>
+<li class="chapter" data-level="C.1" data-path="contributing.html"><a href="contributing.html#contributors"><i class="fa fa-check"></i><b>C.1</b> Contributors</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>D</b> Glossary</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science for Software Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="sleep-deprivation-and-software-engineering-performance" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> Sleep Deprivation and Software Engineering Performance</h1>
+<center>
+<img src="static/sleepymood.jpg" />
+</center>
+<p><br></p>
+<div id="pulling-an-all-nighter" class="section level2">
+<h2><span class="header-section-number">7.1</span> “Pulling an All-Nighter”</h2>
+<p>Whether you stocked up on coffee and snacks and holed up in the library to finish programming that project due tomorrow, or stayed up all night playing video games until your eyes can only squint, perhaps you are familiar with what the next day feels like after a night without sleep. Unfortunatlely, studies suggest that sleep deprivation is cognitively comparable to <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/pdf/v057p00649.pdf">being drunk</a>, with impairments to memory, reasoning, reaction time, and decision making. I think we can all agree that everyone would prefer that critical software was not made by a drunk programmer. But is it really <em>that bad</em>? Especially given the trope that programmers are up all night shouting into their gaming headsets or hacking the CIA, how bad could it really be to lose a little sleep? Answer: <strong>bad</strong>. It’s really bad. This lesson will walk us through just how bad it is to be sleep deprived while trying to write code, and teach you how to interpret experiment design and results of an academic paper. Hopefully by the end, you’ll understand statistical concepts like: <strong>experimental design, hypothesis testing, mean, variance, standard deviation, the normal distribution, Type I and Type II errors, Bonferroni correction, correlation, Cliff’s delta (effect size), and the Kruskall Wallis Test</strong>. And hopefully you’ll realize how abysmal your code will be if you forgo those extra hours to order 3am pizza.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># there is actually A LOT to unpack here. All mean/variance/sd/normal distribution stuff should be covered before this lesson, including basic comparison between groups; perhaps in the holiday lesson</span>
+<span class="co"># we get a little messy when we get to nonparametric tests, effect size, and particularly the bonferroni correction. not sure how deeply I&#39;d like to touch on that, but basically gonna say &quot;when you start fishing around in your data, you&#39;re bound to find something significant and that&#39;s bad science. so we use this special correction to make sure it&#39;s actually *less* likely we find significance, so that we are conservative and therefore more confident in our results*</span></code></pre>
+</div>
+<div id="research-question" class="section level2">
+<h2><span class="header-section-number">7.2</span> Research Question</h2>
+<p>This lesson will discuss and follow the methods of <a href="https://arxiv.org/pdf/1805.02544.pdf"><em>Need for Sleep: the Impact of a Night of Sleep Deprivation on Novice Developers’ Performance</em>.</a><span class="citation">(Fucci et al., <a href="references.html#ref-Fucc18">2018</a>)</span> This will allow you to get practice reading academic research, while also testing out their analysis methods in R.</p>
+<p>Given that we <em>know</em> sleep deprivation affects cognitive functioning, it wouldn’t necessarily be the most interesting question to ask <em>if</em> sleep deprivation affects programming, but rather, <em>how much</em>? The authors form their first research question as the following:</p>
+<blockquote>
+<p>“To what extent does sleep deprivation impact developers’ performance?”</p>
+</blockquote>
+<p>Immediately, you can tell that we are not going over a “Yes” or “No” response, but some kind of measure of <em>effect size</em>, and some kind of operationalization of what “performance” really is. Remember that every measure must be carefully defined; and no measure will perfectly capture a larger concept like “performance”, “creativity”, or “skill”. Before we begin describing the methods in the paper, try to think of how <em>you</em> might measure developer performance. What would you have the participants do? How would you determine success or failure? Next, how would you check how much sleep deprivation was affecting that measure?</p>
+</div>
+<div id="who-are-the-participants" class="section level2">
+<h2><span class="header-section-number">7.3</span> Who are the participants?</h2>
+<p>Let’s start by getting to know our participants, particularly between the conditions (Sleep Deprivaton vs. Regular Sleep)</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(readxl)
+<span class="kw">library</span>(ggplot2)
+
+subTable &lt;-<span class="st"> </span><span class="cf">function</span>(data, nameCol, val){
+  <span class="kw">return</span> (data[<span class="kw">which</span>(data[nameCol] <span class="op">==</span><span class="st"> </span>val),])
+
+}
+
+<span class="co"># loading data including the sleep deprived set where we remove some particpants</span>
+
+loadAllData &lt;-<span class="st"> </span><span class="cf">function</span>(<span class="dt">fileName =</span> <span class="st">&quot;data/sleepDepr/piglatin.xlsx&quot;</span>){
+
+  Exp &lt;&lt;-<span class="st">   </span><span class="kw">read_xlsx</span>(fileName)
+  Exp_Cleaned &lt;&lt;-<span class="st"> </span><span class="kw">subTable</span>(Exp, <span class="st">&quot;PVT-remove&quot;</span>, <span class="st">&quot;NO&quot;</span>)
+  SlD &lt;&lt;-<span class="st"> </span><span class="kw">subTable</span>(Exp, <span class="st">&quot;METHOD&quot;</span>, <span class="st">&quot;SD&quot;</span>)
+  NOSD &lt;&lt;-<span class="st"> </span><span class="kw">subTable</span>(Exp, <span class="st">&quot;METHOD&quot;</span>, <span class="st">&quot;RS&quot;</span>)
+  SD_Cleaned &lt;&lt;-<span class="st"> </span><span class="kw">subTable</span>(SlD, <span class="st">&quot;PVT-remove&quot;</span>, <span class="st">&quot;NO&quot;</span>)
+  NOSD_Cleaned &lt;&lt;-<span class="st"> </span><span class="kw">subTable</span>(NOSD, <span class="st">&quot;PVT-remove&quot;</span>, <span class="st">&quot;NO&quot;</span>)
+}
+<span class="kw">loadAllData</span>()
+
+<span class="co"># this is the post-questionnaire</span>
+post &lt;-<span class="st"> </span><span class="kw">read_xlsx</span>(<span class="st">&quot;data/sleepDepr/post-questionnaire.xlsx&quot;</span>)
+
+<span class="co">#merging things together so we can work with one dataframe</span>
+data &lt;-<span class="st"> </span><span class="kw">merge</span>(Exp,post,<span class="dt">by=</span><span class="st">&quot;ID&quot;</span>)
+SD_Cleaned<span class="op">$</span>METHOD=<span class="st"> &quot;SD Cleaned&quot;</span>
+SD_Cleaned &lt;-<span class="st"> </span><span class="kw">merge</span>(SD_Cleaned,post,<span class="dt">by=</span><span class="st">&quot;ID&quot;</span>)
+data &lt;-<span class="st"> </span><span class="kw">rbind</span>(data,SD_Cleaned)
+
+<span class="co">#who is in what condition?</span>
+plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(METHOD,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_histogram</span>(<span class="dt">stat=</span><span class="st">&quot;count&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Distribution of Participants to Conditions&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-2-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 22 in RS, 22 in SD, 14 in cleaned set (different from in the paper, but just by 1)</span>
+<span class="kw">kable</span>(<span class="kw">table</span>(data<span class="op">$</span>METHOD))</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Var1
+</th>
+<th style="text-align:right;">
+Freq
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+RS
+</td>
+<td style="text-align:right;">
+22
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SD
+</td>
+<td style="text-align:right;">
+22
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SD Cleaned
+</td>
+<td style="text-align:right;">
+14
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#density plot showing age distribution. We see that age is probably significantly different between those who could forgo an entire night of sleep and those who could not. That&#39;s expected, and ethically non-controllable anyways. The authors conducted tests to make sure there was no interactions of age on the software quality measures</span>
+plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(Age,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">position=</span><span class="st">&quot;dodge&quot;</span>,<span class="dt">bins =</span> <span class="dv">30</span>,<span class="dt">alpha=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Age by Condition&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-2-2.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">nas &lt;-<span class="st"> </span><span class="kw">which</span>(<span class="kw">is.na</span>(<span class="kw">as.numeric</span>(<span class="kw">as.character</span>(data<span class="op">$</span><span class="st">`</span><span class="dt">During your education, how many years of experience did you have with the Object Oriented Paradigm?</span><span class="st">`</span>))))
+data<span class="op">$</span><span class="st">`</span><span class="dt">During your education, how many years of experience did you have with the Object Oriented Paradigm?</span><span class="st">`</span> &lt;-<span class="kw">as.numeric</span>(<span class="kw">as.character</span>(data<span class="op">$</span><span class="st">`</span><span class="dt">During your education, how many years of experience did you have with the Object Oriented Paradigm?</span><span class="st">`</span>))
+
+<span class="co">#were participants in the different groups experienced differently?</span>
+plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(METHOD,data<span class="op">$</span><span class="st">`</span><span class="dt">During your education, how many years of experience did you have with the Object Oriented Paradigm?</span><span class="st">`</span>,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st"> </span><span class="kw">geom_boxplot</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Years experience with OOP (educational)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Educational OOP Experience by Condition&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-2-3.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(METHOD,<span class="kw">as.numeric</span>(<span class="kw">as.character</span>(data<span class="op">$</span><span class="st">`</span><span class="dt">During your education, how many years of experience did you have with programming?</span><span class="st">`</span>)),<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st"> </span><span class="kw">geom_boxplot</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Educational Experience Programming by Condition&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Years experience with programming (educational)&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-2-4.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(Exp,<span class="kw">aes</span>(METHOD,GPA, <span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_boxplot</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;GPA by Condition&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-2-5.png" /><!-- --></p>
+</div>
+<div id="quasi-experimental-setup" class="section level2">
+<h2><span class="header-section-number">7.4</span> Quasi-experimental setup</h2>
+<p>In most cases, the ideal experimental conditions would involve randomly selecting participants and assigning them into conditions (in our case, <strong>Sleep Deprivation</strong> or <strong>Regular Sleep</strong>). You can imagine this might be difficult to do with undergraduate students, and difficult to enforce. So this study relies on self-selected students who volunteered to pull an all-nighter before the programming task the next day. If you were to be asked <em>right now</em> to participate in the study, could you afford to not sleep tonight? Or would you need to be in the rested group? Perhaps you have an athletic tournament coming up, or just lost sleep the other night and can’t afford another one. Or maybe, you planned on staying up tonight <em>anyways</em>, so you’d be happy to go in the sleep deprivation group (it will keep you accountable to cramming for that exam, right?). Using this kind of experimental design is referred to as <strong>“quasi-experimental”</strong>: the populations in the various conditions were not randomly assigned, but were self-selected into. These are perfectly fine studies to run, as long as you conduct a few tests to ensure the validity of your results. Can you guess the biggest issue with a quasi-experimental setup vs. a true experiment? The potential problem is that the self-selecting groups may be inherently different on *measures other than your independent variable**. So when you think you are measuring the effects of sleep deprivation on developer performance, perhaps you already have a significant difference of GPA or programming skill between your sleepers and non-sleepers. You can imagine coming up with a list of things that might differ between those groups, that might actually affect their developer performance more than just the sleep deprivation itself.</p>
+</div>
+<div id="how-to-read-scientific-papers" class="section level2">
+<h2><span class="header-section-number">7.5</span> How to Read Scientific Papers</h2>
+<p>Statistical literacy should be deeply connected to <em>empowerment</em>. As you gain more and more skills in statistics and hypothesis testing, you become able to critique the bombardment of “facts” thrown at you. Many news stories, videos, and articles report on scientific findings, using statistics to back up their conclusions or simply reporting what they found to be the most interesting about that study. If it’s a good article, it should link the original study. With your newfound statistical prowess, you’ll be able to look at the study itself and see if you agree with the interpretations from popular media. I’ll outline a few important things to look for when you’re reading about a study. Follow the checklist for our case study: <em>Need for Sleep</em>.</p>
+<ul>
+<li>What is the motivation for the paper? Why are they studying this?</li>
+<li>What is the research question?</li>
+<li>What is the experimental design? Are there groups to be compared? How many participants in each group? How were they assigned into a condition?</li>
+<li>What are they measuring? How do they define that measure?</li>
+<li>List the tests they run and why (including parametric vs. nonparametric destinction)</li>
+<li>What are the conclusions?</li>
+<li>Do you believe the results?</li>
+</ul>
+</div>
+<div id="percentage-of-acceptance-asserts-passed" class="section level2">
+<h2><span class="header-section-number">7.6</span> Percentage of Acceptance Asserts Passed</h2>
+<p>In our case, one of the major measures of the paper is the Percentage of Acceptance Asserts Passed (PAAP). An <code>assert</code> statement will trigger an error if it is not true. Therefore, you can set them up in your code to ensure that nothing is going wrong. For instance, if you were working with probabilities, you would want to assert that <code>sum(x) == 1</code>. Participants got 90 minutes to write code to pass the tests in the acceptance test suite, and the percentage of passed tests was recorded. Let’s take a look at some descriptive statistics about PAAP.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#PAAP</span>
+summary &lt;-<span class="kw">ddply</span>(data,<span class="op">~</span>METHOD,summarise,<span class="dt">mean=</span><span class="kw">mean</span>(PAAP),<span class="dt">sd=</span><span class="kw">sd</span>(PAAP),<span class="dt">max=</span><span class="kw">max</span>(PAAP),<span class="dt">min=</span><span class="kw">min</span>(PAAP))
+<span class="kw">kable</span>(summary)</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+METHOD
+</th>
+<th style="text-align:right;">
+mean
+</th>
+<th style="text-align:right;">
+sd
+</th>
+<th style="text-align:right;">
+max
+</th>
+<th style="text-align:right;">
+min
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+RS
+</td>
+<td style="text-align:right;">
+27.27273
+</td>
+<td style="text-align:right;">
+17.07347
+</td>
+<td style="text-align:right;">
+53.84615
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SD
+</td>
+<td style="text-align:right;">
+15.38462
+</td>
+<td style="text-align:right;">
+13.21730
+</td>
+<td style="text-align:right;">
+53.84615
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SD Cleaned
+</td>
+<td style="text-align:right;">
+14.83516
+</td>
+<td style="text-align:right;">
+14.92335
+</td>
+<td style="text-align:right;">
+53.84615
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(PAAP,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Distribution of PAAP scores&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-3-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#test PAAP by method for normality</span>
+<span class="kw">aggregate</span>(<span class="dt">formula =</span> PAAP <span class="op">~</span><span class="st"> </span>METHOD,
+          <span class="dt">data =</span> data,
+          <span class="dt">FUN =</span> <span class="cf">function</span>(x) {y &lt;-<span class="st"> </span><span class="kw">shapiro.test</span>(x); <span class="kw">c</span>(y<span class="op">$</span>statistic, y<span class="op">$</span>p.value)})</code></pre>
+<pre><code>##       METHOD       PAAP.W      PAAP.V2
+## 1         RS 0.9022845276 0.0330326496
+## 2         SD 0.7772646861 0.0002251913
+## 3 SD Cleaned 0.7865766146 0.0034218638</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># NOT NORMAL!</span></code></pre>
+</div>
+<div id="episodes-and-conformance" class="section level2">
+<h2><span class="header-section-number">7.7</span> Episodes and Conformance</h2>
+<pre class="sourceCode r"><code class="sourceCode r">plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(<span class="st">`</span><span class="dt">#EPISODES</span><span class="st">`</span>,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Distribution of Episodes&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-4-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#test EPISODES by method for normality</span>
+<span class="kw">aggregate</span>(<span class="dt">formula =</span> <span class="st">`</span><span class="dt">#EPISODES</span><span class="st">`</span> <span class="op">~</span><span class="st"> </span>METHOD,
+          <span class="dt">data =</span> data,
+          <span class="dt">FUN =</span> <span class="cf">function</span>(x) {y &lt;-<span class="st"> </span><span class="kw">shapiro.test</span>(x); <span class="kw">c</span>(y<span class="op">$</span>statistic, y<span class="op">$</span>p.value)})</code></pre>
+<pre><code>##       METHOD #EPISODES.W #EPISODES.V2
+## 1         RS  0.91029839   0.04800951
+## 2         SD  0.88793575   0.01718088
+## 3 SD Cleaned  0.85854606   0.02907183</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># NOT NORMAL</span>
+
+plt =<span class="st"> </span><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(<span class="st">`</span><span class="dt">%CONF</span><span class="st">`</span>,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_density</span>(<span class="dt">alpha=</span>.<span class="dv">5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Distribution of Conformance&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()
+plt</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-4-2.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#test %CONF by method for normality</span>
+<span class="kw">aggregate</span>(<span class="dt">formula =</span> <span class="st">`</span><span class="dt">%CONF</span><span class="st">`</span> <span class="op">~</span><span class="st"> </span>METHOD,
+          <span class="dt">data =</span> data,
+          <span class="dt">FUN =</span> <span class="cf">function</span>(x) {y &lt;-<span class="st"> </span><span class="kw">shapiro.test</span>(x); <span class="kw">c</span>(y<span class="op">$</span>statistic, y<span class="op">$</span>p.value)})</code></pre>
+<pre><code>##       METHOD      %CONF.W     %CONF.V2
+## 1         RS 8.712612e-01 8.263399e-03
+## 2         SD 7.182923e-01 3.374988e-05
+## 3 SD Cleaned 6.997035e-01 3.668629e-04</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co">#NOT NORMAL</span></code></pre>
+</div>
+<div id="nothing-is-normal" class="section level2">
+<h2><span class="header-section-number">7.8</span> NOTHING IS NORMAL!!</h2>
+<p><img src="static/thisisfine.jpg" /> Never fear, we can use <strong>nonparametric tests</strong>.</p>
+</div>
+<div id="violin-plots" class="section level2">
+<h2><span class="header-section-number">7.9</span> Violin Plots</h2>
+<p>A violin plot is similar to a boxplot, showing the summary statistics like mean and interquartile ranges. A violin plot also demonstrates the distribution and density of the data, shedding light on where the data “falls” around the summary statistics. It is important to critically think about what a mean is expressing. If I have 20 participants who score <code>PAAP == 58</code> and 20 participants who score <code>PAAP == 0</code>, the mean will be <code>29</code>, with not a single participant scoring anywhere near the mean in reality. A violin plot would allow us to discover any misconceptions like that in our data. Below, we plot the different conditions by the different metrics of software quality (PAAP, EPISODES, and CONFORMANCE).</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(METHOD,PAAP,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_violin</span>(<span class="dt">trim=</span><span class="ot">FALSE</span>)<span class="op">+</span>
+<span class="st">  </span><span class="co">#stat_summary(fun.data=&quot;mean_sdl&quot;, mult=1, </span>
+<span class="st">                 </span><span class="co">#geom=&quot;crossbar&quot;, width=0.2 )+</span>
+<span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.data=</span>mean_sdl, 
+                 <span class="dt">geom=</span><span class="st">&quot;pointrange&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<pre><code>## Warning: Computation failed in `stat_summary()`:
+## Hmisc package required for this function</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-5-1.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(METHOD,<span class="st">`</span><span class="dt">#EPISODES</span><span class="st">`</span>,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_violin</span>(<span class="dt">trim=</span><span class="ot">FALSE</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.data=</span>mean_sdl,
+                 <span class="dt">geom=</span><span class="st">&quot;pointrange&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<pre><code>## Warning: Computation failed in `stat_summary()`:
+## Hmisc package required for this function</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-5-2.png" /><!-- --></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(data,<span class="kw">aes</span>(METHOD,<span class="st">`</span><span class="dt">%CONF</span><span class="st">`</span>,<span class="dt">fill=</span>METHOD))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_violin</span>(<span class="dt">trim=</span><span class="ot">FALSE</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">stat_summary</span>(<span class="dt">fun.data=</span>mean_sdl, 
+                 <span class="dt">geom=</span><span class="st">&quot;pointrange&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>()</code></pre>
+<pre><code>## Warning: Computation failed in `stat_summary()`:
+## Hmisc package required for this function</code></pre>
+<p><img src="sleep_deprive_files/figure-html/unnamed-chunk-5-3.png" /><!-- -->
+Remember, these are the <strong>key comparisons</strong> of the study. Most other tests are done to ensure that the study has <em>validity</em> (that it is testing what they say they are testing). After making sure that the populations are comparable, removing participants who did not adhere to the task, and testing data for normality, we can finally try to answer our question!</p>
+<blockquote>
+<p>“To what extent does sleep deprivation impact developers’ performance?”</p>
+</blockquote>
+</div>
+<div id="effect-size-cliffs-delta" class="section level2">
+<h2><span class="header-section-number">7.10</span> Effect Size: Cliff’s Delta</h2>
+<p>We’ve discussed how a <em>p-value</em> does not actually tell you anything about how large the effect is. With hundreds of people, we could be absolutely positive that sleep deprivation <em>does</em> affect developer performance, but we wouldn’t know anything about <em>how much</em> from a p-value. People tend to think their effect is larger if they get a smaller p-value (such as .05 vs. .00001). But this is only saying the likelihood that the groups being compared are <em>not different</em>. In one case, there is a 5% chance they are actually the same, whereas in the second case, there is only a .001% chance of the groups being actually the same. However confident we are that they are actually different, we still don’t know by how much they differ. In practice, you may find that some software is faster than another with a p-value of .0001. You can be <em>sure</em> that the second software is faster. But what if it is only faster by a single milisecond? Is it worth re-doing the entire system? You be the judge.</p>
+<p>So not only do we need to know the p-value, but we also need the effect size. There are several ways to measure effect size, but we <em>must</em> rely on a nonparametric test, due to the non-normality of our data. We use something called <strong>Cliff’s delta</strong>, which relies on comparing the positive or negative signs between groups. The function below actually contains thresholds for if we can consider the effect to be large, medium, or negligable.</p>
+<pre class="sourceCode r"><code class="sourceCode r">cliffs.d  &lt;-<span class="st">  </span><span class="cf">function</span>(x,y) {
+
+    r =<span class="st"> </span><span class="kw">mean</span>(<span class="kw">rowMeans</span>(<span class="kw">sign</span>(<span class="kw">outer</span>(x, y, <span class="dt">FUN=</span><span class="st">&quot;-&quot;</span>))))
+    r =<span class="st"> </span><span class="kw">round</span>(r,<span class="dv">3</span>)
+    <span class="co">#cat(&quot;Cliff-Deelta val = &quot;, r)</span>
+  
+    size =<span class="st"> &quot;large&quot;</span>
+    <span class="cf">if</span> ( <span class="fl">0.147</span> <span class="op">&lt;</span><span class="st"> </span><span class="kw">abs</span>(r) <span class="op">&amp;</span><span class="st"> </span><span class="kw">abs</span>(r) <span class="op">&lt;</span><span class="st"> </span><span class="fl">0.33</span>){
+        size=<span class="st"> &quot;small&quot;</span>
+    }<span class="cf">else</span>{
+        <span class="cf">if</span> ( <span class="fl">0.33</span> <span class="op">&lt;=</span><span class="st"> </span><span class="kw">abs</span>(r) <span class="op">&amp;</span><span class="st"> </span><span class="kw">abs</span>(r) <span class="op">&lt;</span><span class="st"> </span><span class="fl">0.474</span>){
+            size =<span class="st"> &quot;medium&quot;</span>
+        }
+    }
+
+    <span class="cf">if</span> (<span class="kw">abs</span>(r) <span class="op">&lt;</span><span class="st"> </span><span class="fl">0.147</span>)
+        size =<span class="st"> &quot;negligible&quot;</span>
+    <span class="kw">return</span>(<span class="kw">c</span>(<span class="kw">cat</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st"> Cliff Delta &quot;</span>, size, <span class="st">&quot; (&quot;</span>, r, <span class="st">&quot;)</span><span class="ch">\n</span><span class="st">&quot;</span>), size, r))
+    
+
+
+}</code></pre>
+</div>
+<div id="parametric-vs.nonparametric-statistical-power" class="section level2">
+<h2><span class="header-section-number">7.11</span> Parametric vs. NonParametric Statistical Power</h2>
+<center>
+<img src="static/paranormal.jpeg" />
+</center>
+<p><br>
+Similar to effect size, we care about <strong>statistical power</strong>. Imagine a scenario where there <em>is</em> a difference, it’s a <em>big</em> difference, but it’s <em>very unlikely</em> that we will get that result again. Then the confidence that we should reject the null hypothesis is <em>high</em>, the effect size is <em>high</em>, but the statistical power is <em>low</em>. Ideally, we would have high statistical power in addition to a large effect size. Below is a function that routes the data to different tests, depending on the normality of the data. We already know that our data requires nonparametric testing. You can see in the code for the nonparametric test that the p value is <em>simulated</em> and <em>averaged</em> in 1000 runs.</p>
+<pre class="sourceCode r"><code class="sourceCode r">StatisticalPowerParam &lt;-<span class="st"> </span><span class="cf">function</span>(distribution1, nameDistribution1, distribution2, nameDistribution2, <span class="dt">direction =</span> <span class="st">&quot;two.sided&quot;</span>){
+
+<span class="co">#</span>
+<span class="co">#  parametric analysis</span>
+<span class="co">#</span>
+
+sdd &lt;-<span class="st"> </span><span class="kw">sd</span>(<span class="kw">c</span>(distribution1,distribution2))
+delta &lt;-<span class="st"> </span><span class="kw">abs</span>(<span class="kw">mean</span>(distribution1) <span class="op">-</span><span class="st"> </span><span class="kw">mean</span>(distribution2))
+n =<span class="st"> </span><span class="kw">max</span>(<span class="kw">length</span>(distribution1), <span class="kw">length</span>(distribution2))
+pow &lt;-<span class="st"> </span><span class="kw">power.t.test</span>(n, delta, sdd, <span class="dt">sig.level=</span><span class="fl">0.05</span>, <span class="dt">power=</span><span class="ot">NULL</span>, <span class="dt">type=</span><span class="st">&quot;two.sample&quot;</span>, <span class="dt">alternative=</span><span class="st">&quot;two.sided&quot;</span>)
+power =<span class="st"> </span><span class="kw">round</span>(pow<span class="op">$</span>power,<span class="dv">3</span>)
+<span class="kw">cat</span>(<span class="st">&quot; Statistical Power&quot;</span>, power)
+<span class="kw">cat</span>(<span class="st">&quot; beta-val&quot;</span>, <span class="dv">1</span><span class="op">-</span><span class="st"> </span>power, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)
+
+<span class="kw">return</span>(power)
+}
+
+StatisticalPowerNonParam &lt;-<span class="st"> </span><span class="cf">function</span>(distribution1, nameDistribution1, distribution2, nameDistribution2){
+
+<span class="co">#  non-parametric analysis</span>
+ M1 &lt;-<span class="st"> </span><span class="kw">mean</span>(distribution1)
+ M2 &lt;-<span class="st"> </span><span class="kw">mean</span>(distribution2)
+ sd1 &lt;-<span class="st"> </span><span class="kw">sd</span>(distribution1)
+ sd2 &lt;-<span class="st"> </span><span class="kw">sd</span>(distribution2)
+ n1 &lt;-<span class="st"> </span><span class="kw">length</span>(distribution1) <span class="co">### sample size</span>
+ n2 &lt;-<span class="st"> </span><span class="kw">length</span>(distribution2) <span class="co">### sample size</span>
+ n &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2
+ pval &lt;-<span class="st"> </span><span class="kw">replicate</span>(<span class="dv">1000</span>, <span class="kw">wilcox.test</span>(<span class="kw">rnorm</span>(n1,M1,sd1), <span class="kw">rnorm</span>(n2,M2,sd2), <span class="dt">paired=</span><span class="ot">FALSE</span>)<span class="op">$</span>p.value)
+ power =<span class="st"> </span><span class="kw">round</span>(<span class="kw">sum</span>(pval <span class="op">&lt;</span><span class="st"> </span><span class="fl">0.05</span>)<span class="op">/</span><span class="dv">1000</span>,<span class="dv">3</span>)
+ <span class="kw">cat</span>(<span class="st">&quot; Statistical Power&quot;</span>, power, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)
+ <span class="kw">cat</span>(<span class="st">&quot; beta-val&quot;</span>, <span class="dv">1</span><span class="op">-</span><span class="st"> </span>power)
+ <span class="kw">return</span>(power)
+}</code></pre>
+</div>
+<div id="wilcoxon-aka-mann-whitney-test" class="section level2">
+<h2><span class="header-section-number">7.12</span> Wilcoxon (aka Mann-Whitney) Test</h2>
+<p>The big concept to follow here is that because our data is <strong>not normal</strong> it warrants a nonparametric comparison test. When you have two groups that are not normally distributed, you can use the <code>wilcox.test</code> function in R. Each nonparametric test has a parametric counterpart, which tends to be more powerful because the data is normally distributed and can be more sensitively represented using parameters. The Wilcoxon test’s parametric counterpart is the <strong>t-test</strong>. We can see that if our data <em>did</em> conform to a normal distribution, the below function would route the data to the parametric test, which is a t-test. The Wilcoxon test and the t-test will give us <em>confidence</em> that we can reject the null hypothesis, but the function also outputs the effect size, statistical power, and percentage improvement between groups.</p>
+<pre class="sourceCode r"><code class="sourceCode r">Control_vs_Treatment &lt;-<span class="st"> </span><span class="cf">function</span>(nameTreatment, treatment, nameControl, control, <span class="dt">direction =</span> <span class="st">&quot;two.sided&quot;</span>) {
+
+  sTreatment &lt;-<span class="st"> </span><span class="kw">shapiro.test</span>(treatment)
+  sControl &lt;-<span class="st"> </span><span class="kw">shapiro.test</span>(control)
+
+  <span class="cf">if</span> (sTreatment<span class="op">$</span>p.value <span class="op">&gt;</span><span class="st"> </span><span class="fl">0.05</span> <span class="op">&amp;&amp;</span><span class="st"> </span>sControl<span class="op">$</span>p.value <span class="op">&gt;</span><span class="st"> </span><span class="fl">0.05</span>) {
+    <span class="kw">cat</span>(<span class="st">&quot; Parametric analyses allowed </span><span class="ch">\n</span><span class="st">&quot;</span>, nameTreatment, <span class="st">&quot;is normal &quot;</span>, <span class="kw">round</span>(sTreatment<span class="op">$</span>p.value,<span class="dv">4</span>), <span class="st">&quot; </span><span class="ch">\n</span><span class="st">&quot;</span>,
+        nameControl, <span class="st">&quot; is normal &quot;</span>, <span class="kw">round</span>(sControl<span class="op">$</span>p.value,<span class="dv">4</span>), <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)
+
+    <span class="co">#     #### The distributions are both normal parametric analyses can be computed.</span>
+    <span class="co">#       # t-test</span>
+    a &lt;-<span class="st"> </span><span class="kw">t.test</span>(treatment, control, <span class="dt">alternative =</span> direction, <span class="dt">paired =</span> <span class="ot">FALSE</span>, <span class="dt">exact =</span> <span class="ot">FALSE</span>, <span class="dt">correct =</span> <span class="ot">TRUE</span>)
+    a =<span class="st"> </span><span class="kw">round</span>(a<span class="op">$</span>p.value,<span class="dv">3</span>)
+    <span class="co">#       # ANOVA</span>
+    <span class="co">#     a &lt;-anova(lm(dataExp$X.TUS ~ dataExp$Method))</span>
+    <span class="co">#     a = round(as.numeric(a$`Pr(&gt;F)`[1]),3)</span>
+    effectSize &lt;-<span class="st"> </span><span class="kw">dCohen</span>(treatment, control, <span class="st">&quot;independent&quot;</span>)
+    s &lt;-<span class="st"> </span><span class="kw">StatisticalPowerParam</span>(treatment, nameTreatment, control, nameControl, direction)
+
+  }<span class="cf">else</span> {
+    <span class="kw">cat</span>(<span class="st">&quot; Non-parametric analyses </span><span class="ch">\n</span><span class="st">&quot;</span>, nameTreatment, <span class="st">&quot;: &quot;</span>, <span class="kw">round</span>(sTreatment<span class="op">$</span>p.value,<span class="dv">4</span>), <span class="st">&quot; </span><span class="ch">\n</span><span class="st">&quot;</span>, nameControl,
+        <span class="st">&quot;: &quot;</span>, <span class="kw">round</span>(sControl<span class="op">$</span>p.value,<span class="dv">4</span>))
+
+    a &lt;-<span class="st"> </span><span class="kw">wilcox.test</span>(treatment, control, <span class="dt">alternative =</span> direction, <span class="dt">paired =</span> <span class="ot">FALSE</span>, <span class="dt">exact =</span> <span class="ot">FALSE</span>,
+                     <span class="dt">correct =</span> <span class="ot">TRUE</span>)
+    <span class="co">#a = a$p.value</span>
+    a =<span class="st"> </span><span class="kw">round</span>(<span class="kw">as.numeric</span>(a[<span class="dv">3</span>]),<span class="dv">3</span>)
+    effectSize &lt;-<span class="st"> </span><span class="kw">cliffs.d</span>(treatment,control)
+    s =<span class="st"> </span><span class="kw">StatisticalPowerNonParam</span>(treatment, nameTreatment, control, nameControl)
+  }
+
+  <span class="co">#descriptive stats for treatment</span>
+  t =<span class="st"> </span><span class="kw">summary</span>(treatment)
+
+  <span class="co">#descriptive stats for control</span>
+  c =<span class="st"> </span><span class="kw">summary</span>(control)
+  impr =<span class="st"> </span>((t[<span class="dv">4</span>]<span class="op">-</span>c[<span class="dv">4</span>])<span class="op">/</span>c[<span class="dv">4</span>])<span class="op">*</span><span class="dv">100</span>
+  impr =<span class="st"> </span><span class="kw">round</span> (impr,<span class="dv">3</span>)
+  <span class="kw">cat</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st"> Mean improvement&quot;</span>, impr,<span class="st">&quot;</span><span class="ch">\\</span><span class="st">%&quot;</span>)
+
+  <span class="kw">cat</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st"> Statistical test p-value (i.e., Hnx) &quot;</span>, a, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)
+  <span class="cf">if</span> (a <span class="op">&lt;</span><span class="st"> </span><span class="fl">0.05</span>){
+    <span class="kw">cat</span>(<span class="st">&quot;***  STATISTICALLY SIGNIFICANT DIFFERENCE ***</span><span class="ch">\n</span><span class="st">&quot;</span>)
+  }
+  <span class="kw">cat</span>(<span class="st">&quot;&amp;&quot;</span>, a, <span class="st">&quot;&amp;&quot;</span>, effectSize, <span class="st">&quot;&amp;&quot;</span>, impr, <span class="st">&quot;&amp;&quot;</span>, s )
+
+}</code></pre>
+</div>
+<div id="results" class="section level2">
+<h2><span class="header-section-number">7.13</span> Results</h2>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">Control_vs_Treatment</span>(<span class="st">&#39;SD PAAP&#39;</span>,SD_Cleaned<span class="op">$</span>PAAP,<span class="st">&#39;RS PAAP&#39;</span>,NOSD_Cleaned<span class="op">$</span>PAAP) <span class="co">#large and significant</span></code></pre>
+<pre><code>##  Non-parametric analyses 
+##  SD PAAP :  0.0034  
+##  RS PAAP :  0.0344
+##  Cliff Delta  large  ( -0.476 )
+##  Statistical Power 0.66 
+##  beta-val 0.34
+##  Mean improvement -48.077 \%
+##  Statistical test p-value (i.e., Hnx)  0.016 
+## ***  STATISTICALLY SIGNIFICANT DIFFERENCE ***
+## &amp; 0.016 &amp; large -0.476 &amp; -48.077 &amp; 0.66</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">Control_vs_Treatment</span>(<span class="st">&#39;SD #EPISODES&#39;</span>,SD_Cleaned<span class="op">$</span><span class="st">`</span><span class="dt">#EPISODES</span><span class="st">`</span>,<span class="st">&#39;RS # EPISODES&#39;</span>,NOSD_Cleaned<span class="op">$</span><span class="st">`</span><span class="dt">#EPISODES</span><span class="st">`</span>) <span class="co">#medium but not significant</span></code></pre>
+<pre><code>##  Non-parametric analyses 
+##  SD #EPISODES :  0.0291  
+##  RS # EPISODES :  0.0871
+##  Cliff Delta  small  ( -0.32 )
+##  Statistical Power 0.358 
+##  beta-val 0.642
+##  Mean improvement -39.623 \%
+##  Statistical test p-value (i.e., Hnx)  0.116 
+## &amp; 0.116 &amp; small -0.32 &amp; -39.623 &amp; 0.358</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">Control_vs_Treatment</span>(<span class="st">&#39;SD %CONF&#39;</span>,SD_Cleaned<span class="op">$</span><span class="st">`</span><span class="dt">%CONF</span><span class="st">`</span>,<span class="st">&#39;RS %CONF&#39;</span>,NOSD_Cleaned<span class="op">$</span><span class="st">`</span><span class="dt">%CONF</span><span class="st">`</span>) <span class="co">#small</span></code></pre>
+<pre><code>##  Non-parametric analyses 
+##  SD %CONF :  4e-04  
+##  RS %CONF :  0.0164
+##  Cliff Delta  small  ( -0.293 )
+##  Statistical Power 0.26 
+##  beta-val 0.74
+##  Mean improvement -40.409 \%
+##  Statistical test p-value (i.e., Hnx)  0.135 
+## &amp; 0.135 &amp; small -0.293 &amp; -40.409 &amp; 0.26</code></pre>
+<p>We successfully replicate the findings in the <em>Need For Sleep</em> paper, demonstrating that there was a significant difference for Percentage of Acceptance Asserts Passed: those who were sleep deprived performed 48% <em>worse</em> on the programming task than those who had regular sleep.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="when-will-i-be-done-with-this-project.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="does-it-really-matter-to-test-first-or-test-after.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio-education/ds4se/edit/master/sleep_deprive.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ds4se.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+# Bayesian vs Frequentist Statistics
+
+```{r setup, include=FALSE}
+source("etc/common.R")
+```
+
+So far, we have been using frequentist statistics; relying on hypothesis testing and *p-values*. Frequentist statistics were particularly popular when computational resources were scarce; but this is no longer the case. It is time to reexamine the benefits of applying Bayesian statistics to software engineering empirical work. If you've been lucky enough to never have been caught in the crossfire between a Bayesian and a Frequentist, then hopefully this lesson will go smoothly for you. But if you've firmly planted your flag on either side of the "debate", take a deep breath. This lesson merely demonstrates some of the benefits of using a Bayesian approach, while also pointing out that sometimes both approaches tend to result in functionally the same courses of action. Hopefully by the end, you'll feel much more prepared to chime in if a raging Frequentist and an exasperated Bayesian walk into a bar.
+
+~![](static/bayesian.png)
+
+[*Bayesian Statistics in Software Engineering: Practical Guide and Case Studies*](https://arxiv.org/pdf/1608.06865.pdf)
+
+[*Researcher-Centered Design of Statistics: Why Bayesian Statistics Better Fit the Culture and Incentives of HCI*](https://mucollective.northwestern.edu/files/2016-BayesIncentivesHCI-CHI.pdf)
+
+## Frequentist Statistics
+
+Let's try to concisely summarize what we have been doing so far, as we obtain *p-values* and make conclusions about *hypotheses*. Using frequentist methods, we have been comparing groups in our data to determine the probability that those groups were drawn from the same underlying data-driven process. In basic terms, we have been figuring out if the groups are truly different or not. Because we live in a messy world, even samples from the exact same source will differ a little bit. Imagine taking a sample of algae from a pond, or collecting everyone's feelings on a random Monday. If you were to do the same sample again, under the same circumstances, you'd still get slightly different results. The point of hypothesis testing is to make claims *in general* about the samples. A small p-value (less than .05) indicates that there is a low probability that the two groups are actually the same, whereas a larger p-value indicates a higher probability that the two groups are actually the same (no difference). We have seen this in several of our lessons so far, and you will come across these methods in most empirical software engineering papers.
+
+## Bayesian Statistics
+
+## Original Study
+they use a U test
+
+```{r}
+library(tidyverse)
+data <- read.csv("data/agile/survey.csv")
+head(data)
+
+
+
+
+plt <- ggplot(data[data$type=="Structured",],aes(outcome)) + 
+  geom_histogram(aes(y = ..density..), bins=25,color="black")+
+  geom_density(aes(y = ..density..),color="black",fill="black", alpha=.2,stat = 'density')+
+  theme_bw()
+  
+plt
+shapiro.test(data$outcome[data$type=="Structured"])
+
+
+plt <- ggplot(data[data$type=="Agile",],aes(outcome)) + 
+  geom_histogram(aes(y = ..density..), bins=25,color="black")+
+  geom_density(aes(y = ..density..),color="black",fill="black", alpha=.2,stat = 'density')+
+  theme_bw()
+  
+plt
+shapiro.test(data$outcome[data$type=="Agile"])
+
+
+#HERE IS THE U TEST THEY DID
+wilcox.test(data$outcome[data$type=="Agile"],data$outcome[data$type=="Structured"])
+
+
+# larger scale study they ran, we will do the bayesian analysis here
+itp <- read.csv("data/agile/itproj.csv")
+head(itp)
+
+```
+## Mathematical Peacocking, stop it!
+
+![](static/easy.png)
+
+While we work through this paper, it is important to remember that the entire point of academic research is scientific findings and communication; if the paper is riddled with equations and uninterpretable variable names, then *it is bad communication*. It has absolutely nothing to do with the reader's intelligence or ability to grasp that material. It is the author's responsibility to carefully communicate problems, methods, and results, while remembering that the purpose of the work is to be distributed. As we approach the problem of **Agile vs. Structured Development**, I will continuously translate the infuriating mathematical peacocking that is meant to obscure actual communication and build up an inflated ego of an entire research field who use LaTeX expressions to make the reader feel inferior.
+
+
+```{r}
+itp <- read.csv("data/agile/itproj.csv")
+head(itp)
+levels <- levels(itp$success)
+replace <- c("",1,11,21,31,41,51,61,71,81,91,NA,NA)
+
+for( i in 1:length(replace)){
+  itp <- data.frame(lapply(itp, function(x) {
+                  gsub(levels[i], replace[i], x)
+              }))
+}
+
+itp$success <- as.numeric(as.character(itp$success))
+itp$failure <- as.numeric(as.character(itp$failure))
+itp$challenge <- as.numeric(as.character(itp$challenge))
+summary <-data.frame()
+
+for (i in levels(itp$type)){
+  print(i)
+  summary <-itp[itp$type==i,] %>%
+  summarize(type=i,mean_fail = mean(na.omit(failure)),mean_chal = mean(na.omit(challenge)), mean_suc = mean(na.omit(success))) %>%
+ bind_rows(.,summary)
+}
+
+wilcox.test(itp$success[itp$type=="A"],itp$success[itp$type=="T"])
+wilcox.test(itp$failure[itp$type=="A"],itp$failure[itp$type=="T"])
+wilcox.test(itp$challenge[itp$type=="A"],itp$challenge[itp$type=="T"])
+```
+
+```{r links, child="etc/links.md"}
+```

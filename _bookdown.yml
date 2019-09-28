@@ -1,0 +1,27 @@
+book_filename: "ds4se"
+language:
+  ui:
+    chapter_name: "Chapter "
+output_dir: docs
+delete_merged_file: true
+new_session: true
+rmd_files:
+  - index.Rmd
+  - curiosity_and_play.Rmd
+  - stack_overflow.Rmd
+  - analyze_this.Rmd
+  - how_many_repos.Rmd
+  - project_estimation.Rmd
+  - sleep_deprive.Rmd
+  - tdd.Rmd
+  - dev_performance_grading.Rmd
+  - function_modification.Rmd
+  - bayesian_vs_frequentist.Rmd
+  - java_vs_c.Rmd
+  - lines_and_functions.Rmd
+  - appendix.Rmd
+  - LICENSE.md
+  - CONDUCT.md
+  - CONTRIBUTING.md
+  - glossary.md
+  - references.Rmd

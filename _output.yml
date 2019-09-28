@@ -1,0 +1,20 @@
+bookdown::gitbook:
+  pandoc_args: ["--csl", "etc/jcb.csl"]
+  keep_md: true
+  split_bib: false
+  highlight: tango
+  config:
+    download: ["pdf"]
+    toc:
+      collapse: section
+      before: |
+        <li><strong><a href="./">DS4SE</a></strong></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+    edit:
+      link: https://github.com/rstudio-education/ds4se/edit/master/%s
+      text: "Edit"
+    sharing: no
+bookdown::pdf_book:
+  latex_engine: "xelatex"
+  pandoc_args: ["--csl", "etc/jcb.csl"]
